@@ -1,0 +1,12 @@
+md5: 98f6e41a329c47dcd04cc479450b74c5
+frozen: true
+deps:
+- etag: 08bfd9bba7f8f090031001
+  size: 2158007507
+  version_id: '1763099190160575'
+  hash: md5
+  path:
+    gs://pubmed-bucket-ac215/chromadb_backups/pubmed_abstract/pubmed_abstract-20251114-054433.jsonl
+outs:
+- hash: md5
+  path: pubmed_abstract-20251114-054433.jsonl

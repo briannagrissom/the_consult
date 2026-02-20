@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line per IDSA guidelines; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the pathogenesis of atherosclerosis at a molecular level?",
+    "answer": "Chronic inflammation, driven by factors such as oxidized LDL, hyperglycemia, and hypertension, triggers endothelial dysfunction and increased permeability to lipoproteins. Monocytes are recruited into the subendothelial space where they differentiate into macrophages and engulf modified LDL, forming foam cells, which are a hallmark of early atherosclerotic lesions. Macrophages release pro-inflammatory cytokines (e.g., IL-1β, TNF-α, IL-6) and chemokines (e.g., MCP-1) that amplify inflammation and recruit more immune cells. These cytokines also stimulate vascular smooth muscle cell proliferation and migration from the media to the intima, contributing to plaque growth. Matrix metalloproteinases (MMPs) are released by macrophages and smooth muscle cells, degrading the extracellular matrix and destabilizing the plaque. C-reactive protein (CRP), an acute-phase protein induced by IL-6, promotes complement activation and enhances LDL uptake by macrophages. Over time, the accumulated lipid, inflammatory cells, and extracellular matrix form a mature atherosclerotic plaque that can rupture or erode, leading to thrombosis and acute cardiovascular events. Therapies targeting inflammation, such as statins (which have pleiotropic anti-inflammatory effects) and emerging approaches targeting IL-1β, are being explored to reduce cardiovascular risk by modulating the inflammatory cascade in atherosclerosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (2 points), diabetes mellitus, prior stroke/TIA/thromboembolism (2 points), vascular disease, age 65-74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC commonly arises through multiple mechanisms involving activation of alternative signaling pathways. The most frequent mechanism is the acquisition of a secondary EGFR mutation, most notably T790M, which sterically hinders TKI binding. However, other mechanisms include activation of bypass pathways, such as MET amplification, HER2 amplification, PI3K/AKT activation (via PTEN loss or PIK3CA mutation), and activation of the RAS/MAPK pathway. Additionally, some tumors undergo histologic transformation to small cell lung cancer or epithelial-to-mesenchymal transition (EMT), which reduces dependence on EGFR signaling. Upregulation of immune checkpoint ligands, such as PD-L1, can also contribute to resistance by promoting immune evasion. These resistance mechanisms often coexist and can evolve over time. Combination strategies targeting multiple pathways or utilizing immunotherapy are being explored to overcome or delay the development of resistance to EGFR TKIs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is gestational diabetes typically diagnosed?",
+    "answer": "Oral glucose tolerance test (OGTT) is the standard diagnostic test [ADA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of IBD by influencing intestinal immune responses and barrier function. Dysbiosis, characterized by reduced microbial diversity and altered composition, is commonly observed in IBD patients. Specific bacterial species, such as adherent-invasive E. coli (AIEC) and certain Klebsiella strains, can exacerbate inflammation by triggering excessive immune responses in genetically susceptible individuals. Conversely, beneficial bacteria, such as Faecalibacterium prausnitzii, produce short-chain fatty acids (SCFAs) like butyrate, which promote intestinal barrier integrity and suppress inflammation. The gut microbiome also influences the maturation and function of immune cells, including T cells and dendritic cells. Microbial metabolites, such as lipopolysaccharide (LPS) and peptidoglycan, can activate Toll-like receptors (TLRs) and NOD-like receptors (NLRs), leading to the production of pro-inflammatory cytokines. Furthermore, the gut microbiome can impact drug metabolism and efficacy, influencing the response to IBD therapies. Modulation of the gut microbiome through dietary interventions, probiotics, prebiotics, or fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy for IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated influenza?",
+    "answer": "Antiviral medications (e.g., oseltamivir) initiated within 48 hours of symptom onset [CDC guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment influence cancer metastasis?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in cancer metastasis by providing signaling cues, growth factors, and physical support that promote tumor cell invasion, survival, and colonization at distant sites. Cancer-associated fibroblasts (CAFs) remodel the extracellular matrix (ECM), creating tracks for tumor cells to migrate along and secreting factors like TGF-β that induce epithelial-to-mesenchymal transition (EMT). Immune cells, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), can suppress antitumor immunity and promote angiogenesis, facilitating tumor cell intravasation into blood vessels. Hypoxia within the TME induces the expression of hypoxia-inducible factor-1α (HIF-1α), which promotes angiogenesis and EMT. Furthermore, the TME can condition distant organs to create a pre-metastatic niche by releasing exosomes containing signaling molecules that recruit immune cells and remodel the ECM in preparation for tumor cell arrival. Interactions between tumor cells and platelets also promote metastasis by protecting tumor cells from immune surveillance and facilitating their adhesion to the endothelium at distant sites. Targeting the TME is an area of active research to inhibit cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an OGTT, or HbA1c ≥6.5% [ADA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative disease?",
+    "answer": "Prions, misfolded forms of the prion protein (PrPSc), induce neurodegenerative disease by converting normal cellular prion protein (PrPC) into the pathogenic PrPSc isoform through a template-directed misfolding process. PrPSc aggregates and forms amyloid fibrils that accumulate in the brain, leading to neuronal dysfunction and cell death. The precise mechanisms of neurotoxicity are not fully understood but involve several pathways. PrPSc aggregates can disrupt cellular proteostasis, overwhelm the ubiquitin-proteasome system, and impair autophagy, leading to the accumulation of toxic protein species. PrPSc can also trigger endoplasmic reticulum (ER) stress and activate the unfolded protein response (UPR), leading to apoptosis. Furthermore, PrPSc can activate microglia and astrocytes, resulting in neuroinflammation and the release of pro-inflammatory cytokines that contribute to neuronal damage. Prion diseases are characterized by spongiform degeneration, neuronal loss, and gliosis. The specific brain regions affected and the clinical manifestations vary depending on the prion strain and the host's genetic background. There are currently no effective treatments for prion diseases, and they are invariably fatal.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with a direct oral anticoagulant (DOAC) or low molecular weight heparin (LMWH) followed by warfarin [ACCP guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which cancer cells evade immune surveillance?",
+    "answer": "Cancer cells employ multiple strategies to evade immune surveillance. One major mechanism is the downregulation of MHC class I molecules on the cell surface, which reduces antigen presentation to cytotoxic T lymphocytes (CTLs). Cancer cells can also express immune checkpoint ligands, such as PD-L1, which bind to inhibitory receptors (e.g., PD-1) on T cells, suppressing their activation and effector function. Secretion of immunosuppressive cytokines, such as TGF-β and IL-10, can inhibit the activity of immune cells and promote the development of regulatory T cells (Tregs), which suppress antitumor immunity. Cancer cells can also recruit and activate myeloid-derived suppressor cells (MDSCs) and tumor-associated macrophages (TAMs), which further dampen immune responses. Furthermore, some cancer cells can undergo epithelial-to-mesenchymal transition (EMT), which reduces their immunogenicity and increases their resistance to immune-mediated killing. Genetic mutations in DNA repair pathways can also lead to increased genomic instability and the accumulation of neoantigens, which can be recognized by the immune system but also drive immune evasion through mechanisms like antigen loss or T cell exhaustion. Immunotherapeutic strategies, such as checkpoint inhibitors and adoptive cell therapy, aim to overcome these immune evasion mechanisms and restore antitumor immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years [USPSTF guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes that play critical roles in DNA repair, specifically homologous recombination repair (HRR). Mutations in these genes impair the cell's ability to repair double-strand DNA breaks accurately, leading to genomic instability and an increased risk of cancer development. When BRCA1 or BRCA2 is non-functional, cells rely on error-prone DNA repair pathways, such as non-homologous end joining (NHEJ), which can introduce mutations and chromosomal rearrangements. The accumulation of these genetic alterations can drive the transformation of normal cells into cancer cells. BRCA1 is involved in DNA damage signaling, cell cycle checkpoint control, and transcriptional regulation. BRCA2 plays a direct role in HRR by facilitating the recruitment of RAD51 to DNA double-strand breaks. Loss of BRCA1 or BRCA2 function disrupts these processes, leading to the accumulation of DNA damage and increased cell proliferation. Cells with BRCA1/2 mutations are particularly sensitive to DNA-damaging agents, such as platinum-based chemotherapies and PARP inhibitors, which exploit their deficiency in DNA repair. The increased risk of breast and ovarian cancer in BRCA1/2 mutation carriers is due to the accumulation of genetic mutations in breast and ovarian cells, leading to uncontrolled cell growth and tumor formation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine is the initial drug of choice; consider transcutaneous pacing if atropine is ineffective [ACLS guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of amyloid-beta plaques and tau tangles in the pathogenesis of Alzheimer's disease?",
+    "answer": "Amyloid-beta (Aβ) plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein are the two pathological hallmarks of Alzheimer's disease (AD). The amyloid cascade hypothesis posits that the accumulation of Aβ plaques triggers a cascade of events leading to tau hyperphosphorylation, neuronal dysfunction, and cognitive decline. Aβ plaques are formed by the aggregation of Aβ peptides, which are generated from the amyloid precursor protein (APP) through sequential cleavage by β-secretase and γ-secretase. Aβ plaques can induce neuroinflammation, oxidative stress, and synaptic dysfunction. Hyperphosphorylated tau protein aggregates into neurofibrillary tangles, which disrupt microtubule stability and impair axonal transport, leading to neuronal cell death. The precise relationship between Aβ plaques and tau tangles is still being investigated, but evidence suggests that Aβ plaques can promote tau hyperphosphorylation and aggregation. It is also possible that tau pathology can spread independently of Aβ plaques. Genetic mutations in genes involved in Aβ production, such as APP, PSEN1, and PSEN2, increase the risk of early-onset AD. The APOE4 allele is also a major genetic risk factor for late-onset AD and is associated with increased Aβ deposition. Therapies targeting Aβ production or clearance and tau phosphorylation are being developed to slow down the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) and adjunctive dexamethasone should be administered promptly [IDSA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does PD-1/PD-L1 blockade enhance antitumor immunity?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells, and PD-L1 (programmed death-ligand 1) is a ligand expressed on tumor cells and antigen-presenting cells. The interaction between PD-1 and PD-L1 delivers an inhibitory signal to T cells, suppressing their activation and effector function. This pathway is a key mechanism by which tumors evade immune surveillance. PD-1/PD-L1 blockade with monoclonal antibodies prevents the interaction between PD-1 and PD-L1, thereby relieving the inhibitory signal and enhancing T cell-mediated antitumor immunity. Blocking PD-1/PD-L1 can reinvigorate exhausted T cells, promote T cell proliferation and cytokine production, and enhance T cell-mediated killing of tumor cells. The effectiveness of PD-1/PD-L1 blockade depends on the presence of pre-existing antitumor T cell responses and the expression of PD-L1 on tumor cells or immune cells in the tumor microenvironment. However, some patients with low or absent PD-L1 expression can still respond to PD-1/PD-L1 blockade, suggesting that other mechanisms may also be involved. PD-1/PD-L1 blockade can induce durable responses in a subset of patients with various types of cancer, but it can also cause immune-related adverse events due to the activation of autoreactive T cells. Biomarkers, such as PD-L1 expression and tumor mutational burden, are being used to predict response to PD-1/PD-L1 blockade.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for generalized anxiety disorder (GAD)?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs) are first-line [APA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs contribute to the development and progression of cancer?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and circular RNAs (circRNAs), play diverse roles in regulating gene expression and cellular processes, and their dysregulation is implicated in cancer development and progression. miRNAs are small ncRNAs that regulate gene expression by binding to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. miRNAs can act as oncogenes or tumor suppressors depending on their target genes. For example, some miRNAs promote cancer cell proliferation, invasion, and metastasis, while others inhibit these processes. lncRNAs are longer ncRNAs that can regulate gene expression at multiple levels, including transcription, splicing, and translation. lncRNAs can interact with DNA, RNA, and proteins to modulate gene expression. circRNAs are circular RNA molecules that are generated by backsplicing events. circRNAs can act as miRNA sponges, regulate gene transcription, and encode proteins. Dysregulation of ncRNAs can contribute to cancer development by affecting cell proliferation, apoptosis, angiogenesis, metastasis, and drug resistance. ncRNAs are also being explored as potential biomarkers for cancer diagnosis, prognosis, and treatment response. Therapies targeting ncRNAs are being developed to modulate their expression or activity and restore normal cellular function in cancer cells.",
+    "persona": "Researcher"
+  }
+]

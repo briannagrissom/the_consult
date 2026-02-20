@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in a healthy adult with no comorbidities?",
+    "answer": "Amoxicillin or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of insulin resistance at the molecular level?",
+    "answer": "Chronic inflammation, often triggered by obesity or persistent infections, disrupts insulin signaling through multiple interconnected pathways. Elevated levels of pro-inflammatory cytokines such as TNF-α, IL-6, and IL-1β activate serine kinases like JNK and IKKβ, which phosphorylate insulin receptor substrate-1 (IRS-1) at serine residues instead of tyrosine residues. This aberrant serine phosphorylation impairs the binding of IRS-1 to the insulin receptor and reduces its ability to activate downstream signaling molecules such as PI3K and Akt. Consequently, glucose uptake into muscle and adipose tissue is diminished. Furthermore, inflammatory signaling increases the expression of protein tyrosine phosphatases (PTPs), which dephosphorylate and inactivate the insulin receptor and IRS-1, further attenuating insulin sensitivity. Chronic inflammation also promotes the accumulation of macrophages in adipose tissue, which secrete additional cytokines and chemokines, perpetuating the inflammatory cycle and exacerbating insulin resistance. ER stress, induced by inflammation and nutrient overload, also contributes to insulin resistance by activating similar serine kinase pathways and disrupting insulin receptor trafficking to the cell membrane. These interconnected mechanisms ultimately impair insulin signaling, leading to decreased glucose disposal and the development of type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, anorexia, nausea, and vomiting.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do epigenetic modifications play in cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNA expression, are crucial in regulating gene expression patterns that drive cancer development and progression. Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor gene promoters and global hypomethylation of the genome, are frequently observed in cancer cells. Hypermethylation silences genes involved in cell cycle control, DNA repair, and apoptosis, promoting uncontrolled cell growth and genomic instability. Global hypomethylation can activate oncogenes and repetitive DNA elements, contributing to genomic instability and metastasis. Histone modifications, such as acetylation and methylation, also play a critical role in regulating chromatin structure and gene expression. Changes in histone acetylation and methylation patterns can alter the accessibility of DNA to transcription factors, leading to altered expression of genes involved in cell proliferation, differentiation, and survival. Non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression by targeting mRNA transcripts for degradation or translational repression. Dysregulation of non-coding RNA expression can disrupt normal cellular processes and contribute to cancer development. Epigenetic modifications are reversible, making them attractive targets for therapeutic intervention. Epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, have shown promise in restoring normal gene expression patterns and inhibiting cancer cell growth.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time unprovoked seizure?",
+    "answer": "Consider AED treatment after weighing risks/benefits; EEG and MRI brain are indicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of statins and PCSK9 inhibitors in lowering LDL cholesterol.",
+    "answer": "Statins reduce LDL cholesterol by inhibiting HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis. This inhibition leads to a decrease in intracellular cholesterol levels in hepatocytes, which in turn upregulates the expression of LDL receptors on the cell surface. Increased LDL receptor expression enhances the clearance of LDL cholesterol from the circulation. PCSK9 inhibitors, on the other hand, work by blocking the proprotein convertase subtilisin/kexin type 9 (PCSK9) protein. PCSK9 binds to LDL receptors on the surface of hepatocytes, promoting their degradation in lysosomes. By inhibiting PCSK9, these drugs prevent LDL receptor degradation, leading to an increase in the number of LDL receptors available to clear LDL cholesterol from the blood. Thus, while both statins and PCSK9 inhibitors lower LDL cholesterol, they do so through distinct mechanisms: statins reduce cholesterol synthesis, indirectly increasing LDL receptor expression, whereas PCSK9 inhibitors directly prevent LDL receptor degradation, increasing their availability. Combining statins and PCSK9 inhibitors can achieve greater LDL-lowering efficacy than either drug alone, as they act on complementary pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the main risk factors for developing deep vein thrombosis (DVT)?",
+    "answer": "Immobility, surgery, cancer, pregnancy, oral contraceptives, inherited thrombophilias.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what are the implications for vaccine development?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, complicating vaccine development. One common mechanism is antigenic variation, where viruses undergo frequent mutations in surface proteins (e.g., influenza hemagglutinin and neuraminidase), allowing them to escape recognition by neutralizing antibodies generated during previous infections or vaccinations. Some viruses, such as HIV, establish latency by integrating their genetic material into the host cell genome, evading detection by immune cells. Other viruses interfere with antigen presentation by downregulating MHC class I expression (e.g., adenovirus E3 protein) or blocking peptide loading onto MHC molecules. Certain viruses produce decoy receptors or soluble proteins that bind to cytokines or chemokines, preventing them from activating immune cells or recruiting them to the site of infection. Furthermore, viruses can directly suppress immune cell function by producing immunosuppressive cytokines (e.g., IL-10 by Epstein-Barr virus) or inducing apoptosis of immune cells (e.g., HIV-induced CD4+ T cell depletion). Understanding these immune evasion mechanisms is crucial for designing effective vaccines. Strategies include targeting conserved viral epitopes that are less prone to mutation, developing vaccines that elicit broadly neutralizing antibodies or strong T cell responses, and using adjuvants to enhance immune cell activation and overcome viral immune suppression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in a woman?",
+    "answer": "Nitrofurantoin or TMP-SMX per guidelines, considering local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves a complex interplay of molecular mechanisms leading to neuronal dysfunction and death. The amyloid cascade hypothesis posits that the accumulation of amyloid-β (Aβ) plaques, derived from amyloid precursor protein (APP) processing by β-secretase (BACE1) and γ-secretase, triggers a cascade of events. Aβ oligomers are neurotoxic, disrupting synaptic function, inducing oxidative stress, and activating inflammatory pathways. These oligomers can also seed the formation of larger Aβ plaques. Another hallmark of AD is the formation of neurofibrillary tangles composed of hyperphosphorylated tau protein. Hyperphosphorylation of tau disrupts its binding to microtubules, leading to microtubule destabilization and impaired axonal transport. Misfolded tau aggregates into paired helical filaments that form neurofibrillary tangles. Chronic neuroinflammation, involving activation of microglia and astrocytes, contributes to neuronal damage by releasing pro-inflammatory cytokines and reactive oxygen species. Genetic factors, such as mutations in APP, PSEN1, and PSEN2, increase Aβ production and are associated with early-onset AD. The ε4 allele of APOE is a major genetic risk factor for late-onset AD, influencing Aβ clearance and aggregation. Impaired glucose metabolism, mitochondrial dysfunction, and oxidative stress further contribute to neuronal vulnerability. These multifaceted mechanisms ultimately lead to synaptic loss, neuronal death, and cognitive decline characteristic of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE)?",
+    "answer": "ANA positivity plus clinical criteria including arthritis, rash, serositis, renal involvement, hematologic abnormalities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a crucial role in modulating the efficacy of cancer immunotherapy, particularly checkpoint inhibitors like anti-PD-1 and anti-CTLA-4 antibodies. Certain gut bacterial species can enhance antitumor immune responses, while others can promote immune suppression and resistance to therapy. Bacteria such as *Akkermansia muciniphila* and *Bifidobacterium* spp. have been associated with improved responses to checkpoint inhibitors. These bacteria can enhance the maturation and activation of dendritic cells, leading to increased T cell priming and infiltration into the tumor microenvironment. They can also produce metabolites, such as short-chain fatty acids (SCFAs) like butyrate, which have immunomodulatory effects. Butyrate can enhance T cell function, promote regulatory T cell differentiation, and modulate the tumor microenvironment. Conversely, dysbiosis of the gut microbiome, characterized by a decrease in beneficial bacteria and an increase in pathogenic bacteria, can impair antitumor immunity. Some bacteria can metabolize drugs, reducing their efficacy, or produce immunosuppressive metabolites that inhibit T cell function. Factors such as antibiotic use, diet, and genetic background can influence the composition of the gut microbiome and, consequently, the response to immunotherapy. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being explored to improve the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with acute atrial fibrillation?",
+    "answer": "Rate or rhythm control based on hemodynamic stability and symptom severity.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through diverse mechanisms, both EGFR-dependent and EGFR-independent. The most common mechanism is the acquisition of a secondary EGFR mutation, most notably T790M, which sterically hinders TKI binding. T790M mutations account for approximately 60% of TKI resistance cases. Osimertinib, a third-generation TKI, is effective against T790M-positive tumors. Other EGFR-dependent resistance mechanisms include EGFR amplification and the acquisition of other rare EGFR mutations (e.g., C797S). EGFR-independent mechanisms involve activation of bypass signaling pathways, such as MET amplification, HER2 amplification, BRAF mutations, PI3K/AKT pathway activation (e.g., PIK3CA mutations, PTEN loss), and epithelial-mesenchymal transition (EMT). Small cell lung cancer transformation is another resistance mechanism. These bypass pathways allow cancer cells to circumvent EGFR inhibition and maintain proliferation and survival. Furthermore, epigenetic alterations, such as histone modifications and DNA methylation, can contribute to TKI resistance by altering gene expression patterns. Understanding the specific resistance mechanism is crucial for selecting appropriate treatment strategies, such as combination therapies targeting bypass pathways or alternative TKIs effective against specific EGFR mutations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or annual FIT test, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative diseases, and what makes them unique compared to other infectious agents?",
+    "answer": "Prions, composed of misfolded prion protein (PrPSc), cause neurodegenerative diseases through a unique mechanism involving conformational conversion. Unlike viruses or bacteria, prions lack nucleic acid; their infectious agent is solely a misfolded protein. PrPSc acts as a template, inducing the conformational change of normal cellular prion protein (PrPC) into the pathogenic PrPSc form. This conversion process is autocatalytic, leading to exponential accumulation of PrPSc aggregates in the brain. PrPSc aggregates are resistant to proteases and form insoluble amyloid plaques, disrupting neuronal function and causing cell death. The unique feature of prion diseases is their transmissibility, both through ingestion of contaminated material (e.g., variant Creutzfeldt-Jakob disease from BSE-contaminated beef) and, rarely, through iatrogenic routes (e.g., contaminated surgical instruments). Furthermore, prion diseases can be inherited due to mutations in the PRNP gene, which encodes PrPC. The lack of nucleic acid in prions poses a significant challenge for detection and inactivation. Prions are highly resistant to conventional sterilization methods, requiring specialized procedures such as autoclaving at high temperatures and pressures or treatment with strong chemical disinfectants. The pathogenesis of prion diseases involves complex interactions between PrPSc, PrPC, and cellular factors, making them a unique and challenging area of research.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for a patient with a panic disorder?",
+    "answer": "SSRI or CBT, or combination of both.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes mediate intercellular communication in the context of cancer metastasis?",
+    "answer": "Exosomes, nano-sized extracellular vesicles secreted by cells, play a critical role in mediating intercellular communication during cancer metastasis. Cancer cells release exosomes containing a diverse cargo of proteins, nucleic acids (mRNA, microRNA), and lipids. These exosomes can be taken up by recipient cells, both within the primary tumor microenvironment and at distant sites, modulating their behavior and promoting metastasis. Exosomes can transfer oncogenic proteins and mRNA transcripts to recipient cells, enhancing their proliferation, survival, and motility. They can also deliver microRNAs that silence tumor suppressor genes, further promoting cancer progression. Exosomes can prepare the pre-metastatic niche by modulating the immune microenvironment at distant sites. For example, tumor-derived exosomes can recruit and educate myeloid cells to create an immunosuppressive environment, facilitating subsequent cancer cell colonization. They can also promote angiogenesis and vascular permeability, creating a favorable environment for metastatic growth. The composition of exosomal cargo is influenced by the cellular context and can vary depending on the cancer type and stage. Targeting exosome biogenesis, secretion, or uptake is being explored as a potential therapeutic strategy to inhibit cancer metastasis. Furthermore, exosomes hold promise as biomarkers for cancer diagnosis and prognosis, as their cargo reflects the molecular state of the originating tumor cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the main modifiable risk factors for stroke?",
+    "answer": "Hypertension, hyperlipidemia, smoking, diabetes, atrial fibrillation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CAR-T cell therapy work, and what are its limitations in treating solid tumors?",
+    "answer": "CAR-T cell therapy involves genetically engineering a patient's T cells to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on tumor cells. The CAR consists of an extracellular antigen-binding domain (typically derived from an antibody) fused to intracellular signaling domains that activate T cell function upon antigen recognition. The engineered T cells, now armed with the CAR, are expanded ex vivo and then infused back into the patient. Upon encountering tumor cells expressing the target antigen, the CAR-T cells become activated, releasing cytotoxic molecules that kill the cancer cells. CAR-T cell therapy has shown remarkable success in treating hematological malignancies, such as B-cell lymphomas and acute lymphoblastic leukemia. However, its efficacy in solid tumors has been limited by several factors. One major challenge is the lack of tumor-specific antigens in solid tumors, as many target antigens are also expressed on normal tissues, leading to on-target, off-tumor toxicity. Furthermore, solid tumors often have an immunosuppressive microenvironment that inhibits CAR-T cell infiltration and function. Physical barriers, such as dense extracellular matrix and poor vascularization, also hinder CAR-T cell access to tumor cells. Strategies to overcome these limitations include developing CARs targeting more specific tumor antigens, engineering CAR-T cells to resist immunosuppressive signals, and combining CAR-T cell therapy with other immunotherapies or modalities that remodel the tumor microenvironment.",
+    "persona": "Researcher"
+  }
+]

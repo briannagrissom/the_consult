@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology function at a molecular level?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) molecule, complementary to a target DNA sequence, to direct the Cas9 endonuclease to a specific genomic locus. The Cas9 enzyme creates a double-stranded break in the DNA at the target site. The cell's natural DNA repair mechanisms then attempt to repair this break via either non-homologous end joining (NHEJ), which is error-prone and can introduce insertions or deletions (indels), or homology-directed repair (HDR), which uses a provided DNA template to repair the break with high fidelity, allowing for precise gene editing or insertion of new genetic material. The specificity of CRISPR-Cas9 depends critically on the gRNA sequence and the presence of a protospacer adjacent motif (PAM) sequence, typically NGG for Streptococcus pyogenes Cas9, immediately downstream of the target sequence. Off-target effects, where Cas9 cuts at unintended sites with sequence similarity to the gRNA, remain a significant challenge, and research is ongoing to improve the specificity and efficiency of CRISPR-Cas9 systems, including the development of Cas9 variants with reduced off-target activity and novel gRNA design strategies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for rheumatoid arthritis?",
+    "answer": "Joint involvement, serology (RF, anti-CCP), acute phase reactants (ESR, CRP), and symptom duration per ACR/EULAR criteria.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the primary mechanisms by which metformin exerts its anti-hyperglycemic effects?",
+    "answer": "Metformin reduces hepatic glucose production by inhibiting gluconeogenesis and glycogenolysis, increases insulin sensitivity in peripheral tissues (primarily muscle) by enhancing glucose uptake and utilization, and slows intestinal glucose absorption. At the molecular level, metformin activates AMP-activated protein kinase (AMPK), a cellular energy sensor, which regulates glucose and lipid metabolism. AMPK activation leads to phosphorylation and inactivation of acetyl-CoA carboxylase (ACC), reducing malonyl-CoA levels and promoting fatty acid oxidation. Metformin also modulates the gut microbiome, altering the composition and function of microbial communities, which may contribute to its glucose-lowering effects. Recent research suggests that metformin may also inhibit mitochondrial complex I, leading to a decrease in the ATP/ADP ratio and subsequent AMPK activation. While the precise molecular mechanisms are still being elucidated, the combination of these effects contributes to metformin's efficacy in lowering blood glucose levels in patients with type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated?",
+    "answer": "Empiric antibiotics based on local resistance patterns; typically a macrolide, doxycycline, or beta-lactam/macrolide combination.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in shaping the host immune response?",
+    "answer": "The gut microbiome plays a crucial role in educating and modulating the host immune system. Commensal bacteria provide a constant source of antigenic stimulation that promotes the development and maturation of immune cells, including T cells, B cells, and innate immune cells. Specific bacterial species can induce the differentiation of T helper cells, such as Th17 cells (stimulated by segmented filamentous bacteria) and regulatory T cells (induced by Bacteroides fragilis via polysaccharide A). The microbiome also influences the production of antimicrobial peptides and IgA antibodies, which help to maintain intestinal homeostasis. Disruption of the microbiome, known as dysbiosis, can lead to immune dysregulation and increased susceptibility to inflammatory diseases, such as inflammatory bowel disease, autoimmune disorders, and allergies. Specific microbial metabolites, such as short-chain fatty acids (SCFAs) produced by bacterial fermentation of dietary fibers, have potent immunomodulatory effects, including the suppression of inflammation and the enhancement of intestinal barrier function. The complex interplay between the microbiome and the host immune system highlights the importance of maintaining a balanced microbial community for optimal immune health.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Myalgias, elevated liver enzymes, and, rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 work to enhance anti-tumor immunity?",
+    "answer": "PD-1 (programmed cell death protein 1) is an immune checkpoint receptor expressed on T cells, while PD-L1 (programmed death-ligand 1) is a ligand that can be expressed on tumor cells and antigen-presenting cells. The interaction of PD-1 with PD-L1 delivers an inhibitory signal to T cells, suppressing their activation and effector functions. Tumor cells exploit this pathway to evade immune surveillance. Antibodies targeting PD-1 or PD-L1 block this interaction, thereby unleashing T cells to recognize and kill tumor cells. This blockade enhances T-cell proliferation, cytokine production (e.g., IFN-γ), and cytolytic activity. The effectiveness of PD-1/PD-L1 blockade varies depending on the tumor type and the presence of pre-existing anti-tumor immunity, as indicated by the presence of tumor-infiltrating lymphocytes (TILs) and the expression of PD-L1 on tumor cells. However, not all patients with PD-L1-positive tumors respond to PD-1/PD-L1 inhibitors, suggesting the involvement of other mechanisms of resistance. Immune-related adverse events (irAEs), such as colitis, pneumonitis, and endocrinopathies, are common side effects of PD-1/PD-L1 inhibitors, resulting from the broad activation of the immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker; anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular events in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein in the brain. Aβ plaques are formed from the aggregation of Aβ peptides, derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. The accumulation of Aβ triggers a cascade of events, including tau hyperphosphorylation, which leads to the formation of neurofibrillary tangles and neuronal dysfunction. These processes are accompanied by neuroinflammation, oxidative stress, and synaptic loss, ultimately resulting in cognitive decline. Genetic mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), which affect Aβ production, are linked to early-onset familial AD. Apolipoprotein E (APOE) ε4 is a major genetic risk factor for late-onset AD, influencing Aβ clearance and aggregation. Current research focuses on developing therapies that target Aβ production or clearance, prevent tau phosphorylation, reduce neuroinflammation, and enhance synaptic plasticity, with the goal of slowing or preventing the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Thrombolysis with IV alteplase within 4.5 hours of symptom onset, or mechanical thrombectomy for large vessel occlusions.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses have evolved numerous mechanisms to evade the host immune system, including interfering with interferon (IFN) signaling, inhibiting antigen presentation, and undergoing rapid mutation. Many viruses encode proteins that directly block IFN production or signaling pathways, preventing the establishment of an antiviral state. Viruses can also downregulate the expression of MHC class I molecules on infected cells, hindering recognition by cytotoxic T lymphocytes (CTLs). Some viruses produce decoy receptors that bind to cytokines or chemokines, preventing them from activating immune cells. Rapid mutation rates, particularly in RNA viruses, allow them to escape antibody recognition and CTL responses. Latency, where viruses establish a persistent infection without active replication, is another strategy for immune evasion. Some viruses also actively suppress immune cell function, such as HIV-1, which infects and depletes CD4+ T cells. These diverse evasion strategies highlight the complex interplay between viruses and the host immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms of action of chemotherapeutic drugs?",
+    "answer": "Chemotherapeutic drugs exert their cytotoxic effects through diverse mechanisms, primarily targeting DNA replication, cell division, and cellular metabolism. Alkylating agents, such as cyclophosphamide, damage DNA by forming covalent bonds with DNA bases, leading to DNA crosslinking and strand breaks. Antimetabolites, such as methotrexate, interfere with DNA synthesis by inhibiting enzymes involved in nucleotide production. Topoisomerase inhibitors, such as etoposide, block the activity of topoisomerases, enzymes that regulate DNA topology during replication and transcription. Microtubule inhibitors, such as paclitaxel, disrupt microtubule dynamics, interfering with mitotic spindle formation and cell division. Many chemotherapeutic drugs also induce apoptosis, or programmed cell death, in cancer cells. However, these drugs often lack specificity and can also damage normal cells, leading to various side effects, such as myelosuppression, mucositis, and alopecia. The development of targeted therapies, which selectively target specific molecules or pathways in cancer cells, aims to improve treatment efficacy and reduce toxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for anaphylaxis?",
+    "answer": "Epinephrine injection, followed by antihistamines and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression and cellular function?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, regulate gene expression without altering the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), is generally associated with gene silencing. Histone modifications, such as acetylation and methylation, alter chromatin structure and accessibility, influencing gene transcription. Histone acetylation is typically associated with increased gene expression, while histone methylation can either activate or repress gene expression, depending on the specific histone residue modified and the methylation state. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression at the post-transcriptional level by targeting mRNA molecules for degradation or translational repression. Epigenetic modifications play critical roles in development, differentiation, and cellular responses to environmental stimuli. Aberrant epigenetic modifications are implicated in various diseases, including cancer, neurodevelopmental disorders, and autoimmune diseases. Epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are being developed to reverse aberrant epigenetic modifications and restore normal gene expression patterns in disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common signs and symptoms of deep vein thrombosis (DVT)?",
+    "answer": "Unilateral leg swelling, pain, warmth, and redness.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development and progression of cancer?",
+    "answer": "Several key signaling pathways are frequently dysregulated in cancer, driving cell proliferation, survival, and metastasis. The PI3K/AKT/mTOR pathway promotes cell growth and survival by regulating protein synthesis, glucose metabolism, and apoptosis. The RAS/MAPK pathway mediates cell proliferation, differentiation, and survival in response to growth factors. The Wnt/β-catenin pathway regulates cell fate and tissue development and is often activated in colorectal cancer and other malignancies. The TP53 pathway, centered on the tumor suppressor protein p53, responds to cellular stress by inducing cell cycle arrest, DNA repair, or apoptosis. The TGF-β pathway can act as a tumor suppressor in early stages of cancer but can promote tumor progression and metastasis in later stages. Aberrant activation or inactivation of these pathways can result from genetic mutations, epigenetic modifications, or altered expression of pathway components. Targeted therapies that inhibit these signaling pathways have shown promise in treating various types of cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is gestational diabetes typically managed?",
+    "answer": "Diet and exercise; if needed, insulin or metformin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the different phases of clinical trials and their respective purposes?",
+    "answer": "Clinical trials are conducted in four phases to evaluate the safety and efficacy of new treatments. Phase 1 trials assess the safety, tolerability, and pharmacokinetics of a drug in a small group of healthy volunteers or patients. Phase 2 trials evaluate the efficacy of the drug in a larger group of patients with the target disease, as well as further assess safety and determine the optimal dose. Phase 3 trials are large, randomized controlled trials that compare the new treatment to the current standard of care, aiming to confirm its efficacy, monitor side effects, and compare it to commonly used treatments. Phase 4 trials, also known as post-marketing surveillance studies, are conducted after the drug has been approved and is available to the public, aiming to monitor long-term effects, identify rare or unexpected side effects, and explore additional uses of the drug. Each phase builds upon the information gathered in the previous phase, providing a comprehensive evaluation of the treatment before it becomes widely available.",
+    "persona": "Researcher"
+  }
+]

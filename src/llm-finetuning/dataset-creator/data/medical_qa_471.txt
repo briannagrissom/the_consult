@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in non-pregnant women?",
+    "answer": "Nitrofurantoin or TMP-SMX if local resistance rates are low per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to metastasis?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream. While the vast majority of CTCs are eliminated due to anoikis, immune surveillance, and shear stress, a small fraction survive and contribute to metastasis through several mechanisms. First, CTCs must undergo epithelial-mesenchymal transition (EMT) to detach from the primary tumor and invade the vasculature, which involves downregulation of E-cadherin and upregulation of mesenchymal markers like vimentin. Upon entering the bloodstream, CTCs can aggregate with platelets and other immune cells, forming microemboli that enhance their survival and promote adhesion to the endothelium at distant sites. These CTC clusters also exhibit increased metastatic potential compared to single CTCs. CTCs then undergo extravasation, a process where they migrate through the endothelial barrier into the surrounding tissue. This involves interactions between adhesion molecules on CTCs and endothelial cells, as well as degradation of the extracellular matrix by matrix metalloproteinases (MMPs). Finally, CTCs must undergo mesenchymal-epithelial transition (MET) at the distant site to re-establish a proliferative epithelial phenotype and form a new tumor. The efficiency of each of these steps determines the metastatic potential of CTCs, and understanding these mechanisms is critical for developing strategies to prevent or treat metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of deep vein thrombosis (DVT)?",
+    "answer": "Unilateral leg swelling, pain, warmth, and redness.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms driving resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC commonly arises through several mechanisms. The most prevalent is the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. This mutation accounts for approximately 50-60% of acquired resistance cases. Other mechanisms include MET amplification, which activates downstream signaling pathways and bypasses EGFR inhibition. Small cell lung cancer transformation, where the tumor undergoes histologic changes, is also observed. Less frequent mechanisms include PIK3CA mutations, BRAF mutations, and activation of other receptor tyrosine kinases like HER2 or FGFR1. Furthermore, epigenetic modifications and EMT can contribute to resistance by altering gene expression and cellular phenotype. Finally, dependence on alternative signaling pathways such as the bypass pathways lead to adaptive resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with a normal Pap test and HPV negative result?",
+    "answer": "Every 3-5 years per ASCCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing work at a molecular level?",
+    "answer": "CRISPR-Cas9 gene editing relies on the Cas9 enzyme, an RNA-guided DNA endonuclease, complexed with a guide RNA (gRNA). The gRNA is a synthetic RNA molecule consisting of a CRISPR RNA (crRNA) sequence, which is complementary to the target DNA sequence, and a trans-activating crRNA (tracrRNA) sequence, which binds to Cas9. The gRNA directs Cas9 to the specific DNA sequence in the genome that needs to be edited. The Cas9 enzyme then creates a double-stranded break (DSB) in the DNA at the target site. The cell's natural DNA repair mechanisms then kick in to repair the break. There are two primary pathways for DSB repair: non-homologous end joining (NHEJ) and homology-directed repair (HDR). NHEJ is an error-prone pathway that often introduces small insertions or deletions (indels) at the break site, which can disrupt the gene's reading frame and lead to gene knockout. HDR, on the other hand, uses a provided DNA template to repair the break, allowing for precise gene editing or insertion of new sequences. By designing the gRNA and providing a DNA template, researchers can use CRISPR-Cas9 to precisely edit genes in a wide range of organisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with acute ST-elevation myocardial infarction (STEMI)?",
+    "answer": "Immediate reperfusion therapy with PCI or fibrinolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and cancer progression?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by most cell types, including cancer cells. They serve as mediators of intercellular communication by delivering a variety of bioactive molecules, such as proteins, lipids, mRNAs, and microRNAs (miRNAs), to recipient cells. In cancer, exosomes play multifaceted roles in tumor progression. They can promote tumor growth and metastasis by transferring oncogenic proteins and miRNAs to recipient cells, altering their signaling pathways and promoting proliferation, angiogenesis, and immune evasion. For instance, exosomes secreted by cancer cells can deliver miRNAs that suppress the expression of tumor suppressor genes in recipient cells. They can also modulate the tumor microenvironment by delivering factors that promote angiogenesis, recruit immune cells, and remodel the extracellular matrix. Moreover, exosomes can facilitate drug resistance by transferring drug efflux pumps or resistance-conferring proteins to recipient cells. Exosomes can also serve as biomarkers for cancer diagnosis and prognosis, as their cargo reflects the molecular profile of the originating cancer cells. Overall, exosomes are important mediators of intercellular communication in cancer, influencing tumor growth, metastasis, drug resistance, and immune evasion.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, A1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using checkpoint inhibitors like anti-PD-1 or anti-CTLA-4 work to enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, work by blocking inhibitory signals that normally dampen T-cell activity, thereby enhancing anti-tumor immunity. CTLA-4 is expressed on T cells and binds to B7 molecules on antigen-presenting cells (APCs), delivering an inhibitory signal that prevents T-cell activation. Anti-CTLA-4 antibodies block this interaction, allowing T cells to become fully activated and mount an effective immune response against tumor cells. PD-1 is another inhibitory receptor expressed on T cells that binds to PD-L1 and PD-L2, which are often expressed on tumor cells and other cells in the tumor microenvironment. The interaction between PD-1 and PD-L1/PD-L2 delivers an inhibitory signal that suppresses T-cell effector function, leading to T-cell exhaustion. Anti-PD-1 antibodies block this interaction, allowing T cells to remain active and kill tumor cells. By blocking these inhibitory pathways, checkpoint inhibitors can unleash the power of the immune system to recognize and destroy cancer cells. However, checkpoint inhibitors can also cause immune-related adverse events due to the activation of T cells against normal tissues. These adverse events can range from mild to severe and may require immunosuppressive therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute otitis media in children?",
+    "answer": "Amoxicillin is first-line if no recent antibiotic use or penicillin allergy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain. Several signaling pathways are implicated in the pathogenesis of AD. Amyloid precursor protein (APP) processing by β-secretase and γ-secretase leads to the production of amyloid-β (Aβ) peptides, which aggregate to form amyloid plaques. Aβ oligomers can activate inflammatory pathways, such as the NLRP3 inflammasome, leading to the release of pro-inflammatory cytokines that contribute to neuroinflammation and neuronal damage. Tau phosphorylation and aggregation into neurofibrillary tangles is another hallmark of AD. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are two kinases that are involved in tau phosphorylation. Oxidative stress and mitochondrial dysfunction also play a role in AD pathogenesis. Reactive oxygen species (ROS) can damage cellular components and contribute to neuronal death. Finally, impaired insulin signaling has been linked to AD. Insulin resistance and decreased insulin signaling in the brain can impair glucose metabolism and contribute to neuronal dysfunction. These signaling pathways are interconnected and contribute to the complex pathogenesis of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with anaphylaxis?",
+    "answer": "Epinephrine injection, airway management, and supplemental oxygen.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, influence gene expression and disease development?",
+    "answer": "Epigenetic modifications are chemical alterations to DNA or histone proteins that do not change the underlying DNA sequence but can alter gene expression patterns. DNA methylation, the addition of a methyl group to cytosine bases, typically leads to gene silencing by preventing transcription factors from binding to DNA or by recruiting proteins that condense chromatin. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, can also influence gene expression by altering chromatin structure and accessibility. Histone acetylation, for example, generally promotes gene transcription by opening up chromatin, while histone methylation can either activate or repress gene expression depending on the specific histone residue that is modified. These epigenetic modifications play a critical role in regulating gene expression during development and in response to environmental stimuli. Aberrant epigenetic modifications have been implicated in a wide range of diseases, including cancer, neurodevelopmental disorders, and autoimmune diseases. For example, hypermethylation of tumor suppressor genes is a common mechanism of gene silencing in cancer. Furthermore, epigenetic modifications can be inherited across generations, leading to long-lasting effects on phenotype and disease susceptibility.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Azithromycin or doxycycline are common choices per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses have evolved numerous strategies to evade the host immune system, allowing them to establish persistent infections. One common mechanism is to interfere with the interferon (IFN) pathway, a critical antiviral defense mechanism. Viruses can encode proteins that inhibit IFN production, block IFN signaling, or antagonize the effects of IFN-stimulated genes (ISGs). Another strategy is to evade detection by the innate immune system by hiding their nucleic acids from pattern recognition receptors (PRRs) like TLRs, RIG-I, and cGAS. Viruses can also interfere with antigen presentation by blocking MHC class I or MHC class II expression, preventing T cells from recognizing infected cells. Furthermore, viruses can suppress T-cell and B-cell function by producing immunosuppressive cytokines or by directly infecting immune cells. Some viruses establish latency, a state of dormancy where they remain in the host without actively replicating, making them invisible to the immune system. Finally, viruses can undergo rapid mutation, generating antigenic variants that are no longer recognized by pre-existing antibodies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a patient with new-onset atrial fibrillation?",
+    "answer": "Assess for hemodynamic stability, rate or rhythm control, and anticoagulation based on risk factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence human health and disease?",
+    "answer": "The gut microbiome, the complex community of microorganisms residing in the gastrointestinal tract, plays a critical role in human health and disease. The gut microbiome aids in digestion by fermenting dietary fibers and producing short-chain fatty acids (SCFAs), such as acetate, propionate, and butyrate, which serve as energy sources for colonocytes and have systemic effects on metabolism and inflammation. It also synthesizes essential vitamins, such as vitamin K and B vitamins. The gut microbiome plays a key role in immune system development and regulation. It helps train the immune system to distinguish between harmless and harmful microbes and promotes the development of immune tolerance. Dysbiosis, or an imbalance in the gut microbiome, has been linked to a wide range of diseases, including inflammatory bowel disease (IBD), obesity, type 2 diabetes, cardiovascular disease, and even neurological disorders. The gut microbiome can influence these diseases through various mechanisms, including altered SCFA production, increased intestinal permeability, systemic inflammation, and modulation of the gut-brain axis. Strategies to modulate the gut microbiome, such as dietary interventions, probiotics, prebiotics, and fecal microbiota transplantation (FMT), are being explored as potential therapies for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Nausea, sexual dysfunction, and insomnia are frequently reported.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major challenges and future directions in personalized medicine for cancer treatment?",
+    "answer": "Personalized medicine aims to tailor treatment strategies to individual patients based on their unique genetic and molecular profiles. While personalized medicine holds great promise for improving cancer treatment outcomes, several challenges remain. One major challenge is the complexity of cancer genomes and the heterogeneity of tumors, both within and between patients. Identifying clinically relevant biomarkers that can predict treatment response or resistance is a major focus of research. Another challenge is the development of robust and cost-effective diagnostic tools for identifying these biomarkers. Furthermore, access to personalized medicine approaches is not equitable, and efforts are needed to ensure that all patients can benefit from these advances. Future directions in personalized medicine include the development of more sophisticated genomic and proteomic profiling technologies, the integration of multi-omics data to create comprehensive patient profiles, and the development of novel therapeutic strategies that target specific molecular vulnerabilities in cancer cells. Additionally, artificial intelligence and machine learning are being used to analyze large datasets and identify patterns that can predict treatment response and guide clinical decision-making.",
+    "persona": "Researcher"
+  }
+]

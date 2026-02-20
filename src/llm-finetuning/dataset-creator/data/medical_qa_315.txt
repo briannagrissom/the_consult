@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in non-pregnant women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line, depending on local resistance patterns, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification influence cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone acetylation/methylation, and non-coding RNA regulation, alter gene expression patterns without changing the underlying DNA sequence. Aberrant DNA methylation, such as hypermethylation of tumor suppressor gene promoters or global hypomethylation leading to genomic instability, is a hallmark of many cancers. Histone modifications control chromatin accessibility and influence transcription; for example, H3K27me3 represses gene expression while H3K4me3 activates it. Dysregulation of histone-modifying enzymes can drive oncogenesis. Non-coding RNAs, particularly microRNAs and long non-coding RNAs, regulate gene expression post-transcriptionally and can act as oncogenes or tumor suppressors depending on their targets. Epigenetic changes contribute to cancer initiation, progression, metastasis, and drug resistance by altering cell signaling pathways, DNA repair mechanisms, and immune evasion. Epigenetic therapies, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are used to reverse these aberrant modifications and restore normal gene expression in cancer cells, often in combination with other treatments.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for aspirin use in primary prevention of cardiovascular disease?",
+    "answer": "Aspirin is generally not recommended for routine primary prevention of cardiovascular disease in adults >60 years due to bleeding risk, and should be used cautiously in younger adults based on individualized risk assessment per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several interconnected signaling pathways that contribute to amyloid-beta (Aβ) plaques, tau neurofibrillary tangles, neuroinflammation, and neuronal loss. The amyloid precursor protein (APP) processing pathway, involving β-secretase (BACE1) and γ-secretase, generates Aβ peptides, particularly Aβ42, which aggregate into plaques. Accumulation of Aβ activates microglia and astrocytes, triggering the neuroinflammatory cascade via NF-κB and inflammasome pathways, releasing pro-inflammatory cytokines (IL-1β, TNF-α) that exacerbate neuronal damage. Tau hyperphosphorylation, mediated by kinases like GSK-3β and CDK5, leads to tau aggregation into neurofibrillary tangles, disrupting microtubule stability and axonal transport. Insulin signaling is also impaired in AD, affecting glucose metabolism and contributing to Aβ and tau pathology through GSK-3β activation. Additionally, oxidative stress and mitochondrial dysfunction play critical roles, leading to increased reactive oxygen species (ROS) production and neuronal damage. These pathways interact synergistically, amplifying neuronal dysfunction and driving disease progression. Therapeutic strategies targeting these pathways, such as BACE1 inhibitors, tau aggregation inhibitors, and anti-inflammatory agents, are under investigation for AD treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical initial treatment for a patient presenting with new-onset atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, immediate cardioversion is indicated. If stable, rate or rhythm control strategies are considered with anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally suppress T-cell activation and effector function. CTLA-4, expressed on T cells, competes with CD28 for binding to B7 ligands on antigen-presenting cells (APCs), delivering an inhibitory signal that attenuates T-cell activation in the lymph node. Anti-CTLA-4 antibodies block this interaction, promoting T-cell priming and expansion. PD-1, also expressed on T cells, binds to PD-L1 and PD-L2 on tumor cells and APCs, inhibiting T-cell cytotoxicity and cytokine production in the tumor microenvironment. Anti-PD-1/PD-L1 antibodies disrupt this interaction, restoring T-cell activity and enabling tumor cell killing. These inhibitors unleash pre-existing anti-tumor T-cell responses and can induce durable remissions in some cancers. However, they can also cause immune-related adverse events due to the broad activation of the immune system. Combination strategies targeting multiple checkpoints or combining checkpoint inhibitors with other immunotherapies are being investigated to further enhance anti-tumor immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Screening options include colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45, according to ACS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in the pathogenesis of inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis. Dysbiosis, characterized by decreased microbial diversity, reduced abundance of beneficial commensals (e.g., *Faecalibacterium prausnitzii*), and increased abundance of pathobionts (e.g., *Escherichia coli*), is a hallmark of IBD. This altered microbial composition disrupts the balance between pro-inflammatory and anti-inflammatory immune responses in the gut. Pathobionts can trigger excessive activation of the innate and adaptive immune systems, leading to chronic intestinal inflammation. Genetic susceptibility, environmental factors, and immune dysregulation interact with the microbiome to drive disease development. Specific microbial metabolites, such as short-chain fatty acids (SCFAs) produced by bacterial fermentation of dietary fiber, can modulate intestinal inflammation and barrier function. Therapeutic strategies aimed at restoring microbial balance, such as fecal microbiota transplantation (FMT) and dietary interventions, are being investigated for IBD treatment. Overall, the microbiome represents a promising target for novel therapeutic interventions in IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient diagnosed with type 2 diabetes mellitus?",
+    "answer": "Initiate metformin and lifestyle modifications (diet and exercise), and individualize glycemic targets based on patient characteristics per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase cancer risk?",
+    "answer": "Mutations in BRCA1 and BRCA2, tumor suppressor genes involved in DNA repair, significantly increase the risk of breast, ovarian, and other cancers. These genes encode proteins that participate in homologous recombination repair (HRR), a critical pathway for repairing double-strand DNA breaks. Loss of function mutations in BRCA1/2 impair HRR, leading to the accumulation of DNA damage and genomic instability. This promotes tumorigenesis by increasing the likelihood of mutations in oncogenes and tumor suppressor genes. Cells with BRCA1/2 mutations become reliant on alternative DNA repair pathways, such as non-homologous end joining (NHEJ), which are more error-prone and further contribute to genomic instability. Furthermore, BRCA1/2-deficient cells are more sensitive to DNA damaging agents, such as platinum-based chemotherapies and PARP inhibitors, which exploit their impaired DNA repair capacity. Understanding the role of BRCA1/2 in DNA repair has led to the development of targeted therapies for BRCA1/2-mutated cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Empiric antibiotic therapy with a macrolide (azithromycin or clarithromycin) or doxycycline, or amoxicillin if no comorbidities, based on IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR tyrosine kinase inhibitors (TKIs) in NSCLC arises through various mechanisms, including on-target mutations, bypass signaling pathways, and histologic transformation. The most common resistance mechanism is the EGFR T790M mutation, which sterically hinders TKI binding to the ATP-binding pocket of EGFR. Other less frequent on-target mutations include C797S and L792H. Bypass signaling pathways, such as MET amplification, HER2 amplification, and activation of PI3K/AKT, can circumvent EGFR inhibition and drive tumor growth. Histologic transformation to small cell lung cancer (SCLC) is another resistance mechanism, often accompanied by loss of RB1 and TP53. Epithelial-mesenchymal transition (EMT) can also contribute to TKI resistance by promoting cell migration and invasion. Immune evasion mechanisms, such as upregulation of PD-L1, may also play a role. Understanding these resistance mechanisms is crucial for developing strategies to overcome TKI resistance, such as third-generation EGFR TKIs (e.g., osimertinib) that target the T790M mutation, MET inhibitors, and immunotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Rapid assessment and initiation of intravenous alteplase within 4.5 hours of symptom onset if eligible, or mechanical thrombectomy within 24 hours for large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do adipokines influence insulin resistance and metabolic dysfunction?",
+    "answer": "Adipokines, bioactive molecules secreted by adipose tissue, play a critical role in regulating insulin sensitivity, glucose homeostasis, and metabolic function. Adiponectin, an anti-inflammatory adipokine, enhances insulin sensitivity by activating AMPK and PPARα signaling pathways, promoting glucose uptake and fatty acid oxidation. Leptin, another adipokine, regulates energy balance and food intake by acting on the hypothalamus. However, in obesity, leptin resistance can develop, leading to hyperleptinemia and impaired satiety signaling. Pro-inflammatory adipokines, such as TNF-α, IL-6, and resistin, are upregulated in obesity and contribute to insulin resistance by interfering with insulin signaling pathways and promoting inflammation in target tissues such as the liver and skeletal muscle. Visceral adipose tissue is more metabolically active and secretes higher levels of pro-inflammatory adipokines compared to subcutaneous adipose tissue. Dysregulation of adipokine secretion contributes to the development of insulin resistance, type 2 diabetes, and other metabolic disorders. Targeting adipokine signaling pathways represents a potential therapeutic strategy for improving metabolic health.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated urinary tract infection (UTI) in pregnant women?",
+    "answer": "Amoxicillin-clavulanate, nitrofurantoin, or cephalexin for 3-7 days, avoiding trimethoprim-sulfamethoxazole in the first trimester and nitrofurantoin near term.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut-brain axis influence neurological disorders?",
+    "answer": "The gut-brain axis, a bidirectional communication network between the gut microbiota and the brain, plays a significant role in the pathogenesis of neurological disorders. The gut microbiota influences brain function through various mechanisms, including the production of neurotransmitters, such as serotonin and dopamine, and the synthesis of short-chain fatty acids (SCFAs) that modulate neuroinflammation and blood-brain barrier (BBB) integrity. Dysbiosis, an imbalance in the gut microbiota composition, can lead to increased intestinal permeability, systemic inflammation, and altered brain function. In neurological disorders such as Parkinson's disease, Alzheimer's disease, and multiple sclerosis, alterations in the gut microbiota have been observed, and these changes may contribute to disease progression. For example, in Parkinson's disease, gut dysbiosis can promote the aggregation of alpha-synuclein, a protein implicated in the disease pathogenesis. Therapeutic strategies targeting the gut-brain axis, such as probiotics, prebiotics, and fecal microbiota transplantation (FMT), are being investigated for the treatment of neurological disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a patient with suspected anaphylaxis?",
+    "answer": "Administer epinephrine intramuscularly, call for help, place patient in supine position, and administer oxygen.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in cancer metastasis?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of RNA molecules longer than 200 nucleotides that lack protein-coding potential. They play critical roles in various cellular processes, including gene expression regulation, chromatin remodeling, and signal transduction. In cancer, lncRNAs are frequently dysregulated and contribute to metastasis, the process by which cancer cells spread from the primary tumor to distant sites. LncRNAs can promote metastasis by influencing several key steps, including epithelial-mesenchymal transition (EMT), angiogenesis, and immune evasion. Some lncRNAs act as oncogenes, promoting cell migration and invasion, while others function as tumor suppressors, inhibiting metastasis. For example, lncRNAs can regulate the expression of transcription factors involved in EMT, such as Snail and Twist. They can also modulate the tumor microenvironment by influencing the secretion of cytokines and growth factors that promote angiogenesis and immune suppression. Targeting lncRNAs represents a promising therapeutic strategy for preventing or treating cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended follow-up after a diagnosis of deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation for at least 3 months, with consideration for extended anticoagulation based on risk factors for recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology revolutionize gene editing and its applications in disease modeling?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene-editing technology derived from the adaptive immune system of bacteria. It allows for precise and efficient modification of DNA sequences in a wide range of organisms, including human cells. The CRISPR-Cas9 system consists of two key components: the Cas9 enzyme, which acts as a molecular scissor, and a guide RNA (gRNA), which directs Cas9 to the specific DNA sequence to be edited. The gRNA is designed to be complementary to the target DNA sequence, allowing Cas9 to bind and create a double-strand break at the desired location. This break triggers cellular DNA repair mechanisms, which can be harnessed to either disrupt the gene (gene knockout) or introduce a new DNA sequence (gene knock-in). CRISPR-Cas9 technology has revolutionized disease modeling by enabling the creation of cell lines and animal models with specific genetic mutations, allowing researchers to study the effects of these mutations on disease development and progression. It also holds great promise for gene therapy, offering the potential to correct genetic defects and treat a wide range of diseases.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line, per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing work at the molecular level?",
+    "answer": "CRISPR-Cas9 harnesses a bacterial adaptive immunity mechanism to introduce targeted double-stranded breaks (DSBs) in DNA. A single guide RNA (sgRNA), comprising a CRISPR RNA (crRNA) sequence complementary to the target DNA and a trans-activating crRNA (tracrRNA) scaffold, directs the Cas9 endonuclease to a specific genomic locus. The sgRNA base-pairs with the target DNA sequence, provided that the target site is immediately adjacent to a protospacer adjacent motif (PAM) sequence. Cas9 then induces a DSB approximately 3-4 base pairs upstream of the PAM. The cell repairs the DSB through either non-homologous end joining (NHEJ), which is error-prone and often results in insertions or deletions (indels) that disrupt gene function, or homology-directed repair (HDR), which uses a provided DNA template to precisely edit the gene. Factors such as the choice of Cas9 ortholog, sgRNA design, delivery method, and cellular context influence the efficiency and specificity of CRISPR-Cas9 editing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance are common.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why do some tumors exhibit resistance to EGFR tyrosine kinase inhibitors (TKIs)?",
+    "answer": "Resistance to EGFR TKIs arises through multiple mechanisms, including acquired mutations in EGFR itself (e.g., T790M), activation of bypass signaling pathways (e.g., MET amplification, PI3K/AKT activation), and downstream mutations in RAS or BRAF. The T790M mutation sterically hinders TKI binding to the EGFR kinase domain. MET amplification leads to increased HER3 phosphorylation and activation of downstream signaling, circumventing EGFR inhibition. Epithelial-to-mesenchymal transition (EMT) and histologic transformation to small cell lung cancer can also confer resistance. Additionally, tumor heterogeneity and the tumor microenvironment play a role, with some cells exhibiting intrinsic resistance or developing resistance under selective pressure from the TKI. Immunotherapeutic strategies may overcome TKI resistance in selected patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients, adjusted based on local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of immune checkpoint inhibitors?",
+    "answer": "The gut microbiome modulates the host immune response and can significantly impact the efficacy of immune checkpoint inhibitors (ICIs). Specific bacterial species, such as *Akkermansia muciniphila* and certain *Bifidobacterium* species, have been associated with improved responses to anti-PD-1 therapy in melanoma and other cancers. These bacteria can enhance dendritic cell activation, promote T-cell priming, and increase the infiltration of cytotoxic T lymphocytes into the tumor microenvironment. Conversely, dysbiosis or the presence of certain other bacterial species can impair ICI efficacy by promoting inflammation, suppressing T-cell function, or altering the gut-associated lymphoid tissue. Mechanistically, microbial metabolites like short-chain fatty acids (SCFAs) can modulate immune cell activity and cytokine production. Fecal microbiota transplantation (FMT) studies have shown that transferring gut microbiota from ICI responders to non-responders can improve treatment outcomes, underscoring the causal role of the microbiome in ICI efficacy. Strategies to modulate the gut microbiome, such as dietary interventions or probiotics, are being explored to enhance ICI responses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps involved in the process of metastasis?",
+    "answer": "Metastasis is a multi-step process involving detachment of cancer cells from the primary tumor, invasion of surrounding tissues, intravasation into blood or lymphatic vessels, survival in circulation, extravasation at a distant site, and colonization to form a secondary tumor. Epithelial-to-mesenchymal transition (EMT) enables cancer cells to lose cell-cell adhesion and acquire migratory properties. Matrix metalloproteinases (MMPs) degrade the extracellular matrix, facilitating invasion. Cancer cells must evade immune surveillance and anoikis (detachment-induced apoptosis) during circulation. Extravasation involves adhesion to the endothelium and migration through the vessel wall. Finally, colonization requires the establishment of a supportive microenvironment at the distant site, often involving pre-metastatic niche formation. Each step represents a potential therapeutic target to prevent or delay metastatic spread.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a suspected stroke?",
+    "answer": "Rapid neurological assessment, CT scan to rule out hemorrhage, and consideration of thrombolytic therapy (tPA) if appropriate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's innate immune system?",
+    "answer": "Viruses employ diverse strategies to evade the host's innate immune system. They can encode proteins that interfere with pattern recognition receptors (PRRs) like TLRs and RIG-I, preventing the detection of viral nucleic acids. Some viruses inhibit the production or signaling of type I interferons (IFNs), which are crucial for antiviral defense. For example, viral proteases can cleave signaling molecules involved in IFN induction or block the phosphorylation of transcription factors like IRF3. Viruses can also express decoy receptors or soluble proteins that bind to cytokines, preventing them from activating immune cells. Furthermore, some viruses establish latency, minimizing viral replication and immune activation. By targeting various components of the innate immune pathways, viruses can establish persistent infections and evade clearance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication in cancer?",
+    "answer": "Exosomes, nano-sized vesicles secreted by cells, mediate intercellular communication in cancer by transferring proteins, lipids, and nucleic acids (mRNAs and microRNAs) between cells. Cancer cells release exosomes containing oncogenic molecules that can promote tumor growth, angiogenesis, and metastasis. Exosomes can transfer drug resistance factors to sensitive cells, contributing to therapeutic failure. They can also modulate the tumor microenvironment by delivering immunosuppressive molecules to immune cells, facilitating immune evasion. Exosomes can be taken up by distant cells, influencing their phenotype and behavior. Exosomal microRNAs, for example, can regulate gene expression in recipient cells, altering their differentiation or metastatic potential. Liquid biopsies targeting circulating exosomes are being developed to detect cancer-specific biomarkers and monitor treatment response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) are typically first-line, along with psychotherapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression in development and disease?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, regulate gene expression without altering the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), generally represses gene transcription. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, affect chromatin structure and accessibility. Histone acetylation promotes a more open chromatin state (euchromatin), facilitating transcription, while histone methylation can either activate or repress gene expression depending on the specific histone residue modified. Epigenetic patterns are established during development and can be influenced by environmental factors. Aberrant epigenetic modifications are implicated in various diseases, including cancer, where they can silence tumor suppressor genes or activate oncogenes. Epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are used to reverse these aberrant modifications and restore normal gene expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy work to target cancer cells?",
+    "answer": "Immunotherapy leverages the patient’s own immune system to recognize and destroy cancer cells. Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, block inhibitory signals that prevent T cells from attacking cancer cells. These antibodies enhance T-cell activation and proliferation, leading to increased tumor cell killing. Adoptive cell therapy involves isolating and engineering a patient's T cells to express chimeric antigen receptors (CARs) that recognize specific antigens on cancer cells. These CAR-T cells are then infused back into the patient, where they can directly target and eliminate cancer cells. Cancer vaccines aim to stimulate an immune response against tumor-associated antigens, priming T cells to recognize and attack cancer cells. Immunotherapeutic strategies can induce durable responses in some patients but are also associated with immune-related adverse events.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevation, and gastrointestinal upset are common.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in human disease?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that lack protein-coding potential. They play diverse roles in regulating gene expression at the transcriptional, post-transcriptional, and epigenetic levels. LncRNAs can act as scaffolds, guiding proteins to specific genomic loci to regulate chromatin structure and gene transcription. They can also function as decoys, binding to transcription factors or microRNAs to modulate their activity. Some lncRNAs regulate mRNA splicing, stability, or translation. Aberrant expression or mutation of lncRNAs has been implicated in various human diseases, including cancer, cardiovascular disease, and neurological disorders. LncRNAs can act as oncogenes or tumor suppressors, influencing cell proliferation, apoptosis, and metastasis. They represent potential therapeutic targets and biomarkers for disease diagnosis and prognosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are commonly used for acute migraine treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in cell growth and proliferation?",
+    "answer": "Several major signaling pathways govern cell growth and proliferation. The PI3K/AKT/mTOR pathway regulates cell growth, survival, and metabolism in response to growth factors. Activation of receptor tyrosine kinases (RTKs) leads to phosphorylation and activation of PI3K, which then activates AKT and mTOR. The RAS/MAPK pathway controls cell proliferation and differentiation. Activation of RTKs recruits adaptor proteins that activate RAS, leading to the activation of MAPK kinases (MEK) and extracellular signal-regulated kinases (ERK). The Wnt/β-catenin pathway regulates cell fate and proliferation during development. Activation of Wnt receptors inhibits the degradation of β-catenin, leading to its accumulation in the nucleus and activation of target genes. Dysregulation of these pathways is frequently observed in cancer, driving uncontrolled cell growth and proliferation.",
+    "persona": "Researcher"
+  }
+]

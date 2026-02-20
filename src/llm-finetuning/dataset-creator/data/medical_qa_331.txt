@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line; consider local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to the development of resistance to EGFR inhibitors in colorectal cancer?",
+    "answer": "Mutations in KRAS, particularly at codons 12, 13, or 61, constitutively activate the MAPK signaling pathway independently of EGFR activation. Normally, EGFR binding to its receptor initiates a signaling cascade involving RAS proteins (including KRAS), RAF kinases, MEK, and ERK, ultimately leading to cell proliferation and survival. EGFR inhibitors like cetuximab and panitumumab block the initial step in this pathway. However, when KRAS is mutated to a constitutively active form, it bypasses the need for upstream EGFR signaling. This means that even if EGFR is inhibited, the downstream MAPK pathway remains active, allowing cancer cells to continue proliferating. The presence of KRAS mutations is therefore a negative predictive biomarker for response to EGFR inhibitors in metastatic colorectal cancer, and patients with these mutations typically do not benefit from EGFR-targeted therapies. Other resistance mechanisms can arise from mutations in other downstream signaling components, such as BRAF or MEK, or through the activation of parallel pathways that compensate for EGFR inhibition. [PMID: 22322315]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score, and how is it used?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (Double), Diabetes mellitus, Stroke/TIA/thromboembolism (Double), Vascular disease, Age 65-74, Sex category (female); estimates stroke risk in atrial fibrillation to guide anticoagulation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of gut microbiota in modulating the efficacy and toxicity of cancer chemotherapies?",
+    "answer": "Gut microbiota can significantly influence the efficacy and toxicity of cancer chemotherapies through diverse mechanisms. Certain bacterial species can metabolize chemotherapeutic drugs, either activating them or deactivating them. For instance, some bacteria can convert irinotecan (a prodrug) into its active metabolite, SN-38, increasing its cytotoxic effect, while others may inactivate it. Similarly, the gut microbiome can influence the levels of endogenous metabolites that modulate drug sensitivity. Furthermore, the gut microbiota play a critical role in shaping the host's immune response, which can impact the efficacy of immunotherapies. Dysbiosis, an imbalance in the gut microbiome, can lead to increased gut permeability, systemic inflammation, and immune suppression, potentially reducing the effectiveness of chemotherapy and immunotherapy. Additionally, certain bacteria can directly interact with cancer cells, affecting their growth and drug sensitivity. The gut microbiota can also contribute to chemotherapy-induced toxicities, such as mucositis, diarrhea, and myelosuppression, by producing inflammatory mediators and disrupting the intestinal barrier function. Strategies such as fecal microbiota transplantation (FMT) and dietary interventions are being explored to modulate the gut microbiome and improve the outcomes of cancer treatment. [PMID: 30125159]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for gestational diabetes?",
+    "answer": "Perform a 50-g oral glucose challenge test (GCT) followed by a diagnostic 3-hour oral glucose tolerance test (OGTT) if the GCT is elevated, per ACOG guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression without altering the underlying DNA sequence. Aberrant epigenetic patterns are a hallmark of cancer and contribute to various aspects of tumor development and progression. DNA methylation, particularly at CpG islands in promoter regions, can silence tumor suppressor genes, leading to uncontrolled cell growth. Histone modifications, such as acetylation and methylation, can alter chromatin structure, affecting the accessibility of DNA to transcription factors and influencing gene expression. For example, histone deacetylation is often associated with gene silencing and tumor suppression. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by binding to messenger RNAs (mRNAs) and inhibiting their translation or promoting their degradation. In cancer, miRNAs can act as oncogenes or tumor suppressors, depending on their target genes. Epigenetic modifications are often reversible, making them attractive targets for cancer therapy. Drugs that inhibit DNA methyltransferases (DNMTs) or histone deacetylases (HDACs) can restore normal gene expression patterns and inhibit tumor growth. Aberrant epigenetic modifications can also contribute to cancer metastasis, angiogenesis, and drug resistance. [PMID: 22084101]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Control rate with beta-blockers or calcium channel blockers; assess need for anticoagulation and consider cardioversion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment influence the development of drug resistance in cancer cells?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in the development of drug resistance in cancer cells through multiple interacting mechanisms. Hypoxia, a common feature of the TME, induces the expression of hypoxia-inducible factor-1 (HIF-1), which promotes angiogenesis, metastasis, and resistance to chemotherapy and radiation therapy. Cancer-associated fibroblasts (CAFs) secrete growth factors, cytokines, and extracellular matrix (ECM) components that can protect cancer cells from drug-induced apoptosis and promote their survival. The ECM can also physically hinder drug penetration into the tumor. Immune cells within the TME, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), can suppress anti-tumor immune responses and promote cancer cell survival. Cancer cells can also develop resistance through epigenetic modifications induced by the TME. Moreover, exosomes released by cancer cells and stromal cells can transfer drug resistance factors, such as microRNAs and proteins, to neighboring cells. Targeting the TME is an emerging strategy to overcome drug resistance in cancer. [PMID: 25332425]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis in an outpatient setting?",
+    "answer": "Oral fluoroquinolones or TMP-SMX if local resistance is low; consider a single dose of IV ceftriaxone or aminoglycoside.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Several signaling pathways contribute to the pathogenesis of Alzheimer's disease (AD), including amyloid precursor protein (APP) processing, tau phosphorylation, inflammation, and insulin signaling. Aberrant processing of APP leads to the accumulation of amyloid-beta (Aβ) plaques, a hallmark of AD. Aβ oligomers can trigger neuronal dysfunction and synaptic loss. Hyperphosphorylation of tau protein leads to the formation of neurofibrillary tangles, another hallmark of AD. Chronic inflammation, mediated by microglia and astrocytes, contributes to neuronal damage and disease progression. Impaired insulin signaling in the brain has been linked to increased Aβ production and tau phosphorylation. Dysregulation of these signaling pathways leads to neuronal dysfunction, synaptic loss, and cognitive decline in AD. Therapies targeting these pathways are being investigated for the treatment of AD. [PMID: 28186173]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient diagnosed with community-acquired pneumonia?",
+    "answer": "Empiric antibiotics such as macrolides, doxycycline, or beta-lactam plus macrolide; consider local resistance patterns and patient comorbidities per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in BRCA1 and BRCA2 increase the risk of developing breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination. Mutations in these genes impair the cell's ability to repair double-strand DNA breaks, leading to genomic instability and an increased risk of cancer development. When BRCA1 or BRCA2 is mutated, damaged DNA is not repaired accurately, resulting in the accumulation of mutations in other genes, including oncogenes and tumor suppressor genes. This accumulation of genetic errors can drive uncontrolled cell growth and lead to the formation of tumors. BRCA1 and BRCA2 mutations are associated with an increased risk of developing breast, ovarian, prostate, and pancreatic cancers. Individuals with these mutations often develop cancer at a younger age and have a higher risk of developing multiple cancers. [PMID: 20130140]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient experiencing an acute asthma exacerbation?",
+    "answer": "Administer short-acting beta-agonist (SABA) via nebulizer or inhaler with spacer; consider systemic corticosteroids if not responsive to SABA.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which immunotherapy, specifically checkpoint inhibitors, elicit anti-tumor responses?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance anti-tumor immune responses by blocking inhibitory signals that normally suppress T-cell activity. CTLA-4, expressed on T cells, binds to B7 molecules on antigen-presenting cells (APCs) and inhibits T-cell activation. Anti-CTLA-4 antibodies block this interaction, enhancing T-cell priming and activation in the lymph nodes. PD-1, also expressed on T cells, binds to PD-L1 on tumor cells or immune cells in the tumor microenvironment and inhibits T-cell effector function. Anti-PD-1/PD-L1 antibodies block this interaction, restoring T-cell activity and promoting tumor cell killing. These checkpoint inhibitors unleash pre-existing T-cell responses against tumor-associated antigens, leading to tumor regression. The efficacy of checkpoint inhibitors depends on the presence of tumor-infiltrating lymphocytes (TILs) and the expression of PD-L1 on tumor cells. Immunotherapy can also induce durable responses in some patients, leading to long-term survival. [PMID: 23229621]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient diagnosed with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin; consider low-molecular-weight heparin (LMWH) for specific indications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inflammation contribute to the development and progression of atherosclerosis?",
+    "answer": "Inflammation plays a central role in the initiation, progression, and complications of atherosclerosis. Endothelial dysfunction, triggered by factors such as hyperlipidemia, hypertension, and smoking, leads to increased permeability of the endothelium and the accumulation of low-density lipoprotein (LDL) in the arterial wall. Modified LDL particles, such as oxidized LDL (oxLDL), activate endothelial cells and recruit monocytes into the arterial intima. Monocytes differentiate into macrophages, which engulf oxLDL and become foam cells, a hallmark of atherosclerotic plaques. Activated macrophages release inflammatory cytokines, such as interleukin-1β (IL-1β), tumor necrosis factor-α (TNF-α), and interleukin-6 (IL-6), which further promote inflammation and recruit more immune cells. T cells also infiltrate the arterial wall and contribute to inflammation. Chronic inflammation leads to plaque instability and increases the risk of plaque rupture and thrombosis, resulting in acute cardiovascular events such as myocardial infarction and stroke. Targeting inflammation is an emerging strategy for the prevention and treatment of atherosclerosis. [PMID: 23428787]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended follow-up for a patient with a newly diagnosed thyroid nodule?",
+    "answer": "Evaluate with ultrasound and consider fine-needle aspiration (FNA) if high-risk features are present per ATA guidelines; monitor nodule size and growth.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the pathogenesis of type 1 diabetes mellitus?",
+    "answer": "Type 1 diabetes mellitus (T1DM) is an autoimmune disease characterized by the destruction of insulin-producing beta cells in the pancreatic islets. The pathogenesis of T1DM involves a complex interplay of genetic susceptibility, environmental factors, and immune-mediated destruction of beta cells. Genetic factors, such as human leukocyte antigen (HLA) alleles, contribute to the risk of developing T1DM. Environmental triggers, such as viral infections, may initiate the autoimmune response in genetically susceptible individuals. Autoreactive T cells, including CD4+ T helper cells and CD8+ cytotoxic T lymphocytes (CTLs), infiltrate the pancreatic islets and recognize beta cell antigens. These T cells release inflammatory cytokines and directly kill beta cells, leading to insulin deficiency. B cells also contribute to the pathogenesis of T1DM by producing autoantibodies against beta cell antigens. The gradual destruction of beta cells leads to progressive loss of insulin secretion and the development of hyperglycemia. [PMID: 11893783]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended empiric treatment for bacterial meningitis in adults?",
+    "answer": "Ceftriaxone and vancomycin are recommended; add ampicillin if Listeria coverage is needed per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the p53 tumor suppressor gene contribute to cancer development?",
+    "answer": "Mutations in the TP53 gene, which encodes the p53 tumor suppressor protein, are among the most common genetic alterations in human cancers. The p53 protein plays a critical role in maintaining genomic stability, regulating cell cycle arrest, DNA repair, and apoptosis in response to cellular stress. When DNA damage occurs, p53 is activated and promotes cell cycle arrest, allowing time for DNA repair. If the damage is irreparable, p53 can induce apoptosis, preventing the propagation of damaged cells. Mutations in TP53 disrupt these functions, leading to genomic instability, uncontrolled cell growth, and resistance to apoptosis. Mutant p53 proteins can also exert oncogenic effects, promoting tumor metastasis and angiogenesis. The loss of p53 function allows cancer cells to evade normal cellular controls and proliferate uncontrollably. [PMID: 17000776]",
+    "persona": "Researcher"
+  }
+]

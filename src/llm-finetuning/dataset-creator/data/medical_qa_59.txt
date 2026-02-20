@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated community-acquired pneumonia in an otherwise healthy adult?",
+    "answer": "Amoxicillin or doxycycline are first-line options per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Activating mutations in the EGFR tyrosine kinase domain, such as L858R and exon 19 deletions, render non-small cell lung cancers (NSCLC) sensitive to EGFR tyrosine kinase inhibitors (TKIs). However, acquired resistance invariably develops, most commonly through the emergence of the T790M mutation in EGFR exon 20. T790M increases the affinity of EGFR for ATP, thereby competing with the binding of reversible EGFR TKIs like gefitinib and erlotinib. This steric hindrance reduces the efficacy of first- and second-generation EGFR TKIs. Osimertinib, a third-generation EGFR TKI, was designed to overcome T790M-mediated resistance due to its ability to irreversibly bind EGFR even in the presence of T790M. However, resistance to osimertinib can arise through mechanisms such as C797S mutations in EGFR, MET amplification, activation of bypass pathways (e.g., BRAF or PI3K/AKT signaling), or histologic transformation to small cell lung cancer. The C797S mutation prevents osimertinib from binding covalently to EGFR. Combinatorial strategies are being explored to address these resistance mechanisms, including the use of EGFR TKIs in combination with MET inhibitors, BRAF inhibitors, or chemotherapy. Monitoring for resistance mutations through liquid biopsies (e.g., circulating tumor DNA analysis) is crucial for guiding treatment decisions and identifying patients who may benefit from clinical trials evaluating novel therapeutic approaches. [PMID: 27974641]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the typical components of the Glasgow Coma Scale (GCS)?",
+    "answer": "Eye opening, verbal response, and motor response.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is the tumor microenvironment considered a critical determinant of cancer progression and therapeutic response?",
+    "answer": "The tumor microenvironment (TME) comprises a complex ecosystem surrounding cancer cells, including fibroblasts, immune cells, endothelial cells, extracellular matrix (ECM), and soluble factors. It profoundly influences cancer progression, metastasis, and therapeutic response through multifaceted mechanisms. Cancer-associated fibroblasts (CAFs) secrete growth factors (e.g., HGF, TGF-β), ECM components (e.g., collagen, fibronectin), and matrix metalloproteinases (MMPs) that promote tumor cell proliferation, survival, and invasion. Immune cells within the TME, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), often exhibit immunosuppressive phenotypes that facilitate immune evasion. Endothelial cells form new blood vessels (angiogenesis) that supply oxygen and nutrients to the growing tumor, while also providing routes for metastasis. The ECM provides structural support and signaling cues that influence tumor cell behavior. Hypoxia, nutrient deprivation, and acidic pH within the TME select for cancer cells with adaptive survival mechanisms. Moreover, the TME can shield cancer cells from cytotoxic therapies by limiting drug penetration, inducing chemoresistance, and promoting epithelial-mesenchymal transition (EMT). Therapies targeting the TME, such as angiogenesis inhibitors, CAF-depleting agents, and immunomodulatory strategies, are being investigated to disrupt the supportive niche and enhance the efficacy of conventional cancer treatments. [PMID: 22237442]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended target LDL-cholesterol level for secondary prevention in patients with established cardiovascular disease?",
+    "answer": "LDL-C <70 mg/dL or ≥50% reduction from baseline per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of insulin resistance in type 2 diabetes?",
+    "answer": "Chronic low-grade inflammation plays a central role in the pathogenesis of insulin resistance and type 2 diabetes (T2D). Adipose tissue, particularly in obese individuals, becomes infiltrated with immune cells, including macrophages, which secrete pro-inflammatory cytokines such as TNF-α, IL-6, and IL-1β. These cytokines activate intracellular signaling pathways, including the NF-κB and JNK pathways, that disrupt insulin signaling in target tissues like skeletal muscle, liver, and adipose tissue. TNF-α, for example, promotes serine phosphorylation of IRS-1 (insulin receptor substrate-1), which impairs its ability to interact with the insulin receptor and activate downstream signaling cascades. IL-6 can induce hepatic glucose production and impair insulin-mediated glucose uptake in skeletal muscle. Furthermore, inflammatory cytokines can disrupt adipocyte function, leading to increased lipolysis and elevated circulating free fatty acids (FFAs). FFAs activate Toll-like receptors (TLRs) on immune cells and further amplify the inflammatory response. This vicious cycle of inflammation, insulin resistance, and metabolic dysfunction contributes to the development of T2D. Therapeutic strategies aimed at reducing inflammation, such as targeting inflammatory cytokines or modulating immune cell function, are being explored as potential interventions for improving insulin sensitivity and preventing or treating T2D. [PMID: 16002426]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient presenting with acute anaphylaxis?",
+    "answer": "Intramuscular epinephrine, antihistamines, and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of different classes of anti-PD-1/PD-L1 immune checkpoint inhibitors.",
+    "answer": "Anti-PD-1 and anti-PD-L1 antibodies are immune checkpoint inhibitors that enhance antitumor immunity by blocking the interaction between programmed cell death protein 1 (PD-1) on T cells and its ligand, programmed death-ligand 1 (PD-L1), expressed on tumor cells and antigen-presenting cells (APCs). Anti-PD-1 antibodies, such as nivolumab and pembrolizumab, directly bind to PD-1 on T cells, preventing its interaction with both PD-L1 and PD-L2. This blockade restores T-cell effector function, promoting tumor cell killing. Anti-PD-L1 antibodies, such as atezolizumab, durvalumab, and avelumab, bind to PD-L1 on tumor cells and APCs, preventing its interaction with PD-1 on T cells. While both strategies aim to disrupt the PD-1/PD-L1 axis, there are subtle differences. Anti-PD-1 antibodies may have a greater impact on T-cell activation by blocking both PD-L1 and PD-L2 interactions, whereas anti-PD-L1 antibodies may preferentially block PD-L1 signaling in the tumor microenvironment. Furthermore, some anti-PD-L1 antibodies, such as avelumab, can induce antibody-dependent cell-mediated cytotoxicity (ADCC) against PD-L1-expressing tumor cells. Both anti-PD-1 and anti-PD-L1 antibodies have demonstrated clinical efficacy in various cancers; however, patient selection and biomarkers for predicting response remain areas of active investigation. [PMID: 28890391]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical duration of dual antiplatelet therapy (DAPT) following percutaneous coronary intervention (PCI) with a drug-eluting stent?",
+    "answer": "Typically 6-12 months, depending on bleeding risk and clinical presentation per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome has emerged as a crucial modulator of cancer chemotherapy efficacy and toxicity. Certain gut bacteria can metabolize chemotherapeutic drugs, either activating them or inactivating them, thereby influencing their systemic exposure and antitumor activity. For instance, some bacteria can convert the prodrug irinotecan into its active metabolite SN-38, while others can inactivate SN-38, affecting its cytotoxicity. The gut microbiome also influences the host immune response to chemotherapy. Chemotherapy-induced gut dysbiosis can disrupt the intestinal barrier, leading to translocation of bacteria and bacterial products into the systemic circulation, triggering inflammation and immune activation. This can exacerbate chemotherapy-induced toxicities, such as mucositis, diarrhea, and neutropenia. Conversely, specific gut bacteria can enhance antitumor immunity by modulating the composition and function of immune cells in the tumor microenvironment. For example, some bacteria can stimulate the production of interferon-gamma (IFN-γ) by T cells, which enhances the efficacy of checkpoint inhibitors. Modulation of the gut microbiome through dietary interventions, fecal microbiota transplantation (FMT), or administration of specific probiotics is being explored as a strategy to improve chemotherapy outcomes and reduce toxicities. [PMID: 29094643]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a premenopausal, non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences in the mechanisms of action of statins and PCSK9 inhibitors in lowering LDL cholesterol?",
+    "answer": "Statins and PCSK9 inhibitors are both effective at lowering LDL cholesterol, but they act through distinct mechanisms. Statins inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis in the liver. This leads to decreased intracellular cholesterol levels, which triggers an increase in the expression of LDL receptors (LDLRs) on the surface of hepatocytes. The increased LDLRs promote the uptake of LDL cholesterol from the circulation, lowering plasma LDL-C levels. PCSK9 inhibitors, on the other hand, are monoclonal antibodies that bind to proprotein convertase subtilisin/kexin type 9 (PCSK9), a protein that promotes the degradation of LDLRs. By inhibiting PCSK9, these antibodies prevent the degradation of LDLRs, leading to an increase in the number of LDLRs on the surface of hepatocytes. This, in turn, enhances the uptake of LDL cholesterol from the circulation and lowers plasma LDL-C levels. Statins primarily increase LDLR expression, while PCSK9 inhibitors primarily prevent LDLR degradation, resulting in a synergistic effect when used in combination to achieve maximal LDL-C lowering. [PMID: 26658998]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS oncogene contribute to resistance to EGFR-targeted therapies in colorectal cancer?",
+    "answer": "KRAS is a GTPase that functions downstream of EGFR in the RAS/MAPK signaling pathway. Activating mutations in KRAS, most commonly at codons 12 and 13, render KRAS constitutively active, independent of upstream EGFR signaling. This bypasses the inhibitory effects of EGFR-targeted therapies, such as cetuximab and panitumumab, which aim to block EGFR activation and downstream signaling. In patients with KRAS-mutant colorectal cancer, EGFR inhibition does not effectively suppress the RAS/MAPK pathway, leading to a lack of response to EGFR-targeted therapies. Therefore, KRAS mutation status is a crucial predictive biomarker for selecting patients who are likely to benefit from EGFR-targeted therapies. Patients with KRAS wild-type tumors are more likely to respond to EGFR inhibitors, while those with KRAS-mutant tumors are typically treated with alternative strategies. [PMID: 19528826]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years or annual fecal immunochemical test (FIT) per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Describe the mechanisms by which epigenetic modifications, such as DNA methylation and histone modifications, regulate gene expression in cancer cells.",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in regulating gene expression in cancer cells, contributing to tumorigenesis and disease progression. DNA methylation, primarily occurring at cytosine-guanine dinucleotides (CpG sites), is typically associated with gene silencing. Hypermethylation of CpG islands in promoter regions can repress the transcription of tumor suppressor genes, while hypomethylation of oncogenes can lead to their overexpression. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and accessibility, influencing gene transcription. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin structure, while histone deacetylation, mediated by histone deacetylases (HDACs), leads to chromatin condensation and gene silencing. Histone methylation can have either activating or repressive effects, depending on the specific lysine residue that is methylated. Epigenetic modifications are reversible and can be influenced by environmental factors and cellular signaling pathways. Aberrant epigenetic patterns are frequently observed in cancer cells and contribute to the dysregulation of gene expression that drives tumor development. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, are being developed to reverse these aberrant epigenetic modifications and restore normal gene expression patterns in cancer cells. [PMID: 20829492]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's innate and adaptive immune responses?",
+    "answer": "Viruses have evolved diverse strategies to evade the host's innate and adaptive immune responses, enabling them to establish persistent infections. To evade innate immunity, viruses can encode proteins that interfere with pattern recognition receptors (PRRs) like TLRs and RIG-I, preventing the activation of downstream signaling pathways and the production of type I interferons (IFNs). Some viruses produce decoy receptors that bind to cytokines or chemokines, neutralizing their activity. Others express proteins that inhibit the complement system, preventing opsonization and lysis of infected cells. To evade adaptive immunity, viruses can undergo antigenic variation, mutating their surface proteins to escape recognition by neutralizing antibodies and cytotoxic T lymphocytes (CTLs). Some viruses downregulate the expression of MHC class I molecules, preventing CTL recognition of infected cells. Others express proteins that suppress T-cell activation or induce T-cell apoptosis. Latency is another mechanism of immune evasion, where viruses enter a dormant state within host cells, minimizing viral gene expression and avoiding immune detection. Understanding these viral immune evasion mechanisms is crucial for developing effective antiviral therapies and vaccines. [PMID: 15247914]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial fluid resuscitation strategy for a patient in septic shock?",
+    "answer": "30 mL/kg of crystalloid solution within the first 3 hours.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does autophagy play in cancer development and treatment?",
+    "answer": "Autophagy, a cellular process involving the degradation and recycling of damaged organelles and misfolded proteins, plays a complex and context-dependent role in cancer development and treatment. In early stages of tumorigenesis, autophagy can act as a tumor suppressor mechanism by removing damaged mitochondria and preventing the accumulation of reactive oxygen species (ROS) that can promote DNA damage and genomic instability. Autophagy can also eliminate pre-cancerous cells through selective degradation of oncogenic proteins or organelles. However, in established tumors, autophagy can promote cancer cell survival and growth by providing nutrients and energy during metabolic stress, such as hypoxia or nutrient deprivation. Autophagy can also protect cancer cells from the cytotoxic effects of chemotherapy and radiation by removing damaged organelles and proteins. Furthermore, autophagy can contribute to metastasis by promoting cancer cell migration and invasion. The role of autophagy in cancer treatment is equally complex. While inhibiting autophagy can enhance the efficacy of certain chemotherapeutic agents, inducing autophagy can also be beneficial in some contexts by promoting cancer cell death or sensitizing cancer cells to therapy. Therefore, the optimal strategy for modulating autophagy in cancer treatment depends on the specific type of cancer and the therapeutic context. [PMID: 24997407]",
+    "persona": "Researcher"
+  }
+]

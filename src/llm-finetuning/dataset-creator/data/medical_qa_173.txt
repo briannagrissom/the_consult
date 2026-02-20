@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV; may repeat every 3-5 minutes to a maximum of 3mg. Consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR gene lead to resistance to tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Activating mutations in EGFR, such as exon 19 deletions or L858R point mutations, sensitize NSCLC cells to EGFR-TKIs like gefitinib and erlotinib. However, acquired resistance invariably develops, most commonly via the T790M mutation in EGFR exon 20. This mutation sterically hinders TKI binding by increasing the affinity of EGFR for ATP, effectively negating the inhibitory effects of first and second-generation TKIs. Additionally, T790M promotes EGFR dimerization and autophosphorylation even in the presence of TKI. Other resistance mechanisms include bypass signaling through MET amplification or activation of downstream pathways like PI3K/AKT, which restores cell survival independent of EGFR signaling. Transformation to small cell lung cancer and histologic changes are also reported. Third-generation TKIs like osimertinib were designed to overcome T790M-mediated resistance by covalently binding to the mutant EGFR protein; however, resistance to osimertinib can subsequently emerge through mechanisms such as C797S mutations or activation of bypass pathways. Comprehensive genomic profiling is essential for identifying resistance mechanisms and guiding subsequent treatment strategies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (double), diabetes mellitus, prior stroke or TIA or thromboembolism (double), vascular disease, age 65-74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in IBD pathogenesis through complex interactions with the host immune system and intestinal barrier. Dysbiosis, characterized by decreased microbial diversity and altered composition (e.g., reduced Firmicutes and increased Proteobacteria), disrupts the delicate balance between pro-inflammatory and tolerogenic responses. Certain pathobionts, such as adherent-invasive Escherichia coli (AIEC) and some strains of Clostridium difficile, can exacerbate inflammation by triggering excessive activation of innate immune cells, including macrophages and neutrophils, via pattern recognition receptors like TLR4 and NOD2. These pathobionts can also compromise the intestinal barrier by disrupting tight junction proteins and increasing epithelial permeability. Conversely, beneficial commensal bacteria, such as Faecalibacterium prausnitzii, produce short-chain fatty acids (SCFAs) like butyrate, which promote intestinal epithelial cell health, enhance barrier function, and suppress inflammation by inhibiting histone deacetylases and modulating cytokine production. Imbalances in the microbiome can lead to increased antigen presentation, T-cell activation, and production of pro-inflammatory cytokines like TNF-α and IL-17, driving chronic inflammation in the gut. Furthermore, microbial metabolites can directly influence immune cell differentiation and function, shaping the overall inflammatory milieu. Therapeutic strategies aimed at modulating the gut microbiome, such as fecal microbiota transplantation (FMT) and targeted dietary interventions, hold promise for restoring microbial balance and alleviating IBD symptoms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a healthy adult female?",
+    "answer": "Nitrofurantoin 100mg BID for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) 160/800mg BID for 3 days or fosfomycin 3g single dose, considering local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic hyperglycemia contribute to the development of microvascular complications in diabetes mellitus?",
+    "answer": "Chronic hyperglycemia induces microvascular damage through several interconnected mechanisms. Increased glucose flux through the polyol pathway leads to accumulation of sorbitol and fructose, which can disrupt cellular osmotic balance and contribute to cellular dysfunction, particularly in retinal pericytes and peripheral nerve cells. Hyperglycemia also promotes the non-enzymatic glycation of proteins and lipids, forming advanced glycation end-products (AGEs). AGEs bind to receptors on endothelial cells, immune cells, and other tissues, triggering oxidative stress, inflammation, and altered gene expression. Increased production of reactive oxygen species (ROS) from mitochondrial dysfunction and NADPH oxidase activation further contributes to endothelial damage and impaired vasodilation. Activation of protein kinase C (PKC) isoforms by hyperglycemia leads to increased production of vasoconstrictors, extracellular matrix proteins, and pro-inflammatory cytokines. These pathways collectively contribute to basement membrane thickening, increased vascular permeability, impaired angiogenesis, and endothelial dysfunction in the retina (diabetic retinopathy), kidneys (diabetic nephropathy), and peripheral nerves (diabetic neuropathy). Genetic predisposition and other risk factors, such as hypertension and dyslipidemia, can further exacerbate these microvascular complications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (azithromycin or clarithromycin) if local macrolide resistance is <25%, per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms underlying the development of Alzheimer's disease (AD)?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves a complex interplay of genetic, environmental, and age-related factors leading to neurodegeneration. The amyloid cascade hypothesis posits that accumulation of amyloid-beta (Aβ) plaques, derived from amyloid precursor protein (APP) processing, is a primary initiating event. Aβ plaques trigger a cascade of downstream events, including tau hyperphosphorylation and aggregation into neurofibrillary tangles, synaptic dysfunction, and neuronal loss. Aβ oligomers, rather than plaques, are thought to be the most neurotoxic species, disrupting synaptic plasticity and inducing oxidative stress and inflammation. Tau pathology spreads throughout the brain in a predictable pattern, correlating with cognitive decline. Genetic mutations in APP, presenilin-1 (PSEN1), and presenilin-2 (PSEN2) increase Aβ production and are associated with early-onset familial AD. ApoE4, the major genetic risk factor for late-onset AD, impairs Aβ clearance and promotes its aggregation. Neuroinflammation, involving activation of microglia and astrocytes, contributes to neuronal damage through the release of pro-inflammatory cytokines and reactive oxygen species. Mitochondrial dysfunction, impaired glucose metabolism, and vascular abnormalities also play significant roles in AD pathogenesis. The complex interplay of these mechanisms ultimately leads to synaptic loss, neuronal death, and progressive cognitive impairment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, or annual fecal immunochemical test (FIT), or multi-targeted stool DNA test every 3 years, or CT colonography every 5 years, or flexible sigmoidoscopy every 5 years, per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally suppress T-cell activation and effector function. CTLA-4, expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands (CD80/CD86) on antigen-presenting cells (APCs). By blocking CTLA-4, anti-CTLA-4 antibodies enhance T-cell activation and proliferation, particularly in the early stages of T-cell priming in lymph nodes. PD-1, expressed on activated T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells within the tumor microenvironment. PD-1 signaling inhibits T-cell effector function, promotes T-cell exhaustion, and induces T-cell apoptosis. Anti-PD-1/PD-L1 antibodies block this interaction, reinvigorating T cells and allowing them to effectively target and kill tumor cells. Checkpoint inhibitors can unleash pre-existing anti-tumor T-cell responses and promote the development of new anti-tumor immunity. However, checkpoint blockade can also lead to immune-related adverse events (irAEs) due to the activation of autoreactive T cells. Combination strategies targeting multiple checkpoints or combining checkpoint inhibitors with other immunotherapies, such as adoptive cell therapy or oncolytic viruses, are being explored to further enhance anti-tumor immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute myocardial infarction with ST-segment elevation (STEMI)?",
+    "answer": "Aspirin, oxygen if SpO2 <90%, nitroglycerin, morphine if needed, and urgent reperfusion therapy (primary percutaneous coronary intervention (PCI) or fibrinolysis) per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in cancer metastasis?",
+    "answer": "Cancer metastasis involves a complex series of steps regulated by multiple signaling pathways. Epithelial-mesenchymal transition (EMT) is a crucial process that enables cancer cells to detach from the primary tumor and invade surrounding tissues. EMT is driven by transcription factors such as Snail, Twist, and ZEB1, which are activated by signaling pathways including TGF-β, Wnt, and Notch. These transcription factors repress epithelial markers like E-cadherin and promote mesenchymal markers like vimentin and N-cadherin. The PI3K/AKT/mTOR pathway regulates cell survival, proliferation, and migration, and is frequently activated in metastatic cancer cells. The MAPK pathway, including ERK and JNK, also promotes cell proliferation, survival, and invasion. Chemokine receptors, such as CXCR4 and CCR7, guide cancer cells to specific metastatic sites by responding to chemokine gradients. Matrix metalloproteinases (MMPs) degrade the extracellular matrix, facilitating cancer cell invasion and migration. Angiogenesis, stimulated by VEGF and other factors, provides nutrients and oxygen to metastatic tumors. The Hippo pathway, which regulates cell growth and organ size, can also influence metastasis by modulating the expression of genes involved in cell adhesion and migration. Crosstalk between these signaling pathways allows cancer cells to adapt to the changing microenvironment during metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time episode of gout?",
+    "answer": "NSAIDs (e.g., ibuprofen, naproxen), colchicine, or corticosteroids (oral or intra-articular) per ACR guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the hepatitis B virus (HBV) evade the host immune system?",
+    "answer": "Hepatitis B virus (HBV) employs multiple strategies to evade the host immune system and establish chronic infection. HBV replicates within hepatocytes without causing direct cytopathic effects, allowing the virus to persist without triggering immediate cell death. HBV encodes several proteins that interfere with the host's innate and adaptive immune responses. The HBV core antigen (HBcAg) can suppress the production of interferon (IFN), a key antiviral cytokine. The HBV polymerase (Pol) lacks proofreading activity, leading to high rates of mutation and the generation of viral variants that can escape antibody neutralization and T-cell recognition. The hepatitis B e antigen (HBeAg) can induce immune tolerance by suppressing T-cell responses and promoting the development of regulatory T cells (Tregs). HBV can also establish a covalently closed circular DNA (cccDNA) within the nucleus of infected hepatocytes, which serves as a persistent reservoir for viral replication and is resistant to antiviral drugs. The immune response to HBV can also contribute to liver damage, as cytotoxic T lymphocytes (CTLs) kill infected hepatocytes. However, the virus can persist even in the presence of a strong CTL response by inducing T-cell exhaustion and functional impairment. These immune evasion mechanisms contribute to the high rate of chronic HBV infection and the difficulty in achieving viral clearance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for patients on warfarin with atrial fibrillation?",
+    "answer": "2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does inflammation play in the development and progression of atherosclerosis?",
+    "answer": "Inflammation is a critical driver of atherosclerosis development and progression. The process begins with endothelial dysfunction, triggered by risk factors like hyperlipidemia, hypertension, and smoking. This leads to increased endothelial permeability and recruitment of monocytes into the arterial intima. Within the intima, monocytes differentiate into macrophages, which engulf modified LDL (e.g., oxidized LDL) and become foam cells, a hallmark of early atherosclerotic lesions. Macrophages secrete pro-inflammatory cytokines, such as TNF-α, IL-1β, and IL-6, which further recruit immune cells and promote endothelial activation. T cells, particularly Th1 cells, also infiltrate the intima and contribute to inflammation by releasing IFN-γ, which activates macrophages and promotes plaque instability. Inflammatory mediators stimulate the production of adhesion molecules on endothelial cells, facilitating the recruitment of more immune cells. Chronic inflammation leads to plaque growth, lipid accumulation, and extracellular matrix remodeling. Advanced plaques can become unstable and prone to rupture, leading to thrombosis and acute cardiovascular events. C-reactive protein (CRP), an acute-phase protein produced by the liver in response to inflammation, is a marker of systemic inflammation and is associated with increased cardiovascular risk. Therapeutic strategies targeting inflammation, such as statins and anti-inflammatory drugs like colchicine, have shown promise in reducing cardiovascular events.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated hypertension in a patient with type 2 diabetes?",
+    "answer": "ACE inhibitor or ARB, per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses exploit host cell machinery for replication?",
+    "answer": "Viruses, being obligate intracellular parasites, rely heavily on host cell machinery for their replication. They exploit a wide range of host cell processes to synthesize viral proteins, replicate their genomes, and assemble new virions. First, viruses must attach to the host cell surface via specific receptor interactions, often using host cell surface proteins. After entry, many viruses utilize the host cell's ribosomes and translation machinery to synthesize viral proteins. Some viruses, such as retroviruses, integrate their genomes into the host cell's DNA using viral enzymes like integrase, thereby hijacking the host's transcriptional machinery for viral gene expression. DNA viruses often utilize the host cell's DNA polymerase for genome replication, while RNA viruses encode their own RNA-dependent RNA polymerases. Viruses also exploit host cell metabolic pathways to obtain the necessary building blocks and energy for replication. Many viruses manipulate host cell signaling pathways to create a favorable environment for replication and to evade antiviral defenses. For example, some viruses inhibit the interferon response or block apoptosis. Finally, viruses utilize host cell membrane systems for assembly and egress, often hijacking the endoplasmic reticulum and Golgi apparatus for viral protein processing and packaging. The specific mechanisms of exploitation vary depending on the virus and the host cell type, but the fundamental principle remains the same: viruses are masters of cellular parasitism, leveraging host cell machinery to propagate themselves.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the preferred treatment for uncomplicated cellulitis?",
+    "answer": "Oral antibiotics covering streptococci (e.g., cephalexin, dicloxacillin, clindamycin).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 lead to immune-related adverse events (irAEs)?",
+    "answer": "Immunotherapy targeting the PD-1/PD-L1 pathway can lead to immune-related adverse events (irAEs) due to the broad upregulation of immune activity against both tumor cells and normal tissues. PD-1 and PD-L1 normally function as key regulators of immune tolerance, preventing excessive immune responses and autoimmunity. By blocking this inhibitory pathway, PD-1/PD-L1 inhibitors unleash T-cell activity, allowing them to attack cancer cells but also increasing the risk of autoimmunity. The specific mechanisms underlying irAEs are complex and not fully understood, but likely involve the activation of autoreactive T cells that target specific organs. Genetic predisposition, pre-existing autoimmune conditions, and the presence of neoantigens in normal tissues may contribute to the development of irAEs. Common irAEs include colitis, pneumonitis, hepatitis, endocrinopathies (e.g., thyroiditis, hypophysitis), and dermatologic toxicities. The severity of irAEs can range from mild to life-threatening, and management often involves immunosuppression with corticosteroids or other immunomodulatory agents. The specific organ involved and the severity of the irAE dictate the choice and duration of immunosuppressive therapy. While irAEs can be challenging to manage, they often correlate with improved anti-tumor responses, suggesting that they are a consequence of the systemic immune activation induced by PD-1/PD-L1 blockade.",
+    "persona": "Researcher"
+  }
+]

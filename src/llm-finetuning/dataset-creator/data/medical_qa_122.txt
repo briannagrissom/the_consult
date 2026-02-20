@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and what are the mechanisms of resistance to KRAS inhibitors?",
+    "answer": "Mutations in KRAS, particularly at codon 12, 13, or 61, lock the protein in its active GTP-bound state, leading to constitutive activation of downstream signaling pathways, including the MAPK and PI3K/AKT pathways. This results in uncontrolled cell proliferation, survival, and metastasis. KRAS mutations are prevalent in many cancers, including lung, colorectal, and pancreatic cancers. Resistance to KRAS inhibitors, such as sotorasib and adagrasib, can arise through several mechanisms. One common mechanism is the emergence of secondary KRAS mutations that reduce inhibitor binding. For example, the KRAS G12C mutation is specifically targeted by these inhibitors, but mutations such as KRAS Y96C can sterically hinder inhibitor binding. Another resistance mechanism involves activation of bypass signaling pathways. For instance, activation of receptor tyrosine kinases (RTKs) like EGFR or HER2 can restore MAPK signaling even in the presence of KRAS inhibition. Similarly, mutations in downstream effectors like BRAF or MEK can bypass the need for KRAS signaling. Additionally, epigenetic modifications and changes in cellular metabolism can contribute to resistance by altering the expression of genes involved in cell survival and proliferation. Combination therapies targeting multiple pathways are being explored to overcome these resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for heart failure with preserved ejection fraction (HFpEF)?",
+    "answer": "Symptoms/signs of HF, LVEF ≥50%, elevated natriuretic peptides, and relevant structural heart disease or diastolic dysfunction per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapies?",
+    "answer": "The gut microbiome significantly influences both the efficacy and toxicity of cancer immunotherapies, particularly immune checkpoint inhibitors (ICIs). Specific bacterial species can enhance anti-tumor immunity by modulating the host's immune response. For example, bacteria like *Akkermansia muciniphila* and certain *Bifidobacterium* species have been associated with improved responses to anti-PD-1 therapy in melanoma and other cancers [PMID:30224673]. These bacteria can enhance the trafficking of immune cells to the tumor microenvironment and promote the activation of cytotoxic T cells. The mechanisms involve the production of metabolites like short-chain fatty acids (SCFAs) such as butyrate, which can enhance T cell function and reduce inflammation. Conversely, other bacterial species can promote immune-related adverse events (irAEs). For instance, *Enterococcus faecalis* has been linked to increased risk of colitis during ICI therapy. Dysbiosis, or an imbalance in the gut microbiome, can disrupt immune homeostasis and lead to systemic inflammation, contributing to irAEs. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being explored to improve the efficacy and reduce the toxicity of cancer immunotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with HPV testing?",
+    "answer": "Every 5 years for women aged 30-65 with HPV testing alone per ASCCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic regulation influence the development and progression of Alzheimer's disease?",
+    "answer": "Epigenetic mechanisms, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in the development and progression of Alzheimer's disease (AD). DNA methylation, particularly at CpG dinucleotides, can alter gene expression patterns associated with AD-related pathways. For example, hypermethylation of genes involved in synaptic plasticity and neurotrophic signaling has been observed in AD brains. Histone modifications, such as acetylation and methylation, regulate chromatin structure and gene accessibility. Aberrant histone acetylation patterns have been linked to altered expression of genes involved in amyloid-beta production and tau phosphorylation. Non-coding RNAs, including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression at the post-transcriptional level. Several miRNAs have been identified as key regulators of AD-related genes, such as BACE1 (beta-secretase 1) and APP (amyloid precursor protein). LncRNAs can also modulate gene expression by interacting with chromatin-modifying complexes or transcription factors. Epigenetic changes can be influenced by environmental factors, such as diet and lifestyle, which may contribute to the risk of developing AD. Targeting epigenetic mechanisms may offer novel therapeutic strategies for preventing or treating AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment duration for latent tuberculosis infection (LTBI)?",
+    "answer": "Isoniazid for 6 or 9 months or rifampin for 4 months per CDC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of type 2 diabetes, and how do they contribute to insulin resistance?",
+    "answer": "Several key signaling pathways are implicated in the pathogenesis of type 2 diabetes (T2D) and contribute to insulin resistance. The insulin signaling pathway itself is central, involving the binding of insulin to its receptor, leading to receptor autophosphorylation and activation of downstream signaling cascades. Key components include insulin receptor substrate (IRS) proteins and phosphatidylinositol 3-kinase (PI3K), which activate Akt, a serine/threonine kinase. Akt promotes glucose uptake, glycogen synthesis, and inhibition of gluconeogenesis. In T2D, chronic overnutrition and inflammation lead to insulin resistance, characterized by impaired insulin signaling. Several mechanisms contribute, including serine phosphorylation of IRS proteins by kinases such as JNK and IKKβ, which inhibits insulin signaling. Elevated levels of free fatty acids (FFAs) activate inflammatory pathways and promote lipotoxicity, further impairing insulin signaling. Additionally, endoplasmic reticulum (ER) stress and mitochondrial dysfunction contribute to insulin resistance by disrupting cellular homeostasis and activating stress-related signaling pathways. These pathways collectively impair insulin-stimulated glucose uptake and utilization, leading to hyperglycemia and T2D.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells manipulate the tumor microenvironment to promote metastasis, and what are the key molecules involved?",
+    "answer": "Cancer cells actively manipulate the tumor microenvironment (TME) to facilitate metastasis through several mechanisms. They secrete factors that promote angiogenesis, creating new blood vessels to supply nutrients and oxygen to the tumor and provide routes for cancer cell dissemination. Vascular endothelial growth factor (VEGF) is a key molecule involved in angiogenesis. Cancer cells also remodel the extracellular matrix (ECM) by secreting matrix metalloproteinases (MMPs) that degrade the ECM, allowing cancer cells to invade surrounding tissues. Additionally, cancer cells recruit and educate immune cells, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), to suppress anti-tumor immunity and promote tumor growth and metastasis. These immune cells secrete factors that promote angiogenesis, ECM remodeling, and immune suppression. Cancer cells also undergo epithelial-mesenchymal transition (EMT), a process in which they lose cell-cell adhesion and gain migratory and invasive properties. EMT is regulated by transcription factors such as Snail, Slug, and Twist, and is associated with increased expression of mesenchymal markers such as vimentin and decreased expression of epithelial markers such as E-cadherin. These changes collectively enable cancer cells to detach from the primary tumor, invade surrounding tissues, enter the bloodstream, and establish metastases in distant organs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for generalized anxiety disorder (GAD)?",
+    "answer": "SSRI or SNRI, or cognitive behavioral therapy (CBT) per APA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of antibiotic resistance in bacteria, and how can these mechanisms be targeted to develop new antibiotics?",
+    "answer": "Bacteria develop antibiotic resistance through several molecular mechanisms. These include enzymatic inactivation of antibiotics, alteration of the antibiotic target, decreased permeability of the bacterial cell wall, and active efflux of the antibiotic. Enzymatic inactivation involves the production of enzymes that degrade or modify antibiotics, rendering them inactive. Examples include beta-lactamases, which hydrolyze beta-lactam antibiotics, and aminoglycoside-modifying enzymes. Alteration of the antibiotic target involves mutations in the bacterial protein or RNA that is targeted by the antibiotic, reducing its binding affinity. Examples include mutations in ribosomal RNA that confer resistance to macrolides and tetracyclines. Decreased permeability involves changes in the bacterial cell wall that reduce the entry of antibiotics. This can occur through loss of porins or changes in the lipid composition of the cell membrane. Active efflux involves the production of efflux pumps that actively transport antibiotics out of the bacterial cell, reducing their intracellular concentration. Targeting these resistance mechanisms can lead to the development of new antibiotics. For example, beta-lactamase inhibitors, such as clavulanate and tazobactam, can be used in combination with beta-lactam antibiotics to overcome beta-lactamase-mediated resistance. Inhibitors of efflux pumps are also being developed to increase the intracellular concentration of antibiotics. Another approach is to develop antibiotics that target essential bacterial processes that are less prone to resistance, such as bacterial cell wall synthesis or DNA replication.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute ischemic stroke?",
+    "answer": "Intravenous thrombolysis with alteplase or mechanical thrombectomy per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of atherosclerosis, and what are the key inflammatory mediators involved?",
+    "answer": "Chronic inflammation plays a central role in the development of atherosclerosis, a disease characterized by the buildup of plaque in the arteries. Inflammation promotes the initiation, progression, and eventual rupture of atherosclerotic plaques. The process begins with endothelial dysfunction, triggered by factors such as hyperlipidemia, hypertension, and smoking. Damaged endothelial cells express adhesion molecules, such as VCAM-1 and ICAM-1, which recruit circulating monocytes and T lymphocytes to the arterial wall. Monocytes differentiate into macrophages, which engulf oxidized LDL cholesterol, forming foam cells, a hallmark of early atherosclerosis. Macrophages secrete pro-inflammatory cytokines, such as TNF-α, IL-1β, and IL-6, which amplify the inflammatory response and promote the recruitment of more immune cells. These cytokines also stimulate the production of reactive oxygen species (ROS), which further damage endothelial cells and promote LDL oxidation. T lymphocytes, particularly Th1 cells, secrete IFN-γ, which activates macrophages and promotes the production of pro-inflammatory mediators. Chronic inflammation leads to the formation of a fibrous cap over the atherosclerotic plaque, which is prone to rupture. Plaque rupture triggers thrombosis, leading to acute cardiovascular events such as myocardial infarction and stroke. Targeting inflammatory pathways may offer therapeutic strategies for preventing or treating atherosclerosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial management for a patient with diabetic ketoacidosis (DKA)?",
+    "answer": "IV fluids, insulin infusion, and electrolyte replacement per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication in cancer, and how can they be targeted for therapeutic purposes?",
+    "answer": "Exosomes are small extracellular vesicles that mediate intercellular communication in cancer by transferring proteins, nucleic acids, and lipids between cells. Cancer cells release exosomes that can influence the tumor microenvironment, promote angiogenesis, suppress the immune response, and facilitate metastasis. Exosomes can deliver oncogenic proteins and microRNAs to recipient cells, altering their gene expression and behavior. For example, exosomes released by cancer cells can transfer microRNAs that promote angiogenesis to endothelial cells, enhancing the formation of new blood vessels. Exosomes can also suppress the immune response by delivering immunosuppressive molecules, such as PD-L1, to immune cells, inhibiting their anti-tumor activity. Additionally, exosomes can facilitate metastasis by transferring adhesion molecules and proteases to recipient cells, promoting their migration and invasion. Targeting exosomes may offer therapeutic strategies for cancer treatment. One approach is to inhibit exosome biogenesis or release using drugs that target proteins involved in exosome formation. Another approach is to block exosome uptake by recipient cells using antibodies or inhibitors that target exosome receptors. Additionally, exosomes can be engineered to deliver therapeutic agents, such as chemotherapy drugs or siRNAs, specifically to cancer cells. These approaches hold promise for developing novel cancer therapies that target the complex interactions between cancer cells and the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis?",
+    "answer": "Fluoroquinolones or trimethoprim-sulfamethoxazole per IDSA guidelines, considering local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer, and what are the mechanisms of homologous recombination repair deficiency?",
+    "answer": "Mutations in BRCA1 and BRCA2 genes significantly increase the risk of breast and ovarian cancer by disrupting homologous recombination repair (HRR), a critical DNA repair pathway. BRCA1 and BRCA2 proteins are essential for HRR, which repairs double-strand DNA breaks accurately. BRCA1 forms a complex with other proteins to facilitate DNA end resection, a crucial step in HRR. BRCA2 directly binds to and stabilizes RAD51, a protein that facilitates strand invasion and DNA synthesis during HRR. Mutations in BRCA1 or BRCA2 lead to HRR deficiency, resulting in the accumulation of DNA damage and genomic instability. This instability promotes tumorigenesis by increasing the likelihood of mutations and chromosomal rearrangements. Cells with HRR deficiency are particularly sensitive to DNA-damaging agents, such as platinum-based chemotherapy and PARP inhibitors, because they are unable to repair the DNA damage induced by these agents. PARP inhibitors block the repair of single-strand DNA breaks, which, when unrepaired, lead to double-strand breaks. In cells with HRR deficiency, these double-strand breaks cannot be repaired, leading to cell death. This principle underlies the use of PARP inhibitors in BRCA-mutated breast and ovarian cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for major depressive disorder (MDD)?",
+    "answer": "SSRI or SNRI, or psychotherapy (e.g., CBT) per APA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system, and how can these mechanisms be targeted to develop new antiviral therapies?",
+    "answer": "Viruses employ various strategies to evade the host immune system, allowing them to establish persistent infections. One common mechanism is the suppression of interferon (IFN) signaling. Many viruses encode proteins that interfere with the production or signaling of type I IFNs, which are critical for antiviral defense. For example, some viruses inhibit the activation of transcription factors, such as IRF3 and NF-κB, that are required for IFN gene expression. Other viruses encode proteins that block the signaling pathways downstream of the IFN receptor, preventing the activation of antiviral genes. Viruses also evade the immune system by interfering with antigen presentation. Some viruses downregulate the expression of MHC class I molecules, which present viral antigens to cytotoxic T lymphocytes (CTLs). Others express proteins that block the transport of viral peptides into the endoplasmic reticulum, preventing their loading onto MHC class I molecules. Additionally, viruses can evade antibody responses by undergoing rapid mutation, generating antigenic variants that are no longer recognized by existing antibodies. Targeting these immune evasion mechanisms may offer therapeutic strategies for antiviral therapy. For example, drugs that enhance IFN signaling or block viral proteins that interfere with antigen presentation could boost the host's antiviral response. Another approach is to develop broadly neutralizing antibodies that target conserved viral epitopes, making them less susceptible to viral escape.",
+    "persona": "Researcher"
+  }
+]

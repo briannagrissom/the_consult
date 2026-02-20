@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in a healthy adult?",
+    "answer": "Outpatient treatment with amoxicillin or doxycycline; consider macrolide if local resistance is low per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone acetylation/methylation, and non-coding RNAs, alter gene expression patterns without changing the underlying DNA sequence. Aberrant DNA methylation, typically hypermethylation of tumor suppressor gene promoters and global hypomethylation, can silence crucial regulatory genes. Histone modifications influence chromatin accessibility and gene transcription; for instance, histone deacetylases (HDACs) remove acetyl groups, leading to chromatin condensation and transcriptional repression of genes involved in cell cycle control, apoptosis, and DNA repair. Dysregulation of non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can modulate gene expression networks affecting cell proliferation, metastasis, and drug resistance. These epigenetic alterations contribute to cancer development by disrupting normal cellular processes, enabling tumor cells to evade growth control and immune surveillance. They also play a role in cancer progression by promoting angiogenesis, invasion, and metastasis. Epigenetic modifications are reversible, making them attractive targets for therapeutic intervention with drugs like DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, which can restore normal gene expression patterns and suppress tumor growth.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why does chronic inflammation promote cancer development?",
+    "answer": "Chronic inflammation generates a microenvironment rich in reactive oxygen species (ROS), cytokines (e.g., TNF-α, IL-6, IL-1β), chemokines, and growth factors that collectively promote tumorigenesis. ROS can directly damage DNA, leading to mutations in oncogenes and tumor suppressor genes. Inflammatory cytokines activate signaling pathways such as NF-κB and STAT3, which enhance cell survival, proliferation, and angiogenesis. Chemokines recruit immune cells, including macrophages and neutrophils, to the tumor site, where they release additional inflammatory mediators and matrix metalloproteinases (MMPs) that facilitate tissue remodeling and metastasis. Growth factors like VEGF and EGF stimulate angiogenesis and cell proliferation. Moreover, chronic inflammation impairs DNA repair mechanisms and suppresses antitumor immunity, creating a permissive environment for tumor development and progression. Specific inflammatory conditions, such as chronic hepatitis B or C virus infection (hepatocellular carcinoma) and inflammatory bowel disease (colorectal cancer), markedly increase cancer risk due to prolonged exposure to these inflammatory mediators and cellular stress signals.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should acute uncomplicated cystitis in a premenopausal woman be treated?",
+    "answer": "Typically with nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days, consider fosfomycin as alternative per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "Immune checkpoint inhibitors (ICIs) work by blocking inhibitory signaling pathways that suppress T-cell activity, thereby reinvigorating antitumor immunity. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are key immune checkpoints that negatively regulate T-cell activation. CTLA-4, expressed on T cells, competes with CD28 for binding to B7 ligands on antigen-presenting cells (APCs), inhibiting T-cell activation and promoting immune tolerance. Anti-CTLA-4 antibodies block this interaction, enhancing T-cell priming and activation in the lymph nodes. PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells in the tumor microenvironment. PD-1 ligation inhibits T-cell effector functions, promoting immune evasion by tumor cells. Anti-PD-1 and anti-PD-L1 antibodies block this interaction, restoring T-cell activity and enabling them to recognize and kill tumor cells. Other emerging immune checkpoints, such as LAG-3 and TIM-3, are also being targeted to further enhance antitumor immunity, often in combination with anti-PD-1/PD-L1 therapy. The efficacy of ICIs depends on the pre-existing immune infiltrate in the tumor microenvironment and the expression levels of checkpoint ligands on tumor cells and immune cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are first-line; consider antiemetics if nausea is present per AHS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination (HR). They encode proteins that form a complex responsible for repairing double-strand DNA breaks, which can arise from various sources, including normal metabolic processes and exposure to DNA-damaging agents. Mutations in BRCA1 or BRCA2 impair the HR pathway, leading to genomic instability and an increased accumulation of DNA damage. Cells with unrepaired DNA damage are more likely to undergo malignant transformation, resulting in cancer development. BRCA1 mutations are often associated with triple-negative breast cancer and high-grade serous ovarian cancer, while BRCA2 mutations are more commonly linked to estrogen receptor-positive breast cancer. Cells lacking functional BRCA1 or BRCA2 rely on alternative, error-prone DNA repair pathways, such as non-homologous end joining (NHEJ), which can further contribute to genomic instability and tumor evolution. Furthermore, BRCA1 and BRCA2 interact with other DNA repair proteins and cell cycle regulators, highlighting their critical role in maintaining genomic integrity and preventing cancer. Therapeutic strategies targeting DNA repair defects, such as PARP inhibitors, have shown efficacy in BRCA1/2-mutated cancers by exploiting their impaired DNA repair capacity, causing synthetic lethality.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, elevated liver enzymes; rarely, rhabdomyolysis per ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating drug response and toxicity?",
+    "answer": "The gut microbiome plays a significant role in modulating drug response and toxicity through several mechanisms. Gut bacteria can metabolize drugs, either activating or inactivating them, thereby altering their bioavailability and efficacy. For example, the prodrug sulfasalazine is cleaved by gut bacteria to release its active metabolite, 5-aminosalicylic acid (5-ASA), which exerts anti-inflammatory effects in the colon. Similarly, irinotecan, a chemotherapy drug, is detoxified by glucuronidation in the liver, but gut bacteria can reverse this process, generating the toxic metabolite SN-38, which causes severe diarrhea. The gut microbiome also influences drug absorption, distribution, and excretion. Certain bacteria can alter the permeability of the intestinal barrier, affecting drug absorption. Moreover, the gut microbiome produces metabolites, such as short-chain fatty acids (SCFAs), that can modulate host immune responses and influence drug-induced inflammation. Dysbiosis, or an imbalance in the gut microbiome, can disrupt these processes, leading to altered drug responses and increased toxicity. For instance, antibiotic-induced dysbiosis can impair the efficacy of immune checkpoint inhibitors and increase the risk of chemotherapy-induced mucositis. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being investigated to improve drug efficacy and reduce toxicity in various clinical settings.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for anaphylaxis?",
+    "answer": "Intramuscular epinephrine, antihistamines, and supportive care; consider oxygen and IV fluids per NIAID guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy differ from traditional chemotherapy in cancer treatment?",
+    "answer": "Traditional chemotherapy directly targets rapidly dividing cells, including cancer cells, but also affects healthy cells, leading to systemic toxicities. Chemotherapy agents induce DNA damage, disrupt cell cycle progression, or interfere with cellular metabolism, resulting in cell death. However, chemotherapy lacks specificity and can cause side effects such as myelosuppression, nausea, and hair loss. Immunotherapy, on the other hand, harnesses the body's own immune system to recognize and attack cancer cells. Immunotherapy agents, such as immune checkpoint inhibitors, CAR T-cell therapy, and oncolytic viruses, enhance antitumor immunity by blocking inhibitory signals, redirecting immune cells to tumor cells, or stimulating immune responses within the tumor microenvironment. Unlike chemotherapy, immunotherapy has the potential to induce durable responses and long-term remission in some patients. However, immunotherapy can also cause immune-related adverse events (irAEs) due to overactivation of the immune system, leading to inflammation in various organs. While chemotherapy primarily targets cancer cells directly, immunotherapy aims to modulate the immune system to target cancer cells indirectly. The choice between chemotherapy and immunotherapy depends on the type and stage of cancer, patient characteristics, and the availability of effective immunotherapeutic agents.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms underlying Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain, leading to neuronal dysfunction and cognitive decline. Amyloid plaques are formed by the aggregation of amyloid-beta (Aβ) peptides, which are derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. Mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2) genes, which encode components of the γ-secretase complex, increase Aβ production and promote plaque formation. Neurofibrillary tangles are composed of hyperphosphorylated tau protein, which normally stabilizes microtubules in neurons. Hyperphosphorylation of tau causes it to detach from microtubules and aggregate into insoluble filaments, disrupting neuronal transport and function. Other contributing factors include neuroinflammation, oxidative stress, mitochondrial dysfunction, and impaired glucose metabolism. Genetic risk factors, such as the APOE4 allele, increase the risk of AD by influencing Aβ clearance and neuroinflammation. The amyloid cascade hypothesis posits that Aβ accumulation triggers a cascade of events, leading to tau pathology, neuronal loss, and cognitive impairment. However, other mechanisms, such as tau pathology and neuroinflammation, may also contribute independently to AD pathogenesis. Therapeutic strategies targeting Aβ production, tau phosphorylation, and neuroinflammation are being developed to prevent or slow the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is deep vein thrombosis (DVT) initially managed?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or low-molecular-weight heparin (LMWH) and warfarin per CHEST guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by delivering various bioactive molecules, including proteins, lipids, mRNAs, and microRNAs (miRNAs), to recipient cells. In cancer, exosomes play a critical role in promoting tumor growth, angiogenesis, immune evasion, and metastasis. Tumor-derived exosomes can transfer oncogenic proteins and nucleic acids to neighboring cells, transforming them into cancer-associated fibroblasts (CAFs) that support tumor growth and progression. Exosomes can also promote angiogenesis by delivering pro-angiogenic factors, such as VEGF and angiopoietin-2, to endothelial cells, stimulating blood vessel formation. Furthermore, exosomes can suppress antitumor immunity by delivering immunosuppressive molecules, such as PD-L1 and TGF-β, to immune cells, inhibiting their activity. Exosomes facilitate cancer metastasis by promoting epithelial-mesenchymal transition (EMT) in tumor cells, enhancing their migratory and invasive properties. They also create a pre-metastatic niche in distant organs by delivering signaling molecules that remodel the extracellular matrix and attract immune cells, preparing the microenvironment for tumor cell colonization. Exosomes are being investigated as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets for inhibiting cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for acute symptomatic hyperkalemia?",
+    "answer": "Calcium gluconate, insulin with glucose, and potassium binders; consider dialysis in severe cases per UpToDate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's immune system?",
+    "answer": "Viruses have evolved diverse strategies to evade the host's immune system, enabling them to establish persistent infections. One common mechanism is antigenic variation, where viruses undergo mutations that alter their surface proteins, such as hemagglutinin and neuraminidase in influenza viruses, allowing them to escape recognition by neutralizing antibodies. Some viruses, like HIV, infect and deplete immune cells, such as CD4+ T cells, impairing the host's ability to mount an effective immune response. Viruses can also suppress the interferon (IFN) response, a critical antiviral defense mechanism, by encoding proteins that inhibit IFN production or signaling. For example, many viruses encode proteins that interfere with the activation of transcription factors like IRF3 and NF-κB, which are essential for IFN gene expression. Viruses can also evade recognition by cytotoxic T lymphocytes (CTLs) by downregulating the expression of major histocompatibility complex (MHC) class I molecules on infected cells, preventing CTLs from recognizing and killing infected cells. Some viruses establish latency, where they remain dormant within host cells without causing active replication, avoiding detection by the immune system. Herpesviruses, such as herpes simplex virus (HSV) and varicella-zoster virus (VZV), establish latency in neurons, while HIV establishes latency in CD4+ T cells. These immune evasion strategies allow viruses to persist in the host and cause chronic infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for warfarin therapy in atrial fibrillation?",
+    "answer": "Typically 2.0 to 3.0 per ACC/AHA/HRS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of insulin resistance in type 2 diabetes?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes, arises from impaired insulin signaling in target tissues, including skeletal muscle, liver, and adipose tissue. Several signaling pathways contribute to the development of insulin resistance. Activation of the insulin receptor (IR) triggers autophosphorylation and recruitment of insulin receptor substrate (IRS) proteins, which activate downstream signaling cascades, including the PI3K/AKT pathway. AKT phosphorylates and activates downstream targets, such as mTORC1 and GSK3, regulating glucose transport, glycogen synthesis, and protein synthesis. In insulin-resistant states, chronic inflammation, excess lipid accumulation, and oxidative stress disrupt insulin signaling. Pro-inflammatory cytokines, such as TNF-α and IL-6, activate serine kinases that phosphorylate IRS proteins at inhibitory sites, impairing their interaction with the IR and disrupting downstream signaling. Excess lipids, such as diacylglycerols (DAGs) and ceramides, also activate serine kinases and inhibit insulin signaling. Oxidative stress generates reactive oxygen species (ROS) that damage cellular components and activate stress signaling pathways, leading to insulin resistance. Furthermore, ER stress, caused by the accumulation of unfolded proteins in the endoplasmic reticulum, activates stress kinases that inhibit insulin signaling. These converging pathways disrupt insulin signaling, impair glucose uptake and metabolism, and contribute to the development of insulin resistance in type 2 diabetes. Therapeutic strategies targeting these pathways, such as AMPK activators and PPAR agonists, can improve insulin sensitivity and glycemic control.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin monohydrate/macrocrystals for 5 days or trimethoprim-sulfamethoxazole for 3 days, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology function at a molecular level?",
+    "answer": "CRISPR-Cas9 is an adaptive immune system in bacteria that has been repurposed for genome editing. It consists of a Cas9 endonuclease and a guide RNA (gRNA) that directs Cas9 to a specific DNA sequence complementary to the gRNA. The gRNA contains a 20-nucleotide sequence that targets a specific site in the genome, adjacent to a Protospacer Adjacent Motif (PAM) sequence (NGG for SpCas9). Once the gRNA guides Cas9 to the target DNA, Cas9 introduces a double-stranded break (DSB). The DSB is then repaired by one of two cellular mechanisms: non-homologous end joining (NHEJ), which is error-prone and can result in insertions or deletions (indels) that disrupt the gene, or homology-directed repair (HDR), which uses a provided DNA template to repair the break, allowing for precise gene editing. The efficiency and specificity of CRISPR-Cas9 can be influenced by factors such as gRNA design, Cas9 variant, and delivery method. Off-target effects remain a concern, but newer high-fidelity Cas9 variants and improved gRNA design algorithms have reduced these risks [PMID: 26282614].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for aspirin use in primary prevention of cardiovascular disease?",
+    "answer": "Aspirin should be used cautiously for primary prevention; consider bleeding risk versus potential benefit, especially in patients >70 years old or at increased bleeding risk, per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of IBD, with dysbiosis—an imbalance in the microbial community—being a hallmark of the disease. In IBD patients, there is often a decrease in microbial diversity and a reduction in beneficial commensal bacteria, such as Firmicutes (e.g., Faecalibacterium prausnitzii), which produce butyrate, a short-chain fatty acid that promotes gut health. Conversely, there is an increase in potentially pathogenic bacteria, such as Escherichia coli and certain Klebsiella species. These changes can disrupt the balance between pro-inflammatory and anti-inflammatory responses in the gut. Specific bacterial metabolites, such as lipopolysaccharide (LPS) from Gram-negative bacteria, can activate Toll-like receptors (TLRs) on immune cells, leading to the production of pro-inflammatory cytokines like TNF-α and IL-6. Additionally, the microbiome can influence the development and function of immune cells in the gut, including T helper cells and regulatory T cells. Genetic factors, environmental factors, and immune responses interact with the microbiome to drive the chronic inflammation seen in IBD. Fecal microbiota transplantation (FMT) and other strategies aimed at modulating the gut microbiome are being investigated as potential therapeutic interventions for IBD [PMID: 23625491].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated in an outpatient setting?",
+    "answer": "Empiric therapy with amoxicillin, doxycycline, or a macrolide (if local resistance <25%) is appropriate per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and sulfonylureas in the treatment of type 2 diabetes mellitus.",
+    "answer": "Metformin and sulfonylureas are both oral hypoglycemic agents used in the treatment of type 2 diabetes mellitus, but they have distinct mechanisms of action. Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis and glycogenolysis. It also improves insulin sensitivity in peripheral tissues by increasing glucose uptake and utilization. Metformin activates AMP-activated protein kinase (AMPK), a key regulator of cellular energy metabolism, which contributes to its beneficial effects. Sulfonylureas, on the other hand, stimulate insulin secretion from pancreatic beta cells by binding to the sulfonylurea receptor (SUR1) on the beta-cell membrane. This binding inhibits ATP-sensitive potassium (KATP) channels, leading to depolarization of the beta-cell membrane, calcium influx, and insulin release. While both drugs lower blood glucose levels, they have different effects on insulin secretion and insulin sensitivity. Metformin does not typically cause hypoglycemia when used alone, whereas sulfonylureas can lead to hypoglycemia, especially in elderly patients or those with impaired renal function. Metformin also has a more favorable effect on weight compared to sulfonylureas, which can sometimes cause weight gain [PMID: 17989449].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with HPV testing?",
+    "answer": "Screen every 5 years with high-risk HPV testing alone or co-testing (HPV and Pap test) per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do immune checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Immune checkpoint inhibitors (ICIs) enhance anti-tumor immunity by blocking inhibitory pathways that normally suppress T cell activation and function. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are two key immune checkpoints targeted by ICIs. CTLA-4, expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs). By blocking this interaction, anti-CTLA-4 antibodies enhance T cell activation and proliferation. PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often expressed on tumor cells and other cells in the tumor microenvironment. This interaction inhibits T cell effector function and promotes immune evasion. Anti-PD-1 and anti-PD-L1 antibodies block this interaction, restoring T cell activity and promoting tumor cell killing. ICIs can lead to durable responses in some patients with advanced cancer, but they can also cause immune-related adverse events (irAEs) due to the activation of the immune system against normal tissues. Biomarkers, such as PD-L1 expression and tumor mutational burden (TMB), are being used to predict response to ICIs [PMID: 22422678].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for suspected anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Several signaling pathways play critical roles in the development and progression of Alzheimer's disease (AD). The amyloid cascade hypothesis posits that the accumulation of amyloid-beta (Aβ) plaques triggers a cascade of events leading to neuronal dysfunction and death. Aβ is produced by the sequential cleavage of amyloid precursor protein (APP) by β-secretase (BACE1) and γ-secretase. Aberrant processing of APP can lead to increased production of Aβ42, which is more prone to aggregation. The accumulation of Aβ plaques activates microglia and astrocytes, leading to chronic inflammation and the release of pro-inflammatory cytokines. Tau phosphorylation and aggregation into neurofibrillary tangles (NFTs) are another hallmark of AD. Hyperphosphorylated tau disrupts microtubule stability, impairing axonal transport and neuronal function. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are key kinases involved in tau phosphorylation. Furthermore, impaired insulin signaling, oxidative stress, and mitochondrial dysfunction contribute to the pathogenesis of AD. These pathways are interconnected and contribute to the complex pathophysiology of the disease [PMID: 28886326].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute otitis media in children?",
+    "answer": "Amoxicillin is the first-line antibiotic, unless the child has received amoxicillin in the past 30 days, has concurrent purulent conjunctivitis, or is allergic to penicillin, according to AAP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does targeted therapy differ from traditional chemotherapy in cancer treatment?",
+    "answer": "Targeted therapy and traditional chemotherapy are two distinct approaches to cancer treatment. Traditional chemotherapy involves the use of cytotoxic drugs that kill rapidly dividing cells, including cancer cells, but also affecting normal cells such as those in the bone marrow, hair follicles, and gastrointestinal tract, leading to significant side effects. These drugs typically target DNA replication or cell division processes. Targeted therapy, on the other hand, involves the use of drugs that specifically target molecules or pathways that are critical for cancer cell growth, survival, and spread. These targets can include specific proteins, such as growth factor receptors (e.g., EGFR, HER2), signaling molecules (e.g., BRAF, PI3K), or angiogenic factors (e.g., VEGF). Targeted therapies are designed to selectively kill or inhibit cancer cells while sparing normal cells, which ideally results in fewer side effects. However, targeted therapies can still cause side effects, and cancer cells can develop resistance to these drugs over time. Examples of targeted therapies include tyrosine kinase inhibitors (TKIs) and monoclonal antibodies [PMID: 21487349].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated urinary tract infection in pregnancy?",
+    "answer": "Nitrofurantoin or amoxicillin-clavulanate are often used; avoid trimethoprim-sulfamethoxazole in the first trimester per ACOG guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system, allowing them to establish persistent infections. One common mechanism is antigenic variation, where viruses mutate their surface proteins, such as hemagglutinin and neuraminidase in influenza virus, to evade neutralizing antibodies. Viruses can also interfere with the interferon (IFN) response, a critical antiviral defense mechanism. Some viruses encode proteins that inhibit IFN production or signaling, preventing the induction of antiviral genes. Another strategy is to inhibit antigen presentation by interfering with the processing and presentation of viral antigens on MHC class I molecules. Viruses can also directly suppress immune cell function by producing cytokines that inhibit T cell activation or by inducing apoptosis of immune cells. Furthermore, some viruses establish latency, where they remain dormant within host cells, avoiding detection by the immune system. Examples include herpesviruses, which can reactivate under certain conditions. Understanding these viral evasion mechanisms is crucial for developing effective antiviral therapies and vaccines [PMID: 15608225].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should allergic rhinitis be initially managed?",
+    "answer": "Intranasal corticosteroids and/or oral antihistamines are first-line treatments.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the development of insulin resistance in type 2 diabetes?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes, arises from a complex interplay of genetic and environmental factors that impair the ability of insulin to effectively lower blood glucose. At the molecular level, several mechanisms contribute to insulin resistance in target tissues such as skeletal muscle, liver, and adipose tissue. Impaired insulin signaling is a key factor. Insulin binds to its receptor on the cell surface, initiating a cascade of intracellular events, including the phosphorylation of insulin receptor substrate (IRS) proteins and the activation of phosphatidylinositol 3-kinase (PI3K) and Akt/PKB. In insulin-resistant states, these signaling pathways are often impaired, leading to reduced glucose uptake and utilization. Elevated levels of free fatty acids (FFAs) and inflammatory cytokines, such as TNF-α and IL-6, can activate intracellular kinases that phosphorylate IRS proteins on serine residues, inhibiting their ability to be phosphorylated on tyrosine residues by the insulin receptor kinase. This disrupts insulin signaling. Additionally, mitochondrial dysfunction and endoplasmic reticulum (ER) stress can contribute to insulin resistance. Genetic factors, such as polymorphisms in genes involved in insulin signaling and glucose metabolism, can also predispose individuals to insulin resistance [PMID: 16354890].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a first-time seizure in an adult?",
+    "answer": "Assess for underlying cause; treatment with antiepileptic drugs is generally not initiated after a single unprovoked seizure unless there are specific risk factors for recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in cancer metastasis?",
+    "answer": "Exosomes, small extracellular vesicles secreted by cells, play a significant role in cancer metastasis. These vesicles contain a diverse cargo of proteins, nucleic acids (mRNA, microRNA), and lipids that can be transferred to recipient cells, influencing their behavior. In the context of cancer, tumor-derived exosomes can promote metastasis by several mechanisms. They can facilitate the pre-metastatic niche formation by delivering factors that remodel the extracellular matrix, suppress immune responses, and promote angiogenesis at distant sites. Exosomes can also transfer oncogenic proteins and microRNAs to recipient cells, increasing their proliferation, survival, and motility. For example, exosomes can transfer matrix metalloproteinases (MMPs) that degrade the extracellular matrix, facilitating cancer cell invasion. Furthermore, exosomes can promote angiogenesis by delivering pro-angiogenic factors to endothelial cells. Exosomes can also modulate the immune system, suppressing anti-tumor immunity and promoting immune tolerance. Targeting exosome biogenesis, secretion, or uptake is being explored as a potential therapeutic strategy to inhibit cancer metastasis [PMID: 23598586].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating a patient with a first-time episode of gout?",
+    "answer": "NSAIDs, colchicine, or corticosteroids are used for acute attacks; consider urate-lowering therapy if recurrent attacks or complications occur.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of RNA molecules longer than 200 nucleotides that do not encode proteins but play critical roles in regulating gene expression. LncRNAs exert their regulatory functions through various mechanisms, including chromatin modification, transcriptional regulation, and post-transcriptional processing. Many lncRNAs interact with chromatin-modifying complexes, such as Polycomb Repressive Complex 2 (PRC2) and DNA methyltransferases (DNMTs), to regulate gene expression by altering chromatin structure. For example, lncRNAs can recruit PRC2 to specific genomic loci, leading to histone methylation and gene silencing. LncRNAs can also act as transcriptional regulators by interacting with transcription factors or RNA polymerase II. They can either activate or repress gene expression by influencing the binding of transcription factors to DNA or by modulating the activity of RNA polymerase II. Furthermore, lncRNAs can regulate gene expression at the post-transcriptional level by influencing mRNA splicing, stability, or translation. They can also act as decoys, sequestering microRNAs or RNA-binding proteins. The dysregulation of lncRNAs has been implicated in various diseases, including cancer [PMID: 24852632].",
+    "persona": "Researcher"
+  }
+]

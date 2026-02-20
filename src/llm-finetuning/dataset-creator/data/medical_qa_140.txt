@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise genome editing, and what are its limitations?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA to direct the Cas9 nuclease to a specific DNA sequence, creating a double-strand break. The cell then repairs this break either through non-homologous end joining (NHEJ), which is error-prone and can cause insertions or deletions (indels), or through homology-directed repair (HDR) if a DNA template with the desired sequence is provided. This allows for gene knockout, insertion, or correction. Limitations include off-target effects (Cas9 cutting at unintended sites), delivery challenges (getting the CRISPR components into the target cells), and potential immune responses against Cas9. The efficiency of HDR is often low, especially in non-dividing cells, limiting precise gene editing in some contexts. Ethical considerations regarding germline editing and equitable access to this technology are also significant concerns. Further research is focused on improving Cas9 specificity, developing more efficient delivery methods (e.g., viral vectors, lipid nanoparticles), and exploring alternative CRISPR systems with different targeting requirements or smaller sizes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diagnosing diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, A1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through multiple mechanisms. The most common is the acquisition of the T790M mutation in EGFR, which sterically hinders TKI binding. Other mechanisms include activation of bypass pathways such as MET amplification, HER2 amplification, PI3K/AKT activation, or BRAF mutations. Additionally, phenotypic changes like epithelial-mesenchymal transition (EMT) and transformation to small cell lung cancer can confer resistance. Some tumors develop \"on-target\" resistance via EGFR mutations at the TKI binding site or increased EGFR copy number. Understanding these mechanisms is crucial for developing strategies to overcome resistance, such as third-generation TKIs (e.g., osimertinib) that target T790M, MET inhibitors, or combination therapies targeting multiple pathways. Liquid biopsies can help monitor resistance mutations and guide treatment decisions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting for a patient with no comorbidities?",
+    "answer": "Amoxicillin or doxycycline per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors (e.g., anti-PD-1 or anti-CTLA-4 antibodies) work to enhance antitumor immunity?",
+    "answer": "Checkpoint inhibitors block inhibitory signals that prevent T cells from attacking cancer cells. CTLA-4, expressed on T cells, competes with CD28 for binding to B7 molecules on antigen-presenting cells, inhibiting T-cell activation. Anti-CTLA-4 antibodies block this interaction, enhancing T-cell priming and activation in the lymph nodes. PD-1, also expressed on T cells, binds to PD-L1 or PD-L2 on tumor cells and other cells in the tumor microenvironment, suppressing T-cell effector function in the tumor. Anti-PD-1 or anti-PD-L1 antibodies block this interaction, restoring T-cell activity and allowing them to kill cancer cells. These therapies can lead to durable responses in some patients, but they also can cause immune-related adverse events (irAEs) due to the activation of the immune system against normal tissues. Biomarkers like PD-L1 expression, tumor mutational burden (TMB), and microsatellite instability (MSI) can help predict response to checkpoint inhibitors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles secreted by cells that contain proteins, lipids, and nucleic acids (mRNA, microRNA). They facilitate intercellular communication by delivering these molecules to recipient cells, altering their function. In cancer, exosomes promote metastasis by transferring pro-metastatic factors to distant sites, preparing the microenvironment for tumor cell arrival. They can also transfer drug resistance factors, promoting resistance in recipient cells. Tumor-derived exosomes can suppress the immune system by delivering immunosuppressive molecules to immune cells. They can also promote angiogenesis and extracellular matrix remodeling, facilitating tumor growth and invasion. Exosomes are being investigated as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets to inhibit metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually, or CT colonography every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination. Mutations in these genes impair the cell's ability to repair DNA damage, leading to genomic instability and an increased risk of cancer development. Cells with BRCA1/2 mutations are more reliant on other DNA repair pathways, such as PARP. This creates a vulnerability that can be exploited with PARP inhibitors, which block PARP-mediated DNA repair, leading to cell death in BRCA1/2-mutated cancer cells. BRCA1 and BRCA2 mutations are associated with increased risk of breast, ovarian, prostate, and pancreatic cancer. Genetic testing for BRCA1/2 mutations is recommended for individuals with a strong family history of these cancers. The specific types and locations of mutations within BRCA1/2 can influence the risk of developing specific cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with symptoms of a stroke?",
+    "answer": "Rapid assessment, neuroimaging, and consideration for thrombolysis if within the treatment window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between innate and adaptive immunity, and how do they cooperate to protect against pathogens?",
+    "answer": "Innate immunity is the first line of defense, providing a rapid but non-specific response to pathogens. It involves physical barriers (skin, mucous membranes), cellular components (macrophages, neutrophils, NK cells), and soluble factors (complement, cytokines). Adaptive immunity is a slower, more specific response that develops after exposure to antigens. It involves T cells and B cells, which recognize specific antigens and mount targeted attacks. Adaptive immunity also generates immunological memory, allowing for a faster and stronger response upon subsequent exposure to the same antigen. Innate and adaptive immunity cooperate through several mechanisms. Innate immune cells, such as macrophages and dendritic cells, present antigens to T cells, initiating the adaptive immune response. Cytokines produced by innate immune cells activate and direct adaptive immune responses. Antibodies produced by B cells can opsonize pathogens, making them more susceptible to phagocytosis by innate immune cells. This coordinated response is essential for effective pathogen clearance and long-term protection.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated hypertension during pregnancy?",
+    "answer": "Labetalol, nifedipine, or methyldopa per ACOG guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what strategies can be employed to enhance antiviral immunity?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system. They can mutate rapidly, altering their antigenic epitopes and escaping antibody recognition (e.g., influenza virus). Some viruses produce proteins that interfere with interferon signaling, inhibiting the antiviral response. Others suppress T-cell activation or induce T-cell exhaustion. Latency, where the virus remains dormant within host cells, allows it to avoid immune detection. Strategies to enhance antiviral immunity include vaccination, which primes the immune system to respond rapidly upon viral exposure. Immunomodulatory therapies, such as interferon-alpha or cytokines, can boost the antiviral response. Monoclonal antibodies targeting viral proteins can neutralize the virus or enhance antibody-dependent cell-mediated cytotoxicity (ADCC). Small molecule inhibitors that target viral enzymes or replication steps can directly inhibit viral replication. Emerging approaches, such as CRISPR-based antiviral therapies, aim to directly target and destroy viral genomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute migraine headache?",
+    "answer": "Triptans or NSAIDs.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in human health and disease, and how can it be modulated therapeutically?",
+    "answer": "The microbiome, the collection of microorganisms residing in and on the human body, plays a crucial role in human health and disease. It influences metabolism, immunity, and neurodevelopment. Dysbiosis, an imbalance in the microbiome composition, is associated with various diseases, including inflammatory bowel disease (IBD), obesity, type 2 diabetes, and autoimmune disorders. The microbiome can be modulated therapeutically through several approaches. Probiotics, live microorganisms, can restore a healthy microbiome balance. Prebiotics, non-digestible food ingredients, promote the growth of beneficial bacteria. Fecal microbiota transplantation (FMT) involves transferring fecal material from a healthy donor to a recipient to restore a healthy microbiome. Dietary interventions can also alter the microbiome composition. Antibiotics, while effective against bacterial infections, can disrupt the microbiome and should be used judiciously. Emerging therapies, such as phage therapy and engineered bacteria, offer more targeted approaches to modulate the microbiome.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with acute pulmonary embolism?",
+    "answer": "Anticoagulation with heparin, direct oral anticoagulants (DOACs), or warfarin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells acquire the ability to metastasize, and what are the key steps involved in the metastatic process?",
+    "answer": "Cancer metastasis is a complex process involving multiple steps. First, cancer cells undergo epithelial-mesenchymal transition (EMT), losing cell-cell adhesion and gaining migratory properties. They then invade the surrounding tissue, degrading the extracellular matrix using enzymes like matrix metalloproteinases (MMPs). Cancer cells enter the bloodstream or lymphatic system (intravasation) and circulate to distant sites. They then exit the vasculature (extravasation) and colonize the distant site, forming a secondary tumor. The metastatic process is influenced by interactions between cancer cells and the microenvironment, including stromal cells, immune cells, and extracellular matrix components. Genetic and epigenetic alterations in cancer cells drive the metastatic process. Certain genes, such as EMT-inducing transcription factors (e.g., SNAIL, TWIST) and metastasis-associated genes (e.g., MMPs, VEGF), promote metastasis. The metastatic cascade is not fully efficient, and many cancer cells that enter the circulation fail to form metastases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for anaphylaxis?",
+    "answer": "Epinephrine injection.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the potential applications of artificial intelligence (AI) and machine learning (ML) in modern medicine and biomedical research?",
+    "answer": "AI and ML have numerous potential applications in medicine and biomedical research. In diagnostics, AI can analyze medical images (e.g., X-rays, CT scans, MRIs) to detect diseases earlier and more accurately. AI can also analyze genomic data to identify disease-causing mutations and predict drug response. In drug discovery, AI can accelerate the identification of drug targets and design new drug candidates. AI can also personalize treatment strategies based on individual patient characteristics. In clinical decision support, AI can provide clinicians with real-time recommendations based on patient data and clinical guidelines. In public health, AI can track disease outbreaks and predict future epidemics. Ethical considerations surrounding the use of AI in medicine, such as data privacy, algorithmic bias, and the potential for job displacement, need to be addressed. The successful implementation of AI in medicine requires collaboration between clinicians, researchers, and data scientists.",
+    "persona": "Researcher"
+  }
+]

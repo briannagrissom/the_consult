@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Atropine 0.5 mg IV, repeated every 3-5 minutes to a maximum of 3 mg, while preparing for transcutaneous pacing or a dopamine/epinephrine infusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of atherosclerosis at the molecular level?",
+    "answer": "Chronic inflammation drives atherogenesis through multiple pathways. Elevated levels of inflammatory cytokines (e.g., TNF-α, IL-1β, IL-6) activate endothelial cells, increasing expression of adhesion molecules like VCAM-1 and ICAM-1, which recruit monocytes and T lymphocytes into the arterial wall. Monocytes differentiate into macrophages, which internalize oxidized LDL cholesterol, forming foam cells—a hallmark of early lesions. Inflammatory signals also stimulate smooth muscle cell proliferation and migration from the media to the intima, contributing to plaque growth. Matrix metalloproteinases (MMPs), released by macrophages and smooth muscle cells, degrade the extracellular matrix, destabilizing the plaque and increasing the risk of rupture. Furthermore, inflammation promotes thrombosis by increasing expression of tissue factor and inhibiting fibrinolysis. This complex interplay between inflammatory mediators and cellular processes accelerates plaque formation, progression, and eventual thrombotic complications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for osteoporosis screening in postmenopausal women?",
+    "answer": "Bone mineral density (BMD) screening with DEXA is recommended for all women aged 65 years and older, and for younger postmenopausal women with risk factors for osteoporosis, according to USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which PD-1/PD-L1 blockade restores anti-tumor immunity?",
+    "answer": "PD-1 (Programmed cell death protein 1) is an inhibitory receptor expressed on activated T cells, while its ligand, PD-L1, is often upregulated on tumor cells and antigen-presenting cells (APCs) in the tumor microenvironment. When PD-1 binds to PD-L1, it delivers an inhibitory signal that dampens T cell activation, proliferation, and effector function. This interaction normally serves to prevent autoimmunity and limit tissue damage during chronic inflammation, but cancer cells exploit this pathway to evade immune destruction. PD-L1 expression on tumor cells directly inhibits T cell cytotoxicity, while PD-L1 on APCs impairs their ability to activate naive T cells. PD-1/PD-L1 blockade, using monoclonal antibodies, disrupts this interaction, allowing T cells to overcome the inhibitory signal and mount an effective anti-tumor response. This includes enhanced T cell proliferation, increased production of cytotoxic cytokines (e.g., IFN-γ and TNF-α), and improved killing of tumor cells. Importantly, pre-existing T cell infiltration and high tumor mutational burden are predictive biomarkers for response to PD-1/PD-L1 inhibitors, reflecting the importance of a primed immune system in mediating the therapeutic effect.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should community-acquired pneumonia be treated empirically in an outpatient setting?",
+    "answer": "Empiric treatment options include amoxicillin, doxycycline, or a macrolide (azithromycin or clarithromycin) in regions with low macrolide resistance per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome plays a complex role in influencing the response to cancer chemotherapy. Certain gut bacteria can metabolize chemotherapeutic agents, either inactivating them and reducing their efficacy (e.g., inactivation of gemcitabine by gut bacteria expressing cytidine deaminase) or converting them into more toxic metabolites (e.g., conversion of irinotecan to its active form SN-38 by bacterial β-glucuronidase). Conversely, other gut bacteria can enhance the anti-tumor effects of chemotherapy by stimulating the immune system. For instance, some bacteria promote the translocation of microbial products (e.g., LPS) into the bloodstream, which activates Toll-like receptors (TLRs) on immune cells, leading to increased production of pro-inflammatory cytokines and enhanced anti-tumor immunity. The gut microbiome also influences chemotherapy-induced toxicity. Disruption of the gut microbiome (dysbiosis) caused by chemotherapy can lead to increased intestinal permeability, allowing bacteria and bacterial products to enter the circulation, which can trigger systemic inflammation and contribute to side effects such as mucositis, diarrhea, and neutropenia. Fecal microbiota transplantation (FMT) is being investigated as a strategy to modulate the gut microbiome and improve the efficacy and reduce the toxicity of chemotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended target LDL-C level for a patient with established atherosclerotic cardiovascular disease (ASCVD)?",
+    "answer": "LDL-C should be reduced by ≥50% from baseline and to a target of <70 mg/dL with high-intensity statin therapy, potentially adding ezetimibe or PCSK9 inhibitors if needed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and why are they often difficult to target therapeutically?",
+    "answer": "KRAS encodes a small GTPase that functions as a molecular switch in intracellular signaling pathways controlling cell growth, differentiation, and survival. Upon activation by growth factors, KRAS binds GTP and activates downstream effectors such as RAF-MEK-ERK and PI3K-AKT. Mutations in KRAS, particularly at codons 12, 13, and 61, impair its GTPase activity, resulting in constitutive activation of the protein, independent of upstream signals. This sustained activation of downstream signaling pathways drives uncontrolled cell proliferation, survival, and metastasis, contributing to tumorigenesis. KRAS mutations are prevalent in many cancers, including lung, colorectal, and pancreatic cancers. Targeting KRAS has been challenging due to its lack of a deep binding pocket for small molecule inhibitors and its high affinity for GTP. However, recent advances have led to the development of KRAS G12C inhibitors (e.g., sotorasib, adagrasib) that covalently bind to the mutant cysteine residue, locking the protein in an inactive GDP-bound state. These inhibitors have shown promising clinical activity in KRAS G12C-mutated non-small cell lung cancer, but resistance mechanisms are emerging, including mutations that disrupt inhibitor binding or activate bypass pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient diagnosed with acute bacterial meningitis?",
+    "answer": "Empiric therapy with vancomycin plus a third- or fourth-generation cephalosporin (e.g., ceftriaxone or cefepime) is indicated, plus dexamethasone to reduce inflammation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Several mechanisms can lead to resistance to EGFR TKIs in NSCLC. The most common is the development of a secondary EGFR mutation, specifically T790M, which sterically hinders the binding of first- and second-generation EGFR TKIs. Third-generation EGFR TKIs (e.g., osimertinib) were designed to overcome T790M resistance. However, resistance to osimertinib can also develop through mechanisms such as C797S mutations in EGFR, MET amplification, bypass signaling activation (e.g., BRAF mutations, PI3K/AKT pathway activation), histologic transformation to small cell lung cancer, and activation of alternative receptor tyrosine kinases (e.g., HER2 amplification). These resistance mechanisms highlight the dynamic nature of cancer and the need for ongoing monitoring and development of novel therapeutic strategies to overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a healthy non-pregnant woman?",
+    "answer": "First-line options include nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, or fosfomycin as a single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting CTLA-4 differ mechanistically from immunotherapy targeting PD-1 in the context of cancer treatment?",
+    "answer": "CTLA-4 (Cytotoxic T-lymphocyte-associated protein 4) and PD-1 (Programmed cell death protein 1) are both immune checkpoint receptors that negatively regulate T cell activation, but they function at different stages of the immune response. CTLA-4 primarily acts in the early stages of T cell activation, mainly in the lymph nodes. It competes with CD28 for binding to B7 ligands (CD80 and CD86) on antigen-presenting cells (APCs), preventing the co-stimulatory signal required for T cell activation. CTLA-4 also promotes the function of regulatory T cells (Tregs), which suppress immune responses. In contrast, PD-1 mainly functions in the later stages of the immune response, in peripheral tissues and the tumor microenvironment. It binds to PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells in the tumor microenvironment. This interaction inhibits T cell effector function and promotes T cell exhaustion. Therefore, CTLA-4 blockade enhances T cell priming and activation in the lymph nodes, while PD-1 blockade restores T cell effector function in the tumor microenvironment. Combination therapy with CTLA-4 and PD-1 inhibitors has shown synergistic anti-tumor activity in some cancers, but it is also associated with increased immune-related adverse events.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with a possible acute ST-elevation myocardial infarction (STEMI)?",
+    "answer": "Immediate initiation of oxygen, aspirin, nitroglycerin, and morphine (if needed), followed by rapid ECG to confirm STEMI and urgent reperfusion therapy (PCI or fibrinolysis).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main molecular mechanisms by which cancer cells develop resistance to targeted therapies, such as kinase inhibitors?",
+    "answer": "Cancer cells can develop resistance to targeted therapies, like kinase inhibitors, through several molecular mechanisms. These include: 1) On-target resistance: mutations in the drug target that prevent inhibitor binding (e.g., EGFR T790M mutation in NSCLC). 2) Bypass signaling: activation of alternative signaling pathways that compensate for the inhibited target (e.g., activation of PI3K/AKT pathway when EGFR is inhibited). 3) Downstream mutations: mutations in downstream signaling components that bypass the need for the inhibited target (e.g., BRAF mutations downstream of EGFR). 4) Histologic transformation: change in cell type to a less drug-sensitive form (e.g., transformation of NSCLC to small cell lung cancer). 5) Increased drug efflux: increased expression of drug efflux pumps (e.g., P-glycoprotein) that pump the drug out of the cell. 6) Target amplification: increased expression of the drug target that overwhelms the inhibitor. 7) Epithelial-to-mesenchymal transition (EMT): transition to a more aggressive and drug-resistant phenotype. Understanding these resistance mechanisms is crucial for developing strategies to overcome resistance and improve patient outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for type 2 diabetes mellitus?",
+    "answer": "Metformin, along with lifestyle modifications, is the recommended first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) contribute to cancer metastasis and what are the key signaling pathways involved?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in promoting cancer metastasis. The TME is a complex ecosystem composed of cancer cells, stromal cells (e.g., fibroblasts, immune cells, endothelial cells), extracellular matrix (ECM), and signaling molecules. The TME can facilitate metastasis through several mechanisms, including: 1) ECM remodeling: Cancer-associated fibroblasts (CAFs) secrete enzymes (e.g., matrix metalloproteinases) that degrade the ECM, creating pathways for cancer cell invasion. 2) Angiogenesis: The TME promotes angiogenesis, providing cancer cells with access to the vasculature for dissemination. 3) Immune suppression: Immune cells in the TME can be reprogrammed to suppress anti-tumor immunity, allowing cancer cells to evade immune destruction. 4) Signaling pathways: Several signaling pathways in the TME promote metastasis, including TGF-β, Wnt, and Notch. TGF-β promotes epithelial-to-mesenchymal transition (EMT), which enhances cancer cell migration and invasion. Wnt signaling promotes cancer cell proliferation and survival. Notch signaling promotes angiogenesis and stem cell-like properties in cancer cells. Targeting the TME is an emerging strategy for preventing or treating cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) after percutaneous coronary intervention (PCI) with a drug-eluting stent?",
+    "answer": "Typically 6-12 months, but duration may be shorter or longer based on bleeding risk and ischemic risk.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment, and how can they influence cancer progression?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by various cell types, including cancer cells and stromal cells, and they mediate intercellular communication by transferring proteins, lipids, mRNAs, and microRNAs to recipient cells. Within the tumor microenvironment (TME), exosomes facilitate complex interactions that can influence cancer progression. Cancer cells secrete exosomes that can promote angiogenesis by delivering pro-angiogenic factors (e.g., VEGF) to endothelial cells, enhance immune suppression by transferring immunosuppressive molecules (e.g., PD-L1) to immune cells, and promote metastasis by delivering matrix-degrading enzymes (e.g., MMPs) to stromal cells. Conversely, stromal cells secrete exosomes that can promote cancer cell proliferation, survival, and drug resistance. For example, cancer-associated fibroblasts (CAFs) secrete exosomes that deliver metabolites (e.g., amino acids) and signaling molecules (e.g., growth factors) to cancer cells, supporting their growth and survival under stressful conditions. Moreover, exosomes can mediate the transfer of drug resistance factors (e.g., P-glycoprotein) from drug-resistant cells to drug-sensitive cells, leading to the spread of drug resistance within the tumor. Exosomes also carry microRNAs that regulate gene expression in recipient cells. Understanding the role of exosomes in intercellular communication within the TME is crucial for developing strategies to target exosome-mediated processes and improve cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment of choice for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with a beta-blocker (e.g., metoprolol) or calcium channel blocker (e.g., diltiazem), and assessment for anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in regulating the cell cycle, and how are they dysregulated in cancer cells?",
+    "answer": "The cell cycle is a tightly regulated process that controls cell growth and division. Several signaling pathways are involved in regulating the cell cycle, including the cyclin-dependent kinase (CDK) pathway, the retinoblastoma (Rb) pathway, and the p53 pathway. The CDK pathway is a central regulator of the cell cycle. Cyclins bind to CDKs, forming active complexes that phosphorylate target proteins and drive cell cycle progression. The activity of CDK complexes is regulated by CDK inhibitors (CKIs), such as p16, p21, and p27. The Rb pathway controls the G1-S transition. Rb is a tumor suppressor protein that binds to and inhibits E2F transcription factors, preventing the expression of genes required for DNA replication. Upon phosphorylation by CDK complexes, Rb releases E2F, allowing cell cycle progression. The p53 pathway is activated in response to DNA damage or other cellular stresses. p53 is a tumor suppressor protein that can induce cell cycle arrest, DNA repair, or apoptosis. In cancer cells, these signaling pathways are often dysregulated, leading to uncontrolled cell proliferation. For example, cancer cells may have mutations in CDK genes, loss of CKIs, inactivation of Rb, or mutations in p53. These dysregulations disrupt the normal control of the cell cycle and contribute to tumorigenesis.",
+    "persona": "Researcher"
+  }
+]

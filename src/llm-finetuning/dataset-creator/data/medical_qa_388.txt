@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker is typically first-line; consider cardioversion if unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing achieve precise genomic modifications, and what are its limitations in clinical applications?",
+    "answer": "CRISPR-Cas9 relies on a guide RNA (gRNA) that directs the Cas9 endonuclease to a specific DNA sequence in the genome. The Cas9 enzyme then creates a double-stranded break at the targeted site. The cell attempts to repair this break via either non-homologous end joining (NHEJ), which is error-prone and often leads to gene disruption via insertions or deletions (indels), or homology-directed repair (HDR), which uses a provided DNA template to insert a specific sequence at the break site, enabling precise gene editing. While highly effective in vitro, clinical applications face several challenges. Off-target effects, where Cas9 cuts at unintended sites in the genome due to sequence similarity, remain a significant concern. Delivery of CRISPR-Cas9 components into target cells in vivo can be inefficient, and the immune system may mount a response against the Cas9 enzyme or the edited cells. Furthermore, the efficiency of HDR is often low, making precise gene insertion challenging. Research is focused on improving Cas9 specificity, developing more efficient delivery methods (e.g., viral vectors, lipid nanoparticles), and enhancing HDR efficiency to overcome these limitations and realize the full potential of CRISPR-Cas9 in gene therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for managing a patient with a first-time unprovoked seizure?",
+    "answer": "Obtain EEG and MRI brain; consider AEDs if high risk of recurrence per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome plays a critical role in shaping the immune response and can significantly influence the efficacy of immune checkpoint inhibitors (ICIs) such as anti-PD-1 and anti-CTLA-4 antibodies. Specific bacterial species can enhance anti-tumor immunity, while others promote immunosuppression and resistance to ICIs. For example, several studies have shown that patients with a higher abundance of *Akkermansia muciniphila* in their gut respond better to anti-PD-1 therapy. *A. muciniphila* can enhance the recruitment and activation of CD8+ T cells in the tumor microenvironment. Conversely, the presence of certain bacteria, such as *Bacteroides fragilis*, has been associated with reduced ICI efficacy, potentially due to their ability to activate immunosuppressive pathways. The mechanisms by which the gut microbiome influences ICI response are complex and involve modulation of systemic inflammation, regulation of dendritic cell function, and enhancement of T-cell priming and trafficking. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being explored to improve ICI efficacy in patients who are initially non-responsive or develop resistance. However, further research is needed to identify the specific bacterial species and microbial metabolites that are most critical for ICI response and to develop personalized microbiome-based therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target LDL-C level for secondary prevention in patients with established atherosclerotic cardiovascular disease?",
+    "answer": "LDL-C goal is generally <70 mg/dL or at least a 50% reduction from baseline per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative diseases, and what makes them unique compared to other infectious agents?",
+    "answer": "Prions are misfolded proteins that can induce normal, properly folded proteins to adopt the same abnormal conformation, leading to the formation of insoluble aggregates that cause neurodegenerative diseases like Creutzfeldt-Jakob disease (CJD) and scrapie. Unlike viruses or bacteria, prions do not contain nucleic acids (DNA or RNA); they are solely composed of protein. The infectious agent is the misfolded prion protein itself, typically a misfolded form of the prion protein PrP (PrPSc). When PrPSc comes into contact with normal PrP (PrPC), it acts as a template, converting PrPC into PrPSc. This process propagates exponentially, leading to the accumulation of PrPSc aggregates in the brain, causing neuronal dysfunction and cell death. Prions are remarkably resistant to conventional sterilization methods, such as autoclaving and irradiation, due to their stable misfolded structure. Furthermore, prion diseases can be sporadic (arising spontaneously), inherited (due to mutations in the *PRNP* gene encoding PrP), or acquired (through exposure to contaminated materials). The unique mechanism of prion propagation and their resistance to inactivation pose significant challenges for diagnosis, treatment, and prevention of prion diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (if local resistance <25%) per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What signaling pathways are activated by receptor tyrosine kinases (RTKs), and how do they contribute to cancer development?",
+    "answer": "Receptor tyrosine kinases (RTKs) are transmembrane receptors that, upon ligand binding, activate intracellular signaling pathways that regulate cell growth, proliferation, differentiation, and survival. Activation of RTKs triggers autophosphorylation of tyrosine residues on the receptor, which then serve as docking sites for adaptor proteins and downstream signaling molecules. Key signaling pathways activated by RTKs include the RAS/MAPK pathway, the PI3K/AKT/mTOR pathway, and the JAK/STAT pathway. The RAS/MAPK pathway is initiated by the binding of adaptor proteins like GRB2 to phosphorylated RTKs, leading to the activation of RAS, a small GTPase. Activated RAS then activates a cascade of kinases, including RAF, MEK, and ERK, ultimately leading to the activation of transcription factors that promote cell proliferation. The PI3K/AKT/mTOR pathway is activated by the binding of the PI3K regulatory subunit to phosphorylated RTKs, leading to the activation of PI3K, which phosphorylates PIP2 to PIP3. PIP3 then recruits AKT to the plasma membrane, where it is activated by PDK1 and mTORC2. Activated AKT promotes cell survival by inhibiting apoptosis and stimulates cell growth and proliferation by activating mTORC1. The JAK/STAT pathway is activated by cytokine receptors and some RTKs. Ligand binding leads to the activation of JAK kinases, which phosphorylate STAT transcription factors. Phosphorylated STATs dimerize and translocate to the nucleus, where they regulate gene expression. Aberrant activation of RTKs and their downstream signaling pathways is a common feature of many cancers. Mutations that lead to constitutive activation of RTKs, amplification of RTK genes, or overexpression of RTK ligands can drive uncontrolled cell growth and proliferation, contributing to tumorigenesis and resistance to therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin for 5 days or TMP/SMX for 3 days or fosfomycin single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion in different contexts?",
+    "answer": "Autophagy is a cellular process involving the degradation of cytoplasmic components within lysosomes. It plays a dual role in cancer, acting as both a tumor suppressor and a tumor promoter depending on the stage of cancer development and the specific cellular context. In early tumorigenesis, autophagy can function as a tumor suppressor by removing damaged organelles, misfolded proteins, and toxic aggregates, thereby preventing genomic instability and cellular stress that could lead to malignant transformation. Furthermore, autophagy can eliminate pre-cancerous cells through selective degradation of pro-survival factors or activation of apoptosis. However, in established tumors, autophagy can promote tumor survival and growth. Under conditions of nutrient deprivation, hypoxia, or metabolic stress, autophagy provides cancer cells with recycled nutrients and energy, allowing them to survive and proliferate in harsh microenvironments. Autophagy can also protect cancer cells from the cytotoxic effects of chemotherapy and radiation therapy by degrading damaged cellular components and reducing oxidative stress. The role of autophagy in cancer is further complicated by its interactions with other cellular processes, such as apoptosis and the immune response. In some cases, autophagy can promote apoptosis, while in others it can inhibit it. Similarly, autophagy can either enhance or suppress the anti-tumor immune response depending on the specific context. Therefore, targeting autophagy as a cancer therapy requires a careful consideration of the stage of cancer development, the specific tumor type, and the overall cellular context.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Start at age 45; options include colonoscopy every 10 years, or annual FIT test, or Cologuard every 3 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC) is a major clinical challenge. The most common mechanism of acquired resistance is the development of the T790M mutation in EGFR, which sterically hinders the binding of EGFR TKIs. Other mechanisms include amplification of the *MET* gene, leading to MET activation and bypass signaling; activation of alternative signaling pathways, such as PI3K/AKT; epithelial-mesenchymal transition (EMT); and histologic transformation to small cell lung cancer (SCLC). Less common mechanisms include *BRAF* mutations, *HER2* amplification, and *FGFR* alterations. The emergence of these resistance mechanisms can occur through various processes, including clonal selection of pre-existing resistant cells, de novo mutation, and epigenetic changes. Understanding the specific mechanisms of resistance in individual patients is crucial for guiding treatment decisions. Strategies to overcome EGFR TKI resistance include the use of third-generation EGFR TKIs that are active against T790M-mutant EGFR, MET inhibitors, PI3K/AKT inhibitors, and combination therapies that target multiple resistance pathways simultaneously. Liquid biopsies, such as circulating tumor DNA (ctDNA) analysis, can be used to detect resistance mutations and monitor treatment response in real-time.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with diabetic ketoacidosis (DKA)?",
+    "answer": "IV fluids, insulin infusion, and electrolyte repletion (especially potassium) are key; monitor glucose and electrolytes closely.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer metastasis, and what are the key components involved?",
+    "answer": "The tumor microenvironment (TME) plays a crucial role in cancer metastasis by providing a permissive or even supportive environment for tumor cells to detach from the primary tumor, intravasate into blood vessels, survive in circulation, extravasate at distant sites, and establish metastatic colonies. Key components of the TME include cancer-associated fibroblasts (CAFs), immune cells (e.g., tumor-associated macrophages, myeloid-derived suppressor cells), endothelial cells, extracellular matrix (ECM), and soluble factors (e.g., cytokines, growth factors). CAFs promote metastasis by remodeling the ECM, secreting growth factors and cytokines that stimulate tumor cell proliferation and migration, and creating physical tracks that guide tumor cell invasion. Immune cells can either promote or suppress metastasis depending on their phenotype and activation state. For example, tumor-associated macrophages can enhance metastasis by secreting matrix metalloproteinases (MMPs) that degrade the ECM, facilitating tumor cell invasion, and by promoting angiogenesis. Endothelial cells form the blood vessels that allow tumor cells to enter the circulation. The ECM provides a scaffold for tumor cells and can also regulate cell adhesion, migration, and survival. Soluble factors, such as TGF-β, VEGF, and IL-6, can stimulate tumor cell proliferation, angiogenesis, and immune suppression, all of which contribute to metastasis. The TME is a dynamic and complex ecosystem that is constantly evolving in response to tumor growth and treatment. Understanding the interactions between tumor cells and the TME is crucial for developing effective strategies to prevent and treat cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute ischemic stroke?",
+    "answer": "IV alteplase within 4.5 hours of symptom onset; consider mechanical thrombectomy if large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression, and what is their significance in disease?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a class of RNA molecules longer than 200 nucleotides that do not encode proteins. They regulate gene expression at various levels, including transcriptional, post-transcriptional, and epigenetic regulation. LncRNAs can act as scaffolds, bringing together different proteins to form ribonucleoprotein complexes that regulate gene transcription. For example, some lncRNAs recruit chromatin-modifying enzymes, such as histone deacetylases (HDACs) or DNA methyltransferases (DNMTs), to specific genomic loci, leading to transcriptional repression. Other lncRNAs can interact with transcription factors, either promoting or inhibiting their binding to DNA. LncRNAs can also regulate gene expression post-transcriptionally by affecting mRNA splicing, stability, and translation. Some lncRNAs bind to mRNAs, either stabilizing them or promoting their degradation. LncRNAs can also act as microRNA (miRNA) sponges, sequestering miRNAs and preventing them from binding to their target mRNAs. LncRNAs play a significant role in various diseases, including cancer, cardiovascular disease, and neurological disorders. Aberrant expression of lncRNAs has been linked to tumorigenesis, metastasis, and drug resistance in cancer. LncRNAs are also involved in the regulation of cardiac development and function, and their dysregulation has been implicated in heart failure and arrhythmia. In neurological disorders, lncRNAs regulate neuronal differentiation, synaptic plasticity, and neuroinflammation. Targeting lncRNAs represents a promising therapeutic strategy for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended approach to managing a patient with newly diagnosed type 2 diabetes?",
+    "answer": "Lifestyle modification (diet and exercise) plus metformin is typically first-line; consider other agents based on comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which viruses evade the host immune system, and how do these mechanisms influence viral pathogenesis?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, allowing them to establish persistent infections and cause disease. These mechanisms can be broadly classified into several categories: (1) Interference with innate immune signaling: Many viruses encode proteins that inhibit the production or signaling of type I interferons (IFNs), which are critical for antiviral defense. For example, some viruses encode proteins that block the activation of IFN regulatory factors (IRFs) or interfere with the IFN receptor signaling pathway. (2) Inhibition of antigen presentation: Viruses can interfere with the processing and presentation of viral antigens on MHC class I molecules, preventing recognition by cytotoxic T lymphocytes (CTLs). This can be achieved by blocking the transport of viral peptides into the endoplasmic reticulum or by degrading MHC class I molecules. (3) Evasion of antibody neutralization: Viruses can evade antibody neutralization through antigenic variation, which involves mutations in viral surface proteins that alter the epitopes recognized by antibodies. Some viruses also encode proteins that bind to antibodies, preventing them from neutralizing viral infectivity. (4) Suppression of T cell function: Viruses can suppress T cell function through various mechanisms, including the production of immunosuppressive cytokines, the expression of ligands that inhibit T cell activation, and the induction of T cell exhaustion. (5) Latency: Some viruses establish latent infections, in which they persist in a non-replicating state, evading immune detection. These mechanisms influence viral pathogenesis by allowing viruses to replicate and spread within the host, causing tissue damage and disease. Understanding these immune evasion strategies is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with an acute asthma exacerbation?",
+    "answer": "Oxygen, inhaled short-acting beta-agonists (SABAs), and systemic corticosteroids are the mainstays of treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification, specifically DNA methylation and histone modification, contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modification, play a critical role in regulating gene expression without altering the underlying DNA sequence. Aberrant epigenetic modifications are a hallmark of cancer and contribute to both tumor development and progression. DNA methylation typically involves the addition of a methyl group to cytosine bases, primarily at CpG dinucleotides. In cancer, global DNA hypomethylation is often observed, which can lead to the activation of oncogenes and increased genomic instability. Conversely, hypermethylation of CpG islands in the promoter regions of tumor suppressor genes can silence their expression, contributing to tumorigenesis. Histone modifications involve the addition of chemical groups to histone proteins, which can alter chromatin structure and affect gene transcription. Histone acetylation, typically associated with transcriptional activation, is often reduced in cancer cells, while histone deacetylation is increased, leading to gene silencing. Histone methylation can have either activating or repressive effects on gene expression, depending on the specific histone residue that is modified and the type of methyl group added. Aberrant histone modifications can disrupt normal gene expression patterns, contributing to uncontrolled cell growth, proliferation, and survival. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Drugs that inhibit DNA methyltransferases (DNMTs) or histone deacetylases (HDACs) can restore normal gene expression patterns and inhibit tumor growth.",
+    "persona": "Researcher"
+  }
+]

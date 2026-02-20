@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in an otherwise healthy adult?",
+    "answer": "Macrolide or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a specific DNA sequence, directing the Cas9 nuclease to create a double-stranded break at that location. The cell repairs the break via either non-homologous end joining (NHEJ), which is error-prone and can disrupt the gene, or homology-directed repair (HDR) if a DNA template with the desired sequence is provided, allowing precise gene insertion or modification. The specificity of the gRNA determines the target site, while Cas9's endonuclease activity mediates DNA cleavage. Off-target effects remain a concern, driving research into high-fidelity Cas9 variants and improved gRNA design algorithms. CRISPR-Cas9 has revolutionized gene editing due to its simplicity, efficiency, and broad applicability across diverse organisms and cell types, enabling functional genomics studies, disease modeling, and the development of gene therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, A1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is immunotherapy effective in some cancers but not others?",
+    "answer": "Immunotherapy efficacy hinges on pre-existing tumor immunogenicity and the tumor microenvironment. \"Hot\" tumors with high mutational burden, neoantigen expression, and immune cell infiltration are more susceptible to checkpoint inhibitors like anti-PD-1/PD-L1 and anti-CTLA-4, as these agents unleash pre-existing antitumor T-cell responses. \"Cold\" tumors lacking these features require strategies to enhance immunogenicity, such as oncolytic viruses, STING agonists, or adoptive cell therapies like CAR-T cells. Furthermore, immunosuppressive cells (e.g., myeloid-derived suppressor cells, regulatory T cells) and factors (e.g., TGF-β, IL-10) within the tumor microenvironment can dampen immune responses, necessitating combination therapies to overcome these barriers. Genetic alterations in antigen presentation machinery (e.g., loss of MHC class I) can also lead to immune evasion. Biomarkers like PD-L1 expression, microsatellite instability (MSI), and tumor mutational burden (TMB) are used to predict response, but are imperfect, highlighting the need for more refined predictors and rational combination strategies to broaden immunotherapy's applicability.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "IV alteplase within 4.5 hours of symptom onset, and/or mechanical thrombectomy within 24 hours in eligible patients per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs regulate gene expression?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and circular RNAs (circRNAs), exert multifaceted control over gene expression. MiRNAs, typically 21-23 nucleotides long, bind to the 3' untranslated region (UTR) of target mRNAs, leading to translational repression or mRNA degradation. LncRNAs, exceeding 200 nucleotides, function as scaffolds, guiding protein complexes to specific genomic loci to modulate transcription, or as competitive endogenous RNAs (ceRNAs), sponging miRNAs and preventing them from binding to their target mRNAs. CircRNAs, formed by back-splicing, can also act as miRNA sponges or regulate transcription by interacting with RNA-binding proteins. These ncRNAs participate in diverse cellular processes, including development, differentiation, and disease pathogenesis. Aberrant ncRNA expression is implicated in various cancers and other disorders, making them attractive therapeutic targets.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually, or other acceptable tests per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through diverse mechanisms, including secondary EGFR mutations (e.g., T790M, C797S), activation of bypass signaling pathways (e.g., MET amplification, BRAF mutations, PI3K/AKT activation), histological transformation to small cell lung cancer, and epithelial-mesenchymal transition (EMT). The T790M mutation, which sterically hinders TKI binding, is the most common mechanism after first-generation TKI treatment. Third-generation TKIs like osimertinib overcome T790M resistance but can be circumvented by C797S mutations or other bypass pathways. MET amplification activates downstream signaling independent of EGFR. EMT confers resistance by promoting cell survival and migration. Combination therapies targeting multiple resistance mechanisms are under investigation to improve outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine, and consider transcutaneous pacing if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade host immune defenses. These include: (1) Antigenic variation: Rapid mutation rates, especially in RNA viruses like influenza and HIV, lead to altered surface proteins that are no longer recognized by pre-existing antibodies. (2) Interference with interferon signaling: Many viruses encode proteins that block interferon production or downstream signaling pathways (e.g., STAT phosphorylation) to suppress antiviral responses. (3) Inhibition of antigen presentation: Viruses can downregulate MHC class I expression to evade CD8+ T-cell recognition or interfere with antigen processing and loading onto MHC molecules. (4) Immune cell suppression: Some viruses infect and disable immune cells, such as HIV targeting CD4+ T cells. (5) Latency: Certain viruses establish latent infections, hiding within host cells in a non-replicating state to avoid immune detection. (6) Molecular mimicry: Viral proteins may resemble host proteins, reducing immune recognition. These mechanisms enable viruses to establish persistent infections and cause disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscularly, and supportive care including oxygen and antihistamines per national guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in IBD pathogenesis. Dysbiosis, characterized by reduced microbial diversity and altered composition (e.g., decreased Firmicutes and increased Proteobacteria), disrupts the balance between pro-inflammatory and anti-inflammatory microbial communities. This imbalance promotes immune activation and intestinal inflammation in genetically susceptible individuals. Specific bacterial species, such as adherent-invasive Escherichia coli (AIEC), can exacerbate inflammation, while others, like Faecalibacterium prausnitzii, exhibit anti-inflammatory properties by producing butyrate, a short-chain fatty acid that nourishes colonocytes and suppresses inflammatory cytokine production. Furthermore, the microbiome influences intestinal permeability, allowing bacterial products to translocate across the epithelial barrier and trigger immune responses. Fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy to restore microbial diversity and modulate the immune response in IBD patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "Typically 2.0-3.0 per ACC/AHA/HRS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence cell differentiation and development?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a fundamental role in regulating gene expression without altering the underlying DNA sequence. These modifications influence chromatin structure, accessibility, and the recruitment of transcriptional regulators. DNA methylation, primarily at cytosine-guanine dinucleotides (CpGs), typically represses gene expression. Histone modifications, such as acetylation (associated with active transcription) and methylation (can be activating or repressive depending on the specific histone residue), alter chromatin compaction and accessibility. Non-coding RNAs, like microRNAs and long non-coding RNAs, regulate gene expression by targeting mRNA stability or translation. During cell differentiation, epigenetic modifications establish and maintain cell-type-specific gene expression patterns, ensuring that each cell type expresses only the genes necessary for its specialized function. Aberrant epigenetic modifications are implicated in developmental disorders and diseases, including cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a female?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole (TMP-SMX) per IDSA guidelines, considering local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do chemokines and their receptors regulate leukocyte trafficking during inflammation?",
+    "answer": "Chemokines are a family of small, secreted proteins that act as chemoattractants, guiding leukocytes to sites of inflammation. They bind to G protein-coupled receptors (GPCRs) on leukocytes, triggering intracellular signaling cascades that activate integrins and cytoskeletal rearrangements, enabling cell adhesion and migration along a chemokine gradient. Different chemokines recruit distinct leukocyte subsets. For example, CCL2 (MCP-1) recruits monocytes, while CXCL8 (IL-8) attracts neutrophils. Selectins mediate initial rolling adhesion, while integrins (e.g., LFA-1, VLA-4) mediate firm adhesion to endothelial cells expressing their respective ligands (e.g., ICAM-1, VCAM-1). Chemokine gradients are established by local production at the site of inflammation and presentation on endothelial cells. Dysregulation of chemokine signaling contributes to various inflammatory diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver abnormalities, and rarely rhabdomyolysis per package labeling and clinical experience.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in cell growth and proliferation?",
+    "answer": "Several key signaling pathways tightly regulate cell growth and proliferation. The PI3K/AKT/mTOR pathway promotes cell growth, survival, and metabolism in response to growth factors and nutrients. The Ras/MAPK pathway transduces signals from receptor tyrosine kinases to regulate gene expression and cell division. The Wnt/β-catenin pathway plays a crucial role in development and tissue homeostasis and is often dysregulated in cancer. The Hippo pathway controls organ size by regulating cell proliferation and apoptosis. These pathways are interconnected and tightly regulated, with multiple feedback loops and cross-talk mechanisms. Dysregulation of these pathways can lead to uncontrolled cell growth and cancer development, making them attractive targets for therapeutic intervention.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for managing acute DVT?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin, or low-molecular-weight heparin bridging to warfarin per CHEST guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the adaptive immune system respond to viral infections?",
+    "answer": "The adaptive immune system orchestrates a targeted and long-lasting response to viral infections, primarily through the actions of T cells and B cells. CD8+ cytotoxic T lymphocytes (CTLs) recognize viral peptides presented on MHC class I molecules and kill infected cells, eliminating viral reservoirs. CD4+ helper T cells provide crucial support by releasing cytokines that activate CTLs, B cells, and macrophages. B cells produce antibodies that neutralize viruses, preventing them from infecting new cells, or opsonize viruses, marking them for destruction by phagocytes. Memory T cells and B cells are generated during the primary response, providing long-term immunity and enabling a faster and more robust response upon re-exposure to the same virus. Effective adaptive immune responses are essential for viral clearance and protection against future infections, but excessive or dysregulated responses can contribute to immunopathology.",
+    "persona": "Researcher"
+  }
+]

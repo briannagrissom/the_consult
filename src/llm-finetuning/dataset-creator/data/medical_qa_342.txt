@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV every 3-5 minutes to a maximum of 3mg; consider transcutaneous pacing or dopamine/epinephrine infusion if atropine ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-stranded break (DSB) at the specified location. The cell repairs the DSB through either non-homologous end joining (NHEJ), which is error-prone and can introduce insertions or deletions (indels) leading to gene disruption, or homology-directed repair (HDR), which uses a provided DNA template to precisely edit the gene sequence. The specificity of Cas9 is determined by the 20-nucleotide sequence of the gRNA, allowing for targeted modification of virtually any gene in a wide range of organisms. The efficiency of editing is influenced by factors such as gRNA design, Cas9 concentration, cell type, and DNA repair pathways. Off-target effects can occur if the gRNA has sequence similarity to other genomic regions, leading to unintended DSBs and potential mutations. Strategies to minimize off-target effects include using highly specific Cas9 variants, optimizing gRNA design, and delivering Cas9 as a ribonucleoprotein complex [PMID:26289614].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Nausea, insomnia, sexual dysfunction, weight gain, and serotonin syndrome are common side effects.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves complex interactions among multiple signaling pathways, prominently including amyloid precursor protein (APP) processing, tau phosphorylation, and neuroinflammation. Aberrant cleavage of APP by β-secretase and γ-secretase leads to the production of amyloid-β (Aβ) peptides, which aggregate into extracellular plaques. These plaques trigger inflammatory responses mediated by microglia and astrocytes, releasing cytokines and reactive oxygen species that contribute to neuronal damage. Hyperphosphorylation of tau protein causes its aggregation into intracellular neurofibrillary tangles, disrupting microtubule function and axonal transport [PMID: 29301942]. Dysregulation of calcium homeostasis, oxidative stress, and mitochondrial dysfunction further exacerbate neuronal dysfunction and apoptosis. Genetic risk factors such as APOE4 modulate Aβ clearance and neuroinflammation, influencing disease susceptibility. Therapeutic strategies targeting Aβ production or clearance, tau phosphorylation, and neuroinflammation are under investigation, but effective treatments remain elusive due to the multifactorial nature of AD and the challenges of targeting these complex pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you diagnose community-acquired pneumonia (CAP)?",
+    "answer": "Clinical symptoms (cough, fever, dyspnea), chest X-ray showing infiltrates, and sputum/blood cultures if indicated per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome profoundly influences the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to anti-PD-1 therapy in melanoma and other cancers. These bacteria can enhance anti-tumor immunity by modulating dendritic cell activation, promoting T-cell infiltration into tumors, and increasing the production of immunostimulatory cytokines [PMID:29097460]. Conversely, dysbiosis and the presence of certain pathobionts can impair ICI efficacy by promoting inflammation, suppressing T-cell function, or altering drug metabolism. Fecal microbiota transplantation (FMT) studies have demonstrated that transferring gut microbiota from ICI responders to non-responders can improve treatment outcomes, suggesting a causal role for the microbiome in modulating immunotherapy responses. Mechanisms underlying these effects involve the production of microbial metabolites such as short-chain fatty acids (SCFAs), which can influence immune cell differentiation and function. Strategies to manipulate the gut microbiome, such as dietary interventions, probiotics, and FMT, are being explored to enhance the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin 100mg BID for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) 160/800mg BID for 3 days per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of metformin in treating type 2 diabetes?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis and glycogenolysis. It activates AMP-activated protein kinase (AMPK), a cellular energy sensor, which suppresses expression of genes involved in glucose production and increases glucose uptake in peripheral tissues, particularly muscle. Metformin also improves insulin sensitivity, reduces intestinal glucose absorption, and modulates the gut microbiome [PMID:27642064]. While the precise molecular targets of metformin remain under investigation, AMPK activation is considered a central mechanism underlying its therapeutic effects. Metformin is generally well-tolerated but can cause gastrointestinal side effects and, rarely, lactic acidosis, especially in patients with impaired renal function. It remains a first-line treatment for type 2 diabetes due to its efficacy, safety, and low cost.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What initial labs should be ordered for a patient presenting with new onset chest pain?",
+    "answer": "ECG, troponin, CBC, CMP, and lipid panel.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative diseases, and what are the key structural features that define them?",
+    "answer": "Prions are misfolded, self-propagating forms of a normal cellular protein (PrPC) that can induce conformational changes in other PrPC molecules, converting them into the prion form (PrPSc). This process leads to the accumulation of PrPSc aggregates in the brain, causing neuronal dysfunction and neurodegenerative diseases such as Creutzfeldt-Jakob disease (CJD) [PMID:31420429]. PrPSc is characterized by a high β-sheet content, which confers resistance to protease digestion and promotes aggregation. The structural conversion from PrPC to PrPSc involves a conformational change in the C-terminal domain of the protein, leading to the formation of oligomeric fibrils and amyloid plaques. Prions can transmit disease through direct contact with infected tissues or through ingestion of contaminated materials. There are different strains of prions, characterized by distinct PrPSc conformations and glycosylation patterns, which can influence disease phenotype and transmissibility. Understanding the structural basis of prion propagation and the mechanisms of neuronal damage is crucial for developing therapeutic strategies to prevent or treat prion diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection, antihistamines (H1 and H2 blockers), and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system, and how can this knowledge inform vaccine development?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system, including antigenic variation, suppression of interferon signaling, inhibition of antigen presentation, and induction of immune tolerance. Antigenic variation, such as the frequent mutations in influenza virus hemagglutinin and neuraminidase, allows viruses to escape antibody neutralization. Many viruses encode proteins that interfere with interferon (IFN) production or signaling, which is critical for antiviral defense [PMID: 32238649]. Some viruses inhibit antigen presentation by interfering with MHC class I or II expression or by blocking the transport of viral peptides to the cell surface. Induction of immune tolerance through mechanisms such as T-cell exhaustion or regulatory T-cell expansion can also suppress antiviral immunity. Understanding these immune evasion mechanisms is crucial for vaccine development. Strategies to overcome immune evasion include designing vaccines that elicit broadly neutralizing antibodies, stimulating strong T-cell responses, and incorporating adjuvants that enhance innate immune activation. Rational vaccine design can also target conserved viral epitopes that are less prone to mutation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common causes of secondary hypertension?",
+    "answer": "Renal artery stenosis, primary aldosteronism, sleep apnea, thyroid disorders, and pheochromocytoma.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell metabolism and growth, and what are the therapeutic implications?",
+    "answer": "The Warburg effect, characterized by increased glucose uptake and aerobic glycolysis in cancer cells, provides metabolic advantages that support rapid growth and proliferation. Cancer cells preferentially metabolize glucose to lactate even in the presence of oxygen, diverting pyruvate from mitochondrial oxidative phosphorylation. This metabolic shift allows cancer cells to generate ATP more quickly, although less efficiently, and to produce biosynthetic precursors for cell growth and division [PMID:29310326]. The Warburg effect is regulated by oncogenes such as MYC and HIF-1α, which promote the expression of glycolytic enzymes and glucose transporters. Therapeutic strategies targeting the Warburg effect include inhibition of glycolysis with drugs such as 2-deoxyglucose (2-DG) or dichloroacetate (DCA), which inhibits pyruvate dehydrogenase kinase (PDK). These agents can selectively target cancer cells with high glycolytic rates, but their efficacy is often limited by compensatory metabolic pathways and toxicity. Combination therapies targeting multiple metabolic pathways may be more effective in disrupting cancer cell metabolism and inhibiting tumor growth.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the indications for initiating insulin therapy in type 2 diabetes?",
+    "answer": "A1c > 9% despite maximal oral therapy, symptomatic hyperglycemia, or pregnancy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes mediate intercellular communication in the tumor microenvironment, and what is their role in cancer metastasis?",
+    "answer": "Exosomes, nanoscale vesicles secreted by cells, mediate intercellular communication by delivering proteins, lipids, and nucleic acids (including miRNAs and mRNAs) to recipient cells. In the tumor microenvironment, exosomes facilitate interactions between cancer cells and stromal cells, promoting tumor growth, angiogenesis, and metastasis. Cancer cell-derived exosomes can transfer oncogenic proteins and miRNAs to recipient cells, altering their gene expression and phenotype [PMID:26644534]. For example, exosomes can deliver matrix metalloproteinases (MMPs) to stromal cells, enhancing extracellular matrix degradation and promoting cancer cell invasion. Exosomes can also educate distant organs to create a pre-metastatic niche, facilitating cancer cell colonization. They can transfer integrins to specific organs, directing cancer cells to those locations, or deliver immunosuppressive molecules to suppress anti-tumor immunity. Exosomes are being investigated as biomarkers for cancer diagnosis and prognosis, and as therapeutic targets for inhibiting cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common causes of acute kidney injury (AKI)?",
+    "answer": "Prerenal (hypovolemia, hypotension), intrinsic renal (glomerulonephritis, acute tubular necrosis), and postrenal (obstruction).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which epigenetic modifications regulate gene expression, and how do these mechanisms contribute to developmental processes and disease?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, regulate gene expression without altering the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), is associated with transcriptional repression. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and accessibility, influencing gene transcription [PMID:28854165]. Histone acetylation generally promotes gene expression, while histone methylation can either activate or repress transcription depending on the specific residue modified. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can regulate gene expression by targeting mRNAs for degradation or by interacting with chromatin-modifying complexes. Epigenetic modifications play critical roles in developmental processes such as cell differentiation and tissue morphogenesis. Aberrant epigenetic modifications are implicated in various diseases, including cancer, neurodevelopmental disorders, and autoimmune diseases. Epigenetic therapies targeting DNA methyltransferases (DNMTs) and histone deacetylases (HDACs) are being developed to reverse abnormal epigenetic patterns and restore normal gene expression in disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient with acute ischemic stroke?",
+    "answer": "If within 4.5 hours of symptom onset, administer IV alteplase; if large vessel occlusion, consider mechanical thrombectomy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do T cell receptors (TCRs) recognize and respond to antigens presented by MHC molecules, and what are the implications for adaptive immunity?",
+    "answer": "T cell receptors (TCRs) recognize antigens presented by major histocompatibility complex (MHC) molecules on antigen-presenting cells (APCs). MHC class I molecules present peptides derived from intracellular proteins to CD8+ T cells, while MHC class II molecules present peptides derived from extracellular proteins to CD4+ T cells [PMID:25965486]. The TCR is a heterodimeric protein composed of α and β chains, each containing variable and constant regions. The variable regions of the TCR chains form a binding site that interacts with the peptide-MHC complex. TCR recognition of antigen triggers a signaling cascade that leads to T cell activation, proliferation, and differentiation. CD4+ T cells can differentiate into helper T cells (Th1, Th2, Th17) that secrete cytokines to coordinate immune responses, or into regulatory T cells (Tregs) that suppress immune responses. CD8+ T cells differentiate into cytotoxic T lymphocytes (CTLs) that kill infected or cancerous cells. The specificity of TCR recognition is crucial for adaptive immunity, allowing T cells to selectively target and eliminate pathogens or tumor cells while avoiding self-reactivity. TCR-based therapies, such as adoptive T cell transfer and TCR-engineered T cells, are being developed to enhance anti-tumor immunity.",
+    "persona": "Researcher"
+  }
+]

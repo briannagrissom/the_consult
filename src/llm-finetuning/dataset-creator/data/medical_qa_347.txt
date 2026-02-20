@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated community-acquired pneumonia in an otherwise healthy adult?",
+    "answer": "Amoxicillin or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of atherosclerosis?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherogenesis, from endothelial dysfunction to plaque rupture. Elevated levels of inflammatory cytokines, such as TNF-α, IL-1β, and IL-6, activate endothelial cells, increasing their permeability and promoting the recruitment of monocytes and T lymphocytes into the subendothelial space. Monocytes differentiate into macrophages and internalize oxidized LDL, transforming into foam cells, the hallmark of early atherosclerotic lesions. Inflammation also stimulates the production of adhesion molecules like VCAM-1 and ICAM-1, further facilitating immune cell recruitment. Within the plaque, macrophages secrete matrix metalloproteinases (MMPs) that degrade the extracellular matrix, weakening the fibrous cap and increasing the risk of plaque rupture. Inflammatory signals also activate platelets and promote thrombus formation, contributing to acute thrombotic events. Moreover, inflammasome activation, particularly the NLRP3 inflammasome, amplifies the inflammatory response by processing and releasing IL-1β, creating a positive feedback loop. Therapies targeting specific inflammatory pathways, such as IL-1β inhibition with canakinumab [PMID: 29131670], have demonstrated a reduction in cardiovascular events, underscoring the importance of inflammation in atherosclerosis pathogenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5% per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through diverse mechanisms, both EGFR-dependent and EGFR-independent. The most common EGFR-dependent mechanism is the acquisition of the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. Other less frequent EGFR-dependent mechanisms include C797S mutations, EGFR amplification, and EGFR extracellular domain mutations. EGFR-independent mechanisms involve activation of bypass signaling pathways, such as MET amplification, HER2 amplification, BRAF mutations, PI3K/AKT pathway activation (PTEN loss or PIK3CA mutations), and small cell lung cancer transformation. Epithelial-mesenchymal transition (EMT) can also confer resistance by reducing EGFR dependence. Additionally, bypass tracks initiated by receptor tyrosine kinases, such as AXL and FGFR, or through upregulation of immune checkpoints like PD-L1 are further resistance mechanisms. The relative prevalence of these mechanisms varies depending on the specific TKI used and the patient population. Understanding these mechanisms is crucial for developing strategies to overcome resistance, such as using third-generation EGFR TKIs that target T790M, MET inhibitors, or combination therapies targeting multiple bypass pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin or TMP-SMX per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune response?",
+    "answer": "Viruses employ a wide array of strategies to evade the host immune system, targeting both innate and adaptive immune responses. They can interfere with interferon (IFN) production, signaling, and downstream effector functions by encoding proteins that inhibit pattern recognition receptors (PRRs) like TLRs and RIG-I, block IFN transcription factors (e.g., IRF3, IRF7), or suppress IFN-stimulated gene (ISG) expression. Many viruses also actively inhibit antigen presentation by downregulating MHC class I molecules, interfering with peptide loading, or disrupting antigen processing pathways. To counter antibody-mediated immunity, some viruses undergo rapid antigenic variation through mutation or recombination, generating new viral variants that are not recognized by existing antibodies. Others express Fc receptors that bind antibodies in the wrong orientation, preventing complement activation and antibody-dependent cell-mediated cytotoxicity (ADCC). Furthermore, viruses can directly infect and impair immune cells, such as CD4+ T cells (HIV), dendritic cells, and macrophages. Some viruses also encode proteins that mimic or antagonize host cytokines or chemokines, disrupting immune cell trafficking and communication. Finally, establishment of latency allows viruses to persist within the host for extended periods while minimizing immune detection.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in the pathogenesis of IBD, contributing to both disease initiation and perpetuation. Dysbiosis, characterized by a reduction in microbial diversity and an imbalance in the composition of the gut microbiota, is a consistent feature of IBD. In particular, there is often a decrease in beneficial commensal bacteria, such as Firmicutes (e.g., Faecalibacterium prausnitzii) and an increase in pathobionts, such as adherent-invasive Escherichia coli (AIEC). These alterations in the microbiome can disrupt the intestinal barrier function, leading to increased permeability and translocation of microbial products into the lamina propria. This triggers an exaggerated immune response, characterized by increased production of pro-inflammatory cytokines like TNF-α, IL-1β, and IL-23. Microbial metabolites, such as short-chain fatty acids (SCFAs), can also influence the inflammatory response, with decreased SCFA production contributing to impaired immune regulation. Furthermore, the microbiome can directly interact with immune cells, such as dendritic cells and T cells, influencing their differentiation and function. Specific microbial antigens can also trigger T cell responses, driving chronic inflammation. Therapeutic strategies targeting the microbiome, such as fecal microbiota transplantation (FMT), dietary modifications, and prebiotics/probiotics, have shown promise in modulating the gut microbiota and reducing inflammation in IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient with a suspected acute ischemic stroke?",
+    "answer": "Rapid assessment and consideration of thrombolysis or thrombectomy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the immune system distinguish between self and non-self?",
+    "answer": "The immune system distinguishes between self and non-self through a complex interplay of mechanisms that prevent autoimmunity while enabling responses to foreign antigens. Central tolerance mechanisms, occurring in the thymus (T cells) and bone marrow (B cells), eliminate or modify self-reactive lymphocytes. T cells undergo positive selection based on their ability to recognize self-MHC molecules and negative selection based on their reactivity to self-antigens. B cells undergo receptor editing or clonal deletion if they strongly bind to self-antigens in the bone marrow. Peripheral tolerance mechanisms further prevent autoimmunity in the periphery. These include anergy (functional inactivation of T cells), regulatory T cells (Tregs) that suppress autoreactive T cells, and activation-induced cell death (AICD) of autoreactive lymphocytes. Furthermore, immune checkpoints, such as CTLA-4 and PD-1, negatively regulate T cell activation and prevent excessive immune responses. The presentation of antigens in the context of costimulatory molecules (e.g., B7-CD28) is also critical for determining whether an immune response will be initiated. In addition, specialized antigen-presenting cells (APCs), such as dendritic cells, play a key role in distinguishing between self and non-self by integrating signals from the tissue microenvironment. Breakdown of these tolerance mechanisms can lead to autoimmunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years or annual FIT test per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in cancer metastasis?",
+    "answer": "Cancer metastasis is a complex, multi-step process involving numerous signaling pathways that enable tumor cells to detach from the primary tumor, invade surrounding tissues, intravasate into the bloodstream, survive in circulation, extravasate into distant organs, and form secondary tumors. The epithelial-mesenchymal transition (EMT) is a crucial process that promotes cell motility and invasiveness, driven by transcription factors like SNAIL, TWIST, and ZEB1, and regulated by signaling pathways such as TGF-β, Wnt, and Notch. Activation of matrix metalloproteinases (MMPs) by signaling pathways like MAPK and PI3K/AKT degrades the extracellular matrix, facilitating invasion. The PI3K/AKT pathway also promotes cell survival and proliferation in the distant organ. The Rho GTPases (Rho, Rac, and Cdc42) regulate actin cytoskeleton dynamics and cell migration. Furthermore, signaling pathways involved in angiogenesis, such as VEGF, are essential for providing nutrients and oxygen to the growing metastases. The interaction between cancer cells and the microenvironment in the distant organ, mediated by cytokines and chemokines, also plays a critical role in determining the success of metastasis. Finally, immune evasion mechanisms, involving pathways such as PD-1/PD-L1, enable metastatic cells to evade immune surveillance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to cellular homeostasis and disease?",
+    "answer": "Autophagy is a highly conserved cellular process that degrades and recycles damaged organelles, misfolded proteins, and intracellular pathogens, playing a critical role in maintaining cellular homeostasis. During autophagy, cytoplasmic components are sequestered within double-membrane vesicles called autophagosomes, which then fuse with lysosomes for degradation. The process is tightly regulated by a complex network of autophagy-related genes (ATGs). Autophagy is essential for removing damaged mitochondria (mitophagy), endoplasmic reticulum (ER-phagy), and ribosomes (ribophagy), preventing the accumulation of toxic aggregates and maintaining cellular health. In the context of disease, autophagy can have both protective and detrimental roles. In neurodegenerative diseases, autophagy helps clear protein aggregates like amyloid-beta and tau, preventing neuronal dysfunction. In cancer, autophagy can suppress tumorigenesis by removing damaged organelles and preventing genomic instability, but it can also promote tumor cell survival under stress conditions like nutrient deprivation and hypoxia. Autophagy also plays a critical role in immunity by clearing intracellular pathogens (xenophagy) and modulating inflammatory responses. Dysregulation of autophagy has been implicated in a wide range of diseases, including cancer, neurodegeneration, infection, and metabolic disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance in bacteria arises through several key mechanisms, including enzymatic inactivation of the antibiotic, alteration of the antibiotic target site, decreased antibiotic uptake, and increased efflux of the antibiotic. Enzymes like beta-lactamases hydrolyze beta-lactam antibiotics, rendering them inactive. Target site modification involves mutations in the bacterial ribosome, DNA gyrase, or other antibiotic targets that reduce antibiotic binding. Decreased antibiotic uptake can occur through mutations in porin channels that reduce antibiotic entry into the cell. Increased efflux of the antibiotic is mediated by efflux pumps that actively pump the antibiotic out of the cell. Horizontal gene transfer, including conjugation, transduction, and transformation, plays a critical role in spreading resistance genes between bacteria. The selection pressure exerted by antibiotic use drives the evolution and spread of resistance. Furthermore, the formation of biofilms can protect bacteria from antibiotics. Understanding these mechanisms is essential for developing new strategies to combat antibiotic resistance, such as developing new antibiotics that are not susceptible to resistance mechanisms, using antibiotic adjuvants to inhibit resistance enzymes or efflux pumps, and implementing antibiotic stewardship programs to reduce antibiotic use.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors enhance anti-tumor immunity by blocking inhibitory signals that normally dampen T cell activation and effector function. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are key immune checkpoints that negatively regulate T cell responses. CTLA-4, expressed on T cells, competes with CD28 for binding to B7 ligands on antigen-presenting cells (APCs), preventing T cell costimulation. PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and other cells in the tumor microenvironment. Engagement of PD-1 inhibits T cell activation, proliferation, and cytokine production, leading to T cell exhaustion. Checkpoint inhibitors, such as anti-CTLA-4 and anti-PD-1/PD-L1 antibodies, block these inhibitory interactions, allowing T cells to become activated and mount an effective anti-tumor response. By blocking CTLA-4, T cell priming and activation are enhanced, while blocking PD-1/PD-L1 restores T cell effector function within the tumor microenvironment. Checkpoint inhibitors have shown remarkable clinical efficacy in a variety of cancers, but they can also cause immune-related adverse events due to the unleashing of T cell activity against normal tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient with suspected deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin or direct oral anticoagulants (DOACs).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of epigenetics in cancer development and progression?",
+    "answer": "Epigenetics plays a crucial role in cancer development and progression by altering gene expression patterns without changing the underlying DNA sequence. Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, can influence a wide range of cellular processes involved in tumorigenesis, such as cell proliferation, differentiation, apoptosis, and metastasis. DNA methylation, typically occurring at CpG islands, can silence tumor suppressor genes, promoting uncontrolled cell growth. Histone modifications, such as acetylation and methylation, can alter chromatin structure and accessibility, influencing gene transcription. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by binding to mRNA and inhibiting translation or promoting degradation. Epigenetic alterations can be inherited through cell divisions, contributing to the clonal evolution of cancer cells. Furthermore, epigenetic modifications can be influenced by environmental factors, such as diet and exposure to toxins, contributing to cancer risk. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), have shown promise in cancer therapy by reversing epigenetic alterations and restoring normal gene expression patterns. Understanding the role of epigenetics in cancer is crucial for developing new diagnostic and therapeutic strategies.",
+    "persona": "Researcher"
+  }
+]

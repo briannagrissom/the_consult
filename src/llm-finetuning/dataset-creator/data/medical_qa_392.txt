@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis unleash antitumor immunity at the molecular level?",
+    "answer": "The PD-1/PD-L1 pathway normally functions as a crucial negative regulator of T-cell activity to prevent autoimmunity and limit collateral damage during infection. PD-1 (programmed cell death protein 1) is expressed on activated T cells, B cells, and NK cells, while its ligands, PD-L1 and PD-L2, are expressed on antigen-presenting cells (APCs) and various tumor cells. Upon binding, PD-L1/PD-1 recruits SHP-1/SHP-2 phosphatases to the TCR signaling complex, dephosphorylating key signaling molecules like ZAP70 and CD3ζ, thereby dampening T-cell receptor (TCR) signaling. This reduces T-cell proliferation, cytokine production (IFN-γ, TNF-α, IL-2), and cytotoxic activity (granzyme B release). Tumor cells exploit this pathway by upregulating PD-L1 expression in response to inflammatory cytokines or oncogenic signaling, creating an immunosuppressive microenvironment. Monoclonal antibodies targeting PD-1 or PD-L1 block this interaction, preventing inhibitory signaling and restoring T-cell effector function against tumor cells. This leads to enhanced tumor cell killing, increased immune cell infiltration into the tumor, and potentially durable clinical responses, especially in tumors with high mutational burden and pre-existing immune infiltration. However, the pathway's normal role in immune homeostasis also explains the potential for immune-related adverse events (irAEs) due to excessive T-cell activation in other tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (double), diabetes, stroke/TIA/thromboembolism (double), vascular disease, age 65-74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which cancer cells develop resistance to tyrosine kinase inhibitors (TKIs)?",
+    "answer": "Resistance to TKIs arises through a variety of genetic and non-genetic mechanisms. The most common include: (1) On-target mutations: point mutations within the TKI binding domain of the targeted kinase that prevent drug binding (e.g., T790M in EGFR for gefitinib/erlotinib resistance). (2) Bypass signaling: activation of alternative signaling pathways that circumvent the inhibited kinase (e.g., MET amplification in EGFR-mutant lung cancer). (3) Downstream mutations: mutations in downstream signaling molecules that constitutively activate the pathway regardless of upstream inhibition (e.g., RAS mutations). (4) Histological transformation: change in tumor phenotype to a less TKI-sensitive histology (e.g., epithelial-mesenchymal transition or small cell transformation). (5) Efflux pumps: upregulation of drug efflux pumps (e.g., P-glycoprotein) that reduce intracellular drug concentration. (6) Intrinsic resistance: inherent insensitivity due to tumor heterogeneity or microenvironmental factors that protect cancer cells. (7) Epigenetic changes: alterations in gene expression patterns that modulate drug sensitivity. These mechanisms often co-exist and evolve over time, necessitating combination therapies and strategies to overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone?",
+    "answer": "Every 3 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in BRCA1 and BRCA2 impair DNA repair and increase cancer risk?",
+    "answer": "BRCA1 and BRCA2 are critical components of the homologous recombination (HR) DNA repair pathway, which is essential for accurately repairing double-strand DNA breaks (DSBs). BRCA1 forms a complex with other proteins (e.g., BARD1, BRCA2, RAD51) that orchestrates DSB repair by promoting DNA end resection, RAD51 filament formation, and strand invasion. BRCA2 directly binds to RAD51 and facilitates its recruitment to sites of DNA damage, stabilizing the RAD51-DNA complex. Mutations in BRCA1 or BRCA2 disrupt HR, leading to the accumulation of unrepaired DSBs, genomic instability, and increased reliance on error-prone DNA repair pathways like non-homologous end joining (NHEJ). This \"BRCAness\" phenotype results in increased sensitivity to DNA-damaging agents (e.g., platinum-based chemotherapy, PARP inhibitors) but also promotes tumorigenesis by accelerating the acquisition of mutations and chromosomal aberrations. The impaired HR also leads to increased replication stress, which further contributes to genomic instability and cancer development. Cells with BRCA1/2 mutations are unable to properly repair DNA damage, which leads to an increased rate of mutation and chromosomal instability, leading to higher cancer risk.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target LDL-C level for secondary prevention in patients with established ASCVD?",
+    "answer": "<70 mg/dL or ≥50% reduction from baseline.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CRISPR-Cas9 and RNA interference (RNAi) in terms of gene silencing mechanisms and applications?",
+    "answer": "CRISPR-Cas9 and RNAi are both powerful gene-silencing technologies, but they operate through distinct mechanisms and have different applications. RNAi relies on small interfering RNAs (siRNAs) to induce degradation of mRNA transcripts or translational repression, leading to a temporary reduction in protein expression. siRNAs guide the RNA-induced silencing complex (RISC) to complementary mRNA sequences, resulting in mRNA cleavage or translational blockage. RNAi is primarily used for gene knockdown, where gene expression is reduced but not completely eliminated. CRISPR-Cas9, on the other hand, uses a guide RNA (gRNA) to direct the Cas9 nuclease to a specific DNA sequence, where it creates a double-strand break (DSB). This DSB can be repaired by either non-homologous end joining (NHEJ), which often introduces insertions or deletions (indels) that disrupt gene function (gene knockout), or by homology-directed repair (HDR), which allows for precise gene editing using a donor DNA template. CRISPR-Cas9 offers the potential for permanent gene inactivation or precise gene modification, while RNAi provides transient gene silencing. CRISPR-Cas9 has broad applications in gene editing, gene therapy, and functional genomics, whereas RNAi is widely used for target validation, drug discovery, and gene knockdown studies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for anaphylaxis?",
+    "answer": "Epinephrine is the first line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses like HIV evade the host's immune system to establish chronic infection?",
+    "answer": "Viruses employ multiple strategies to evade immune detection and clearance, enabling chronic infection. HIV, for example, exhibits high mutation rates due to its error-prone reverse transcriptase, leading to antigenic variation and escape from antibody neutralization and T-cell recognition. HIV also infects CD4+ T cells, which are critical for coordinating immune responses, leading to immune dysfunction and depletion. Furthermore, HIV downregulates MHC class I expression on infected cells, reducing presentation of viral antigens to cytotoxic T lymphocytes (CTLs). HIV also produces decoy proteins (e.g., Nef, Vpu) that interfere with immune signaling pathways and promote immune tolerance. Latency is another key mechanism, where HIV integrates into the host cell's genome and remains transcriptionally silent, evading immune detection. Additionally, HIV induces immune exhaustion, characterized by upregulation of inhibitory receptors (e.g., PD-1, CTLA-4) on T cells, impairing their effector function. These multifaceted immune evasion strategies contribute to the persistence of HIV infection despite host immune responses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial imaging modality for suspected pulmonary embolism?",
+    "answer": "CT pulmonary angiogram (CTPA).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA) to recipient cells. In cancer, exosomes play a critical role in promoting tumor growth, angiogenesis, immune evasion, and metastasis. Tumor-derived exosomes can deliver oncogenic proteins and microRNAs to distant sites, preparing the pre-metastatic niche for cancer cell colonization. For instance, exosomes can transfer matrix metalloproteinases (MMPs) to degrade the extracellular matrix, facilitating cancer cell invasion. They can also deliver pro-angiogenic factors like VEGF to stimulate blood vessel formation, supporting tumor growth. Exosomes can suppress immune responses by delivering immunosuppressive molecules (e.g., PD-L1, TGF-β) to immune cells, promoting immune evasion. Moreover, exosomes can alter the metabolism of recipient cells, providing cancer cells with a survival advantage. The content and function of exosomes vary depending on the tumor type and stage, making them potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets for inhibiting metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for streptococcal pharyngitis?",
+    "answer": "Penicillin or amoxicillin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification, such as DNA methylation and histone modification, influence gene expression and cell differentiation?",
+    "answer": "Epigenetic modifications are heritable changes in gene expression that occur without alterations to the DNA sequence itself. DNA methylation, the addition of a methyl group to cytosine bases, typically leads to transcriptional repression by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs), which compact chromatin structure. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin accessibility and regulate gene expression. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure, whereas histone deacetylation, catalyzed by HDACs, leads to transcriptional repression. Histone methylation can have either activating or repressive effects, depending on the specific lysine residue that is methylated (e.g., H3K4me3 is associated with active transcription, while H3K27me3 is associated with gene silencing). These epigenetic modifications play a crucial role in regulating gene expression during cell differentiation, development, and disease. Aberrant epigenetic patterns can contribute to cancer development, aging, and other disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for patients on warfarin for atrial fibrillation?",
+    "answer": "2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with CAR T-cells work to target and eliminate cancer cells?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy is a form of adoptive cell therapy where a patient's T cells are genetically engineered to express a CAR, which is a synthetic receptor that recognizes a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain (e.g., a single-chain variable fragment, scFv) derived from an antibody, linked to intracellular signaling domains that activate T-cell function upon antigen recognition (e.g., CD3ζ, 4-1BB, CD28). The engineered CAR T-cells are then expanded ex vivo and infused back into the patient, where they can specifically target and kill cancer cells expressing the target antigen. Upon binding to the target antigen, the CAR T-cells become activated, releasing cytotoxic molecules (e.g., granzyme B, perforin) and cytokines (e.g., IFN-γ, TNF-α) that induce cancer cell death. CAR T-cell therapy has shown remarkable success in treating hematological malignancies, particularly B-cell lymphomas and acute lymphoblastic leukemia (ALL). However, challenges remain in developing CAR T-cell therapies for solid tumors due to factors such as limited tumor penetration, on-target off-tumor toxicity, and immunosuppressive tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia (CAP) in an outpatient setting for a previously healthy adult?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (if local resistance is low).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms by which the gut microbiome influences human health and disease?",
+    "answer": "The gut microbiome, comprising trillions of bacteria, archaea, fungi, and viruses, exerts profound influence on human health through multiple mechanisms. Firstly, the microbiome aids in nutrient metabolism by fermenting undigested carbohydrates, producing short-chain fatty acids (SCFAs) like acetate, propionate, and butyrate, which serve as energy sources for colonocytes and have systemic effects on metabolism and immunity. Secondly, the microbiome protects against pathogen colonization by competing for nutrients and producing antimicrobial substances. Thirdly, it modulates the immune system by stimulating the development of gut-associated lymphoid tissue (GALT) and influencing the balance between pro-inflammatory and anti-inflammatory immune responses. Dysbiosis, an imbalance in the gut microbiome composition, has been linked to various diseases, including inflammatory bowel disease (IBD), obesity, type 2 diabetes, cardiovascular disease, and even neurological disorders. The microbiome can also influence drug metabolism and efficacy. Fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy to restore a healthy microbiome in certain conditions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression and contribute to disease pathogenesis?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), are RNA molecules that do not encode proteins but play crucial regulatory roles in gene expression. MicroRNAs (miRNAs) are small (∼22 nucleotide) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. MiRNAs regulate diverse biological processes, including cell proliferation, differentiation, apoptosis, and development. Dysregulation of miRNA expression has been implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. LncRNAs can act as scaffolds, guiding proteins to specific genomic locations, or as decoys, sequestering regulatory proteins. LncRNAs are involved in various cellular processes and are often dysregulated in disease. Both miRNAs and lncRNAs are promising therapeutic targets and biomarkers.",
+    "persona": "Researcher"
+  }
+]

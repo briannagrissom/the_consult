@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in a healthy adult without comorbidities?",
+    "answer": "Azithromycin or doxycycline are appropriate first-line treatments for community-acquired pneumonia in healthy adults without comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level?",
+    "answer": "CRISPR-Cas9 is an adaptive immune system in bacteria that has been repurposed for genome editing. It relies on a Cas9 endonuclease guided by a single guide RNA (sgRNA) that consists of a CRISPR RNA (crRNA) and a trans-activating crRNA (tracrRNA). The 20-nucleotide sequence at the 5' end of the crRNA is complementary to the target DNA sequence. The sgRNA directs Cas9 to a specific genomic location, provided it is adjacent to a protospacer adjacent motif (PAM) sequence, typically NGG for SpCas9. Once Cas9 is bound to the DNA, it creates a double-stranded break approximately 3-4 base pairs upstream of the PAM site. The cell's endogenous DNA repair mechanisms then repair the break, either via non-homologous end joining (NHEJ), which is error-prone and often leads to insertions or deletions (indels) that disrupt the gene, or via homology-directed repair (HDR) if a DNA template with homology to the targeted region is provided, allowing precise gene editing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Common side effects of SSRIs include nausea, diarrhea, sexual dysfunction, insomnia, and weight gain.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves complex interactions between multiple signaling pathways. Amyloid precursor protein (APP) processing via β-secretase and γ-secretase leads to the formation of amyloid-β (Aβ) plaques, which trigger neuroinflammation and tau hyperphosphorylation. Aβ oligomers activate microglia and astrocytes, releasing pro-inflammatory cytokines such as TNF-α and IL-1β, which further exacerbate neuronal damage and synaptic dysfunction. Tau hyperphosphorylation, mediated by kinases such as GSK-3β and CDK5, results in the formation of neurofibrillary tangles, disrupting microtubule stability and axonal transport. Furthermore, reduced levels of acetylcholine due to cholinergic neuron degeneration contribute to cognitive decline. Aberrant activation of the PI3K/Akt/mTOR pathway, as well as disrupted insulin signaling in the brain, have also been implicated in AD. These pathways converge to promote synaptic loss, neuronal apoptosis, and ultimately, cognitive impairment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is a diagnosis of diabetes mellitus typically made?",
+    "answer": "Diagnosis of diabetes is made via fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "Immune checkpoint inhibitors (ICIs) work by blocking inhibitory pathways that normally dampen T-cell activation and effector function. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) is expressed on T cells and competes with CD28 for binding to B7 ligands on antigen-presenting cells (APCs). Blocking CTLA-4 enhances T-cell activation and proliferation. Programmed cell death protein 1 (PD-1) is expressed on T cells and binds to its ligands, PD-L1 and PD-L2, on tumor cells and APCs. PD-1 signaling inhibits T-cell cytotoxicity and cytokine production. Blocking the PD-1/PD-L1 interaction restores T-cell function and allows for effective tumor cell killing. Other checkpoint inhibitors targeting LAG-3, TIM-3, and TIGIT are also under development. ICIs unleash pre-existing anti-tumor immunity, allowing for durable responses in some patients, but can also lead to immune-related adverse events due to excessive immune activation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a female?",
+    "answer": "Nitrofurantoin for 5 days, TMP-SMX for 3 days, or fosfomycin single dose are recommended treatments for acute uncomplicated cystitis in females.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of resistance to platinum-based chemotherapy in ovarian cancer?",
+    "answer": "Resistance to platinum-based chemotherapy in ovarian cancer is multifactorial. Enhanced DNA repair mechanisms, particularly nucleotide excision repair (NER), allow cells to repair platinum-induced DNA damage more efficiently. Increased expression of drug efflux pumps, such as ABCB1 (P-glycoprotein), promotes the removal of platinum drugs from the cell. Alterations in apoptosis pathways, such as downregulation of pro-apoptotic proteins (e.g., BAX) or upregulation of anti-apoptotic proteins (e.g., BCL-2), can prevent cells from undergoing programmed cell death in response to chemotherapy. Furthermore, epigenetic modifications, such as DNA methylation and histone modifications, can alter gene expression patterns, leading to chemoresistance. The tumor microenvironment, including hypoxia and the presence of cancer-associated fibroblasts, also contributes to drug resistance by limiting drug penetration and promoting survival signaling pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common signs and symptoms of hypothyroidism?",
+    "answer": "Common signs and symptoms of hypothyroidism include fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting CAR T-cells function to eliminate cancer cells?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's own T cells to express a synthetic receptor that recognizes a specific antigen on tumor cells. The CAR consists of an extracellular antigen-binding domain (e.g., a single-chain variable fragment, scFv) fused to intracellular signaling domains (e.g., CD3ζ and CD28 or 4-1BB). When the CAR T-cell encounters a tumor cell expressing the target antigen, the CAR binds to the antigen, triggering T-cell activation and subsequent release of cytotoxic granules containing perforin and granzymes. Perforin creates pores in the tumor cell membrane, allowing granzymes to enter and induce apoptosis. CAR T-cells can also release cytokines such as IFN-γ and TNF-α, which further enhance anti-tumor immunity. The CAR T-cells then proliferate and persist in the patient's body, providing ongoing surveillance and killing of tumor cells expressing the target antigen. However, CAR T-cell therapy can also cause significant side effects, including cytokine release syndrome (CRS) and neurotoxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection is the initial treatment for anaphylaxis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which bacteria develop resistance to antibiotics?",
+    "answer": "Bacteria develop antibiotic resistance through several mechanisms. Enzymatic inactivation involves the production of enzymes that degrade or modify the antibiotic, preventing it from binding to its target. Target modification involves mutations in the bacterial target site (e.g., ribosomes, DNA gyrase) that reduce the affinity of the antibiotic. Reduced permeability involves changes in the bacterial cell wall or membrane that decrease the entry of the antibiotic into the cell. Efflux pumps actively transport the antibiotic out of the cell, reducing its intracellular concentration. Horizontal gene transfer, including conjugation, transduction, and transformation, allows bacteria to acquire resistance genes from other bacteria. These mechanisms often occur in combination, leading to multidrug resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years or fecal immunochemical test (FIT) annually are recommended screening tests for colorectal cancer.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between phase I, phase II, and phase III clinical trials?",
+    "answer": "Phase I trials assess the safety, tolerability, and pharmacokinetics of a new drug in a small group of healthy volunteers or patients with advanced disease. Phase II trials evaluate the efficacy of the drug in a larger group of patients with the target disease, determine the optimal dose, and identify potential side effects. Phase III trials are large, randomized controlled trials that compare the new drug to the current standard of care in a large group of patients to confirm its efficacy, monitor side effects, and collect information that will allow the drug to be used safely and effectively.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are common treatments for acute migraine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ multiple strategies to evade the host immune system. They can rapidly mutate their surface antigens (e.g., influenza virus) to escape recognition by neutralizing antibodies. Some viruses, such as HIV, infect and kill immune cells, leading to immune suppression. Viruses can also interfere with interferon signaling pathways, which are critical for antiviral defense. Many viruses encode proteins that inhibit the presentation of viral antigens on MHC class I molecules, preventing recognition by cytotoxic T lymphocytes. Some viruses establish latency, where they persist in a non-replicating state, evading immune detection. Viruses can also produce decoy molecules that bind to neutralizing antibodies or complement proteins, preventing them from targeting the virus.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated hypertension?",
+    "answer": "Lifestyle modifications and thiazide diuretics or ACE inhibitors are standard treatments for uncomplicated hypertension.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major factors contributing to the development of atherosclerosis?",
+    "answer": "Atherosclerosis is a chronic inflammatory disease characterized by the accumulation of lipids and fibrous elements in the arterial wall. Key factors contributing to its development include hyperlipidemia (elevated LDL cholesterol), hypertension, smoking, diabetes, and inflammation. LDL cholesterol accumulates in the arterial intima, where it undergoes oxidation. Oxidized LDL triggers an inflammatory response, leading to the recruitment of monocytes and T lymphocytes into the arterial wall. Monocytes differentiate into macrophages and engulf oxidized LDL, forming foam cells. These foam cells accumulate and contribute to the formation of fatty streaks, the earliest visible lesions of atherosclerosis. Over time, the lesions progress to form atherosclerotic plaques, which contain a core of lipids, cellular debris, and a fibrous cap. Plaque rupture can lead to thrombus formation and acute cardiovascular events such as myocardial infarction and stroke.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient presenting with a suspected stroke?",
+    "answer": "Rapid assessment, neuroimaging (CT or MRI), and consideration for thrombolytic therapy or mechanical thrombectomy are key management steps for suspected stroke.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression and cell fate decisions?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in regulating gene expression and cell fate decisions without altering the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), is associated with gene silencing. Histone modifications, such as acetylation and methylation, alter chromatin structure and accessibility, influencing transcription. Histone acetylation generally promotes gene expression, while histone methylation can either activate or repress gene expression depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression through various mechanisms, including mRNA degradation, translational repression, and chromatin remodeling. These epigenetic modifications are dynamic and can be influenced by environmental factors, contributing to phenotypic plasticity and disease susceptibility.",
+    "persona": "Researcher"
+  }
+]

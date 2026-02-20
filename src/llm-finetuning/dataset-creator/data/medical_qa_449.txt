@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically recommended first-line [IDSA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 facilitate targeted gene editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a specific DNA sequence to direct the Cas9 nuclease to that location in the genome. The Cas9 enzyme then introduces a double-stranded break (DSB) at the targeted site. The cell repairs this break either through non-homologous end joining (NHEJ), which is error-prone and can result in insertions or deletions (indels) that disrupt gene function, or through homology-directed repair (HDR), which uses a provided DNA template to precisely insert or modify the gene sequence. HDR is less efficient but allows for precise gene editing. The efficiency and specificity of CRISPR-Cas9 editing can be affected by the gRNA design, Cas9 variant used (e.g., Cas9 from Streptococcus pyogenes, Staphylococcus aureus), delivery method (e.g., viral vectors, electroporation), and the cell type. Off-target effects, where Cas9 cleaves at unintended sites due to sequence similarity, are a significant concern and can be mitigated by using high-fidelity Cas9 variants and carefully designing gRNAs [PMID: 26282614].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for rheumatoid arthritis?",
+    "answer": "Joint involvement, serology (RF, anti-CCP), acute phase reactants (ESR, CRP), and symptom duration [ACR/EULAR criteria].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why are some cancer cells more susceptible to apoptosis induced by BH3 mimetics?",
+    "answer": "BH3 mimetics, such as ABT-199 (venetoclax), target the BCL-2 family of anti-apoptotic proteins. Cancer cells that are highly dependent on specific BCL-2 family members (BCL-2, BCL-xL, MCL-1) for survival are particularly sensitive to BH3 mimetics. These proteins normally sequester pro-apoptotic proteins like BAK and BAX, preventing them from oligomerizing and initiating mitochondrial outer membrane permeabilization (MOMP), a critical step in apoptosis. When a BH3 mimetic binds to and neutralizes the anti-apoptotic protein, BAK and BAX are released, leading to MOMP, cytochrome c release, and caspase activation. Resistance to BH3 mimetics can arise from upregulation of other anti-apoptotic proteins that can compensate for the inhibited protein, or from mutations in BAK or BAX that impair their ability to oligomerize. Additionally, the cellular context and the presence of other survival signals can modulate the apoptotic threshold [PMID: 23722159].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with normal cytology?",
+    "answer": "Every 3 years with cytology alone or every 5 years with high-risk HPV testing alone or co-testing [ACS guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence cellular differentiation and development?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression without altering the underlying DNA sequence. DNA methylation, typically at CpG islands, often leads to gene silencing by recruiting methyl-binding proteins and compacting chromatin. Histone modifications, such as acetylation (associated with active transcription) and methylation (can be either activating or repressive depending on the specific lysine residue modified), alter chromatin structure and accessibility to transcription factors. Non-coding RNAs, like microRNAs, can regulate gene expression by binding to mRNA and inhibiting translation or promoting mRNA degradation. During development, these epigenetic marks are dynamically remodeled to establish cell-type-specific gene expression patterns, driving cellular differentiation and maintaining cell identity. Aberrant epigenetic modifications can contribute to developmental disorders and cancer by disrupting normal gene regulation [PMID: 17008851].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Empiric antibiotics covering common pathogens (e.g., macrolide, doxycycline, or beta-lactam plus macrolide/doxycycline) [IDSA/ATS guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is combination antiretroviral therapy (cART) effective in controlling HIV infection?",
+    "answer": "cART typically involves the use of three or more antiretroviral drugs from different classes, targeting different stages of the HIV life cycle. These classes include reverse transcriptase inhibitors (NRTIs and NNRTIs), protease inhibitors (PIs), integrase inhibitors (INSTIs), and entry inhibitors (fusion and CCR5 antagonists). By simultaneously inhibiting multiple viral enzymes, cART significantly reduces viral replication, lowering the viral load in the patient's blood. This allows the immune system to recover and prevent the progression to AIDS. The use of multiple drugs also decreases the likelihood of drug resistance, as the virus would need to develop multiple mutations simultaneously to overcome the effects of all the drugs. Adherence to cART is crucial for its effectiveness, as missed doses can lead to viral rebound and the development of resistance [PMID: 32187545].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevation, and rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1, anti-PD-L1, and anti-CTLA-4 antibodies, block inhibitory signaling pathways that normally dampen T cell activity. PD-1 (Programmed cell death protein 1) and CTLA-4 (Cytotoxic T-lymphocyte-associated protein 4) are immune checkpoint molecules expressed on T cells that interact with ligands on tumor cells or antigen-presenting cells. When these checkpoints are engaged, they deliver inhibitory signals that suppress T cell activation, proliferation, and cytotoxic function, allowing tumor cells to evade immune destruction. By blocking these interactions with checkpoint inhibitors, the inhibitory signals are removed, allowing T cells to mount a more effective anti-tumor response. This can lead to tumor regression in some patients. However, checkpoint inhibition can also result in immune-related adverse events (irAEs) due to the activation of T cells against normal tissues [PMID: 27932368].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute stroke?",
+    "answer": "Sudden onset of focal neurological deficits (e.g., weakness, speech difficulty, vision loss).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is personalized medicine becoming increasingly important in cancer treatment?",
+    "answer": "Personalized medicine tailors treatment strategies to individual patients based on their unique genetic and molecular profiles, as well as clinical characteristics. Cancers are heterogeneous diseases, with significant variations in the underlying genetic mutations, signaling pathways, and immune microenvironment. By identifying specific biomarkers (e.g., mutations in EGFR, BRAF, or HER2), clinicians can select therapies that are more likely to be effective for a particular patient's cancer. For example, patients with EGFR-mutated lung cancer are more likely to respond to EGFR tyrosine kinase inhibitors. Personalized medicine also helps to avoid unnecessary treatments and associated toxicities in patients who are unlikely to benefit. Advances in genomic sequencing, proteomics, and other technologies are enabling more comprehensive profiling of tumors, facilitating the development of targeted therapies and improving patient outcomes [PMID: 26642254].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the goal HbA1c for most adults with diabetes?",
+    "answer": "Less than 7% [ADA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system's interferon response?",
+    "answer": "Viruses have evolved diverse mechanisms to evade the host's interferon (IFN) response, a critical component of antiviral immunity. Many viruses encode proteins that directly interfere with IFN signaling pathways. For example, some viral proteins inhibit the activation of pattern recognition receptors (PRRs) such as TLRs and RIG-I-like receptors (RLRs), which normally detect viral components and trigger IFN production. Other viral proteins target downstream signaling molecules such as IRF3 and NF-κB, preventing their activation and translocation to the nucleus to induce IFN gene expression. Some viruses also encode proteins that inhibit the activity of IFN-stimulated genes (ISGs), which are responsible for mediating the antiviral effects of IFN. Additionally, viruses can employ strategies to mask their presence from the immune system, such as replicating in immune-privileged sites or downregulating the expression of MHC class I molecules to evade T cell recognition. These evasion mechanisms contribute to viral persistence and pathogenesis [PMID: 24390342].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a patient with suspected myocardial infarction?",
+    "answer": "Assess ABCs, administer oxygen, aspirin, nitroglycerin, and obtain an ECG.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs contribute to cardiovascular disease?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and circular RNAs (circRNAs), play critical roles in regulating gene expression and cellular function in the cardiovascular system. miRNAs are small ncRNAs that bind to mRNA and inhibit translation or promote mRNA degradation, thereby modulating the expression of genes involved in various cardiovascular processes, such as angiogenesis, inflammation, fibrosis, and apoptosis. lncRNAs are longer ncRNAs that can act as scaffolds, guides, or decoys to regulate gene expression at the transcriptional or post-transcriptional level. circRNAs are circular RNA molecules that can act as miRNA sponges or encode for small peptides. Dysregulation of ncRNA expression has been implicated in various cardiovascular diseases, including atherosclerosis, hypertension, heart failure, and cardiac arrhythmias. ncRNAs can influence disease progression by affecting endothelial function, smooth muscle cell proliferation, cardiomyocyte hypertrophy, and inflammatory responses [PMID: 28701400].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why are clinical trials essential for developing new medical treatments?",
+    "answer": "Clinical trials are essential for rigorously evaluating the safety and efficacy of new medical treatments, including drugs, devices, and therapies. These trials are conducted in phases, starting with Phase I trials to assess safety and dosage in a small group of healthy volunteers or patients. Phase II trials evaluate efficacy and side effects in a larger group of patients with the target condition. Phase III trials are large-scale, randomized controlled trials (RCTs) that compare the new treatment to the current standard of care or a placebo. The results of these trials provide the evidence needed to determine whether the new treatment is safe and effective, and whether it offers any advantages over existing treatments. Clinical trials also help to identify potential side effects and determine the optimal dosage and administration route. Regulatory agencies, such as the FDA, rely on clinical trial data to approve new medical treatments for widespread use [PMID: 25847945].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the main risk factors for developing type 2 diabetes?",
+    "answer": "Obesity, family history, physical inactivity, and older age.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis. In individuals with IBD, there is often a dysbiosis, characterized by a reduction in microbial diversity and alterations in the composition of the gut microbiota. This dysbiosis can lead to impaired barrier function, increased intestinal permeability, and enhanced immune responses to commensal bacteria. Certain bacterial species, such as adherent-invasive Escherichia coli (AIEC), have been implicated in promoting inflammation and exacerbating IBD symptoms. Conversely, other bacterial species, such as Faecalibacterium prausnitzii, are known to produce short-chain fatty acids (SCFAs), such as butyrate, which have anti-inflammatory effects and can protect against IBD. The gut microbiome also influences the development and function of the host immune system, including the differentiation of T cells and the production of cytokines. Interactions between the gut microbiome, the host immune system, and genetic factors contribute to the chronic inflammation and tissue damage that characterize IBD [PMID: 23784567].",
+    "persona": "Researcher"
+  }
+]

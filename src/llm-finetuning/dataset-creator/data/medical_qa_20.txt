@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers is typically first-line. Consider electrical cardioversion if hemodynamically unstable or rate control fails.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise gene editing, and what are its primary applications in biomedical research?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-stranded break at that specific site. The cell's endogenous DNA repair mechanisms, either non-homologous end joining (NHEJ) or homology-directed repair (HDR), then repair the break. NHEJ is error-prone, often resulting in insertions or deletions (indels) that disrupt gene function, effectively creating a knockout. HDR uses a provided DNA template to repair the break, allowing for precise gene insertion or correction. In biomedical research, CRISPR-Cas9 is used to create disease models in vitro and in vivo, screen for drug targets, study gene function, and develop gene therapies for inherited diseases. Its precision, efficiency, and ease of use have revolutionized genetic research, allowing scientists to manipulate genomes with unprecedented accuracy [PMID: 23287722]. Off-target effects and delivery challenges remain areas of ongoing investigation and optimization.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for sepsis according to Sepsis-3?",
+    "answer": "Sepsis is defined as life-threatening organ dysfunction caused by a dysregulated host response to infection. Clinically, it's identified by a SOFA score increase of 2 or more points from baseline due to infection.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) released by most cell types, containing a cargo of proteins, lipids, and nucleic acids (mRNA, miRNA). They mediate intercellular communication by delivering these molecules to recipient cells, altering their phenotype or function. In cancer, exosomes play a critical role in metastasis by promoting angiogenesis, immune evasion, and pre-metastatic niche formation. Tumor-derived exosomes can transfer oncogenic proteins and miRNAs to distant sites, preparing the microenvironment for tumor cell colonization. For example, exosomes can deliver matrix metalloproteinases (MMPs) to degrade the extracellular matrix, facilitating invasion and migration. They can also suppress immune cell activity by delivering immunosuppressive molecules like PD-L1 or TGF-β. Furthermore, exosomes can promote angiogenesis by delivering pro-angiogenic factors like VEGF. Understanding exosome biogenesis, cargo sorting, and target cell interactions is crucial for developing novel therapeutic strategies to inhibit metastasis [PMID: 26667166].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a first-time unprovoked seizure be initially evaluated?",
+    "answer": "Obtain a detailed history and neurological exam. Order an EEG and brain MRI to rule out structural abnormalities. Consider metabolic labs to exclude reversible causes.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several interconnected signaling pathways. Amyloid-beta (Aβ) accumulation triggers oxidative stress, inflammation, and synaptic dysfunction. Aβ oligomers activate microglia, releasing pro-inflammatory cytokines like TNF-α and IL-1β, which exacerbate neuronal damage. Tau hyperphosphorylation leads to neurofibrillary tangle formation, disrupting microtubule stability and axonal transport. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are key kinases involved in tau phosphorylation. Impaired insulin signaling contributes to AD, as insulin resistance reduces glucose uptake and increases Aβ production. Furthermore, disrupted calcium homeostasis leads to excitotoxicity and neuronal death. Genetic risk factors like APOE4 influence Aβ clearance and inflammation. Targeting these pathways with drugs or lifestyle interventions is a focus of AD research, aiming to reduce Aβ and tau pathology, neuroinflammation, and synaptic loss [PMID: 29371441].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk adults?",
+    "answer": "The USPSTF recommends starting screening at age 45. Options include colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors (e.g., anti-PD-1, anti-CTLA-4) enhance antitumor immunity, and what are the common mechanisms of resistance?",
+    "answer": "Checkpoint inhibitors block inhibitory signaling pathways that normally suppress T-cell activation and effector function. Anti-PD-1 and anti-PD-L1 antibodies block the interaction between programmed cell death protein 1 (PD-1) on T cells and its ligand PD-L1 on tumor cells or antigen-presenting cells (APCs), preventing T-cell exhaustion and restoring cytotoxic activity. Anti-CTLA-4 antibodies block cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) on T cells, enhancing T-cell priming and activation in lymph nodes. Mechanisms of resistance to checkpoint inhibitors include: (1) lack of pre-existing T-cell infiltration into the tumor microenvironment ('cold' tumors), (2) upregulation of alternative immune checkpoints (e.g., TIM-3, LAG-3), (3) loss of antigen presentation (e.g., MHC class I downregulation), (4) mutations in interferon-gamma signaling pathways, and (5) immunosuppressive cells (e.g., myeloid-derived suppressor cells, regulatory T cells) within the tumor microenvironment. Combination strategies targeting multiple immune checkpoints or combining immunotherapy with chemotherapy or radiation therapy are being explored to overcome resistance [PMID: 28892457].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with suspected acute myocardial infarction?",
+    "answer": "Administer aspirin, oxygen if needed, nitrates, and morphine for pain. Obtain an ECG immediately and activate the cardiac catheterization lab if ST-segment elevation is present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance arises through several mechanisms: (1) enzymatic inactivation of the antibiotic (e.g., beta-lactamases hydrolyzing beta-lactam antibiotics), (2) alteration of the antibiotic target site (e.g., mutations in ribosomal RNA conferring resistance to macrolides), (3) decreased antibiotic uptake (e.g., mutations in porins reducing entry of antibiotics into Gram-negative bacteria), (4) increased efflux of the antibiotic (e.g., overexpression of efflux pumps), and (5) bypass of the inhibited metabolic pathway. Horizontal gene transfer (conjugation, transduction, transformation) facilitates the rapid spread of resistance genes between bacteria. Selective pressure from antibiotic use drives the enrichment of resistant strains. Understanding these mechanisms is crucial for developing new antibiotics and strategies to combat resistance, such as using antibiotic adjuvants or targeting bacterial virulence factors instead of essential growth processes [PMID: 25378338].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a healthy adult female?",
+    "answer": "First-line options include nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days. Consider local resistance patterns when choosing.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do microRNAs (miRNAs) regulate gene expression, and what is their role in cancer development?",
+    "answer": "MicroRNAs (miRNAs) are small non-coding RNA molecules (approximately 22 nucleotides) that regulate gene expression by binding to the 3' untranslated region (UTR) of target messenger RNAs (mRNAs), leading to mRNA degradation or translational repression. A single miRNA can target multiple mRNAs, and a single mRNA can be regulated by multiple miRNAs, creating a complex regulatory network. In cancer, miRNAs can act as either oncogenes (oncomiRs) or tumor suppressors. OncomiRs promote cancer development by targeting tumor suppressor genes, while tumor suppressor miRNAs inhibit cancer progression by targeting oncogenes. For example, miR-21 is an oncomiR that promotes cell proliferation and inhibits apoptosis in various cancers, while miR-15a and miR-16-1 are tumor suppressor miRNAs that inhibit cell cycle progression and induce apoptosis in leukemia cells. Dysregulation of miRNA expression is a common feature of cancer, and miRNAs are being explored as potential diagnostic biomarkers and therapeutic targets [PMID: 20003582].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common signs and symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, cold intolerance, and hair loss are common.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of action of metformin in the treatment of type 2 diabetes?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis. It also increases insulin sensitivity in peripheral tissues (muscle and adipose tissue), promoting glucose uptake and utilization. Furthermore, metformin modestly decreases intestinal glucose absorption. Metformin activates AMP-activated protein kinase (AMPK), a key regulator of cellular energy metabolism, which contributes to its effects on glucose and lipid metabolism. AMPK activation inhibits gluconeogenic enzymes and increases glucose transporter expression. Metformin also alters the gut microbiome, potentially contributing to its glucose-lowering effects. While the precise molecular mechanisms of metformin action are still being elucidated, its effects on hepatic glucose production and insulin sensitivity are well-established [PMID: 29618151].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Options include azithromycin, doxycycline, or amoxicillin (high-dose) depending on local resistance patterns and patient comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications (DNA methylation, histone modifications) influence gene expression, and what is their role in development and disease?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), generally represses gene transcription by recruiting methyl-binding proteins and promoting chromatin condensation. Histone modifications, such as acetylation and methylation, alter chromatin structure and accessibility. Histone acetylation typically promotes gene transcription by relaxing chromatin structure, while histone methylation can either activate or repress transcription depending on the specific histone residue modified. Epigenetic modifications play a crucial role in development by regulating cell differentiation and tissue-specific gene expression. They are also involved in various diseases, including cancer, where aberrant DNA methylation and histone modifications can lead to the silencing of tumor suppressor genes or the activation of oncogenes. Epigenetic modifications are potentially reversible, making them attractive targets for therapeutic intervention [PMID: 20348941].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score, and what is it used for?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (2 points), diabetes mellitus, prior stroke or TIA (2 points), vascular disease, age 65-74, and sex category (female). It's used to assess stroke risk in atrial fibrillation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways activated by receptor tyrosine kinases (RTKs), and how do they contribute to cancer cell growth and survival?",
+    "answer": "Receptor tyrosine kinases (RTKs) are cell surface receptors that, upon ligand binding, activate intracellular signaling pathways involved in cell growth, proliferation, differentiation, and survival. Major signaling pathways activated by RTKs include: (1) the Ras-MAPK pathway, which regulates cell proliferation and differentiation; (2) the PI3K-AKT-mTOR pathway, which promotes cell survival, growth, and metabolism; and (3) the JAK-STAT pathway, which regulates immune responses and cell differentiation. In cancer, RTKs are frequently overexpressed or mutated, leading to constitutive activation of these signaling pathways and promoting uncontrolled cell growth, survival, and metastasis. For example, EGFR (epidermal growth factor receptor) is frequently overexpressed or mutated in various cancers, leading to activation of the Ras-MAPK and PI3K-AKT-mTOR pathways. Targeting RTKs with small molecule inhibitors or monoclonal antibodies is a common strategy in cancer therapy [PMID: 22237541].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the diagnostic criteria for diabetes mellitus?",
+    "answer": "A1c ≥ 6.5%, fasting plasma glucose ≥ 126 mg/dL, 2-hour plasma glucose ≥ 200 mg/dL during an oral glucose tolerance test, or a random plasma glucose ≥ 200 mg/dL with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of regulatory T cells (Tregs) in maintaining immune homeostasis and preventing autoimmunity?",
+    "answer": "Regulatory T cells (Tregs) are a subset of T lymphocytes that suppress immune responses and maintain immune homeostasis, preventing autoimmunity and limiting chronic inflammation. Tregs primarily exert their suppressive function through cell-cell contact-dependent mechanisms and secretion of immunosuppressive cytokines such as IL-10 and TGF-β. Tregs express the transcription factor Foxp3, which is essential for their development and function. Tregs suppress the activation, proliferation, and effector function of other immune cells, including T cells, B cells, and antigen-presenting cells. They play a critical role in preventing autoimmune diseases by suppressing autoreactive T cells. Defects in Treg development or function can lead to the development of autoimmune disorders such as type 1 diabetes, rheumatoid arthritis, and multiple sclerosis. Strategies to enhance Treg function are being explored as potential therapies for autoimmune diseases, while strategies to inhibit Treg function are being investigated to enhance antitumor immunity [PMID: 26558540].",
+    "persona": "Researcher"
+  }
+]

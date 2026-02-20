@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in an otherwise healthy adult?",
+    "answer": "Amoxicillin or doxycycline per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a specific DNA sequence, directing the Cas9 nuclease to that location in the genome. Cas9 then induces a double-strand break (DSB). The cell repairs the DSB via either non-homologous end joining (NHEJ), which is error-prone and can introduce insertions or deletions (indels) leading to gene disruption, or homology-directed repair (HDR) if a donor DNA template with homology to the targeted region is provided, enabling precise gene insertion or replacement. Off-target effects and delivery challenges remain areas of active research.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating host immune responses?",
+    "answer": "The gut microbiome profoundly influences host immunity through multiple mechanisms. Commensal bacteria produce metabolites like short-chain fatty acids (SCFAs, e.g., butyrate, acetate, propionate) that regulate immune cell function and intestinal barrier integrity. SCFAs bind to G-protein coupled receptors (GPCRs) on immune cells, modulating cytokine production and T-cell differentiation. Specific bacterial species, such as segmented filamentous bacteria (SFB), can directly stimulate IgA production and Th17 cell responses in the lamina propria. Dysbiosis, an imbalance in the gut microbiota, has been implicated in various autoimmune and inflammatory diseases, by disrupting immune homeostasis and promoting systemic inflammation through increased intestinal permeability and translocation of microbial products. The gut microbiome also affects the efficacy of cancer immunotherapies [PMID: 30575879].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are the usual first line antibiotics.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell survival and proliferation?",
+    "answer": "The Warburg effect refers to the observation that cancer cells preferentially utilize glycolysis for ATP production even in the presence of oxygen, resulting in increased lactate production. This metabolic shift provides several advantages to cancer cells. First, glycolysis generates ATP more rapidly than oxidative phosphorylation, supporting the high energy demands of rapidly dividing cells. Second, glycolytic intermediates are diverted into anabolic pathways, providing building blocks for biosynthesis of macromolecules needed for cell growth and proliferation. Third, the acidic microenvironment resulting from lactate secretion promotes tumor invasion and metastasis by degrading the extracellular matrix. Fourth, the Warburg effect reduces mitochondrial reactive oxygen species (ROS) production, decreasing oxidative stress and promoting cell survival. Upregulation of glucose transporters (e.g., GLUT1) and glycolytic enzymes (e.g., hexokinase, phosphofructokinase, pyruvate kinase) are key features of the Warburg effect.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) involves complex interactions among multiple signaling pathways that contribute to neuronal dysfunction and death. Aberrant amyloid precursor protein (APP) processing leads to the accumulation of amyloid-beta (Aβ) plaques, which activate inflammatory pathways and induce synaptic dysfunction. Tau hyperphosphorylation results in neurofibrillary tangles, disrupting axonal transport and neuronal integrity. Dysregulation of calcium homeostasis contributes to excitotoxicity and neuronal damage. Impaired insulin signaling and glucose metabolism increase oxidative stress and Aβ production. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), affect Aβ production and aggregation. Apolipoprotein E4 (APOE4) is a major genetic risk factor that influences Aβ clearance and neuroinflammation. Chronic inflammation mediated by microglia and astrocytes exacerbates neuronal damage. Understanding these interconnected signaling pathways is crucial for developing effective therapeutic strategies for AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute myocardial infarction?",
+    "answer": "Chest pain, shortness of breath, diaphoresis, nausea, and/or vomiting.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors block inhibitory signals that normally dampen T-cell activity, thereby unleashing anti-tumor immune responses. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are key immune checkpoints. CTLA-4 blockade enhances T-cell priming and activation in lymph nodes by blocking the interaction between CTLA-4 and B7 molecules on antigen-presenting cells. PD-1 blockade restores T-cell effector function in the tumor microenvironment by blocking the interaction between PD-1 on T cells and PD-L1 on tumor cells or antigen-presenting cells. This overcomes T-cell exhaustion and promotes tumor cell killing. However, checkpoint inhibitors can also cause immune-related adverse events (irAEs) due to off-target T-cell activation in other tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of managing a patient with heart failure with reduced ejection fraction?",
+    "answer": "ACE inhibitor or ARNI, beta-blocker, mineralocorticoid receptor antagonist, and SGLT2 inhibitor.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade host immune responses. Some viruses, like HIV, mutate rapidly, generating antigenic variants that escape antibody recognition. Others, such as herpesviruses, establish latency, hiding within host cells and evading immune surveillance. Many viruses encode proteins that interfere with interferon signaling, inhibiting antiviral responses. Some viruses express proteins that block antigen presentation via MHC class I molecules, preventing T-cell recognition. Viruses can also produce decoy receptors that bind to cytokines, neutralizing their activity. Furthermore, some viruses directly infect and suppress immune cells, such as macrophages and T cells. These mechanisms enable viruses to persist and replicate within the host.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine; consider transcutaneous pacing if atropine is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification influence gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, regulate gene expression without altering the underlying DNA sequence. DNA methylation, typically at CpG dinucleotides, represses gene transcription by recruiting methyl-binding proteins and chromatin remodeling complexes. Histone modifications, such as acetylation and methylation, alter chromatin structure and accessibility, influencing gene transcription. Histone acetylation generally promotes gene expression by opening chromatin structure, while histone methylation can either activate or repress gene expression depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression by targeting mRNA stability, translation, and chromatin modification. Epigenetic modifications are crucial for cellular differentiation, development, and tissue-specific gene expression patterns.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, elevated liver enzymes, and rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps in the process of angiogenesis and how can it be targeted in cancer therapy?",
+    "answer": "Angiogenesis, the formation of new blood vessels, is essential for tumor growth and metastasis. The process involves several key steps. First, tumor cells secrete pro-angiogenic factors, such as vascular endothelial growth factor (VEGF), which bind to receptors on endothelial cells. Second, endothelial cells proliferate and migrate towards the tumor, forming new capillary sprouts. Third, endothelial cells secrete matrix metalloproteinases (MMPs) to degrade the extracellular matrix, facilitating vessel invasion. Fourth, endothelial cells form tubular structures that connect to existing vessels, establishing a functional blood supply. Anti-angiogenic therapies, such as VEGF inhibitors (e.g., bevacizumab), block VEGF signaling, inhibiting endothelial cell proliferation and migration. Other strategies target endothelial cell survival, MMP activity, or tumor-derived factors that promote angiogenesis. [PMID: 11753389]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute gout flare?",
+    "answer": "NSAIDs, colchicine, or corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting CAR T-cells work?",
+    "answer": "CAR T-cell therapy involves genetically engineering a patient's own T cells to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on tumor cells. First, T cells are collected from the patient via leukapheresis. Second, the T cells are genetically modified with a viral vector to express the CAR gene. Third, the CAR T cells are expanded in vitro to generate a large number of cells. Fourth, the CAR T cells are infused back into the patient after lymphodepleting chemotherapy. The CAR T cells then bind to the target antigen on tumor cells, activating T-cell signaling pathways and leading to tumor cell lysis. CAR T-cell therapy has shown remarkable efficacy in treating certain hematologic malignancies, such as B-cell lymphomas and acute lymphoblastic leukemia.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs (ncRNAs) regulate gene expression and what is their role in disease?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and circular RNAs (circRNAs), play crucial roles in regulating gene expression at multiple levels. MicroRNAs (miRNAs) are small ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Long non-coding RNAs (lncRNAs) are longer ncRNAs that regulate gene expression by interacting with DNA, RNA, or proteins, modulating chromatin structure, transcription, and post-transcriptional processing. Circular RNAs (circRNAs) are covalently closed circular RNA molecules that regulate gene expression by acting as miRNA sponges, binding to RNA-binding proteins, or translating into proteins. ncRNAs are implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders, by regulating cell proliferation, differentiation, apoptosis, and immune responses. [PMID: 25264995]",
+    "persona": "Researcher"
+  }
+]

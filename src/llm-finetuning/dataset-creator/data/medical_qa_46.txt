@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 endonuclease to that specific location in the genome. The Cas9 protein then induces a double-strand break (DSB) at the targeted site. The cell's natural DNA repair mechanisms, non-homologous end joining (NHEJ) or homology-directed repair (HDR), are then engaged. NHEJ is an error-prone process that often results in insertions or deletions (indels), leading to gene disruption. HDR, if a DNA template is provided, allows for precise gene editing by copying the template sequence into the break site. The efficiency and specificity of CRISPR-Cas9 depend on factors like gRNA design, Cas9 variant used (e.g., high-fidelity versions), and the cell type being targeted. Off-target effects can occur if the gRNA binds to unintended DNA sequences with sufficient similarity, leading to DSBs at those sites as well. Advanced CRISPR systems, such as base editors and prime editors, have been developed to achieve more precise modifications without creating DSBs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance are common.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is the tumor microenvironment considered a critical factor in cancer progression and metastasis?",
+    "answer": "The tumor microenvironment (TME) comprises a complex interplay of cells, signaling molecules, and extracellular matrix components that significantly influences cancer progression and metastasis. Cancer cells within the TME interact with fibroblasts, immune cells (e.g., macrophages, T cells), endothelial cells, and pericytes. These interactions can promote tumor growth by providing growth factors (e.g., EGF, VEGF), suppressing anti-tumor immune responses through recruitment of regulatory T cells and myeloid-derived suppressor cells (MDSCs), and facilitating angiogenesis, which supplies nutrients and oxygen to the tumor. Remodeling of the extracellular matrix (ECM) by enzymes like matrix metalloproteinases (MMPs) creates pathways for cancer cell invasion and dissemination. Moreover, the TME can induce epithelial-mesenchymal transition (EMT) in cancer cells, enhancing their migratory and invasive capabilities. Hypoxic conditions within the TME also drive angiogenesis and select for more aggressive tumor clones. Therapeutic resistance is also often mediated by the TME through mechanisms like drug sequestration, activation of bypass signaling pathways, and protection from immune attack. Targeting the TME is therefore a promising strategy to overcome resistance and improve cancer treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a first-time seizure be initially evaluated?",
+    "answer": "Obtain a detailed history, perform a neurological exam, and order an EEG and brain imaging (MRI or CT).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms underlying the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid-beta plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein in the brain. Amyloid plaques are formed by the aggregation of amyloid-beta peptides, generated through sequential cleavage of the amyloid precursor protein (APP) by β-secretase (BACE1) and γ-secretase. These plaques disrupt neuronal function and trigger inflammatory responses. Neurofibrillary tangles result from the hyperphosphorylation of tau, a microtubule-associated protein, causing it to detach from microtubules and aggregate into insoluble filaments. These tangles impair axonal transport and synaptic function, ultimately leading to neuronal death. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), increase amyloid-beta production. APOE4 is a major genetic risk factor that promotes amyloid deposition and reduces amyloid clearance. Neuroinflammation, oxidative stress, and mitochondrial dysfunction also play crucial roles in AD pathogenesis. These processes interact in complex ways to drive synaptic loss, neuronal dysfunction, and cognitive decline.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients, per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, influence gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, is generally associated with gene silencing. Methylation recruits proteins like methyl-CpG-binding domain proteins (MBDs) that inhibit transcription factor binding and promote chromatin condensation. Histone acetylation, mediated by histone acetyltransferases (HATs), adds acetyl groups to lysine residues on histone tails, leading to a more open chromatin structure (euchromatin) and increased gene transcription. Conversely, histone deacetylation, catalyzed by histone deacetylases (HDACs), removes acetyl groups, resulting in chromatin condensation (heterochromatin) and gene repression. These modifications play critical roles in cellular differentiation by establishing stable patterns of gene expression that define cell identity. During development, epigenetic changes orchestrate cell fate decisions and maintain tissue-specific gene expression profiles. Aberrant epigenetic patterns are associated with various diseases, including cancer, where they can contribute to oncogene activation or tumor suppressor gene silencing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the signs and symptoms of deep vein thrombosis (DVT)?",
+    "answer": "Unilateral leg swelling, pain, warmth, and redness are typical findings.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating host immunity and susceptibility to autoimmune diseases?",
+    "answer": "The gut microbiome, a complex community of microorganisms residing in the digestive tract, exerts a profound influence on host immunity and susceptibility to autoimmune diseases. The gut microbiota educates the immune system by promoting the development of immune cells, such as T regulatory cells (Tregs), which maintain immune tolerance. Certain bacterial species produce short-chain fatty acids (SCFAs), like butyrate, that possess anti-inflammatory properties and enhance gut barrier integrity. Dysbiosis, an imbalance in the gut microbial composition, can disrupt immune homeostasis and contribute to autoimmune pathogenesis. For example, increased intestinal permeability (leaky gut) allows microbial products to enter the bloodstream, triggering systemic inflammation and activating autoreactive immune cells. Specific bacterial species have been linked to the development of autoimmune diseases like rheumatoid arthritis, type 1 diabetes, and multiple sclerosis. Conversely, other bacterial species can protect against autoimmunity by promoting immune tolerance and modulating inflammatory responses. Strategies to manipulate the gut microbiome, such as dietary interventions, fecal microbiota transplantation (FMT), and probiotics, are being investigated as potential therapeutic approaches for autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with acute myocardial infarction (STEMI)?",
+    "answer": "Administer oxygen, aspirin, nitroglycerin, morphine, and initiate emergent PCI or fibrinolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells acquire resistance to chemotherapy drugs through mechanisms like drug efflux, target alterations, and DNA repair?",
+    "answer": "Cancer cells develop resistance to chemotherapy through diverse mechanisms. Drug efflux involves the overexpression of ATP-binding cassette (ABC) transporters, such as P-glycoprotein (MDR1), which actively pump chemotherapy drugs out of the cell, reducing their intracellular concentration and effectiveness. Target alterations can occur through mutations in the drug target, rendering it insensitive to the drug. For instance, mutations in the epidermal growth factor receptor (EGFR) can confer resistance to EGFR inhibitors in lung cancer. Increased DNA repair capacity enables cancer cells to repair DNA damage induced by chemotherapy, reducing its cytotoxic effect. Activation of DNA repair pathways, such as nucleotide excision repair (NER) and homologous recombination repair (HRR), allows cells to overcome the DNA-damaging effects of drugs like cisplatin and PARP inhibitors. Furthermore, cancer cells can activate survival signaling pathways, such as PI3K/AKT/mTOR, which promote cell survival and counteract the apoptotic effects of chemotherapy. Epithelial-mesenchymal transition (EMT) can also contribute to chemoresistance by altering drug sensitivity and promoting cell survival. These resistance mechanisms often operate in concert, making it challenging to overcome chemoresistance in cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Nausea, insomnia, sexual dysfunction, and weight changes are frequently reported.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of type 2 diabetes mellitus?",
+    "answer": "Type 2 diabetes mellitus (T2DM) pathogenesis involves dysregulation of several key signaling pathways. Insulin resistance, a hallmark of T2DM, is characterized by impaired insulin signaling in target tissues like muscle, liver, and adipose tissue. This is often due to defects in the insulin receptor substrate (IRS) proteins and downstream activation of the PI3K/AKT pathway, which is crucial for glucose uptake and metabolism. Chronic hyperglycemia and lipotoxicity activate the unfolded protein response (UPR) in the endoplasmic reticulum (ER), leading to ER stress and impaired insulin secretion from pancreatic beta cells. Inflammatory signaling pathways, such as the NF-κB pathway, are also activated in T2DM, contributing to insulin resistance and beta-cell dysfunction. Adipokines secreted by adipose tissue, such as TNF-α and IL-6, promote systemic inflammation and insulin resistance. Furthermore, the AMP-activated protein kinase (AMPK) pathway, which regulates cellular energy balance, is often impaired in T2DM, contributing to metabolic dysfunction. Cross-talk between these pathways contributes to the complex pathophysiology of T2DM.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for anaphylaxis?",
+    "answer": "Epinephrine injection is the first-line treatment, along with supportive measures like oxygen and antihistamines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's immune system using mechanisms such as antigenic variation, latency, and immune suppression?",
+    "answer": "Viruses employ diverse strategies to evade the host's immune system. Antigenic variation involves mutations in viral surface proteins, such as hemagglutinin and neuraminidase in influenza virus, which alter the epitopes recognized by antibodies, allowing the virus to escape neutralization. Latency refers to the ability of certain viruses, like herpesviruses, to establish a persistent infection in a non-replicating state within host cells, avoiding detection by the immune system. During latency, the virus expresses only a limited number of genes, minimizing immune recognition. Immune suppression involves viral proteins that directly inhibit immune cell function. For example, HIV encodes proteins that interfere with T cell activation and cytokine production. Some viruses also produce decoy receptors that bind to cytokines, preventing them from activating immune cells. Glycosylation of viral surface proteins can shield them from antibody recognition. Furthermore, viruses can downregulate the expression of MHC class I molecules on infected cells, preventing cytotoxic T cells from recognizing and eliminating infected cells. These evasion mechanisms enable viruses to establish persistent infections and cause disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or random glucose ≥200 mg/dL with symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do different types of immunotherapy, such as checkpoint inhibitors, CAR-T cell therapy, and oncolytic viruses, work to target and eliminate cancer cells?",
+    "answer": "Immunotherapy harnesses the power of the immune system to fight cancer. Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, block inhibitory signals that prevent T cells from attacking cancer cells, unleashing their cytotoxic activity. CAR-T cell therapy involves engineering a patient's T cells to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on cancer cells, enabling them to specifically target and kill tumor cells. Oncolytic viruses are engineered viruses that selectively infect and kill cancer cells while sparing normal cells. They can also stimulate an anti-tumor immune response by releasing tumor-associated antigens and inflammatory cytokines. Cancer vaccines aim to prime the immune system to recognize and attack cancer cells by delivering tumor-associated antigens, dendritic cell activators, or whole tumor cells. Adoptive cell transfer involves expanding and activating tumor-infiltrating lymphocytes (TILs) from a patient's tumor and reinfusing them back into the patient to enhance the anti-tumor immune response. These different immunotherapeutic approaches can be used alone or in combination to achieve durable cancer remission.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years are common options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the known mechanisms of action of commonly used antidepressant medications?",
+    "answer": "Antidepressants primarily target monoamine neurotransmitter systems in the brain. Selective serotonin reuptake inhibitors (SSRIs) block the reuptake of serotonin, increasing its availability in the synaptic cleft. Serotonin-norepinephrine reuptake inhibitors (SNRIs) block the reuptake of both serotonin and norepinephrine. Tricyclic antidepressants (TCAs) also inhibit the reuptake of serotonin and norepinephrine but have additional effects on histamine and acetylcholine receptors, leading to more side effects. Monoamine oxidase inhibitors (MAOIs) inhibit the enzyme monoamine oxidase, which breaks down serotonin, norepinephrine, and dopamine, increasing their levels in the brain. Bupropion inhibits the reuptake of dopamine and norepinephrine. Mirtazapine blocks alpha-2 adrenergic receptors and certain serotonin receptors, increasing the release of norepinephrine and serotonin. The therapeutic effects of antidepressants are thought to be mediated by long-term neuroplastic changes in the brain, such as increased neurogenesis and synaptic connectivity, in addition to their acute effects on neurotransmitter levels. The exact mechanisms underlying their therapeutic effects are still being investigated.",
+    "persona": "Researcher"
+  }
+]

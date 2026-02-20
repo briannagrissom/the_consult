@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the pathogenesis of atherosclerosis?",
+    "answer": "Chronic inflammation plays a central role in the initiation and progression of atherosclerosis. Elevated levels of circulating inflammatory cytokines, such as IL-1β, IL-6, and TNF-α, promote endothelial dysfunction by increasing vascular permeability and expression of adhesion molecules like VCAM-1 and ICAM-1. These changes facilitate the recruitment of monocytes and lymphocytes into the subendothelial space, where monocytes differentiate into macrophages. Macrophages internalize modified LDL particles via scavenger receptors, transforming into foam cells, the hallmark of early atherosclerotic lesions. Inflammatory signals also stimulate smooth muscle cell proliferation and migration from the media to the intima, contributing to plaque formation. Within the plaque, macrophages secrete matrix metalloproteinases (MMPs) that degrade the extracellular matrix, destabilizing the plaque and increasing the risk of rupture. Furthermore, inflammation promotes thrombus formation upon plaque disruption by upregulating tissue factor expression in endothelial cells and macrophages. Clinical trials targeting inflammatory pathways, such as the CANTOS trial with anti-IL-1β therapy, have demonstrated a reduction in cardiovascular events, providing direct evidence of the causal role of inflammation in atherosclerosis [PMID: 29171857].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with normal cytology results?",
+    "answer": "Every 3 years with cytology alone or every 5 years with co-testing (cytology and HPV) per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of resistance to EGFR tyrosine kinase inhibitors in non-small cell lung cancer?",
+    "answer": "Resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC) arises through diverse mechanisms, but several key signaling pathways are frequently implicated. The most common mechanism is the acquisition of a secondary EGFR mutation, most notably T790M, which sterically hinders TKI binding. Activation of bypass signaling pathways, such as MET amplification or activation of HER2/HER3, can also restore downstream signaling despite EGFR inhibition. Furthermore, activation of PI3K/AKT signaling, either through PTEN loss or PIK3CA mutations, promotes cell survival and proliferation independently of EGFR. Similarly, activation of RAS/MAPK signaling via KRAS mutations or BRAF mutations can bypass EGFR inhibition. Epithelial-mesenchymal transition (EMT) has also been implicated in TKI resistance, as EMT promotes increased expression of receptor tyrosine kinases like AXL and DDR1, which activate alternative signaling pathways. Finally, phenotypic transformation to small cell lung cancer (SCLC) can occur, bypassing the need for EGFR signaling altogether. Understanding the specific resistance mechanism is crucial for selecting appropriate second-line therapies, such as osimertinib for T790M-positive tumors or MET inhibitors for MET-amplified tumors. Combination strategies targeting multiple resistance pathways are also being explored.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with a first-time seizure?",
+    "answer": "Obtain history, perform neurological exam, order EEG and neuroimaging, and consider treatable causes.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Specific bacterial species can enhance or suppress antitumor immunity through various mechanisms. Certain bacteria, such as Akkermansia muciniphila, Faecalibacterium prausnitzii, and Bifidobacterium species, have been associated with improved responses to ICIs. These bacteria can enhance dendritic cell maturation, promote T-cell priming, and increase the infiltration of cytotoxic T cells into the tumor microenvironment. Conversely, other bacteria, such as Bacteroides fragilis, can promote immune suppression and reduce the efficacy of ICIs. The composition of the gut microbiome can influence the levels of circulating cytokines, such as IL-12 and IFN-γ, which are critical for antitumor immunity. Furthermore, microbial metabolites, such as short-chain fatty acids (SCFAs), can modulate immune cell function and enhance the activity of ICIs. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being explored to improve the efficacy of cancer immunotherapy. Preclinical studies and early clinical trials have shown promising results, suggesting that the gut microbiome can be a valuable target for enhancing antitumor immunity [PMID: 30575877].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "Target INR is generally 2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses have evolved a diverse array of strategies to evade the host immune system, enabling them to establish persistent infections. One common mechanism is through antigenic variation, where viruses undergo mutations in their surface antigens, such as hemagglutinin and neuraminidase in influenza virus, to escape antibody recognition. Viruses can also inhibit the interferon (IFN) response, a critical antiviral defense mechanism, by blocking IFN production, signaling, or downstream effector functions. For example, some viruses encode proteins that inhibit the activation of IFN regulatory factors (IRFs) or block the signaling pathways activated by IFN receptors. Many viruses also express proteins that interfere with antigen presentation by MHC class I molecules, preventing the recognition of infected cells by cytotoxic T lymphocytes (CTLs). Viruses can also suppress the activity of natural killer (NK) cells by expressing ligands for inhibitory NK cell receptors or by downregulating ligands for activating NK cell receptors. Furthermore, some viruses establish latency in specific cell types, where they remain dormant and evade immune detection. Finally, certain viruses can directly infect and kill immune cells, such as HIV infection of CD4+ T cells, leading to immune dysfunction and increased susceptibility to opportunistic infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for type 2 diabetes mellitus?",
+    "answer": "Metformin and lifestyle modifications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate gene editing in eukaryotic cells?",
+    "answer": "CRISPR-Cas9 is a revolutionary gene-editing technology derived from the adaptive immune system of bacteria. It allows for precise and efficient modification of DNA sequences in eukaryotic cells. The system consists of two main components: the Cas9 protein, which is an endonuclease that cleaves DNA, and a guide RNA (gRNA), which is a short RNA molecule that directs Cas9 to a specific DNA sequence. The gRNA is designed to be complementary to the target DNA sequence, ensuring that Cas9 cuts at the desired location. When the Cas9-gRNA complex encounters the target DNA sequence, Cas9 unwinds the DNA and cleaves both strands, creating a double-strand break (DSB). The cell then attempts to repair the DSB through two main pathways: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is an error-prone process that often results in insertions or deletions (indels), which can disrupt the gene and lead to its inactivation. HDR, on the other hand, uses a provided DNA template to repair the DSB, allowing for precise insertion of a new DNA sequence or correction of a mutated sequence. CRISPR-Cas9 has been widely adopted for gene editing in various applications, including basic research, drug discovery, and gene therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms involved in the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the progressive loss of cognitive function. Several key mechanisms are implicated in its development. The accumulation of amyloid-beta (Aβ) plaques in the brain is a hallmark of AD. Aβ is derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase and γ-secretase. Aβ oligomers are neurotoxic and can trigger a cascade of events, including synaptic dysfunction, neuronal loss, and inflammation. Another key feature of AD is the formation of neurofibrillary tangles (NFTs), which are composed of hyperphosphorylated tau protein. Tau is a microtubule-associated protein that stabilizes microtubules in neurons. Hyperphosphorylation of tau causes it to detach from microtubules and aggregate into NFTs, disrupting neuronal transport and leading to cell death. Neuroinflammation also plays a significant role in AD pathogenesis. Activated microglia and astrocytes release inflammatory mediators that can exacerbate neuronal damage. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), increase the risk of developing early-onset AD. The ε4 allele of apolipoprotein E (APOE) is a major risk factor for late-onset AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you treat a patient with acute anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to cancer metastasis?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream. They play a critical role in the process of metastasis, which is the spread of cancer from the primary site to distant organs. CTCs must undergo several steps to successfully establish metastasis. First, they must detach from the primary tumor and intravasate into the bloodstream. This process is facilitated by epithelial-mesenchymal transition (EMT), which allows cancer cells to lose their cell-cell adhesion and acquire migratory properties. Once in the bloodstream, CTCs must survive the hostile environment, which includes shear stress and immune attack. CTCs can evade immune surveillance by expressing immune checkpoint ligands or by forming clusters with platelets and other immune cells. To establish metastasis, CTCs must extravasate from the bloodstream and colonize distant organs. This process involves adhesion to the endothelium, migration through the basement membrane, and proliferation in the new microenvironment. The ability of CTCs to undergo EMT, survive in the bloodstream, and colonize distant organs is influenced by various factors, including the genetic and epigenetic characteristics of the cancer cells, the composition of the tumor microenvironment, and the interactions between CTCs and the host immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated influenza?",
+    "answer": "Supportive care; consider antiviral therapy (e.g., oseltamivir) within 48 hours of symptom onset per CDC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs regulate gene expression in cancer?",
+    "answer": "Non-coding RNAs (ncRNAs) are RNA molecules that do not encode proteins but play critical roles in regulating gene expression in cancer. MicroRNAs (miRNAs) are small ncRNAs (~22 nucleotides) that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. MiRNAs can act as oncogenes or tumor suppressors, depending on their target genes. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through diverse mechanisms, including chromatin modification, transcriptional regulation, and post-transcriptional processing. LncRNAs can interact with DNA, RNA, and proteins to form complex regulatory networks. Circular RNAs (circRNAs) are covalently closed, single-stranded RNA molecules that are resistant to degradation. CircRNAs can act as miRNA sponges, regulate transcription, or be translated into proteins. ncRNAs are dysregulated in many cancers and play important roles in tumor initiation, progression, and metastasis. Targeting ncRNAs with therapeutic agents is an emerging strategy for cancer treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate diagnostic workup for suspected pulmonary embolism?",
+    "answer": "Assess pretest probability; if high, proceed to CT pulmonary angiogram (CTPA); if intermediate or low, consider D-dimer testing.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification influence cell differentiation and development?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in regulating gene expression and influencing cell differentiation and development. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, is generally associated with transcriptional repression. Histone modifications, such as acetylation and methylation, can either activate or repress gene expression, depending on the specific modification and the histone residue that is modified. These epigenetic marks are dynamically regulated by enzymes that add, remove, or interpret these modifications. During cell differentiation, epigenetic modifications establish and maintain cell-type-specific gene expression patterns. For example, genes that are essential for the function of a particular cell type are typically marked by activating histone modifications, while genes that are not needed are silenced by repressive histone modifications and DNA methylation. Epigenetic modifications can also be influenced by environmental factors, such as diet and exposure to toxins, which can have long-lasting effects on gene expression and development. Aberrant epigenetic modifications are implicated in various diseases, including cancer and developmental disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient with suspected stroke?",
+    "answer": "Rapid neurological assessment, CT scan of the brain, and consideration of thrombolytic therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of checkpoint inhibitor immunotherapy?",
+    "answer": "Checkpoint inhibitor immunotherapy works by blocking inhibitory signals that normally prevent T cells from attacking cancer cells. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are two key immune checkpoints. CTLA-4 is expressed on T cells and binds to B7 molecules on antigen-presenting cells (APCs), inhibiting T-cell activation. PD-1 is expressed on T cells and binds to PD-L1 or PD-L2 on tumor cells or immune cells in the tumor microenvironment, suppressing T-cell effector function. Checkpoint inhibitors, such as anti-CTLA-4 and anti-PD-1/PD-L1 antibodies, block these interactions, allowing T cells to become activated and attack cancer cells. By blocking CTLA-4, T cells are able to have increased activation, proliferation, and can more efficiently kill cancer cells. PD-1 blockade allows T cells to recognize and kill tumor cells by reversing the inhibitory signals from PD-L1/PD-L2 interaction. It is important to note that these therapies are not effective in all patients. Patients whose tumors have a high mutational burden, high microsatellite instability, or high expression of PD-L1 are more likely to respond to checkpoint inhibitor immunotherapy.",
+    "persona": "Researcher"
+  }
+]

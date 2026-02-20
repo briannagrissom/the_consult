@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise genome editing, and what are its limitations in therapeutic applications?",
+    "answer": "CRISPR-Cas9 allows targeted genome editing by using a guide RNA to direct the Cas9 nuclease to a specific DNA sequence, creating a double-strand break. The cell repairs this break either through non-homologous end joining (NHEJ), which can introduce insertions or deletions (indels) and disrupt gene function, or through homology-directed repair (HDR) if a DNA template is provided, allowing for precise gene insertion or modification. Therapeutic limitations include off-target effects, where Cas9 cuts at unintended sites due to sequence similarity; delivery challenges, particularly reaching target tissues in vivo; immune responses against Cas9 or other components; and ethical concerns regarding germline editing and potential long-term consequences. Ongoing research focuses on improving Cas9 specificity, developing more efficient delivery methods (e.g., viral vectors, lipid nanoparticles), and understanding the complex interplay between CRISPR-Cas9 and the immune system to enhance its safety and efficacy in treating genetic diseases and cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score, and what is it used for?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (Double), Diabetes mellitus, Stroke/TIA/thromboembolism (Double), Vascular disease, Age 65-74, Sex category (female). Used to assess stroke risk in atrial fibrillation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why does inhibition of the PD-1/PD-L1 pathway enhance anti-tumor immunity, and what factors predict response to these therapies?",
+    "answer": "The PD-1/PD-L1 pathway is a critical immune checkpoint that normally prevents excessive T-cell activation and autoimmunity. Tumor cells often exploit this pathway to evade immune destruction by expressing PD-L1, which binds to PD-1 on T cells, inhibiting their cytotoxic activity and promoting T-cell exhaustion. Blocking this interaction with antibodies against PD-1 or PD-L1 restores T-cell function and allows them to recognize and kill tumor cells. Factors predicting response to PD-1/PD-L1 inhibitors include high tumor mutational burden (TMB), which leads to increased neoantigen presentation and greater T-cell infiltration; PD-L1 expression on tumor cells or immune cells within the tumor microenvironment; microsatellite instability (MSI-H), which is associated with increased neoantigen load; and the presence of a pre-existing anti-tumor immune response, characterized by high levels of tumor-infiltrating lymphocytes (TILs). However, many patients do not respond due to primary or acquired resistance mechanisms, such as loss of antigen presentation, immune exclusion, or activation of alternative immunosuppressive pathways. Ongoing research aims to identify predictive biomarkers and develop combination therapies to overcome these resistance mechanisms and broaden the applicability of PD-1/PD-L1 blockade.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended target LDL-cholesterol level for a patient with established atherosclerotic cardiovascular disease (ASCVD)?",
+    "answer": "Less than 70 mg/dL per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase receptor contribute to lung cancer development and response to targeted therapies?",
+    "answer": "Mutations in the epidermal growth factor receptor (EGFR) tyrosine kinase are common in non-small cell lung cancer (NSCLC), particularly in adenocarcinomas and in patients who are never-smokers. These mutations, such as exon 19 deletions and the L858R point mutation in exon 21, lead to constitutive activation of the EGFR signaling pathway, promoting cell proliferation, survival, and metastasis. First-generation EGFR tyrosine kinase inhibitors (TKIs), such as gefitinib and erlotinib, competitively bind to the ATP-binding site of the EGFR kinase domain, blocking downstream signaling. However, resistance to these drugs frequently develops due to the T790M mutation in exon 20, which increases the affinity of EGFR for ATP and hinders TKI binding. Third-generation EGFR TKIs, such as osimertinib, are designed to overcome T790M-mediated resistance by forming irreversible covalent bonds with EGFR, including the T790M mutant form. Despite their improved efficacy, resistance to osimertinib can also emerge through mechanisms such as C797S mutations or activation of bypass pathways like MET amplification. The identification of specific EGFR mutations and resistance mechanisms is crucial for guiding treatment decisions and developing novel strategies to overcome drug resistance in EGFR-mutant lung cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia (CAP) in an outpatient setting for a previously healthy adult?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (if local resistance is <25%) per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the pathogenesis of Alzheimer's disease, and how do they relate to potential therapeutic targets?",
+    "answer": "Alzheimer's disease (AD) pathogenesis is characterized by the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein in the brain, leading to synaptic dysfunction, neuronal loss, and cognitive decline. The amyloid cascade hypothesis proposes that Aβ accumulation triggers a cascade of events, including tau hyperphosphorylation, neuroinflammation, and oxidative stress. Genetic mutations in amyloid precursor protein (APP), presenilin 1 (PSEN1), and presenilin 2 (PSEN2) increase Aβ production and are associated with early-onset familial AD. Tau hyperphosphorylation disrupts microtubule stability and impairs axonal transport. Neuroinflammation, mediated by microglia and astrocytes, can both clear Aβ and exacerbate neuronal damage. Potential therapeutic targets include inhibiting Aβ production with beta-secretase (BACE) or gamma-secretase inhibitors, enhancing Aβ clearance with anti-Aβ antibodies, preventing tau hyperphosphorylation with kinase inhibitors, and modulating neuroinflammation with anti-inflammatory agents. Clinical trials targeting these pathways have yielded mixed results, suggesting that a multi-target approach or earlier intervention may be necessary to effectively treat AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological treatment for type 2 diabetes mellitus (T2DM)?",
+    "answer": "Metformin, unless contraindicated, per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do the mechanisms of action of different classes of immunosuppressant drugs (e.g., calcineurin inhibitors, mTOR inhibitors, antimetabolites) contribute to preventing organ rejection after transplantation?",
+    "answer": "Immunosuppressant drugs prevent organ rejection by targeting different stages of T-cell activation and proliferation. Calcineurin inhibitors (CNIs), such as cyclosporine and tacrolimus, block the calcineurin-dependent activation of NFAT, a transcription factor required for IL-2 production. IL-2 is a critical cytokine for T-cell proliferation and differentiation. mTOR inhibitors, such as sirolimus and everolimus, inhibit the mammalian target of rapamycin (mTOR) pathway, which regulates cell growth, proliferation, and metabolism. They prevent T-cell proliferation by blocking the response to IL-2. Antimetabolites, such as azathioprine and mycophenolate mofetil (MMF), interfere with DNA synthesis, thereby inhibiting the proliferation of rapidly dividing cells, including T cells and B cells. Azathioprine is a purine analog that inhibits DNA and RNA synthesis, while MMF inhibits inosine monophosphate dehydrogenase (IMPDH), a key enzyme in guanine nucleotide synthesis. By targeting different pathways, these drugs synergistically suppress the immune system and prevent allograft rejection. However, they also increase the risk of infections, malignancies, and other side effects due to their broad immunosuppressive effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended antibiotic prophylaxis for surgical site infection (SSI) prevention before colorectal surgery?",
+    "answer": "Oral mechanical bowel prep plus intravenous antibiotics covering aerobic and anaerobic bacteria, such as cefoxitin or cefotetan, per ASCRS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of cancer immunotherapy, and what strategies are being explored to modulate the microbiome for therapeutic benefit?",
+    "answer": "The gut microbiome plays a crucial role in shaping the host immune system and influencing the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Specific bacterial species can enhance anti-tumor immunity by promoting T-cell activation, increasing cytokine production, and improving the trafficking of immune cells to the tumor microenvironment. For example, *Akkermansia muciniphila* has been associated with improved response to PD-1 blockade in several cancers. Conversely, dysbiosis or the presence of certain bacterial species can suppress anti-tumor immunity and promote resistance to ICIs. Mechanisms include the production of immunosuppressive metabolites, the activation of regulatory T cells, and the inhibition of dendritic cell maturation. Strategies to modulate the gut microbiome for therapeutic benefit include fecal microbiota transplantation (FMT) from responders to non-responders, dietary interventions to promote the growth of beneficial bacteria, and the use of prebiotics or probiotics to selectively enhance the abundance of specific bacterial species. Clinical trials are ongoing to evaluate the safety and efficacy of these approaches in combination with ICIs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "2.0 to 3.0, unless otherwise indicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying resistance to platinum-based chemotherapy in ovarian cancer, and how can these mechanisms be targeted to improve treatment outcomes?",
+    "answer": "Resistance to platinum-based chemotherapy is a major challenge in the treatment of ovarian cancer. Several molecular mechanisms contribute to this resistance, including increased DNA repair capacity, reduced drug accumulation, and altered cell death pathways. Ovarian cancer cells can enhance DNA repair through increased expression of genes involved in homologous recombination repair (HRR), such as BRCA1 and RAD51. Mutations or epigenetic silencing of BRCA1 can disrupt HRR and sensitize cells to platinum agents. Reduced drug accumulation can occur due to increased expression of ATP-binding cassette (ABC) transporters, such as P-glycoprotein (ABCB1), which pump platinum drugs out of the cell. Altered cell death pathways, such as increased expression of anti-apoptotic proteins like BCL-2, can also contribute to resistance. Strategies to overcome platinum resistance include the use of PARP inhibitors in BRCA-mutated or HRD-positive tumors to block DNA repair, ABC transporter inhibitors to increase drug accumulation, and BCL-2 inhibitors to restore apoptosis sensitivity. Combination therapies targeting multiple resistance mechanisms are being explored to improve treatment outcomes in platinum-resistant ovarian cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for acute anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, influence gene expression in cancer cells, and what are the therapeutic implications of targeting these modifications?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in regulating gene expression in cancer cells without altering the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), is associated with gene silencing. Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor genes and hypomethylation of oncogenes, are common in cancer. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, affect chromatin structure and accessibility, influencing gene transcription. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression, while histone deacetylation, mediated by histone deacetylases (HDACs), is associated with gene repression. Therapeutic strategies targeting epigenetic modifications include the use of DNA methyltransferase (DNMT) inhibitors, such as azacitidine and decitabine, to reverse DNA methylation and reactivate silenced tumor suppressor genes, and HDAC inhibitors, such as vorinostat and romidepsin, to alter histone acetylation patterns and induce cell cycle arrest and apoptosis. Epigenetic therapies are often used in combination with other cancer treatments to enhance their efficacy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, or annual FIT test, or other options per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and how can antiviral therapies overcome these evasion mechanisms?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system, enabling them to establish persistent infections. These strategies include: 1) Interfering with interferon (IFN) signaling, a key antiviral defense mechanism; 2) Suppressing antigen presentation by downregulating MHC class I molecules; 3) Inducing T-cell exhaustion through chronic antigen stimulation; 4) Expressing viral homologs of host cytokines to disrupt immune cell function; and 5) Establishing latency in immune-privileged sites. Antiviral therapies can overcome these evasion mechanisms by: 1) Directly inhibiting viral replication using nucleoside analogs or protease inhibitors; 2) Boosting the host immune response with interferons or immunostimulatory agents; 3) Targeting viral proteins involved in immune evasion; and 4) Developing therapeutic vaccines to generate broadly neutralizing antibodies and cellular immunity. Combination therapies that target both the virus and the host immune system are often more effective at controlling viral infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute stroke?",
+    "answer": "Rapid neurological assessment, CT scan to rule out hemorrhage, and consideration for thrombolytic therapy if eligible.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using chimeric antigen receptor (CAR) T cells work, and what are the major toxicities associated with this approach?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a CAR, which is a synthetic receptor that recognizes a specific antigen on tumor cells. The CAR typically consists of an extracellular antigen-binding domain (e.g., a single-chain variable fragment derived from an antibody) fused to intracellular signaling domains that activate T-cell function upon antigen recognition. The engineered CAR T cells are then expanded in vitro and infused back into the patient, where they can specifically target and kill tumor cells expressing the target antigen. Major toxicities associated with CAR T-cell therapy include cytokine release syndrome (CRS), characterized by fever, hypotension, and respiratory distress, and immune effector cell-associated neurotoxicity syndrome (ICANS), characterized by neurological symptoms such as confusion, seizures, and encephalopathy. These toxicities are thought to be caused by the massive release of cytokines from activated CAR T cells and other immune cells. Management of CRS and ICANS typically involves supportive care, such as fluid resuscitation and vasopressors, and the use of immunosuppressive agents, such as tocilizumab (an IL-6 receptor antagonist) and corticosteroids.",
+    "persona": "Researcher"
+  }
+]

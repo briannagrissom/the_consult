@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are usually first-line.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate precise genome editing in eukaryotic cells?",
+    "answer": "CRISPR-Cas9 leverages a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 endonuclease to create a double-stranded break at that specific location. The cell's native DNA repair mechanisms, non-homologous end joining (NHEJ) or homology-directed repair (HDR), then repair the break. NHEJ is error-prone, often introducing insertions or deletions that disrupt the gene, while HDR uses a provided DNA template to precisely insert a desired sequence. The specificity of the gRNA and the choice of repair pathway determine the outcome of the gene editing process, enabling targeted gene knockout, insertion, or modification. This precision has revolutionized basic research, allowing for the study of gene function and disease mechanisms, and holds great promise for gene therapies, although off-target effects and delivery challenges remain key considerations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for screening mammography in women of average risk?",
+    "answer": "Annual or biennial screening mammography starting at age 40 or 50, depending on guidelines and patient preference.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease pathogenesis is multifactorial, involving complex interactions among several signaling pathways. Amyloid precursor protein (APP) processing leading to amyloid-beta (Aβ) plaque formation triggers neuroinflammation via microglial and astrocyte activation, involving the NF-κB pathway and inflammasome activation. Aβ oligomers disrupt synaptic function and neuronal survival by activating apoptotic pathways, including caspase cascades and mitochondrial dysfunction. Tau hyperphosphorylation and aggregation into neurofibrillary tangles interfere with microtubule-based transport, activating stress kinases like GSK-3β and CDK5. Reduced acetylcholine signaling due to cholinergic neuron loss impairs cognition, affecting downstream pathways like the MAPK/ERK pathway involved in synaptic plasticity. Furthermore, insulin resistance and impaired insulin signaling in the brain exacerbate Aβ accumulation and tau phosphorylation via dysregulation of PI3K/AKT and mTOR pathways. These pathways are potential targets for therapeutic interventions aimed at slowing down or preventing the progression of Alzheimer's disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated in an outpatient setting?",
+    "answer": "With a macrolide, doxycycline, or a respiratory fluoroquinolone.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in immune checkpoint inhibitor therapy response in cancer patients?",
+    "answer": "The gut microbiome plays a crucial role in modulating the efficacy of immune checkpoint inhibitors (ICIs). Certain bacterial species, such as *Akkermansia muciniphila* and *Faecalibacterium prausnitzii*, have been associated with improved responses to anti-PD-1 therapy in melanoma and other cancers. These bacteria can enhance anti-tumor immunity by promoting dendritic cell maturation, increasing T-cell infiltration into tumors, and modulating the balance of pro- and anti-inflammatory cytokines. Conversely, dysbiosis and depletion of beneficial bacteria can lead to reduced ICI efficacy and increased immune-related adverse events. Mechanisms include altered T-cell priming in the gut-associated lymphoid tissue, systemic translocation of microbial products that influence immune cell activation, and modulation of the tumor microenvironment. Fecal microbiota transplantation (FMT) studies have shown that transferring gut microbiota from ICI responders to non-responders can improve treatment outcomes, highlighting the potential for microbiome-based interventions to enhance cancer immunotherapy. Diet, antibiotics, and other factors affecting the gut microbiome are now recognized as key determinants of ICI efficacy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a first-time venous thromboembolism?",
+    "answer": "Anticoagulation with a direct oral anticoagulant or warfarin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer?",
+    "answer": "Resistance to EGFR TKIs in NSCLC commonly arises through several mechanisms. The most prevalent is the acquisition of the *EGFR* T790M mutation, which sterically hinders TKI binding. Bypass pathway activation, such as MET amplification or activation of the PI3K/AKT pathway, can circumvent EGFR inhibition. Transformation to other histological subtypes, such as small cell lung cancer, also confers resistance. Additionally, downstream mutations in genes like *BRAF* or *MEK* can restore signaling despite EGFR blockade. Epithelial-mesenchymal transition (EMT) can reduce dependence on EGFR signaling. Understanding these mechanisms is critical for developing strategies to overcome resistance, such as using third-generation EGFR TKIs that target T790M or combining EGFR inhibitors with agents targeting bypass pathways or EMT.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are commonly used.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions propagate and cause neurodegenerative diseases?",
+    "answer": "Prions are misfolded, self-propagating conformers of a normal cellular protein, PrPC. The pathogenic prion protein, PrPSc, acts as a template, inducing the conformational conversion of PrPC to PrPSc upon contact. This conversion results in exponential amplification of PrPSc, leading to the formation of insoluble aggregates that accumulate in the brain. These aggregates disrupt neuronal function and trigger neurotoxicity through various mechanisms, including ER stress, oxidative stress, and activation of apoptotic pathways. The aggregated prions also exhibit infectivity, as they can transmit the disease to other individuals or cells by converting their PrPC into PrPSc. Different prion strains can exhibit distinct conformational properties, leading to variations in disease incubation periods, neuropathological profiles, and clinical phenotypes. The precise mechanisms of prion-induced neurodegeneration are still being investigated, but the self-propagating nature of prions and their ability to induce protein misfolding are central to their pathogenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a suspected stroke?",
+    "answer": "Rapid neurological assessment and neuroimaging to rule out hemorrhage.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the epigenetic mechanisms regulating gene expression in cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in regulating gene expression in cancer. DNA methylation, particularly at CpG islands in promoter regions, typically leads to gene silencing. Hypermethylation of tumor suppressor genes is a common mechanism for their inactivation in cancer cells. Histone modifications, such as acetylation and methylation, alter chromatin structure and accessibility to transcription factors. Histone acetylation generally promotes gene expression by relaxing chromatin, while histone methylation can have either activating or repressive effects depending on the specific residue modified. Dysregulation of histone-modifying enzymes is frequently observed in cancer. MicroRNAs (miRNAs) are also involved in epigenetic regulation by targeting mRNAs for degradation or translational repression. Aberrant epigenetic patterns contribute to cancer development and progression by altering key cellular processes such as cell cycle control, DNA repair, and apoptosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevations, and rarely rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's innate and adaptive immune responses?",
+    "answer": "Viruses have evolved numerous strategies to evade both innate and adaptive immune responses. They can interfere with interferon signaling by blocking the production or action of interferons. Some viruses encode proteins that inhibit pattern recognition receptors, such as RIG-I and TLRs, preventing the activation of antiviral pathways. Viruses can also suppress antigen presentation by downregulating MHC class I molecules or interfering with antigen processing. To evade antibody responses, viruses undergo antigenic variation through mutation and recombination, generating new strains that are not recognized by pre-existing antibodies. Some viruses directly infect and kill immune cells, such as CD4+ T cells in the case of HIV. Other mechanisms include the production of virokines or viral homologs of host cytokines that suppress immune cell function, and the establishment of latency to avoid immune detection. These immune evasion strategies allow viruses to persist in the host and cause chronic infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended HbA1c target for most non-pregnant adults with diabetes?",
+    "answer": "Less than 7%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles that mediate intercellular communication by transferring proteins, lipids, and nucleic acids between cells. In cancer, exosomes play a crucial role in promoting tumor growth, angiogenesis, immune evasion, and metastasis. Tumor-derived exosomes can transfer oncogenic proteins and microRNAs to recipient cells, altering their phenotype and promoting tumor progression. Exosomes can also deliver immunosuppressive molecules to immune cells, inhibiting their anti-tumor activity. Furthermore, exosomes facilitate metastasis by preparing the pre-metastatic niche, promoting angiogenesis, and enhancing tumor cell invasion and migration. They can transfer matrix metalloproteinases (MMPs) that degrade the extracellular matrix, allowing tumor cells to invade surrounding tissues. Exosome-mediated transfer of drug resistance factors can also contribute to therapeutic resistance. Targeting exosome biogenesis or uptake is being explored as a potential therapeutic strategy to inhibit cancer progression and metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for anaphylaxis?",
+    "answer": "Epinephrine injection.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with CAR T-cells work in treating hematological malignancies?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a synthetic receptor (CAR) that recognizes a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain, a transmembrane domain, and intracellular signaling domains that activate the T cell upon antigen engagement. The engineered CAR T-cells are then infused back into the patient, where they can target and kill cancer cells expressing the target antigen. For example, CD19-targeted CAR T-cells have shown remarkable efficacy in treating B-cell lymphomas and leukemias. The CAR T-cells bind to CD19 on the cancer cells, triggering T-cell activation, proliferation, and release of cytotoxic molecules like perforin and granzymes, leading to cancer cell lysis. CAR T-cells can also persist in the body, providing long-term immune surveillance. However, CAR T-cell therapy can be associated with toxicities such as cytokine release syndrome (CRS) and neurotoxicity, which require careful management.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between phase 2 and phase 3 clinical trials in drug development?",
+    "answer": "Phase 2 trials evaluate the efficacy of a drug in a larger group of patients (typically hundreds) who have the targeted disease or condition, determining optimal dosage and identifying potential side effects, while phase 3 trials are large, randomized controlled trials (RCTs) involving hundreds or thousands of patients to confirm efficacy, monitor adverse effects, and compare the new intervention to standard treatments or placebo. Phase 2 trials primarily focus on dose-ranging and preliminary efficacy signals, whereas phase 3 trials are designed to provide definitive evidence of benefit and safety for regulatory approval and clinical practice. Phase 3 trials are often multi-center and involve more diverse patient populations compared to phase 2 trials. Successful completion of phase 3 trials is required for regulatory approval by agencies such as the FDA or EMA.",
+    "persona": "Researcher"
+  }
+]

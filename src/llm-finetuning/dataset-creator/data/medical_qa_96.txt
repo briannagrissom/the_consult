@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers; assess for anticoagulation needs.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to the development of pancreatic ductal adenocarcinoma (PDAC)?",
+    "answer": "KRAS mutations, present in over 90% of PDAC cases, constitutively activate downstream signaling pathways such as MAPK and PI3K/AKT, promoting cell proliferation, survival, and metabolic reprogramming. Mutant KRAS also induces epigenetic changes, alters the tumor microenvironment, and contributes to therapy resistance. Specifically, KRAS mutations disrupt normal GTPase activity, leading to sustained activation of RAS protein and subsequent signaling cascades. This aberrant signaling drives increased expression of genes involved in cell cycle progression (e.g., cyclin D1), anti-apoptotic proteins (e.g., BCL-XL), and metabolic enzymes (e.g., glutaminase). Furthermore, KRAS mutations can influence immune evasion by modulating cytokine production and altering the composition of immune cells within the tumor microenvironment. The context-dependent effects of mutant KRAS are further shaped by co-occurring genetic alterations (e.g., TP53, CDKN2A, SMAD4) and epigenetic modifications, leading to diverse subtypes of PDAC with varying clinical behaviors. Efforts to directly target mutant KRAS have proven challenging due to the protein's structure and high affinity for GTP, but indirect strategies such as targeting downstream effectors (e.g., MEK inhibitors) or exploiting synthetic lethal vulnerabilities are under active investigation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for managing a patient with community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy based on local resistance patterns; consider respiratory viral panel; assess for hospitalization based on CURB-65 score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome is a critical factor in IBD pathogenesis, characterized by dysbiosis (imbalance) with decreased microbial diversity, reduced abundance of beneficial commensals (e.g., Firmicutes), and increased pathogenic bacteria (e.g., Escherichia coli). This dysbiosis disrupts intestinal barrier function, enhances mucosal inflammation, and alters immune responses. Specific mechanisms include: (1) impaired production of short-chain fatty acids (SCFAs) like butyrate, which are essential for colonocyte health and immune regulation; (2) increased production of pro-inflammatory metabolites like lipopolysaccharide (LPS) and flagellin; (3) activation of pattern recognition receptors (PRRs) such as TLRs and NOD2, leading to NF-κB activation and cytokine release; and (4) altered T cell differentiation, promoting Th1 and Th17 responses that drive chronic inflammation. The composition of the gut microbiome also influences drug metabolism and therapeutic responses in IBD. Fecal microbiota transplantation (FMT) is being investigated as a therapeutic approach to restore microbial diversity and modulate the immune response in IBD patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a suspected deep vein thrombosis (DVT) be initially evaluated?",
+    "answer": "Assess pretest probability using Wells score; perform D-dimer testing; if D-dimer positive or high pretest probability, proceed with lower extremity ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the molecular mechanism by which metformin exerts its antidiabetic effects?",
+    "answer": "Metformin primarily reduces hepatic glucose production, increases insulin sensitivity in peripheral tissues, and modestly slows intestinal glucose absorption. At the molecular level, metformin activates AMP-activated protein kinase (AMPK), a cellular energy sensor that regulates glucose and lipid metabolism. AMPK activation inhibits gluconeogenic enzyme expression (e.g., glucose-6-phosphatase) and stimulates glucose uptake in skeletal muscle by promoting GLUT4 translocation to the cell surface. Metformin also affects mitochondrial function, altering redox state and reducing ATP production, which contributes to AMPK activation. Furthermore, metformin influences the gut microbiome, promoting the growth of beneficial bacteria that enhance glucose metabolism and insulin sensitivity. Emerging evidence suggests that metformin may also exert anti-inflammatory effects by inhibiting NF-κB signaling and reducing the production of pro-inflammatory cytokines. While AMPK activation is considered a central mechanism, metformin's pleiotropic effects likely involve multiple AMPK-dependent and -independent pathways, contributing to its overall antidiabetic efficacy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for cervical cancer?",
+    "answer": "Begin screening at age 21 with Pap tests every 3 years; from age 30-65, preferred screening is HPV and Pap co-testing every 5 years or Pap test alone every 3 years; follow ASCCP guidelines for abnormal results.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, block inhibitory signaling pathways that dampen T cell activation and effector function within the tumor microenvironment. CTLA-4 blockade enhances T cell priming and activation in lymph nodes by preventing CTLA-4 from outcompeting CD28 for binding to B7 ligands on antigen-presenting cells (APCs). PD-1/PD-L1 blockade reverses T cell exhaustion within the tumor microenvironment by preventing PD-1 on T cells from interacting with PD-L1 expressed on tumor cells and immune cells. This interaction normally inhibits T cell proliferation, cytokine production, and cytotoxic activity. By blocking these inhibitory signals, checkpoint inhibitors unleash pre-existing anti-tumor T cell responses and promote tumor regression. However, checkpoint blockade can also lead to immune-related adverse events due to the broad activation of the immune system. The efficacy of checkpoint inhibitors is influenced by factors such as tumor mutational burden, microsatellite instability, and the presence of pre-existing T cell infiltration within the tumor.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute ischemic stroke?",
+    "answer": "Assess NIHSS score; determine eligibility for IV alteplase within 4.5 hours of symptom onset; consider mechanical thrombectomy if large vessel occlusion present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Wnt signaling pathway regulate stem cell self-renewal and differentiation?",
+    "answer": "The Wnt signaling pathway plays a crucial role in regulating stem cell self-renewal and differentiation in various tissues. In the absence of Wnt ligands, β-catenin is phosphorylated by a destruction complex (APC, Axin, GSK3β, CK1) and subsequently degraded by the proteasome. When Wnt ligands bind to Frizzled receptors and LRP5/6 co-receptors, the destruction complex is disrupted, leading to β-catenin accumulation in the cytoplasm. β-catenin then translocates to the nucleus, where it interacts with TCF/LEF transcription factors to activate the expression of target genes involved in cell proliferation, survival, and stem cell maintenance. Different Wnt ligands and co-receptors can activate distinct downstream signaling pathways, influencing the specific cell fate decisions. Aberrant Wnt signaling is implicated in various diseases, including cancer, where constitutive activation of the pathway promotes uncontrolled cell growth and tumor formation. Conversely, inhibition of Wnt signaling can promote differentiation and suppress stem cell self-renewal. Therefore, precise regulation of Wnt signaling is essential for maintaining tissue homeostasis and preventing disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated urinary tract infection (UTI) in a female?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes contribute to intercellular communication in cancer?",
+    "answer": "Exosomes, nano-sized vesicles secreted by cells, mediate intercellular communication in cancer by transferring proteins, nucleic acids (mRNA, miRNA), and lipids between cells. Cancer cells utilize exosomes to modify the tumor microenvironment, promote angiogenesis, facilitate metastasis, and evade immune surveillance. For example, exosomes can transfer oncogenic proteins or miRNAs to recipient cells, altering their gene expression and promoting tumor growth. Exosomes can also deliver matrix metalloproteinases (MMPs) to degrade the extracellular matrix, facilitating tumor invasion and metastasis. Furthermore, exosomes can suppress immune cell activity by delivering immunosuppressive molecules such as PD-L1 or TGF-β to T cells and NK cells. Exosomes derived from cancer cells can also promote angiogenesis by delivering pro-angiogenic factors such as VEGF to endothelial cells. The composition of exosomes reflects the cellular origin and can vary depending on the tumor type, stage, and treatment response. Exosomes are being investigated as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets for drug delivery and immune modulation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient with new-onset type 2 diabetes mellitus?",
+    "answer": "Lifestyle modification (diet and exercise); initiate metformin; monitor HbA1c and adjust therapy accordingly.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does autophagy play in cellular stress response and disease?",
+    "answer": "Autophagy is a highly conserved cellular process that involves the degradation and recycling of damaged organelles, misfolded proteins, and intracellular pathogens. It is a critical mechanism for maintaining cellular homeostasis and responding to various stressors such as nutrient deprivation, hypoxia, and oxidative stress. During autophagy, cytoplasmic components are sequestered within double-membrane vesicles called autophagosomes, which then fuse with lysosomes for degradation. Autophagy plays a complex and context-dependent role in disease. In some cases, autophagy promotes cell survival by removing damaged components and providing nutrients during stress. In other cases, excessive autophagy can lead to cell death. Dysregulation of autophagy is implicated in a wide range of diseases, including cancer, neurodegenerative disorders, infectious diseases, and metabolic disorders. For example, autophagy can suppress tumor initiation by removing damaged mitochondria and preventing DNA damage. However, autophagy can also promote tumor growth and survival by providing nutrients to cancer cells and protecting them from chemotherapy-induced stress. Modulation of autophagy is being explored as a therapeutic strategy for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is acute myocardial infarction (STEMI) managed in the emergency department?",
+    "answer": "Administer oxygen; administer aspirin; obtain ECG; administer nitroglycerin and morphine as needed; initiate reperfusion therapy with PCI or fibrinolytics.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps involved in CRISPR-Cas9 gene editing?",
+    "answer": "CRISPR-Cas9 gene editing involves several key steps: (1) Design and synthesis of a guide RNA (gRNA) that is complementary to the target DNA sequence. The gRNA consists of a CRISPR RNA (crRNA) that specifies the target sequence and a trans-activating crRNA (tracrRNA) that binds to the Cas9 protein. (2) Delivery of the Cas9 protein and gRNA into the target cells. This can be achieved through various methods, including viral vectors, electroporation, and lipid nanoparticles. (3) Cas9 protein, guided by the gRNA, binds to the target DNA sequence and creates a double-strand break (DSB). (4) The cell's DNA repair mechanisms are activated to repair the DSB. There are two main pathways for DSB repair: non-homologous end joining (NHEJ) and homology-directed repair (HDR). NHEJ is an error-prone pathway that often results in insertions or deletions (indels) at the target site, leading to gene disruption. HDR uses a provided DNA template to repair the DSB, allowing for precise gene editing, such as gene insertion or correction of mutations. The efficiency and accuracy of CRISPR-Cas9 gene editing are influenced by factors such as the gRNA sequence, the Cas9 protein variant, the delivery method, and the cell type.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscularly; antihistamines (H1 and H2 blockers); corticosteroids; supportive care (oxygen, IV fluids).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy for Alzheimer's disease work?",
+    "answer": "Immunotherapy for Alzheimer's disease aims to reduce the accumulation of amyloid-beta plaques and tau tangles, which are hallmarks of the disease. There are two main types of immunotherapy: active and passive. Active immunotherapy involves injecting patients with an amyloid-beta peptide or a modified amyloid-beta protein to stimulate their own immune system to produce antibodies against amyloid-beta. Passive immunotherapy involves administering pre-formed antibodies against amyloid-beta or tau. These antibodies can bind to amyloid-beta plaques or tau tangles, promoting their clearance from the brain through mechanisms such as phagocytosis by microglia or antibody-mediated degradation. Several clinical trials have evaluated the efficacy of immunotherapy for Alzheimer's disease, with mixed results. Some antibodies have shown promise in reducing amyloid-beta plaques, but have not consistently demonstrated cognitive benefits. Adverse effects, such as amyloid-related imaging abnormalities (ARIA), have been observed in some patients. Ongoing research is focused on developing more effective and safer immunotherapies for Alzheimer's disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended post-exposure prophylaxis (PEP) for HIV?",
+    "answer": "Initiate PEP within 72 hours of exposure; use a 28-day course of antiretroviral therapy (typically a combination of tenofovir/emtricitabine plus raltegravir or dolutegravir).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of RNA molecules longer than 200 nucleotides that do not encode proteins but play critical roles in regulating gene expression. LncRNAs can regulate gene expression through various mechanisms: (1) Transcriptional regulation: lncRNAs can interact with chromatin-modifying complexes, such as PRC2 and LSD1, to recruit them to specific genomic loci and regulate histone modifications and DNA methylation, thereby influencing gene transcription. (2) Post-transcriptional regulation: lncRNAs can bind to mRNA molecules and regulate their stability, translation, and localization. They can also act as miRNA sponges, sequestering miRNAs and preventing them from binding to their target mRNAs. (3) Structural roles: lncRNAs can serve as structural scaffolds, bringing together different proteins to form functional complexes. (4) Decoy mechanism: lncRNAs can bind to transcription factors and prevent them from binding to their target DNA sequences. Dysregulation of lncRNA expression is implicated in various diseases, including cancer, neurodegenerative disorders, and cardiovascular diseases. LncRNAs are being explored as potential therapeutic targets and biomarkers.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers, unless hemodynamically unstable, then cardioversion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level, and what are its major limitations in therapeutic applications?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) designed to be complementary to a specific DNA sequence. This gRNA directs the Cas9 endonuclease to the target site in the genome. Cas9 then creates a double-stranded break in the DNA. The cell attempts to repair this break either through non-homologous end joining (NHEJ), which is error-prone and can lead to insertions or deletions (indels) that disrupt the gene, or through homology-directed repair (HDR) if a DNA template with the desired sequence is provided, allowing for precise gene editing. However, HDR is less efficient in many cell types. Major limitations in therapeutic applications include off-target effects (Cas9 cutting at unintended sites with similar sequences), immunogenicity (the Cas9 protein eliciting an immune response), delivery challenges (getting the CRISPR-Cas9 components into the target cells or tissues), and ethical considerations surrounding germline editing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which metformin exerts its effects in the treatment of type 2 diabetes?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis and glycogenolysis. At the molecular level, it activates AMP-activated protein kinase (AMPK), a cellular energy sensor. Activation of AMPK leads to downstream effects that improve insulin sensitivity, such as increased glucose uptake in skeletal muscle and decreased lipogenesis. Metformin also modestly decreases intestinal glucose absorption and may exert effects on the gut microbiome, which could contribute to its glucose-lowering effects. The exact mechanisms are still being investigated, but AMPK activation and reduced hepatic glucose production are central to its action.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard antibiotic treatment for community-acquired pneumonia?",
+    "answer": "Outpatient: Amoxicillin or doxycycline or a macrolide (if local resistance <25%). Inpatient: Beta-lactam plus a macrolide or a respiratory fluoroquinolone.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC commonly arises through several mechanisms. The most frequent is the acquisition of the EGFR T790M mutation, which increases the affinity of EGFR for ATP, making it less sensitive to TKIs. Other mechanisms include activation of bypass pathways such as MET amplification, HER2 amplification, PI3K/AKT activation (through PTEN loss or PIK3CA mutations), and activation of the MAPK pathway (through BRAF mutations or RAS activation). Small cell lung cancer transformation and epithelial-mesenchymal transition (EMT) can also contribute to resistance. These pathways can restore cell growth and survival signals despite EGFR inhibition, necessitating the use of alternative or combination therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a suspected deep vein thrombosis (DVT) be initially evaluated?",
+    "answer": "Assess pretest probability (e.g., Wells score) and perform a D-dimer test. If D-dimer is positive or pretest probability is high, perform lower extremity ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapies such as immune checkpoint inhibitors?",
+    "answer": "The gut microbiome plays a significant role in shaping the immune response to cancer immunotherapies. Certain bacterial species, such as *Akkermansia muciniphila* and *Faecalibacterium prausnitzii*, have been associated with improved responses to checkpoint inhibitors like anti-PD-1 and anti-CTLA-4 antibodies. These bacteria can enhance T-cell infiltration into tumors and promote a more favorable tumor microenvironment. Conversely, dysbiosis (an imbalance in the gut microbiome) and the presence of other bacterial species can lead to reduced efficacy and increased toxicity. For example, some bacteria can metabolize drugs, reducing their bioavailability, or promote inflammation that exacerbates immune-related adverse events like colitis. Fecal microbiota transplantation (FMT) is being investigated as a strategy to modulate the gut microbiome and improve outcomes in patients receiving immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a woman?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, if local resistance is <20%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative diseases, and what makes them different from other infectious agents?",
+    "answer": "Prions are misfolded proteins that can induce normal, properly folded versions of the same protein to misfold, leading to a chain reaction of protein aggregation and ultimately neurodegeneration. Unlike bacteria or viruses, prions do not contain nucleic acids (DNA or RNA). The prion protein (PrP) exists in two forms: PrP^C (cellular) and PrP^Sc (scrapie, the misfolded form). PrP^Sc acts as a template, converting PrP^C into more PrP^Sc, which accumulates in the brain and forms amyloid plaques. This process leads to neuronal dysfunction and cell death. Prion diseases are characterized by long incubation periods and are invariably fatal. They can arise spontaneously, be inherited, or be acquired through infection (e.g., consumption of contaminated meat).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute stroke symptoms?",
+    "answer": "Assess ABCs, determine time of symptom onset, perform NIHSS score, obtain CT scan of the head to rule out hemorrhage, and consider thrombolysis if eligible.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of Alzheimer's disease, and how do amyloid plaques and neurofibrillary tangles contribute to neurodegeneration?",
+    "answer": "Alzheimer's disease is characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain. Amyloid plaques are formed by the aggregation of amyloid-beta (Aβ) peptides, which are produced from the cleavage of amyloid precursor protein (APP) by β-secretase and γ-secretase. These Aβ peptides, particularly Aβ42, aggregate into oligomers and fibrils that deposit extracellularly. Neurofibrillary tangles are intracellular aggregates of hyperphosphorylated tau protein, which normally stabilizes microtubules. Hyperphosphorylation causes tau to detach from microtubules and aggregate, disrupting axonal transport and leading to neuronal dysfunction. Both Aβ plaques and tau tangles contribute to neurodegeneration through multiple mechanisms, including oxidative stress, inflammation, excitotoxicity, and impaired synaptic function. These processes ultimately lead to neuronal cell death and cognitive decline.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with acute myocardial infarction with ST-segment elevation (STEMI)?",
+    "answer": "Immediate reperfusion therapy with primary percutaneous coronary intervention (PCI) or fibrinolysis if PCI is not available within 120 minutes of first medical contact.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using CAR T-cells work, and what are the major toxicities associated with this treatment?",
+    "answer": "CAR T-cell therapy involves engineering a patient's own T-cells to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on cancer cells. These CAR T-cells are then infused back into the patient, where they bind to the target antigen on cancer cells, leading to T-cell activation and killing of the cancer cells. CAR T-cell therapy has shown remarkable success in treating certain hematologic malignancies, such as B-cell lymphomas and acute lymphoblastic leukemia. However, it is associated with significant toxicities, including cytokine release syndrome (CRS), which is caused by the massive release of cytokines from activated T-cells and can lead to fever, hypotension, and organ dysfunction. Another major toxicity is immune effector cell-associated neurotoxicity syndrome (ICANS), which can cause confusion, seizures, and even coma. Other potential toxicities include on-target, off-tumor effects, B-cell aplasia, and prolonged cytopenias.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for hypothyroidism?",
+    "answer": "Levothyroxine, with the dose adjusted based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between mRNA vaccines and traditional vaccines, and what are the advantages and disadvantages of each approach?",
+    "answer": "Traditional vaccines typically use weakened or inactivated pathogens or protein subunits to stimulate an immune response. In contrast, mRNA vaccines deliver messenger RNA that encodes for a specific antigen from the pathogen. Once inside the cell, the mRNA is translated into the antigen, which then triggers an immune response. mRNA vaccines offer several advantages, including faster development and manufacturing, the ability to elicit both antibody and cellular immunity, and the absence of infectious agents. However, mRNA vaccines also have some disadvantages, such as the need for ultra-cold storage and potential instability, although this has been improved with lipid nanoparticle encapsulation. Traditional vaccines often have a longer track record of safety and efficacy, and they may be easier to store and distribute, but they can take longer to develop and manufacture.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Intramuscular epinephrine, antihistamines, and corticosteroids. Consider supplemental oxygen and IV fluids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, influence gene expression and contribute to disease development?",
+    "answer": "Epigenetic modifications are chemical alterations to DNA or histone proteins that do not change the underlying DNA sequence but can alter gene expression. DNA methylation typically involves the addition of a methyl group to cytosine bases, which often leads to gene silencing. Histone modifications, such as acetylation and methylation, can either activate or repress gene expression, depending on the specific modification and the location in the genome. These epigenetic modifications play a crucial role in regulating various cellular processes, including development, differentiation, and responses to environmental stimuli. Aberrant epigenetic modifications have been implicated in the development of various diseases, including cancer, neurodegenerative disorders, and autoimmune diseases. For example, altered DNA methylation patterns can lead to the silencing of tumor suppressor genes or the activation of oncogenes, contributing to cancer development.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate management for a patient with a suspected pulmonary embolism?",
+    "answer": "Assess pretest probability (e.g., Wells score or Geneva score) and perform a D-dimer test. If D-dimer is positive or pretest probability is high, perform CT pulmonary angiography (CTPA).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms of action of checkpoint inhibitor antibodies, such as anti-PD-1 and anti-CTLA-4, in cancer immunotherapy?",
+    "answer": "Checkpoint inhibitor antibodies work by blocking inhibitory signals that normally prevent T-cells from attacking cancer cells. CTLA-4, expressed on T-cells, binds to B7 molecules on antigen-presenting cells (APCs), delivering an inhibitory signal that limits T-cell activation and proliferation. Anti-CTLA-4 antibodies block this interaction, enhancing T-cell activation in the tumor microenvironment. PD-1, also expressed on T-cells, binds to PD-L1, which is often upregulated on cancer cells. This interaction delivers an inhibitory signal that suppresses T-cell effector function and promotes T-cell exhaustion. Anti-PD-1 antibodies block this interaction, allowing T-cells to recognize and kill cancer cells more effectively. By blocking these inhibitory pathways, checkpoint inhibitors unleash the immune system to attack cancer cells, leading to durable responses in some patients. Combination strategies targeting both CTLA-4 and PD-1 can further enhance antitumor immunity, but also increase the risk of immune-related adverse events.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR signaling pathway contribute to the development of resistance to tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Activating mutations in EGFR, such as exon 19 deletions or L858R point mutations, initially sensitize NSCLC cells to EGFR TKIs like gefitinib and erlotinib. However, acquired resistance inevitably emerges, most commonly via the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. Other resistance mechanisms include amplification of the MET proto-oncogene, epithelial-mesenchymal transition (EMT), activation of bypass pathways such as PI3K/AKT, and histologic transformation to small cell lung cancer. These alternative signaling routes counteract the EGFR inhibition, allowing continued tumor cell proliferation and survival. Combination strategies targeting multiple pathways or the use of third-generation TKIs like osimertinib, which selectively inhibit both EGFR-activating and T790M resistance mutations, are used to overcome these resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in IBD pathogenesis through complex interactions with the host immune system and intestinal barrier. Dysbiosis, characterized by decreased microbial diversity and an imbalance in specific bacterial taxa, is a hallmark of IBD. Certain pathobionts, such as adherent-invasive E. coli (AIEC) and some strains of Klebsiella, can exacerbate intestinal inflammation by triggering excessive immune responses. Conversely, a deficiency in beneficial commensals like Faecalibacterium prausnitzii, which produces anti-inflammatory metabolites such as butyrate, contributes to impaired immune regulation. The altered microbiome leads to increased intestinal permeability, allowing bacterial products like lipopolysaccharide (LPS) to translocate across the epithelial barrier and activate immune cells. This triggers a cascade of inflammatory cytokine production, including TNF-α and IL-1β, driving chronic inflammation and tissue damage. Genetic susceptibility, environmental factors, and immune dysregulation further shape the composition and function of the microbiome, influencing the onset and progression of IBD. Therapies aimed at modulating the microbiome, such as fecal microbiota transplantation (FMT) and targeted dietary interventions, are under investigation for their potential to restore microbial balance and alleviate IBD symptoms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone?",
+    "answer": "Every 3 years for women aged 21-29.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions propagate and cause neurodegenerative diseases?",
+    "answer": "Prions are misfolded, self-propagating isoforms of normal cellular proteins, most commonly the prion protein (PrPC). Unlike conventional pathogens, prions lack nucleic acid and replicate by converting PrPC into the misfolded prion form (PrPSc) through a template-directed process. PrPSc aggregates into amyloid fibrils, which accumulate in the brain and disrupt neuronal function. The mechanism of conversion involves direct interaction between PrPC and PrPSc, inducing a conformational change in PrPC to adopt the misfolded PrPSc structure. This process is autocatalytic, as newly formed PrPSc molecules can then convert additional PrPC, leading to exponential prion replication. Different prion strains exhibit distinct conformations of PrPSc, resulting in variations in disease incubation time, neuropathology, and clinical presentation. Prion diseases, such as Creutzfeldt-Jakob disease (CJD) and scrapie, are characterized by progressive neurodegeneration, spongiform changes, and neuronal loss. The accumulation of PrPSc aggregates triggers cellular stress responses, including activation of the unfolded protein response (UPR) and autophagy, eventually leading to neuronal apoptosis. The exact mechanisms of prion-induced neurotoxicity are still under investigation, but likely involve a combination of factors, including oxidative stress, mitochondrial dysfunction, and impaired proteostasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical antibiotic regimen for community-acquired pneumonia?",
+    "answer": "A macrolide or doxycycline for previously healthy outpatients, or a beta-lactam plus a macrolide or a respiratory fluoroquinolone for outpatients with comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder involving multiple signaling pathways that contribute to its pathogenesis. Amyloid precursor protein (APP) processing via β-secretase and γ-secretase leads to the production of amyloid-β (Aβ) peptides, which aggregate into amyloid plaques, a hallmark of AD. Aβ oligomers trigger neuronal dysfunction and synaptic loss through mechanisms involving oxidative stress, mitochondrial dysfunction, and inflammation. Tau hyperphosphorylation, mediated by kinases such as GSK-3β and CDK5, results in the formation of neurofibrillary tangles, another key pathological feature of AD. These tangles disrupt microtubule function and impair axonal transport, leading to neuronal death. Neuroinflammation, driven by activated microglia and astrocytes, contributes to AD progression by releasing pro-inflammatory cytokines and reactive oxygen species. Insulin signaling dysregulation is also implicated in AD, as impaired insulin receptor signaling promotes Aβ accumulation and tau phosphorylation. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), can increase Aβ production and accelerate AD onset. Therapeutic strategies targeting these signaling pathways, including Aβ clearance, tau aggregation inhibitors, and anti-inflammatory agents, are under investigation for their potential to slow down or prevent AD progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with new-onset atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, cardioversion. If stable, rate or rhythm control strategies and anticoagulation considerations.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells evade immunosurveillance by cytotoxic T lymphocytes (CTLs)?",
+    "answer": "Cancer cells employ multiple mechanisms to evade immunosurveillance by CTLs. One key strategy is the downregulation or loss of major histocompatibility complex (MHC) class I molecules, which present tumor-associated antigens to CTLs, rendering the cancer cells invisible to T-cell recognition. Cancer cells can also express immune checkpoint ligands, such as programmed death-ligand 1 (PD-L1), which bind to PD-1 receptors on CTLs, inhibiting their activation and effector function. The secretion of immunosuppressive cytokines, such as transforming growth factor-β (TGF-β) and interleukin-10 (IL-10), by cancer cells or stromal cells in the tumor microenvironment can suppress CTL activity and promote the development of regulatory T cells (Tregs). Cancer cells can also recruit myeloid-derived suppressor cells (MDSCs) to the tumor site, which suppress T-cell responses through various mechanisms, including the production of arginase and reactive oxygen species. Furthermore, mutations in genes involved in antigen processing and presentation can impair the ability of cancer cells to present tumor antigens to CTLs. Combination therapies targeting multiple immune evasion mechanisms, such as checkpoint inhibitors and adoptive cell therapy, are under development to enhance antitumor immunity and overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis?",
+    "answer": "Fluoroquinolones or trimethoprim-sulfamethoxazole if local resistance rates are low; otherwise, consider a single dose of ceftriaxone or an aminoglycoside.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in cancer development and progression by altering gene expression patterns without changing the underlying DNA sequence. DNA methylation, primarily at cytosine-guanine dinucleotides (CpGs), can silence tumor suppressor genes and contribute to genomic instability. Histone modifications, such as acetylation and methylation, influence chromatin structure and accessibility, affecting gene transcription. Aberrant histone modification patterns can lead to the activation of oncogenes and the repression of tumor suppressor genes. Epigenetic alterations can also affect non-coding RNAs, such as microRNAs, which regulate gene expression at the post-transcriptional level. Cancer cells often exhibit global hypomethylation, which can activate oncogenes and promote genomic instability, as well as hypermethylation of specific promoter regions, which silences tumor suppressor genes. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Drugs that inhibit DNA methyltransferases (DNMTs) or histone deacetylases (HDACs) can restore normal gene expression patterns and inhibit cancer cell growth. Combination therapies targeting both genetic and epigenetic alterations are under investigation for their potential to improve cancer treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Nausea, insomnia, sexual dysfunction, and weight gain.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and disease pathogenesis?",
+    "answer": "Exosomes are nanoscale extracellular vesicles secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids to recipient cells. Exosomes play a critical role in both normal physiology and disease pathogenesis. In the immune system, exosomes can present antigens to T cells and stimulate immune responses. In cancer, exosomes can promote tumor growth, metastasis, and angiogenesis by transferring oncogenic proteins and microRNAs to recipient cells. Exosomes can also facilitate drug resistance by exporting chemotherapeutic agents out of cancer cells or by transferring drug resistance genes to neighboring cells. Exosomes are involved in neurodegenerative diseases by spreading misfolded proteins, such as amyloid-β and tau, between neurons. Exosomes can also transport inflammatory mediators and contribute to chronic inflammation. Because exosomes are present in various bodily fluids, they hold promise as biomarkers for disease diagnosis and monitoring. Therapeutic strategies targeting exosomes, such as blocking their secretion or uptake, are under development for various diseases. Exosomes can also be engineered to deliver therapeutic agents, such as drugs or nucleic acids, to target cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute gout flare?",
+    "answer": "NSAIDs, colchicine, or corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses hijack host cell machinery for replication?",
+    "answer": "Viruses are obligate intracellular parasites that rely on host cell machinery to replicate their genomes and produce viral proteins. Upon entering a host cell, viruses employ various strategies to hijack cellular processes. Viral genomes encode proteins that inhibit host cell DNA replication and transcription, redirecting cellular resources towards viral genome replication and protein synthesis. Viruses utilize host cell ribosomes to translate viral mRNAs into viral proteins. Some viruses encode their own tRNAs or modify host cell tRNAs to optimize translation of viral proteins. Viruses also manipulate host cell signaling pathways to create a favorable environment for viral replication. For example, viruses can activate the PI3K/AKT pathway to promote cell survival and inhibit apoptosis, or they can interfere with the interferon signaling pathway to evade the host immune response. Viruses also utilize host cell transport machinery to move viral components to specific locations within the cell, such as the endoplasmic reticulum or Golgi apparatus, for assembly and maturation. Finally, viruses induce host cell lysis or budding to release newly formed viral particles, completing the viral life cycle.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for patients on warfarin for atrial fibrillation?",
+    "answer": "2.0 to 3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used chemotherapeutic agents?",
+    "answer": "Chemotherapeutic agents exert their cytotoxic effects through diverse mechanisms targeting essential cellular processes. Alkylating agents, such as cyclophosphamide and cisplatin, damage DNA by forming covalent bonds, leading to DNA crosslinks and strand breaks that inhibit DNA replication and transcription. Antimetabolites, like methotrexate and 5-fluorouracil (5-FU), interfere with DNA synthesis by inhibiting enzymes involved in nucleotide production or by being incorporated into DNA in place of normal nucleotides. Topoisomerase inhibitors, such as doxorubicin and etoposide, block the activity of topoisomerases, enzymes that relieve torsional stress during DNA replication and transcription, resulting in DNA damage and cell death. Microtubule-targeting agents, such as paclitaxel and vincristine, disrupt microtubule dynamics, interfering with cell division and causing mitotic arrest. Targeted therapies, such as tyrosine kinase inhibitors (TKIs) and monoclonal antibodies, selectively inhibit specific proteins or pathways involved in cancer cell growth and survival. The choice of chemotherapeutic agent depends on the type and stage of cancer, as well as the patient's overall health. Combination chemotherapy regimens are often used to target multiple pathways and overcome drug resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for type 2 diabetes?",
+    "answer": "Lifestyle modifications and metformin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the immune system to fight cancer?",
+    "answer": "Immunotherapy leverages the patient's own immune system to recognize and eliminate cancer cells. Immune checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, block inhibitory signals that prevent T cells from attacking cancer cells, thereby unleashing antitumor immune responses. Adoptive cell therapy involves collecting and modifying a patient's immune cells, such as T cells, to enhance their ability to recognize and kill cancer cells. These modified cells are then infused back into the patient. Cancer vaccines stimulate the immune system to recognize and attack cancer cells by exposing the immune system to tumor-associated antigens. Oncolytic viruses selectively infect and kill cancer cells, while also stimulating an antitumor immune response. Cytokines, such as interleukin-2 (IL-2) and interferon-alpha (IFN-α), can boost the activity of immune cells and enhance their ability to fight cancer. Immunotherapy has shown remarkable success in treating certain types of cancer, such as melanoma, lung cancer, and lymphoma, and is rapidly expanding to other cancer types. However, immunotherapy can also cause immune-related adverse events, such as autoimmune disorders, due to the activation of the immune system against normal tissues. Combination therapies involving immunotherapy and other cancer treatments, such as chemotherapy and radiation therapy, are under investigation to improve treatment outcomes.",
+    "persona": "Researcher"
+  }
+]

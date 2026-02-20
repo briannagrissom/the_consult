@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin monohydrate/macrocrystals for 5 days or trimethoprim-sulfamethoxazole for 3 days if local resistance rates are <20%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and what are the challenges in targeting mutant KRAS for cancer therapy?",
+    "answer": "KRAS encodes a small GTPase that cycles between an inactive GDP-bound state and an active GTP-bound state, thereby regulating downstream signaling pathways such as MAPK and PI3K/AKT, which control cell proliferation, differentiation, and survival. Oncogenic KRAS mutations, most commonly at codons 12, 13, or 61, impair GTPase activity, leading to constitutive activation of KRAS signaling. This drives uncontrolled cell growth and proliferation. Targeting mutant KRAS has been challenging due to the high affinity of KRAS for GTP and the lack of a readily druggable binding pocket. Direct KRAS inhibitors have been difficult to develop due to these structural features. However, recent advances have led to the development of KRAS G12C inhibitors (e.g., sotorasib, adagrasib) that covalently bind to the mutant cysteine residue. These inhibitors have shown clinical efficacy in certain KRAS G12C-mutated cancers, particularly non-small cell lung cancer. Another approach involves targeting downstream effectors of KRAS signaling, such as MEK inhibitors, although resistance mechanisms often emerge. Combination strategies that simultaneously target multiple nodes in the KRAS signaling pathway are also being explored to overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score and how is it used?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (2 points), Diabetes mellitus, Stroke/TIA/thromboembolism (2 points), Vascular disease, Age 65-74, Sex category (female). Used to assess stroke risk in atrial fibrillation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which PD-1/PD-L1 blockade enhances anti-tumor immunity, and what factors contribute to primary or acquired resistance to these therapies?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while PD-L1 (programmed death-ligand 1) is a ligand expressed on tumor cells and antigen-presenting cells. The interaction between PD-1 and PD-L1 suppresses T-cell activation and effector function, allowing tumor cells to evade immune destruction. PD-1/PD-L1 blockade enhances anti-tumor immunity by blocking this inhibitory interaction, thereby restoring T-cell activity against tumor cells. This involves enhanced T-cell proliferation, cytokine production, and cytotoxic activity. Primary resistance to PD-1/PD-L1 inhibitors can occur due to factors such as low tumor mutational burden, lack of pre-existing T-cell infiltration into the tumor microenvironment, or expression of alternative immune checkpoint molecules. Acquired resistance can develop through mechanisms such as upregulation of alternative immune checkpoints (e.g., CTLA-4, LAG-3), loss of antigen presentation, or mutations in genes involved in the interferon-gamma signaling pathway.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk adults?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does glucagon regulate blood glucose levels, and what are the cellular and molecular mechanisms involved?",
+    "answer": "Glucagon is a peptide hormone secreted by pancreatic alpha cells in response to low blood glucose levels. Its primary function is to raise blood glucose levels by stimulating hepatic glucose production. Glucagon binds to the glucagon receptor (GCGR) on hepatocytes, a G protein-coupled receptor. This activates adenylyl cyclase, leading to increased intracellular levels of cyclic AMP (cAMP). cAMP activates protein kinase A (PKA), which phosphorylates and activates several key enzymes involved in glucose metabolism. These include phosphorylase kinase, which activates glycogen phosphorylase, promoting glycogenolysis (breakdown of glycogen into glucose). PKA also phosphorylates and inactivates glycogen synthase, inhibiting glycogenesis (glucose storage as glycogen). Additionally, glucagon stimulates gluconeogenesis (de novo glucose synthesis) by increasing the expression of key gluconeogenic enzymes, such as phosphoenolpyruvate carboxykinase (PEPCK) and glucose-6-phosphatase. Glucagon also inhibits glycolysis in the liver, further contributing to increased glucose output. The overall effect of glucagon is to increase hepatic glucose production and release into the bloodstream, thereby raising blood glucose levels.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with a STEMI?",
+    "answer": "Immediate reperfusion therapy with primary percutaneous coronary intervention (PCI) or fibrinolysis if PCI is not available within 120 minutes.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms by which bacteria develop resistance to beta-lactam antibiotics, and how can these resistance mechanisms be overcome?",
+    "answer": "Bacteria develop resistance to beta-lactam antibiotics primarily through four main mechanisms: (1) production of beta-lactamases, enzymes that hydrolyze the beta-lactam ring, rendering the antibiotic inactive; (2) alterations in penicillin-binding proteins (PBPs), the target enzymes of beta-lactams, reducing their affinity for the antibiotic; (3) decreased permeability of the bacterial outer membrane, limiting antibiotic entry; and (4) active efflux of the antibiotic out of the bacterial cell. Beta-lactamase inhibitors (e.g., clavulanate, sulbactam, tazobactam, avibactam) can be used in combination with beta-lactam antibiotics to overcome beta-lactamase-mediated resistance. These inhibitors bind to and inactivate beta-lactamases, protecting the beta-lactam antibiotic from hydrolysis. Development of new beta-lactam antibiotics that are less susceptible to beta-lactamase hydrolysis or that bind more tightly to altered PBPs is also an ongoing strategy. Additionally, strategies to improve antibiotic penetration or inhibit efflux pumps are being explored.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial pharmacological treatment for type 2 diabetes?",
+    "answer": "Metformin, unless contraindicated or not tolerated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing work, and what are its potential applications and limitations in biomedical research and therapy?",
+    "answer": "CRISPR-Cas9 (clustered regularly interspaced short palindromic repeats-CRISPR-associated protein 9) is a revolutionary gene-editing technology derived from the adaptive immune system of bacteria. It consists of two key components: the Cas9 enzyme, which acts as a molecular scissor, and a guide RNA (gRNA), which directs Cas9 to a specific DNA sequence in the genome. The gRNA is a short RNA molecule that contains a 20-nucleotide sequence complementary to the target DNA sequence. When the gRNA binds to the target DNA, Cas9 cleaves both strands of the DNA at that location. This creates a double-strand break (DSB), which the cell attempts to repair through one of two main pathways: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is an error-prone process that often leads to insertions or deletions (indels) at the DSB site, disrupting the gene. HDR uses a provided DNA template to repair the DSB, allowing for precise gene editing. CRISPR-Cas9 has numerous potential applications in biomedical research, including gene knockout studies, gene editing, gene therapy, and drug discovery. It can be used to study gene function, develop new disease models, correct genetic mutations in cells or organisms, and identify new drug targets. However, CRISPR-Cas9 also has limitations, including off-target effects (cleavage at unintended sites in the genome), mosaicism (incomplete editing in all cells), and delivery challenges.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for anaphylaxis?",
+    "answer": "Intramuscular epinephrine, antihistamines, and corticosteroids. Consider glucagon if patient is on beta-blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of the different types of T cells (e.g., CD4+ helper T cells, CD8+ cytotoxic T cells, regulatory T cells) in the adaptive immune response?",
+    "answer": "CD4+ helper T cells, CD8+ cytotoxic T cells, and regulatory T cells (Tregs) are distinct subsets of T lymphocytes that play critical roles in orchestrating the adaptive immune response. CD4+ helper T cells recognize antigens presented on MHC class II molecules by antigen-presenting cells (APCs) such as dendritic cells, macrophages, and B cells. Upon activation, CD4+ T cells differentiate into various subtypes (e.g., Th1, Th2, Th17, Tfh) that secrete distinct cytokines to coordinate immune responses against different types of pathogens. Th1 cells produce IFN-γ, which activates macrophages and promotes cell-mediated immunity against intracellular pathogens. Th2 cells produce IL-4, IL-5, and IL-13, which promote humoral immunity against extracellular parasites and allergens. Th17 cells produce IL-17, which recruits neutrophils and promotes inflammation against extracellular bacteria and fungi. Tfh cells help B cells produce high-affinity antibodies. CD8+ cytotoxic T cells recognize antigens presented on MHC class I molecules by infected cells or tumor cells. Upon activation, CD8+ T cells kill target cells by releasing cytotoxic granules containing perforin and granzymes. Regulatory T cells (Tregs) suppress immune responses to maintain immune homeostasis and prevent autoimmunity. Tregs express the transcription factor Foxp3 and secrete immunosuppressive cytokines such as IL-10 and TGF-β.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses, such as influenza virus or HIV, evade the host immune system, and what strategies are being developed to overcome viral immune evasion?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system, allowing them to establish persistent infections. Influenza virus undergoes antigenic drift and antigenic shift, which involve mutations in the viral hemagglutinin (HA) and neuraminidase (NA) glycoproteins. Antigenic drift refers to gradual accumulation of point mutations, while antigenic shift involves reassortment of viral gene segments. These changes allow the virus to evade neutralizing antibodies generated against previous strains. HIV evades the immune system through several mechanisms, including high mutation rate, glycosylation of the viral envelope protein gp120, latency in CD4+ T cells, and downregulation of MHC class I expression. High mutation rate leads to the emergence of drug-resistant variants and escape from antibody recognition. Glycosylation of gp120 shields the underlying viral protein from antibody binding. Latency allows the virus to persist in a quiescent state, evading immune detection. Downregulation of MHC class I expression reduces recognition by cytotoxic T cells. Strategies to overcome viral immune evasion include the development of broadly neutralizing antibodies (bnAbs) that target conserved epitopes on viral proteins, therapeutic vaccines that elicit strong cellular immune responses, and antiviral drugs that target essential viral enzymes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Outpatient: Amoxicillin or doxycycline or a macrolide (if local macrolide resistance is <25%). Inpatient: Beta-lactam plus macrolide or a respiratory fluoroquinolone.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in cancer metastasis, and how can these pathways be targeted to prevent or treat metastatic disease?",
+    "answer": "Cancer metastasis is a complex multistep process that involves detachment of tumor cells from the primary tumor, invasion of the surrounding tissue, intravasation into the bloodstream or lymphatic system, survival in circulation, extravasation into distant organs, and colonization of the distant site. Several key signaling pathways play critical roles in regulating these steps. The epithelial-mesenchymal transition (EMT) is a process by which epithelial cells lose their cell-cell adhesion and acquire mesenchymal characteristics, promoting invasion and migration. EMT is regulated by transcription factors such as Snail, Slug, Twist, and ZEB1, which are activated by signaling pathways such as TGF-β, Wnt, and Notch. The PI3K/AKT/mTOR pathway promotes cell survival, proliferation, and migration. The MAPK pathway regulates cell proliferation, differentiation, and survival. The Rho GTPase pathway regulates cell motility and invasion. These pathways can be targeted to prevent or treat metastatic disease. For example, TGF-β inhibitors can block EMT, PI3K/AKT/mTOR inhibitors can inhibit cell survival and proliferation, MEK inhibitors can inhibit the MAPK pathway, and Rho GTPase inhibitors can inhibit cell motility and invasion. Additionally, therapies that target the tumor microenvironment, such as angiogenesis inhibitors and immune checkpoint inhibitors, can also be used to prevent or treat metastatic disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the mainstay of treatment for hypothyroidism?",
+    "answer": "Levothyroxine, titrated to a normal TSH level.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors differ from traditional chemotherapy and radiation therapy in terms of mechanism of action and potential side effects?",
+    "answer": "Immunotherapy with checkpoint inhibitors differs fundamentally from traditional chemotherapy and radiation therapy in its mechanism of action and the nature of its side effects. Chemotherapy and radiation therapy are cytotoxic treatments that directly kill cancer cells by damaging their DNA or disrupting their cellular machinery. They target rapidly dividing cells, but also affect normal cells, leading to side effects such as myelosuppression, nausea, and hair loss. Immunotherapy with checkpoint inhibitors, on the other hand, does not directly kill cancer cells. Instead, it enhances the body's own immune system to recognize and destroy cancer cells. Checkpoint inhibitors block inhibitory receptors on immune cells, such as PD-1 or CTLA-4, thereby unleashing the immune response against cancer cells. Because immunotherapy activates the immune system, its side effects are often immune-related, affecting various organs and tissues. These immune-related adverse events (irAEs) can include colitis, pneumonitis, hepatitis, endocrinopathies, and skin rashes. While chemotherapy and radiation therapy primarily cause immediate side effects related to cell damage, immunotherapy can cause delayed and potentially long-lasting irAEs due to immune system dysregulation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis?",
+    "answer": "Outpatient: Ciprofloxacin or levofloxacin. Inpatient: IV fluoroquinolone, aminoglycoside, or extended-spectrum cephalosporin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major pathological hallmarks of Alzheimer's disease, and how do they contribute to cognitive decline?",
+    "answer": "The major pathological hallmarks of Alzheimer's disease (AD) are amyloid plaques, neurofibrillary tangles (NFTs), and neuronal loss, all of which contribute to cognitive decline. Amyloid plaques are extracellular deposits of amyloid-beta (Aβ) peptides, derived from the amyloid precursor protein (APP). Aβ plaques are thought to initiate a cascade of events leading to neuronal dysfunction and death. Neurofibrillary tangles (NFTs) are intracellular aggregates of hyperphosphorylated tau protein. In healthy neurons, tau stabilizes microtubules, which are essential for axonal transport. In AD, hyperphosphorylated tau detaches from microtubules and forms NFTs, disrupting axonal transport and leading to neuronal dysfunction and death. Neuronal loss occurs primarily in brain regions involved in memory and cognition, such as the hippocampus and cortex. The accumulation of Aβ plaques and NFTs triggers inflammatory responses, oxidative stress, and excitotoxicity, which contribute to neuronal damage and loss. The loss of synapses and neurons leads to progressive cognitive decline, including memory loss, language impairment, and executive dysfunction. The spatiotemporal progression of these pathological hallmarks correlates with the severity of cognitive impairment in AD.",
+    "persona": "Researcher"
+  }
+]

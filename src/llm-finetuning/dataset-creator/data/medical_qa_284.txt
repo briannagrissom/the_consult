@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis enhance anti-tumor immunity at the molecular level?",
+    "answer": "Programmed cell death protein 1 (PD-1) is an inhibitory receptor expressed on activated T cells, while its ligand PD-L1 is frequently upregulated on tumor cells and antigen-presenting cells within the tumor microenvironment. Upon engagement of PD-1 by PD-L1, a signaling cascade is initiated involving recruitment of SHP-1 and SHP-2 phosphatases to the intracellular domain of PD-1. These phosphatases dephosphorylate key signaling molecules downstream of the T-cell receptor (TCR), including ZAP70, PI3K, and ERK, thereby attenuating T-cell activation, proliferation, and cytokine production. Specifically, dephosphorylation of ZAP70 reduces downstream signaling through the NFAT, NF-κB, and AP-1 transcription factors, limiting the expression of genes encoding IL-2, TNF-α, and IFN-γ. Blockade of the PD-1/PD-L1 interaction with monoclonal antibodies prevents this inhibitory signaling, allowing for sustained T-cell activation and enhanced cytotoxic activity against tumor cells. Furthermore, PD-1 blockade can reverse T-cell exhaustion, characterized by persistent antigen exposure and epigenetic modifications that silence effector genes. By restoring T-cell functionality and overcoming immune tolerance, PD-1/PD-L1 inhibitors can elicit durable anti-tumor responses in a subset of patients across various cancer types.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of guideline-directed medical therapy (GDMT) for heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "ACE inhibitor or ARNI, beta-blocker, mineralocorticoid receptor antagonist (MRA), and SGLT2 inhibitor.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms through which metformin exerts its hypoglycemic effects in patients with type 2 diabetes?",
+    "answer": "Metformin reduces hepatic glucose production primarily by inhibiting mitochondrial complex I, which increases the AMP/ATP ratio and activates AMP-activated protein kinase (AMPK). AMPK activation suppresses gluconeogenic enzymes such as phosphoenolpyruvate carboxykinase (PEPCK) and glucose-6-phosphatase (G6Pase), leading to decreased hepatic glucose output. Metformin also enhances insulin sensitivity in peripheral tissues such as skeletal muscle by promoting glucose uptake and utilization through GLUT4 translocation. In the intestine, metformin alters the gut microbiome composition and increases GLP-1 secretion, which further contributes to its hypoglycemic effects by stimulating insulin release and suppressing glucagon secretion. The precise molecular mechanisms underlying these effects are still under investigation, but they collectively contribute to improved glycemic control in patients with type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended empiric antibiotic regimen for community-acquired pneumonia (CAP) in an outpatient setting for a patient with no comorbidities?",
+    "answer": "Amoxicillin or doxycycline per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise genome editing in eukaryotic cells?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene editing technology derived from the adaptive immune system of bacteria. It relies on a Cas9 endonuclease guided by a single guide RNA (sgRNA) to introduce a double-stranded break (DSB) at a specific genomic location. The sgRNA consists of a CRISPR RNA (crRNA) sequence, which is complementary to the target DNA sequence, and a trans-activating crRNA (tracrRNA) scaffold that binds to the Cas9 protein. Once the Cas9-sgRNA complex binds to the target DNA, Cas9 introduces a DSB, which is then repaired by one of two major cellular pathways: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is an error-prone process that often leads to small insertions or deletions (indels), resulting in gene disruption. HDR, on the other hand, uses a provided DNA template to repair the DSB, allowing for precise gene editing, including gene insertions, corrections, or replacements. By designing sgRNAs targeting specific genomic sequences, CRISPR-Cas9 can be used to manipulate genes with unprecedented precision, enabling a wide range of applications in basic research, drug discovery, and gene therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps involved in the metastatic cascade that enables cancer cells to disseminate from a primary tumor to distant sites?",
+    "answer": "The metastatic cascade is a multi-step process by which cancer cells disseminate from the primary tumor to form secondary tumors in distant organs. It begins with local invasion, where cancer cells detach from the primary tumor mass and degrade the surrounding extracellular matrix (ECM) through the secretion of proteases such as matrix metalloproteinases (MMPs). Epithelial-mesenchymal transition (EMT) is a critical step that allows epithelial cancer cells to acquire mesenchymal characteristics, enhancing their motility and invasiveness. Circulating tumor cells (CTCs) then enter the bloodstream and evade immune surveillance. CTCs can extravasate from the vasculature and colonize distant organs, a process influenced by the microenvironment of the target organ. Finally, metastatic colonization involves the establishment of a new tumor microenvironment, angiogenesis, and sustained proliferation of the disseminated cancer cells. Each step of the metastatic cascade presents opportunities for therapeutic intervention to prevent or delay the formation of distant metastases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for colonoscopy in average-risk individuals?",
+    "answer": "Every 10 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do chimeric antigen receptor (CAR) T-cell therapies target and eliminate cancer cells?",
+    "answer": "CAR T-cell therapy is a form of immunotherapy that involves genetically engineering a patient's T cells to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain, often derived from a single-chain variable fragment (scFv) of an antibody, linked to intracellular signaling domains that activate T-cell effector functions. When CAR T cells encounter cancer cells expressing the target antigen, the CAR binds to the antigen, triggering T-cell activation, proliferation, and the release of cytotoxic molecules such as perforin and granzymes, which directly kill the cancer cells. CAR T cells can also secrete cytokines such as IFN-γ and TNF-α, which further enhance anti-tumor immunity and recruit other immune cells to the tumor site. The specificity of the CAR allows T cells to selectively target and eliminate cancer cells while sparing normal cells that do not express the target antigen. CAR T-cell therapy has shown remarkable success in treating hematologic malignancies, particularly B-cell lymphomas and acute lymphoblastic leukemia, and is being actively investigated for the treatment of solid tumors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the mainstay of treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis is complex, involving multiple signaling pathways. Amyloid precursor protein (APP) processing leading to amyloid-beta (Aβ) plaque formation is a central feature. Aβ oligomers trigger neuroinflammation, activating microglia and astrocytes, leading to cytokine release (e.g., IL-1β, TNF-α). Tau hyperphosphorylation and neurofibrillary tangle formation disrupt microtubule function and axonal transport. Insulin signaling dysregulation contributes to Aβ accumulation and tau phosphorylation. Oxidative stress and mitochondrial dysfunction exacerbate neuronal damage. Calcium dysregulation impairs synaptic plasticity and neuronal survival. These pathways interact, creating a cascade of events leading to synaptic dysfunction, neuronal loss, and cognitive decline.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis?",
+    "answer": "Fluoroquinolone or trimethoprim-sulfamethoxazole if local resistance rates are low.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment contribute to resistance to chemotherapy?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in mediating resistance to chemotherapy through multiple mechanisms. Cancer-associated fibroblasts (CAFs) secrete extracellular matrix (ECM) components, such as collagen and fibronectin, creating a physical barrier that limits drug penetration into the tumor core. Hypoxia within the TME activates hypoxia-inducible factor-1α (HIF-1α), which upregulates the expression of genes involved in angiogenesis, cell survival, and drug efflux transporters, such as P-glycoprotein (MDR1), reducing intracellular drug concentrations. Immune cells, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), secrete cytokines and growth factors that promote tumor cell survival and proliferation, while also suppressing anti-tumor immune responses. Cancer stem cells (CSCs) within the TME exhibit increased resistance to chemotherapy due to their quiescence, enhanced DNA repair capacity, and expression of drug efflux transporters. The TME also promotes epithelial-mesenchymal transition (EMT), which confers chemoresistance by altering cellular morphology and increasing cell motility. Targeting the TME is an emerging strategy to overcome chemoresistance and improve treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical first-line treatment for seasonal allergic rhinitis?",
+    "answer": "Intranasal corticosteroids or antihistamines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression and contribute to cancer development?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, alter gene expression without changing the underlying DNA sequence. DNA methylation, typically at CpG islands, often leads to gene silencing by recruiting methyl-binding proteins and histone deacetylases. Histone modifications, such as acetylation and methylation, affect chromatin structure and accessibility, influencing gene transcription. Histone acetylation generally promotes gene expression, while histone methylation can either activate or repress transcription depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by binding to mRNA targets and inhibiting translation or promoting mRNA degradation. In cancer, epigenetic modifications can dysregulate gene expression, leading to aberrant activation of oncogenes or silencing of tumor suppressor genes. For example, hypermethylation of promoter regions can silence tumor suppressor genes, while hypomethylation can activate oncogenes. Epigenetic modifications are reversible and can be targeted by epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, offering potential therapeutic strategies for cancer treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient diagnosed with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors differ from traditional chemotherapy in its mechanism of action and potential for long-term benefits?",
+    "answer": "Traditional chemotherapy targets rapidly dividing cells, including cancer cells, but also affects healthy cells, leading to significant side effects. It directly induces DNA damage or disrupts cell division, leading to cell death. However, cancer cells can develop resistance mechanisms, and chemotherapy often fails to eliminate cancer stem cells, resulting in relapse. Immunotherapy with checkpoint inhibitors, such as anti-PD-1 or anti-CTLA-4 antibodies, works by blocking inhibitory signals that prevent T cells from attacking cancer cells. These inhibitors unleash the patient's own immune system to recognize and eliminate cancer cells. Unlike chemotherapy, immunotherapy can induce long-term immunological memory, leading to durable responses and potential for long-term survival in a subset of patients. While immunotherapy can also cause immune-related adverse events, it offers the potential for more targeted and sustained anti-cancer effects compared to traditional chemotherapy. The choice between chemotherapy and immunotherapy depends on the cancer type, stage, patient characteristics, and biomarkers predicting response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a suspected stroke?",
+    "answer": "Rapid neurological assessment and CT scan to rule out hemorrhage.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance in bacteria arises through several key mechanisms. Enzymatic inactivation of antibiotics involves bacterial enzymes that modify or degrade the antibiotic molecule, preventing it from binding to its target. Target modification alters the structure of the bacterial target site, reducing the affinity of the antibiotic. Efflux pumps actively transport antibiotics out of the bacterial cell, lowering intracellular drug concentrations. Reduced permeability decreases the uptake of antibiotics into the bacterial cell. Horizontal gene transfer allows bacteria to acquire resistance genes from other bacteria through mechanisms such as conjugation, transduction, and transformation. These mechanisms can be mediated by plasmids, transposons, and integrons, facilitating the rapid spread of antibiotic resistance genes among bacterial populations. Understanding these mechanisms is crucial for developing strategies to combat antibiotic resistance and preserve the effectiveness of antimicrobial agents.",
+    "persona": "Researcher"
+  }
+]

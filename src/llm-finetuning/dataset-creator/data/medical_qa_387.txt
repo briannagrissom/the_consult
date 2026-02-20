@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Administer atropine intravenously and consider transcutaneous pacing if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 mediated gene editing achieve targeted DNA modification in eukaryotic cells?",
+    "answer": "CRISPR-Cas9 achieves targeted DNA modification through the formation of a complex between the Cas9 endonuclease and a guide RNA (gRNA). The gRNA, typically around 20 nucleotides in length, is designed to be complementary to a specific DNA sequence within the target gene. This gRNA-Cas9 complex scans the genome until it encounters a region matching the gRNA sequence, adjacent to a Protospacer Adjacent Motif (PAM), which is typically NGG. Once bound, Cas9 introduces a double-stranded break (DSB) in the DNA. The cell then attempts to repair this break via two primary mechanisms: Non-Homologous End Joining (NHEJ) or Homology-Directed Repair (HDR). NHEJ is an error-prone process that often leads to small insertions or deletions (indels), effectively disrupting the gene. HDR utilizes a provided DNA template with homology to the target site, allowing for precise gene editing by incorporating the provided template during repair. The efficiency and specificity of CRISPR-Cas9 can be influenced by factors such as gRNA design, Cas9 variant used, and the cellular context.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer in women aged 30-65?",
+    "answer": "Screen with a Pap test every 3 years, or with high-risk HPV testing every 5 years, or co-testing (Pap test and HPV test) every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves a complex interplay of several signaling pathways centered on amyloid-beta (Aβ) plaques and tau neurofibrillary tangles. Aβ accumulation triggers multiple downstream cascades, including activation of the c-Jun N-terminal kinase (JNK) pathway, leading to synaptic dysfunction and neuronal apoptosis. Increased intracellular calcium levels, induced by Aβ oligomers, activate calcium-dependent proteases such as calpains, further contributing to tau hyperphosphorylation and neuronal damage. The activation of glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) also plays a crucial role in tau phosphorylation and aggregation. Furthermore, inflammatory signaling through microglia and astrocytes, mediated by pathways such as NF-κB and inflammasome activation, exacerbates neuronal injury. Reduced insulin signaling, often observed in AD brains, impacts glucose metabolism and exacerbates Aβ accumulation and tau phosphorylation. Crosstalk between these pathways amplifies the neurodegenerative process, making them potential targets for therapeutic intervention.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Prescribe nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days, depending on local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Immune checkpoint inhibitors, such as anti-PD-1 or anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally prevent T-cell activation and effector function. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) is expressed on T cells and competes with CD28 for binding to B7 ligands on antigen-presenting cells (APCs). Blocking CTLA-4 promotes T-cell activation and proliferation. Programmed cell death protein 1 (PD-1) is expressed on T cells and binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells. This interaction delivers an inhibitory signal that suppresses T-cell cytotoxicity. Anti-PD-1/PD-L1 antibodies block this interaction, reinvigorating T-cell activity and allowing them to effectively target and eliminate tumor cells. Furthermore, checkpoint inhibitors can reverse T-cell exhaustion and promote the generation of long-term memory T cells, leading to durable anti-tumor responses in some patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological treatment for type 2 diabetes mellitus?",
+    "answer": "Initiate metformin unless contraindicated, along with lifestyle modifications per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade host immune responses?",
+    "answer": "Viruses employ diverse mechanisms to evade host immune responses at both the innate and adaptive levels. To evade innate immunity, many viruses encode proteins that interfere with interferon (IFN) signaling, either by blocking IFN production or by inhibiting the downstream effects of IFN-stimulated genes (ISGs). Some viruses also encode proteins that inhibit the activation of pattern recognition receptors (PRRs) such as TLRs and RIG-I, preventing the induction of antiviral cytokines. At the adaptive immune level, viruses can downregulate MHC class I expression on infected cells, hindering recognition by cytotoxic T lymphocytes (CTLs). Some viruses induce T-cell exhaustion by upregulating inhibitory receptors such as PD-1 and CTLA-4. Additionally, viruses can undergo rapid antigenic variation through mutation or recombination, allowing them to escape antibody recognition. Certain viruses also establish latency, remaining dormant within host cells and evading immune surveillance until reactivation. Finally, some viruses directly infect and impair immune cells, such as HIV's infection of CD4+ T cells, leading to immunosuppression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Prescribe a macrolide (azithromycin or clarithromycin) or doxycycline, or a respiratory fluoroquinolone if comorbidities are present per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression in cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in regulating gene expression in cancer. DNA methylation, primarily at cytosine-guanine dinucleotides (CpGs), typically leads to gene silencing by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs). In cancer, aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor genes and hypomethylation of oncogenes, contribute to tumorigenesis. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and regulate gene transcription. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin, while histone deacetylation, mediated by HDACs, leads to gene repression. Histone methylation can either activate or repress gene expression depending on the specific residue modified and the methyltransferase involved. Aberrant histone modifications in cancer cells can disrupt normal gene regulatory networks, leading to uncontrolled cell growth and proliferation. Furthermore, non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by targeting mRNAs for degradation or translational repression, and their dysregulation also contributes to cancer development.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for an acute migraine headache?",
+    "answer": "Administer a triptan (e.g., sumatriptan) or a nonsteroidal anti-inflammatory drug (NSAID) such as ibuprofen or naproxen.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating host immunity?",
+    "answer": "The gut microbiome plays a crucial role in modulating host immunity through a complex interplay of mechanisms. Commensal bacteria produce metabolites such as short-chain fatty acids (SCFAs), including acetate, propionate, and butyrate, which exert anti-inflammatory effects by inhibiting histone deacetylases (HDACs) and activating G protein-coupled receptors (GPCRs) on immune cells. Certain gut bacteria, such as segmented filamentous bacteria (SFB), can enhance Th17 cell responses, which are important for defense against extracellular pathogens. The gut microbiome also influences the development and function of regulatory T cells (Tregs), which maintain immune homeostasis and prevent autoimmunity. Dysbiosis, an imbalance in the gut microbiome, can disrupt these regulatory mechanisms and contribute to chronic inflammatory diseases. Furthermore, the gut microbiome interacts with the gut-associated lymphoid tissue (GALT), including Peyer's patches and isolated lymphoid follicles, to shape the development and function of the mucosal immune system. The transfer of gut microbiota from healthy individuals to those with immune disorders, known as fecal microbiota transplantation (FMT), has shown promise in treating conditions such as inflammatory bowel disease (IBD) and recurrent Clostridium difficile infection.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient with atrial fibrillation with rapid ventricular rate?",
+    "answer": "Administer intravenous beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem) to control the heart rate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells acquire resistance to chemotherapy drugs?",
+    "answer": "Cancer cells acquire resistance to chemotherapy drugs through diverse mechanisms. These mechanisms can be broadly categorized into: increased drug efflux, altered drug metabolism, DNA repair enhancement, target alteration, cell death inhibition, and epithelial-mesenchymal transition (EMT). Increased drug efflux is often mediated by overexpression of ATP-binding cassette (ABC) transporters, such as P-glycoprotein (MDR1), which pump drugs out of the cells. Altered drug metabolism involves increased detoxification of the drug or decreased activation of prodrugs. Enhanced DNA repair mechanisms allow cancer cells to repair DNA damage induced by chemotherapy, reducing its effectiveness. Target alteration involves mutations in the drug target that reduce drug binding affinity. Inhibition of cell death pathways, such as apoptosis, allows cancer cells to survive drug-induced stress. EMT promotes drug resistance by altering cell morphology and increasing cell motility. Furthermore, cancer stem cells (CSCs) are often resistant to chemotherapy and can contribute to tumor recurrence. The development of drug resistance is often multifactorial, involving the combination of several of these mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial sinusitis?",
+    "answer": "Recommend observation for 7-10 days for mild symptoms or prescribe amoxicillin-clavulanate if symptoms are severe or persistent.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between innate and adaptive immunity?",
+    "answer": "Innate immunity is the first line of defense against pathogens, providing immediate but non-specific responses. It relies on pre-existing mechanisms, such as physical barriers (skin, mucous membranes), phagocytic cells (macrophages, neutrophils), natural killer (NK) cells, and the complement system. Innate immune cells recognize conserved pathogen-associated molecular patterns (PAMPs) through pattern recognition receptors (PRRs), triggering inflammatory responses and the recruitment of other immune cells. Adaptive immunity, on the other hand, is a slower but highly specific response that develops over time. It involves the activation of lymphocytes (T cells and B cells), which recognize specific antigens through antigen receptors. T cells mediate cellular immunity by directly killing infected cells or activating other immune cells, while B cells mediate humoral immunity by producing antibodies that neutralize pathogens or mark them for destruction. Adaptive immunity also generates immunological memory, allowing for a faster and more effective response upon subsequent encounters with the same antigen. Unlike innate immunity, adaptive immunity exhibits diversity, specificity, and self/non-self discrimination.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate management of a patient with a first-time seizure?",
+    "answer": "Obtain a detailed history and perform a neurological examination; order an EEG and brain imaging (MRI or CT) to identify the cause.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of action of commonly used immunosuppressant drugs?",
+    "answer": "Commonly used immunosuppressant drugs act through diverse mechanisms to suppress immune responses. Calcineurin inhibitors, such as cyclosporine and tacrolimus, inhibit T-cell activation by blocking the calcineurin-dependent signaling pathway, which is essential for the production of interleukin-2 (IL-2). mTOR inhibitors, such as sirolimus and everolimus, block the mammalian target of rapamycin (mTOR) pathway, inhibiting T-cell proliferation and activation. Anti-proliferative agents, such as azathioprine and mycophenolate mofetil, interfere with DNA synthesis and replication, inhibiting the proliferation of both T cells and B cells. Corticosteroids, such as prednisone, have broad immunosuppressive effects by inhibiting the production of pro-inflammatory cytokines and suppressing the activity of immune cells. Biologic agents, such as TNF-alpha inhibitors (e.g., infliximab and etanercept) and anti-CD20 antibodies (e.g., rituximab), target specific immune molecules or cells, respectively, to modulate immune responses. These drugs are used in combination to achieve effective immunosuppression while minimizing adverse effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated influenza?",
+    "answer": "Recommend supportive care (rest, fluids, and analgesics) and consider antiviral medication (e.g., oseltamivir) within 48 hours of symptom onset, especially in high-risk patients per CDC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does gene therapy work, and what are its potential applications in treating genetic diseases?",
+    "answer": "Gene therapy involves introducing genetic material into cells to treat or prevent disease. The genetic material can be delivered using viral vectors (e.g., adeno-associated virus (AAV), lentivirus) or non-viral methods (e.g., lipid nanoparticles, electroporation). There are two main approaches to gene therapy: gene addition, where a functional copy of a gene is introduced into cells to compensate for a defective gene, and gene editing, where the defective gene is corrected or disrupted using techniques such as CRISPR-Cas9. Gene therapy has potential applications in treating a wide range of genetic diseases, including cystic fibrosis, spinal muscular atrophy (SMA), hemophilia, and inherited retinal diseases. For example, in SMA, gene therapy delivers a functional copy of the SMN1 gene, which is mutated in affected individuals, improving motor function and survival. In inherited retinal diseases, gene therapy can deliver a functional gene to photoreceptor cells, restoring vision. Gene therapy also holds promise for treating cancer by delivering genes that enhance anti-tumor immunity or directly kill cancer cells. However, gene therapy faces challenges, including vector immunogenicity, off-target effects, and the potential for insertional mutagenesis.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in a healthy adult?",
+    "answer": "Amoxicillin or doxycycline if no comorbidities are present."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level, and what are the major challenges in its clinical application?",
+    "answer": "CRISPR-Cas9 leverages a guide RNA (gRNA) sequence, complementary to a specific DNA target site, to direct the Cas9 endonuclease to that location in the genome. Cas9 then creates a double-stranded break (DSB) at the target site. The cell repairs this break via either non-homologous end joining (NHEJ), which is error-prone and can lead to insertions or deletions (indels) that disrupt gene function, or homology-directed repair (HDR) if a DNA template with homology to the target site is provided, enabling precise gene editing or insertion. Major challenges in clinical application include off-target effects (Cas9 cutting at unintended sites due to partial sequence homology), delivery challenges (getting the CRISPR-Cas9 system into the relevant cells or tissues in vivo), immunogenicity (immune responses against Cas9), and ethical considerations (germline editing, equitable access). Further optimization of Cas9 variants, gRNA design, delivery vectors (e.g., adeno-associated viruses), and safety monitoring are crucial for realizing the full therapeutic potential of CRISPR-Cas9."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE)?",
+    "answer": "According to ACR/EULAR criteria, includes ANA positivity plus weighted criteria across multiple clinical and immunological domains."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and SGLT2 inhibitors in the treatment of type 2 diabetes mellitus.",
+    "answer": "Metformin primarily reduces hepatic glucose production and enhances insulin sensitivity in peripheral tissues (muscle), partially through activation of AMPK. It does not directly stimulate insulin secretion. SGLT2 inhibitors, on the other hand, work independently of insulin by blocking the sodium-glucose co-transporter 2 (SGLT2) in the proximal renal tubule, thus reducing glucose reabsorption and increasing urinary glucose excretion. While metformin's main side effects include gastrointestinal upset and rare risk of lactic acidosis, SGLT2 inhibitors are associated with increased risk of urinary tract infections, mycotic infections, and, rarely, euglycemic diabetic ketoacidosis. Both drugs can be used in combination to achieve better glycemic control through complementary mechanisms."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you initially manage a patient presenting with acute atrial fibrillation with rapid ventricular response?",
+    "answer": "Assess hemodynamic stability. If unstable, perform cardioversion. If stable, consider rate control with beta-blockers or calcium channel blockers."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of PD-1 and PD-L1 in immune checkpoint blockade therapy, and how do these differ across various cancer types?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while PD-L1 (programmed death-ligand 1) is a ligand expressed on tumor cells and antigen-presenting cells. The interaction of PD-1 with PD-L1 suppresses T-cell activation and effector function, allowing tumor cells to evade immune destruction. Immune checkpoint blockade therapy with anti-PD-1 or anti-PD-L1 antibodies disrupts this interaction, restoring T-cell activity against cancer cells. The effectiveness of these therapies varies across cancer types, largely dependent on the pre-existing tumor microenvironment. Tumors with high PD-L1 expression, high tumor mutational burden, and abundant tumor-infiltrating lymphocytes (TILs) tend to respond better to PD-1/PD-L1 blockade. However, even in PD-L1 negative tumors, response can occur if other immune-stimulatory signals are present or if the tumor exhibits alternative mechanisms of immune evasion. Some cancers, such as melanoma and non-small cell lung cancer, have shown relatively high response rates, while others like pancreatic cancer are often resistant due to immunosuppressive factors within the tumor microenvironment. Biomarkers beyond PD-L1 expression are being explored to better predict response and guide patient selection."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated urinary tract infection in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole (TMP-SMX) depending on local resistance patterns."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination repair (HRR) of double-strand DNA breaks. Mutations in these genes lead to a deficiency in HRR, causing genomic instability and increased susceptibility to DNA damage. Cells with impaired HRR are more likely to accumulate mutations that can drive malignant transformation. The risk of breast and ovarian cancer is significantly elevated in individuals with BRCA1/2 mutations due to the critical role of these genes in maintaining genomic integrity in breast and ovarian tissues. Furthermore, BRCA1/2 deficient tumors often exhibit sensitivity to PARP inhibitors, which block an alternative DNA repair pathway (base excision repair), leading to synthetic lethality in cells with compromised HRR. The specific mutations within BRCA1/2 can also affect cancer risk and response to therapy."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient experiencing a first-time seizure?",
+    "answer": "Assess airway, breathing, and circulation. Rule out reversible causes. Consider imaging and EEG. Antiepileptic drug initiation depends on recurrence risk."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between adoptive cell transfer (ACT) therapies such as CAR-T cells and tumor-infiltrating lymphocytes (TILs) in cancer immunotherapy?",
+    "answer": "Both CAR-T cell therapy and TIL therapy are forms of ACT, but they differ substantially in their source of immune cells, target specificity, and manufacturing processes. CAR-T cells are engineered T cells, typically derived from a patient's own blood, that are genetically modified to express a chimeric antigen receptor (CAR). This CAR recognizes a specific antigen on tumor cells (e.g., CD19 in B-cell lymphomas), allowing the CAR-T cells to directly target and kill the cancer cells, independent of MHC presentation. TIL therapy, on the other hand, involves isolating T cells that have naturally infiltrated a patient's tumor. These TILs are expanded ex vivo and then infused back into the patient, often after lymphodepletion to enhance their engraftment and antitumor activity. TIL therapy relies on the pre-existing repertoire of T cells that recognize tumor-associated antigens presented via MHC molecules. CAR-T cell therapy is currently approved for certain hematologic malignancies, while TIL therapy has shown promise in solid tumors like melanoma. CAR-T cells offer the advantage of targeting specific, well-defined tumor antigens, but they can also be associated with toxicities like cytokine release syndrome (CRS) and neurotoxicity. TIL therapy utilizes the patient's own immune system to target a broader range of tumor antigens, potentially leading to more durable responses in some cases."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other accepted screening modalities per USPSTF guidelines."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the host's response to cancer chemotherapy. Certain gut bacteria can metabolize chemotherapeutic drugs, either activating them to enhance their cytotoxic effects or inactivating them to reduce their efficacy. For example, some bacteria can convert irinotecan, a chemotherapy drug used to treat colorectal cancer, into its active metabolite SN-38, while others can inactivate SN-38, leading to variations in drug response. The microbiome can also influence chemotherapy-induced toxicity. Disruption of the gut microbiota by chemotherapy can lead to increased intestinal permeability, inflammation, and translocation of bacteria or bacterial products into the bloodstream, contributing to side effects like mucositis, diarrhea, and neutropenia. Conversely, some bacteria can produce metabolites like short-chain fatty acids (SCFAs), such as butyrate, which have anti-inflammatory effects and can protect the gut lining from chemotherapy-induced damage. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) or the use of probiotics/prebiotics, are being explored to improve the efficacy and reduce the toxicity of cancer chemotherapy."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a patient presenting with acute stroke symptoms?",
+    "answer": "Rapid assessment, NIHSS score, rule out hypoglycemia, emergent neuroimaging (CT or MRI), and consider thrombolysis if eligible."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms through which chronic inflammation contributes to the development and progression of atherosclerosis?",
+    "answer": "Chronic inflammation plays a central role in the initiation and progression of atherosclerosis. Elevated levels of inflammatory cytokines, such as TNF-α, IL-1β, and IL-6, promote endothelial dysfunction, increasing the permeability of the endothelium to lipoproteins, particularly LDL cholesterol. Modified LDL (e.g., oxidized LDL) accumulates in the subendothelial space, triggering an inflammatory response that recruits monocytes and other immune cells to the site. These monocytes differentiate into macrophages, which engulf the modified LDL, becoming foam cells, a hallmark of early atherosclerotic lesions. Macrophages also release inflammatory mediators that further amplify the inflammatory response and promote the recruitment of more immune cells. Over time, the continued accumulation of foam cells, along with extracellular matrix deposition and smooth muscle cell proliferation, leads to the formation of atherosclerotic plaques. The inflammatory environment within the plaque also contributes to plaque instability, increasing the risk of plaque rupture and subsequent thrombotic events, such as myocardial infarction or stroke. Targeting inflammatory pathways is a promising approach for preventing and treating atherosclerosis."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated diverticulitis?",
+    "answer": "Oral antibiotics and supportive care for mild cases. IV antibiotics and hospitalization for severe cases or complications."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression in cancer cells?",
+    "answer": "Non-coding RNAs (ncRNAs) play critical roles in regulating gene expression at multiple levels in cancer cells. MicroRNAs (miRNAs) are small (approximately 22 nucleotide) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. By targeting multiple mRNAs involved in various cellular processes, miRNAs can act as oncogenes or tumor suppressors, depending on their specific targets. Long non-coding RNAs (lncRNAs) are longer (>200 nucleotides) ncRNAs that do not encode proteins but can regulate gene expression through diverse mechanisms. LncRNAs can act as scaffolds, bringing together proteins involved in chromatin modification or transcription regulation to specific genomic loci. They can also act as decoys, sequestering transcription factors or miRNAs, or as guides, directing proteins to specific DNA sequences. LncRNAs are involved in regulating various aspects of cancer biology, including cell proliferation, apoptosis, metastasis, and drug resistance. The dysregulation of miRNAs and lncRNAs is a common feature of cancer cells, and these ncRNAs represent potential therapeutic targets and biomarkers for cancer diagnosis and prognosis."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment approach for a patient diagnosed with early-stage Hodgkin lymphoma?",
+    "answer": "Combination chemotherapy (e.g., ABVD) with or without radiation therapy, depending on stage and risk factors."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of antibiotic resistance in bacteria, and how do they contribute to the spread of resistant strains?",
+    "answer": "Bacteria have evolved diverse mechanisms to resist the effects of antibiotics, leading to the emergence and spread of antibiotic-resistant strains. These mechanisms include: 1) Enzymatic inactivation of antibiotics, such as beta-lactamases that hydrolyze beta-lactam antibiotics like penicillin and cephalosporins; 2) Alteration of the antibiotic target, such as mutations in ribosomal RNA that prevent antibiotics like macrolides and aminoglycosides from binding; 3) Decreased antibiotic uptake, such as mutations in porin channels that reduce the entry of antibiotics into the bacterial cell; 4) Increased antibiotic efflux, through the action of efflux pumps that actively pump antibiotics out of the cell. These resistance mechanisms can be encoded on bacterial chromosomes or on mobile genetic elements like plasmids and transposons. The horizontal transfer of these mobile genetic elements between bacteria, even across species, is a major driver of the spread of antibiotic resistance. Selection pressure from antibiotic use further promotes the survival and proliferation of resistant strains, leading to the replacement of susceptible strains with resistant ones. Strategies to combat antibiotic resistance include developing new antibiotics, implementing antibiotic stewardship programs, and preventing the spread of resistant strains through infection control measures."
+    ,
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with acute gout flare?",
+    "answer": "NSAIDs, colchicine, or corticosteroids, depending on comorbidities and contraindications."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, contribute to the development of neurodegenerative diseases like Alzheimer's disease and Parkinson's disease?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a significant role in regulating gene expression and can contribute to the development of neurodegenerative diseases. DNA methylation, the addition of a methyl group to cytosine bases in DNA, can silence gene expression by preventing transcription factor binding. Aberrant DNA methylation patterns have been observed in the brains of patients with Alzheimer's disease (AD) and Parkinson's disease (PD), leading to altered expression of genes involved in neuronal survival, synaptic function, and inflammation. Histone modifications, such as acetylation and methylation, can alter the structure of chromatin, affecting gene accessibility and transcription. Changes in histone acetylation and methylation patterns have been linked to AD and PD, influencing the expression of genes involved in neuronal development, stress response, and protein degradation. Epigenetic modifications can be influenced by environmental factors, such as diet and exposure to toxins, suggesting a potential role for environmental factors in the etiology of neurodegenerative diseases. Targeting epigenetic mechanisms is an area of active research for the development of new therapies for AD and PD."
+    ,
+    "persona": "Researcher"
+  }
+]

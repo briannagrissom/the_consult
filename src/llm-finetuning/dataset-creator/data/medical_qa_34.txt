@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Administer atropine intravenously; consider transcutaneous pacing if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR signaling pathway contribute to the development of resistance to tyrosine kinase inhibitors in non-small cell lung cancer?",
+    "answer": "Activating mutations in EGFR, such as exon 19 deletions or the L858R point mutation, initially sensitize NSCLC cells to EGFR-TKIs like gefitinib and erlotinib. However, acquired resistance frequently emerges through several mechanisms. The most common is the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. Other mechanisms include bypass signaling through MET amplification, activation of PI3K/AKT pathways, or histologic transformation to small cell lung cancer. Some cells develop EGFR-independent resistance via epithelial-mesenchymal transition (EMT) or upregulation of receptor tyrosine kinases like AXL. These changes restore proliferation and survival signaling despite continuous EGFR inhibition, leading to disease progression. Third-generation TKIs like osimertinib were developed to overcome T790M-mediated resistance, but further mutations (e.g., C797S) can eventually limit their effectiveness as well. Combinatorial strategies targeting multiple resistance mechanisms are under investigation to improve long-term outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the typical laboratory findings in a patient with new-onset type 1 diabetes?",
+    "answer": "Elevated blood glucose, positive autoantibodies (e.g., anti-GAD, anti-IA2), and possible ketonemia/ketonuria.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is the development of broadly neutralizing antibodies (bnAbs) against HIV-1 so challenging, and what strategies are being pursued to elicit them through vaccination?",
+    "answer": "Eliciting bnAbs against HIV-1 is difficult because the virus exhibits extensive genetic diversity, rapid mutation rates, and glycan shielding of its envelope protein, which limits antibody access to conserved epitopes. The variable loops on the envelope spike are hypervariable, and the dense glycan shield masks underlying protein sequences from immune recognition. Furthermore, HIV actively suppresses B-cell responses and drives the development of non-neutralizing antibodies that can interfere with bnAb maturation. Current vaccine strategies focus on sequential immunization with engineered envelope glycoproteins to guide B-cell development toward bnAb lineages. Germline-targeting immunogens are designed to bind to and activate naïve B cells expressing precursors to known bnAbs. Subsequent boosts with stabilized envelope trimers and modified mRNA vaccines aim to drive affinity maturation and somatic hypermutation to generate potent, broadly reactive antibodies. Other approaches involve prime-boost regimens with viral vectors or DNA vaccines expressing conserved HIV antigens, combined with adjuvants to enhance immune responses. The goal is to overcome tolerance and immunodominance issues and induce B-cell lineages capable of recognizing diverse HIV-1 strains.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer in women aged 30-65?",
+    "answer": "Screen every 3-5 years with cytology and HPV co-testing per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer immunotherapies, and what interventions are being explored to optimize these effects?",
+    "answer": "The gut microbiome profoundly impacts the response to immune checkpoint inhibitors (ICIs) like anti-PD-1 and anti-CTLA-4 antibodies. Specific bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved ICI efficacy in melanoma and lung cancer patients. These bacteria can enhance anti-tumor immunity by modulating dendritic cell function, promoting T-cell infiltration into the tumor microenvironment, and producing metabolites like short-chain fatty acids (SCFAs) that regulate immune cell activity. Conversely, dysbiosis and the presence of certain bacteria (e.g., Bacteroides fragilis) have been linked to ICI resistance and immune-related adverse events (irAEs) such as colitis. The mechanisms underlying these effects involve the modulation of systemic inflammation, alteration of gut barrier integrity, and the production of bacterial metabolites that influence immune cell differentiation and activation. Interventions to optimize the gut microbiome for ICI therapy include fecal microbiota transplantation (FMT) from responders to non-responders, dietary modifications to promote beneficial bacterial growth, and the use of prebiotics and probiotics to modulate gut composition. Clinical trials are ongoing to evaluate the safety and efficacy of these approaches in improving ICI outcomes and reducing irAEs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient diagnosed with community-acquired pneumonia?",
+    "answer": "Administer empiric antibiotics such as macrolides or doxycycline; consider beta-lactam plus macrolide for comorbidities per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms underlying the pathogenesis of Alzheimer's disease, and how do these mechanisms contribute to neuronal dysfunction and cognitive decline?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves complex interactions between amyloid-beta (Aβ) plaques, tau neurofibrillary tangles, neuroinflammation, and synaptic dysfunction. Aβ plaques are formed by the aggregation of Aβ peptides, derived from amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. These plaques trigger neuroinflammation, activate microglia and astrocytes, and induce oxidative stress, leading to neuronal damage. Tau hyperphosphorylation causes tau protein to misfold and aggregate into neurofibrillary tangles, disrupting microtubule function and axonal transport. Synaptic dysfunction, characterized by loss of synapses and impaired neurotransmission, is an early event in AD pathogenesis. Aβ oligomers can directly disrupt synaptic plasticity and impair long-term potentiation. Genetic factors, such as mutations in APP, PSEN1, and PSEN2, increase Aβ production and promote plaque formation. ApoE4, a major genetic risk factor, impairs Aβ clearance and exacerbates neuroinflammation. Therapeutic strategies targeting Aβ production, tau aggregation, and neuroinflammation are being developed to slow disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with an acute asthma exacerbation?",
+    "answer": "Administer inhaled short-acting beta-agonists and systemic corticosteroids per NHLBI guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, contribute to the development and progression of cancer, and what therapeutic strategies target these modifications?",
+    "answer": "Epigenetic modifications play a crucial role in cancer development by altering gene expression without changing the DNA sequence. DNA methylation, particularly at CpG islands in promoter regions, silences tumor suppressor genes and contributes to genomic instability. Histone modifications, such as acetylation and methylation, regulate chromatin structure and accessibility, influencing gene transcription. Aberrant histone modifications can activate oncogenes or repress tumor suppressor genes. In cancer cells, DNA methylation patterns are often globally hypomethylated, leading to genomic instability, while specific tumor suppressor genes are hypermethylated. Histone deacetylases (HDACs) remove acetyl groups from histones, leading to chromatin condensation and gene repression. DNA methyltransferases (DNMTs) catalyze DNA methylation. Therapeutic strategies targeting epigenetic modifications include DNMT inhibitors (e.g., azacitidine and decitabine) and HDAC inhibitors (e.g., vorinostat and romidepsin). These drugs can reactivate silenced tumor suppressor genes, induce cell differentiation, and enhance sensitivity to chemotherapy. Combination therapies targeting both epigenetic modifications and oncogenic pathways are being explored to improve cancer treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, fever, nausea, and vomiting.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication within the tumor microenvironment, and how can exosomes be exploited for cancer diagnostics and therapeutics?",
+    "answer": "Exosomes are small extracellular vesicles secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA) to recipient cells. Within the tumor microenvironment, exosomes play a critical role in promoting tumor growth, angiogenesis, immune evasion, and metastasis. Tumor-derived exosomes can deliver oncogenic proteins and microRNAs to neighboring cells, enhancing their proliferation and survival. They can also modulate immune cell function, suppressing T-cell activity and promoting regulatory T-cell expansion. Exosomes facilitate angiogenesis by delivering pro-angiogenic factors to endothelial cells, promoting blood vessel formation. Furthermore, exosomes can transfer drug resistance factors to recipient cells, contributing to therapeutic resistance. Exosomes hold promise for cancer diagnostics as they contain tumor-specific biomarkers that can be detected in blood or other body fluids. Liquid biopsies based on exosomal biomarkers can provide real-time monitoring of disease progression and treatment response. Exosomes can also be engineered to deliver therapeutic agents, such as chemotherapeutic drugs, siRNAs, or CRISPR-Cas9 components, specifically to tumor cells, enhancing treatment efficacy and reducing off-target effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating a patient diagnosed with deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin, followed by warfarin or direct oral anticoagulants (DOACs) per ACCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of atherosclerosis, and what are the key inflammatory mediators involved in this process?",
+    "answer": "Chronic inflammation plays a central role in the initiation and progression of atherosclerosis. Endothelial dysfunction, caused by risk factors such as hypertension, hyperlipidemia, and smoking, leads to increased permeability and accumulation of LDL cholesterol in the arterial wall. Oxidized LDL activates endothelial cells and recruits monocytes, which differentiate into macrophages. These macrophages engulf oxidized LDL, becoming foam cells, a hallmark of early atherosclerotic lesions. Inflammatory mediators, such as TNF-α, IL-1β, and IL-6, produced by macrophages and endothelial cells, promote further inflammation and recruitment of immune cells. T cells, particularly Th1 cells, also contribute to inflammation by producing IFN-γ, which activates macrophages and promotes plaque instability. C-reactive protein (CRP), an acute-phase protein produced by the liver in response to inflammation, is a marker of systemic inflammation and a predictor of cardiovascular events. Chronic inflammation leads to plaque growth, instability, and eventual rupture, resulting in thrombosis and acute cardiovascular events. Therapeutic strategies targeting inflammation, such as statins, which have anti-inflammatory effects, and novel anti-inflammatory drugs, are being developed to reduce the risk of atherosclerosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient experiencing an acute migraine headache?",
+    "answer": "Administer NSAIDs, triptans, or antiemetics; consider CGRP antagonists for refractory cases per AHS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer, and what are the mechanisms by which these mutations impair DNA repair?",
+    "answer": "Mutations in BRCA1 and BRCA2 genes significantly increase the risk of developing breast, ovarian, and other cancers by impairing DNA repair mechanisms, specifically homologous recombination (HR). BRCA1 and BRCA2 proteins play a crucial role in HR, a high-fidelity DNA repair pathway that repairs double-strand breaks (DSBs). BRCA1 forms a complex with other proteins, including BRCA1-associated RING domain 1 (BARD1), which is essential for its function. This complex facilitates the recruitment of DNA repair proteins to DSBs and promotes DNA end resection, an initial step in HR. BRCA2 binds to single-stranded DNA and recruits RAD51, a key protein involved in strand invasion and DNA synthesis during HR. Mutations in BRCA1 or BRCA2 disrupt their ability to repair DSBs accurately, leading to genomic instability and increased susceptibility to cancer. Cells with BRCA1/2 mutations rely on alternative, error-prone DNA repair pathways, such as non-homologous end joining (NHEJ), which can introduce mutations and promote tumor development. Poly(ADP-ribose) polymerase (PARP) inhibitors exploit this DNA repair deficiency by inhibiting PARP, an enzyme involved in single-strand break repair. In BRCA1/2-mutated cells, PARP inhibition leads to the accumulation of DSBs, which cannot be repaired efficiently, resulting in cell death.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with hyperthyroidism?",
+    "answer": "Tachycardia, weight loss, anxiety, heat intolerance, and tremor.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of regulatory T cells (Tregs) in maintaining immune homeostasis and preventing autoimmunity, and how can Tregs be harnessed for therapeutic purposes?",
+    "answer": "Regulatory T cells (Tregs) are a subset of T cells that play a critical role in maintaining immune homeostasis and preventing autoimmunity by suppressing the activation and proliferation of other immune cells. Tregs express the transcription factor Foxp3, which is essential for their development and function. Tregs suppress immune responses through various mechanisms, including the secretion of immunosuppressive cytokines (IL-10, TGF-β), expression of inhibitory receptors (CTLA-4), and metabolic disruption of effector T cells. Tregs can directly suppress T-cell activation by binding to antigen-presenting cells (APCs) and inhibiting their ability to stimulate T cells. They can also suppress dendritic cell maturation and function, reducing their capacity to present antigens to T cells. In autoimmune diseases, Treg function is often impaired, leading to uncontrolled immune responses and tissue damage. Therapeutic strategies aimed at enhancing Treg function include adoptive transfer of ex vivo expanded Tregs, administration of low-dose IL-2 to selectively expand Tregs, and development of small molecules that enhance Treg activity. These approaches hold promise for treating autoimmune diseases, preventing transplant rejection, and controlling inflammatory disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with acute stroke?",
+    "answer": "Administer intravenous thrombolytics within 4.5 hours of symptom onset; consider mechanical thrombectomy for large vessel occlusion per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells evade detection and destruction by the immune system, and what strategies are being developed to overcome these immune evasion mechanisms?",
+    "answer": "Cancer cells employ various mechanisms to evade detection and destruction by the immune system. These include downregulation of MHC class I molecules, which prevents T cells from recognizing tumor-associated antigens; expression of immune checkpoint ligands, such as PD-L1, which inhibit T-cell activation; secretion of immunosuppressive cytokines, such as TGF-β and IL-10, which suppress immune cell function; recruitment of immunosuppressive cells, such as regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs), which suppress anti-tumor immunity; and loss of tumor antigens, which reduces the ability of T cells to recognize tumor cells. Strategies to overcome these immune evasion mechanisms include immune checkpoint inhibitors, which block inhibitory receptors on T cells and enhance their anti-tumor activity; adoptive cell therapy, which involves engineering T cells to recognize and kill tumor cells; oncolytic viruses, which selectively infect and kill cancer cells while stimulating an anti-tumor immune response; and cancer vaccines, which prime the immune system to recognize and attack tumor cells. Combination therapies targeting multiple immune evasion mechanisms are being developed to improve treatment outcomes.",
+    "persona": "Researcher"
+  }
+]

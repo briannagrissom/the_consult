@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers, unless contraindicated; consider electrical cardioversion if unstable or rate control is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology function at the molecular level, and what are the primary factors influencing its specificity and efficiency in mammalian cells?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 endonuclease to create a double-stranded break. Repair mechanisms, either non-homologous end joining (NHEJ) or homology-directed repair (HDR), then modify the gene. Specificity depends on the gRNA sequence and minimal off-target binding. Efficiency is affected by chromatin accessibility, Cas9 concentration, gRNA design, and the chosen DNA repair pathway; modifications like base editing or prime editing enhance precision and reduce off-target effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE) according to the 2019 EULAR/ACR classification criteria?",
+    "answer": "Positive ANA is an entry criterion, followed by additive weighted criteria in clinical and immunological domains; a score of ≥10 classifies as SLE.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapies?",
+    "answer": "The gut microbiome influences immunotherapy responses through various mechanisms. Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, are associated with improved responses to checkpoint inhibitors by enhancing T-cell infiltration and activation. Conversely, dysbiosis and the presence of other bacterial species can promote inflammation and resistance. Specific microbial metabolites like short-chain fatty acids (SCFAs) impact immune cell function and tumor microenvironment modulation. Preclinical studies show fecal microbiota transplantation (FMT) can transfer responsiveness. Furthermore, the microbiome affects the severity of immune-related adverse events (irAEs) induced by immunotherapy, potentially through increased intestinal permeability and systemic inflammation. Modulation of the microbiome via diet, probiotics, or FMT is being investigated to improve immunotherapy outcomes and mitigate toxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial pharmacological treatment for a patient newly diagnosed with type 2 diabetes mellitus?",
+    "answer": "Metformin, unless contraindicated, along with lifestyle modifications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell survival and proliferation, and what are the key regulatory mechanisms involved?",
+    "answer": "The Warburg effect, or aerobic glycolysis, involves cancer cells preferentially utilizing glycolysis over oxidative phosphorylation, even in the presence of oxygen. This metabolic shift allows for rapid ATP production and the generation of biosynthetic precursors necessary for cell growth and proliferation. Key regulatory mechanisms include upregulation of glucose transporters (GLUTs) and glycolytic enzymes like hexokinase 2 (HK2), phosphofructokinase 1 (PFK1), and pyruvate kinase M2 (PKM2). Oncogenes such as MYC and HIF-1α promote glycolysis, while tumor suppressors like p53 can inhibit it. Lactate dehydrogenase A (LDHA) converts pyruvate to lactate, facilitating NAD+ regeneration for continued glycolysis. The Warburg effect supports tumor growth by providing building blocks for biosynthesis, promoting an acidic microenvironment that facilitates metastasis, and evading apoptosis. Inhibiting glycolysis is being explored as a therapeutic strategy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the current recommendation for influenza vaccination in adults with egg allergy?",
+    "answer": "Adults with egg allergy can receive any age-appropriate influenza vaccine; those with severe allergy should be vaccinated in a medical setting.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease, and how do they contribute to neuronal dysfunction and death?",
+    "answer": "Alzheimer's disease pathogenesis involves multiple interconnected signaling pathways. Amyloid-beta (Aβ) accumulation activates pathways like the MAPK/ERK and PI3K/Akt, contributing to synaptic dysfunction and tau phosphorylation. Tau hyperphosphorylation leads to neurofibrillary tangle formation and disrupts microtubule-dependent transport. Calcium dysregulation, oxidative stress, and inflammation further exacerbate neuronal damage. Key signaling molecules like GSK-3β and CDK5 promote tau phosphorylation, while receptor tyrosine kinases modulate Aβ production and clearance. Chronic inflammation activates microglia and astrocytes, releasing cytokines and reactive oxygen species that induce neurotoxicity. These complex interactions ultimately disrupt neuronal function, leading to synaptic loss and cell death.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in cancer, and what are the therapeutic implications?",
+    "answer": "Epigenetic modifications profoundly influence gene expression in cancer. DNA methylation, typically at CpG islands, silences gene transcription, often impacting tumor suppressor genes. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin structure, while histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to chromatin condensation and transcriptional repression. Aberrant methylation and histone modification patterns are common in cancer, contributing to oncogene activation and tumor suppressor gene silencing. Therapeutic strategies targeting epigenetic enzymes, such as HDAC inhibitors and DNA methyltransferase inhibitors (DNMTis), can restore normal gene expression patterns, induce cell cycle arrest, apoptosis, and enhance sensitivity to chemotherapy. These agents show promise in treating various cancers, often in combination with other therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient presenting with a first-time unprovoked seizure?",
+    "answer": "Usually no immediate antiepileptic drug is indicated after a first unprovoked seizure; consider initiation if high risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the development of antibiotic resistance in Staphylococcus aureus, and how can these mechanisms be targeted to restore antibiotic susceptibility?",
+    "answer": "S. aureus develops antibiotic resistance through multiple mechanisms. β-lactam resistance is mediated by β-lactamase enzymes that hydrolyze β-lactam antibiotics. Methicillin resistance is conferred by the mecA gene, encoding a modified penicillin-binding protein (PBP2a) with low affinity for β-lactams. Vancomycin resistance arises through alterations in peptidoglycan synthesis, reducing vancomycin binding. Efflux pumps actively expel antibiotics from the cell, reducing intracellular concentrations. Target modification involves mutations in ribosomal RNA genes, conferring resistance to macrolides and aminoglycosides. Strategies to restore antibiotic susceptibility include β-lactamase inhibitors (e.g., clavulanate), novel β-lactams that bind PBP2a, inhibitors of peptidoglycan synthesis, efflux pump inhibitors, and combination therapies. Understanding resistance mechanisms is crucial for developing new antimicrobials and optimizing existing treatments.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone in average-risk women?",
+    "answer": "Every 3 years for women aged 21-29 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes contribute to intercellular communication in the tumor microenvironment, and what are their roles in cancer metastasis?",
+    "answer": "Exosomes, small extracellular vesicles, mediate intercellular communication within the tumor microenvironment. They carry a variety of cargo, including proteins, nucleic acids (mRNA, microRNA), and lipids, transferring them to recipient cells. In cancer, exosomes promote angiogenesis by delivering pro-angiogenic factors like VEGF. They facilitate immune evasion by carrying immunosuppressive molecules like PD-L1. Exosomes also play a critical role in metastasis by preparing distant sites for tumor cell colonization. They deliver matrix metalloproteinases (MMPs) that degrade the extracellular matrix, promoting invasion. Exosome-mediated transfer of drug resistance factors contributes to chemotherapy resistance. Furthermore, exosomes can educate stromal cells to support tumor growth. Targeting exosome biogenesis or uptake is being explored as a therapeutic strategy to disrupt tumor-stroma interactions and inhibit metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient diagnosed with community-acquired pneumonia, outpatient setting, with no comorbidities?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (if local resistance <25%) per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression in cardiovascular diseases, and what are their potential as therapeutic targets?",
+    "answer": "Non-coding RNAs (ncRNAs) play crucial roles in cardiovascular disease (CVD) by regulating gene expression. MicroRNAs (miRNAs) bind to the 3'UTR of target mRNAs, leading to translational repression or mRNA degradation. Long non-coding RNAs (lncRNAs) regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. In CVD, specific miRNAs regulate processes like cardiomyocyte hypertrophy, fibrosis, and inflammation. For example, miR-21 promotes cardiac fibrosis, while miR-133 protects against hypertrophy. LncRNAs such as MALAT1 and ANRIL are implicated in atherosclerosis and heart failure. Targeting ncRNAs offers therapeutic potential. Anti-miRNAs can inhibit disease-promoting miRNAs, while miRNA mimics can restore levels of protective miRNAs. LncRNA inhibitors or modulators can also be developed. Clinical trials are exploring ncRNA-based therapies for CVD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient with a confirmed diagnosis of Clostridium difficile infection (CDI)?",
+    "answer": "Oral vancomycin or fidaxomicin are first-line; fecal microbiota transplant (FMT) for recurrent CDI.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do alterations in DNA damage response pathways contribute to cancer development and therapeutic resistance, and what strategies can be employed to target these pathways?",
+    "answer": "Alterations in DNA damage response (DDR) pathways are hallmarks of cancer, promoting genomic instability and therapeutic resistance. Mutations in genes like BRCA1/2, ATM, and p53 impair DNA repair mechanisms, leading to increased mutation rates and tumorigenesis. Defective DDR pathways can also confer sensitivity to certain therapies, such as PARP inhibitors in BRCA-mutated cancers. However, cancer cells can develop resistance to DNA-damaging agents by activating alternative repair pathways. Strategies to target DDR pathways include: (1) PARP inhibitors to exploit synthetic lethality in BRCA-mutated cells; (2) ATR/CHK1 inhibitors to block cell cycle checkpoints; (3) DNA-PK inhibitors to impair non-homologous end joining; and (4) radiosensitizers to enhance the effects of radiation therapy. Combining DDR inhibitors with chemotherapy or immunotherapy is being explored to overcome resistance and improve treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with acute gout flare?",
+    "answer": "NSAIDs, colchicine, or corticosteroids are first-line; consider intra-articular corticosteroids for localized flares.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the body's own immune system to fight cancer, and what are the major types of immunotherapeutic approaches currently in clinical use?",
+    "answer": "Immunotherapy leverages the body's immune system to recognize and eliminate cancer cells. It aims to overcome tumor-induced immune suppression and enhance anti-tumor immunity. Major types of immunotherapy include: (1) Checkpoint inhibitors (e.g., anti-PD-1/PD-L1, anti-CTLA-4) block inhibitory signals that prevent T-cell activation; (2) Adoptive cell therapy (e.g., CAR-T cell therapy) involves engineering a patient's T cells to target cancer-specific antigens; (3) Cancer vaccines stimulate an immune response against tumor-associated antigens; (4) Oncolytic viruses selectively infect and lyse cancer cells, while also triggering an immune response; and (5) Cytokines (e.g., IL-2, IFN-α) boost immune cell activity. These approaches can induce durable responses in various cancers, but also carry the risk of immune-related adverse events.",
+    "persona": "Researcher"
+  }
+]

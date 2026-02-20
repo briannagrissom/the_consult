@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers; assess need for anticoagulation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to acquired resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Mutations in the EGFR tyrosine kinase domain, such as T790M, sterically hinder the binding of reversible EGFR inhibitors like erlotinib and gefitinib. The T790M mutation increases the affinity of EGFR for ATP, thus outcompeting the inhibitor. Osimertinib, a third-generation EGFR inhibitor, was designed to overcome T790M resistance by covalently binding to EGFR even in the presence of this mutation, though resistance can still develop through mechanisms such as C797S mutations or MET amplification.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE)?",
+    "answer": "According to ACR/EULAR criteria, need positive ANA plus weighted criteria including clinical and immunological domains.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of gut microbiota in modulating the efficacy and toxicity of cancer immunotherapy?",
+    "answer": "Gut microbiota influence immunotherapy responses through several mechanisms. Certain bacterial species, such as Akkermansia muciniphila, enhance the efficacy of PD-1 blockade by promoting dendritic cell activation and T cell infiltration into the tumor microenvironment. Conversely, dysbiosis or the presence of other bacterial species can lead to systemic inflammation, increased levels of myeloid-derived suppressor cells, and impaired T cell function, thereby diminishing response to immunotherapy and increasing immune-related adverse events like colitis. Specific microbial metabolites, such as short-chain fatty acids, also affect immune cell activity and cytokine production, impacting anti-tumor immunity. Fecal microbiota transplantation studies have demonstrated the causal role of gut bacteria in modulating immunotherapy outcomes [PMID:30201763].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for cervical cancer?",
+    "answer": "For women 21-29, screen with cytology every 3 years. For women 30-65, screen with cytology and HPV co-testing every 5 years or cytology alone every 3 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment contribute to resistance to chemotherapy in pancreatic ductal adenocarcinoma (PDAC)?",
+    "answer": "The dense desmoplastic stroma in PDAC physically hinders drug penetration and creates a hypoxic and nutrient-deprived environment. Cancer-associated fibroblasts (CAFs) secrete extracellular matrix components like collagen and hyaluronan, which increase interstitial fluid pressure and collapse blood vessels, reducing drug delivery. CAFs also secrete growth factors and cytokines that activate survival pathways in cancer cells, protecting them from chemotherapy-induced apoptosis. Additionally, the immunosuppressive microenvironment in PDAC, characterized by myeloid-derived suppressor cells and regulatory T cells, can further dampen the anti-tumor effects of chemotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Outpatient: amoxicillin or doxycycline or macrolide (if local resistance <25%). Inpatient: beta-lactam + macrolide or fluoroquinolone.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease pathogenesis involves complex interactions among amyloid-β plaques, tau tangles, neuroinflammation, and synaptic dysfunction. Amyloid precursor protein (APP) processing by β-secretase and γ-secretase generates amyloid-β peptides, which aggregate into plaques and trigger inflammatory responses mediated by microglia and astrocytes. These inflammatory mediators activate kinases that hyperphosphorylate tau protein, leading to the formation of neurofibrillary tangles. Aberrant activation of GSK-3β and CDK5 kinases are implicated in tau hyperphosphorylation. Synaptic loss is associated with reduced expression of synaptic proteins and dysregulation of synaptic signaling pathways, including those involving NMDA receptors and BDNF. Genetic risk factors like APOE4 modulate amyloid-β clearance and inflammatory responses, further contributing to disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for type 2 diabetes?",
+    "answer": "Lifestyle modifications (diet and exercise) plus metformin, unless contraindicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, alter gene expression patterns without changing the DNA sequence. Aberrant DNA methylation, such as hypermethylation of tumor suppressor gene promoters and hypomethylation of oncogenes, can drive cancer development. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, regulate chromatin structure and accessibility, influencing gene transcription. Dysregulation of histone-modifying enzymes, such as histone deacetylases (HDACs) and histone methyltransferases (HMTs), is frequently observed in cancer. Epigenetic alterations contribute to cancer hallmarks, including sustained proliferative signaling, evasion of growth suppressors, and resistance to cell death. Epigenetic therapies, such as DNA methyltransferase inhibitors and HDAC inhibitors, are used to reverse aberrant epigenetic marks and restore normal gene expression in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevation; rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What mechanisms underlie the development of antibiotic resistance in Staphylococcus aureus?",
+    "answer": "S. aureus develops antibiotic resistance through various mechanisms, including enzymatic inactivation (e.g., beta-lactamases), target modification (e.g., mutations in penicillin-binding proteins), reduced permeability (e.g., altered porin channels), and efflux pumps. Methicillin resistance is mediated by the mecA gene, which encodes PBP2a, a penicillin-binding protein with low affinity for beta-lactam antibiotics. Vancomycin resistance is conferred by the van genes, which alter the structure of peptidoglycan precursors, reducing vancomycin binding. Horizontal gene transfer, including plasmids and transposons, plays a significant role in the spread of antibiotic resistance genes among S. aureus strains.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin x 5 days, trimethoprim-sulfamethoxazole x 3 days (if local resistance <20%), or fosfomycin single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells adapt to hypoxic conditions in the tumor microenvironment?",
+    "answer": "Cancer cells adapt to hypoxia through activation of hypoxia-inducible factors (HIFs), which are transcription factors that regulate the expression of genes involved in angiogenesis, glucose metabolism, and cell survival. HIF-1α is stabilized under hypoxic conditions and forms a heterodimer with HIF-1β, which is constitutively expressed. The HIF-1 complex binds to hypoxia-responsive elements (HREs) in the promoters of target genes, including VEGF, GLUT1, and EPO. VEGF promotes angiogenesis, allowing for the formation of new blood vessels to supply oxygen and nutrients to the tumor. GLUT1 increases glucose uptake and glycolysis, enabling cancer cells to generate ATP in the absence of oxygen. EPO stimulates erythropoiesis, increasing red blood cell production and oxygen carrying capacity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs; consider antiemetics if nausea is present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression in cancer?",
+    "answer": "Non-coding RNAs (ncRNAs) play critical roles in regulating gene expression in cancer. MicroRNAs (miRNAs) are small ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. miRNAs can function as oncogenes or tumor suppressors, depending on their target genes. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through various mechanisms, including chromatin modification, transcriptional regulation, and post-transcriptional processing. LncRNAs can act as scaffolds, guides, or decoys to modulate the activity of protein complexes involved in gene regulation. Dysregulation of miRNAs and lncRNAs is frequently observed in cancer, contributing to cancer hallmarks such as proliferation, metastasis, and drug resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for allergic rhinitis?",
+    "answer": "Intranasal corticosteroids; consider antihistamines for breakthrough symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of immune checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies?",
+    "answer": "Immune checkpoint inhibitors block inhibitory signaling pathways that suppress T cell activation and anti-tumor immunity. CTLA-4 is expressed on T cells and binds to B7 ligands on antigen-presenting cells (APCs), inhibiting T cell activation. Anti-CTLA-4 antibodies block the interaction between CTLA-4 and B7, enhancing T cell activation and proliferation. PD-1 is expressed on T cells and binds to PD-L1 and PD-L2 on tumor cells and APCs, inhibiting T cell effector function. Anti-PD-1 antibodies block the interaction between PD-1 and PD-L1/PD-L2, restoring T cell activity and promoting tumor cell killing. Combination therapy with anti-CTLA-4 and anti-PD-1 antibodies can synergistically enhance anti-tumor immunity but is also associated with increased immune-related adverse events.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for iron deficiency anemia?",
+    "answer": "Oral iron supplementation; address underlying cause of iron deficiency.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to cancer metastasis?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream. CTCs can survive in the circulation, evade immune surveillance, and extravasate into distant organs, where they can seed the formation of metastases. CTCs undergo epithelial-mesenchymal transition (EMT), which promotes cell motility and invasiveness. CTCs can also form clusters, which enhance their survival and metastatic potential. CTCs can be used as biomarkers to monitor disease progression, predict treatment response, and detect minimal residual disease.",
+    "persona": "Researcher"
+  }
+]

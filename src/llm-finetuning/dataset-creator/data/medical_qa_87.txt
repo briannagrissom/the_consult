@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically first-line, followed by assessment for cardioversion depending on symptom severity and duration.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis enhance anti-tumor immunity at the molecular level?",
+    "answer": "The interaction between programmed cell death protein 1 (PD-1) on T cells and its ligand PD-L1 on tumor cells or antigen-presenting cells delivers an inhibitory signal that dampens T cell activation, proliferation, and effector function within the tumor microenvironment. PD-1 engagement recruits phosphatases such as SHP-1 and SHP-2 to the T cell receptor (TCR) signaling complex, which dephosphorylates key signaling molecules like ZAP70, reducing downstream activation of pathways including PI3K/AKT, MAPK/ERK, and NF-κB. This results in decreased production of cytokines such as IFN-γ, TNF-α, and IL-2, limiting T cell-mediated cytotoxicity and promoting T cell exhaustion. Furthermore, PD-1 signaling can inhibit glycolysis and mitochondrial respiration, impairing the metabolic fitness of T cells within the nutrient-deprived tumor microenvironment. Blocking the PD-1/PD-L1 interaction with monoclonal antibodies prevents this inhibitory signaling, restoring T cell activation, cytokine production, and cytotoxic potential. This allows T cells to more effectively recognize and eliminate tumor cells expressing cognate antigens. Moreover, PD-1 blockade can reverse T cell exhaustion, leading to a more sustained anti-tumor immune response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the typical components of guideline-directed medical therapy for heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "ACE inhibitors/ARBs/ARNIs, beta-blockers, mineralocorticoid receptor antagonists (MRAs), and SGLT2 inhibitors are the mainstays, titrated to maximally tolerated doses.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which metformin exerts its anti-hyperglycemic effects in type 2 diabetes?",
+    "answer": "Metformin, a biguanide, reduces hepatic glucose production primarily by inhibiting gluconeogenesis. This effect involves activation of AMP-activated protein kinase (AMPK), a cellular energy sensor that promotes glucose uptake and fatty acid oxidation while suppressing hepatic glucose output. Specifically, AMPK phosphorylates and inhibits key gluconeogenic enzymes such as fructose-1,6-bisphosphatase and phosphoenolpyruvate carboxykinase (PEPCK). Additionally, metformin enhances insulin sensitivity in peripheral tissues, including skeletal muscle and adipose tissue, leading to increased glucose uptake and utilization. This effect is also partly mediated by AMPK activation, which promotes translocation of GLUT4 glucose transporters to the cell membrane. Furthermore, metformin may reduce glucose absorption in the intestine and modulates the gut microbiome, contributing to its overall anti-hyperglycemic activity. Emerging evidence suggests that metformin can also directly inhibit mitochondrial complex I, leading to a mild reduction in ATP production and subsequent AMPK activation. The precise contribution of each of these mechanisms to metformin's overall efficacy remains an area of active investigation, but the combination of reduced hepatic glucose production and enhanced insulin sensitivity underlies its clinical effectiveness in type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a premenopausal woman?",
+    "answer": "Nitrofurantoin for 5 days or TMP-SMX for 3 days are common first-line options, depending on local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR-targeted therapies in non-small cell lung cancer (NSCLC)?",
+    "answer": "Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) such as gefitinib, erlotinib, and osimertinib are highly effective in NSCLC patients harboring activating EGFR mutations, such as exon 19 deletions or the L858R substitution. However, acquired resistance inevitably develops, most commonly due to the emergence of secondary mutations within the EGFR kinase domain. The most prevalent resistance mechanism is the T790M mutation in exon 20, which sterically hinders the binding of first- and second-generation EGFR TKIs. Osimertinib, a third-generation TKI, was designed to overcome T790M-mediated resistance and is now the preferred first-line treatment for EGFR-mutant NSCLC. However, resistance to osimertinib can also occur through various mechanisms, including the C797S mutation in exon 20, which prevents covalent binding of osimertinib to EGFR. Other resistance mechanisms include bypass pathway activation (e.g., MET amplification, BRAF mutations), histological transformation to small cell lung cancer, and epithelial-mesenchymal transition (EMT). The specific resistance mechanism dictates subsequent treatment strategies, such as combination therapies or alternative targeted agents.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial management for a patient presenting with a suspected acute ischemic stroke?",
+    "answer": "Rapid assessment, including NIHSS score and CT scan to rule out hemorrhage, followed by consideration of IV alteplase if within the eligible time window and no contraindications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis. Dysbiosis, characterized by reduced microbial diversity and altered composition of the gut microbiota, is a hallmark of IBD. Specifically, there is often a decrease in beneficial commensal bacteria such as Firmicutes and Bacteroidetes, and an increase in pathobionts such as Escherichia coli and fungi. These microbial imbalances can disrupt the intestinal epithelial barrier, leading to increased permeability and translocation of microbial products into the lamina propria. This triggers an exaggerated immune response in genetically susceptible individuals, involving activation of innate immune cells (e.g., macrophages, dendritic cells) and adaptive immune cells (e.g., T cells, B cells). Certain microbial metabolites, such as short-chain fatty acids (SCFAs) produced by bacterial fermentation of dietary fiber, have anti-inflammatory effects and can be reduced in IBD. Conversely, other microbial products, such as lipopolysaccharide (LPS) and flagellin, can activate Toll-like receptors (TLRs) and NOD-like receptors (NLRs), exacerbating inflammation. The composition and function of the gut microbiome are influenced by various factors, including genetics, diet, environment, and medication use. Modulating the gut microbiome through dietary interventions, fecal microbiota transplantation (FMT), or probiotics is an active area of research for the treatment and prevention of IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score, and what is it used for?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (Double), Diabetes mellitus, Stroke/TIA/thromboembolism (Double), Vascular disease, Age 65-74, Sex category (female). It is used to estimate stroke risk in patients with atrial fibrillation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do chimeric antigen receptor (CAR) T-cell therapies work to target and eliminate cancer cells?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy is a form of immunotherapy that involves genetically engineering a patient's own T cells to express a synthetic receptor, called a CAR, that recognizes a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain (usually a single-chain variable fragment derived from an antibody), a transmembrane domain, and intracellular signaling domains that activate the T cell upon antigen recognition. Once the CAR T cells are infused back into the patient, they traffic to the tumor site and bind to cancer cells expressing the target antigen. This interaction triggers T-cell activation, leading to the release of cytotoxic granules containing perforin and granzymes, which induce apoptosis in the target cells. Furthermore, activated CAR T cells secrete cytokines such as IFN-γ and TNF-α, which can recruit and activate other immune cells to the tumor microenvironment. The CAR T cells can also proliferate and persist in vivo, providing long-term anti-tumor surveillance. The most successful CAR T-cell therapies to date target CD19, a protein expressed on B-cell lymphomas and leukemias. However, CAR T-cell therapy is associated with potential toxicities, including cytokine release syndrome (CRS), immune effector cell-associated neurotoxicity syndrome (ICANS), and on-target, off-tumor effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (if local resistance is low) are common options, based on IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder involving multiple signaling pathways. Aberrant processing of amyloid precursor protein (APP) leads to the accumulation of amyloid-beta (Aβ) plaques, which triggers a cascade of events including tau hyperphosphorylation and formation of neurofibrillary tangles. These pathological hallmarks are associated with neuronal dysfunction and synaptic loss. The PI3K/AKT/mTOR pathway, involved in cell growth, survival, and metabolism, is dysregulated in AD, contributing to impaired insulin signaling and neuronal apoptosis. Calcium signaling is also disrupted, leading to increased intracellular calcium levels and excitotoxicity. Inflammatory pathways, mediated by microglia and astrocytes, contribute to chronic neuroinflammation and neuronal damage. Specifically, activation of NF-κB and inflammasomes promotes the release of pro-inflammatory cytokines such as IL-1β and TNF-α. Furthermore, oxidative stress, resulting from an imbalance between reactive oxygen species (ROS) production and antioxidant defense mechanisms, contributes to neuronal damage and cognitive decline. Emerging evidence suggests that impaired autophagy, a cellular process for clearing damaged proteins and organelles, also plays a role in AD pathogenesis. Targeting these signaling pathways is an active area of research for the development of disease-modifying therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for hypothyroidism?",
+    "answer": "Levothyroxine is the standard treatment, with dosage adjusted based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes that play a critical role in DNA repair, specifically homologous recombination (HR). HR is a high-fidelity DNA repair pathway that repairs double-strand breaks (DSBs) in DNA using a homologous template. Mutations in BRCA1 or BRCA2 impair HR, leading to the accumulation of DNA damage and genomic instability. This increases the risk of mutations in other genes, including oncogenes and tumor suppressor genes, ultimately driving tumorigenesis. BRCA1 is involved in several steps of HR, including DNA damage sensing, recruitment of DNA repair proteins to the site of the DSB, and stabilization of the replication fork. BRCA2 directly binds to RAD51, a key protein involved in strand invasion and DNA synthesis during HR. Cells with BRCA1 or BRCA2 mutations are particularly sensitive to PARP inhibitors, which block another DNA repair pathway called base excision repair (BER). This synthetic lethality approach is exploited in the treatment of BRCA1/2-mutated breast and ovarian cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute anaphylaxis?",
+    "answer": "Epinephrine is the first-line treatment, administered intramuscularly, followed by antihistamines and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms of action of statins in lowering cholesterol and reducing cardiovascular risk?",
+    "answer": "Statins, or HMG-CoA reductase inhibitors, are a class of drugs that lower cholesterol levels by inhibiting the enzyme 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, which catalyzes a rate-limiting step in cholesterol biosynthesis in the liver. By inhibiting HMG-CoA reductase, statins reduce the production of mevalonate, a precursor to cholesterol. This leads to a decrease in intracellular cholesterol levels, which triggers an increase in the expression of LDL receptors on the surface of hepatocytes. The increased LDL receptor expression promotes the uptake of LDL cholesterol from the bloodstream, thereby lowering circulating LDL cholesterol levels. In addition to lowering LDL cholesterol, statins can also reduce triglyceride levels and modestly increase HDL cholesterol levels. Furthermore, statins have pleiotropic effects that contribute to their cardiovascular benefits, including improving endothelial function, reducing inflammation, and stabilizing atherosclerotic plaques. The anti-inflammatory effects of statins are mediated by inhibition of isoprenylation, a process that is required for the activation of small GTPases involved in inflammatory signaling pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years are common screening options, starting at age 45 per recent guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the immune system contribute to the pathogenesis of type 1 diabetes?",
+    "answer": "Type 1 diabetes (T1D) is an autoimmune disease characterized by the selective destruction of insulin-producing beta cells in the pancreatic islets by autoreactive T cells. The pathogenesis of T1D involves a complex interplay between genetic susceptibility, environmental triggers, and immune dysregulation. Autoantigens derived from beta cells, such as insulin, glutamic acid decarboxylase (GAD), and islet cell antigen 512 (IA-2), are presented to T cells in the context of MHC class I and class II molecules. This leads to the activation of autoreactive CD8+ T cells, which directly kill beta cells, and CD4+ T helper cells, which secrete cytokines that further promote inflammation and beta cell destruction. Regulatory T cells (Tregs), which normally suppress autoreactive T cells, are deficient or dysfunctional in T1D. Furthermore, B cells contribute to the pathogenesis of T1D by producing autoantibodies against beta cell antigens, which can activate complement and antibody-dependent cellular cytotoxicity (ADCC). The destruction of beta cells leads to a progressive decline in insulin production, resulting in hyperglycemia and the development of T1D.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment approach for a patient presenting with a first-time seizure?",
+    "answer": "Assess for underlying causes (e.g., metabolic abnormalities, structural lesions), consider EEG, and initiate antiseizure medication if there is a high risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, allowing them to establish persistent infections. These mechanisms can be broadly classified into several categories. Some viruses directly interfere with the interferon (IFN) pathway, a critical antiviral defense mechanism. For example, some viruses encode proteins that inhibit IFN production, block IFN signaling, or prevent the activation of IFN-stimulated genes (ISGs). Other viruses evade detection by the immune system by downregulating the expression of MHC class I molecules on the surface of infected cells, preventing recognition by cytotoxic T lymphocytes (CTLs). Some viruses encode proteins that inhibit the complement system, a cascade of proteins that promotes inflammation and opsonization of pathogens. Many viruses establish latency, a state of prolonged dormancy within the host cell, during which they express few or no viral proteins, making them invisible to the immune system. Furthermore, viruses can undergo antigenic variation, mutating their surface antigens to evade antibody-mediated neutralization. Finally, some viruses encode proteins that suppress the function of immune cells, such as macrophages, dendritic cells, and T cells. These immune evasion strategies contribute to the persistence and pathogenesis of viral infections.",
+    "persona": "Researcher"
+  }
+]

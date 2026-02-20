@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic paroxysmal atrial fibrillation?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker, unless hemodynamically unstable; consider cardioversion if rate control fails or symptoms are severe.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR kinase domain lead to resistance to tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer?",
+    "answer": "Mutations in the EGFR kinase domain, such as T790M, sterically hinder the binding of reversible EGFR TKIs like gefitinib and erlotinib. The T790M mutation increases the affinity of EGFR for ATP, making it more competitive against the drug. Additionally, some mutations induce conformational changes that alter the shape of the ATP-binding pocket, impeding drug access and/or disrupting critical drug-receptor interactions. Third-generation EGFR TKIs, like osimertinib, were developed to specifically bind and inhibit EGFR with T790M, but resistance mechanisms to these agents can also emerge, including C797S mutations, MET amplification, and bypass signaling through alternative pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the CDC recommendations for pneumococcal vaccination in adults over 65?",
+    "answer": "Administer PCV20 alone or PCV15 followed by PPSV23 at least 8 weeks later.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is PD-L1 expression an imperfect biomarker for predicting response to anti-PD-1/PD-L1 immunotherapy?",
+    "answer": "PD-L1 expression, as assessed by immunohistochemistry, has limitations as a predictive biomarker due to several factors. First, PD-L1 expression is dynamic and can vary spatially and temporally within a tumor due to inflammation, prior treatments, and other microenvironmental factors. Second, different PD-L1 assays and scoring systems across different pharmaceutical companies lead to inconsistencies in determining positivity. Third, some patients with low or absent PD-L1 expression still respond to anti-PD-1/PD-L1 therapy, suggesting that other mechanisms of immune evasion, such as T-cell dysfunction or lack of T-cell infiltration, may be operative. Finally, the tumor microenvironment, including the presence of other immune cells and cytokines, can influence the response to immunotherapy independently of PD-L1 expression. Tumor mutational burden, microsatellite instability, and gene expression signatures are being investigated as complementary biomarkers to improve prediction of response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time unprovoked seizure?",
+    "answer": "Consider initiating anti-seizure medication after weighing the risks and benefits, especially if neuroimaging is abnormal or EEG shows epileptiform activity.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development and progression of atherosclerosis?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherosclerosis. Elevated levels of circulating inflammatory cytokines, such as TNF-alpha, IL-1beta, and IL-6, promote endothelial dysfunction, increasing vascular permeability and leukocyte adhesion. Modified LDL particles accumulate in the subendothelial space, triggering an inflammatory response mediated by macrophages and T cells. Macrophages engulf LDL particles, becoming foam cells, which contribute to plaque formation. Inflammatory signals activate smooth muscle cells, leading to their proliferation and migration into the intima. Matrix metalloproteinases (MMPs), released by inflammatory cells, degrade the extracellular matrix, destabilizing the plaque and increasing the risk of rupture and thrombosis. Systemic inflammation also impairs reverse cholesterol transport and promotes pro-thrombotic states, further exacerbating the atherosclerotic process. Therapeutic strategies targeting inflammation, such as anti-IL-1beta antibodies, have shown promise in reducing cardiovascular events.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target HbA1c for most non-pregnant adults with diabetes?",
+    "answer": "Less than 7%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in modulating the efficacy and toxicity of cancer therapies?",
+    "answer": "The gut microbiome profoundly impacts both the efficacy and toxicity of various cancer therapies. Certain gut bacterial species can metabolize chemotherapeutic drugs, either activating them or inactivating them, thereby altering their systemic exposure and anti-tumor activity. For example, some bacteria can convert irinotecan into its active metabolite SN-38, increasing its efficacy but also its toxicity. Conversely, other bacteria can degrade chemotherapeutic agents, reducing their therapeutic effect. The gut microbiome also modulates the immune response to cancer and immunotherapy. Specific bacterial species can enhance anti-tumor immunity by stimulating dendritic cell maturation, promoting T-cell activation, and increasing the production of immunostimulatory cytokines. Conversely, other bacteria can suppress immune responses and promote tumor growth. Dysbiosis, or an imbalance in the gut microbiome, can lead to increased intestinal permeability, systemic inflammation, and increased risk of chemotherapy-induced side effects such as diarrhea, mucositis, and neutropenia. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation and dietary interventions, are being investigated as potential approaches to improve cancer therapy outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for community-acquired pneumonia in an outpatient setting for a previously healthy adult?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (if local resistance is <25%).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the interferon response, and what are the implications for viral pathogenesis?",
+    "answer": "Viruses have evolved diverse mechanisms to evade the interferon (IFN) response, a critical component of the innate immune system. These mechanisms often involve targeting key signaling molecules in the IFN pathway. Some viruses encode proteins that directly inhibit IFN production by interfering with pattern recognition receptors (PRRs) such as TLRs or RIG-I-like receptors (RLRs). Others block the activation of transcription factors like IRF3 or NF-κB, preventing the expression of IFN genes. Many viruses also target the IFN signaling cascade downstream of IFN secretion. For instance, they may inhibit the JAK-STAT signaling pathway, which is essential for the induction of IFN-stimulated genes (ISGs). Some viruses encode proteins that degrade or sequester ISGs, preventing their antiviral activity. Evasion of the IFN response contributes significantly to viral pathogenesis by allowing viruses to replicate more efficiently, disseminate more widely, and establish persistent infections. This immune evasion also impairs the ability of the host to mount an effective adaptive immune response, further exacerbating viral disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone in an average-risk woman?",
+    "answer": "Every 3 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which cancer cells metastasize from a primary tumor to distant organs?",
+    "answer": "Cancer metastasis is a complex multistep process involving several key mechanisms. First, cancer cells undergo epithelial-mesenchymal transition (EMT), losing cell-cell adhesion and acquiring migratory and invasive properties. EMT is driven by transcription factors such as Snail, Twist, and Zeb, which are induced by signaling pathways like TGF-beta and Wnt. Second, cancer cells invade the surrounding tissue by secreting matrix metalloproteinases (MMPs) that degrade the extracellular matrix. Third, cancer cells enter the bloodstream or lymphatic system, a process called intravasation. Fourth, circulating tumor cells (CTCs) must survive in the hostile environment of the vasculature, evading immune surveillance and anoikis (detachment-induced cell death). Fifth, CTCs arrest at distant sites, often preferentially homing to specific organs based on chemokine receptor expression and interactions with the microenvironment. Sixth, cancer cells undergo extravasation, exiting the vasculature and invading the surrounding tissue. Seventh, cancer cells undergo mesenchymal-epithelial transition (MET), reverting to an epithelial phenotype and forming a micrometastasis. Finally, the micrometastasis must undergo angiogenesis and proliferation to form a macroscopic metastasis. Disseminated tumor cells can also remain dormant for years before re-awakening to form metastatic lesions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for managing a patient with acute ischemic stroke within the thrombolysis window?",
+    "answer": "Administer intravenous alteplase (tPA) if no contraindications are present; consider mechanical thrombectomy if a large vessel occlusion is identified.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic dysregulation contribute to the development and progression of Alzheimer's disease?",
+    "answer": "Epigenetic dysregulation, encompassing alterations in DNA methylation, histone modifications, and non-coding RNA expression, plays a significant role in the pathogenesis of Alzheimer's disease (AD). Changes in DNA methylation patterns have been observed in AD brains, affecting the expression of genes involved in synaptic plasticity, neuroinflammation, and amyloid processing. For instance, altered methylation of the BACE1 promoter can increase BACE1 expression, leading to increased amyloid-beta production. Histone modifications, such as acetylation and methylation, are also dysregulated in AD, impacting chromatin structure and gene transcription. Decreased histone acetylation is associated with reduced expression of genes involved in neuronal function and memory formation. Non-coding RNAs, particularly microRNAs (miRNAs), are also implicated in AD. Aberrant miRNA expression can affect the translation of target mRNAs involved in amyloidogenesis, tau phosphorylation, and neuroinflammation. Epigenetic modifications can be influenced by environmental factors such as diet, stress, and aging, potentially contributing to the sporadic nature of AD. Targeting epigenetic mechanisms may offer novel therapeutic strategies for AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways activated by receptor tyrosine kinases (RTKs), and how do they promote cancer cell growth and survival?",
+    "answer": "Receptor tyrosine kinases (RTKs) activate several major signaling pathways that promote cancer cell growth, survival, and metastasis. The RAS/MAPK pathway is frequently activated by RTKs and plays a crucial role in cell proliferation and differentiation. Upon RTK activation, adaptor proteins recruit the guanine nucleotide exchange factor SOS, which activates RAS by converting it from its inactive GDP-bound state to its active GTP-bound state. Activated RAS then recruits and activates RAF, leading to the activation of MEK and ERK, ultimately promoting cell cycle progression and cell growth. The PI3K/AKT/mTOR pathway is another key pathway activated by RTKs, promoting cell survival, growth, and metabolism. RTK activation recruits and activates PI3K, which phosphorylates PIP2 to PIP3. PIP3 recruits AKT to the plasma membrane, where it is phosphorylated and activated by PDK1 and mTORC2. Activated AKT then phosphorylates a variety of downstream targets, including mTOR, which promotes protein synthesis and cell growth, and BAD, which inhibits apoptosis. The JAK/STAT pathway is also activated by some RTKs, particularly cytokine receptors. RTK activation recruits and activates JAK kinases, which phosphorylate STAT transcription factors. Phosphorylated STATs dimerize and translocate to the nucleus, where they regulate the expression of genes involved in cell proliferation, survival, and immune responses. Dysregulation of these pathways is commonly observed in cancer, making them attractive therapeutic targets.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended empiric antibiotic treatment for a patient with a urinary tract infection and suspected pyelonephritis?",
+    "answer": "Ciprofloxacin or levofloxacin; if local resistance is high, consider a beta-lactam/beta-lactamase inhibitor combination or an aminoglycoside.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment influence the response to chemotherapy in solid tumors?",
+    "answer": "The tumor microenvironment (TME) exerts a profound influence on the response to chemotherapy in solid tumors through multiple mechanisms. The TME, composed of extracellular matrix, fibroblasts, immune cells, and blood vessels, can physically impede drug delivery to tumor cells, reducing drug penetration and efficacy. Dense extracellular matrix can create a physical barrier, while abnormal tumor vasculature can lead to poor perfusion and uneven drug distribution. Cancer-associated fibroblasts (CAFs) secrete growth factors and cytokines that promote tumor cell survival and resistance to chemotherapy. Hypoxia, a common feature of the TME, induces the expression of genes that promote angiogenesis, metastasis, and resistance to chemotherapy. Immune cells within the TME can either enhance or suppress the response to chemotherapy. Tumor-associated macrophages (TAMs) can promote tumor growth and angiogenesis, while cytotoxic T cells can mediate anti-tumor immunity and enhance the efficacy of chemotherapy. The TME also provides a niche for cancer stem cells (CSCs), which are resistant to chemotherapy and can contribute to tumor recurrence. Targeting the TME, in combination with chemotherapy, may improve treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for most patients on warfarin for atrial fibrillation?",
+    "answer": "2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms of action of checkpoint inhibitors like anti-PD-1 and anti-CTLA-4 antibodies in cancer immunotherapy?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally suppress T-cell activity. CTLA-4, expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs). By blocking CTLA-4, anti-CTLA-4 antibodies enhance T-cell activation and proliferation, particularly in the early stages of the immune response within lymph nodes. PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often overexpressed on tumor cells and immune cells within the tumor microenvironment. PD-1 engagement inhibits T-cell effector functions, such as cytokine production and cytotoxicity, promoting immune evasion. By blocking PD-1 or PD-L1, anti-PD-1/PD-L1 antibodies restore T-cell activity within the tumor microenvironment, allowing T cells to recognize and kill cancer cells. Anti-CTLA-4 antibodies primarily act in lymph nodes to enhance T-cell priming, while anti-PD-1/PD-L1 antibodies primarily act in the tumor microenvironment to restore T-cell effector function. Combination therapy with anti-CTLA-4 and anti-PD-1 antibodies can synergistically enhance anti-tumor immunity, but it also increases the risk of immune-related adverse events.",
+    "persona": "Researcher"
+  }
+]

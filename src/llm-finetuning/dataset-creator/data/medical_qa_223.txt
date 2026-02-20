@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole (TMP-SMX) are typically first-line, depending on local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and what are the implications for targeted therapy?",
+    "answer": "KRAS encodes a small GTPase involved in signal transduction downstream of receptor tyrosine kinases. Mutations in KRAS, most commonly at codons 12, 13, or 61, impair GTPase activity, leading to constitutive activation of the KRAS protein and downstream signaling pathways such as MAPK and PI3K/AKT. This results in uncontrolled cell proliferation, survival, and angiogenesis, driving tumorigenesis across various cancer types, notably pancreatic, colorectal, and lung cancers. The constitutively active KRAS protein has historically been difficult to directly target due to its high affinity for GTP and lack of a suitable binding pocket for small-molecule inhibitors. However, recent advances have led to the development of KRAS G12C inhibitors, which covalently bind to the mutant cysteine residue, effectively locking KRAS in an inactive state. These inhibitors have shown clinical activity in certain KRAS G12C-mutated cancers, but resistance mechanisms, including bypass signaling and acquisition of secondary mutations, remain a challenge. Furthermore, KRAS mutations activate compensatory pathways that promote resistance to EGFR inhibitors in colorectal cancer. Ongoing research focuses on developing inhibitors targeting other KRAS mutations and combining KRAS inhibitors with other targeted therapies or immunotherapies to overcome resistance and improve clinical outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diagnosing heart failure with preserved ejection fraction (HFpEF)?",
+    "answer": "Symptoms and signs of heart failure, LVEF ≥50%, and evidence of structural heart disease or diastolic dysfunction are required.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of autoimmune diseases?",
+    "answer": "The gut microbiome plays a critical role in shaping immune responses and maintaining intestinal homeostasis. Dysbiosis, characterized by alterations in the composition and diversity of the gut microbiota, has been implicated in the pathogenesis of various autoimmune diseases. Specific microbial species or their metabolites can trigger or exacerbate autoimmune responses through several mechanisms. Molecular mimicry, where microbial antigens share structural similarities with self-antigens, can activate autoreactive T and B cells. Certain gut bacteria can promote intestinal permeability, leading to increased translocation of microbial products and activation of the innate immune system. Short-chain fatty acids (SCFAs), produced by bacterial fermentation of dietary fiber, can modulate immune cell function and cytokine production, with some SCFAs promoting anti-inflammatory responses and others exacerbating inflammation. The balance between pro-inflammatory and anti-inflammatory microbial signals is crucial in determining the outcome of autoimmune responses. Moreover, the gut microbiome can influence the development and function of regulatory T cells, which are essential for maintaining immune tolerance. Alterations in the gut microbiome have been associated with autoimmune diseases such as rheumatoid arthritis, inflammatory bowel disease, type 1 diabetes, and multiple sclerosis. Strategies aimed at restoring gut microbial balance, such as dietary interventions, probiotics, and fecal microbiota transplantation, are being investigated as potential therapeutic approaches for autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone?",
+    "answer": "Every 3 years for women aged 21-29 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1 or PD-L1 work to enhance antitumor immunity, and what are the key mechanisms of resistance?",
+    "answer": "PD-1 (Programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while PD-L1 (Programmed death-ligand 1) is a ligand expressed on tumor cells and antigen-presenting cells. The interaction between PD-1 and PD-L1 delivers a negative signal to T cells, suppressing their activation and effector function. Tumor cells exploit this pathway to evade immune destruction by upregulating PD-L1 expression. Immunotherapies targeting PD-1 or PD-L1 block this interaction, thereby restoring T-cell activity and enhancing antitumor immunity. These therapies promote T-cell proliferation, cytokine production, and cytotoxic activity against tumor cells. However, not all patients respond to PD-1/PD-L1 blockade, and resistance mechanisms are common. Intrinsic resistance can arise from defects in antigen presentation, T-cell trafficking, or downstream signaling pathways. Acquired resistance can occur through upregulation of alternative immune checkpoints, such as CTLA-4 or TIM-3, or through loss of PD-L1 expression on tumor cells. Other mechanisms of resistance include mutations in genes involved in interferon signaling, activation of immunosuppressive pathways, and alterations in the tumor microenvironment, such as increased infiltration of regulatory T cells or myeloid-derived suppressor cells. Combination therapies targeting multiple immune checkpoints or combining immunotherapy with chemotherapy or targeted therapy are being explored to overcome resistance and improve clinical outcomes. Biomarkers predictive of response to PD-1/PD-L1 blockade, such as PD-L1 expression levels, tumor mutational burden, and microsatellite instability, are also being investigated to guide treatment decisions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target HbA1c for most non-pregnant adults with diabetes?",
+    "answer": "Generally <7%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CRISPR-Cas9 and other gene editing technologies, and what are the ethical considerations associated with their use?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene editing technology that has transformed biomedical research. Unlike earlier gene editing tools such as zinc finger nucleases (ZFNs) and transcription activator-like effector nucleases (TALENs), CRISPR-Cas9 is simpler, more efficient, and more versatile. CRISPR-Cas9 uses a guide RNA molecule to direct the Cas9 enzyme to a specific DNA sequence, where it induces a double-strand break. The cell's DNA repair mechanisms then repair the break, either by non-homologous end joining (NHEJ), which can introduce insertions or deletions (indels) and disrupt gene function, or by homology-directed repair (HDR), which allows for precise gene editing using a provided DNA template. The simplicity and efficiency of CRISPR-Cas9 have made it widely accessible to researchers, accelerating progress in gene therapy, drug discovery, and disease modeling. However, the ease of use of CRISPR-Cas9 also raises ethical concerns. Off-target effects, where the Cas9 enzyme cuts at unintended DNA sites, can lead to unintended mutations and potential harm. Germline editing, where CRISPR-Cas9 is used to modify the DNA of sperm, eggs, or embryos, raises concerns about the potential for heritable changes and unintended consequences for future generations. The ethical implications of CRISPR-Cas9 are actively debated, and regulatory frameworks are being developed to ensure its responsible use.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with acute stroke symptoms?",
+    "answer": "Rapid assessment, neuroimaging (CT or MRI) to rule out hemorrhage, and if appropriate, IV thrombolysis (alteplase) or mechanical thrombectomy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modification, influence gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications are heritable changes in gene expression that occur without alterations to the underlying DNA sequence. DNA methylation and histone modification are two major types of epigenetic modifications that play critical roles in regulating gene expression and cellular differentiation. DNA methylation involves the addition of a methyl group to cytosine bases, typically at CpG dinucleotides. DNA methylation is generally associated with transcriptional repression, as it can directly block the binding of transcription factors to DNA or recruit methyl-binding domain (MBD) proteins, which in turn recruit histone deacetylases (HDACs) and other chromatin remodeling factors to condense chromatin and silence gene expression. Histone modifications involve the addition of various chemical groups, such as acetyl, methyl, phosphate, or ubiquitin, to histone proteins. Histone modifications can alter chromatin structure and affect the accessibility of DNA to transcription factors and other regulatory proteins. Histone acetylation, catalyzed by histone acetyltransferases (HATs), is generally associated with transcriptional activation, as it relaxes chromatin structure and promotes the binding of transcription factors. Histone methylation, catalyzed by histone methyltransferases (HMTs), can have either activating or repressive effects on gene expression, depending on the specific histone residue that is methylated and the methylation state. Epigenetic modifications play crucial roles in regulating gene expression during development, differentiation, and cellular responses to environmental stimuli. Aberrant epigenetic modifications have been implicated in various diseases, including cancer, neurodevelopmental disorders, and autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended antibiotic regimen for treating community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (azithromycin or clarithromycin) if macrolide resistance is low.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of Alzheimer's disease, and how are they being targeted for therapeutic intervention?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain. Several signaling pathways have been implicated in the pathogenesis of AD, including amyloid precursor protein (APP) processing, tau phosphorylation, inflammation, and oxidative stress. APP is cleaved by β-secretase (BACE1) and γ-secretase to generate amyloid-β (Aβ) peptides, which aggregate to form amyloid plaques. Inhibition of BACE1 or γ-secretase is being investigated as a therapeutic strategy to reduce Aβ production. Tau is a microtubule-associated protein that becomes hyperphosphorylated in AD, leading to the formation of neurofibrillary tangles. Inhibition of tau kinases, such as GSK-3β and CDK5, is being explored as a therapeutic approach to reduce tau phosphorylation. Inflammation and oxidative stress contribute to neuronal damage and cognitive decline in AD. Targeting inflammatory pathways, such as NF-κB, and reducing oxidative stress through antioxidant therapies are being investigated as potential therapeutic strategies. Other signaling pathways implicated in AD include insulin signaling, calcium signaling, and synaptic dysfunction. Therapeutic interventions targeting these pathways are also being explored. Combination therapies targeting multiple pathways may be necessary to effectively treat AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical management approach for a patient with a first-time unprovoked seizure?",
+    "answer": "Neurological evaluation, EEG, neuroimaging (MRI preferred), and consideration of initiating antiepileptic medication based on risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer metastasis, and what therapeutic strategies are being developed to target the TME?",
+    "answer": "The tumor microenvironment (TME) is a complex ecosystem surrounding tumor cells, comprising stromal cells, immune cells, blood vessels, and extracellular matrix (ECM). The TME plays a critical role in promoting cancer metastasis by providing a supportive niche for tumor cell invasion, survival, and colonization at distant sites. Stromal cells, such as fibroblasts and endothelial cells, secrete growth factors, cytokines, and ECM components that promote tumor cell proliferation, angiogenesis, and immune evasion. Immune cells, such as macrophages and neutrophils, can be co-opted by tumor cells to promote metastasis by suppressing antitumor immunity and promoting ECM remodeling. Blood vessels provide a route for tumor cells to disseminate to distant organs. The ECM provides a scaffold for tumor cell invasion and migration. Several therapeutic strategies are being developed to target the TME and inhibit cancer metastasis. Anti-angiogenic therapies, such as VEGF inhibitors, aim to block the formation of new blood vessels and starve the tumor of nutrients and oxygen. Stromal-targeting therapies aim to inhibit the activity of stromal cells and disrupt the TME. Immunotherapies aim to enhance antitumor immunity and eliminate metastatic cells. ECM-modifying therapies aim to disrupt the ECM and inhibit tumor cell invasion. Combination therapies targeting multiple components of the TME may be necessary to effectively inhibit cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the major risk factors for developing osteoporosis?",
+    "answer": "Older age, female sex, low body weight, family history, smoking, excessive alcohol intake, glucocorticoid use.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression, and what role do they play in human diseases?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a class of RNA molecules that are longer than 200 nucleotides and do not encode proteins. LncRNAs are emerging as important regulators of gene expression, influencing a wide range of cellular processes, including development, differentiation, and disease. LncRNAs can regulate gene expression through various mechanisms. They can act as scaffolds, bringing together different proteins to form ribonucleoprotein complexes that regulate transcription, chromatin remodeling, or RNA processing. They can act as guides, directing regulatory proteins to specific DNA or RNA sequences. They can act as decoys, sequestering regulatory proteins away from their target genes. They can also act as enhancers, promoting gene expression by recruiting transcription factors to promoters. LncRNAs have been implicated in various human diseases, including cancer, cardiovascular disease, and neurological disorders. For example, the lncRNA HOTAIR promotes cancer metastasis by recruiting the PRC2 complex to silence tumor suppressor genes. The lncRNA MALAT1 promotes angiogenesis and tumor growth by regulating the expression of vascular endothelial growth factor (VEGF). LncRNAs are being explored as potential therapeutic targets for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis?",
+    "answer": "Fluoroquinolones or trimethoprim-sulfamethoxazole (TMP-SMX) are commonly used orally; severe cases may require IV antibiotics such as ceftriaxone or aminoglycosides.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes contribute to intercellular communication and disease progression?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that are secreted by cells and mediate intercellular communication. They contain a variety of biomolecules, including proteins, lipids, and nucleic acids (mRNA, microRNA, DNA), which can be transferred to recipient cells. Exosomes play diverse roles in normal physiology and disease. They facilitate cell-to-cell communication by delivering signaling molecules, promoting cell survival, and modulating immune responses. In cancer, exosomes contribute to tumor growth, angiogenesis, immune evasion, and metastasis. Tumor-derived exosomes can transfer oncogenic proteins and nucleic acids to recipient cells, promoting their malignant transformation. They can also educate the tumor microenvironment by suppressing antitumor immunity and promoting angiogenesis. In infectious diseases, exosomes can transmit pathogens or viral components, contributing to disease spread. In neurodegenerative diseases, exosomes can transport misfolded proteins, such as amyloid-beta and tau, contributing to disease progression. Exosomes are being explored as potential diagnostic biomarkers and therapeutic delivery vehicles. Their ability to transport specific molecules to target cells makes them attractive candidates for drug delivery. However, challenges remain in isolating and purifying exosomes, and in controlling their targeting and delivery.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial diagnostic workup for a patient presenting with suspected deep vein thrombosis (DVT)?",
+    "answer": "Assess pretest probability (e.g., Wells score) followed by D-dimer testing. If D-dimer is elevated or pretest probability is high, perform venous ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to cellular homeostasis, and what is its role in aging and age-related diseases?",
+    "answer": "Autophagy is a highly conserved cellular process that involves the degradation and recycling of cellular components, including damaged organelles, misfolded proteins, and aggregated proteins. It plays a critical role in maintaining cellular homeostasis by removing damaged or dysfunctional components and providing building blocks for new synthesis. Autophagy is essential for cell survival under stress conditions, such as nutrient deprivation, hypoxia, and oxidative stress. It is also involved in development, differentiation, and immunity. Dysregulation of autophagy has been implicated in various diseases, including cancer, neurodegenerative diseases, and aging. In aging, autophagy declines, leading to the accumulation of damaged proteins and organelles, which contribute to cellular dysfunction and age-related diseases. Boosting autophagy may have beneficial effects on healthspan and lifespan. Strategies to enhance autophagy include caloric restriction, exercise, and pharmacological interventions. However, the role of autophagy in aging is complex and context-dependent, and further research is needed to fully understand its mechanisms and therapeutic potential.",
+    "persona": "Researcher"
+  }
+]

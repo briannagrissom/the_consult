@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically first-line; consider cardioversion if unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing achieve targeted DNA modification in eukaryotic cells?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a specific DNA sequence to direct the Cas9 endonuclease to that locus. The gRNA forms a complex with Cas9, and the complex scans the genome until it encounters a sequence matching the gRNA. Upon binding, Cas9 introduces a double-stranded break (DSB) at the target site. This DSB is then repaired by one of two main cellular pathways: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is error-prone and often leads to insertions or deletions (indels), resulting in gene disruption. HDR, on the other hand, requires a DNA template with homology to the targeted region, allowing for precise gene editing or insertion of new sequences. Factors affecting efficiency and specificity include gRNA design, Cas9 variant used, and delivery method into target cells. Off-target effects remain a key consideration.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms through which metformin exerts its antihyperglycemic effects?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis, an effect mediated partly through activation of AMPK (AMP-activated protein kinase). AMPK activation in hepatocytes decreases expression of gluconeogenic enzymes such as phosphoenolpyruvate carboxykinase (PEPCK) and glucose-6-phosphatase. Metformin also enhances insulin sensitivity in peripheral tissues, increasing glucose uptake and utilization in skeletal muscle. Although the exact molecular targets are still being investigated, this effect may involve improved insulin signaling and increased GLUT4 translocation to the cell surface. Additionally, metformin has been shown to modulate the gut microbiome, influencing bile acid metabolism and potentially contributing to its glucose-lowering effects. While early hypotheses suggested inhibition of mitochondrial complex I, recent evidence suggests this may not be the primary mechanism at clinically relevant doses. Overall, metformin's multifaceted action on hepatic glucose production, peripheral insulin sensitivity, and gut microbiota collectively contributes to its efficacy in managing type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) following percutaneous coronary intervention (PCI) with a drug-eluting stent?",
+    "answer": "Typically 6-12 months, but duration can be tailored based on bleeding risk and ischemic risk.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors like anti-PD-1 antibodies enhance antitumor immunity?",
+    "answer": "Checkpoint inhibitors such as anti-PD-1 (programmed cell death protein 1) and anti-CTLA-4 (cytotoxic T-lymphocyte-associated protein 4) antibodies reinvigorate antitumor immunity by blocking inhibitory signals that suppress T-cell activation and effector function. PD-1 is expressed on T cells and interacts with its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and antigen-presenting cells within the tumor microenvironment. This interaction delivers an inhibitory signal to T cells, preventing them from effectively killing tumor cells. Anti-PD-1 antibodies block this interaction, allowing T cells to remain active and attack tumor cells. CTLA-4, on the other hand, is expressed on T cells and competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells. By blocking CTLA-4, anti-CTLA-4 antibodies enhance T-cell activation and proliferation. The combination of anti-PD-1 and anti-CTLA-4 can lead to synergistic antitumor effects, but also increases the risk of immune-related adverse events. Biomarkers such as PD-L1 expression, tumor mutational burden, and microsatellite instability can help predict response to checkpoint inhibitors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Empiric antibiotics, typically a macrolide or doxycycline for outpatients, or a beta-lactam plus macrolide/fluoroquinolone for inpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms of action of statins in reducing cardiovascular risk?",
+    "answer": "Statins inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis, leading to decreased intracellular cholesterol levels. This triggers an upregulation of LDL receptors on hepatocytes, resulting in increased uptake of LDL cholesterol from the circulation and a reduction in plasma LDL-C levels. Beyond their LDL-lowering effects, statins also exhibit pleiotropic effects that contribute to cardiovascular protection. These include improving endothelial function by increasing nitric oxide bioavailability, reducing inflammation by inhibiting inflammatory cytokine production and monocyte adhesion, stabilizing atherosclerotic plaques by decreasing lipid content and increasing collagen synthesis, and decreasing platelet aggregation. These non-lipid-lowering effects contribute to the overall benefit of statins in reducing cardiovascular events. Different statins exhibit varying degrees of potency and lipophilicity, influencing their impact on different lipid parameters and their potential for side effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with a suspected stroke?",
+    "answer": "Rapid assessment, NIHSS score, CT scan to rule out hemorrhage; if ischemic, consider tPA if within the appropriate time window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR gene contribute to lung cancer development and response to targeted therapies?",
+    "answer": "Mutations in the epidermal growth factor receptor (EGFR) gene are common in non-small cell lung cancer (NSCLC), particularly in adenocarcinomas, and often predict sensitivity to EGFR tyrosine kinase inhibitors (TKIs). The most common EGFR mutations are deletions in exon 19 (e.g., delE746-A750) and the L858R point mutation in exon 21. These mutations lead to constitutive activation of the EGFR signaling pathway, promoting cell proliferation, survival, and angiogenesis. EGFR TKIs such as gefitinib, erlotinib, and afatinib competitively bind to the ATP-binding site of the mutant EGFR kinase, inhibiting its activity and blocking downstream signaling. However, resistance to EGFR TKIs can develop, often due to the acquisition of secondary mutations, such as the T790M mutation in exon 20. This mutation increases the affinity of EGFR for ATP, reducing the efficacy of first- and second-generation EGFR TKIs. Third-generation EGFR TKIs, such as osimertinib, are designed to overcome T790M resistance and have shown improved efficacy in patients with EGFR-mutant NSCLC. Other resistance mechanisms include activation of bypass pathways, such as MET amplification or BRAF mutations, and histologic transformation to small cell lung cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in the pathogenesis of IBD, including Crohn's disease and ulcerative colitis. Dysbiosis, characterized by reduced microbial diversity and alterations in the composition of the gut microbiota, is a hallmark of IBD. Specifically, there is often a decrease in beneficial bacteria such as Firmicutes (e.g., Faecalibacterium prausnitzii) and an increase in pathogenic bacteria such as Escherichia coli. These alterations can disrupt the intestinal barrier function, increase intestinal permeability, and trigger an exaggerated immune response. Microbial metabolites, such as short-chain fatty acids (SCFAs) produced by the fermentation of dietary fibers, play a key role in maintaining gut health. Reduced SCFA production in IBD can impair colonocyte energy metabolism and promote inflammation. Furthermore, the gut microbiome influences the development and function of the intestinal immune system, including T cells and innate immune cells. Interactions between the gut microbiota and the host immune system can lead to chronic inflammation and tissue damage in IBD. Therapeutic strategies targeting the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being investigated for the treatment of IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and supportive care; consider glucagon if patient is on beta-blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does gene therapy using adeno-associated viral (AAV) vectors work, and what are its limitations?",
+    "answer": "AAV vectors are commonly used for gene therapy due to their low immunogenicity and ability to infect a wide range of cell types. AAV vectors are derived from adeno-associated viruses, which are small, non-pathogenic viruses. In gene therapy, the viral genes are removed and replaced with a therapeutic gene of interest, along with regulatory elements such as promoters and enhancers. The AAV vector is then administered to the patient, where it infects target cells and delivers the therapeutic gene. Once inside the cell, the AAV vector enters the nucleus, where the therapeutic gene is expressed, leading to production of the desired protein. A major limitation of AAV vectors is their limited packaging capacity, which restricts the size of the therapeutic gene that can be delivered. Additionally, pre-existing immunity to AAV in some patients can limit the efficacy of gene therapy. Insertional mutagenesis, although rare, is also a concern. AAV vectors can integrate into the host genome at random locations, potentially disrupting endogenous genes or activating oncogenes. Strategies to improve AAV vector tropism, reduce immunogenicity, and enhance gene expression are being actively investigated.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) are typically first-line, but consider patient preference, side effect profile, and prior treatment history.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which cancer cells metastasize to distant organs?",
+    "answer": "Cancer metastasis is a complex multistep process involving detachment from the primary tumor, invasion of surrounding tissues, intravasation into blood or lymphatic vessels, survival in circulation, extravasation at distant sites, and colonization to form secondary tumors. Epithelial-mesenchymal transition (EMT) plays a crucial role in the early stages of metastasis, enabling cancer cells to lose their cell-cell adhesion and gain migratory and invasive properties. EMT is driven by transcription factors such as Snail, Twist, and ZEB1, which repress epithelial genes and activate mesenchymal genes. Cancer cells secrete proteases such as matrix metalloproteinases (MMPs) that degrade the extracellular matrix, facilitating invasion. Circulating tumor cells (CTCs) must evade immune surveillance and anoikis (detachment-induced cell death) to survive in the circulation. Extravasation occurs when CTCs adhere to the endothelium at distant sites and migrate through the vessel wall into the surrounding tissue. The pre-metastatic niche, formed by factors secreted by the primary tumor, prepares distant organs for colonization. Colonization requires cancer cells to adapt to the new microenvironment and re-establish cell-cell adhesion.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin or direct oral anticoagulants (DOACs); consider thrombolysis for extensive proximal DVT with limb-threatening ischemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using CAR T-cells work in treating hematological malignancies?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a CAR that recognizes a specific antigen on cancer cells. First, T cells are collected from the patient through leukapheresis. These T cells are then genetically modified ex vivo using a viral vector to introduce the CAR gene. The CAR typically consists of an extracellular antigen-binding domain (e.g., a single-chain variable fragment, scFv) fused to intracellular signaling domains that activate the T cell upon antigen recognition. The modified CAR T-cells are then expanded in vitro and infused back into the patient. Once infused, the CAR T-cells recognize and bind to the target antigen on cancer cells, triggering T-cell activation and cytotoxic killing of the cancer cells. CAR T-cell therapy has shown remarkable efficacy in treating hematological malignancies such as B-cell lymphomas and acute lymphoblastic leukemia. However, CAR T-cell therapy can cause significant side effects, including cytokine release syndrome (CRS) and neurotoxicity (immune effector cell-associated neurotoxicity syndrome, ICANS). Management of these side effects is crucial for the safe and effective use of CAR T-cell therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for acute uncomplicated cystitis in a woman?",
+    "answer": "Short course antibiotics, such as nitrofurantoin or trimethoprim-sulfamethoxazole (TMP-SMX), if local resistance rates are low.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in cell-to-cell communication and disease pathogenesis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that are secreted by most cell types and mediate cell-to-cell communication by transferring proteins, lipids, and nucleic acids (mRNA, miRNA, DNA) to recipient cells. Exosomes are formed through a process involving inward budding of the plasma membrane to form early endosomes, which mature into late endosomes or multivesicular bodies (MVBs). MVBs fuse with the plasma membrane, releasing exosomes into the extracellular space. Exosomes can be taken up by recipient cells through various mechanisms, including receptor-ligand interactions, endocytosis, and direct fusion with the plasma membrane. Exosomes play a role in a wide range of physiological and pathological processes, including immune regulation, antigen presentation, tissue repair, and cancer metastasis. In cancer, exosomes can promote tumor growth, angiogenesis, immune evasion, and drug resistance. Exosomes can also serve as biomarkers for disease diagnosis and prognosis. Liquid biopsies based on exosomal cargo analysis are being developed for the non-invasive detection of cancer and other diseases. Therapeutic strategies targeting exosomes, such as blocking exosome secretion or uptake, are being investigated for the treatment of cancer and other diseases.",
+    "persona": "Researcher"
+  }
+]

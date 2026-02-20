@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers is the initial step.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS oncogene contribute to resistance to EGFR-targeted therapies in colorectal cancer?",
+    "answer": "Activating mutations in KRAS, most commonly at codon 12 or 13, lead to constitutive activation of downstream signaling pathways such as MAPK and PI3K/AKT, independent of EGFR activation. These mutations bypass the inhibitory effect of EGFR inhibitors (e.g., cetuximab, panitumumab) on cell proliferation and survival, rendering the tumor insensitive to these therapies. Specifically, mutant KRAS continuously activates RAS/RAF/MEK/ERK signaling, overriding the blockade of EGFR-mediated signaling. Studies have demonstrated that patients with KRAS-mutant colorectal cancer do not benefit from EGFR-targeted therapies, and these mutations serve as negative predictive biomarkers. The development of direct KRAS inhibitors is an area of active research to overcome this resistance mechanism.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diagnosing diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why does inhibition of the PD-1/PD-L1 immune checkpoint axis often lead to immune-related adverse events (irAEs)?",
+    "answer": "The PD-1/PD-L1 pathway normally functions to maintain peripheral tolerance and prevent autoimmunity by suppressing T-cell activation. PD-1, expressed on T cells, binds to PD-L1, expressed on various cells including tumor cells and antigen-presenting cells, delivering an inhibitory signal that dampens T-cell responses. By blocking this interaction with anti-PD-1 or anti-PD-L1 antibodies, the threshold for T-cell activation is lowered, potentially leading to an unrestrained immune response against both tumor cells and normal tissues. This loss of peripheral tolerance can result in a broad spectrum of irAEs affecting various organs, including the skin (e.g., rash, pruritus), gastrointestinal tract (e.g., colitis), endocrine glands (e.g., thyroiditis), and lungs (e.g., pneumonitis). The severity of irAEs varies, and management often involves immunosuppression with corticosteroids or other agents to dampen the excessive immune response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX are commonly used first-line antibiotics.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does genomic instability contribute to cancer development and progression?",
+    "answer": "Genomic instability, characterized by an increased rate of mutations, chromosomal aberrations, and microsatellite instability, fuels cancer development by accelerating the accumulation of oncogenic mutations and inactivating tumor suppressor genes. This instability arises from defects in DNA repair mechanisms, replication fidelity, and chromosome segregation, often driven by mutations in genes like BRCA1/2, TP53, or mismatch repair genes. The resulting genetic diversity provides a substrate for natural selection within the tumor microenvironment, enabling cancer cells to evolve resistance to therapy, evade immune surveillance, and acquire metastatic capabilities. Moreover, genomic instability can trigger chronic inflammation and alter epigenetic landscapes, further contributing to tumor heterogeneity and aggressive behavior. High levels of genomic instability are often associated with poor prognosis and increased risk of relapse.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain and elevated liver enzymes are common side effects.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment?",
+    "answer": "Exosomes, nanoscale vesicles secreted by cells, mediate complex intercellular communication within the tumor microenvironment by transferring proteins, lipids, and nucleic acids (including miRNAs and mRNAs) between cells. Tumor-derived exosomes can promote angiogenesis by delivering pro-angiogenic factors to endothelial cells, stimulate immune suppression by transferring PD-L1 to immune cells, and facilitate metastasis by educating distant pre-metastatic niches. They also contribute to drug resistance by transferring resistance-conferring molecules (e.g., drug efflux pumps) to drug-sensitive cells. Conversely, immune cell-derived exosomes can deliver cytotoxic molecules (e.g., granzymes, FasL) to tumor cells, promoting tumor cell death. Exosomal cargo and signaling pathways are being actively investigated as potential therapeutic targets and biomarkers for cancer diagnosis and prognosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient diagnosed with community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline is typically initiated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression in normal development versus cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone acetylation/methylation, and non-coding RNA-mediated regulation, play a crucial role in regulating gene expression during normal development by establishing cell-type-specific patterns of gene activity. These modifications are highly dynamic and responsive to environmental cues, ensuring proper cell differentiation and tissue organization. In cancer, epigenetic dysregulation is a hallmark, leading to aberrant gene expression patterns that promote tumorigenesis. For example, hypermethylation of tumor suppressor gene promoters silences their expression, while hypomethylation of oncogene promoters increases their expression. Alterations in histone modifications can also disrupt chromatin structure and gene transcription, contributing to cancer initiation and progression. Epigenetic modifications are reversible, making them attractive targets for epigenetic therapies aimed at restoring normal gene expression patterns in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually, are common screening options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms through which long non-coding RNAs (lncRNAs) regulate gene expression?",
+    "answer": "Long non-coding RNAs (lncRNAs) regulate gene expression through diverse mechanisms, including: (1) guiding chromatin-modifying complexes to specific genomic loci, influencing histone modifications and DNA methylation; (2) acting as molecular scaffolds to bring together different proteins involved in transcriptional regulation; (3) serving as decoys by binding to transcription factors or RNA-binding proteins, preventing them from interacting with their target genes; (4) modulating mRNA stability or translation by directly binding to mRNAs; and (5) functioning as precursors for small RNAs, such as microRNAs. These regulatory roles allow lncRNAs to influence a wide range of cellular processes, including development, differentiation, and disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a suspected stroke?",
+    "answer": "Rapid assessment and transport to a stroke center for potential thrombolytic therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer immunotherapies?",
+    "answer": "The gut microbiome significantly impacts the efficacy and toxicity of cancer immunotherapies, particularly immune checkpoint inhibitors. Certain bacterial species can enhance antitumor immunity by modulating the host's immune response, leading to improved treatment outcomes. For example, the presence of Akkermansia muciniphila has been associated with increased response rates to anti-PD-1 therapy in some cancers. Conversely, other bacterial species can promote immune suppression or inflammation, contributing to resistance to immunotherapy or increased risk of immune-related adverse events (irAEs). The mechanisms involve the production of microbial metabolites (e.g., short-chain fatty acids) that modulate immune cell function, the activation of pattern recognition receptors (e.g., TLRs) on immune cells, and the modulation of gut barrier integrity. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation or dietary interventions, are being explored to enhance the efficacy and reduce the toxicity of cancer immunotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the main symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, and cold intolerance are common symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several interconnected signaling pathways, including: (1) Amyloid precursor protein (APP) processing: Aberrant cleavage of APP by β-secretase and γ-secretase leads to the accumulation of amyloid-β (Aβ) plaques, triggering neurotoxicity and inflammation. (2) Tau phosphorylation: Hyperphosphorylation of tau protein results in the formation of neurofibrillary tangles, disrupting microtubule function and axonal transport. (3) Insulin signaling: Impaired insulin signaling in the brain contributes to Aβ accumulation, tau phosphorylation, and neuronal dysfunction. (4) Inflammation: Activation of microglia and astrocytes leads to chronic neuroinflammation, exacerbating neuronal damage. (5) Oxidative stress: Increased production of reactive oxygen species (ROS) damages cellular components and contributes to neuronal death. These pathways interact and amplify each other, ultimately leading to synaptic dysfunction, neuronal loss, and cognitive decline in AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Intramuscular epinephrine is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to cancer metastasis?",
+    "answer": "Circulating tumor cells (CTCs), shed from the primary tumor into the bloodstream, play a critical role in cancer metastasis by initiating the formation of secondary tumors in distant organs. To successfully metastasize, CTCs must undergo several steps: (1) Detachment from the primary tumor and intravasation into blood vessels; (2) Survival in the circulation, evading immune surveillance and anoikis (detachment-induced cell death); (3) Extravasation from blood vessels into distant tissues; and (4) Colonization of the distant site and establishment of a metastatic lesion. CTCs can undergo epithelial-mesenchymal transition (EMT) to enhance their motility and invasiveness, and they can form clusters that promote survival and metastatic efficiency. Analysis of CTCs can provide valuable information about tumor biology, prognosis, and response to therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of a urinary tract infection?",
+    "answer": "Dysuria, frequency, urgency, and suprapubic pain are common symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of autophagy in neurodegenerative diseases?",
+    "answer": "Autophagy, a cellular self-degradative process, plays a dual role in neurodegenerative diseases. On one hand, it serves as a protective mechanism by clearing misfolded proteins, damaged organelles, and protein aggregates that accumulate in affected neurons, such as amyloid-beta plaques in Alzheimer's disease or huntingtin protein aggregates in Huntington's disease. By removing these toxic species, autophagy promotes neuronal survival and function. On the other hand, impaired autophagy can contribute to disease pathogenesis by allowing the accumulation of toxic proteins and organelles, leading to cellular stress and neuronal dysfunction. Furthermore, excessive or dysregulated autophagy can also be detrimental. Therefore, maintaining a proper balance of autophagy is crucial for neuronal health, and modulation of autophagy is being explored as a potential therapeutic strategy for neurodegenerative diseases.",
+    "persona": "Researcher"
+  }
+]

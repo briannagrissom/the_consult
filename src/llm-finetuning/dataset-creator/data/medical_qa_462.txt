@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV push, may repeat every 3-5 minutes to a maximum of 3mg; consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate precise gene editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, which directs the Cas9 endonuclease to that specific genomic location. Cas9 then induces a double-strand break (DSB) at the target site. The cell repairs this break via non-homologous end joining (NHEJ), which is error-prone and can result in insertions or deletions (indels), effectively disrupting the gene. Alternatively, if a donor DNA template with homology to the flanking regions of the DSB is provided, the cell can repair the break via homology-directed repair (HDR), allowing for precise insertion of the desired sequence. The efficiency of HDR is lower than NHEJ, and optimization of HDR requires careful consideration of the donor template design, cell cycle synchronization, and modulation of DNA repair pathways. Furthermore, off-target effects, where Cas9 cleaves unintended sites with sequence similarity to the gRNA, are a concern and are addressed through careful gRNA design, Cas9 variants with higher specificity, and computational methods to predict and minimize off-target cleavage events. Newer base editing and prime editing approaches extend the CRISPR toolbox to enable more refined modifications without DSBs, enhancing precision and reducing unwanted indels. These technologies leverage catalytically inactive Cas9 (dCas9) fused to deaminase enzymes or reverse transcriptases, enabling targeted base conversions or precise sequence insertions, respectively, without relying on cellular DNA repair mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of acute pulmonary embolism?",
+    "answer": "Sudden onset dyspnea, chest pain, cough, and hemoptysis; may also present with syncope or signs of deep vein thrombosis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) involves multiple interconnected signaling pathways contributing to neuronal dysfunction and death. Amyloid precursor protein (APP) processing and amyloid-beta (Aβ) aggregation are central, leading to activation of inflammatory pathways via microglia and astrocytes. Aβ oligomers trigger oxidative stress and mitochondrial dysfunction, disrupting calcium homeostasis and activating kinases like GSK-3β and CDK5, which hyperphosphorylate tau, leading to neurofibrillary tangle formation. Activation of the receptor for advanced glycation end products (RAGE) by Aβ further amplifies inflammation. Reduced levels of neurotrophic factors such as BDNF impair neuronal survival and synaptic plasticity. Dysregulation of insulin signaling and glucose metabolism contributes to neuronal insulin resistance and exacerbates Aβ and tau pathology. Furthermore, impaired autophagy and proteasomal degradation compromise clearance of misfolded proteins. Genetic risk factors such as APOE4 modulate Aβ clearance and inflammatory responses, influencing disease susceptibility. Therapies targeting these pathways—including BACE inhibitors, anti-Aβ antibodies, tau aggregation inhibitors, and modulators of inflammation and metabolism—are under investigation to slow disease progression. The complexity and interconnectedness of these pathways necessitate multi-target therapeutic strategies to effectively combat AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically diagnosed?",
+    "answer": "Clinical suspicion based on symptoms (cough, fever, dyspnea) plus chest radiograph demonstrating consolidation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the development of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of IBD, influencing both disease initiation and progression. Dysbiosis, characterized by reduced microbial diversity and altered composition, is a hallmark of IBD. Specific pathobionts, such as adherent-invasive E. coli (AIEC) in Crohn's disease and pro-inflammatory strains in ulcerative colitis, can trigger or exacerbate intestinal inflammation in genetically susceptible individuals. Conversely, beneficial commensal bacteria, such as Faecalibacterium prausnitzii, produce anti-inflammatory metabolites like butyrate, which promote gut barrier integrity and suppress immune responses. Alterations in microbial metabolic activity can lead to increased production of harmful metabolites, such as hydrogen sulfide, and decreased production of short-chain fatty acids (SCFAs), disrupting intestinal homeostasis. The microbiome also influences the development and function of the host immune system, shaping the balance between pro-inflammatory and regulatory immune responses. Microbial-associated molecular patterns (MAMPs) activate pattern recognition receptors (PRRs) on immune cells, triggering downstream signaling cascades that drive inflammation. Moreover, the microbiome affects the permeability of the intestinal barrier, influencing the translocation of bacteria and bacterial products into the lamina propria, further stimulating immune responses. Strategies aimed at modulating the gut microbiome, such as fecal microbiota transplantation (FMT), diet, and probiotics, are being explored as therapeutic interventions for IBD, with the goal of restoring microbial balance and reducing inflammation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin 100mg twice daily for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) 160/800mg twice daily for 3 days, if local resistance rates are low.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to chemotherapy drugs?",
+    "answer": "Cancer cells develop chemoresistance through diverse mechanisms, including increased drug efflux via ATP-binding cassette (ABC) transporters like P-glycoprotein (MDR1), which actively pump drugs out of the cell, reducing intracellular drug concentration. Alterations in drug targets, such as mutations in topoisomerase II or dihydrofolate reductase, can reduce drug binding affinity. Increased DNA repair capacity enables cells to repair drug-induced DNA damage more efficiently. Activation of survival signaling pathways, such as PI3K/AKT/mTOR and NF-κB, protects cells from apoptosis. Epithelial-mesenchymal transition (EMT) confers resistance by altering cell morphology and reducing drug uptake. Cancer stem cells, with their quiescent state and enhanced DNA repair mechanisms, are intrinsically resistant. Changes in drug metabolism, such as increased detoxification or reduced drug activation, also contribute to resistance. Moreover, the tumor microenvironment (TME) can protect cancer cells from chemotherapy through factors like hypoxia, which reduces drug efficacy, and interactions with stromal cells, which secrete growth factors that promote survival. Understanding these resistance mechanisms is crucial for developing strategies to overcome chemoresistance, such as using ABC transporter inhibitors, targeting survival pathways, and modulating the TME to enhance drug delivery and efficacy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a suspected stroke patient?",
+    "answer": "Assess ABCs, activate stroke team, obtain non-contrast head CT to rule out hemorrhage; if no contraindications, consider thrombolytic therapy (alteplase) within the appropriate time window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in cancer progression and metastasis?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of transcripts longer than 200 nucleotides that lack protein-coding potential but regulate gene expression at multiple levels, impacting cancer progression and metastasis. LncRNAs can act as scaffolds, bringing together proteins and nucleic acids to form regulatory complexes; guides, directing proteins to specific genomic locations; decoys, sequestering proteins or RNAs; and enhancers, promoting gene transcription. Some lncRNAs promote tumor growth by activating oncogenes or suppressing tumor suppressors. For example, HOTAIR promotes metastasis by recruiting PRC2 to silence tumor suppressor genes. Other lncRNAs regulate cell cycle progression, apoptosis, and DNA repair, influencing cancer cell survival and proliferation. LncRNAs also play a role in the epithelial-mesenchymal transition (EMT), a critical process in metastasis. Some lncRNAs promote EMT by activating transcription factors like Snail and Twist, while others inhibit EMT by maintaining epithelial cell identity. In the tumor microenvironment, lncRNAs can modulate immune cell activity and angiogenesis, influencing tumor growth and metastasis. Dysregulation of lncRNA expression is frequently observed in cancer, and specific lncRNAs have been identified as potential diagnostic and prognostic biomarkers. Targeting lncRNAs with antisense oligonucleotides or CRISPR-based approaches is being explored as a therapeutic strategy to inhibit cancer progression and metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45-50 depending on guidelines and risk factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do T cell exhaustion and checkpoint blockade therapy interact in the context of chronic infections and cancer?",
+    "answer": "T cell exhaustion is a state of T cell dysfunction that develops during chronic infections and in the tumor microenvironment, characterized by reduced effector functions, impaired proliferative capacity, and sustained expression of inhibitory receptors (checkpoint molecules) such as PD-1, CTLA-4, TIM-3, and LAG-3. Chronic antigen stimulation and persistent inflammation drive the epigenetic and transcriptional changes that define T cell exhaustion. Exhausted T cells exhibit altered metabolism, reduced cytokine production (e.g., IFN-γ, TNF-α, IL-2), and decreased cytotoxic activity. Checkpoint blockade therapy, using antibodies that block inhibitory receptors like PD-1 or CTLA-4, aims to reverse T cell exhaustion and reinvigorate anti-tumor or anti-viral immune responses. By blocking these inhibitory signals, checkpoint inhibitors can enhance T cell activation, proliferation, and effector function. However, not all patients respond to checkpoint blockade, and resistance mechanisms are complex and multifactorial. Factors contributing to resistance include: lack of pre-existing T cell infiltration in the tumor, immunosuppressive tumor microenvironment, loss of antigen presentation, and intrinsic T cell defects. Biomarkers such as PD-L1 expression, tumor mutational burden (TMB), and presence of tumor-infiltrating lymphocytes (TILs) can help predict response to checkpoint blockade. Combination therapies targeting multiple checkpoints or combining checkpoint blockade with other immunomodulatory agents, such as chemotherapy or radiation, are being explored to overcome resistance and improve clinical outcomes. Understanding the molecular mechanisms underlying T cell exhaustion and resistance to checkpoint blockade is crucial for developing more effective immunotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for acute anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection, antihistamines (diphenhydramine), corticosteroids, and supportive measures including oxygen and IV fluids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host's innate and adaptive immune responses?",
+    "answer": "Viruses employ diverse strategies to evade the host's innate and adaptive immune responses. To counter innate immunity, viruses encode proteins that interfere with pattern recognition receptor (PRR) signaling pathways, such as RIG-I and TLRs, preventing the induction of type I interferons (IFNs). Some viruses encode decoy receptors that bind to cytokines or chemokines, neutralizing their activity and preventing immune cell recruitment. They can also inhibit the activity of antiviral proteins like PKR and RNase L. To evade adaptive immunity, viruses exhibit high mutation rates, allowing them to rapidly evolve and escape antibody recognition. Some viruses downregulate MHC class I expression on infected cells, preventing T cell recognition. Others encode proteins that interfere with antigen processing and presentation. They can also induce T cell exhaustion or apoptosis, suppressing antiviral T cell responses. Latency, where the virus establishes a persistent infection without active replication, is another strategy to evade immune surveillance. Viruses also exploit immunosuppressive mechanisms, such as induction of regulatory T cells (Tregs) or production of immunosuppressive cytokines like IL-10 and TGF-β. Understanding these viral evasion mechanisms is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for managing a patient with diabetic ketoacidosis (DKA)?",
+    "answer": "IV fluids, insulin infusion, and electrolyte replacement (especially potassium), monitoring glucose and electrolytes frequently.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modification, contribute to the development and progression of cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in the development and progression of cancer by altering gene expression patterns without changing the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), is associated with gene silencing. In cancer, aberrant DNA methylation patterns are common, with global hypomethylation leading to genomic instability and activation of oncogenes, and localized hypermethylation of tumor suppressor gene promoters leading to their inactivation. Histone modifications, such as acetylation and methylation, also regulate gene expression. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure, while histone deacetylation, mediated by histone deacetylases (HDACs), leads to chromatin condensation and gene silencing. Histone methylation can either activate or repress gene expression, depending on the specific lysine residue that is methylated and the number of methyl groups added. In cancer, dysregulation of histone modifying enzymes can lead to altered histone modification patterns and aberrant gene expression. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Drugs that inhibit DNA methyltransferases (DNMTs) or histone deacetylases (HDACs) have been developed and are used in the treatment of certain cancers. Furthermore, epigenetic modifications can influence the tumor microenvironment and immune responses, contributing to cancer progression and metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the recommended treatments for acute migraine?",
+    "answer": "Triptans, NSAIDs, antiemetics; consider CGRP antagonists for some patients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used immunosuppressant drugs in organ transplantation?",
+    "answer": "Immunosuppressant drugs used in organ transplantation act through diverse mechanisms to prevent allograft rejection. Calcineurin inhibitors (CNIs) like cyclosporine and tacrolimus inhibit T cell activation by blocking the phosphatase activity of calcineurin, which is required for the activation of the NFAT transcription factor and subsequent production of IL-2. mTOR inhibitors like sirolimus and everolimus block the mammalian target of rapamycin (mTOR) signaling pathway, inhibiting T cell proliferation and differentiation. Antiproliferative agents like mycophenolate mofetil (MMF) inhibit inosine monophosphate dehydrogenase (IMPDH), an enzyme required for de novo synthesis of guanine nucleotides, thereby suppressing lymphocyte proliferation. Corticosteroids like prednisone act as broad-spectrum immunosuppressants by inhibiting the production of pro-inflammatory cytokines and chemokines, suppressing lymphocyte activation, and promoting apoptosis of immune cells. Biologic agents like anti-CD25 antibodies (basiliximab) block IL-2 receptor signaling, inhibiting T cell activation. Other biologic agents like anti-CD20 antibodies (rituximab) deplete B cells. The choice of immunosuppressant regimen depends on the type of transplant, the risk of rejection, and the patient's overall health status. Combination immunosuppressant regimens are commonly used to achieve effective immunosuppression while minimizing side effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you diagnose heart failure with preserved ejection fraction (HFpEF)?",
+    "answer": "Clinical signs and symptoms of heart failure, normal or near-normal ejection fraction (≥50%), elevated natriuretic peptide levels, and evidence of diastolic dysfunction on echocardiography or cardiac catheterization.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer cell behavior and response to therapy?",
+    "answer": "The tumor microenvironment (TME) is a complex ecosystem surrounding cancer cells, comprising stromal cells (fibroblasts, immune cells, endothelial cells), extracellular matrix (ECM), soluble factors (cytokines, chemokines, growth factors), and physical cues (hypoxia, pH). The TME plays a critical role in influencing cancer cell behavior, including proliferation, survival, invasion, metastasis, and response to therapy. Cancer-associated fibroblasts (CAFs) secrete growth factors and ECM components that promote tumor growth and angiogenesis. Immune cells within the TME can either promote or suppress tumor growth, depending on their activation state and the balance of pro-inflammatory and immunosuppressive signals. Tumor-associated macrophages (TAMs) can promote tumor growth and metastasis by secreting growth factors, remodeling the ECM, and suppressing anti-tumor immune responses. Hypoxia within the TME induces angiogenesis and promotes a more aggressive tumor phenotype. The TME can also influence cancer cell metabolism and drug resistance. For example, acidosis within the TME can impair drug penetration and reduce drug efficacy. Targeting the TME is an emerging strategy for cancer therapy. Approaches include inhibiting angiogenesis, modulating immune cell activity, disrupting ECM remodeling, and normalizing the tumor vasculature. Combination therapies that target both cancer cells and the TME are being explored to improve treatment outcomes.",
+    "persona": "Researcher"
+  }
+]

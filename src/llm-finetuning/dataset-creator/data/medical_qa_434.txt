@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line antibiotics for uncomplicated cystitis per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted genome editing and what are the primary considerations for minimizing off-target effects?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to induce a double-strand break (DSB) at that specific location. The cell repairs the DSB via either non-homologous end joining (NHEJ), which can introduce insertions or deletions (indels) and disrupt gene function, or homology-directed repair (HDR) if a DNA template is provided, allowing for precise sequence replacement or insertion. Minimizing off-target effects involves careful gRNA design to avoid sequences with high similarity to other genomic regions, using Cas9 variants with enhanced specificity (e.g., SpCas9-HF1, eSpCas9), optimizing delivery methods to reduce Cas9 expression levels and exposure time, and employing paired Cas9 nickases that require two gRNAs to induce a DSB, thus increasing specificity. Furthermore, in silico prediction tools and experimental methods like GUIDE-seq, Digenome-seq, and CIRCLE-seq are used to identify and characterize potential off-target sites, enabling further refinement of gRNA design and experimental conditions to improve the accuracy and safety of CRISPR-Cas9-mediated genome editing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for heart failure with preserved ejection fraction (HFpEF)?",
+    "answer": "Symptoms/signs of HF, LVEF ≥50%, elevated BNP, and relevant structural heart disease or diastolic dysfunction are required for HFpEF diagnosis based on current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which cancer cells develop resistance to tyrosine kinase inhibitors (TKIs) in EGFR-mutated non-small cell lung cancer?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through diverse mechanisms, including the acquisition of secondary EGFR mutations (e.g., T790M, C797S) that sterically hinder TKI binding or restore EGFR kinase activity. Bypass signaling pathways, such as MET amplification, HER2 amplification, or activation of PI3K/AKT signaling, can circumvent EGFR inhibition and maintain downstream oncogenic signaling. Histological transformation to small cell lung cancer or epithelial-mesenchymal transition (EMT) can also confer TKI resistance. Furthermore, increased drug efflux via ABC transporters, epigenetic alterations affecting EGFR expression, and tumor microenvironment factors contribute to resistance. Combination strategies targeting multiple resistance mechanisms, next-generation TKIs that overcome specific mutations (e.g., osimertinib for T790M), and novel approaches like antibody-drug conjugates and immunotherapy are being developed to address TKI resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis in adults?",
+    "answer": "Empiric antibiotics (vancomycin plus ceftriaxone or cefotaxime) and dexamethasone should be started immediately, pending CSF results per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do the signaling pathways activated by PD-1 and CTLA-4 differ, and what are the implications for combination immunotherapy strategies?",
+    "answer": "PD-1 (Programmed cell death protein 1) and CTLA-4 (Cytotoxic T-lymphocyte-associated protein 4) are immune checkpoint receptors that negatively regulate T-cell activation, but they operate through distinct mechanisms and at different stages of the immune response. CTLA-4 primarily functions in the early priming phase in lymphoid organs by competing with CD28 for binding to B7 ligands (CD80/CD86) on antigen-presenting cells (APCs), thereby inhibiting T-cell activation and promoting regulatory T-cell (Treg) function. PD-1, on the other hand, mainly acts in peripheral tissues during the effector phase by binding to its ligands PD-L1 and PD-L2 expressed on tumor cells and other cells in the tumor microenvironment. PD-1 engagement inhibits T-cell receptor (TCR) signaling and effector functions such as cytokine production and cytotoxicity. Combining CTLA-4 and PD-1 blockade can enhance antitumor immunity by targeting both the early priming and late effector phases of the T-cell response. However, this combination also increases the risk of immune-related adverse events due to broader immune activation. Rational combination strategies aim to optimize the balance between efficacy and toxicity by selecting patients most likely to benefit, using lower doses or alternative schedules, and incorporating biomarkers to predict response and monitor immune-related toxicities.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial pharmacological treatment for type 2 diabetes?",
+    "answer": "Metformin is the recommended first-line oral agent for type 2 diabetes, unless contraindicated per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in influencing host immune responses and susceptibility to autoimmune diseases?",
+    "answer": "The gut microbiome profoundly influences host immune responses through multiple mechanisms. Commensal bacteria provide constant antigenic stimulation, shaping the development and function of the innate and adaptive immune systems. Microbial metabolites, such as short-chain fatty acids (SCFAs) like butyrate, acetate, and propionate, produced by bacterial fermentation of dietary fibers, can modulate immune cell function by inhibiting histone deacetylases (HDACs) and activating G-protein coupled receptors (GPCRs), influencing T-cell differentiation, macrophage polarization, and dendritic cell function. Dysbiosis, characterized by alterations in the composition and diversity of the gut microbiota, has been implicated in the pathogenesis of various autoimmune diseases. Specific bacterial species or microbial products can trigger autoimmune responses through molecular mimicry, where microbial antigens share structural similarity with self-antigens, leading to cross-reactive T-cell or B-cell activation. Furthermore, dysbiosis can disrupt the intestinal barrier, leading to increased permeability and translocation of bacterial products into the systemic circulation, triggering inflammation and promoting autoimmunity. Restoring gut microbial balance through dietary interventions, prebiotics, probiotics, or fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy for modulating immune responses and preventing or treating autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (if local resistance <25%) are recommended for outpatient CAP per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to cancer metastasis, and what technologies are used to detect and characterize them?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream, representing a crucial step in the metastatic cascade. CTCs can survive in the circulation, evade immune surveillance, and extravasate into distant organs, where they can seed new metastatic lesions. CTCs exhibit significant heterogeneity, with different subpopulations possessing varying metastatic potential. Some CTCs undergo epithelial-mesenchymal transition (EMT), acquiring mesenchymal characteristics that enhance their migratory and invasive capabilities. Technologies for detecting and characterizing CTCs include CellSearch, a FDA-cleared system for enumeration based on EpCAM capture; microfluidic devices that capture CTCs based on size or surface markers; and label-free methods that isolate CTCs based on physical properties. Single-cell sequencing of CTCs allows for detailed analysis of their genomic, transcriptomic, and proteomic profiles, providing insights into their metastatic potential and drug resistance mechanisms. Liquid biopsies based on CTC analysis hold promise for monitoring treatment response, predicting prognosis, and guiding personalized cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common causes of secondary hypertension?",
+    "answer": "Renal artery stenosis, primary aldosteronism, obstructive sleep apnea, and thyroid disorders are common causes of secondary hypertension.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the unfolded protein response (UPR) contribute to cellular adaptation and survival under endoplasmic reticulum (ER) stress, and what role does it play in disease pathogenesis?",
+    "answer": "The unfolded protein response (UPR) is a cellular stress response activated in response to the accumulation of unfolded or misfolded proteins in the endoplasmic reticulum (ER). The UPR aims to restore ER homeostasis by attenuating protein translation, increasing ER chaperone expression, and enhancing ER-associated degradation (ERAD) of misfolded proteins. Key UPR signaling pathways include IRE1α, PERK, and ATF6, which activate downstream transcription factors that regulate the expression of genes involved in protein folding, ER biogenesis, and autophagy. Under mild or transient ER stress, the UPR promotes cell survival by resolving protein misfolding and restoring ER function. However, chronic or unresolved ER stress can lead to sustained UPR activation, which can trigger apoptosis through activation of pro-apoptotic factors such as CHOP. Dysregulation of the UPR has been implicated in the pathogenesis of various diseases, including neurodegenerative disorders (e.g., Alzheimer's disease, Parkinson's disease), metabolic disorders (e.g., diabetes, obesity), and cancer. Modulation of the UPR is being explored as a therapeutic strategy for targeting ER stress in these diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with HPV testing?",
+    "answer": "Screening with primary HPV testing every 5 years is recommended for women 30-65 per ASCCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which long non-coding RNAs (lncRNAs) regulate gene expression, and what is their significance in cancer biology?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of RNA molecules longer than 200 nucleotides that do not encode proteins. They regulate gene expression through various mechanisms, including acting as scaffolds to bring together proteins and DNA, serving as guides to recruit chromatin-modifying complexes to specific genomic loci, acting as decoys to sequester transcription factors or other regulatory proteins, and functioning as enhancers to promote gene transcription. LncRNAs play critical roles in cancer biology by influencing various cellular processes, such as cell proliferation, apoptosis, metastasis, and drug resistance. For example, lncRNAs can regulate the expression of oncogenes and tumor suppressor genes, modulate signaling pathways, and influence the tumor microenvironment. Aberrant expression of lncRNAs has been observed in many types of cancer, and some lncRNAs have been identified as potential therapeutic targets. Targeting lncRNAs with antisense oligonucleotides or small molecule inhibitors is being explored as a novel approach for cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevations, and new-onset diabetes are potential side effects of statin therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to cellular homeostasis and survival, and what role does it play in neurodegenerative diseases?",
+    "answer": "Autophagy is a highly conserved cellular process involving the degradation and recycling of cytoplasmic components, including damaged organelles, protein aggregates, and intracellular pathogens. It plays a critical role in maintaining cellular homeostasis by removing toxic or dysfunctional components and providing building blocks for new synthesis. The process involves the formation of double-membrane vesicles called autophagosomes, which engulf the cargo and then fuse with lysosomes, where the cargo is degraded by lysosomal enzymes. Autophagy is regulated by a complex network of autophagy-related (ATG) genes. In neurodegenerative diseases, such as Alzheimer's disease, Parkinson's disease, and Huntington's disease, impaired autophagy contributes to the accumulation of misfolded proteins and damaged organelles, leading to neuronal dysfunction and cell death. Enhancing autophagy has been shown to be protective in preclinical models of these diseases. Therapeutic strategies aimed at promoting autophagy are being explored as a potential approach for treating neurodegenerative diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated diverticulitis?",
+    "answer": "Oral antibiotics are typically used for outpatient treatment of uncomplicated diverticulitis; IV antibiotics for severe cases or complications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the different mechanisms of action of various classes of antiarrhythmic drugs (e.g., Class I, Class II, Class III, Class IV)?",
+    "answer": "Antiarrhythmic drugs are classified into four main classes based on their primary mechanism of action on cardiac electrophysiology. Class I drugs are sodium channel blockers, which reduce the rate of sodium entry into cells, slowing conduction velocity and increasing the refractory period. Class II drugs are beta-adrenergic receptor blockers, which decrease sympathetic activity on the heart, reducing heart rate and contractility. Class III drugs are potassium channel blockers, which prolong the action potential duration and increase the effective refractory period. Class IV drugs are calcium channel blockers, which reduce calcium influx into cells, slowing conduction through the AV node and decreasing contractility. Each class has different effects on the action potential and different clinical indications for treating various types of arrhythmias.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine is the first-line medication; transcutaneous pacing may be needed if atropine is ineffective or bradycardia is severe per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do CAR T-cell therapies target and eliminate cancer cells, and what are the major challenges associated with their use?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a CAR, which is a synthetic receptor that recognizes a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain (e.g., a single-chain variable fragment or scFv) fused to intracellular signaling domains (e.g., CD3ζ and CD28 or 4-1BB) that activate the T cell upon antigen recognition. CAR T cells are infused back into the patient, where they bind to the target antigen on cancer cells, triggering T-cell activation, proliferation, and cytotoxic killing of the cancer cells. Major challenges associated with CAR T-cell therapy include cytokine release syndrome (CRS), a systemic inflammatory response caused by the release of cytokines from activated T cells and other immune cells; immune effector cell-associated neurotoxicity syndrome (ICANS), a neurological complication; on-target, off-tumor toxicity, where CAR T cells attack normal cells expressing the target antigen; and CAR T-cell resistance or relapse, which can occur due to antigen loss or T-cell exhaustion.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute anaphylaxis?",
+    "answer": "Intramuscular epinephrine injection into the mid-outer thigh; administer oxygen, and consider antihistamines and corticosteroids as adjuncts.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Mutations in the EGFR tyrosine kinase domain, such as the T790M mutation, sterically hinder the binding of reversible EGFR inhibitors like gefitinib and erlotinib. The T790M mutation increases the affinity of EGFR for ATP, thereby outcompeting the inhibitor. Third-generation EGFR inhibitors like osimertinib are designed to covalently bind EGFR, including EGFR with the T790M mutation, overcoming this resistance mechanism. However, acquired resistance to osimertinib can occur through mechanisms such as C797S mutations, which prevent covalent binding, or through bypass signaling pathways like MET amplification or activation of bypass signaling pathways such as the PI3K/AKT pathway.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (2 points), diabetes mellitus, prior stroke or TIA (2 points), vascular disease, age 65-74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of action of metformin in the treatment of type 2 diabetes?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis. This effect is mediated by activation of AMPK (AMP-activated protein kinase), which in turn suppresses the expression of gluconeogenic enzymes. Metformin also improves insulin sensitivity in peripheral tissues, such as skeletal muscle, enhancing glucose uptake and utilization. Additionally, metformin may have a modest effect on reducing intestinal glucose absorption and modulating gut microbiota composition. The exact molecular mechanisms of metformin action are still being investigated, but AMPK activation and alterations in mitochondrial function are considered central to its therapeutic effects. [PMID: 11163597]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or annual fecal immunochemical test (FIT), or flexible sigmoidoscopy every 5 years, or CT colonography every 5 years, starting at age 45, per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immune checkpoint blockade therapy enhance anti-tumor immunity?",
+    "answer": "Immune checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally suppress T cell activation and effector function. CTLA-4 blockade enhances T cell priming and activation in the lymph nodes by blocking the interaction of CTLA-4 with B7 molecules on antigen-presenting cells, leading to increased T cell co-stimulation. PD-1/PD-L1 blockade restores T cell effector function in the tumor microenvironment by preventing PD-1 on T cells from binding to PD-L1 expressed on tumor cells or antigen-presenting cells. This releases the inhibitory signal and allows T cells to kill tumor cells. The efficacy of immune checkpoint blockade depends on pre-existing tumor-infiltrating lymphocytes and the expression of target molecules like PD-L1 on tumor cells. [PMID: 28890398]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days; fosfomycin as a single dose is also an option.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Key signaling pathways implicated in Alzheimer's disease (AD) pathogenesis include amyloid precursor protein (APP) processing, tau phosphorylation, and neuroinflammation. Aberrant APP processing leads to the accumulation of amyloid-beta (Aβ) plaques, which trigger downstream signaling cascades involving kinases such as GSK-3β and CDK5, leading to hyperphosphorylation of tau protein and the formation of neurofibrillary tangles. Chronic neuroinflammation, driven by activated microglia and astrocytes, releases inflammatory mediators like cytokines and reactive oxygen species, exacerbating neuronal damage and synaptic dysfunction. These processes disrupt synaptic plasticity, impair neuronal survival, and ultimately lead to cognitive decline. Genetic factors like mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), as well as environmental factors, can modulate these signaling pathways and contribute to AD pathogenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem); consider anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors. Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to anti-PD-1 therapy in melanoma and lung cancer patients. These bacteria can enhance anti-tumor immunity by modulating the composition and function of immune cells in the tumor microenvironment. For example, some gut bacteria can promote the trafficking of T cells to the tumor, enhance dendritic cell maturation, and increase the production of immunostimulatory cytokines. Conversely, dysbiosis of the gut microbiome, often caused by antibiotic use or dietary factors, can impair the efficacy of immunotherapy. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation or the use of prebiotics and probiotics, are being investigated as potential approaches to enhance the efficacy of cancer immunotherapy. [PMID: 29094652]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (azithromycin or clarithromycin) if local resistance is low.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of insulin resistance in obesity?",
+    "answer": "Insulin resistance in obesity is a complex phenomenon involving multiple molecular mechanisms. Adipocyte hypertrophy and increased lipolysis in obese individuals lead to elevated levels of circulating free fatty acids (FFAs). FFAs activate inflammatory pathways, such as the JNK and IKKβ pathways, which phosphorylate serine residues on insulin receptor substrate 1 (IRS-1), impairing insulin signaling. Adipose tissue also secretes adipokines, such as TNF-α and IL-6, which further promote inflammation and insulin resistance. Furthermore, endoplasmic reticulum (ER) stress, caused by the accumulation of unfolded proteins in response to nutrient overload, activates stress kinases that interfere with insulin signaling. Mitochondrial dysfunction and impaired glucose transport also contribute to insulin resistance in skeletal muscle and liver. These mechanisms collectively disrupt insulin signaling and impair glucose uptake and utilization, leading to hyperglycemia and the development of type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) such as rivaroxaban or apixaban; alternatively, warfarin or low-molecular-weight heparin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression and cellular identity, and their dysregulation is a hallmark of cancer. DNA methylation, particularly at CpG islands in promoter regions, can silence tumor suppressor genes, while hypomethylation can activate oncogenes. Histone modifications, such as histone acetylation and methylation, alter chromatin structure and accessibility, affecting gene transcription. For instance, histone deacetylases (HDACs) remove acetyl groups from histones, leading to chromatin condensation and gene repression. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by targeting mRNA transcripts for degradation or translational repression. Aberrant expression of miRNAs can promote oncogenesis or suppress tumor growth. Epigenetic modifications are reversible and can be targeted by epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, offering a therapeutic approach to restore normal gene expression patterns in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time seizure?",
+    "answer": "Evaluate for underlying causes (e.g., EEG, imaging); consider anti-epileptic drug (AED) if high risk of recurrence or after a second unprovoked seizure.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system, including interfering with interferon signaling, inhibiting antigen presentation, and inducing immune cell apoptosis. Many viruses encode proteins that block the production or signaling of type I interferons (IFN-α/β), which are critical for antiviral defense. For example, some viruses express proteins that inhibit the activation of transcription factors IRF3 and IRF7, which are essential for IFN gene expression. Other viruses interfere with antigen presentation by downregulating MHC class I molecules on infected cells or by blocking the transport of viral peptides to the endoplasmic reticulum. Some viruses also induce apoptosis of immune cells, such as T cells and NK cells, to suppress the immune response. Additionally, viruses can undergo rapid mutation to escape recognition by neutralizing antibodies and T cells. These evasion mechanisms allow viruses to persist in the host and cause chronic infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical initial pharmacological management for heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "Angiotensin-converting enzyme inhibitor (ACEI) or angiotensin receptor neprilysin inhibitor (ARNI), beta-blocker, mineralocorticoid receptor antagonist (MRA), and SGLT2 inhibitor, as tolerated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment promote metastasis?",
+    "answer": "The tumor microenvironment (TME) promotes metastasis through complex interactions between cancer cells and stromal components, including fibroblasts, immune cells, and the extracellular matrix (ECM). Cancer-associated fibroblasts (CAFs) secrete growth factors and ECM remodeling enzymes that facilitate tumor cell invasion and migration. Immune cells, such as tumor-associated macrophages (TAMs), can promote angiogenesis and suppress anti-tumor immunity, creating a permissive environment for metastasis. The ECM provides structural support and signaling cues that regulate cell behavior. Remodeling of the ECM by matrix metalloproteinases (MMPs) creates pathways for tumor cells to disseminate to distant sites. Hypoxia and nutrient deprivation in the TME can induce epithelial-mesenchymal transition (EMT), a process that enhances tumor cell motility and invasiveness. The TME also promotes the formation of pre-metastatic niches at distant sites, preparing them for the arrival of metastatic cells. [PMID: 22237423]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the mainstays of treatment for Parkinson's disease?",
+    "answer": "Levodopa/carbidopa; dopamine agonists (e.g., pramipexole, ropinirole); MAO-B inhibitors (e.g., selegiline, rasagiline); and/or COMT inhibitors (e.g., entacapone) to manage motor symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms involved in the pathogenesis of autoimmune diseases?",
+    "answer": "The pathogenesis of autoimmune diseases involves a complex interplay of genetic, environmental, and immunological factors that lead to the breakdown of self-tolerance and the activation of autoreactive lymphocytes. Genetic susceptibility is conferred by multiple genes, including HLA alleles, which influence antigen presentation and T cell activation. Environmental triggers, such as infections, can activate innate immune responses and promote the production of autoantigens through molecular mimicry or bystander activation. Dysregulation of immune checkpoints, such as CTLA-4 and PD-1, can impair the suppression of autoreactive T cells. B cells contribute to autoimmunity by producing autoantibodies and acting as antigen-presenting cells. Cytokines, such as TNF-α, IL-1, and IL-6, play a critical role in driving inflammation and tissue damage in autoimmune diseases. The combined effect of these mechanisms leads to chronic inflammation and destruction of self-tissues.",
+    "persona": "Researcher"
+  }
+]

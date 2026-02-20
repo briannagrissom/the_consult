@@ -1,0 +1,37 @@
+# Node modules / dependencies
+node_modules/
+bower_components/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment / secrets
+.env
+.env.*
+.venv
+secrets
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Docker files
+docker-compose.override.yml
+
+# Git
+.git
+.gitignore
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd

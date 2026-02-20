@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV; may repeat every 3-5 minutes to a maximum of 3mg. Consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 is a revolutionary gene editing tool derived from a bacterial adaptive immune system. It utilizes a guide RNA (gRNA) molecule, typically about 20 nucleotides long, that is designed to be complementary to a specific DNA sequence in the genome of interest. This gRNA forms a complex with the Cas9 enzyme, which is an RNA-guided DNA endonuclease. The gRNA guides the Cas9 enzyme to the target DNA sequence, where Cas9 then creates a double-stranded break (DSB). The cell's endogenous DNA repair mechanisms then kick in to repair the DSB. There are two main pathways for repair: non-homologous end joining (NHEJ), which is error-prone and often results in insertions or deletions (indels) that disrupt the gene, and homology-directed repair (HDR), which uses a provided DNA template to repair the break with high fidelity, allowing for precise gene editing or insertion of new sequences. The efficiency and specificity of CRISPR-Cas9 are influenced by factors such as the design of the gRNA, the concentration of Cas9 protein, and the cell type being targeted. Off-target effects, where Cas9 cleaves DNA at unintended sites, remain a concern and are being actively addressed through improved Cas9 variants and gRNA design strategies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the typical laboratory findings in a patient with new-onset diabetic ketoacidosis (DKA)?",
+    "answer": "Hyperglycemia (glucose >250 mg/dL), metabolic acidosis (pH <7.3, bicarbonate <18 mEq/L), and ketonemia/ketonuria.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and sulfonylureas in the treatment of type 2 diabetes mellitus.",
+    "answer": "Metformin primarily reduces hepatic glucose production and improves insulin sensitivity in peripheral tissues such as muscle, thereby decreasing fasting glucose levels. It activates AMPK, a cellular energy sensor, which leads to downstream effects like decreased gluconeogenesis and increased glucose uptake. Metformin does not directly stimulate insulin secretion and carries a low risk of hypoglycemia when used as monotherapy. Sulfonylureas, on the other hand, directly stimulate insulin release from pancreatic beta cells by binding to the SUR1 subunit of the ATP-sensitive potassium channel, leading to membrane depolarization and calcium influx. This results in increased insulin secretion regardless of glucose levels, which accounts for their higher risk of hypoglycemia. While both drug classes lower blood glucose, their mechanisms are distinct, and sulfonylureas can lose efficacy over time as beta-cell function declines, whereas metformin's effects are more sustained.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) following percutaneous coronary intervention (PCI) with drug-eluting stents in a patient with stable coronary artery disease?",
+    "answer": "Generally 6 months, but may be shortened to 3 months or extended based on bleeding risk and ischemic risk.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors, such as anti-PD-1 antibodies, enhance antitumor immunity at the molecular level?",
+    "answer": "Checkpoint inhibitors, specifically anti-PD-1 (programmed cell death protein 1) and anti-CTLA-4 (cytotoxic T-lymphocyte-associated protein 4) antibodies, reinvigorate exhausted T cells in the tumor microenvironment. PD-1 is an inhibitory receptor expressed on T cells that binds to its ligands PD-L1 and PD-L2, which are often overexpressed on tumor cells and antigen-presenting cells. This interaction delivers an inhibitory signal that suppresses T-cell activation, proliferation, and cytokine production, thus preventing effective antitumor immunity. Anti-PD-1 antibodies block this interaction, allowing T cells to recognize and kill tumor cells more effectively. CTLA-4, another inhibitory receptor on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells. By blocking CTLA-4, anti-CTLA-4 antibodies enhance T-cell activation and proliferation, particularly in the early stages of T-cell priming in lymph nodes. The combined use of anti-PD-1 and anti-CTLA-4 antibodies can lead to synergistic antitumor effects, but also increases the risk of immune-related adverse events. The efficacy of checkpoint inhibitors is influenced by factors such as the level of PD-L1 expression on tumor cells, the mutational burden of the tumor, and the presence of pre-existing T-cell infiltration in the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin monohydrate/macrocrystals 100mg PO BID for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) DS PO BID for 3 days.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder involving multiple signaling pathways. Amyloid precursor protein (APP) processing and amyloid-beta (Aβ) aggregation are central to the amyloid cascade hypothesis. Aberrant cleavage of APP by β-secretase and γ-secretase leads to Aβ plaques, triggering downstream events. Tau hyperphosphorylation and neurofibrillary tangle formation are also critical, impairing axonal transport and neuronal function. Key signaling pathways implicated in these processes include: (1) GSK-3β, which phosphorylates tau; (2) CDK5, another tau kinase; (3) Wnt signaling, important for neuronal survival; (4) PI3K/Akt/mTOR, regulating cell growth and metabolism; (5) inflammatory pathways involving microglia and astrocytes, releasing cytokines and chemokines that exacerbate neurodegeneration; and (6) calcium dysregulation, leading to excitotoxicity and neuronal damage. Genetic factors like mutations in APP, presenilin 1 and 2, and APOE4 contribute to AD risk by influencing these pathways. Therapeutic strategies targeting these pathways are under active investigation, including secretase inhibitors, tau aggregation inhibitors, and anti-inflammatory agents.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial pharmacological treatment for a patient diagnosed with hypothyroidism?",
+    "answer": "Levothyroxine, with the dosage adjusted based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, influence gene expression in cancer cells?",
+    "answer": "Epigenetic modifications play a critical role in regulating gene expression without altering the underlying DNA sequence. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpG islands), is generally associated with gene silencing. In cancer cells, aberrant DNA methylation patterns are common, leading to hypermethylation of tumor suppressor genes and hypomethylation of oncogenes. Histone modifications, such as acetylation and methylation, affect chromatin structure and accessibility to transcription factors. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure. Conversely, histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to chromatin condensation and gene repression. Cancer cells often exhibit altered histone modification patterns, contributing to dysregulation of gene expression. For example, silencing of DNA repair genes through DNA methylation and histone deacetylation can promote genomic instability and tumor progression. Epigenetic drugs, such as DNA methyltransferase inhibitors and HDAC inhibitors, are used in cancer therapy to reverse these aberrant epigenetic modifications and restore normal gene expression patterns.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the main components of the CHA2DS2-VASc score and how is it used?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (2 points), Diabetes mellitus, Stroke/TIA/thromboembolism (2 points), Vascular disease, Age 65-74, Sex category (female). It is used to assess stroke risk in patients with atrial fibrillation to guide anticoagulation decisions.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms by which different classes of antibiotics target bacterial cells.",
+    "answer": "Antibiotics target bacteria via several distinct mechanisms. Beta-lactams (e.g., penicillins, cephalosporins) inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), preventing peptidoglycan cross-linking. Glycopeptides (e.g., vancomycin) also inhibit cell wall synthesis but bind to the D-Ala-D-Ala terminus of peptidoglycan precursors, preventing their incorporation into the cell wall. Aminoglycosides (e.g., gentamicin) bind to the 30S ribosomal subunit, inhibiting protein synthesis and causing misreading of mRNA. Tetracyclines also bind to the 30S ribosomal subunit, blocking tRNA binding. Macrolides (e.g., erythromycin) bind to the 23S rRNA of the 50S ribosomal subunit, inhibiting translocation during protein synthesis. Fluoroquinolones (e.g., ciprofloxacin) inhibit bacterial DNA replication by targeting DNA gyrase and topoisomerase IV. Sulfonamides inhibit folate synthesis by competing with PABA for dihydropteroate synthase. Trimethoprim inhibits dihydrofolate reductase, another enzyme in the folate synthesis pathway. These different mechanisms allow for broad-spectrum activity and are targets for bacterial resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection, antihistamines (H1 and H2 blockers), and corticosteroids. Ensure airway management and provide supplemental oxygen.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting the gut microbiome influence the efficacy of cancer treatment?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy of cancer immunotherapy, particularly checkpoint inhibitors such as anti-PD-1 and anti-CTLA-4 antibodies. Specific bacterial species can enhance or suppress anti-tumor immune responses. For instance, certain bacteria like *Akkermansia muciniphila* and *Bifidobacterium* species have been associated with improved responses to checkpoint inhibitors, possibly by enhancing T-cell activation and infiltration into tumors. Conversely, other bacteria can promote immune suppression and reduce treatment efficacy. The mechanisms by which the microbiome influences immunotherapy involve modulation of the host's immune system. Gut bacteria can stimulate the production of cytokines, such as IL-12 and IFN-γ, which promote T-cell activation. They can also influence the composition and function of immune cells in the tumor microenvironment. Furthermore, microbial metabolites, such as short-chain fatty acids (SCFAs), can impact immune cell function and tumor growth. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored to improve the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial diagnostic test for a patient suspected of having pulmonary embolism?",
+    "answer": "Assess pretest probability (e.g., Wells score or Geneva score). If low probability, use a D-dimer test. If elevated D-dimer or intermediate/high pretest probability, perform CT pulmonary angiography (CTPA).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Describe the molecular mechanisms underlying the pathogenesis of cystic fibrosis.",
+    "answer": "Cystic fibrosis (CF) is caused by mutations in the CFTR (cystic fibrosis transmembrane conductance regulator) gene, which encodes a chloride ion channel expressed in epithelial cells. The most common mutation, ΔF508, results in misfolding and retention of the CFTR protein in the endoplasmic reticulum, leading to its degradation and reduced chloride transport at the cell surface. Other mutations affect CFTR synthesis, processing, trafficking, or channel function. Reduced chloride transport leads to decreased water secretion and increased sodium absorption, resulting in thick, viscous mucus in the lungs, pancreas, and other organs. In the lungs, this thick mucus obstructs airways, leading to chronic bacterial infections, inflammation, and progressive lung damage. In the pancreas, mucus accumulation blocks enzyme secretion, leading to malabsorption and pancreatic insufficiency. CFTR dysfunction also affects sweat glands, resulting in elevated sweat chloride levels, which is used for diagnosis. The severity of CF symptoms varies depending on the specific CFTR mutation. CFTR modulators, such as ivacaftor and lumacaftor, can improve CFTR function and reduce symptoms in patients with certain mutations. Ivacaftor potentiates the channel activity of some mutant CFTR proteins, while lumacaftor helps to correct the folding defect of the ΔF508 CFTR protein, allowing it to reach the cell surface.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for generalized tonic-clonic seizures?",
+    "answer": "Lorazepam or diazepam intravenously or midazolam intramuscularly.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what are the implications for vaccine development?",
+    "answer": "Viruses employ diverse strategies to evade host immune responses. One common mechanism is antigenic variation, where viruses mutate rapidly to alter their surface proteins (e.g., hemagglutinin and neuraminidase in influenza virus), making them unrecognizable to pre-existing antibodies. Some viruses interfere with interferon (IFN) signaling, a critical antiviral defense mechanism. For example, some viruses encode proteins that inhibit IFN production or block IFN-stimulated gene expression. Others directly suppress the activity of immune cells, such as T cells and natural killer (NK) cells. Viruses can also establish latency, where they persist in a dormant state within host cells, evading immune detection. These immune evasion strategies pose significant challenges for vaccine development. Vaccines must elicit broadly neutralizing antibodies that can recognize diverse viral strains, even those with antigenic variations. Adjuvants are often used to enhance vaccine immunogenicity and promote long-lasting immunity. Live attenuated vaccines can elicit strong cellular and humoral immune responses, but carry a risk of reversion to virulence. Subunit vaccines, which contain only specific viral proteins, are safer but may require multiple doses and potent adjuvants to induce protective immunity. Understanding viral immune evasion mechanisms is crucial for designing effective vaccines that can overcome these challenges and provide long-lasting protection against viral infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with acute gout flare?",
+    "answer": "NSAIDs, colchicine, or corticosteroids. Consider intra-articular corticosteroid injection.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CAR T-cell therapy and allogeneic hematopoietic stem cell transplantation (HSCT) in treating hematologic malignancies?",
+    "answer": "CAR T-cell therapy and allogeneic HSCT are both immunotherapeutic approaches for treating hematologic malignancies, but they differ significantly in their mechanisms and applications. CAR T-cell therapy involves genetically engineering a patient's own T cells (or, in some cases, donor T cells) to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on tumor cells. These CAR T cells are then infused back into the patient, where they selectively kill tumor cells expressing the target antigen. CAR T-cell therapy offers the potential for targeted tumor eradication and long-term remission in certain hematologic malignancies, such as B-cell lymphomas and acute lymphoblastic leukemia. Allogeneic HSCT, on the other hand, involves transplanting hematopoietic stem cells from a healthy donor to replace the patient's own bone marrow and immune system. Allogeneic HSCT relies on the graft-versus-tumor (GVT) effect, where donor-derived immune cells recognize and eliminate residual tumor cells in the recipient. Allogeneic HSCT can provide a curative option for a broader range of hematologic malignancies, but is associated with significant risks of graft-versus-host disease (GVHD) and other complications. CAR T-cell therapy is typically used in patients who have relapsed or are refractory to standard chemotherapy and HSCT, while allogeneic HSCT is often considered as a first-line treatment option for certain high-risk hematologic malignancies.",
+    "persona": "Researcher"
+  }
+]

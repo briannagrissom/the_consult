@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin monohydrate/macrocrystals for 5 days or trimethoprim-sulfamethoxazole for 3 days, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate gene editing in mammalian cells, and what are the key considerations for ensuring specificity and minimizing off-target effects?",
+    "answer": "CRISPR-Cas9 enables targeted gene editing through a two-component system: the Cas9 endonuclease, which creates double-stranded DNA breaks, and a guide RNA (gRNA) that directs Cas9 to a specific genomic location based on sequence complementarity. The gRNA, typically 20 nucleotides long, pairs with the target DNA site adjacent to a protospacer adjacent motif (PAM), which for SpCas9 is NGG. Once Cas9 cleaves the DNA, the cell's repair mechanisms are activated, leading to either non-homologous end joining (NHEJ), which often introduces insertions or deletions (indels) that disrupt gene function, or homology-directed repair (HDR), which can be used to insert a user-defined DNA sequence if a donor template is provided. Achieving high specificity and minimizing off-target effects are crucial for therapeutic applications. Several strategies are employed, including careful gRNA design to avoid sequences with high similarity to other genomic regions, using modified Cas9 variants with enhanced specificity (e.g., eSpCas9, SpCas9-HF1), delivering Cas9 as a ribonucleoprotein complex (RNP) to limit its duration of activity, and employing paired Cas9 nickases that require two gRNAs to induce a double-strand break. Thorough off-target analysis, such as whole-genome sequencing or targeted deep sequencing of predicted off-target sites, is also essential to validate the safety and accuracy of CRISPR-Cas9-mediated gene editing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common initial laboratory tests for evaluating a patient with suspected hypothyroidism?",
+    "answer": "TSH and free T4.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease, and how do they contribute to neuronal dysfunction and death?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves multiple interacting signaling pathways that lead to neuronal dysfunction and death. Amyloid precursor protein (APP) processing via the amyloidogenic pathway, involving β-secretase (BACE1) and γ-secretase, generates amyloid-β (Aβ) peptides, particularly Aβ42, which aggregate to form plaques. These plaques trigger inflammatory responses mediated by microglia and astrocytes, releasing cytokines and reactive oxygen species that induce oxidative stress and synaptic damage. Aβ oligomers also impair synaptic plasticity by disrupting long-term potentiation (LTP) and long-term depression (LTD) mechanisms. Tau hyperphosphorylation, driven by kinases such as GSK-3β and CDK5, leads to the formation of neurofibrillary tangles, which disrupt microtubule stability and axonal transport. Aberrant activation of the unfolded protein response (UPR) due to ER stress further contributes to neuronal dysfunction. Perturbations in calcium homeostasis, mediated by dysregulation of ion channels and glutamate receptors (e.g., NMDA receptors), cause excitotoxicity and neuronal apoptosis. Additionally, impaired insulin signaling and glucose metabolism, often linked to insulin resistance in the brain, exacerbate AD pathology. These converging pathways highlight the complexity of AD and suggest that multi-targeted therapeutic strategies may be necessary to effectively combat the disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for colonoscopy in average-risk individuals?",
+    "answer": "Every 10 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in cancer cells, and what therapeutic strategies target these modifications?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation, play a crucial role in regulating gene expression in cancer cells. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpG islands) in gene promoters, is associated with transcriptional repression by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs). Hypermethylation of tumor suppressor genes is a common mechanism for silencing their expression in cancer. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure and facilitating transcription factor binding. Conversely, histone deacetylation, mediated by HDACs, leads to chromatin condensation and transcriptional repression. Cancer cells often exhibit aberrant patterns of DNA methylation and histone acetylation, contributing to oncogene activation and tumor suppressor gene silencing. Therapeutic strategies targeting these epigenetic modifications include DNA methyltransferase inhibitors (DNMTis), such as azacitidine and decitabine, which reverse DNA methylation and restore tumor suppressor gene expression. HDAC inhibitors (HDACis), such as vorinostat and romidepsin, inhibit HDAC activity, leading to histone acetylation and the activation of previously silenced genes. Combination therapies involving DNMTis and HDACis have shown promise in treating certain cancers by synergistically reversing epigenetic silencing and enhancing antitumor immune responses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers; consider anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system, and how can these mechanisms be targeted to develop novel antiviral therapies?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, allowing them to establish persistent infections and cause disease. One common mechanism is the suppression of interferon (IFN) signaling. Many viruses encode proteins that interfere with the production, secretion, or signaling of type I IFNs, which are crucial for initiating antiviral responses. For example, some viruses encode proteins that block the activation of IFN regulatory factors (IRFs) or inhibit the JAK-STAT signaling pathway downstream of IFN receptors. Viruses can also evade antibody-mediated neutralization by undergoing antigenic variation, such as mutations in surface glycoproteins like hemagglutinin (HA) and neuraminidase (NA) in influenza viruses. Some viruses, like HIV, establish latency by integrating their genome into the host cell's DNA, making them difficult to eradicate. Others, such as herpesviruses, express proteins that inhibit apoptosis or block the presentation of viral antigens on MHC class I molecules, preventing recognition by cytotoxic T lymphocytes (CTLs). Targeting these evasion mechanisms represents a promising approach for developing novel antiviral therapies. For instance, inhibiting viral proteases required for processing viral proteins can disrupt viral replication. Monoclonal antibodies that neutralize viral surface proteins or block viral entry into cells can prevent infection. Immunomodulatory therapies that enhance the host's immune response, such as IFN-α or TLR agonists, can also help to control viral infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial pharmacological treatment for a patient with type 2 diabetes mellitus and established cardiovascular disease?",
+    "answer": "SGLT2 inhibitor or GLP-1 receptor agonist with proven cardiovascular benefit, per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, enhance antitumor immunity, and what are the major mechanisms of resistance to these therapies?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, enhance antitumor immunity by blocking inhibitory signals that normally suppress T cell activation and effector function. CTLA-4, expressed on T cells, binds to B7 molecules on antigen-presenting cells (APCs), inhibiting T cell activation during the early stages of the immune response in lymph nodes. Anti-CTLA-4 antibodies block this interaction, allowing for enhanced T cell priming and activation. PD-1, expressed on T cells, binds to PD-L1 or PD-L2 on tumor cells or immune cells in the tumor microenvironment, inhibiting T cell effector function and promoting T cell exhaustion. Anti-PD-1 antibodies block this interaction, restoring T cell activity and promoting tumor cell killing. Major mechanisms of resistance to checkpoint inhibitors include intrinsic tumor resistance, such as loss of antigen presentation due to mutations in MHC genes or β2-microglobulin, and adaptive immune resistance, such as upregulation of alternative immune checkpoints (e.g., TIM-3, LAG-3) or recruitment of immunosuppressive cells (e.g., regulatory T cells, myeloid-derived suppressor cells) into the tumor microenvironment. Other resistance mechanisms include defects in IFN-γ signaling, mutations in DNA repair genes, and alterations in the gut microbiome. Strategies to overcome resistance include combination therapies with other immunotherapies, targeted therapies, or chemotherapy; modulation of the tumor microenvironment; and personalized approaches based on biomarkers of response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) plus dexamethasone.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major risk factors for the development of osteoarthritis, and how do these factors contribute to cartilage degradation and joint damage?",
+    "answer": "Major risk factors for osteoarthritis (OA) include age, obesity, prior joint injury, genetics, and sex (female). Aging is associated with decreased chondrocyte activity, reduced synthesis of extracellular matrix components, and increased susceptibility to oxidative stress and inflammation. Obesity increases mechanical loading on weight-bearing joints, promoting cartilage breakdown and inflammation. Adipokines released from adipose tissue can also contribute to OA pathogenesis. Prior joint injury, such as ligament tears or fractures, can disrupt joint biomechanics and accelerate cartilage degeneration. Genetic factors play a significant role in OA susceptibility, influencing cartilage structure, bone remodeling, and inflammatory responses. Several genes have been associated with increased risk of OA, including those involved in collagen synthesis, matrix metalloproteinase (MMP) regulation, and cytokine signaling. Sex differences in OA prevalence and severity may be related to hormonal factors, such as estrogen deficiency, which can affect cartilage metabolism and bone density. These risk factors contribute to cartilage degradation and joint damage through multiple mechanisms, including increased mechanical stress, inflammation, oxidative stress, and impaired cartilage repair. Dysregulation of matrix metalloproteinases (MMPs) and aggrecanases leads to the breakdown of collagen and aggrecan, the major components of cartilage. Chondrocyte apoptosis and senescence further contribute to cartilage loss. Subchondral bone remodeling and osteophyte formation also play a role in OA progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial imaging modality for evaluating a patient with suspected pulmonary embolism?",
+    "answer": "CT pulmonary angiogram (CTPA).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does gene therapy using adeno-associated viral (AAV) vectors work, and what are the key challenges and limitations associated with this approach?",
+    "answer": "Gene therapy using adeno-associated viral (AAV) vectors involves delivering a therapeutic gene into target cells to treat genetic disorders or acquired diseases. AAV vectors are derived from non-pathogenic parvoviruses and are engineered to be replication-defective by removing viral genes and replacing them with a therapeutic transgene cassette, which typically includes a promoter, the therapeutic gene, and a polyadenylation signal. AAV vectors transduce cells by binding to specific cell surface receptors, followed by internalization via endocytosis. Once inside the cell, the AAV vector is transported to the nucleus, where the single-stranded DNA genome is converted into double-stranded DNA and persists as an extrachromosomal episome, allowing for long-term gene expression without integration into the host genome (although integration can occur at low frequencies). Key advantages of AAV vectors include their broad tropism, high transduction efficiency, and low immunogenicity. However, there are also several challenges and limitations associated with this approach. One major challenge is pre-existing immunity to AAV, as many individuals have been exposed to wild-type AAV and have neutralizing antibodies that can reduce transduction efficiency. Another limitation is the relatively small packaging capacity of AAV vectors (approximately 4.7 kb), which restricts the size of the therapeutic gene that can be delivered. Insertional mutagenesis due to AAV integration into the host genome is a potential safety concern. Finally, the high cost of AAV vector production and the need for large-scale manufacturing are significant barriers to widespread clinical application.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (if local resistance <25%).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of action of metformin in the treatment of type 2 diabetes mellitus, and how does it improve glycemic control?",
+    "answer": "Metformin is a first-line oral medication for type 2 diabetes mellitus (T2DM) and exerts its glucose-lowering effects through multiple mechanisms. The primary mechanism involves the activation of AMP-activated protein kinase (AMPK), a cellular energy sensor that regulates glucose and lipid metabolism. AMPK activation by metformin in the liver suppresses hepatic glucose production (HGP) by inhibiting gluconeogenesis and glycogenolysis. Metformin also improves insulin sensitivity in peripheral tissues, such as skeletal muscle, by enhancing glucose uptake and utilization. This effect is partly mediated by increased expression and translocation of glucose transporter 4 (GLUT4) to the cell membrane. In the intestine, metformin alters the gut microbiome composition, increasing the abundance of bacteria that produce short-chain fatty acids (SCFAs), which can improve glucose homeostasis. Metformin also reduces glucose absorption from the intestine, contributing to its overall glucose-lowering effect. By reducing HGP, improving insulin sensitivity, and modulating gut microbiota, metformin effectively lowers fasting and postprandial blood glucose levels, leading to improved glycemic control in patients with T2DM.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial management for acute stroke?",
+    "answer": "Rapid assessment, thrombolysis with alteplase within 4.5 hours if eligible, or endovascular thrombectomy if large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer progression and metastasis, and what therapeutic strategies target the TME to improve treatment outcomes?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in cancer progression and metastasis by providing a supportive niche that promotes tumor cell survival, proliferation, angiogenesis, and immune evasion. The TME consists of various cellular and non-cellular components, including fibroblasts, immune cells (e.g., macrophages, T cells), endothelial cells, extracellular matrix (ECM), and soluble factors (e.g., cytokines, growth factors). Cancer-associated fibroblasts (CAFs) secrete ECM components, such as collagen and fibronectin, which provide structural support and promote tumor cell invasion. Immune cells in the TME can either suppress or enhance antitumor immunity, depending on their phenotype and activation state. For example, tumor-associated macrophages (TAMs) can promote tumor growth and angiogenesis, while cytotoxic T lymphocytes (CTLs) can kill tumor cells. Endothelial cells form new blood vessels that supply nutrients and oxygen to the tumor, supporting its growth and spread. Therapeutic strategies targeting the TME include anti-angiogenic therapies that inhibit blood vessel formation, immunomodulatory therapies that enhance antitumor immunity, and ECM-modifying agents that disrupt the structural support provided by the TME. Combination therapies that target both tumor cells and the TME have shown promise in improving treatment outcomes in various cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended prophylaxis for preventing Pneumocystis jirovecii pneumonia (PCP) in immunocompromised patients?",
+    "answer": "Trimethoprim-sulfamethoxazole (TMP-SMX).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do current next-generation sequencing (NGS) technologies enhance our understanding of genomic alterations in cancer, and how are these technologies used to guide personalized cancer therapy?",
+    "answer": "Next-generation sequencing (NGS) technologies have revolutionized our understanding of genomic alterations in cancer by enabling rapid, high-throughput sequencing of entire genomes, exomes, or targeted gene panels. NGS allows for the identification of somatic mutations, copy number alterations, structural variations, and gene fusions in cancer cells, providing a comprehensive view of the genomic landscape of individual tumors. These technologies are used to identify driver mutations that promote cancer development and progression, as well as resistance mechanisms that limit the effectiveness of targeted therapies. NGS is also used to identify predictive biomarkers that can guide personalized cancer therapy by selecting patients who are most likely to respond to specific treatments. For example, patients with EGFR-mutated non-small cell lung cancer are more likely to respond to EGFR tyrosine kinase inhibitors (TKIs), while patients with BRAF-mutated melanoma are more likely to respond to BRAF inhibitors. NGS is also used to monitor treatment response and detect minimal residual disease, allowing for early intervention and prevention of relapse. Furthermore, NGS is used to identify novel drug targets and develop new therapeutic strategies for cancer.",
+    "persona": "Researcher"
+  }
+]

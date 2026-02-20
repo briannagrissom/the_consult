@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 endonuclease to that specific location in the genome. The Cas9 protein then induces a double-stranded break (DSB) in the DNA. The cell's endogenous repair mechanisms, either non-homologous end joining (NHEJ) or homology-directed repair (HDR), are then activated to repair the break. NHEJ is error-prone, often leading to insertions or deletions (indels) that disrupt the gene. HDR, if a DNA template with homology to the target site is provided, allows for precise gene editing by incorporating the template sequence into the genome. The specificity of CRISPR-Cas9 is determined by the gRNA sequence, which typically consists of a 20-nucleotide sequence complementary to the target DNA, adjacent to a protospacer adjacent motif (PAM) sequence, NGG, which is required for Cas9 binding and cleavage. Variations in Cas9 protein and gRNA design are being developed to improve specificity and reduce off-target effects. [PMID: 26971980]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why are randomized controlled trials (RCTs) considered the gold standard for evaluating therapeutic interventions?",
+    "answer": "RCTs minimize bias and confounding by randomly assigning participants to either an intervention group or a control group. Randomization ensures that known and unknown confounding factors are distributed equally across the groups, allowing for a more accurate assessment of the intervention's effect. Blinding, when possible, further reduces bias by preventing participants and researchers from knowing who is receiving the active treatment. Compared to observational studies, RCTs provide stronger evidence for causality by controlling for these potential confounders. Statistical analysis of RCT data allows for the quantification of the intervention's effect size and the assessment of its statistical significance. While RCTs have limitations, such as high cost and potential ethical concerns, they remain the most rigorous method for determining the efficacy and safety of medical interventions. The CONSORT guidelines provide a standardized framework for reporting RCT results to ensure transparency and reproducibility.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with ST-elevation myocardial infarction (STEMI)?",
+    "answer": "Immediate reperfusion therapy with primary percutaneous coronary intervention (PCI) or fibrinolysis if PCI is not readily available.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 lead to anti-tumor responses in cancer?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while PD-L1 (programmed death-ligand 1) is a ligand often expressed on tumor cells. The interaction of PD-1 with PD-L1 delivers an inhibitory signal to T cells, suppressing their cytotoxic activity and allowing cancer cells to evade immune destruction. Immunotherapies targeting PD-1 or PD-L1, such as monoclonal antibodies, block this interaction, thereby restoring T cell function and enabling the immune system to recognize and kill cancer cells. This can lead to durable anti-tumor responses in a subset of patients, but it also carries the risk of immune-related adverse events (irAEs) due to the broad activation of the immune system. Predictive biomarkers for response to PD-1/PD-L1 inhibitors are an area of active research, with PD-L1 expression on tumor cells and tumor mutational burden (TMB) being investigated as potential indicators. [PMID: 28892457]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia (CAP)?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline for outpatients, or a beta-lactam plus a macrolide or a respiratory fluoroquinolone for inpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which gut microbiota influence host metabolism and health?",
+    "answer": "The gut microbiota profoundly influences host metabolism and health through a variety of mechanisms. Firstly, they ferment dietary fibers and other undigested carbohydrates, producing short-chain fatty acids (SCFAs) such as acetate, propionate, and butyrate. These SCFAs serve as energy sources for colonocytes and can also enter the systemic circulation, affecting glucose homeostasis, lipid metabolism, and inflammation. Secondly, the gut microbiota synthesize essential vitamins, including vitamin K and B vitamins, which are crucial for various metabolic processes. Thirdly, they modulate bile acid metabolism by converting primary bile acids into secondary bile acids, which influence lipid absorption and signaling pathways. Dysbiosis, or imbalances in the gut microbiota composition, has been linked to various metabolic disorders, including obesity, type 2 diabetes, and non-alcoholic fatty liver disease (NAFLD). Specific bacterial species and their metabolites are being investigated as potential therapeutic targets for these conditions. [PMID: 23603726]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation, play a critical role in regulating gene expression without altering the underlying DNA sequence. In cancer, aberrant epigenetic patterns can lead to the silencing of tumor suppressor genes and the activation of oncogenes. DNA methylation, typically at CpG islands in gene promoter regions, can repress gene transcription. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin structure, while histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to chromatin condensation and gene silencing. Cancer cells often exhibit global DNA hypomethylation and regional hypermethylation, contributing to genomic instability and altered gene expression profiles. Epigenetic modifications are reversible, making them attractive therapeutic targets. HDAC inhibitors, for example, are used in cancer therapy to restore the expression of silenced tumor suppressor genes. [PMID: 16825340]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute stroke?",
+    "answer": "Rapid assessment, neuroimaging to rule out hemorrhage, and consideration for thrombolysis with alteplase if within the appropriate time window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several complex signaling pathways. Amyloid precursor protein (APP) processing leads to the formation of amyloid-beta (Aβ) plaques, activating inflammatory pathways and causing synaptic dysfunction. Tau protein hyperphosphorylation forms neurofibrillary tangles, disrupting neuronal transport. Dysregulation of calcium homeostasis contributes to excitotoxicity and neuronal death. Insulin signaling impairment affects glucose metabolism and exacerbates Aβ accumulation. Neuroinflammation, mediated by microglia and astrocytes, releases inflammatory cytokines, contributing to neuronal damage. Genetic factors such as APOE4 modulate these pathways, increasing AD risk. Therapeutic strategies target these pathways to reduce Aβ production, inhibit tau phosphorylation, modulate neuroinflammation, and improve insulin signaling. [PMID: 31562750]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for seasonal allergic rhinitis?",
+    "answer": "Intranasal corticosteroids and/or antihistamines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade detection and clearance by the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade host immune responses. They rapidly mutate their surface antigens (antigenic drift), preventing antibody recognition. Some viruses establish latency in host cells, remaining dormant and invisible to the immune system. Others directly interfere with immune signaling pathways, inhibiting interferon production or blocking antigen presentation. Certain viruses express proteins that mimic or bind to host immune molecules, disrupting their function. Glycosylation of viral proteins can shield them from antibody neutralization. By employing these and other mechanisms, viruses can persist within the host, cause chronic infections, and evade vaccine-induced immunity. Understanding these evasion strategies is crucial for developing effective antiviral therapies and vaccines. [PMID: 31098411]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the main risk factors for developing venous thromboembolism (VTE)?",
+    "answer": "Surgery, malignancy, immobility, pregnancy, oral contraceptives, and inherited thrombophilia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the unfolded protein response (UPR) play in cellular stress and disease?",
+    "answer": "The unfolded protein response (UPR) is a cellular stress response activated when misfolded or unfolded proteins accumulate in the endoplasmic reticulum (ER). The UPR aims to restore ER homeostasis by increasing protein folding capacity, reducing protein synthesis, and degrading misfolded proteins via ER-associated degradation (ERAD). Key UPR signaling pathways include IRE1, PERK, and ATF6. Chronic activation of the UPR can lead to apoptosis if ER stress is not resolved. Dysregulation of the UPR has been implicated in various diseases, including neurodegenerative disorders, diabetes, and cancer. Therapeutic strategies targeting the UPR are being explored to modulate cellular stress and improve disease outcomes. [PMID: 24284424]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient with an acute asthma exacerbation?",
+    "answer": "Inhaled short-acting beta-agonists and systemic corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do extracellular vesicles (EVs) mediate intercellular communication in cancer?",
+    "answer": "Extracellular vesicles (EVs), including exosomes and microvesicles, are membrane-bound vesicles released by cells that mediate intercellular communication. In cancer, EVs play a crucial role in tumor progression, metastasis, and drug resistance. EVs transport a variety of biomolecules, including proteins, nucleic acids (DNA, mRNA, microRNA), and lipids, from cancer cells to recipient cells in the tumor microenvironment and distant sites. These cargo molecules can alter the behavior of recipient cells, promoting angiogenesis, immune evasion, and pre-metastatic niche formation. EVs can also transfer drug resistance factors, such as efflux pumps and mutated oncogenes, to sensitive cells, leading to therapeutic failure. Targeting EV biogenesis or uptake is being explored as a potential therapeutic strategy to disrupt cancer cell communication and inhibit tumor progression. [PMID: 26675212]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient with suspected anaphylaxis?",
+    "answer": "Intramuscular epinephrine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the current strategies for developing a universal influenza vaccine?",
+    "answer": "Current strategies for developing a universal influenza vaccine focus on targeting conserved regions of the virus, such as the hemagglutinin (HA) stem domain or the matrix protein 2 ectodomain (M2e), which are less prone to mutation than the HA head region. Approaches include using recombinant HA stem antigens, computationally optimized broadly reactive antigens (COBRA), and DNA vaccines targeting conserved epitopes. Nanoparticle-based vaccines are also being investigated to enhance immune responses. Clinical trials are underway to evaluate the efficacy of these universal influenza vaccine candidates in providing broad and durable protection against diverse influenza strains. [PMID: 32246050]",
+    "persona": "Researcher"
+  }
+]

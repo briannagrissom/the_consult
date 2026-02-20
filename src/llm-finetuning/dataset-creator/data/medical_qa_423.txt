@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing in mammalian cells, and what are its limitations?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-strand break (DSB) at that specific locus. The cell repairs this DSB either through non-homologous end joining (NHEJ), which is error-prone and can introduce insertions or deletions (indels) leading to gene disruption, or through homology-directed repair (HDR) if a DNA template with homology to the target site is provided, allowing for precise gene insertion or correction. However, CRISPR-Cas9 has limitations, including off-target effects where Cas9 cleaves unintended sites with sequence similarity to the gRNA, leading to potential mutations at off-target loci. Delivery of CRISPR-Cas9 components into cells can also be challenging, particularly in vivo, and may require viral vectors or other transfection methods, each with its own limitations. Furthermore, the efficiency of HDR is often low, especially in non-dividing cells, limiting its applicability in certain contexts. Immunogenicity of Cas9 is also a concern for in vivo applications, as the immune system may recognize and clear Cas9-expressing cells. Finally, the PAM sequence requirement (NGG for SpCas9) limits the choice of targetable sites in the genome.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for managing a patient with a first-time unprovoked seizure?",
+    "answer": "Order neuroimaging (MRI preferred) and EEG. Consider initiating anti-seizure medication if high risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and SGLT2 inhibitors in the treatment of type 2 diabetes mellitus.",
+    "answer": "Metformin primarily works by reducing hepatic glucose production and improving insulin sensitivity in peripheral tissues (e.g., muscle). It activates AMPK, which inhibits gluconeogenesis and enhances glucose uptake and utilization. SGLT2 inhibitors, on the other hand, act on the kidneys by blocking the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, preventing reabsorption of glucose and increasing urinary glucose excretion. Unlike metformin, SGLT2 inhibitors do not directly affect insulin sensitivity or hepatic glucose production. Both classes of drugs lower blood glucose levels, but through distinct mechanisms. SGLT2 inhibitors also offer additional benefits such as weight loss and blood pressure reduction, and have demonstrated cardiovascular and renal protection in clinical trials, potentially beyond their glucose-lowering effects. Metformin is associated with a risk of lactic acidosis (rare), while SGLT2 inhibitors are associated with increased risk of genital infections and, rarely, diabetic ketoacidosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with HPV testing alone?",
+    "answer": "Every 5 years for women aged 30-65 per ASCCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors like anti-PD-1 antibodies enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 antibodies, enhance anti-tumor immunity by blocking inhibitory signals that normally suppress T-cell activity. PD-1 (programmed cell death protein 1) is a receptor expressed on T cells that, when bound to its ligand PD-L1 (programmed death-ligand 1) on tumor cells or antigen-presenting cells, delivers an inhibitory signal that inhibits T-cell activation, proliferation, and effector functions. By blocking the interaction between PD-1 and PD-L1, anti-PD-1 antibodies prevent this inhibitory signal, allowing T cells to remain active and attack tumor cells. This can lead to a more robust anti-tumor immune response and tumor regression in some patients. However, checkpoint inhibitors can also cause immune-related adverse events due to the activation of T cells against normal tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient diagnosed with community-acquired pneumonia?",
+    "answer": "Empiric antibiotics (e.g., macrolide, doxycycline, or beta-lactam/macrolide combination) per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) involves complex interactions among multiple signaling pathways. Amyloid precursor protein (APP) processing and amyloid-beta (Aβ) plaque formation are central, with secretases (β-secretase and γ-secretase) cleaving APP to generate Aβ peptides. Aβ aggregation triggers neuroinflammation, activating microglia and astrocytes, which release pro-inflammatory cytokines like TNF-α and IL-1β. Tau hyperphosphorylation, mediated by kinases like GSK-3β and CDK5, leads to neurofibrillary tangle formation and disrupts microtubule function. Insulin signaling deficits, involving reduced insulin receptor substrate (IRS) activity and impaired glucose metabolism, contribute to neuronal dysfunction. Oxidative stress, triggered by reactive oxygen species (ROS), damages cellular components. Furthermore, disruptions in calcium homeostasis and excitotoxicity, mediated by glutamate receptors, contribute to neuronal death. These pathways interact in a complex manner, contributing to the pathogenesis of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are first-line for acute migraine per AHS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells acquire resistance to chemotherapy drugs?",
+    "answer": "Cancer cells develop resistance to chemotherapy through diverse mechanisms. Increased drug efflux, mediated by transporters like P-glycoprotein (MDR1), reduces intracellular drug concentration. Alterations in drug targets, such as mutations in topoisomerase II or dihydrofolate reductase, decrease drug binding affinity. Enhanced DNA repair mechanisms, including nucleotide excision repair and homologous recombination repair, counteract drug-induced DNA damage. Activation of survival pathways, such as PI3K/AKT/mTOR, promotes cell survival despite drug exposure. Epithelial-mesenchymal transition (EMT) confers resistance by altering cell adhesion and increasing motility. Cancer stem cells (CSCs) exhibit inherent resistance due to quiescence and increased expression of drug efflux pumps. Furthermore, changes in the tumor microenvironment, including hypoxia and increased stromal cell activity, contribute to drug resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is usually first-line.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Describe the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD).",
+    "answer": "The gut microbiome plays a crucial role in IBD pathogenesis. Dysbiosis, characterized by reduced microbial diversity and altered composition, is a hallmark of IBD. Increased abundance of pathobionts, such as adherent-invasive E. coli (AIEC) and certain Klebsiella species, can trigger and exacerbate intestinal inflammation. Decreased levels of beneficial bacteria, such as Faecalibacterium prausnitzii and Bifidobacterium species, which produce short-chain fatty acids (SCFAs) like butyrate, impair intestinal barrier function and reduce anti-inflammatory signaling. The gut microbiome also influences immune cell development and function, including T-cell differentiation and cytokine production. Microbial metabolites, such as SCFAs, can modulate immune responses and maintain intestinal homeostasis. Genetic factors, environmental factors, and dietary factors interact with the gut microbiome to influence the risk and severity of IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin, direct oral anticoagulants (DOACs), or warfarin is indicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ various strategies to evade the host immune system. Some viruses encode proteins that interfere with interferon signaling, inhibiting the antiviral state. Others suppress antigen presentation by downregulating MHC class I expression or interfering with antigen processing. Certain viruses establish latency, remaining dormant within host cells and evading immune detection. Viruses can also undergo rapid mutation, generating antigenic variants that escape antibody recognition. Some viruses encode proteins that directly inhibit immune cell function, such as blocking NK cell activation or suppressing T-cell responses. Furthermore, viruses can exploit host cell pathways to promote their replication and dissemination while minimizing immune activation. The specific evasion mechanisms vary depending on the virus and the host immune response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute stroke?",
+    "answer": "Rapid assessment, neuroimaging (CT or MRI), and consideration for thrombolysis or thrombectomy are critical.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes, nanoscale vesicles secreted by cells, play a critical role in intercellular communication. They contain diverse cargo, including proteins, lipids, mRNA, and microRNA (miRNA), which are delivered to recipient cells. In cancer, exosomes facilitate tumor microenvironment remodeling, promoting angiogenesis, immune suppression, and pre-metastatic niche formation. Exosomes secreted by cancer cells can transfer oncogenic proteins and miRNAs to stromal cells, altering their behavior to support tumor growth and invasion. They can also suppress immune cell activity, preventing anti-tumor immune responses. Furthermore, exosomes can transport drug resistance factors, contributing to chemotherapy resistance. Exosome-mediated transfer of miRNAs can alter gene expression in distant cells, promoting metastasis. Exosomes are also being explored as biomarkers for cancer diagnosis and prognosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for hypothyroidism?",
+    "answer": "Levothyroxine is the standard treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which gut microbiota influences the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiota significantly impacts the efficacy of cancer immunotherapy, especially checkpoint inhibitors. Certain bacterial species, such as Akkermansia muciniphila, promote anti-tumor immunity and enhance the response to anti-PD-1 therapy by modulating immune cell infiltration and activation in the tumor microenvironment. Conversely, dysbiosis and the presence of specific bacterial taxa can dampen immune responses and reduce treatment efficacy. The gut microbiota influences systemic immunity by modulating cytokine production, T-cell differentiation, and dendritic cell function. Microbial metabolites, such as short-chain fatty acids (SCFAs), can also enhance anti-tumor immunity by promoting T-cell activity and inhibiting regulatory T cells. Fecal microbiota transplantation (FMT) studies have demonstrated that transferring gut microbiota from responders to non-responders can improve treatment outcomes, highlighting the importance of the gut microbiota in cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression, and what is their role in cancer development?",
+    "answer": "Long non-coding RNAs (lncRNAs) regulate gene expression through diverse mechanisms, including epigenetic modification, transcriptional regulation, and post-transcriptional processing. They can recruit chromatin-modifying complexes, such as PRC2 and LSD1, to specific genomic loci, altering histone modifications and influencing gene transcription. LncRNAs can also act as decoys, sequestering transcription factors and preventing them from binding to DNA. Some lncRNAs interact with mRNA molecules, regulating their stability, translation, or splicing. In cancer, lncRNAs play diverse roles, acting as oncogenes or tumor suppressors. They can promote cell proliferation, invasion, metastasis, and drug resistance. For example, the lncRNA MALAT1 promotes metastasis by regulating gene expression involved in epithelial-mesenchymal transition (EMT). LncRNAs are also being explored as potential therapeutic targets and biomarkers for cancer.",
+    "persona": "Researcher"
+  }
+]

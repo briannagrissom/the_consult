@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated urinary tract infection (UTI) in women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis enhance anti-tumor immunity?",
+    "answer": "The PD-1/PD-L1 pathway is a critical immune checkpoint that normally functions to prevent excessive T-cell activation and autoimmunity. PD-1 (programmed cell death protein 1) is expressed on activated T cells, while its ligand PD-L1 (programmed death-ligand 1) is frequently overexpressed on tumor cells and antigen-presenting cells within the tumor microenvironment. When PD-1 binds to PD-L1, it delivers an inhibitory signal that suppresses T-cell proliferation, cytokine production, and cytotoxic activity. This interaction effectively shields tumor cells from immune-mediated destruction. Antibodies that block either PD-1 or PD-L1 disrupt this inhibitory signaling, thereby unleashing the anti-tumor potential of T cells. Specifically, PD-1/PD-L1 blockade enhances T-cell receptor signaling, increases IFN-γ production, promotes granzyme release, and restores the ability of T cells to recognize and kill tumor cells. Importantly, the effectiveness of PD-1/PD-L1 inhibitors depends on the pre-existence of tumor-infiltrating lymphocytes and the level of PD-L1 expression on tumor cells, although responses can occur even in the absence of high PD-L1 levels. Furthermore, combination strategies that combine PD-1/PD-L1 blockade with other immunotherapies (e.g., CTLA-4 inhibitors) or targeted therapies often demonstrate synergistic anti-tumor effects by simultaneously targeting multiple immune checkpoints or signaling pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevations, and rarely rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the progressive accumulation of amyloid plaques and neurofibrillary tangles in the brain, leading to neuronal dysfunction and cognitive decline. The amyloid cascade hypothesis posits that the accumulation of amyloid-beta (Aβ) peptides, derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase, is a primary driver of AD pathogenesis. Aβ peptides, particularly the Aβ42 isoform, aggregate to form extracellular plaques, which trigger a cascade of downstream events, including neuroinflammation, tau hyperphosphorylation, and synaptic dysfunction. Hyperphosphorylated tau accumulates intracellularly, forming neurofibrillary tangles, which disrupt microtubule stability and axonal transport. Neuroinflammation, mediated by activated microglia and astrocytes, contributes to neuronal damage through the release of pro-inflammatory cytokines and reactive oxygen species. Genetic risk factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), increase Aβ production, while the APOE4 allele impairs Aβ clearance. Furthermore, impaired glucose metabolism, mitochondrial dysfunction, and oxidative stress exacerbate neuronal vulnerability in AD. Emerging evidence suggests that disruptions in synaptic plasticity, endosomal trafficking, and epigenetic regulation also contribute to AD pathogenesis. Therapeutic strategies targeting Aβ production, aggregation, or clearance, as well as those aimed at reducing tau pathology or neuroinflammation, are under active investigation to slow down or prevent the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a suspected pulmonary embolism be initially evaluated?",
+    "answer": "Assess pretest probability with Wells or Geneva score, then perform D-dimer if low/intermediate risk or proceed directly to CT pulmonary angiogram if high risk.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR gene contribute to lung cancer development and progression?",
+    "answer": "Epidermal growth factor receptor (EGFR) is a receptor tyrosine kinase that plays a critical role in cell growth, proliferation, and survival. In non-small cell lung cancer (NSCLC), activating mutations in the EGFR gene, such as exon 19 deletions and the L858R point mutation in exon 21, lead to constitutive activation of the EGFR signaling pathway, even in the absence of ligand binding. These mutations result in enhanced downstream signaling through RAS/MAPK, PI3K/AKT, and STAT pathways, promoting uncontrolled cell growth, proliferation, and survival. EGFR-mutant lung cancers are highly sensitive to EGFR tyrosine kinase inhibitors (TKIs), such as gefitinib, erlotinib, and osimertinib, which competitively bind to the ATP-binding pocket of the EGFR kinase domain, blocking its activity and inhibiting downstream signaling. However, acquired resistance to EGFR TKIs frequently develops through mechanisms such as the T790M mutation in EGFR, activation of bypass signaling pathways (e.g., MET amplification, HER2 amplification), or histologic transformation to small cell lung cancer. Osimertinib, a third-generation EGFR TKI, is effective against both EGFR-activating mutations and the T790M resistance mutation. Furthermore, combination strategies that combine EGFR TKIs with chemotherapy, immunotherapy, or other targeted therapies are being explored to overcome resistance mechanisms and improve outcomes in EGFR-mutant lung cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) and dexamethasone, adjusted based on CSF culture results.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ a diverse array of strategies to evade the host immune system, ensuring their survival and replication within the host. One common mechanism is the rapid mutation rate of viruses, particularly RNA viruses like HIV and influenza, which generates antigenic variation, allowing them to escape recognition by pre-existing antibodies. Some viruses, such as herpesviruses, establish latency, residing in a quiescent state within host cells, thereby evading immune detection. Viruses can also directly interfere with immune signaling pathways. For example, some viruses express proteins that inhibit interferon (IFN) production or signaling, thereby suppressing antiviral responses. Others encode proteins that block the presentation of viral antigens on MHC class I molecules, preventing recognition by cytotoxic T lymphocytes (CTLs). Certain viruses, like Epstein-Barr virus (EBV), produce homologs of host cytokines or cytokine receptors, which can modulate immune responses in favor of viral persistence. Furthermore, viruses can induce immune cell apoptosis or exhaustion, leading to immune suppression. HIV, for instance, infects and depletes CD4+ T cells, crippling the adaptive immune response. Finally, some viruses, such as cytomegalovirus (CMV), encode proteins that interfere with natural killer (NK) cell activation, preventing the elimination of infected cells. Understanding these viral evasion mechanisms is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of managing type 2 diabetes?",
+    "answer": "Lifestyle modifications (diet and exercise), metformin, and potentially other oral or injectable agents to achieve target HbA1c.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in human health and disease?",
+    "answer": "The gut microbiome, consisting of trillions of microorganisms including bacteria, archaea, fungi, and viruses, plays a crucial role in human health and disease. The gut microbiome aids in the digestion of complex carbohydrates, synthesis of vitamins (e.g., vitamin K and B vitamins), and metabolism of drugs and toxins. It also contributes to the development and maturation of the immune system, training immune cells to distinguish between beneficial and harmful microbes. Dysbiosis, or an imbalance in the gut microbiome composition, has been implicated in a wide range of diseases, including inflammatory bowel disease (IBD), obesity, type 2 diabetes, cardiovascular disease, and even neurological disorders like autism and Parkinson's disease. Specific bacterial species, such as *Faecalibacterium prausnitzii*, are associated with anti-inflammatory effects, while others, like certain strains of *Escherichia coli*, can promote inflammation. The gut microbiome can influence host metabolism through the production of short-chain fatty acids (SCFAs), such as acetate, propionate, and butyrate, which serve as energy sources for colonocytes and have systemic effects on glucose and lipid metabolism. Emerging therapeutic strategies, such as fecal microbiota transplantation (FMT), probiotics, and prebiotics, aim to restore a healthy gut microbiome composition and function, thereby preventing or treating various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is heart failure with reduced ejection fraction (HFrEF) typically managed?",
+    "answer": "ACE inhibitors/ARNI, beta-blockers, mineralocorticoid receptor antagonists (MRAs), and SGLT2 inhibitors are guideline-directed medical therapies.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene editing technology derived from the adaptive immune system of bacteria. It allows for precise and efficient modification of DNA sequences in a wide range of organisms. The CRISPR-Cas9 system consists of two main components: the Cas9 enzyme, which acts as a DNA scissors, and a guide RNA (gRNA), which directs the Cas9 enzyme to a specific target DNA sequence. The gRNA is a short RNA molecule that contains a 20-nucleotide sequence complementary to the target DNA sequence, allowing it to bind to the DNA through Watson-Crick base pairing. The Cas9 enzyme, guided by the gRNA, creates a double-stranded break (DSB) at the targeted DNA site. The cell's natural DNA repair mechanisms then come into play to repair the DSB. There are two main pathways for DNA repair: non-homologous end joining (NHEJ) and homology-directed repair (HDR). NHEJ is an error-prone process that often results in small insertions or deletions (indels) at the DSB site, disrupting the gene's function. HDR, on the other hand, uses a provided DNA template to repair the DSB, allowing for precise gene editing or insertion of new DNA sequences. CRISPR-Cas9 has numerous applications in basic research, drug discovery, and gene therapy, enabling the study of gene function, the development of new disease models, and the correction of genetic defects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Beta-lactam plus macrolide or doxycycline; fluoroquinolone monotherapy is an alternative.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by virtually all cell types. They mediate intercellular communication by transferring diverse biomolecules, including proteins, lipids, mRNAs, and microRNAs (miRNAs), from donor cells to recipient cells. Exosomes are formed through a process of endocytosis, where the plasma membrane invaginates to form early endosomes, which then mature into multivesicular bodies (MVBs) containing intraluminal vesicles (ILVs). These ILVs are formed by inward budding of the MVB membrane. MVBs can either fuse with lysosomes for degradation or fuse with the plasma membrane to release ILVs, now called exosomes, into the extracellular space. Exosomes can be taken up by recipient cells through various mechanisms, including receptor-mediated endocytosis, direct fusion with the plasma membrane, or phagocytosis. Once inside the recipient cell, exosomal contents can modulate gene expression, protein synthesis, and signaling pathways, thereby influencing cellular function and behavior. Exosomes play important roles in various physiological processes, such as immune responses, tissue repair, and neural communication. They are also implicated in various diseases, including cancer, neurodegenerative disorders, and infectious diseases. In cancer, exosomes can promote tumor growth, angiogenesis, metastasis, and immune evasion. Exosomes are also being explored as potential biomarkers for disease diagnosis and as therapeutic delivery vehicles.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should an acute asthma exacerbation be managed in the emergency department?",
+    "answer": "Oxygen, inhaled bronchodilators (e.g., albuterol), and systemic corticosteroids are the mainstays of treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in cancer metastasis?",
+    "answer": "Cancer metastasis is a complex multistep process involving detachment of cancer cells from the primary tumor, invasion of the surrounding tissue, intravasation into blood or lymphatic vessels, survival in the circulation, extravasation at a distant site, and colonization to form a secondary tumor. Several signaling pathways play critical roles in these steps. The epithelial-mesenchymal transition (EMT) is a key process that enables cancer cells to detach from the primary tumor and acquire migratory and invasive properties. EMT is driven by transcription factors such as Snail, Slug, Twist, and ZEB1/2, which are regulated by signaling pathways including TGF-β, Wnt, and Notch. The PI3K/AKT/mTOR pathway promotes cell survival, growth, and proliferation, and also regulates cytoskeletal reorganization and cell migration. The MAPK pathway, including ERK1/2, regulates cell proliferation, differentiation, and survival, and also promotes EMT and invasion. The Rho GTPases, including RhoA, Rac1, and Cdc42, regulate actin cytoskeleton dynamics and cell motility. Chemokine receptors, such as CXCR4 and CCR7, mediate the chemotactic migration of cancer cells towards specific chemokines secreted by stromal cells in the tumor microenvironment or at distant metastatic sites. Integrins mediate cell-extracellular matrix (ECM) interactions, promoting cell adhesion, migration, and invasion. These pathways are often dysregulated in cancer, contributing to the metastatic phenotype.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years or annual fecal immunochemical test (FIT) starting at age 45 according to current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the power of the immune system to fight cancer?",
+    "answer": "Immunotherapy leverages the inherent ability of the immune system to recognize and eliminate cancer cells. Unlike traditional therapies such as chemotherapy and radiation, which directly target cancer cells, immunotherapy aims to stimulate or restore the immune system's ability to attack cancer. One major approach is checkpoint blockade, which targets immune checkpoint molecules such as CTLA-4 and PD-1 that normally suppress T-cell activity. By blocking these checkpoints, T cells can become activated and mount an anti-tumor response. Another approach is adoptive cell therapy, which involves isolating immune cells from a patient's blood, modifying them in the laboratory to enhance their anti-tumor activity, and then infusing them back into the patient. CAR T-cell therapy, a type of adoptive cell therapy, involves genetically engineering T cells to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on cancer cells. Cancer vaccines aim to stimulate the immune system to recognize and attack cancer cells by presenting tumor-associated antigens to immune cells. Oncolytic viruses are genetically engineered viruses that selectively infect and kill cancer cells, while also stimulating an anti-tumor immune response. Cytokines, such as interleukin-2 (IL-2) and interferon-alpha (IFN-α), can stimulate immune cell proliferation and activity. Immunotherapy has shown remarkable success in treating certain cancers, such as melanoma, lung cancer, and leukemia, and is rapidly evolving as a major pillar of cancer treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute stroke symptoms?",
+    "answer": "Rapid assessment including NIHSS score, CT scan to rule out hemorrhage, and consideration of thrombolysis if within the appropriate time window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between humoral and cellular immunity?",
+    "answer": "Humoral immunity and cellular immunity are two major branches of the adaptive immune system, each targeting different types of threats and employing distinct mechanisms. Humoral immunity is mediated by antibodies produced by B lymphocytes (B cells). Antibodies are soluble proteins that circulate in the blood and lymph, recognizing and binding to specific antigens, such as pathogens or toxins, in the extracellular space. Antibody binding can neutralize pathogens, prevent their entry into cells, and tag them for destruction by phagocytes or complement activation. Cellular immunity, on the other hand, is mediated by T lymphocytes (T cells). There are two main types of T cells: cytotoxic T lymphocytes (CTLs) and helper T cells (Th cells). CTLs directly kill infected cells or cancer cells by recognizing antigens presented on MHC class I molecules. Th cells, including Th1 and Th2 subsets, secrete cytokines that activate other immune cells, such as macrophages, B cells, and CTLs. Th1 cells promote cell-mediated immunity, enhancing macrophage activation and CTL responses, while Th2 cells promote humoral immunity, stimulating B cell antibody production. Humoral immunity is most effective against extracellular pathogens, toxins, and allergens, while cellular immunity is essential for eliminating intracellular pathogens, such as viruses and bacteria, and for controlling tumor growth. Both humoral and cellular immunity are crucial for maintaining immune homeostasis and protecting the body from a wide range of threats.",
+    "persona": "Researcher"
+  }
+]

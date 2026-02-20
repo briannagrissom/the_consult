@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically first-line; if unstable, consider cardioversion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise gene editing in mammalian cells, and what are the key considerations for minimizing off-target effects?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-strand break. Repair mechanisms, either non-homologous end joining (NHEJ) or homology-directed repair (HDR), then introduce insertions/deletions or precise sequence modifications, respectively. Minimizing off-target effects involves careful gRNA design (avoiding sequences with high similarity to other genomic regions), utilizing high-fidelity Cas9 variants with reduced off-target activity, employing paired nickases that require two gRNAs for cleavage, and using truncated gRNAs. Whole-genome sequencing and computational prediction algorithms also aid in identifying and mitigating potential off-target sites. Furthermore, delivery methods like ribonucleoprotein complexes can reduce the duration of Cas9 expression, limiting off-target events [PMID:26028363].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for type 2 diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and sulfonylureas in treating type 2 diabetes.",
+    "answer": "Metformin primarily reduces hepatic glucose production and enhances insulin sensitivity in peripheral tissues by activating AMPK. Sulfonylureas, on the other hand, stimulate insulin secretion from pancreatic beta cells by binding to the SUR1 subunit of the ATP-sensitive potassium channel, leading to membrane depolarization and calcium influx. Metformin does not typically cause hypoglycemia as a monotherapy, whereas sulfonylureas carry a significant risk of hypoglycemia. Over time, sulfonylureas may lead to beta-cell exhaustion, whereas metformin does not directly impact beta-cell function. Furthermore, metformin has been associated with modest weight loss or stability, while sulfonylureas can contribute to weight gain. Both drugs lower HbA1c effectively but through distinct pathways, making them suitable for different patient profiles or combination therapy [PMID:11961034].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Empiric therapy with a macrolide (e.g., azithromycin) or doxycycline, or a respiratory fluoroquinolone (e.g., levofloxacin) if comorbidities are present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses, such as influenza, evade host immune responses, and what are the implications for vaccine development?",
+    "answer": "Influenza viruses evade host immunity through multiple mechanisms. Antigenic drift, caused by mutations in hemagglutinin (HA) and neuraminidase (NA) genes, leads to gradual changes that reduce antibody binding from previous infections or vaccinations. Antigenic shift, resulting from reassortment of viral RNA segments, can introduce entirely novel HA or NA subtypes, against which the population has little to no pre-existing immunity. Furthermore, influenza viruses actively suppress the interferon response by inhibiting RIG-I signaling, blocking interferon production, and interfering with interferon-stimulated gene expression. These evasion strategies necessitate annual influenza vaccine updates based on circulating strains, and drive research into broadly neutralizing antibodies and universal influenza vaccines targeting conserved viral epitopes or eliciting cellular immunity [PMID:30464737].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, elevated liver enzymes, and rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer therapies?",
+    "answer": "The gut microbiome significantly influences both the efficacy and toxicity of various cancer therapies. Certain bacterial species can metabolize chemotherapeutic agents, either activating or inactivating them, thereby altering their systemic exposure and antitumor activity. For instance, some bacteria can convert irinotecan into its active metabolite, SN-38, enhancing its cytotoxicity, while others can inactivate 5-fluorouracil. The microbiome also modulates host immune responses; specific bacteria can stimulate anti-tumor immunity, augmenting the effects of checkpoint inhibitors, while others suppress immune cell infiltration into tumors. Dysbiosis, often induced by chemotherapy or antibiotics, can disrupt the gut barrier, leading to systemic inflammation and increased susceptibility to immune-related adverse events, such as colitis. Fecal microbiota transplantation (FMT) is being explored as a strategy to restore beneficial microbial communities and improve treatment outcomes [PMID:30127538].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Intravenous alteplase (tPA) within 4.5 hours of symptom onset and/or mechanical thrombectomy for large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do neurodegenerative diseases, such as Alzheimer's and Parkinson's, lead to neuronal dysfunction and cell death at the molecular level?",
+    "answer": "Alzheimer's disease is characterized by the accumulation of amyloid-beta plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein. Amyloid-beta oligomers disrupt synaptic function, impair mitochondrial activity, and trigger inflammatory responses, ultimately leading to neuronal apoptosis. Tau pathology disrupts microtubule stability, impairs axonal transport, and contributes to synaptic dysfunction. Parkinson's disease involves the aggregation of alpha-synuclein into Lewy bodies, which disrupts protein trafficking, mitochondrial function, and dopamine synthesis. Alpha-synuclein oligomers also impair synaptic transmission and induce oxidative stress. Both diseases involve impaired protein degradation pathways, such as the ubiquitin-proteasome system and autophagy, leading to the accumulation of misfolded proteins and cellular dysfunction. Chronic inflammation, oxidative stress, and mitochondrial dysfunction contribute to neuronal vulnerability and cell death in both conditions [PMID:28716583].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action and clinical applications of monoclonal antibodies and small molecule inhibitors in cancer therapy.",
+    "answer": "Monoclonal antibodies (mAbs) are large proteins that bind to specific extracellular targets, such as growth factor receptors or immune checkpoint molecules, to block signaling pathways or enhance immune responses. They typically have high specificity and long half-lives, but their large size limits their ability to penetrate cells and target intracellular proteins. Small molecule inhibitors (SMIs) are small, chemically synthesized compounds that can readily cross cell membranes and bind to intracellular targets, such as kinases or enzymes, to directly inhibit their activity. SMIs generally have shorter half-lives and may exhibit broader off-target effects compared to mAbs. mAbs are often used to block receptor-ligand interactions, induce antibody-dependent cell-mediated cytotoxicity (ADCC), or deliver cytotoxic payloads. SMIs are commonly used to inhibit intracellular signaling pathways, disrupt protein-protein interactions, or interfere with DNA replication. The choice between mAbs and SMIs depends on the specific target, desired mechanism of action, and pharmacokinetic properties [PMID:27824695].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with anaphylaxis?",
+    "answer": "Intramuscular epinephrine, airway management, oxygen, and intravenous fluids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in development and disease?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, is associated with transcriptional repression by recruiting methyl-binding domain proteins and histone deacetylases. Histone acetylation, catalyzed by histone acetyltransferases (HATs), promotes transcriptional activation by neutralizing the positive charge of histones, loosening chromatin structure, and facilitating the binding of transcription factors. Histone deacetylation, mediated by histone deacetylases (HDACs), reverses these effects, leading to chromatin condensation and transcriptional repression. These modifications play critical roles in cell differentiation, development, and tissue-specific gene expression. Aberrant epigenetic patterns are implicated in various diseases, including cancer, where they can contribute to oncogene activation or tumor suppressor gene silencing. Epigenetic drugs, such as DNA methyltransferase inhibitors and HDAC inhibitors, are used to reverse these aberrant modifications and restore normal gene expression [PMID:25328282].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key recommendations for managing hypertension during pregnancy?",
+    "answer": "Methyldopa, labetalol, or nifedipine are preferred; ACE inhibitors and ARBs are contraindicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do advances in artificial intelligence (AI) and machine learning (ML) transform medical imaging analysis and diagnostic accuracy?",
+    "answer": "AI and ML are revolutionizing medical imaging analysis by automating tasks such as image segmentation, feature extraction, and pattern recognition. Convolutional neural networks (CNNs) can be trained to identify subtle anomalies and lesions in radiographic images with high accuracy, often surpassing human radiologists in specific tasks. AI-powered tools can also quantify disease burden, track treatment response, and predict patient outcomes based on imaging data. These technologies improve diagnostic accuracy, reduce inter-observer variability, and accelerate image interpretation, enabling faster and more efficient clinical workflows. Furthermore, AI algorithms can integrate imaging data with other clinical information, such as patient history, laboratory results, and genomic data, to provide more comprehensive and personalized diagnostic assessments. However, challenges remain in ensuring the robustness, generalizability, and interpretability of AI models, as well as addressing ethical and regulatory considerations [PMID:30193132].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated urinary tract infection (UTI) in women?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, or fosfomycin as a single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression and contribute to disease pathogenesis?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that do not encode proteins but play diverse regulatory roles in gene expression. They can act as molecular scaffolds, bringing together different proteins to form ribonucleoprotein complexes that regulate chromatin structure, transcription, and post-transcriptional processing. Some lncRNAs recruit chromatin-modifying enzymes, such as PRC2 or LSD1, to specific genomic loci to repress gene expression. Others act as decoys, sequestering transcription factors or microRNAs to prevent them from binding to their target genes. LncRNAs can also regulate mRNA splicing, stability, and translation. Aberrant lncRNA expression is implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders. For example, the lncRNA HOTAIR promotes cancer metastasis by recruiting PRC2 to silence tumor suppressor genes, while MALAT1 regulates alternative splicing and contributes to tumor growth and angiogenesis. LncRNAs represent a vast and largely unexplored class of regulatory molecules with significant potential as therapeutic targets [PMID:24487272].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy, particularly checkpoint inhibitors, elicit anti-tumor responses, and what are the mechanisms of resistance to these therapies?",
+    "answer": "Immunotherapy, particularly checkpoint inhibitors targeting PD-1, PD-L1, and CTLA-4, unleashes anti-tumor immune responses by blocking inhibitory signals that normally suppress T-cell activity. PD-1 and CTLA-4 are immune checkpoints that downregulate T-cell activation and effector function. Blocking these checkpoints reinvigorates T-cell responses, allowing them to recognize and kill tumor cells. Mechanisms of resistance to checkpoint inhibitors include: loss of target antigen expression (e.g., loss of MHC class I), mutations in the interferon-gamma signaling pathway, immune exclusion (lack of T-cell infiltration into the tumor microenvironment), upregulation of alternative immune checkpoints (e.g., TIM-3, LAG-3), and immunosuppressive factors in the tumor microenvironment (e.g., TGF-beta, myeloid-derived suppressor cells). Strategies to overcome resistance include combination therapies targeting multiple immune checkpoints, oncolytic viruses, adoptive T-cell therapy, and agents that modulate the tumor microenvironment [PMID:26649818].",
+    "persona": "Researcher"
+  }
+]

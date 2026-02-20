@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous diltiazem or beta-blockers is typically the first step; consider electrical cardioversion if hemodynamically unstable or rate control is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise gene editing in human cells, and what are the key considerations for minimizing off-target effects?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-strand break at that specific locus. This break triggers either non-homologous end joining (NHEJ), leading to gene disruption via insertions or deletions, or homology-directed repair (HDR) if a DNA template is provided, allowing precise sequence modification. Minimizing off-target effects involves careful gRNA design using algorithms that predict potential off-target sites based on sequence similarity, employing high-fidelity Cas9 variants with reduced tolerance for mismatches, and using paired Cas9 nickases that require two nearby gRNAs for cleavage, thereby increasing specificity. Furthermore, titration of Cas9 and gRNA concentrations and transient expression systems can reduce the duration of Cas9 activity, limiting off-target opportunities. Whole-genome sequencing and targeted deep sequencing are crucial for identifying and quantifying off-target mutations post-editing to ensure the safety and accuracy of the modification.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for screening for colorectal cancer in average-risk individuals?",
+    "answer": "Screening should begin at age 45 with options including colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which epigenetic modifications such as DNA methylation and histone acetylation influence gene expression, and how are these processes dysregulated in cancer?",
+    "answer": "DNA methylation, primarily at cytosine-guanine dinucleotides (CpGs), generally leads to transcriptional repression by recruiting methyl-binding domain (MBD) proteins that interact with histone deacetylases (HDACs) and chromatin remodelers, promoting a closed chromatin state. Histone acetylation, catalyzed by histone acetyltransferases (HATs), neutralizes the positive charge of histones, weakening their interaction with negatively charged DNA, resulting in a more open chromatin state and increased transcriptional accessibility. In cancer, aberrant DNA methylation patterns are common, including global hypomethylation, which can activate oncogenes and promote genomic instability, and regional hypermethylation, which silences tumor suppressor genes. Similarly, dysregulation of HATs and HDACs can alter histone acetylation patterns, leading to inappropriate activation or silencing of genes involved in cell cycle control, apoptosis, and DNA repair. These epigenetic alterations contribute to tumorigenesis by disrupting normal gene expression programs and can be therapeutically targeted using DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors to restore normal epigenetic marks and gene expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a suspected pulmonary embolism be initially evaluated?",
+    "answer": "Assess pretest probability using Wells or Geneva score; if high, proceed to CT pulmonary angiography (CTPA); if intermediate or low, consider D-dimer testing, and CTPA if D-dimer is elevated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do current immunotherapy approaches, such as checkpoint inhibitors and CAR-T cell therapy, differ in their mechanisms of action and clinical applications in cancer treatment?",
+    "answer": "Checkpoint inhibitors (e.g., anti-PD-1, anti-CTLA-4 antibodies) enhance endogenous antitumor immunity by blocking inhibitory signals that suppress T-cell activation, thereby allowing T cells to recognize and kill cancer cells. They are broadly applicable across various solid tumors with high mutational burden or PD-L1 expression. In contrast, CAR-T cell therapy involves genetically engineering a patient's own T cells to express a chimeric antigen receptor (CAR) that specifically recognizes a tumor-associated antigen, such as CD19 in B-cell lymphomas. These CAR-T cells are then infused back into the patient, where they directly kill cancer cells expressing the target antigen. CAR-T cell therapy is currently approved for hematological malignancies and is being investigated for solid tumors. Checkpoint inhibitors unleash pre-existing T-cell responses, while CAR-T cells provide a targeted, engineered immune response. Checkpoint inhibitors are generally less toxic but may induce immune-related adverse events, whereas CAR-T cell therapy can cause cytokine release syndrome and neurotoxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "For previously healthy individuals, options include amoxicillin or doxycycline; for those with comorbidities, consider a respiratory fluoroquinolone or beta-lactam plus macrolide, per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS oncogene contribute to tumorigenesis, and what are the challenges in developing effective KRAS-targeted therapies?",
+    "answer": "KRAS encodes a small GTPase that functions as a molecular switch in intracellular signaling pathways, regulating cell proliferation, differentiation, and survival. Oncogenic KRAS mutations, most commonly at codons 12, 13, and 61, impair GTPase activity, leading to constitutive activation of downstream signaling pathways such as the MAPK and PI3K/AKT pathways, promoting uncontrolled cell growth and survival. Developing KRAS-targeted therapies has been challenging due to the high affinity of KRAS for GTP, the lack of a readily accessible binding pocket for small molecule inhibitors, and the redundancy of downstream signaling pathways. However, recent advances have led to the development of covalent KRAS G12C inhibitors, such as sotorasib and adagrasib, which specifically target the cysteine residue at position 12 in KRAS G12C-mutant cancers. These inhibitors bind to the inactive GDP-bound form of KRAS G12C, locking it in an inactive state and blocking downstream signaling. While these inhibitors have shown promising clinical activity, resistance mechanisms, such as bypass signaling and on-target mutations, are emerging, highlighting the need for combination therapies and novel approaches to target KRAS signaling.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or a 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do alterations in the gut microbiome influence the development and progression of inflammatory bowel disease (IBD), and what are the potential therapeutic strategies targeting the microbiome?",
+    "answer": "The gut microbiome plays a critical role in maintaining intestinal homeostasis, and dysbiosis, characterized by reduced microbial diversity and an imbalance in bacterial composition, is implicated in the pathogenesis of IBD, including Crohn's disease and ulcerative colitis. In IBD, there is often a decrease in beneficial commensal bacteria, such as Firmicutes, and an increase in pathobionts, such as Escherichia coli and Bacteroides fragilis, which can trigger or exacerbate inflammation. These microbial alterations can disrupt the intestinal barrier function, increase intestinal permeability, and promote immune activation by stimulating the production of pro-inflammatory cytokines, such as TNF-α and IL-23. Therapeutic strategies targeting the microbiome include fecal microbiota transplantation (FMT), which involves transferring fecal material from a healthy donor to a patient with IBD to restore microbial diversity and function. Probiotics, prebiotics, and dietary interventions are also being explored to modulate the gut microbiome and reduce inflammation in IBD. Additionally, phage therapy, which uses bacteriophages to selectively target and eliminate specific pathobionts, is being investigated as a potential strategy to rebalance the gut microbiome in IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with a first-time seizure?",
+    "answer": "Assess for underlying causes, obtain EEG and neuroimaging; initiate antiepileptic drugs if high risk of recurrence or established epilepsy diagnosis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and contribute to cancer development?",
+    "answer": "MicroRNAs (miRNAs) are small (approximately 22 nucleotide) non-coding RNAs that regulate gene expression by binding to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Long non-coding RNAs (lncRNAs) are longer than 200 nucleotides and regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. In cancer, miRNAs can act as oncogenes (oncomirs) by targeting tumor suppressor genes or as tumor suppressors by targeting oncogenes. For example, miR-21 is an oncomir that promotes cell proliferation and inhibits apoptosis by targeting tumor suppressor genes such as PTEN and PDCD4. LncRNAs can also promote or suppress tumorigenesis by regulating gene expression in cis or trans. For instance, lncRNA HOTAIR promotes metastasis in breast cancer by recruiting PRC2 to silence tumor suppressor genes. Dysregulation of miRNAs and lncRNAs contributes to cancer development by disrupting normal gene expression programs and can be therapeutically targeted using miRNA mimics, antagomirs, or antisense oligonucleotides.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended approach to managing acute asthma exacerbations in the emergency department?",
+    "answer": "Administer oxygen, inhaled short-acting beta-agonists (SABA), and systemic corticosteroids; consider ipratropium bromide for severe exacerbations; monitor oxygen saturation and respiratory status.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do emerging single-cell sequencing technologies provide insights into cellular heterogeneity and tumor evolution in cancer?",
+    "answer": "Single-cell sequencing technologies, such as single-cell RNA sequencing (scRNA-seq) and single-cell ATAC-seq, enable the analysis of gene expression and chromatin accessibility at the individual cell level, providing unprecedented insights into cellular heterogeneity and tumor evolution in cancer. ScRNA-seq allows for the identification of distinct cell populations within a tumor, including cancer cells, immune cells, and stromal cells, and the characterization of their gene expression profiles. This information can be used to identify novel cancer subtypes, understand mechanisms of drug resistance, and identify potential therapeutic targets. Single-cell ATAC-seq maps chromatin accessibility across the genome in individual cells, revealing regulatory elements and transcription factor binding sites that control gene expression. By integrating scRNA-seq and single-cell ATAC-seq data, researchers can reconstruct gene regulatory networks and understand how epigenetic changes drive cellular heterogeneity and tumor evolution. These technologies are also being used to track the clonal evolution of cancer cells over time, providing insights into the development of resistance to therapy and the emergence of new cancer cell populations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated urinary tract infection (UTI) in women?",
+    "answer": "First-line options include nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days; consider local resistance patterns when choosing antibiotic.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what are the mechanisms by which antiviral drugs interfere with viral replication?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, including antigenic variation (e.g., influenza virus), latency (e.g., herpesviruses), and direct interference with immune signaling pathways. Antigenic variation involves mutations in viral surface proteins that allow the virus to escape recognition by neutralizing antibodies. Latency allows viruses to persist in a quiescent state within host cells, evading immune detection. Viruses can also encode proteins that directly inhibit the interferon response, block antigen presentation, or suppress T-cell activation. Antiviral drugs interfere with viral replication by targeting specific steps in the viral life cycle, such as viral entry, genome replication, protein synthesis, or assembly. For example, reverse transcriptase inhibitors (e.g., nucleoside analogs) block the replication of retroviruses such as HIV by inhibiting the enzyme reverse transcriptase, which is essential for converting viral RNA into DNA. Protease inhibitors block the cleavage of viral polyproteins, preventing the maturation of infectious viral particles. Neuraminidase inhibitors block the release of influenza virus from infected cells, limiting the spread of the virus.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Initiate anticoagulation with direct oral anticoagulants (DOACs) or warfarin; consider thrombolysis for extensive proximal DVT with limb-threatening ischemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in DNA repair pathways contribute to cancer susceptibility and response to DNA-damaging therapies?",
+    "answer": "Genetic mutations in DNA repair pathways, such as homologous recombination (HR), non-homologous end joining (NHEJ), and mismatch repair (MMR), can impair the ability of cells to repair DNA damage, leading to increased genomic instability and cancer susceptibility. For example, mutations in BRCA1 and BRCA2, which are involved in HR, increase the risk of breast, ovarian, and prostate cancer. Cells with defects in DNA repair pathways are often more sensitive to DNA-damaging therapies, such as chemotherapy and radiation, because they are unable to repair the DNA damage induced by these treatments. This phenomenon is exploited in cancer therapy using PARP inhibitors, which target cells with BRCA1/2 mutations by inhibiting the repair of single-strand DNA breaks, leading to the accumulation of double-strand breaks and cell death. Mutations in MMR genes, such as MLH1 and MSH2, lead to microsatellite instability (MSI), which is characterized by an increased mutation rate in microsatellites. MSI-high tumors are often more responsive to immune checkpoint inhibitors due to their increased mutational burden and neoantigen load.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment algorithm for acute migraine headaches?",
+    "answer": "Mild to moderate: NSAIDs or acetaminophen; Moderate to severe: Triptans or ditans; Consider antiemetics if nausea present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer progression and response to therapy, and what are the strategies to target the TME for cancer treatment?",
+    "answer": "The tumor microenvironment (TME) is a complex ecosystem surrounding tumor cells, composed of stromal cells (fibroblasts, endothelial cells, immune cells), extracellular matrix (ECM), and signaling molecules. The TME plays a critical role in cancer progression by promoting tumor growth, angiogenesis, immune evasion, and metastasis. Cancer-associated fibroblasts (CAFs) secrete growth factors, cytokines, and ECM components that support tumor cell proliferation and survival. Tumor-associated macrophages (TAMs) can promote tumor growth by suppressing anti-tumor immunity and promoting angiogenesis. The ECM provides a physical scaffold for tumor cells and can also influence cell signaling and drug delivery. Strategies to target the TME include inhibiting angiogenesis with VEGF inhibitors, depleting or reprogramming immunosuppressive immune cells, targeting CAFs with inhibitors of ECM remodeling, and disrupting signaling pathways that promote TME-tumor cell interactions. Combining TME-targeted therapies with conventional chemotherapy, radiation, or immunotherapy can improve treatment outcomes by disrupting the supportive environment that promotes tumor growth and resistance.",
+    "persona": "Researcher"
+  }
+]

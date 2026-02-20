@@ -1,0 +1,12 @@
+md5: ccdb2866c66d0ea78891432921291f02
+frozen: true
+deps:
+- etag: 08c19bc2d7d4fa90031001
+  size: 2976733526
+  version_id: '1763433224637889'
+  hash: md5
+  path:
+    gs://pubmed-bucket-ac215/chromadb_backups/pubmed_abstract_semantic/chromadb_backups_pubmed_abstract_with_semantic.jsonl
+outs:
+- hash: md5
+  path: chromadb_backups_pubmed_abstract_with_semantic.jsonl

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Administer rate-controlling agents such as intravenous beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem) to slow the ventricular rate. Consider cardioversion if rate control is ineffective or the patient is hemodynamically unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing, and what are its limitations?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a specific DNA sequence, directing the Cas9 endonuclease to that location. Cas9 then introduces a double-stranded break. The cell repairs this break either through non-homologous end joining (NHEJ), which is error-prone and often results in gene disruption via insertions or deletions (indels), or through homology-directed repair (HDR) if a DNA template with homology to the cut site is provided, allowing for precise gene insertion or replacement. Key limitations include off-target effects (Cas9 cutting at unintended sites due to sequence similarity), delivery challenges (efficiently getting the CRISPR components into the target cells or tissues, particularly in vivo), mosaicism (incomplete editing across the cell population), and potential immunogenicity. Furthermore, the efficiency of HDR can be low, especially in certain cell types like primary cells or neurons, making precise gene editing challenging. Ethical considerations surrounding germline editing and equitable access to CRISPR-based therapies also pose significant hurdles.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE) according to the 2019 EULAR/ACR classification criteria?",
+    "answer": "The 2019 EULAR/ACR criteria for SLE include both entry criteria (ANA ≥1:80) and additive weighted criteria in multiple clinical and immunological domains; a score of ≥10 is required for classification.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the known mechanisms by which cancer cells develop resistance to tyrosine kinase inhibitors (TKIs) in EGFR-mutant non-small cell lung cancer?",
+    "answer": "Resistance mechanisms to EGFR TKIs in NSCLC are diverse and can be broadly categorized as EGFR-dependent and EGFR-independent. The most common EGFR-dependent mechanism is the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. Other EGFR-dependent mechanisms include EGFR amplification, C797S mutations (particularly in the setting of prior T790M), and EGFR extracellular domain mutations that increase EGFR dimerization. EGFR-independent mechanisms involve activation of alternative signaling pathways that bypass EGFR inhibition, such as MET amplification, BRAF mutations, PIK3CA mutations, activation of the RAS/MAPK pathway, and small cell lung cancer transformation. Epithelial-mesenchymal transition (EMT) can also contribute to TKI resistance. Furthermore, emerging evidence suggests that epigenetic modifications and alterations in the tumor microenvironment, including immune cell infiltration and cytokine production, play a role in modulating TKI sensitivity and resistance. The specific resistance mechanism often dictates the subsequent treatment strategy, such as the use of osimertinib for T790M-positive tumors or MET inhibitors for MET-amplified tumors. Liquid biopsies, including circulating tumor DNA (ctDNA) analysis, are increasingly used to identify resistance mechanisms and guide treatment decisions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology and HPV co-testing in women aged 30-65 with negative prior screening results?",
+    "answer": "Screen every 5 years with cytology and HPV co-testing per ASCCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression in cancer?",
+    "answer": "Non-coding RNAs play crucial roles in regulating gene expression at various levels in cancer cells. MicroRNAs (miRNAs) are small (~22 nucleotide) RNAs that typically bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. They can act as both oncogenes (oncomiRs) or tumor suppressors, depending on their target genes. For example, miR-21 is often upregulated in cancers and promotes tumor growth by inhibiting tumor suppressor genes. Long non-coding RNAs (lncRNAs), which are longer than 200 nucleotides, exhibit diverse mechanisms of action. They can act as scaffolds to bring proteins together, decoys to sequester RNA-binding proteins, guides to direct chromatin-modifying complexes to specific genomic loci, or enhancers of gene transcription. For instance, lncRNA HOTAIR recruits PRC2 to silence tumor suppressor genes, while lncRNA MALAT1 promotes metastasis by regulating gene expression involved in cell migration and invasion. The dysregulation of miRNAs and lncRNAs is frequently observed in cancer, contributing to aberrant cell proliferation, apoptosis evasion, metastasis, and drug resistance. These non-coding RNAs represent promising therapeutic targets for cancer treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment approach for a patient diagnosed with community-acquired pneumonia (CAP)?",
+    "answer": "Empiric antibiotic therapy based on local resistance patterns; common regimens include macrolides (e.g., azithromycin) or doxycycline for outpatients, and beta-lactam plus macrolide or a respiratory fluoroquinolone for inpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps involved in the process of autophagy, and how is it regulated in mammalian cells?",
+    "answer": "Autophagy is a highly conserved catabolic process involving the sequestration of cytoplasmic components within double-membrane vesicles called autophagosomes, which then fuse with lysosomes for degradation and recycling. The process is initiated by the formation of a phagophore, a cup-shaped membrane structure, which elongates and engulfs the cargo. This requires the coordinated action of autophagy-related (ATG) proteins. Key steps include: (1) Initiation, involving the ULK1 complex (ULK1, ATG13, FIP200, and ATG101), which is regulated by mTOR and AMPK; (2) Nucleation, involving the Beclin 1 complex (Beclin 1, VPS34, VPS15, and ATG14L), which generates phosphatidylinositol 3-phosphate (PI3P) to promote autophagosome formation; (3) Elongation, involving two ubiquitin-like conjugation systems: ATG12-ATG5-ATG16L1 complex, which facilitates membrane curvature, and LC3 lipidation (LC3-II), which recruits cargo and promotes autophagosome closure; (4) Fusion, involving the fusion of autophagosomes with lysosomes, mediated by SNARE proteins. Autophagy is tightly regulated by nutrient availability, growth factors, and stress signals. mTOR, a central regulator of cell growth, inhibits autophagy under nutrient-rich conditions, while AMPK, activated during energy stress, promotes autophagy by inhibiting mTOR and activating ULK1. Dysregulation of autophagy is implicated in various diseases, including cancer, neurodegeneration, and infection.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects associated with metformin therapy?",
+    "answer": "Gastrointestinal side effects (nausea, diarrhea, abdominal discomfort) are most common; rare but serious side effect is lactic acidosis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally suppress T-cell activation and effector function. Anti-CTLA-4 antibodies block the CTLA-4 molecule, which is expressed on T cells and competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs). By blocking CTLA-4, anti-CTLA-4 antibodies promote T-cell activation and proliferation in the early stages of the immune response, primarily in the lymph nodes. Anti-PD-1 antibodies block the PD-1 receptor, which is expressed on T cells and binds to its ligands PD-L1 and PD-L2 on tumor cells and APCs. This interaction normally inhibits T-cell activity and promotes T-cell exhaustion in the tumor microenvironment. By blocking PD-1, anti-PD-1 antibodies reinvigorate exhausted T cells, allowing them to recognize and kill tumor cells. Combination therapy with anti-CTLA-4 and anti-PD-1 antibodies can further enhance anti-tumor immunity by targeting different checkpoints and stages of the immune response. However, this also increases the risk of immune-related adverse events (irAEs) due to excessive immune activation. Biomarkers, such as PD-L1 expression on tumor cells and tumor mutational burden (TMB), are used to predict response to checkpoint inhibitors, but their predictive value is limited.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a patient presenting with a suspected stroke?",
+    "answer": "Assess ABCs, obtain a non-contrast CT scan to rule out hemorrhage, and determine eligibility for thrombolytic therapy (e.g., alteplase) or mechanical thrombectomy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms involved in the development of Alzheimer's disease (AD)?",
+    "answer": "Alzheimer's disease (AD) is characterized by the progressive accumulation of amyloid plaques and neurofibrillary tangles in the brain, leading to neuronal dysfunction and cognitive decline. The amyloid cascade hypothesis posits that the accumulation of amyloid-beta (Aβ) peptides, derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase, is a primary driver of AD pathogenesis. Aβ plaques trigger a cascade of events, including tau hyperphosphorylation and aggregation into neurofibrillary tangles, synaptic dysfunction, neuroinflammation, and neuronal loss. Genetic mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), which are components of the γ-secretase complex, increase Aβ production and are associated with early-onset familial AD. In addition to Aβ and tau pathology, neuroinflammation, oxidative stress, mitochondrial dysfunction, and impaired clearance of Aβ contribute to AD pathogenesis. Genetic risk factors, such as the APOE4 allele, increase the risk of late-onset sporadic AD. Emerging evidence suggests that vascular dysfunction and alterations in the gut microbiome may also play a role in AD development. Therapeutic strategies targeting Aβ production, aggregation, or clearance, as well as tau phosphorylation and aggregation, are under investigation for AD treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the recommended blood pressure targets for patients with hypertension and diabetes mellitus?",
+    "answer": "Generally <130/80 mmHg per ADA guidelines, but individualize based on patient characteristics and comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence immune responses and contribute to inflammatory diseases?",
+    "answer": "The gut microbiome, consisting of trillions of microorganisms residing in the gastrointestinal tract, plays a crucial role in shaping immune responses and maintaining intestinal homeostasis. The gut microbiota interacts with the host immune system through various mechanisms. Commensal bacteria produce metabolites, such as short-chain fatty acids (SCFAs), including acetate, propionate, and butyrate, which have immunomodulatory effects. SCFAs can enhance intestinal barrier function, promote regulatory T-cell (Treg) differentiation, and suppress pro-inflammatory cytokine production. The gut microbiome also produces lipopolysaccharide (LPS), a potent immune stimulant that activates Toll-like receptor 4 (TLR4) and triggers inflammatory responses. Dysbiosis, characterized by alterations in the composition and diversity of the gut microbiome, has been implicated in various inflammatory diseases, including inflammatory bowel disease (IBD), rheumatoid arthritis, and type 1 diabetes. In IBD, dysbiosis can lead to increased intestinal permeability, enhanced antigen presentation, and activation of pro-inflammatory immune cells, contributing to chronic inflammation. The gut microbiome can also influence systemic immune responses by modulating the development and function of immune cells in the gut-associated lymphoid tissue (GALT) and promoting the production of circulating antibodies. Therapeutic strategies targeting the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored for the treatment of inflammatory diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days are common first-line options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the known mechanisms by which viruses evade the host's innate and adaptive immune responses?",
+    "answer": "Viruses have evolved diverse strategies to evade both innate and adaptive immune responses, allowing them to establish persistent infections. To evade the innate immune system, viruses can inhibit the production of type I interferons (IFNs), which are crucial for antiviral defense. They can also block the signaling pathways downstream of IFN receptors, preventing the activation of antiviral genes. Some viruses encode proteins that directly interfere with pattern recognition receptors (PRRs), such as TLRs and RIG-I, which detect viral components and initiate immune responses. To evade the adaptive immune system, viruses can undergo rapid mutation, generating antigenic variants that are no longer recognized by pre-existing antibodies or T cells. They can also downregulate the expression of MHC class I molecules on infected cells, preventing recognition by cytotoxic T lymphocytes (CTLs). Some viruses establish latency, a state of viral dormancy in which viral gene expression is limited, making them invisible to the immune system. Viruses can also produce immunosuppressive cytokines, such as IL-10, which inhibit T-cell activation and promote regulatory T-cell (Treg) responses. Furthermore, some viruses can infect and deplete immune cells, such as CD4+ T cells in the case of HIV, leading to immunodeficiency. Understanding these viral evasion mechanisms is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial management of a patient presenting with a deep vein thrombosis (DVT)?",
+    "answer": "Initiate anticoagulation with either a direct oral anticoagulant (DOAC) or low-molecular-weight heparin (LMWH) followed by warfarin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell metabolism and survival?",
+    "answer": "The Warburg effect, also known as aerobic glycolysis, refers to the phenomenon where cancer cells preferentially utilize glycolysis for energy production, even in the presence of sufficient oxygen. This contrasts with normal cells, which primarily rely on oxidative phosphorylation (OXPHOS) in mitochondria for ATP generation under aerobic conditions. While glycolysis produces less ATP per glucose molecule compared to OXPHOS, it provides cancer cells with several advantages. Glycolysis generates metabolic intermediates that can be used for biosynthesis of macromolecules, such as nucleotides, amino acids, and lipids, which are essential for cell growth and proliferation. Glycolysis also generates NADPH, which protects cancer cells from oxidative stress. Furthermore, the acidic microenvironment created by lactate production inhibits the activity of immune cells and promotes tumor invasion and metastasis. The Warburg effect is regulated by oncogenes, such as c-Myc and HIF-1α, and tumor suppressor genes, such as p53. Therapeutic strategies targeting the Warburg effect, such as inhibiting glycolysis enzymes or enhancing mitochondrial OXPHOS, are being explored for cancer treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score, and how is it used in clinical practice?",
+    "answer": "The CHA2DS2-VASc score includes: Congestive heart failure, Hypertension, Age ≥75 (2 points), Diabetes mellitus, Stroke/TIA/thromboembolism (2 points), Vascular disease, Age 65-74, Sex category (female). It is used to assess stroke risk in patients with atrial fibrillation and guide anticoagulation decisions.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, influence gene expression and contribute to disease pathogenesis?",
+    "answer": "Epigenetic modifications are heritable changes in gene expression that occur without alterations in the underlying DNA sequence. DNA methylation, the addition of a methyl group to cytosine bases, typically leads to gene silencing by recruiting methyl-binding proteins and histone deacetylases, resulting in chromatin condensation and reduced accessibility of transcription factors. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and regulate gene transcription. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure and facilitating access of transcription factors. Histone methylation can have either activating or repressive effects, depending on the specific lysine residue that is methylated and the number of methyl groups added. Epigenetic modifications are dynamically regulated by enzymes that add or remove these marks and play a critical role in development, differentiation, and cellular responses to environmental stimuli. Aberrant epigenetic modifications have been implicated in various diseases, including cancer, neurodevelopmental disorders, and autoimmune diseases. In cancer, for example, hypermethylation of tumor suppressor genes and hypomethylation of oncogenes contribute to tumorigenesis. Epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are being used in cancer therapy to reverse aberrant epigenetic modifications and restore normal gene expression.",
+    "persona": "Researcher"
+  }
+]

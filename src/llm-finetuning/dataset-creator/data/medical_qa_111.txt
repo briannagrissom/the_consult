@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in a previously healthy adult?",
+    "answer": "Amoxicillin or doxycycline are recommended first-line treatments.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise gene editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) that is complementary to a target DNA sequence. This gRNA directs the Cas9 nuclease to the specific genomic location, where Cas9 creates a double-stranded break. The cell's natural DNA repair mechanisms then kick in. Non-homologous end joining (NHEJ) can introduce insertions or deletions (indels), often disrupting the gene. Alternatively, if a DNA template with homology to the break site is provided, homology-directed repair (HDR) can be used to precisely insert or modify the gene sequence. The efficiency of HDR is influenced by factors such as the length of homology arms, cell cycle stage, and delivery method. Off-target effects, where Cas9 cuts at unintended sites due to sequence similarity, remain a concern, but improved Cas9 variants and gRNA design strategies are minimizing these issues. Recent advances include base editing (modifying single bases without double-strand breaks) and prime editing (more versatile and precise editing capabilities), expanding the tool's utility for therapeutic applications and basic research.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for aspirin use in primary prevention of cardiovascular disease?",
+    "answer": "Aspirin is not routinely recommended for primary prevention of CVD in adults >60 years. In selected adults aged 40-59 years with higher ASCVD risk, clinicians should use clinical judgment to decide.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why are some cancer cells able to develop resistance to targeted therapies such as EGFR inhibitors?",
+    "answer": "Cancer cells develop resistance to targeted therapies through several mechanisms. One common mechanism is the acquisition of secondary mutations in the target protein, such as EGFR, that prevent the drug from binding effectively. For example, the T790M mutation in EGFR confers resistance to first- and second-generation EGFR inhibitors. Another mechanism involves activation of bypass signaling pathways that circumvent the inhibited target. For instance, activation of the PI3K/AKT pathway can allow cancer cells to survive even when EGFR is inhibited. Additionally, cancer cells can upregulate drug efflux pumps, such as P-glycoprotein, which actively pump the drug out of the cell. Epithelial-to-mesenchymal transition (EMT) can also contribute to resistance by altering the expression of drug targets and increasing cell survival. Finally, changes in the tumor microenvironment, such as increased angiogenesis or immune suppression, can also promote resistance. Understanding these mechanisms is crucial for developing strategies to overcome resistance, such as using combination therapies that target multiple pathways or developing drugs that are less susceptible to resistance mutations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin for 5 days, or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, or fosfomycin single dose are recommended.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in development and disease?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, primarily occurring at cytosine bases in CpG dinucleotides, typically leads to gene silencing by recruiting methyl-binding domain (MBD) proteins that condense chromatin and block transcription factor access. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin structure and facilitating transcription factor binding. Conversely, histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to chromatin condensation and gene repression. Other histone modifications, such as methylation and phosphorylation, can have activating or repressive effects depending on the specific residue and the surrounding epigenetic context. These epigenetic marks are dynamically regulated by enzymes and are influenced by environmental factors, including diet and stress. Aberrant epigenetic patterns are implicated in various diseases, including cancer, where they can contribute to oncogene activation or tumor suppressor gene silencing. Epigenetic drugs, such as HDAC inhibitors and DNA methyltransferase inhibitors, are being developed to reverse these aberrant patterns and restore normal gene expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute atrial fibrillation with rapid ventricular rate?",
+    "answer": "Assess hemodynamic stability; if unstable, perform synchronized cardioversion. If stable, control rate with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do microRNAs (miRNAs) play in the pathogenesis of cardiovascular diseases?",
+    "answer": "MicroRNAs (miRNAs) are small non-coding RNA molecules that regulate gene expression by binding to the 3' untranslated region (UTR) of target messenger RNAs (mRNAs), leading to mRNA degradation or translational repression. In cardiovascular diseases, miRNAs play a crucial role in various processes, including angiogenesis, inflammation, apoptosis, and fibrosis. For example, miR-126 promotes angiogenesis by enhancing endothelial cell proliferation and migration. Conversely, miR-21 promotes cardiac fibrosis by activating fibroblasts and increasing collagen synthesis. Dysregulation of miRNA expression has been implicated in various cardiovascular conditions, such as heart failure, myocardial infarction, and atherosclerosis. Circulating miRNAs can also serve as potential biomarkers for cardiovascular diseases, as their levels often correlate with disease severity and prognosis. Therapeutic strategies targeting miRNAs, such as miRNA inhibitors or mimics, are being investigated as potential treatments for cardiovascular diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the target HbA1c goals for most non-pregnant adults with diabetes?",
+    "answer": "The target HbA1c is generally <7%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using checkpoint inhibitors enhance the anti-tumor immune response?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance the anti-tumor immune response by blocking inhibitory signals that normally dampen T-cell activity. CTLA-4 is expressed on T cells and binds to B7 molecules on antigen-presenting cells (APCs), delivering an inhibitory signal that prevents T-cell activation. Anti-CTLA-4 antibodies block this interaction, allowing T cells to become fully activated and mount an immune response against cancer cells. PD-1 is another inhibitory receptor expressed on T cells that binds to PD-L1, which is often expressed on cancer cells. This interaction delivers an inhibitory signal that suppresses T-cell effector function and promotes immune evasion. Anti-PD-1/PD-L1 antibodies block this interaction, allowing T cells to recognize and kill cancer cells. By blocking these checkpoint pathways, immunotherapy unleashes the full potential of the immune system to attack and destroy cancer cells. However, checkpoint inhibitors can also cause immune-related adverse events due to the activation of T cells against healthy tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated hypertension in pregnancy?",
+    "answer": "Labetalol, nifedipine, and methyldopa are commonly used first-line agents.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses, such as influenza, evade the host's immune response?",
+    "answer": "Viruses employ various strategies to evade the host's immune response. Antigenic variation, including antigenic drift (accumulation of point mutations) and antigenic shift (reassortment of viral genome segments), allows viruses to escape antibody recognition. Viruses can also suppress the interferon response, which is a critical antiviral defense mechanism. For instance, influenza viruses express proteins that inhibit the production or signaling of interferon. Some viruses infect immune cells, such as macrophages or T cells, impairing their function. Viruses can also express proteins that interfere with antigen presentation, preventing the activation of T cells. Furthermore, viruses can establish latency, hiding in host cells and evading immune surveillance. These immune evasion strategies contribute to viral persistence and pathogenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient with a first-time unprovoked seizure?",
+    "answer": "Treatment depends on recurrence risk and patient factors; consider AEDs after weighing risks/benefits.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several key signaling pathways. The amyloid cascade hypothesis centers on the accumulation of amyloid-beta (Aβ) plaques, derived from amyloid precursor protein (APP) processing via β-secretase and γ-secretase, triggering neuronal dysfunction and inflammation. Tau hyperphosphorylation, mediated by kinases like GSK-3β and CDK5, leads to neurofibrillary tangle formation and microtubule disruption. Inflammation, driven by microglia and astrocytes, amplifies neuronal damage through cytokine release and oxidative stress. Insulin resistance and impaired insulin signaling exacerbate Aβ accumulation and tau phosphorylation. Finally, disrupted calcium homeostasis contributes to excitotoxicity and neuronal death. These interconnected pathways converge to promote synaptic loss, neuronal degeneration, and cognitive decline characteristic of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial approach to managing a patient with suspected deep vein thrombosis (DVT)?",
+    "answer": "Assess pretest probability (e.g., Wells score), perform D-dimer testing; if positive or high probability, perform ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do adipokines, such as leptin and adiponectin, influence insulin sensitivity and metabolic health?",
+    "answer": "Adipokines are hormones secreted by adipose tissue that play a crucial role in regulating energy homeostasis and insulin sensitivity. Leptin, secreted in proportion to fat mass, signals to the brain to suppress appetite and increase energy expenditure. However, in obesity, leptin resistance often develops, impairing its ability to regulate appetite and energy balance. Adiponectin, on the other hand, enhances insulin sensitivity by increasing fatty acid oxidation and glucose uptake in muscle and liver. Adiponectin also has anti-inflammatory and anti-atherogenic properties. Obesity is associated with decreased adiponectin levels, contributing to insulin resistance and metabolic dysfunction. The balance between leptin and adiponectin is critical for maintaining metabolic health, and dysregulation of these adipokines contributes to the pathogenesis of type 2 diabetes and cardiovascular disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) after percutaneous coronary intervention (PCI) with stent placement?",
+    "answer": "The duration of DAPT varies based on bleeding risk and clinical presentation, typically ranging from 6-12 months.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Bacteria develop antibiotic resistance through several mechanisms. One common mechanism is enzymatic inactivation of the antibiotic, where bacteria produce enzymes that degrade or modify the antibiotic, rendering it ineffective. Another mechanism is alteration of the antibiotic target, where mutations in the bacterial gene encoding the antibiotic target prevent the antibiotic from binding effectively. Bacteria can also develop efflux pumps that actively pump the antibiotic out of the cell, reducing its intracellular concentration. Reduced permeability, where changes in the bacterial cell wall or membrane decrease the antibiotic's ability to enter the cell, is another resistance mechanism. Finally, bacteria can acquire resistance genes through horizontal gene transfer, such as conjugation, transduction, or transformation, allowing them to rapidly spread resistance to other bacteria.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical pharmacological treatment for Parkinson's disease?",
+    "answer": "Levodopa is a mainstay of treatment, often combined with carbidopa to reduce peripheral side effects. Other options include dopamine agonists, MAO-B inhibitors, and COMT inhibitors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination. They play a crucial role in repairing double-strand DNA breaks, ensuring genomic stability. Mutations in these genes impair the cell's ability to accurately repair damaged DNA, leading to the accumulation of mutations and increased genomic instability. This genomic instability increases the risk of developing cancer, particularly breast and ovarian cancer, as these tissues are more susceptible to the effects of impaired DNA repair. BRCA1 and BRCA2 mutations can be inherited, significantly increasing an individual's lifetime risk of developing these cancers. Cells with BRCA1/2 mutations are deficient in homologous recombination and rely on error-prone non-homologous end joining (NHEJ) for DNA repair, further increasing the mutation rate. Furthermore, BRCA1/2 also play roles in cell cycle checkpoints and transcriptional regulation, which are disrupted upon loss of function.",
+    "persona": "Researcher"
+  }
+]

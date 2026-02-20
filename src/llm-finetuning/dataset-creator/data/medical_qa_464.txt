@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker is typically initiated, followed by assessment for anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, which directs the Cas9 endonuclease to that specific location in the genome. Cas9 then creates a double-stranded break in the DNA. The cell's natural repair mechanisms, non-homologous end joining (NHEJ) or homology-directed repair (HDR), are then activated. NHEJ often leads to insertions or deletions (indels), disrupting the gene, while HDR uses a provided DNA template to precisely edit the gene sequence, allowing for targeted gene knockout, knock-in, or correction of mutations. The specificity of the gRNA is critical in minimizing off-target effects, which remain a key challenge in CRISPR-based therapies. [PMID: 26393269]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why are randomized controlled trials (RCTs) considered the gold standard for evaluating the efficacy of new medical interventions?",
+    "answer": "RCTs minimize bias through random assignment of participants to treatment or control groups, ensuring that known and unknown confounding variables are evenly distributed. This allows for a more accurate assessment of the causal relationship between the intervention and the outcome. Blinding of participants and investigators, when feasible, further reduces bias. Statistical analysis of RCT data allows for quantification of the treatment effect and its uncertainty. While observational studies can suggest associations, RCTs provide the strongest evidence for causality, which is essential for evidence-based medical practice. However, RCTs may not always be feasible or ethical, and their results may not be generalizable to all populations or settings. [PMID: 10796254]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated?",
+    "answer": "Empiric antibiotic therapy based on local resistance patterns; options include macrolides, doxycycline, or beta-lactam/macrolide combination.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in IBD pathogenesis, contributing to both disease initiation and perpetuation. Dysbiosis, characterized by reduced microbial diversity and an altered composition (e.g., decreased Firmicutes and increased Proteobacteria), disrupts the delicate balance between the host immune system and the microbiota. This dysbiosis can lead to increased intestinal permeability, allowing bacterial products to translocate across the epithelial barrier and activate the immune system. Specific microbial species, such as adherent-invasive E. coli (AIEC), can exacerbate inflammation in genetically susceptible individuals. Conversely, beneficial bacteria, such as Faecalibacterium prausnitzii, produce anti-inflammatory metabolites like butyrate, which can protect against IBD. Therapeutic strategies targeting the microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, aim to restore microbial diversity and reduce inflammation in IBD. [PMID: 23624528]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are common side effects of statin medications?",
+    "answer": "Muscle aches, elevated liver enzymes, and rarely rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of monoclonal antibodies and small molecule inhibitors in cancer therapy.",
+    "answer": "Monoclonal antibodies (mAbs) are large, highly specific proteins that typically target extracellular receptors or cell surface antigens. They exert their effects through several mechanisms, including blocking receptor-ligand interactions, inducing antibody-dependent cellular cytotoxicity (ADCC), and complement-dependent cytotoxicity (CDC). Small molecule inhibitors (SMIs), on the other hand, are chemically synthesized compounds that are generally smaller and can penetrate cells more easily. They typically target intracellular proteins, such as kinases or enzymes, by binding to their active sites and inhibiting their function. While mAbs are highly specific and have relatively long half-lives, SMIs are often less specific and have shorter half-lives, requiring more frequent dosing. Furthermore, mAbs are typically administered intravenously, while SMIs can be administered orally. Both mAbs and SMIs have revolutionized cancer therapy, but their distinct mechanisms of action and pharmacokinetic properties make them suitable for different therapeutic targets and clinical scenarios.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated urinary tract infection in women?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole for 3 days, or fosfomycin single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors work to treat cancer?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, block inhibitory signaling pathways that normally suppress T-cell activity. By blocking these checkpoints, the immune system is unleashed to recognize and destroy cancer cells. PD-1/PD-L1 inhibitors block the interaction between PD-1 on T cells and PD-L1 on tumor cells, preventing the tumor from evading immune surveillance. CTLA-4 inhibitors block CTLA-4 on T cells, enhancing T-cell activation and proliferation. These therapies have shown remarkable success in treating various cancers, but they can also cause immune-related adverse events due to the broad activation of the immune system. Predictive biomarkers, such as PD-L1 expression and tumor mutational burden, are being used to identify patients who are most likely to benefit from checkpoint inhibitor therapy. [PMID: 29737152]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key steps in managing a suspected stroke?",
+    "answer": "Rapid assessment (NIHSS), CT scan to rule out hemorrhage, and if appropriate, administration of intravenous tPA within 4.5 hours of symptom onset.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in epigenetic regulation and gene expression?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that do not encode proteins but play diverse regulatory roles in the cell. They can interact with DNA, RNA, and proteins to influence gene expression at multiple levels. LncRNAs can act as scaffolds, bringing together different proteins to form regulatory complexes. They can also guide chromatin-modifying enzymes, such as histone methyltransferases and deacetylases, to specific genomic loci, leading to changes in chromatin structure and gene transcription. Furthermore, lncRNAs can directly interact with mRNA to regulate its stability, translation, or splicing. Dysregulation of lncRNAs has been implicated in various diseases, including cancer, neurological disorders, and cardiovascular diseases, making them potential therapeutic targets. [PMID: 23455837]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with anaphylaxis?",
+    "answer": "Administer epinephrine intramuscularly, call for emergency services, and consider antihistamines and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Explain the process of metastasis, including the key steps and molecules involved.",
+    "answer": "Metastasis is the process by which cancer cells spread from the primary tumor to distant sites, and is a complex multistep process. First, cancer cells undergo epithelial-mesenchymal transition (EMT), losing their cell-cell adhesion and acquiring migratory properties. This is driven by transcription factors like Snail, Twist, and ZEB1. Next, cancer cells invade the surrounding tissue by degrading the extracellular matrix using enzymes like matrix metalloproteinases (MMPs). They then enter the bloodstream or lymphatic system (intravasation), often aided by interactions with endothelial cells via molecules like selectins and integrins. Once in circulation, cancer cells must survive anoikis (detachment-induced apoptosis) and evade immune surveillance. At a distant site, cancer cells adhere to the endothelium (extravasation) and invade the new tissue. Finally, they undergo mesenchymal-epithelial transition (MET) and proliferate to form a metastatic tumor, supported by angiogenesis factors like VEGF. [PMID: 17615417]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the different types of T cells and their functions in adaptive immunity?",
+    "answer": "There are several types of T cells that play distinct roles in adaptive immunity. Cytotoxic T cells (CTLs), also known as CD8+ T cells, directly kill infected or cancerous cells by recognizing antigens presented on MHC class I molecules. Helper T cells (Th cells), also known as CD4+ T cells, secrete cytokines that activate other immune cells, such as B cells and macrophages. There are several subtypes of Th cells, including Th1 cells, which promote cell-mediated immunity; Th2 cells, which promote humoral immunity; and Th17 cells, which promote inflammation. Regulatory T cells (Tregs) suppress the immune response to maintain immune homeostasis and prevent autoimmunity. Memory T cells provide long-lasting immunity by rapidly responding to previously encountered antigens. [PMID: 9759478]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you treat a patient with hyperkalemia?",
+    "answer": "Calcium gluconate to stabilize cardiac membrane, insulin and glucose to shift potassium intracellularly, and potassium binders to remove potassium.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do vaccines work to protect against infectious diseases?",
+    "answer": "Vaccines work by exposing the immune system to a weakened or inactive form of a pathogen, or to a specific antigen from the pathogen, without causing the disease. This exposure triggers an adaptive immune response, leading to the production of antibodies and memory cells that can provide long-lasting protection against the pathogen. When the vaccinated individual is later exposed to the actual pathogen, the immune system can quickly recognize and neutralize the threat, preventing or reducing the severity of the infection. Different types of vaccines include live-attenuated vaccines, inactivated vaccines, subunit vaccines, and mRNA vaccines, each with its own advantages and disadvantages. [PMID: 33386799]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical management for a patient experiencing an acute asthma exacerbation?",
+    "answer": "Administer short-acting beta-agonist (SABA) inhaler, consider systemic corticosteroids, and monitor oxygen saturation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and disease?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication. They contain a diverse cargo of proteins, lipids, and nucleic acids (mRNA, microRNA), reflecting the cell of origin. Exosomes can be taken up by recipient cells, delivering their cargo and influencing the recipient cell's function. In cancer, exosomes can promote tumor growth, metastasis, and angiogenesis by transferring oncogenic proteins and microRNAs. They can also modulate the immune response by presenting antigens or delivering immunosuppressive molecules. In infectious diseases, exosomes can facilitate the spread of pathogens or modulate the host immune response. Exosomes are also being explored as potential biomarkers for disease diagnosis and as therapeutic delivery vehicles due to their biocompatibility and ability to cross biological barriers. [PMID: 23599269]",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typical first-line options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does Clostridium difficile infection disrupt the intestinal microbiome and promote recurrent disease?",
+    "answer": "Clostridium difficile infection (CDI) disrupts the intestinal microbiome through several mechanisms. Initial antibiotic use reduces microbial diversity, eliminating protective commensal bacteria and allowing C. difficile to proliferate. C. difficile produces toxins A and B, which cause intestinal inflammation and damage, further disrupting the microbiome. Spores are highly resistant to antibiotics and environmental stressors, allowing C. difficile to persist and cause recurrent infection. Disruption of bile acid metabolism by C. difficile favors its growth and inhibits the growth of beneficial bacteria, such as Bacteroides. The altered microbiome provides fewer colonization barriers against C. difficile, and immune responses are often insufficient to clear the organism completely, leading to high rates of recurrent CDI.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for rheumatoid arthritis?",
+    "answer": "ACR/EULAR criteria include joint involvement, serology (RF, anti-CCP), acute phase reactants (ESR, CRP), and symptom duration.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms of action of metformin in the treatment of type 2 diabetes?",
+    "answer": "Metformin reduces hepatic glucose production primarily through activation of AMP-activated protein kinase (AMPK), which inhibits gluconeogenic enzymes and enhances insulin sensitivity. AMPK activation leads to phosphorylation and inactivation of acetyl-CoA carboxylase (ACC), reducing malonyl-CoA levels and increasing fatty acid oxidation. Metformin also inhibits mitochondrial respiratory chain complex I, reducing ATP production and increasing AMP/ATP ratio, which further activates AMPK. Beyond AMPK, metformin may also improve insulin sensitivity by modulating the gut microbiome, increasing incretin secretion, and directly affecting hepatic glucose metabolism through AMPK-independent mechanisms. These combined effects result in decreased hepatic glucose output, improved insulin sensitivity in peripheral tissues, and overall lower blood glucose levels.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with HPV testing?",
+    "answer": "If HPV negative, screening every 3-5 years is typically recommended.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do immune checkpoint inhibitors enhance anti-tumor immunity, and what are the common mechanisms of resistance?",
+    "answer": "Immune checkpoint inhibitors (ICIs) enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally dampen T-cell activation. CTLA-4 inhibitors, such as ipilimumab, block the CTLA-4 receptor on T cells, preventing its interaction with B7 ligands on antigen-presenting cells, thereby promoting T-cell activation and proliferation. PD-1 inhibitors, such as pembrolizumab and nivolumab, block the PD-1 receptor on T cells, preventing its interaction with PD-L1 on tumor cells or immune cells in the tumor microenvironment. This blockade prevents T-cell exhaustion and allows for sustained anti-tumor immune responses. Mechanisms of resistance to ICIs include: 1) intrinsic tumor factors, such as loss of antigen presentation (MHC downregulation), mutations in interferon signaling pathways, and activation of oncogenic pathways that bypass immune control; 2) extrinsic factors in the tumor microenvironment, such as immunosuppressive cells (e.g., regulatory T cells, myeloid-derived suppressor cells), inhibitory cytokines (e.g., IL-10, TGF-β), and physical barriers that limit T-cell infiltration. Combination strategies targeting multiple immune checkpoints or combining ICIs with chemotherapy, radiation, or targeted therapies are being developed to overcome these resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for anaphylaxis?",
+    "answer": "Epinephrine is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work, and what are its applications in biomedical research?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene editing technology derived from the adaptive immune system of bacteria. It consists of two key components: the Cas9 enzyme, which acts as a molecular scissor, and a guide RNA (gRNA), which directs Cas9 to a specific DNA sequence. The gRNA is a short RNA molecule that is complementary to the target DNA sequence, allowing Cas9 to bind and cleave the DNA at the desired location. Once the DNA is cut, the cell's natural repair mechanisms kick in. Non-homologous end joining (NHEJ) can introduce insertions or deletions (indels), disrupting the gene. Alternatively, homology-directed repair (HDR) can be used to insert a new DNA sequence by providing a DNA template with homology to the cut site. In biomedical research, CRISPR-Cas9 has numerous applications, including gene knockout, gene editing, gene activation, and gene repression. It is used to study gene function, create disease models, develop new therapies, and diagnose diseases. CRISPR-Cas9 is also being explored for gene therapy, with the potential to correct genetic defects in patients with inherited disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver abnormalities, and rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of the different types of T helper cells (Th1, Th2, Th17) in adaptive immunity?",
+    "answer": "T helper cells (Th cells) play a crucial role in orchestrating adaptive immune responses. Th1 cells primarily mediate cellular immunity against intracellular pathogens, such as viruses and bacteria. They produce interferon-gamma (IFN-γ), which activates macrophages to enhance phagocytosis and killing of intracellular pathogens. Th2 cells primarily mediate humoral immunity against extracellular parasites and allergens. They produce cytokines such as IL-4, IL-5, and IL-13, which promote B cell activation, antibody production (particularly IgE), and eosinophil recruitment. Th17 cells play a critical role in immunity against extracellular bacteria and fungi, as well as in autoimmune diseases. They produce IL-17, which recruits neutrophils and other inflammatory cells to the site of infection, promoting inflammation and tissue damage. Dysregulation of Th cell responses can lead to various immune disorders, including autoimmune diseases, allergies, and immunodeficiencies. The balance between Th1, Th2, and Th17 responses is tightly regulated and influenced by various factors, including the nature of the antigen, the cytokine milieu, and the genetic background of the individual.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for community-acquired pneumonia?",
+    "answer": "Outpatient treatment typically involves macrolides or doxycycline; consider beta-lactams plus macrolide for comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to chemotherapy drugs?",
+    "answer": "Cancer cells develop resistance to chemotherapy through multiple mechanisms. Increased drug efflux, mediated by ABC transporters like P-glycoprotein, reduces intracellular drug concentration. Alterations in drug targets, such as mutations in topoisomerases or tubulin, decrease drug binding affinity. Increased DNA repair capacity allows cells to repair drug-induced DNA damage more efficiently. Apoptosis evasion, through upregulation of anti-apoptotic proteins like Bcl-2 or downregulation of pro-apoptotic proteins like Bax, prevents cell death. Epithelial-to-mesenchymal transition (EMT) confers resistance by promoting cell survival and migration. Cancer stem cells, a subpopulation of cells with self-renewal capacity, are often resistant to chemotherapy. Microenvironmental factors, such as hypoxia and cytokines, can also contribute to drug resistance. These mechanisms can occur individually or in combination, leading to multi-drug resistance (MDR).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade host immunity. They can rapidly mutate their surface antigens (antigenic drift/shift) to escape antibody recognition. Some viruses suppress interferon (IFN) production or signaling, inhibiting antiviral responses. Others express proteins that interfere with antigen presentation via MHC molecules, preventing T cell activation. Certain viruses infect and kill immune cells (e.g., HIV targeting CD4+ T cells). Latency, where the virus remains dormant within host cells, allows evasion of immune surveillance. Molecular mimicry, where viral proteins resemble host proteins, can induce immune tolerance or autoimmunity. Some viruses produce decoy receptors or cytokines to neutralize immune mediators. Evasion mechanisms vary widely among different viruses, reflecting their evolutionary adaptation to specific hosts and immune pressures.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for patients on warfarin for atrial fibrillation?",
+    "answer": "Generally, an INR of 2.0-3.0 is targeted.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in cancer development and progression?",
+    "answer": "Several signaling pathways are frequently dysregulated in cancer, driving cell proliferation, survival, and metastasis. The receptor tyrosine kinase (RTK)/RAS/MAPK pathway regulates cell growth, differentiation, and apoptosis; mutations in RAS or RTK overexpression are common. The PI3K/AKT/mTOR pathway promotes cell survival, growth, and metabolism; PTEN loss or PI3K mutations are often observed. The Wnt/β-catenin pathway regulates cell fate and proliferation; APC mutations are prevalent in colon cancer. The TGF-β pathway can act as both a tumor suppressor and promoter, depending on context; SMAD mutations or TGF-β overexpression are common. The Hedgehog pathway controls embryonic development and tissue maintenance; mutations in pathway components are found in basal cell carcinoma. The Notch pathway regulates cell fate decisions; Notch mutations or ligand overexpression are implicated in leukemia. Dysregulation of these pathways often involves complex interactions and feedback loops, contributing to cancer heterogeneity and therapeutic resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key modifiable risk factors for stroke?",
+    "answer": "Hypertension, hyperlipidemia, smoking, diabetes, and atrial fibrillation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the immune system to fight cancer?",
+    "answer": "Immunotherapy leverages the patient's own immune system to recognize and destroy cancer cells. Immune checkpoint inhibitors (ICIs) block inhibitory signals that prevent T cells from attacking tumors (e.g., anti-PD-1, anti-CTLA-4 antibodies). Adoptive cell therapy involves engineering immune cells ex vivo to enhance their anti-tumor activity before infusing them back into the patient (e.g., CAR-T cell therapy). Cancer vaccines stimulate the immune system to recognize tumor-associated antigens and mount an anti-tumor response. Oncolytic viruses selectively infect and kill cancer cells, while also stimulating an immune response. Cytokines, such as IL-2 and IFN-α, can enhance immune cell activity. Immunotherapy can induce durable remissions in some patients but is also associated with immune-related adverse events (irAEs). Understanding mechanisms of resistance and developing strategies to overcome them are key areas of research.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are common first-line treatments.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do advances in genomics and proteomics contribute to personalized medicine?",
+    "answer": "Genomics and proteomics play a central role in personalized medicine by providing detailed information about an individual's genetic makeup and protein expression patterns. Genomic sequencing can identify germline mutations that predispose individuals to certain diseases, as well as somatic mutations in tumors that drive cancer development and progression. Proteomics, the study of proteins, can reveal changes in protein expression and post-translational modifications that reflect disease states or drug responses. By integrating genomic and proteomic data, clinicians can tailor treatments to individual patients based on their unique molecular profiles. For example, genomic testing can identify patients who are likely to benefit from targeted therapies or who may experience adverse reactions to certain drugs. Proteomic analysis can monitor treatment response and identify biomarkers for early detection of disease recurrence. These advances are leading to more precise and effective medical interventions, improving patient outcomes and reducing healthcare costs.",
+    "persona": "Researcher"
+  }
+]

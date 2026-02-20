@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically first-line; consider cardioversion if unstable or rate control fails.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "EGFR tyrosine kinase inhibitors (TKIs) such as gefitinib and erlotinib initially demonstrate marked efficacy in NSCLC patients harboring activating EGFR mutations (e.g., exon 19 deletions, L858R). However, acquired resistance invariably emerges, most commonly mediated by the T790M mutation in exon 20 of EGFR. T790M sterically hinders TKI binding, restoring ATP affinity and kinase activity. Additionally, EGFR can be bypassed through MET amplification, HER2 amplification, or downstream activation of PI3K/AKT signaling, thereby negating EGFR inhibition. Less common resistance mechanisms include EGFR mutations such as C797S, or histologic transformation to small cell lung cancer. Newer EGFR TKIs like osimertinib are designed to overcome T790M resistance, but further mutations and bypass pathways can ultimately limit their long-term effectiveness, necessitating continuous investigation into novel therapeutic strategies to address acquired resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for statin therapy in a patient with known coronary artery disease?",
+    "answer": "High-intensity statin therapy is recommended to reduce LDL-C by ≥50% per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do epigenetic modifications play in the pathogenesis of Alzheimer's disease?",
+    "answer": "Epigenetic mechanisms, including DNA methylation, histone acetylation/methylation, and non-coding RNAs, are increasingly recognized as key contributors to the pathogenesis of Alzheimer's disease (AD). Aberrant DNA methylation patterns, particularly at CpG islands in promoter regions of genes involved in synaptic plasticity, neuroinflammation, and amyloid processing, have been observed in AD brains. For example, altered methylation of the BACE1 promoter can upregulate β-secretase expression, promoting amyloid-β production. Histone modifications, such as decreased H3K9 acetylation and increased H3K9 methylation, lead to chromatin condensation and reduced transcription of genes essential for neuronal function and survival. MicroRNAs (miRNAs), such as miR-34a, are dysregulated in AD and can influence the translation of target mRNAs involved in synaptic transmission and neuroprotection. Environmental factors, including diet and lifestyle, can also modulate epigenetic marks and influence AD risk. Understanding the specific epigenetic changes that drive AD pathology may reveal novel therapeutic targets for disease modification by restoring normal epigenetic landscapes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated in an outpatient setting?",
+    "answer": "Outpatient treatment generally involves a macrolide (azithromycin or clarithromycin) or doxycycline; consider a respiratory fluoroquinolone (levofloxacin or moxifloxacin) if comorbidities are present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which cancer cells metastasize to distant organs?",
+    "answer": "Cancer metastasis is a complex, multistep process involving detachment from the primary tumor, intravasation into blood or lymphatic vessels, survival in circulation, extravasation at distant sites, and colonization to form secondary tumors. Epithelial-mesenchymal transition (EMT) enables cancer cells to lose cell-cell adhesion and gain migratory properties, facilitated by transcription factors like Snail and Twist. Cancer cells secrete proteases (e.g., MMPs) to degrade the extracellular matrix and invade surrounding tissues. Survival in circulation requires resistance to anoikis (detachment-induced apoptosis) and immune cell attack, often mediated by interactions with platelets and formation of tumor microemboli. Extravasation involves adhesion to endothelial cells at distant sites, guided by chemokines and adhesion molecules (e.g., selectins, integrins). Colonization is often the rate-limiting step and depends on establishing a supportive microenvironment, including angiogenesis, immune evasion, and adaptation to the new tissue context. Pre-metastatic niches, primed by tumor-derived factors, can facilitate colonization by creating permissive conditions for metastatic growth. The specific organ tropism is influenced by interactions between cancer cell surface receptors and tissue-specific ligands.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a patient with a first-time unprovoked seizure?",
+    "answer": "Obtain a thorough history and neurological exam, order EEG and brain imaging (MRI preferred), and consider initiating antiepileptic drug therapy based on risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does insulin resistance contribute to the development of type 2 diabetes?",
+    "answer": "Insulin resistance, characterized by impaired cellular response to insulin, is a central feature in the pathogenesis of type 2 diabetes (T2D). In insulin-resistant states, target tissues (e.g., skeletal muscle, liver, adipose tissue) require higher insulin concentrations to achieve normal glucose uptake and utilization. Initially, pancreatic beta cells compensate by increasing insulin secretion, leading to hyperinsulinemia. Over time, chronic overstimulation and metabolic stress (e.g., glucotoxicity, lipotoxicity) impair beta-cell function, reducing insulin secretion and eventually leading to hyperglycemia. Insulin resistance also disrupts glucose metabolism in the liver, increasing hepatic glucose production and further exacerbating hyperglycemia. Adipose tissue dysfunction contributes by releasing excess free fatty acids and inflammatory cytokines, further impairing insulin sensitivity in other tissues. Genetic predisposition, obesity, physical inactivity, and aging contribute to the development of insulin resistance. Therapeutic strategies to improve insulin sensitivity include lifestyle interventions (diet, exercise) and pharmacological agents (e.g., metformin, thiazolidinediones) that enhance insulin action and reduce hepatic glucose production.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a healthy adult female?",
+    "answer": "First-line options include nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development and progression of colorectal cancer?",
+    "answer": "Colorectal cancer (CRC) development and progression are driven by dysregulation of several key signaling pathways. The Wnt/β-catenin pathway is frequently activated due to mutations in APC or β-catenin, leading to increased transcription of genes promoting cell proliferation and survival. The RAS/RAF/MAPK pathway is activated by mutations in KRAS or BRAF, driving cell growth and differentiation. The PI3K/AKT/mTOR pathway is activated by mutations in PIK3CA or PTEN, promoting cell survival, growth, and metabolism. The TGF-β pathway can act as a tumor suppressor in early stages but can promote metastasis in later stages by inducing EMT. The TP53 pathway is frequently inactivated by mutations in TP53, impairing cell cycle arrest and apoptosis in response to DNA damage. Crosstalk between these pathways, along with epigenetic modifications and alterations in the tumor microenvironment, contribute to CRC heterogeneity and therapeutic resistance. Targeted therapies against specific components of these pathways, such as EGFR inhibitors and BRAF inhibitors, have shown clinical benefit in select CRC subtypes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical management strategy for a patient presenting with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin is the standard treatment; consider thrombolysis for severe cases with limb-threatening ischemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors are monoclonal antibodies that block immune checkpoint proteins, thereby unleashing T cell activity against cancer cells. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are key immune checkpoints that negatively regulate T cell activation and effector function. CTLA-4 blockade (e.g., with ipilimumab) enhances T cell priming in lymph nodes by blocking the interaction between CTLA-4 on T cells and B7 ligands (CD80/CD86) on antigen-presenting cells (APCs). PD-1 blockade (e.g., with pembrolizumab or nivolumab) restores T cell activity in the tumor microenvironment by blocking the interaction between PD-1 on T cells and its ligand PD-L1 on tumor cells or immune cells. PD-L1 expression is often upregulated in tumors as a mechanism of immune evasion. By blocking these inhibitory signals, checkpoint inhibitors enhance T cell proliferation, cytokine production, and cytotoxic activity against cancer cells. Combination strategies targeting multiple checkpoints or combining checkpoint inhibitors with other immunotherapies (e.g., chemotherapy, radiation, targeted therapy) are being actively explored to further enhance anti-tumor immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient diagnosed with hypothyroidism?",
+    "answer": "Levothyroxine (synthetic T4) is the standard initial treatment; adjust the dose based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair through homologous recombination (HR). Mutations in these genes impair the ability of cells to accurately repair double-strand DNA breaks, leading to genomic instability and increased susceptibility to cancer. BRCA1 forms a complex with other proteins to regulate DNA repair, transcription, and cell cycle checkpoints. BRCA2 directly binds to DNA and facilitates the loading of RAD51 onto single-stranded DNA during HR. Loss of function of either BRCA1 or BRCA2 leads to the accumulation of DNA damage and activation of alternative, error-prone DNA repair pathways, resulting in mutations and chromosomal aberrations that drive tumorigenesis. Cells with BRCA1/2 mutations are particularly sensitive to PARP inhibitors, which block base excision repair and cause synthetic lethality in cells with impaired HR. The increased risk of breast and ovarian cancer in BRCA1/2 mutation carriers is due to the accumulation of mutations in mammary and ovarian cells, leading to uncontrolled cell growth and tumor formation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended approach to managing acute migraine headaches?",
+    "answer": "Treatment options include NSAIDs, triptans, or antiemetics; consider combination therapy for severe attacks.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of antibiotic resistance in bacteria?",
+    "answer": "Bacteria have evolved several mechanisms to resist the effects of antibiotics. These include enzymatic inactivation of the antibiotic (e.g., β-lactamases that hydrolyze β-lactam antibiotics), alteration of the antibiotic target site (e.g., mutations in ribosomal RNA that prevent antibiotic binding), decreased antibiotic uptake (e.g., reduced expression of porins in Gram-negative bacteria), increased antibiotic efflux (e.g., overexpression of efflux pumps that actively pump the antibiotic out of the cell), and bypass of the inhibited metabolic pathway (e.g., acquisition of alternative enzymes that are not susceptible to the antibiotic). Horizontal gene transfer, including conjugation, transduction, and transformation, plays a critical role in the spread of antibiotic resistance genes between bacteria. Selective pressure from antibiotic use drives the evolution and dissemination of resistance mechanisms, leading to the emergence of multidrug-resistant bacteria. Understanding these mechanisms is crucial for developing new antibiotics and strategies to combat antibiotic resistance, such as combination therapy and antibiotic stewardship programs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is gestational diabetes typically managed?",
+    "answer": "Initial management involves dietary modifications and exercise; if glycemic control is inadequate, insulin or oral hypoglycemic agents (e.g., metformin) may be needed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis. Dysbiosis, characterized by a reduction in microbial diversity and an imbalance in the composition of the gut microbiota, is a hallmark of IBD. Specific microbial species, such as adherent-invasive Escherichia coli (AIEC) and certain strains of Clostridium difficile, can exacerbate intestinal inflammation. Conversely, beneficial bacteria, such as Faecalibacterium prausnitzii, produce short-chain fatty acids (SCFAs) like butyrate, which have anti-inflammatory effects and promote gut barrier integrity. Genetic factors, environmental factors (e.g., diet, antibiotic use), and immune responses interact to shape the gut microbiome and influence the development of IBD. The altered microbiome in IBD can trigger aberrant immune responses, leading to chronic inflammation and tissue damage. Therapeutic strategies targeting the microbiome, such as fecal microbiota transplantation (FMT), dietary interventions, and probiotics, are being explored as potential treatments for IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with acute uncomplicated pyelonephritis?",
+    "answer": "Outpatient treatment options include fluoroquinolones or trimethoprim-sulfamethoxazole (TMP-SMX); consider hospitalization if severe illness or inability to tolerate oral medications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which cancer cells evade apoptosis?",
+    "answer": "Cancer cells employ multiple strategies to evade apoptosis, a critical mechanism of tumor suppression. Mutations or epigenetic silencing of pro-apoptotic genes (e.g., BAX, BAK, TP53) or overexpression of anti-apoptotic genes (e.g., BCL-2, BCL-XL) disrupt the balance between cell survival and death signals. Upregulation of survival signaling pathways, such as PI3K/AKT/mTOR and NF-κB, promotes cell survival and inhibits apoptosis. Loss of expression or function of death receptors (e.g., FAS, TRAIL receptors) or their downstream signaling adaptors (e.g., FADD) impairs the initiation of the extrinsic apoptosis pathway. Cancer cells can also downregulate caspases, the effector proteases that execute the apoptotic program, or express inhibitors of caspases (IAPs). Furthermore, alterations in cellular metabolism, such as increased glycolysis (Warburg effect), can provide cancer cells with a survival advantage and protect them from apoptosis. Resistance to apoptosis is a major obstacle to effective cancer therapy, and strategies to overcome apoptosis resistance, such as BH3 mimetics and SMAC mimetics, are being actively investigated.",
+    "persona": "Researcher"
+  }
+]

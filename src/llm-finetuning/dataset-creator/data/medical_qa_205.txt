@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate or rhythm control; consider cardioversion if unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of insulin resistance in type 2 diabetes?",
+    "answer": "Chronic low-grade inflammation, often associated with obesity, induces insulin resistance through several mechanisms. Pro-inflammatory cytokines, such as TNF-α and IL-6, activate intracellular signaling pathways (e.g., JNK and IKKβ) that lead to serine phosphorylation of insulin receptor substrate-1 (IRS-1). This aberrant phosphorylation impairs insulin signaling by disrupting the interaction between IRS-1 and the insulin receptor, thereby reducing downstream activation of PI3K/AKT and glucose uptake. Furthermore, inflammatory mediators promote the accumulation of macrophages in adipose tissue, which further amplify the inflammatory response and contribute to systemic insulin resistance. Elevated levels of free fatty acids (FFAs), often present in obese individuals, also activate inflammatory pathways via TLR4 signaling, exacerbating insulin resistance. The combined effects of these inflammatory processes disrupt normal insulin signaling and glucose homeostasis, ultimately leading to the development of type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Nausea, sexual dysfunction, weight gain, insomnia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of IBD, characterized by an imbalance in microbial composition (dysbiosis) and impaired host-microbe interactions. In genetically susceptible individuals, dysbiosis can trigger an exaggerated immune response to commensal bacteria, leading to chronic intestinal inflammation. Specifically, a reduction in microbial diversity and a decrease in beneficial bacteria (e.g., Firmicutes) coupled with an increase in potentially pathogenic bacteria (e.g., Escherichia coli) disrupt the intestinal barrier function and promote immune cell infiltration. Microbial metabolites, such as short-chain fatty acids (SCFAs), which are typically produced by the fermentation of dietary fibers, are reduced in IBD patients, further impairing intestinal homeostasis. The altered microbiome composition can also lead to increased production of pro-inflammatory mediators, such as lipopolysaccharide (LPS), which activate Toll-like receptors (TLRs) on immune cells, exacerbating the inflammatory response. Moreover, specific bacterial species can directly activate immune cells and contribute to the development and perpetuation of IBD. Overall, the gut microbiome represents a key environmental factor that interacts with host genetics and immunity to drive the development and progression of IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you initially manage a patient with a suspected deep vein thrombosis (DVT)?",
+    "answer": "Initiate anticoagulation after assessing bleeding risk; confirm diagnosis with imaging.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through multiple mechanisms, the most common being the acquisition of a secondary EGFR mutation, particularly T790M, which sterically hinders TKI binding. Other resistance mechanisms include activation of bypass signaling pathways, such as MET amplification, HER2 amplification, and PI3K/AKT/mTOR pathway activation, which circumvent EGFR inhibition. Transformation to small cell lung cancer (SCLC) can also occur, bypassing EGFR dependence entirely. Furthermore, epithelial-mesenchymal transition (EMT) can promote resistance by altering cellular morphology and increasing invasive properties. The tumor microenvironment also contributes to resistance through the secretion of growth factors and cytokines that activate alternative signaling pathways. Finally, epigenetic modifications and altered drug metabolism can also play a role in TKI resistance. Understanding these complex mechanisms is crucial for developing strategies to overcome resistance and improve outcomes for patients with EGFR-mutant NSCLC.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Macrolide or doxycycline; consider respiratory fluoroquinolone if comorbidities present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signals that suppress T cell activation and effector function. CTLA-4, expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs), thereby inhibiting T cell activation. Anti-CTLA-4 antibodies block this interaction, promoting T cell activation and proliferation. PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells in the tumor microenvironment. This interaction delivers an inhibitory signal to T cells, leading to T cell exhaustion and reduced cytotoxic activity. Anti-PD-1/PD-L1 antibodies block this interaction, restoring T cell function and allowing them to effectively target and eliminate tumor cells. By blocking these inhibitory checkpoints, immunotherapy unleashes the full potential of the immune system to recognize and destroy cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE)?",
+    "answer": "ANA positivity plus clinical criteria (e.g., arthritis, rash, renal involvement).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in cancer metastasis?",
+    "answer": "Exosomes, small extracellular vesicles secreted by cells, play a significant role in cancer metastasis by mediating cell-to-cell communication and altering the tumor microenvironment. Tumor-derived exosomes can transfer oncogenic proteins, mRNA, and microRNA to recipient cells, promoting tumor growth, angiogenesis, and immune evasion. They can also condition distant sites for metastasis by preparing the pre-metastatic niche. Exosomes can deliver matrix metalloproteinases (MMPs) that degrade the extracellular matrix, facilitating tumor cell invasion. They can also transfer drug resistance factors to sensitive cells, promoting therapeutic resistance. Furthermore, exosomes can modulate the immune response by suppressing T cell activity and promoting the recruitment of immunosuppressive cells. Overall, exosomes represent a key mechanism by which cancer cells communicate and orchestrate the metastatic process.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with hyperkalemia?",
+    "answer": "Stabilize cardiac membrane (calcium), shift potassium intracellularly (insulin/glucose, bicarbonate, beta-agonists), remove potassium from the body (diuretics, resins, dialysis).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of metformin in treating type 2 diabetes?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis. It activates AMP-activated protein kinase (AMPK), which suppresses the expression of genes involved in gluconeogenesis. Metformin also improves insulin sensitivity in peripheral tissues, such as muscle, by enhancing glucose uptake and utilization. Furthermore, metformin can reduce intestinal glucose absorption and alter the gut microbiome, contributing to its overall glucose-lowering effects. While the exact molecular mechanisms are still being elucidated, AMPK activation is considered a central pathway through which metformin exerts its therapeutic effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a suspected stroke?",
+    "answer": "Assess ABCs, determine time of symptom onset, perform neurological exam, obtain CT scan to rule out hemorrhage.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification influence gene expression in cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modification, play a crucial role in regulating gene expression in cancer. DNA methylation, typically at CpG islands, represses gene transcription by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs). Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor genes and hypomethylation of oncogenes, are frequently observed in cancer. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and accessibility, influencing gene expression. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene transcription, while histone deacetylation, catalyzed by HDACs, represses transcription. Dysregulation of histone-modifying enzymes and altered histone modification patterns contribute to the aberrant gene expression profiles observed in cancer cells. These epigenetic alterations can drive tumor initiation, progression, and metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole; consider alternatives if resistance is high.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the primary mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, enabling them to establish persistent infections. One common mechanism is antigenic variation, where viruses undergo mutations in their surface proteins, such as hemagglutinin and neuraminidase in influenza virus, allowing them to escape recognition by neutralizing antibodies. Viruses also interfere with the interferon (IFN) response, a critical antiviral defense mechanism, by blocking IFN production, signaling, or downstream effector functions. Some viruses encode proteins that inhibit complement activation, preventing antibody-mediated lysis of infected cells. Others suppress antigen presentation by downregulating MHC class I expression, hindering recognition by cytotoxic T lymphocytes (CTLs). Additionally, viruses can induce immune tolerance by promoting the development of regulatory T cells (Tregs) or by infecting immune cells, leading to immune suppression. These evasion strategies enable viruses to evade immune surveillance and establish chronic infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine; consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells utilize aerobic glycolysis (the Warburg effect) to support their growth and proliferation?",
+    "answer": "Cancer cells often exhibit a metabolic shift towards aerobic glycolysis, also known as the Warburg effect, even in the presence of oxygen. This phenomenon allows cancer cells to rapidly generate ATP and biosynthetic intermediates, supporting their accelerated growth and proliferation. Glycolysis provides cancer cells with a faster rate of ATP production compared to oxidative phosphorylation, which is crucial for meeting their high energy demands. The glycolytic intermediates generated can be diverted into biosynthetic pathways, such as nucleotide and amino acid synthesis, which are essential for cell division and growth. Aerobic glycolysis also produces lactate, which acidifies the tumor microenvironment, promoting tumor invasion and metastasis. Furthermore, the Warburg effect enhances the resistance of cancer cells to apoptosis. The altered metabolic profile of cancer cells makes aerobic glycolysis an attractive target for anticancer therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key features distinguishing delirium from dementia?",
+    "answer": "Delirium: acute onset, fluctuating course, altered level of consciousness; dementia: gradual onset, progressive decline, intact level of consciousness early on.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do long non-coding RNAs (lncRNAs) play in regulating gene expression and cellular function?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of RNA molecules longer than 200 nucleotides that do not encode proteins. They play critical roles in regulating gene expression and cellular function through various mechanisms. LncRNAs can act as scaffolds, bringing together different proteins to form ribonucleoprotein (RNP) complexes that regulate transcription, splicing, and translation. They can also act as guides, directing chromatin-modifying enzymes to specific genomic loci to alter gene expression. Some lncRNAs act as decoys, sequestering transcription factors or microRNAs to prevent them from binding to their target genes. LncRNAs can also regulate gene expression by directly interacting with DNA or RNA molecules. Furthermore, lncRNAs are involved in diverse cellular processes, including development, differentiation, and disease. Dysregulation of lncRNA expression is implicated in various human diseases, including cancer, cardiovascular disease, and neurological disorders, making them potential therapeutic targets.",
+    "persona": "Researcher"
+  }
+]

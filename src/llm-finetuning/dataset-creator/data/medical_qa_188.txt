@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Activating mutations in the EGFR gene (e.g., exon 19 deletions, L858R) are common in NSCLC and sensitize tumors to EGFR tyrosine kinase inhibitors (TKIs) such as gefitinib and erlotinib. However, acquired resistance invariably develops, most commonly through the emergence of the T790M mutation in exon 20 of EGFR. The T790M mutation sterically hinders the binding of first- and second-generation EGFR TKIs to the ATP-binding pocket of the kinase domain while increasing the affinity of EGFR for ATP. This shifts the equilibrium toward the ATP-bound state, reducing the efficacy of reversible EGFR inhibitors. Osimertinib, a third-generation EGFR TKI, was designed to overcome T790M-mediated resistance by forming irreversible covalent bonds with EGFR at Cys797, regardless of the presence of T790M. However, resistance to osimertinib can still develop through mechanisms such as C797S mutations (preventing covalent binding), MET amplification, or activation of bypass signaling pathways like PI3K/AKT. Combinatorial strategies targeting these resistance mechanisms are under active investigation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (2 points), diabetes mellitus, prior stroke/TIA/thromboembolism (2 points), vascular disease, age 65–74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why are viral vectors commonly used for gene therapy, and what are some limitations?",
+    "answer": "Viral vectors are widely used for gene therapy due to their inherent ability to efficiently deliver genetic material into target cells. Adeno-associated viruses (AAVs) are popular because they are non-pathogenic, elicit minimal immune responses, and can infect a broad range of cell types. Lentiviral vectors, derived from HIV, can integrate transgenes into the host cell genome, enabling long-term expression, but raise concerns about insertional mutagenesis. Adenoviral vectors offer high transduction efficiency but induce strong immune responses, limiting durability. Key limitations of viral vectors include: 1) limited packaging capacity, restricting the size of transgenes; 2) potential for off-target effects, including insertional oncogenesis (especially with integrating vectors); 3) pre-existing immunity, which can neutralize viral particles and reduce transduction efficiency; and 4) high manufacturing costs associated with producing clinical-grade vectors. Strategies to overcome these limitations include developing smaller, synthetic promoters to reduce transgene size; using targeted delivery approaches to enhance specificity; and employing immunosuppression to mitigate immune responses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone in an average-risk woman aged 30-65?",
+    "answer": "Every 3 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of insulin resistance in type 2 diabetes?",
+    "answer": "Chronic low-grade inflammation plays a central role in the pathogenesis of insulin resistance in type 2 diabetes. Adipose tissue, particularly visceral fat, becomes infiltrated with immune cells such as macrophages, leading to the production of pro-inflammatory cytokines like TNF-α, IL-6, and IL-1β. These cytokines activate intracellular signaling pathways, including the JNK and IKKβ pathways, which phosphorylate serine residues on insulin receptor substrate 1 (IRS-1), thereby inhibiting insulin signaling. Additionally, inflammatory mediators disrupt the normal function of adipocytes, leading to increased lipolysis and elevated circulating free fatty acids (FFAs). FFAs further exacerbate insulin resistance by activating protein kinase C (PKC) isoforms, which also phosphorylate IRS-1 at inhibitory serine residues. Moreover, chronic inflammation impairs glucose transport into skeletal muscle, a major site of insulin-mediated glucose disposal. The cumulative effect of these inflammatory processes is a state of systemic insulin resistance, characterized by impaired glucose uptake and utilization in peripheral tissues, ultimately leading to hyperglycemia and the development of type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of PD-1 inhibitors and CTLA-4 inhibitors in cancer immunotherapy.",
+    "answer": "Both PD-1 and CTLA-4 inhibitors are immune checkpoint inhibitors that enhance antitumor immunity, but they act through distinct mechanisms and at different stages of the immune response. CTLA-4, expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands (CD80/CD86) on antigen-presenting cells (APCs). By blocking this interaction, CTLA-4 inhibitors prevent the delivery of co-stimulatory signals necessary for T-cell activation and proliferation, primarily in the lymph nodes during the initial priming phase of the immune response. In contrast, PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and in the tumor microenvironment. PD-1 signaling inhibits T-cell effector function, promotes T-cell exhaustion, and induces apoptosis, primarily in peripheral tissues during the effector phase of the immune response. PD-1 inhibitors block this interaction, reinvigorating T-cell activity within the tumor microenvironment. While CTLA-4 blockade mainly affects T-cell priming, PD-1 blockade primarily affects T-cell effector function. Combination therapies targeting both CTLA-4 and PD-1 have demonstrated synergistic antitumor effects in some cancers but are also associated with increased immune-related adverse events.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target LDL-C level for secondary prevention in patients with established atherosclerotic cardiovascular disease?",
+    "answer": "LDL-C reduction of ≥50% from baseline and an LDL-C level of <70 mg/dL per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion in different cancer contexts?",
+    "answer": "Autophagy, a cellular process involving the degradation and recycling of cytoplasmic components, plays a complex and context-dependent role in cancer. In early-stage tumors or precancerous lesions, autophagy can act as a tumor suppressor by removing damaged organelles, misfolded proteins, and toxic aggregates, preventing the accumulation of cellular stress that could drive tumorigenesis. Autophagy also promotes genomic stability by eliminating damaged DNA and preventing replication stress. However, in established tumors, autophagy can promote tumor growth and survival by providing cancer cells with nutrients and energy under conditions of metabolic stress, such as hypoxia or nutrient deprivation. Autophagy also protects cancer cells from apoptosis by removing pro-apoptotic factors and maintaining mitochondrial function. Furthermore, autophagy can contribute to therapeutic resistance by reducing the efficacy of chemotherapy and radiation. The context-dependent role of autophagy in cancer highlights the challenges in developing autophagy-targeted therapies, as inhibiting autophagy may be beneficial in some settings but detrimental in others. Biomarkers that predict the functional role of autophagy in specific tumor types are needed to guide the rational development of autophagy-modulating agents.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for Lyme disease with erythema migrans?",
+    "answer": "Doxycycline or amoxicillin per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do microRNAs play in the regulation of gene expression in cancer?",
+    "answer": "MicroRNAs (miRNAs) are small, non-coding RNA molecules that regulate gene expression by binding to the 3' untranslated region (UTR) of target messenger RNAs (mRNAs), leading to mRNA degradation or translational repression. In cancer, miRNAs can act as either oncogenes (oncomiRs) or tumor suppressors, depending on the genes they regulate. OncomiRs are often upregulated in cancer cells and promote tumor growth, metastasis, and angiogenesis by targeting tumor suppressor genes. For example, miR-21 is upregulated in many cancers and promotes cell proliferation and invasion by targeting genes such as PTEN and PDCD4. Tumor suppressor miRNAs, on the other hand, are often downregulated in cancer cells and inhibit tumor development by targeting oncogenes. For instance, miR-34a is downregulated in several cancers and suppresses cell proliferation and metastasis by targeting genes such as c-MYC and BCL2. The dysregulation of miRNA expression can have profound effects on cellular processes, contributing to cancer initiation, progression, and therapeutic resistance. miRNAs are also being explored as potential biomarkers for cancer diagnosis, prognosis, and treatment response, as well as therapeutic targets for miRNA-based therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the most common cause of Cushing's syndrome?",
+    "answer": "Exogenous glucocorticoid use.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer immunotherapies?",
+    "answer": "The gut microbiome has emerged as a critical modulator of the host immune system and can significantly influence the efficacy and toxicity of cancer immunotherapies, particularly immune checkpoint inhibitors (ICIs). Specific bacterial species in the gut can enhance antitumor immunity by modulating dendritic cell function, promoting T-cell activation, and increasing the production of immunostimulatory cytokines. For example, certain strains of *Bifidobacterium* and *Akkermansia muciniphila* have been associated with improved responses to anti-PD-1 therapy in melanoma patients. Conversely, dysbiosis, characterized by a reduction in microbial diversity and an overgrowth of pathogenic bacteria, can impair ICI efficacy and increase the risk of immune-related adverse events (irAEs). Some bacterial species can promote inflammation and disrupt the intestinal barrier, leading to increased translocation of bacterial products into the circulation, which can exacerbate irAEs. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being investigated to enhance the efficacy and reduce the toxicity of cancer immunotherapies. However, more research is needed to identify the specific bacterial species and mechanisms that mediate these effects and to develop personalized microbiome-based approaches to optimize cancer treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder involving multiple signaling pathways that contribute to its pathogenesis. Amyloid precursor protein (APP) processing and amyloid-beta (Aβ) aggregation are central to AD. The amyloidogenic pathway, involving β-secretase (BACE1) and γ-secretase, leads to the production of Aβ peptides, which accumulate into plaques and trigger downstream neurotoxic effects. Tau hyperphosphorylation and aggregation into neurofibrillary tangles are also hallmark features of AD. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are key kinases involved in tau phosphorylation. Neuroinflammation, driven by microglia and astrocytes, contributes to neuronal damage through the release of inflammatory mediators like cytokines and reactive oxygen species (ROS). The activation of receptor tyrosine kinases (RTKs) and downstream pathways such as PI3K/AKT/mTOR and MAPK/ERK also plays a role in AD pathology, influencing neuronal survival and synaptic plasticity. Disruption of calcium homeostasis and mitochondrial dysfunction further contribute to neuronal vulnerability. Targeting these signaling pathways represents potential therapeutic strategies for AD, although effective disease-modifying treatments remain a major unmet need.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target blood pressure for most adults according to current guidelines?",
+    "answer": "Less than 130/80 mmHg per ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in regulating gene expression without altering the DNA sequence. In cancer, aberrant epigenetic modifications can lead to the silencing of tumor suppressor genes or the activation of oncogenes, contributing to tumor development and progression. DNA methylation, particularly at CpG islands in promoter regions, is often associated with gene silencing. Hypermethylation of tumor suppressor genes, such as p16 and MLH1, is a common event in cancer. Histone modifications, including acetylation and methylation, can also influence gene expression. Histone acetylation, typically associated with gene activation, is often dysregulated in cancer, leading to altered chromatin structure and gene expression patterns. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can also regulate gene expression epigenetically by interacting with DNA, RNA, and proteins. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), have shown promise in treating certain cancers by restoring the expression of silenced tumor suppressor genes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast CRISPR-Cas9 gene editing with traditional gene therapy approaches for inherited diseases.",
+    "answer": "CRISPR-Cas9 gene editing and traditional gene therapy approaches both aim to treat inherited diseases by modifying the patient's genetic material, but they differ significantly in their mechanisms and capabilities. Traditional gene therapy typically involves delivering a functional copy of a defective gene into target cells using viral vectors (e.g., AAV or lentivirus). This approach aims to compensate for the mutated gene but does not correct the underlying mutation. The transgene is often expressed episomally (i.e., not integrated into the host genome), leading to transient expression, or integrates randomly, raising concerns about insertional mutagenesis. CRISPR-Cas9 gene editing, on the other hand, offers the potential to directly correct the mutated gene within the patient's genome. The CRISPR-Cas9 system consists of a Cas9 nuclease guided by a guide RNA (gRNA) to a specific DNA sequence, where Cas9 induces a double-strand break. The cell's own DNA repair mechanisms then repair the break, either by non-homologous end joining (NHEJ), which can disrupt the gene, or by homology-directed repair (HDR), which allows for precise gene correction using a provided DNA template. CRISPR-Cas9 offers the potential for permanent gene correction, but also raises concerns about off-target effects and the efficiency and safety of delivery methods. While traditional gene therapy has been approved for some inherited diseases, CRISPR-Cas9 is still in early stages of clinical development but holds great promise for treating a wider range of genetic disorders.",
+    "persona": "Researcher"
+  }
+]

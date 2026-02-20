@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a healthy non-pregnant female?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene drive tumorigenesis in colorectal cancer?",
+    "answer": "KRAS encodes a small GTPase that functions as a key signaling node downstream of receptor tyrosine kinases, growth factors, and integrins. Upon activation by upstream signals (e.g., EGFR, HER2), KRAS cycles between an inactive GDP-bound state and an active GTP-bound state, which then propagates signals through the MAPK and PI3K/AKT pathways, driving cell proliferation, survival, and metabolism. Activating mutations in KRAS, most commonly at codons 12, 13, or 61, impair GTPase activity, resulting in constitutive KRAS activation and ligand-independent signaling. This leads to uncontrolled downstream activation of MAPK and PI3K/AKT, promoting cell-cycle progression, inhibiting apoptosis, and enhancing angiogenesis. In colorectal cancer, specific KRAS mutations (e.g., G12C, G12D, G13R) are associated with distinct signaling outputs and differential sensitivity to targeted therapies. Mutant KRAS also promotes the secretion of cytokines and chemokines that shape the tumor microenvironment, attracting immunosuppressive cells and promoting angiogenesis. Furthermore, KRAS mutations can induce epigenetic modifications that alter gene expression patterns, contributing to tumor heterogeneity and therapeutic resistance. The development of KRAS G12C inhibitors represents a major advancement, but overcoming intrinsic and acquired resistance remains a significant challenge, necessitating combination strategies and alternative approaches targeting downstream effectors or synthetic lethal vulnerabilities.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (2 points), diabetes, prior stroke/TIA/thromboembolism (2 points), vascular disease, age 65-74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the primary mechanisms by which metformin exerts its anti-hyperglycemic effects?",
+    "answer": "Metformin is a biguanide that reduces hepatic glucose production, increases insulin sensitivity in peripheral tissues (primarily skeletal muscle), and modestly decreases intestinal glucose absorption. The precise molecular mechanisms are complex and incompletely understood, but involve activation of AMP-activated protein kinase (AMPK), a cellular energy sensor. Activation of AMPK in hepatocytes inhibits gluconeogenesis by reducing the expression of key enzymes involved in this process (e.g., phosphoenolpyruvate carboxykinase, glucose-6-phosphatase). In skeletal muscle, AMPK activation enhances glucose uptake and utilization by increasing the translocation of GLUT4 glucose transporters to the cell surface. Metformin also affects gut microbiota composition, potentially influencing glucose metabolism and insulin sensitivity. Furthermore, metformin can directly inhibit mitochondrial respiratory chain complex I, leading to a reduction in intracellular ATP levels and subsequent AMPK activation. Emerging evidence suggests that metformin may also exert anti-inflammatory and anti-cancer effects through AMPK-dependent and independent mechanisms. While metformin is generally well-tolerated, gastrointestinal side effects are common, and rare but serious complications such as lactic acidosis can occur, particularly in patients with renal impairment. The pleiotropic effects of metformin make it a cornerstone of type 2 diabetes management and an area of ongoing investigation for other potential therapeutic applications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) following placement of a drug-eluting stent (DES) in a patient with stable coronary artery disease?",
+    "answer": "Typically 6 months, but can be shorter or longer based on bleeding risk and ischemic risk.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 unleash anti-tumor immune responses?",
+    "answer": "PD-1 (Programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while its ligands, PD-L1 and PD-L2, are expressed on tumor cells and antigen-presenting cells. PD-1 engagement by PD-L1 or PD-L2 delivers an inhibitory signal that suppresses T-cell activation, proliferation, and effector function, thereby enabling tumors to evade immune destruction. Tumors upregulate PD-L1 expression as an adaptive immune resistance mechanism in response to inflammatory cytokines such as interferon-gamma (IFN-γ) secreted by tumor-infiltrating lymphocytes. Anti-PD-1 or anti-PD-L1 antibodies block the interaction between PD-1 and its ligands, thereby reversing T-cell suppression and restoring anti-tumor immunity. This allows T cells to recognize and kill tumor cells that express tumor-associated antigens. However, not all patients respond to PD-1/PD-L1 blockade, as the efficacy depends on pre-existing tumor immunity, tumor mutational burden, microsatellite instability, and the presence of tumor-infiltrating lymphocytes. Furthermore, immune-related adverse events can occur due to the broad activation of the immune system. Combination strategies that enhance tumor antigen presentation, promote T-cell infiltration, or target alternative immune checkpoints are being actively investigated to improve the efficacy and overcome resistance to PD-1/PD-L1 inhibitors. Overall, PD-1/PD-L1 blockade represents a major breakthrough in cancer immunotherapy by reinvigorating exhausted T cells and unleashing anti-tumor immune responses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the Glasgow Coma Scale (GCS) used for?",
+    "answer": "Assessment of level of consciousness after a head injury.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps in the process of mRNA translation?",
+    "answer": "mRNA translation involves initiation, elongation, and termination. Initiation begins with the assembly of the ribosome, mRNA, and initiator tRNA at the start codon (typically AUG). Eukaryotic initiation requires multiple initiation factors (eIFs) that recognize the 5' cap structure of mRNA and recruit the small ribosomal subunit. Elongation involves the sequential addition of amino acids to the growing polypeptide chain, guided by the mRNA sequence. Each codon is recognized by a specific tRNA molecule carrying the corresponding amino acid. Peptide bond formation is catalyzed by the ribosome, and the ribosome translocates along the mRNA to the next codon. Elongation factors (EFs) facilitate tRNA binding and translocation. Termination occurs when the ribosome encounters a stop codon (UAA, UAG, or UGA) on the mRNA. Release factors (RFs) bind to the stop codon, causing the ribosome to release the polypeptide chain and dissociate from the mRNA. Post-translational modifications, such as protein folding, glycosylation, and phosphorylation, are often required for the protein to become fully functional. Errors in translation can lead to misfolded proteins and cellular dysfunction. The fidelity of translation is maintained by proofreading mechanisms that ensure accurate codon-anticodon pairing. Translational control mechanisms regulate the rate and efficiency of protein synthesis in response to cellular signals and environmental conditions. Targeting translation is a strategy used by some antibiotics and cancer chemotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers. Consider anticoagulation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade detection by the host's innate immune system?",
+    "answer": "Viruses employ diverse strategies to evade detection by the host's innate immune system. One common mechanism is to suppress the production or signaling of type I interferons (IFNs), which are critical for antiviral defense. Viruses can encode proteins that interfere with pattern recognition receptors (PRRs) such as Toll-like receptors (TLRs) or RIG-I-like receptors (RLRs), preventing the activation of downstream signaling pathways leading to IFN production. Some viruses produce decoy receptors that bind to IFN, preventing it from binding to its cellular receptor and activating antiviral responses. Other viruses encode proteins that inhibit the activity of IFN-stimulated genes (ISGs), which mediate antiviral effects. Viruses can also modulate the host's cellular machinery to promote viral replication and suppress host gene expression. For example, some viruses express microRNAs that target host mRNAs involved in immune signaling. Viruses can also physically shield themselves from immune recognition by replicating in intracellular compartments or by modifying their surface glycoproteins to reduce antibody binding. Rapid mutation rates in some viruses allow them to quickly evolve and escape antibody recognition. Finally, some viruses induce immunosuppression by directly infecting and disabling immune cells. Understanding the mechanisms of viral immune evasion is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial imaging modality of choice for suspected acute appendicitis in a young adult?",
+    "answer": "CT scan of the abdomen and pelvis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CRISPR-Cas9 and other gene-editing technologies like TALENs and zinc finger nucleases (ZFNs)?",
+    "answer": "CRISPR-Cas9, TALENs, and ZFNs are all gene-editing technologies that enable targeted modifications to DNA sequences, but they differ in their mechanisms of DNA recognition and cleavage. ZFNs and TALENs utilize engineered proteins to recognize specific DNA sequences, while CRISPR-Cas9 uses a guide RNA (gRNA) to direct the Cas9 nuclease to a target DNA sequence. ZFNs consist of zinc finger domains that bind to specific DNA triplets, while TALENs use transcription activator-like effector (TALE) domains that bind to individual DNA bases. CRISPR-Cas9 offers several advantages over ZFNs and TALENs, including simpler design, higher efficiency, and lower cost. The gRNA in CRISPR-Cas9 can be easily designed to target any DNA sequence, while ZFNs and TALENs require the engineering of new proteins for each target sequence. CRISPR-Cas9 also exhibits higher multiplexing capabilities, allowing for the simultaneous editing of multiple genes. However, CRISPR-Cas9 can be prone to off-target effects, where the Cas9 nuclease cleaves unintended DNA sequences with homology to the gRNA. ZFNs and TALENs tend to have lower off-target effects but can be more difficult to design and implement. All three technologies can be used for gene knockout, gene insertion, gene correction, and gene regulation. CRISPR-Cas9 has revolutionized gene editing due to its simplicity and versatility, but ZFNs and TALENs remain useful tools for specific applications where high specificity is required.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical first-line treatment for community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of IBD, including Crohn's disease and ulcerative colitis. IBD is characterized by dysbiosis, an imbalance in the composition and function of the gut microbiota. In IBD patients, there is often a reduction in microbial diversity and a decrease in beneficial commensal bacteria, such as Faecalibacterium prausnitzii, along with an increase in pathobionts, such as Escherichia coli and certain Clostridium species. The altered microbiome can disrupt the intestinal barrier function, leading to increased permeability and translocation of microbial products into the lamina propria, triggering an exaggerated immune response. Specific microbial metabolites, such as lipopolysaccharide (LPS) and flagellin, can activate Toll-like receptors (TLRs) on immune cells, leading to the production of pro-inflammatory cytokines such as TNF-α, IL-1β, and IL-6. The microbiome can also influence the differentiation and function of immune cells in the gut, including T cells, B cells, and dendritic cells. The gut microbiome can also metabolize dietary components and drugs, influencing their bioavailability and efficacy. Fecal microbiota transplantation (FMT) has shown promise as a therapeutic approach for IBD by restoring microbial diversity and function. Understanding the complex interactions between the microbiome, the host immune system, and environmental factors is crucial for developing effective strategies to prevent and treat IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does angiogenesis contribute to cancer progression and metastasis?",
+    "answer": "Angiogenesis, the formation of new blood vessels, is a critical process in cancer progression and metastasis. Tumors require a blood supply to deliver oxygen and nutrients and to remove waste products. As tumors grow, they release pro-angiogenic factors, such as vascular endothelial growth factor (VEGF), which stimulate the proliferation and migration of endothelial cells, leading to the formation of new blood vessels. These new blood vessels provide the tumor with a sustained blood supply, allowing it to grow beyond a limited size and to invade surrounding tissues. Angiogenesis also facilitates metastasis by providing a route for tumor cells to enter the bloodstream and disseminate to distant sites. Tumor cells can intravasate into the newly formed blood vessels and travel to distant organs, where they can extravasate and form secondary tumors. The tumor microenvironment, including immune cells and fibroblasts, can also contribute to angiogenesis by producing pro-angiogenic factors. Anti-angiogenic therapies, such as VEGF inhibitors, have shown efficacy in treating certain cancers by blocking the formation of new blood vessels and starving the tumor. However, tumors can develop resistance to anti-angiogenic therapies through alternative angiogenic pathways. Combination therapies that target both angiogenesis and other pathways, such as immune checkpoints, are being explored to improve treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the most common cause of Cushing's syndrome?",
+    "answer": "Exogenous glucocorticoid use.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of resistance to chemotherapy in cancer?",
+    "answer": "Resistance to chemotherapy in cancer can arise through multiple mechanisms, broadly classified as pre-target, on-target, and post-target resistance. Pre-target resistance involves reduced drug delivery to the tumor site, often due to impaired drug uptake, increased drug efflux (e.g., via ABC transporters), or altered drug metabolism. On-target resistance involves alterations in the drug target, such as mutations in the target protein that reduce drug binding affinity, or upregulation of alternative signaling pathways that bypass the target. Post-target resistance involves downstream alterations that counteract the effects of the drug, such as activation of survival pathways, increased DNA repair capacity, or induction of epithelial-mesenchymal transition (EMT). Tumor heterogeneity contributes to chemotherapy resistance, as different subpopulations of cancer cells within a tumor may exhibit varying sensitivities to the drug. Cancer stem cells, which possess self-renewal and differentiation capabilities, are often resistant to chemotherapy and can repopulate the tumor after treatment. The tumor microenvironment can also contribute to chemotherapy resistance by providing protective signals or by limiting drug penetration. Epigenetic modifications, such as DNA methylation and histone modifications, can alter gene expression patterns and contribute to chemotherapy resistance. Understanding the mechanisms of chemotherapy resistance is crucial for developing strategies to overcome resistance and improve treatment outcomes. These strategies include combination therapies, targeted therapies, and immunotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute ischemic stroke?",
+    "answer": "Intravenous thrombolysis with alteplase within 4.5 hours of symptom onset, or mechanical thrombectomy for large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in mismatch repair (MMR) genes lead to microsatellite instability (MSI) and increased cancer risk?",
+    "answer": "Mismatch repair (MMR) genes encode proteins responsible for correcting errors that occur during DNA replication, particularly mismatches and insertion-deletion loops. These errors are common in microsatellites, repetitive DNA sequences found throughout the genome. When MMR genes are mutated or inactivated, the mismatch repair system becomes deficient, leading to an accumulation of errors in microsatellites, resulting in microsatellite instability (MSI). MSI is characterized by changes in the length of microsatellites compared to normal tissue. Tumors with MSI often have a high mutation burden due to the accumulation of mutations in other genes, including tumor suppressor genes and oncogenes. Mutations in MMR genes, such as MLH1, MSH2, MSH6, and PMS2, can be inherited or acquired. Inherited mutations in MMR genes cause Lynch syndrome, also known as hereditary non-polyposis colorectal cancer (HNPCC), which increases the risk of colorectal cancer, endometrial cancer, and other cancers. Acquired mutations in MMR genes can occur sporadically in tumors, leading to MSI. MSI-high tumors are more likely to respond to immune checkpoint inhibitors due to their high mutation burden and increased neoantigen presentation. The detection of MSI is important for identifying patients with Lynch syndrome and for predicting response to immunotherapy. MSI testing is typically performed using polymerase chain reaction (PCR) to amplify microsatellites and compare their lengths in tumor and normal tissue.",
+    "persona": "Researcher"
+  }
+]

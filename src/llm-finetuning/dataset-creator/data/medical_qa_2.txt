@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker; consider cardioversion if hemodynamically unstable or symptoms persist despite rate control.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS oncogene drive resistance to EGFR-targeted therapies in colorectal cancer?",
+    "answer": "KRAS mutations, particularly in codons 12, 13, or 61, lead to constitutive activation of the KRAS protein, rendering it independent of upstream EGFR signaling. This bypasses the inhibitory effect of EGFR inhibitors like cetuximab or panitumumab, as the downstream MAPK and PI3K/AKT pathways remain activated even when EGFR is blocked. Specifically, mutant KRAS proteins exhibit impaired GTPase activity, resulting in a persistent GTP-bound (active) state. This continuous signaling promotes cell proliferation, survival, and angiogenesis, overriding the growth-inhibitory signals normally mediated by EGFR blockade. Furthermore, KRAS mutations can activate feedback loops that further enhance MAPK and PI3K/AKT signaling, compounding the resistance mechanism. The presence of any KRAS mutation is now a negative predictive biomarker for EGFR inhibitor efficacy in metastatic colorectal cancer, guiding treatment decisions away from these agents in mutation-positive cases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the CDC recommendations for pneumococcal vaccination in adults over 65?",
+    "answer": "Administer PCV20 alone or PCV15 followed by PPSV23 at least 8 weeks later.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of immune checkpoint inhibitors in cancer immunotherapy?",
+    "answer": "The gut microbiome modulates the host immune system, influencing both systemic and anti-tumor immunity. Specific bacterial taxa, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to immune checkpoint inhibitors (ICIs) like anti-PD-1 and anti-CTLA-4 antibodies. These bacteria can enhance dendritic cell maturation and antigen presentation, promote T-cell infiltration into the tumor microenvironment, and increase the production of Th1 cytokines such as IFN-γ. Conversely, dysbiosis and the presence of opportunistic pathogens can suppress immune responses and contribute to ICI resistance. Mechanisms include the induction of regulatory T cells, the production of immunosuppressive metabolites, and the activation of myeloid-derived suppressor cells. Clinical studies have shown that patients with a more diverse gut microbiome or enriched in specific beneficial bacteria have higher response rates, prolonged progression-free survival, and overall survival when treated with ICIs. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation, dietary interventions, and the use of prebiotics or probiotics, are being investigated as potential approaches to enhance the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended target LDL cholesterol level for secondary prevention in patients with established cardiovascular disease?",
+    "answer": "LDL-C <70 mg/dL or at least a 50% reduction from baseline per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms by which metformin exerts its anti-hyperglycemic effects in type 2 diabetes?",
+    "answer": "Metformin's primary mechanism involves the activation of AMP-activated protein kinase (AMPK), a cellular energy sensor. AMPK activation in the liver reduces hepatic glucose production by suppressing gluconeogenesis and glycogenolysis. Specifically, AMPK phosphorylates and inhibits key enzymes involved in these processes, such as fructose-1,6-bisphosphatase and glycogen phosphorylase. In addition to its effects on hepatic glucose metabolism, metformin improves insulin sensitivity in peripheral tissues, particularly skeletal muscle. This is achieved by enhancing glucose uptake and utilization through increased expression and translocation of GLUT4 transporters to the cell membrane. Metformin also affects the gut microbiome, altering the composition of bacterial communities and increasing the production of short-chain fatty acids, which can improve glucose homeostasis. Furthermore, metformin inhibits mitochondrial complex I, leading to a reduction in ATP production and an increase in the AMP/ATP ratio, further activating AMPK. The precise interplay between these mechanisms is complex and likely varies depending on the individual patient and the specific context of insulin resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a first-time unprovoked seizure be managed?",
+    "answer": "Obtain a thorough history and neurological exam; order EEG and neuroimaging (MRI preferred); consider initiating antiepileptic drug therapy after weighing risks and benefits.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease, and how do they contribute to neuronal dysfunction and death?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several interconnected signaling pathways that contribute to neuronal dysfunction and death. Amyloid-β (Aβ) plaques and neurofibrillary tangles (NFTs) composed of hyperphosphorylated tau protein are the pathological hallmarks of AD. Aβ oligomers disrupt synaptic function by interfering with long-term potentiation and depressing excitatory neurotransmission. They also activate microglia and astrocytes, leading to chronic neuroinflammation and the release of pro-inflammatory cytokines, which further exacerbate neuronal damage. Hyperphosphorylated tau aggregates into NFTs, disrupting microtubule-based transport and axonal function. The accumulation of NFTs impairs synaptic plasticity and contributes to neuronal loss. Furthermore, AD is associated with impaired insulin signaling, oxidative stress, and mitochondrial dysfunction, all of which contribute to neuronal vulnerability. Specifically, activation of GSK-3β, a kinase that phosphorylates tau, is upregulated in AD, promoting NFT formation. The PI3K/AKT pathway, which is essential for neuronal survival, is often impaired in AD. Understanding these signaling pathways is crucial for developing targeted therapies that can slow or prevent disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended empiric antibiotic regimen for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (azithromycin or clarithromycin) in areas with low macrolide resistance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment contribute to the development of resistance to chemotherapy in ovarian cancer?",
+    "answer": "The tumor microenvironment (TME) in ovarian cancer plays a critical role in the development of chemoresistance. Ovarian cancer cells reside within a complex TME consisting of extracellular matrix (ECM), fibroblasts, immune cells, and vasculature. The ECM provides a physical barrier that limits drug penetration and alters cellular signaling pathways. Cancer-associated fibroblasts (CAFs) secrete growth factors and cytokines that promote tumor cell survival and proliferation, and they also remodel the ECM, contributing to chemoresistance. Immune cells, particularly tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), can suppress antitumor immunity and promote tumor progression. Hypoxia within the TME induces the expression of genes involved in angiogenesis and chemoresistance, such as VEGF and HIF-1α. Furthermore, the TME can promote the development of cancer stem cells (CSCs), which are more resistant to chemotherapy and contribute to disease recurrence. Interactions between cancer cells and the TME activate signaling pathways such as PI3K/AKT, MAPK, and Wnt, which promote chemoresistance by increasing drug efflux, inhibiting apoptosis, and enhancing DNA repair. Targeting the TME is an area of active investigation to overcome chemoresistance in ovarian cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a suspected acute myocardial infarction with ST-segment elevation (STEMI)?",
+    "answer": "Aspirin, P2Y12 inhibitor (clopidogrel, ticagrelor, or prasugrel), anticoagulation (heparin or bivalirudin), nitrates, oxygen (if SpO2 <90%), and urgent reperfusion therapy (PCI or fibrinolysis).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the development of antibiotic resistance in Staphylococcus aureus?",
+    "answer": "Staphylococcus aureus exhibits diverse mechanisms of antibiotic resistance. Methicillin resistance is mediated by the mecA gene, which encodes a modified penicillin-binding protein (PBP2a) with low affinity for beta-lactam antibiotics. Vancomycin resistance involves alterations in the peptidoglycan synthesis pathway, resulting in the production of peptidoglycan precursors with reduced affinity for vancomycin. Resistance to aminoglycosides can occur through enzymatic modification of the antibiotic, reduced uptake, or altered ribosomal binding sites. Macrolide resistance is often mediated by efflux pumps (e.g., MsrA) or ribosomal modification (e.g., erm genes). Fluoroquinolone resistance involves mutations in the quinolone resistance-determining region (QRDR) of DNA gyrase and topoisomerase IV. Horizontal gene transfer, mediated by plasmids, transposons, and bacteriophages, plays a crucial role in the spread of antibiotic resistance genes. The selective pressure exerted by antibiotic use drives the evolution and dissemination of resistant strains. Understanding these mechanisms is essential for developing strategies to combat antibiotic resistance and preserve the effectiveness of antimicrobial agents.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with newly diagnosed type 2 diabetes be initially managed?",
+    "answer": "Lifestyle modification (diet and exercise) and metformin are generally recommended as first-line therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CRISPR-Cas9 and other genome editing technologies, such as TALENs and zinc finger nucleases?",
+    "answer": "CRISPR-Cas9, TALENs, and zinc finger nucleases are all genome editing technologies that enable targeted modification of DNA sequences. However, they differ in their mechanisms of DNA recognition and cleavage. Zinc finger nucleases (ZFNs) and transcription activator-like effector nucleases (TALENs) rely on protein-DNA interactions for target recognition, whereas CRISPR-Cas9 uses a guide RNA (gRNA) that is complementary to the target DNA sequence. ZFNs and TALENs require the design and synthesis of custom proteins for each target site, which can be complex and time-consuming. CRISPR-Cas9 is more versatile and easier to use, as it only requires the design of a gRNA, which is a short RNA sequence. CRISPR-Cas9 also offers higher multiplexing capabilities, allowing for the simultaneous editing of multiple genes. However, CRISPR-Cas9 is more prone to off-target effects, where the Cas9 enzyme cleaves DNA at unintended sites. TALENs and ZFNs typically have higher specificity but can still exhibit off-target activity. The choice of genome editing technology depends on the specific application and the trade-offs between efficiency, specificity, and ease of use.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days (if local resistance rates are <20%).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in regulating gene expression without altering the underlying DNA sequence. Aberrant epigenetic patterns are frequently observed in cancer cells and contribute to cancer development and progression. DNA methylation, typically occurring at CpG islands, can silence tumor suppressor genes, promoting cell proliferation and survival. Histone modifications, such as acetylation and methylation, can alter chromatin structure and gene transcription. Histone acetylation generally promotes gene expression, while histone methylation can either activate or repress gene transcription, depending on the specific histone residue and the type of modification. In cancer, histone modifications can lead to the silencing of tumor suppressor genes or the activation of oncogenes. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Drugs that inhibit DNA methyltransferases (DNMTs) or histone deacetylases (HDACs) can restore normal gene expression patterns and inhibit tumor growth. Epigenetic modifications also contribute to cancer metastasis, drug resistance, and immune evasion. Understanding the role of epigenetic modifications in cancer is essential for developing novel diagnostic and therapeutic strategies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient with a deep vein thrombosis (DVT) in the leg?",
+    "answer": "Anticoagulation with a direct oral anticoagulant (DOAC) or warfarin or low-molecular-weight heparin (LMWH).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system, and how do these mechanisms contribute to viral persistence and pathogenesis?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, enabling viral persistence and pathogenesis. These mechanisms include interfering with interferon (IFN) signaling, inhibiting antigen presentation, modulating immune cell function, and establishing latency. Many viruses encode proteins that block IFN production or signaling, thereby suppressing the antiviral response. Some viruses inhibit antigen presentation by downregulating MHC class I molecules or interfering with the processing of viral antigens. Viruses can also modulate immune cell function by inducing immune cell apoptosis, suppressing cytokine production, or promoting the development of regulatory T cells. Establishment of latency allows viruses to persist in the host for prolonged periods without causing overt symptoms. During latency, viral gene expression is limited, and the virus is largely invisible to the immune system. When conditions are favorable, the virus can reactivate and resume replication, leading to recurrent infections. Understanding these immune evasion mechanisms is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk adults?",
+    "answer": "Start regular screening at age 45 via stool-based tests (FIT or multitarget stool DNA test) or visual exams (colonoscopy, CT colonography, or flexible sigmoidoscopy).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and contribute to human disease?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), play critical roles in regulating gene expression and contribute to various human diseases. MicroRNAs are small (approximately 22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. MiRNAs regulate a wide range of cellular processes, including cell proliferation, differentiation, apoptosis, and metabolism. Aberrant miRNA expression has been implicated in numerous diseases, including cancer, cardiovascular disease, and neurological disorders. Long non-coding RNAs are longer than 200 nucleotides and can regulate gene expression through diverse mechanisms. LncRNAs can act as scaffolds, bringing together proteins to form regulatory complexes. They can also act as guides, directing proteins to specific DNA or RNA targets. LncRNAs can regulate gene expression at the transcriptional, post-transcriptional, and epigenetic levels. Dysregulation of lncRNA expression has been associated with various human diseases. Understanding the functions of ncRNAs is essential for developing novel diagnostic and therapeutic strategies.",
+    "persona": "Researcher"
+  }
+]

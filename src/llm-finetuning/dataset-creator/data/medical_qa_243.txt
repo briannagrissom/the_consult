@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in a healthy adult?",
+    "answer": "Amoxicillin or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) that complements a specific DNA sequence, directing the Cas9 nuclease to that location. Cas9 creates a double-stranded break, which the cell repairs via non-homologous end joining (NHEJ), often disrupting the gene, or homology-directed repair (HDR) if a donor template is provided, enabling precise sequence insertion. The gRNA design determines target specificity. Off-target effects remain a concern, but high-fidelity Cas9 variants and improved gRNA design tools are mitigating these issues. [PMID:22842262]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why do some cancers exhibit increased sensitivity to radiation therapy following inhibition of the ATR kinase?",
+    "answer": "ATR kinase is a central regulator of the DNA damage response, particularly in the context of replication stress and stalled replication forks. Cancer cells with inherent defects in DNA replication or repair pathways, such as those with mutations in BRCA1/2 or ATM, often exhibit increased reliance on ATR signaling to maintain genomic stability. When ATR is inhibited, these cells are unable to effectively repair DNA damage induced by ionizing radiation, leading to mitotic catastrophe and cell death. This synthetic lethality principle makes ATR inhibitors promising radiosensitizers in specific cancer subtypes. Furthermore, ATR inhibition can overcome radioresistance mediated by increased DNA repair capacity in certain tumors. The combination of ATR inhibitors and radiation is being explored in clinical trials across various cancer types. [PMID:21081582]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1 enhance anti-tumor immunity?",
+    "answer": "PD-1 (programmed cell death protein 1) is an immune checkpoint receptor expressed on T cells. Its ligand, PD-L1, is often upregulated on tumor cells and antigen-presenting cells in the tumor microenvironment. The interaction of PD-1 with PD-L1 inhibits T cell activation, proliferation, and cytotoxic function, thereby allowing tumor cells to evade immune destruction. Anti-PD-1 antibodies block this interaction, reinvigorating T cell responses against tumor cells. This leads to increased IFN-γ production, enhanced cytolytic activity, and improved tumor control in a subset of patients. Biomarkers such as PD-L1 expression levels and tumor mutational burden are used to predict response to PD-1 inhibitors, but these markers are imperfect. [PMID:25835862]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms underlying the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease pathogenesis involves amyloid-beta plaques, neurofibrillary tangles of hyperphosphorylated tau protein, neuroinflammation, and synaptic dysfunction. Amyloid plaques are formed by the aggregation of amyloid-beta peptides derived from amyloid precursor protein (APP) processing. These plaques trigger inflammatory responses and disrupt neuronal function. Tau hyperphosphorylation leads to the formation of neurofibrillary tangles, which destabilize microtubules and impair axonal transport. Neuroinflammation, driven by microglia and astrocytes, contributes to neuronal damage. Synaptic loss is a major correlate of cognitive decline. Genetic factors (e.g., APOE4) and environmental factors influence disease risk and progression. Current research focuses on targeting these key mechanisms to develop disease-modifying therapies. [PMID:26565855]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for cervical cancer?",
+    "answer": "Pap test every 3 years or HPV testing every 5 years, or co-testing every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do oncolytic viruses selectively target and destroy cancer cells?",
+    "answer": "Oncolytic viruses (OVs) exhibit preferential replication in cancer cells due to defects in antiviral defenses or altered signaling pathways. Many OVs exploit the fact that cancer cells often have impaired interferon (IFN) responses, allowing for efficient viral replication and cell lysis. Some OVs are engineered to express fusogenic proteins that promote cell-to-cell fusion, leading to syncytia formation and widespread tumor cell death. OVs can also stimulate anti-tumor immune responses by releasing tumor-associated antigens and danger signals, leading to recruitment and activation of immune cells. Some OVs are armed with therapeutic transgenes, such as cytokines or suicide genes, to further enhance their anti-cancer activity. [PMID:26642228]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) are typically first-line.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression in cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in regulating gene expression in cancer. DNA methylation, typically at CpG islands, can silence tumor suppressor genes. Histone modifications, such as acetylation and methylation, can alter chromatin structure and accessibility, influencing transcription. Aberrant epigenetic patterns can contribute to oncogenesis by activating oncogenes or silencing tumor suppressor genes. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are used to reverse these aberrant epigenetic modifications and restore normal gene expression. These epigenetic alterations are heritable during cell division and contribute to tumor heterogeneity and therapeutic resistance. [PMID:23535733]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a first-time episode of gout?",
+    "answer": "NSAIDs, colchicine, or corticosteroids are used to manage acute flares.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in modulating the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome significantly influences the efficacy of cancer immunotherapy, particularly checkpoint inhibitors. Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to anti-PD-1 therapy. These bacteria can modulate the immune system by enhancing dendritic cell activation, promoting T cell infiltration into the tumor microenvironment, and producing metabolites like short-chain fatty acids that influence immune cell function. Dysbiosis, or an imbalance in the gut microbiome, can impair anti-tumor immunity and reduce the efficacy of immunotherapy. Fecal microbiota transplantation (FMT) is being explored as a strategy to restore beneficial gut bacteria and enhance responses to immunotherapy. [PMID:29094651]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a suspected stroke?",
+    "answer": "Rapid assessment, neuroimaging, and consideration of thrombolytic therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does targeted protein degradation using PROTACs differ from traditional small molecule inhibitors?",
+    "answer": "PROTACs (proteolysis-targeting chimeras) induce protein degradation rather than just inhibiting protein function. PROTACs are bifunctional molecules with one end binding to a target protein and the other end recruiting an E3 ubiquitin ligase. This interaction leads to ubiquitination of the target protein, marking it for degradation by the proteasome. Unlike traditional small molecule inhibitors, PROTACs can achieve catalytic degradation of target proteins, meaning a single PROTAC molecule can degrade multiple target protein molecules. PROTACs can also overcome drug resistance mechanisms that arise from mutations in the drug binding site or increased target protein expression. [PMID:26791965]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for iron deficiency anemia?",
+    "answer": "Oral iron supplementation is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main strategies to overcome resistance to EGFR tyrosine kinase inhibitors in non-small cell lung cancer?",
+    "answer": "Resistance mechanisms to EGFR TKIs include the T790M mutation, MET amplification, bypass signaling pathways, and histologic transformation. Strategies to overcome resistance include the use of third-generation EGFR TKIs that target T790M, MET inhibitors in combination with EGFR TKIs, and therapies targeting bypass pathways such as PI3K/AKT/mTOR. In cases of histologic transformation to small cell lung cancer, platinum-based chemotherapy is often used. Liquid biopsies can help identify resistance mechanisms and guide treatment decisions. Immunotherapy may also be considered in patients with acquired resistance to EGFR TKIs. [PMID:26658646]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient with a suspected pulmonary embolism?",
+    "answer": "Anticoagulation with heparin or direct oral anticoagulants (DOACs).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do CAR T-cells recognize and kill cancer cells?",
+    "answer": "Chimeric antigen receptor (CAR) T-cells are genetically engineered T cells that express a synthetic receptor targeting a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain (e.g., an antibody fragment) fused to intracellular signaling domains that activate the T cell upon antigen recognition. When the CAR T-cell encounters a cancer cell expressing the target antigen, it binds, leading to T cell activation, cytokine release, and cytotoxic killing of the cancer cell. CAR T-cell therapy has shown remarkable efficacy in certain hematologic malignancies, but challenges remain in solid tumors due to limited antigen specificity and immunosuppressive tumor microenvironments. [PMID:23212814]",
+    "persona": "Researcher"
+  }
+]

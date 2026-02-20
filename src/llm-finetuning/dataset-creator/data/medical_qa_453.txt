@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically initiated unless hemodynamically unstable, in which case cardioversion is indicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis and resistance to targeted therapies in non-small cell lung cancer?",
+    "answer": "KRAS mutations, present in approximately 25% of non-small cell lung cancers (NSCLC), constitutively activate the RAS/MAPK signaling pathway, driving uncontrolled cell proliferation, survival, and angiogenesis. The most common KRAS mutation, G12C, results in a cysteine substitution at codon 12, which prevents the GTPase activity of KRAS, leading to its permanent activation. This sustained signaling promotes downstream activation of ERK1/2, PI3K/AKT, and Ral pathways, circumventing upstream growth factor receptor signaling and rendering tumors less sensitive to EGFR tyrosine kinase inhibitors (TKIs). Furthermore, KRAS-mutant tumors exhibit increased expression of immune checkpoint proteins such as PD-L1, potentially contributing to immune evasion. The development of covalent KRAS G12C inhibitors (e.g., sotorasib, adagrasib) has shown clinical benefit in a subset of patients, but acquired resistance mechanisms frequently emerge, including bypass signaling through receptor tyrosine kinases (e.g., MET, EGFR), activation of alternative RAS isoforms (e.g., NRAS), and downstream mutations in MAPK pathway components (e.g., MEK). Combination strategies targeting both KRAS and downstream effectors or immune checkpoint blockade are being explored to overcome resistance and improve clinical outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why does chronic inflammation promote cancer development, and what are the key signaling pathways involved?",
+    "answer": "Chronic inflammation creates a microenvironment rich in growth factors, cytokines, and reactive oxygen/nitrogen species that promote cellular proliferation, angiogenesis, and DNA damage, ultimately increasing the risk of malignant transformation. Inflammatory cells, such as macrophages and neutrophils, release factors like TNF-α, IL-6, and IL-1β, which activate signaling pathways including NF-κB, STAT3, and MAPK. NF-κB activation leads to increased expression of anti-apoptotic proteins (e.g., Bcl-2, survivin) and pro-angiogenic factors (e.g., VEGF), promoting tumor cell survival and vascularization. STAT3 activation, induced by IL-6, drives cell proliferation and inhibits apoptosis. Reactive oxygen species generated during inflammation can cause DNA damage, leading to genomic instability and mutations in tumor suppressor genes and oncogenes. Furthermore, chronic inflammation can disrupt tissue architecture and promote epithelial-mesenchymal transition (EMT), facilitating tumor invasion and metastasis. Targeting key inflammatory mediators and signaling pathways, such as TNF-α, IL-6, and NF-κB, represents a promising strategy for cancer prevention and therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Macrolide (azithromycin or clarithromycin) or doxycycline are typically recommended; consider a respiratory fluoroquinolone (levofloxacin or moxifloxacin) in patients with comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what strategies are being developed to overcome viral immune evasion?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, including interfering with interferon (IFN) signaling, inhibiting antigen presentation, and inducing immune cell apoptosis. Many viruses encode proteins that directly inhibit IFN production or block downstream signaling pathways such as JAK-STAT. Adenoviruses, for example, express E1A, which binds to and inhibits the transcriptional activity of IFN regulatory factors (IRFs). Viruses also downregulate MHC class I expression, preventing cytotoxic T lymphocytes (CTLs) from recognizing and eliminating infected cells. HIV-1, for instance, expresses Nef, which promotes the endocytosis and degradation of MHC class I molecules. Furthermore, viruses can induce apoptosis of immune cells, such as T cells and dendritic cells, to suppress the immune response. Strategies to overcome viral immune evasion include developing vaccines that elicit broadly neutralizing antibodies and potent T cell responses, using adjuvants to enhance immune responses, and employing immunotherapeutic approaches such as checkpoint inhibitors and adoptive cell therapy. Furthermore, small molecule inhibitors targeting viral immune evasion mechanisms are being developed to enhance the effectiveness of antiviral therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient presenting with new-onset heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "An ACE inhibitor or ARNI, beta-blocker, and mineralocorticoid receptor antagonist (MRA) are typically initiated, along with a loop diuretic if volume overloaded.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in modulating the efficacy of cancer immunotherapy, and what strategies are being explored to optimize the microbiome for improved treatment outcomes?",
+    "answer": "The gut microbiome plays a critical role in shaping the host immune response and influencing the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Specific bacterial species, such as *Akkermansia muciniphila* and *Faecalibacterium prausnitzii*, have been associated with improved responses to anti-PD-1/PD-L1 therapy in patients with melanoma, lung cancer, and other solid tumors. These bacteria can enhance systemic immune responses by promoting dendritic cell maturation, increasing T cell infiltration into the tumor microenvironment, and modulating cytokine production. Conversely, dysbiosis of the gut microbiome, characterized by a decrease in beneficial bacteria and an increase in pathogenic species, can impair the efficacy of ICIs. Mechanisms underlying microbiome-mediated modulation of immunotherapy include the production of microbial metabolites, such as short-chain fatty acids (SCFAs), which can enhance T cell function, and the activation of pattern recognition receptors (PRRs), such as Toll-like receptors (TLRs), which can stimulate innate immune responses. Strategies to optimize the microbiome for improved immunotherapy outcomes include fecal microbiota transplantation (FMT) from responders to non-responders, dietary interventions to promote the growth of beneficial bacteria, and the use of prebiotics and probiotics to modulate the gut microbiome composition. Combination therapies targeting both the tumor and the microbiome are being explored to enhance the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Screening is recommended starting at age 45 via stool-based tests (FIT or multitarget stool DNA test) or structural exams (colonoscopy or CT colonography), with frequency depending on the test chosen.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modification, contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in regulating gene expression and maintaining genomic stability. Aberrant epigenetic patterns are frequently observed in cancer cells and contribute to tumorigenesis and disease progression. DNA methylation, particularly at CpG islands in promoter regions, can silence tumor suppressor genes, leading to uncontrolled cell proliferation. For example, hypermethylation of the *MLH1* promoter is a common mechanism of inactivation in colorectal cancer. Histone modifications, such as acetylation and methylation, alter chromatin structure and accessibility, influencing gene transcription. Histone deacetylases (HDACs) remove acetyl groups from histones, leading to chromatin condensation and gene repression, while histone acetyltransferases (HATs) add acetyl groups, promoting gene expression. Aberrant expression or activity of HDACs and HATs can disrupt normal gene regulation and contribute to cancer development. Furthermore, epigenetic modifications can influence DNA repair mechanisms, genomic instability, and metastasis. Targeting epigenetic modifications with drugs such as DNA methyltransferase inhibitors (e.g., azacitidine) and HDAC inhibitors (e.g., vorinostat) has shown clinical benefit in some cancers, highlighting the therapeutic potential of epigenetic modulation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute ischemic stroke?",
+    "answer": "Rapid assessment, neuroimaging to rule out hemorrhage, and consideration for intravenous thrombolysis (alteplase) within 4.5 hours of symptom onset or mechanical thrombectomy for large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and their potential as diagnostic and therapeutic tools?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA) to recipient cells. They play a crucial role in various physiological and pathological processes, including immune responses, inflammation, and cancer. In cancer, exosomes can promote tumor growth, angiogenesis, metastasis, and immune evasion. Tumor-derived exosomes can transfer oncogenic proteins and microRNAs to recipient cells, leading to their transformation and promoting tumor progression. They can also modulate the tumor microenvironment by recruiting immune cells and promoting angiogenesis. Furthermore, exosomes can serve as diagnostic biomarkers for cancer and other diseases. Their cargo reflects the molecular composition of the cells from which they are derived, providing a non-invasive means of detecting disease-specific molecules. Liquid biopsies based on exosomal biomarkers are being developed for early cancer detection, monitoring treatment response, and predicting prognosis. Exosomes also hold potential as therapeutic tools. Engineered exosomes can be used to deliver drugs, siRNA, or other therapeutic molecules to specific target cells. Furthermore, exosomes derived from immune cells can be used to enhance immune responses against cancer. However, challenges remain in exosome isolation, characterization, and standardization, which need to be addressed to fully realize their potential as diagnostic and therapeutic tools.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated urinary tract infection (UTI) in a female patient?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days (if local resistance rates are <20%), or fosfomycin as a single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion, and what factors determine its context-dependent role in cancer?",
+    "answer": "Autophagy, a cellular process involving the degradation and recycling of cytoplasmic components, plays a complex and context-dependent role in cancer. In early stages of tumorigenesis, autophagy can act as a tumor suppressor by removing damaged organelles, misfolded proteins, and protein aggregates, preventing cellular stress and genomic instability. Furthermore, autophagy can selectively degrade oncogenic proteins and inhibit cell proliferation. However, in established tumors, autophagy can promote tumor growth and survival by providing nutrients and energy during metabolic stress, such as hypoxia and nutrient deprivation. Autophagy can also protect cancer cells from the cytotoxic effects of chemotherapy and radiation therapy. The role of autophagy in cancer is influenced by various factors, including the stage of tumorigenesis, the genetic background of the tumor, and the tumor microenvironment. In tumors with loss-of-function mutations in tumor suppressor genes, autophagy can provide a survival advantage, while in tumors with oncogene activation, autophagy can promote cell death. The tumor microenvironment, including hypoxia and nutrient deprivation, can also influence the role of autophagy. Under these stressful conditions, autophagy can provide cancer cells with the necessary resources to survive and proliferate. Targeting autophagy with drugs such as chloroquine and hydroxychloroquine has shown clinical benefit in some cancers, but the optimal strategy for modulating autophagy in cancer depends on the specific context and characteristics of the tumor.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of a comprehensive geriatric assessment?",
+    "answer": "Functional status, cognitive function, psychological state, social support, medical conditions, and medication review.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to metastasis, and what technologies are used to detect and characterize them?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream, representing an intermediate step in the metastatic cascade. CTCs can survive in the circulation, extravasate into distant tissues, and initiate the formation of secondary tumors. The ability of CTCs to undergo epithelial-mesenchymal transition (EMT) enhances their migratory and invasive properties, facilitating their escape from the primary tumor and survival in the circulation. CTCs also exhibit increased resistance to anoikis (apoptosis induced by detachment from the extracellular matrix) and immune surveillance. Technologies used to detect and characterize CTCs include CellSearch, a semi-automated system that uses immunomagnetic enrichment and fluorescence-based detection to enumerate CTCs based on epithelial cell adhesion molecule (EpCAM) expression. Microfluidic devices offer the potential for label-free CTC isolation and characterization based on physical properties such as size and deformability. Molecular analysis of CTCs, including DNA sequencing, RNA sequencing, and protein analysis, can provide valuable information about the genetic and phenotypic characteristics of the tumor, enabling personalized treatment strategies and monitoring of treatment response. However, challenges remain in CTC detection and characterization, including the low abundance of CTCs in the blood and the heterogeneity of CTC populations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) are generally recommended as first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and contribute to disease pathogenesis?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), are RNA molecules that do not encode proteins but play critical roles in regulating gene expression and cellular processes. MicroRNAs (miRNAs) are small (approximately 22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to translational repression or mRNA degradation. MiRNAs regulate a wide range of cellular processes, including cell proliferation, differentiation, apoptosis, and metabolism. Aberrant miRNA expression has been implicated in various diseases, including cancer, cardiovascular disease, and neurodegenerative disorders. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. LncRNAs can interact with DNA, RNA, and proteins, forming complexes that regulate gene expression in a sequence-specific manner. LncRNAs play a crucial role in various cellular processes, including development, differentiation, and immune responses. Dysregulation of lncRNA expression has been implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders. Targeting ncRNAs with antisense oligonucleotides or small molecule inhibitors represents a promising strategy for therapeutic intervention in various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key steps in managing anaphylaxis?",
+    "answer": "Immediate administration of epinephrine, call for emergency medical services, administer oxygen, and consider antihistamines and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of liquid biopsies in cancer management, and what are the major types of biomarkers analyzed?",
+    "answer": "Liquid biopsies, which involve the analysis of bodily fluids such as blood, urine, or cerebrospinal fluid, offer a non-invasive approach to monitoring cancer progression, assessing treatment response, and detecting resistance mechanisms. They provide a real-time snapshot of the tumor's molecular profile, overcoming the limitations of traditional tissue biopsies, which are invasive and may not capture the heterogeneity of the tumor. Major types of biomarkers analyzed in liquid biopsies include circulating tumor cells (CTCs), circulating tumor DNA (ctDNA), exosomes, and microRNAs. Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream. Circulating tumor DNA (ctDNA) is cell-free DNA released into the bloodstream by tumor cells. ctDNA can be analyzed for mutations, copy number alterations, and epigenetic modifications, providing valuable information about the tumor's genetic and epigenetic profile. Exosomes are small extracellular vesicles secreted by cells that contain proteins, lipids, and nucleic acids. Liquid biopsies are increasingly used in clinical practice to guide treatment decisions, monitor treatment response, and detect minimal residual disease. However, challenges remain in the standardization and validation of liquid biopsy assays.",
+    "persona": "Researcher"
+  }
+]

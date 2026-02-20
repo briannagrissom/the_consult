@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute heart failure with reduced ejection fraction?",
+    "answer": "Loop diuretics and oxygen as needed, followed by guideline-directed medical therapy including ACE inhibitors/ARBs/ARNIs, beta-blockers, and mineralocorticoid receptor antagonists per current HFSA/ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Mutations in the EGFR tyrosine kinase domain, particularly the T790M mutation, sterically hinder the binding of first- and second-generation EGFR inhibitors (e.g., gefitinib, erlotinib). T790M increases the affinity of EGFR for ATP, making it more competitive against the inhibitors. Third-generation inhibitors (e.g., osimertinib) were developed to covalently bind EGFR, including the T790M mutant, but resistance can still emerge through mutations such as C797S which prevents covalent binding of osimertinib, or through bypass pathways such as MET amplification and activation of downstream signaling cascades like PI3K/AKT. Furthermore, transformation to other histologies (e.g., small cell lung cancer) can occur, entirely circumventing EGFR dependence.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone in an average-risk woman aged 30-65?",
+    "answer": "Every 3 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do epigenetic modifications play in the development and progression of Alzheimer's disease?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone acetylation/methylation, and non-coding RNA expression, significantly influence gene expression patterns in Alzheimer's disease (AD). Aberrant DNA methylation, particularly at CpG islands in promoter regions, can silence genes involved in synaptic plasticity, neuronal survival, and amyloid processing. Histone modifications affect chromatin structure and accessibility, modulating the transcription of genes related to inflammation, oxidative stress, and tau phosphorylation. MicroRNAs (miRNAs) regulate mRNA stability and translation, and altered miRNA profiles in AD brains can impact pathways involved in amyloid-beta production, tau aggregation, and neuroinflammation. Specific examples include hypermethylation of the reelin promoter, leading to reduced reelin expression and impaired synaptic function, and altered expression of miR-29, which affects BACE1 levels and amyloid-beta production. Furthermore, environmental factors such as diet and lifestyle can induce epigenetic changes that influence AD risk and progression. Targeting epigenetic mechanisms, such as through histone deacetylase (HDAC) inhibitors, is being explored as a therapeutic strategy to restore normal gene expression patterns and mitigate AD pathology.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated in an outpatient setting?",
+    "answer": "With a macrolide (azithromycin or clarithromycin) or doxycycline, or a respiratory fluoroquinolone (levofloxacin or moxifloxacin) depending on local resistance patterns and patient comorbidities, according to IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of rheumatoid arthritis?",
+    "answer": "Rheumatoid arthritis (RA) pathogenesis involves a complex interplay of signaling pathways that drive inflammation, immune cell activation, and joint destruction. Key pathways include the TNF-alpha, IL-1, and IL-6 signaling cascades, which promote the production of pro-inflammatory cytokines and chemokines, leading to leukocyte recruitment and activation in the synovium. The JAK-STAT pathway mediates the effects of many cytokines, including IL-6, IL-12, and IFN-gamma, on immune cell function and differentiation. The NF-κB pathway regulates the expression of genes involved in inflammation, apoptosis, and cell survival, and is activated by various stimuli, including TNF-alpha and TLR ligands. The PI3K/AKT/mTOR pathway controls cell growth, proliferation, and metabolism, and is implicated in synovial fibroblast activation and cartilage degradation. Furthermore, costimulatory molecules such as CD28 and CTLA-4 regulate T-cell activation and tolerance, and their dysregulation contributes to the autoimmune response in RA. Targeting these signaling pathways with biologic and small molecule inhibitors has revolutionized RA treatment by reducing inflammation and preventing joint damage.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial pharmacological treatment for type 2 diabetes?",
+    "answer": "Metformin, unless contraindicated, along with lifestyle modifications per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy of immune checkpoint inhibitors (ICIs) such as anti-PD-1 and anti-CTLA-4 antibodies. Certain bacterial species, such as Akkermansia muciniphila, Bifidobacterium spp., and Faecalibacterium prausnitzii, have been associated with improved responses to ICIs, likely due to their ability to enhance anti-tumor immunity. These bacteria can stimulate dendritic cell maturation, promote T-cell priming, and increase the infiltration of cytotoxic T cells into the tumor microenvironment. Conversely, the presence of other bacterial species, such as Bacteroides spp., has been linked to reduced ICI efficacy, potentially through mechanisms involving the induction of immunosuppressive myeloid cells and the inhibition of T-cell function. The composition of the gut microbiome can be influenced by various factors, including diet, antibiotic use, and host genetics. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation or dietary interventions, are being explored as a means to enhance the efficacy of ICIs and overcome resistance in cancer patients. Preclinical studies have demonstrated that transferring gut microbiota from ICI-responsive patients to non-responsive patients can restore sensitivity to ICIs, highlighting the therapeutic potential of microbiome manipulation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "IV alteplase within 4.5 hours of symptom onset, or mechanical thrombectomy in eligible patients per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, enabling them to establish persistent infections. These mechanisms include: (1) Antigenic variation: Viruses such as influenza and HIV undergo rapid mutation, altering their surface antigens and evading recognition by pre-existing antibodies. (2) Inhibition of interferon (IFN) signaling: Many viruses encode proteins that interfere with IFN production or signaling, suppressing the antiviral state. For example, the NS1 protein of influenza virus inhibits IFN-beta production, while the E3L protein of vaccinia virus binds to double-stranded RNA and prevents activation of the IFN-induced protein kinase R (PKR). (3) Interference with antigen presentation: Viruses can downregulate the expression of MHC class I molecules on infected cells, preventing recognition by cytotoxic T lymphocytes (CTLs). They can also block the processing or transport of viral antigens to the cell surface. (4) Induction of immunosuppression: Some viruses, such as HIV, infect and deplete immune cells, leading to profound immunosuppression. Others produce cytokines such as IL-10 that suppress immune responses. (5) Latency: Viruses such as herpesviruses can establish latent infections in which viral gene expression is limited, and the virus is hidden from immune surveillance. These evasion strategies allow viruses to persist in the host and cause chronic or recurrent infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated urinary tract infection in a non-pregnant woman?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days, or fosfomycin single dose per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does dysregulation of the complement system contribute to the pathogenesis of autoimmune diseases?",
+    "answer": "Dysregulation of the complement system plays a significant role in the pathogenesis of various autoimmune diseases. The complement system, a crucial component of the innate immune system, can cause tissue damage and inflammation when inappropriately activated. In autoimmune diseases, autoantibodies or immune complexes can trigger complement activation via the classical pathway, leading to the generation of C3a and C5a, potent anaphylatoxins that recruit inflammatory cells. C5b-9, the membrane attack complex (MAC), can directly lyse cells or induce cellular dysfunction. Deficiencies in complement regulatory proteins, such as C1 inhibitor (C1-INH), factor H, and factor I, can lead to uncontrolled complement activation and tissue damage. Examples include: (1) Systemic lupus erythematosus (SLE), where immune complexes activate complement, contributing to glomerulonephritis and vasculitis. (2) Atypical hemolytic uremic syndrome (aHUS), caused by mutations in complement regulatory genes, resulting in uncontrolled complement activation and thrombotic microangiopathy. (3) Rheumatoid arthritis (RA), where complement activation in the synovium promotes inflammation and joint destruction. Targeting complement components, such as C5 with eculizumab, has shown efficacy in treating certain autoimmune diseases, highlighting the importance of complement dysregulation in their pathogenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient with a first-time unprovoked seizure?",
+    "answer": "Neurological evaluation including EEG and MRI, and consider initiating antiepileptic drug therapy based on recurrence risk per AAN guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used chemotherapeutic agents?",
+    "answer": "Chemotherapeutic agents exert their cytotoxic effects through various mechanisms targeting essential cellular processes. Alkylating agents (e.g., cyclophosphamide) introduce alkyl groups into DNA, causing cross-linking and strand breaks that disrupt DNA replication and transcription. Antimetabolites (e.g., methotrexate, 5-fluorouracil) interfere with nucleotide synthesis, inhibiting DNA and RNA production. Methotrexate inhibits dihydrofolate reductase, while 5-FU is converted to metabolites that inhibit thymidylate synthase. Topoisomerase inhibitors (e.g., doxorubicin, etoposide) target topoisomerases I and II, enzymes that regulate DNA supercoiling during replication and transcription. Inhibiting these enzymes leads to DNA strand breaks and cell death. Microtubule inhibitors (e.g., paclitaxel, vincristine) disrupt microtubule dynamics, interfering with cell division and chromosome segregation during mitosis. Paclitaxel stabilizes microtubules, while vincristine inhibits their polymerization. Platinum-based agents (e.g., cisplatin, carboplatin) form DNA adducts, causing DNA damage and triggering apoptosis. The specific mechanism of action and the resulting cellular effects vary depending on the agent and the tumor type.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscularly, and call 911.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer metastasis?",
+    "answer": "The tumor microenvironment (TME) plays a pivotal role in promoting cancer metastasis. The TME comprises various cellular and non-cellular components, including fibroblasts, immune cells, endothelial cells, extracellular matrix (ECM), and signaling molecules. Cancer-associated fibroblasts (CAFs) secrete growth factors, cytokines, and ECM components that promote tumor cell proliferation, survival, and migration. Immune cells within the TME, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), can suppress anti-tumor immunity and promote angiogenesis and ECM remodeling. Endothelial cells form new blood vessels (angiogenesis) that provide nutrients and oxygen to the growing tumor and facilitate the entry of tumor cells into the circulation. The ECM provides a structural scaffold for the tumor and can influence cell adhesion, migration, and invasion. ECM remodeling enzymes, such as matrix metalloproteinases (MMPs), degrade the ECM, creating pathways for tumor cell dissemination. Signaling molecules, such as growth factors (e.g., EGF, VEGF) and cytokines (e.g., IL-6, TNF-alpha), regulate cell-cell interactions and promote tumor progression and metastasis. The TME also influences the epithelial-mesenchymal transition (EMT), a process by which epithelial cells lose their cell-cell adhesion and acquire a more migratory and invasive phenotype. Targeting the TME is an emerging strategy to inhibit cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated diverticulitis?",
+    "answer": "Oral antibiotics covering gram-negative rods and anaerobes, and bowel rest.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the genetic mechanisms underlying antibiotic resistance in bacteria?",
+    "answer": "Bacteria have evolved multiple genetic mechanisms to resist the effects of antibiotics. These mechanisms include: (1) Antibiotic inactivation: Bacteria produce enzymes that modify or degrade antibiotics, rendering them inactive. Examples include beta-lactamases, which hydrolyze beta-lactam antibiotics, and aminoglycoside-modifying enzymes, which modify aminoglycosides. (2) Target modification: Bacteria alter the target site of the antibiotic, reducing its binding affinity. Examples include mutations in the ribosomal RNA that confer resistance to macrolides and mutations in DNA gyrase that confer resistance to quinolones. (3) Reduced permeability: Bacteria decrease the uptake of antibiotics or increase their efflux, reducing the intracellular concentration of the drug. Examples include mutations in porin channels that decrease the entry of antibiotics into the cell and the overexpression of efflux pumps that actively pump antibiotics out of the cell. (4) Target bypass: Bacteria acquire alternative pathways that bypass the inhibited target. An example is the acquisition of a modified dihydropteroate synthase (DHPS) gene that is resistant to sulfonamides. These genetic mechanisms can be acquired through horizontal gene transfer (e.g., conjugation, transduction, transformation) or through spontaneous mutations. The spread of antibiotic resistance genes among bacteria is a major threat to public health.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended follow-up after a positive fecal immunochemical test (FIT) for colorectal cancer screening?",
+    "answer": "Colonoscopy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How can artificial intelligence (AI) and machine learning (ML) be applied to improve clinical decision-making in healthcare?",
+    "answer": "Artificial intelligence (AI) and machine learning (ML) offer significant potential to enhance clinical decision-making across various aspects of healthcare. AI/ML algorithms can analyze large datasets of patient information, including electronic health records, imaging data, and genomic data, to identify patterns and predict outcomes. Specific applications include: (1) Diagnostic support: AI/ML algorithms can assist radiologists in detecting subtle abnormalities on medical images, such as tumors or fractures. (2) Predictive modeling: AI/ML models can predict the risk of developing certain diseases, such as heart failure or diabetes, allowing for early intervention. (3) Treatment optimization: AI/ML algorithms can identify the most effective treatment strategies for individual patients based on their clinical characteristics and treatment history. (4) Personalized medicine: AI/ML can integrate genomic data with clinical information to tailor treatment decisions to individual patients. (5) Clinical trial design: AI/ML can identify eligible patients for clinical trials and optimize trial design. Challenges in implementing AI/ML in healthcare include data privacy and security, algorithm bias, and the need for explainable AI models. Despite these challenges, AI/ML has the potential to transform clinical decision-making and improve patient outcomes.",
+    "persona": "Researcher"
+  }
+]

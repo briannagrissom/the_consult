@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin monohydrate/macrocrystals for 5 days or trimethoprim-sulfamethoxazole for 3 days if local resistance rates are <20% per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis enhance anti-tumor immunity at the molecular level?",
+    "answer": "Programmed cell death protein 1 (PD-1) is an inhibitory receptor expressed on activated T cells, while its ligand PD-L1 is frequently upregulated on tumor cells and antigen-presenting cells within the tumor microenvironment. Upon engagement of PD-1 by PD-L1, a signaling cascade is initiated that recruits phosphatases (SHP-1/SHP-2) to the cytoplasmic tail of PD-1, leading to dephosphorylation of key signaling molecules involved in T-cell activation, such as ZAP70 and PI3K. This effectively dampens T-cell receptor (TCR) signaling, inhibiting T-cell proliferation, cytokine production (e.g., IFN-γ, TNF-α), and cytotoxic activity. PD-1 signaling also promotes the expression of other inhibitory receptors (e.g., CTLA-4, TIM-3) and transcription factors associated with T-cell exhaustion. Furthermore, PD-L1 expression on tumor cells can directly inhibit the activity of cytotoxic T lymphocytes (CTLs) that infiltrate the tumor. Monoclonal antibodies that block the interaction between PD-1 and PD-L1 disrupt this inhibitory signaling, restoring T-cell function and enabling CTLs to effectively recognize and kill tumor cells. This reversal of T-cell exhaustion allows for enhanced tumor cell lysis and a sustained anti-tumor immune response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the target HbA1c goals for most non-pregnant adults with diabetes?",
+    "answer": "Generally, an HbA1c <7% is recommended, but individualize based on patient factors per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which metformin exerts its anti-hyperglycemic effects?",
+    "answer": "Metformin's primary mechanism involves the activation of AMP-activated protein kinase (AMPK) in hepatocytes. AMPK activation suppresses hepatic gluconeogenesis by inhibiting key enzymes involved in glucose production, such as fructose-1,6-bisphosphatase and glucose-6-phosphatase. Metformin also enhances insulin sensitivity in peripheral tissues, primarily skeletal muscle, by increasing glucose uptake and utilization. This is partly mediated by increased translocation of GLUT4 glucose transporters to the cell surface. Additionally, metformin reduces intestinal glucose absorption, contributing to its overall glucose-lowering effect. Metformin may also modulate the gut microbiome, potentially influencing glucose metabolism and insulin sensitivity. While the exact molecular targets of metformin remain incompletely understood, its effects on AMPK and downstream metabolic pathways are well-established in contributing to improved glycemic control.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Assess hemodynamic stability, consider rate control with intravenous beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem), or cardioversion if unstable per AHA/ACC/HRS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Activating mutations in the epidermal growth factor receptor (EGFR) tyrosine kinase domain are common in non-small cell lung cancer (NSCLC) and initially sensitize tumors to EGFR tyrosine kinase inhibitors (TKIs) such as gefitinib, erlotinib, and afatinib. However, acquired resistance to these TKIs inevitably develops. The most frequent mechanism of resistance is the acquisition of a secondary mutation, T790M, in exon 20 of EGFR. This mutation sterically hinders the binding of first- and second-generation EGFR TKIs to the ATP-binding pocket of the kinase. Osimertinib, a third-generation EGFR TKI, was specifically designed to overcome T790M-mediated resistance. However, resistance to osimertinib can also emerge through mechanisms such as the C797S mutation in the EGFR kinase domain, which prevents covalent binding of osimertinib, or through bypass signaling pathways such as MET amplification, BRAF mutations, or activation of PI3K/AKT signaling. These bypass pathways restore cell survival and proliferation despite EGFR inhibition. Additionally, histologic transformation to small cell lung cancer can occur, resulting in EGFR TKI resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) after placement of a drug-eluting stent (DES) in a patient with stable coronary artery disease?",
+    "answer": "Typically 6 months, but duration should be individualized based on bleeding risk and ischemic risk per ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways that contribute to the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis is complex and involves multiple interconnected signaling pathways. Amyloid precursor protein (APP) processing and amyloid-beta (Aβ) plaque formation activate inflammatory cascades involving microglia and astrocytes, leading to the release of pro-inflammatory cytokines such as TNF-α and IL-1β. These cytokines, in turn, activate intracellular signaling pathways like NF-κB and MAPK, contributing to neuronal dysfunction and apoptosis. Hyperphosphorylation of tau protein, leading to the formation of neurofibrillary tangles, also disrupts neuronal function and axonal transport. Tau hyperphosphorylation is regulated by kinases such as GSK-3β and CDK5. Furthermore, impaired insulin signaling and glucose metabolism in the brain contribute to AD pathogenesis by promoting Aβ accumulation and tau phosphorylation. Dysregulation of calcium homeostasis, oxidative stress, and mitochondrial dysfunction also play critical roles in neuronal damage and synapse loss. Understanding these interconnected signaling pathways is crucial for developing effective therapeutic strategies targeting AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line antibiotic for community-acquired pneumonia in an outpatient setting for a previously healthy adult?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (azithromycin or clarithromycin) if local macrolide resistance is <25% per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination, which is essential for repairing double-strand DNA breaks. Mutations in these genes lead to a loss of function, impairing the cell's ability to accurately repair damaged DNA. This results in an accumulation of genetic mutations, genomic instability, and an increased susceptibility to cancer development. Specifically, BRCA1 is involved in sensing DNA damage and initiating DNA repair pathways, while BRCA2 plays a direct role in homologous recombination by binding to RAD51 and facilitating the strand invasion process. Loss of BRCA1 or BRCA2 function disrupts the cell cycle checkpoints and allows cells with damaged DNA to proliferate, increasing the likelihood of mutations in proto-oncogenes and tumor suppressor genes that drive tumorigenesis. Furthermore, BRCA1 and BRCA2 play roles in transcriptional regulation and chromatin remodeling, which can affect gene expression patterns and contribute to cancer development. Cells with BRCA1/2 mutations are also more sensitive to PARP inhibitors, which block another DNA repair pathway, leading to synthetic lethality.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with a suspected acute ischemic stroke?",
+    "answer": "Rapid neurological assessment, emergent CT scan to rule out hemorrhage, and consideration of intravenous alteplase if within the appropriate time window per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which chimeric antigen receptor (CAR) T-cell therapy eradicates cancer cells?",
+    "answer": "CAR T-cell therapy involves genetically engineering a patient's T cells to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on the surface of cancer cells. Once infused back into the patient, CAR T cells bind to the target antigen, leading to T-cell activation and the release of cytotoxic molecules such as perforin and granzymes. Perforin creates pores in the target cell membrane, allowing granzymes to enter and activate the caspase cascade, inducing apoptosis (programmed cell death). CAR T-cell activation also results in the secretion of cytokines like IFN-γ and TNF-α, which further enhance the anti-tumor immune response and recruit other immune cells to the tumor microenvironment. Furthermore, CAR T cells can form an immunological synapse with target cells, facilitating efficient delivery of cytotoxic molecules. CAR T cells exhibit both antigen-dependent and antigen-independent cytotoxicity, enabling them to eliminate cancer cells with varying levels of target antigen expression. The persistence and long-term surveillance capabilities of CAR T cells contribute to sustained remission in some patients. However, CAR T-cell therapy can also induce cytokine release syndrome (CRS) and immune effector cell-associated neurotoxicity syndrome (ICANS) due to excessive immune activation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Start screening at age 45 with either stool-based tests (FIT or gFOBT) annually, stool DNA test every 3 years, colonoscopy every 10 years, or CT colonography every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does HIV evade the host immune system, leading to chronic infection?",
+    "answer": "HIV employs multiple strategies to evade the host immune system and establish chronic infection. High mutation rates, due to the error-prone reverse transcriptase enzyme, generate viral variants that can escape recognition by neutralizing antibodies and cytotoxic T lymphocytes (CTLs). HIV integrates its genetic material into the host cell genome, forming a latent reservoir in long-lived cells such as resting CD4+ T cells, which are not readily targeted by the immune system or antiviral drugs. Glycosylation of the HIV envelope protein (gp120) shields it from antibody recognition. HIV also downregulates the expression of MHC class I molecules on infected cells, reducing their recognition by CTLs. Furthermore, HIV infection leads to immune dysfunction, including CD4+ T-cell depletion and impaired dendritic cell function, further compromising the host's ability to control the virus. HIV also produces viral proteins, such as Nef and Vpu, that interfere with T-cell activation and antigen presentation. Finally, the chronic immune activation induced by HIV infection contributes to immune exhaustion and increased susceptibility to opportunistic infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a deep vein thrombosis (DVT) in the leg?",
+    "answer": "Anticoagulation with a direct oral anticoagulant (DOAC) or warfarin or low-molecular-weight heparin/unfractionated heparin followed by warfarin per CHEST guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the development and progression of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis. Dysbiosis, characterized by alterations in the composition and diversity of the gut microbiota, is a hallmark of IBD. Specifically, there is often a decrease in beneficial commensal bacteria, such as Firmicutes and Bacteroidetes, and an increase in potentially pathogenic bacteria, such as Escherichia coli and Klebsiella pneumoniae. These alterations in the gut microbiome can disrupt the intestinal barrier function, leading to increased permeability and translocation of bacterial products into the lamina propria, triggering an exaggerated immune response. The gut microbiome also influences the production of short-chain fatty acids (SCFAs), such as butyrate, which have anti-inflammatory effects and contribute to intestinal homeostasis. Dysbiosis can impair SCFA production, further exacerbating inflammation. Furthermore, the gut microbiome can modulate the activity of immune cells, such as T cells and macrophages, influencing the balance between pro-inflammatory and anti-inflammatory responses. Certain microbial metabolites can activate pattern recognition receptors, such as Toll-like receptors (TLRs), on immune cells, leading to the release of pro-inflammatory cytokines. Fecal microbiota transplantation (FMT) has shown promise in treating IBD, suggesting that restoring a healthy gut microbiome can be therapeutic.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial management for a patient presenting with diabetic ketoacidosis (DKA)?",
+    "answer": "Fluid resuscitation, insulin infusion, and electrolyte replacement (particularly potassium) with frequent monitoring per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression without altering the underlying DNA sequence. Aberrant epigenetic patterns are frequently observed in cancer cells and contribute to tumor development and progression. DNA methylation, particularly at CpG islands in promoter regions, can silence tumor suppressor genes, promoting uncontrolled cell growth. Histone modifications, such as acetylation and methylation, alter chromatin structure and accessibility, affecting gene transcription. For example, histone deacetylation, often mediated by histone deacetylases (HDACs), leads to chromatin condensation and transcriptional repression of tumor suppressor genes. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by binding to mRNA transcripts, leading to their degradation or translational repression. Dysregulation of miRNA expression can affect the expression of oncogenes and tumor suppressor genes. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, can restore normal gene expression patterns and inhibit tumor growth. Furthermore, epigenetic modifications can influence drug resistance and metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute otitis media in children?",
+    "answer": "Amoxicillin is typically the first-line antibiotic unless there are specific risk factors or penicillin allergy per AAP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Bacteria have evolved several mechanisms to resist the effects of antibiotics. Enzymatic inactivation of antibiotics is a common strategy, where bacteria produce enzymes that modify or degrade the antibiotic molecule, rendering it inactive. Examples include beta-lactamases, which hydrolyze beta-lactam antibiotics like penicillin, and aminoglycoside-modifying enzymes. Alteration of the antibiotic target site is another mechanism, where mutations in the bacterial target protein prevent the antibiotic from binding effectively. For instance, mutations in ribosomal RNA can confer resistance to macrolides and tetracyclines. Reduced antibiotic uptake can occur through decreased expression of porin channels in the outer membrane of Gram-negative bacteria, limiting antibiotic entry into the cell. Increased antibiotic efflux involves the overexpression of efflux pumps that actively transport antibiotics out of the bacterial cell, reducing their intracellular concentration. Finally, bacteria can develop bypass pathways that circumvent the metabolic step inhibited by the antibiotic. Horizontal gene transfer, including conjugation, transduction, and transformation, facilitates the spread of antibiotic resistance genes among bacteria, contributing to the rapid dissemination of resistance.",
+    "persona": "Researcher"
+  }
+]

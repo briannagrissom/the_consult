@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute uncomplicated cystitis?",
+    "answer": "Prescribe a 3-day course of trimethoprim-sulfamethoxazole or a 5-day course of nitrofurantoin, provided local resistance rates are low per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate gene editing in mammalian cells, and what are the key limitations?",
+    "answer": "CRISPR-Cas9 enables targeted genome editing through the formation of a complex between the Cas9 endonuclease and a guide RNA (gRNA) that directs Cas9 to a specific DNA sequence. The gRNA, typically 20 nucleotides long, base-pairs with the target DNA, and Cas9 induces a double-strand break (DSB) at that site. The cell then repairs the DSB either through non-homologous end joining (NHEJ), which often introduces insertions or deletions (indels) that disrupt gene function, or through homology-directed repair (HDR) if a DNA template with homology to the break site is provided, allowing for precise gene insertion or modification. Key limitations include off-target effects, where the gRNA binds to unintended sites in the genome due to sequence similarity, leading to unwanted mutations; mosaicism, where only a fraction of cells are edited due to inefficient delivery or Cas9 activity; and immune responses against Cas9, particularly in in vivo applications. Additionally, the size of DNA that can be inserted via HDR is limited, and delivering Cas9 and gRNA to certain cell types or tissues remains challenging. Addressing these limitations is an active area of research to improve the safety and efficacy of CRISPR-Cas9 for therapeutic applications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score, and what is it used for?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (Doubled), Diabetes mellitus, Stroke/TIA/thromboembolism (Doubled), Vascular disease, Age 65-74, Sex category (female). Used to assess stroke risk in atrial fibrillation and guide anticoagulation decisions per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through multiple mechanisms involving activation of bypass signaling pathways and alterations in downstream signaling. The most common mechanism is the acquisition of a secondary EGFR mutation, such as T790M, which sterically hinders TKI binding. Other mechanisms include activation of alternative receptor tyrosine kinases such as MET amplification or HER2/HER3 overexpression, which drive signaling through ERBB family members independently of EGFR. Activation of downstream signaling pathways, such as PI3K/AKT and RAS/MAPK, can also bypass EGFR inhibition. Additionally, phenotypic changes such as epithelial-mesenchymal transition (EMT) and transformation to small cell lung cancer can confer resistance. These resistance mechanisms often involve complex interactions and feedback loops, highlighting the need for combination therapies that target multiple pathways to overcome resistance and improve treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for colonoscopy in average-risk individuals?",
+    "answer": "Every 10 years starting at age 45 per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors like anti-PD-1 antibodies enhance antitumor immunity, and what are the common immune-related adverse events (irAEs) associated with their use?",
+    "answer": "Anti-PD-1 antibodies enhance antitumor immunity by blocking the interaction between programmed cell death protein 1 (PD-1) on T cells and its ligand PD-L1 on tumor cells or antigen-presenting cells. This interaction normally inhibits T-cell activation and effector function, allowing tumors to evade immune surveillance. By blocking this interaction, anti-PD-1 antibodies restore T-cell activity, leading to enhanced tumor cell killing. Common irAEs include colitis, pneumonitis, hepatitis, endocrinopathies (e.g., thyroiditis, adrenal insufficiency), and dermatologic toxicities (e.g., rash, pruritus). These irAEs occur due to the broad activation of the immune system, leading to inflammation and damage in various organs. Management of irAEs typically involves corticosteroids and, in severe cases, other immunosuppressive agents.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological treatment for type 2 diabetes mellitus?",
+    "answer": "Metformin, unless contraindicated per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment, and how can they be exploited for therapeutic purposes?",
+    "answer": "Exosomes are small extracellular vesicles that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNAs, microRNAs) between cells. Within the tumor microenvironment, exosomes secreted by tumor cells can promote angiogenesis, immune suppression, and metastasis. For example, tumor-derived exosomes can deliver pro-angiogenic factors like VEGF to endothelial cells, stimulate the differentiation of myeloid cells into immunosuppressive phenotypes, and transfer drug resistance factors to neighboring tumor cells. Conversely, exosomes can be engineered to deliver therapeutic payloads, such as chemotherapeutic drugs, siRNAs, or immunomodulatory molecules, specifically to tumor cells. Exosomes also hold promise as biomarkers for cancer diagnosis and prognosis due to their ability to reflect the molecular composition of their cells of origin.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscularly, repeated every 5-15 minutes as needed, plus adjunct antihistamines and supportive care per NIAID guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome plays a crucial role in modulating both the efficacy and toxicity of cancer chemotherapy. Certain gut bacteria can metabolize chemotherapeutic drugs, either activating them to increase their cytotoxic effects or inactivating them to reduce their efficacy. For example, some bacteria can convert the prodrug irinotecan into its active metabolite SN-38, while others can detoxify SN-38, reducing its antitumor activity. The gut microbiome can also influence the host immune response, affecting the effectiveness of chemotherapy-induced tumor cell killing. Dysbiosis, an imbalance in the gut microbiome, can exacerbate chemotherapy-induced side effects such as mucositis, diarrhea, and myelosuppression. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation or the use of probiotics and prebiotics, are being explored to improve chemotherapy outcomes and reduce toxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) and dexamethasone, adjusted based on CSF culture results per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CAR T-cell therapy and allogeneic hematopoietic stem cell transplantation (HSCT) in the treatment of hematologic malignancies?",
+    "answer": "CAR T-cell therapy involves genetically engineering a patient's own T cells (or T cells from a healthy donor) to express a chimeric antigen receptor (CAR) that recognizes a specific target on cancer cells. These CAR T cells are then infused back into the patient to selectively kill cancer cells. Allogeneic HSCT, on the other hand, involves replacing a patient's hematopoietic system with stem cells from a matched donor. While both therapies can induce durable remissions in hematologic malignancies, they have distinct mechanisms of action and risks. CAR T-cell therapy is highly targeted and can induce rapid tumor regression, but is associated with cytokine release syndrome (CRS) and neurotoxicity. Allogeneic HSCT relies on the graft-versus-tumor (GVT) effect, where donor immune cells recognize and kill residual cancer cells, but carries the risk of graft-versus-host disease (GVHD). CAR T-cell therapy is typically used for relapsed or refractory diseases, while allogeneic HSCT is often used as a consolidation therapy in patients with high-risk disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time unprovoked seizure?",
+    "answer": "Consider initiating antiepileptic drug therapy after weighing the risks and benefits, especially if there are EEG abnormalities or neuroimaging findings per AAN guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression, and what roles do they play in cancer development?",
+    "answer": "LncRNAs are RNA molecules longer than 200 nucleotides that do not encode proteins but play diverse regulatory roles in gene expression. They can act as scaffolds, guiding proteins to specific DNA regions; as decoys, sequestering transcription factors or microRNAs; as signals, recruiting chromatin-modifying complexes; or as guides, directing chromatin remodelers to specific genomic loci. In cancer, lncRNAs can function as oncogenes or tumor suppressors. For example, some lncRNAs promote cell proliferation, invasion, and metastasis, while others inhibit tumor growth and promote apoptosis. LncRNAs are also involved in drug resistance, immune evasion, and angiogenesis. Targeting lncRNAs with antisense oligonucleotides or small molecule inhibitors is being explored as a potential therapeutic strategy in cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Outpatient: Amoxicillin or doxycycline or a macrolide (if local resistance <25%). Inpatient: Beta-lactam plus macrolide or fluoroquinolone per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of Alzheimer's disease, and how do current therapeutic strategies address these mechanisms?",
+    "answer": "The major hallmarks of Alzheimer's disease (AD) include the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein, leading to neuronal dysfunction and loss. Aβ plaques are formed by the aggregation of Aβ peptides, which are produced by the cleavage of amyloid precursor protein (APP) by β-secretase (BACE1) and γ-secretase. Neurofibrillary tangles are formed by the hyperphosphorylation of tau protein, which destabilizes microtubules and disrupts axonal transport. Other mechanisms implicated in AD pathogenesis include neuroinflammation, oxidative stress, mitochondrial dysfunction, and impaired synaptic plasticity. Current therapeutic strategies for AD primarily focus on symptomatic relief, such as cholinesterase inhibitors and NMDA receptor antagonists, which enhance neurotransmission and improve cognitive function. Emerging therapies aim to target the underlying disease mechanisms, such as Aβ and tau, with antibodies that clear Aβ plaques or prevent tau aggregation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with a direct oral anticoagulant (DOAC) or warfarin or low-molecular-weight heparin per ACCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using oncolytic viruses work, and what are the potential advantages and limitations compared to other immunotherapeutic approaches?",
+    "answer": "Oncolytic viruses (OVs) are viruses that selectively infect and replicate within cancer cells, leading to tumor cell lysis and the release of tumor-associated antigens (TAAs). This process triggers an antitumor immune response, which can be further enhanced by engineering OVs to express immunostimulatory molecules such as cytokines or checkpoint inhibitors. OVs can also directly stimulate innate immune pathways in the tumor microenvironment, leading to the recruitment and activation of immune cells. Compared to other immunotherapeutic approaches such as checkpoint inhibitors or CAR T-cell therapy, OVs have several potential advantages, including their ability to directly kill cancer cells, their potential to overcome immune resistance, and their ability to deliver therapeutic payloads specifically to the tumor. However, OVs also face several limitations, including the potential for off-target effects, the development of antiviral immunity, and the challenge of delivering OVs to tumors in a systemic manner.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine, and consider transcutaneous pacing if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How can advanced imaging techniques, such as PET-MRI, improve the diagnosis and management of neurological disorders compared to conventional imaging modalities?",
+    "answer": "PET-MRI combines the high sensitivity of positron emission tomography (PET) in detecting molecular processes with the superior anatomical detail and functional information provided by magnetic resonance imaging (MRI). This allows for simultaneous assessment of structural, functional, and molecular changes in the brain, providing a more comprehensive understanding of neurological disorders. For example, in Alzheimer's disease, PET-MRI can be used to detect amyloid plaques and tau tangles (using PET tracers) while simultaneously assessing hippocampal atrophy and functional connectivity (using MRI). In epilepsy, PET-MRI can help identify seizure foci that are not visible on conventional MRI. In multiple sclerosis, PET-MRI can be used to assess inflammation and demyelination. The improved diagnostic accuracy and prognostic information provided by PET-MRI can lead to more personalized and effective treatment strategies.",
+    "persona": "Researcher"
+  }
+]

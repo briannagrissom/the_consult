@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line options, depending on local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to the development of pancreatic ductal adenocarcinoma?",
+    "answer": "KRAS encodes a small GTPase that regulates cell proliferation, differentiation, and survival. Mutations in KRAS, particularly at codon 12, lock the protein in its active GTP-bound state, leading to constitutive activation of downstream signaling pathways such as MAPK and PI3K/AKT. This drives uncontrolled cell growth, inhibits apoptosis, and promotes angiogenesis, key hallmarks of pancreatic cancer. Mutant KRAS also induces epigenetic reprogramming, alters the tumor microenvironment by recruiting immunosuppressive cells, and promotes metabolic alterations like increased macropinocytosis. While KRAS has been a high-priority target for decades, direct inhibition has proven challenging due to the protein's structure and high affinity for GTP. However, recent advances in covalent KRAS G12C inhibitors have shown promise in cancers with this specific mutation, and research is ongoing to develop inhibitors for other KRAS variants and to target downstream effectors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "HbA1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or random plasma glucose ≥200 mg/dL with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in modulating the efficacy of immune checkpoint inhibitors in cancer?",
+    "answer": "The gut microbiome influences antitumor immunity and response to immune checkpoint inhibitors (ICIs) through multiple mechanisms. Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved ICI efficacy in melanoma and other cancers. These bacteria can enhance dendritic cell maturation, promote T-cell activation, and increase the infiltration of cytotoxic T lymphocytes into the tumor microenvironment. Conversely, dysbiosis or the presence of certain other bacterial species can suppress immune responses and reduce ICI efficacy. The microbiome's impact is mediated by the production of metabolites like short-chain fatty acids (SCFAs) such as butyrate and propionate, which can modulate immune cell function and epigenetic modifications. SCFAs can enhance T-cell activity and promote the differentiation of regulatory T cells. Furthermore, the gut microbiome influences systemic inflammation and modulates the expression of immune checkpoints like PD-1 and CTLA-4. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored to enhance ICI efficacy and overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting for a previously healthy adult?",
+    "answer": "Amoxicillin or doxycycline are preferred options; macrolides are alternatives if local resistance is low, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic dysregulation contribute to the pathogenesis of Alzheimer's disease?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone acetylation, and microRNA expression, play a critical role in regulating gene expression in the brain. In Alzheimer's disease (AD), aberrant epigenetic patterns can contribute to neurodegeneration and cognitive decline. DNA methylation changes, particularly at CpG islands in gene promoters, can silence genes involved in synaptic plasticity, neuronal survival, and amyloid processing. For example, altered methylation of the BACE1 promoter can increase β-secretase expression and promote amyloid plaque formation. Histone modifications, such as decreased histone acetylation, can lead to chromatin condensation and reduced expression of genes involved in learning and memory. MicroRNAs, small non-coding RNAs that regulate gene expression, are also dysregulated in AD, influencing the expression of proteins involved in tau phosphorylation, neuroinflammation, and synaptic dysfunction. These epigenetic changes can be influenced by environmental factors, such as diet, stress, and exposure to toxins, as well as genetic factors. Epigenetic therapies, such as histone deacetylase inhibitors, are being investigated as potential therapeutic strategies to restore normal gene expression patterns and improve cognitive function in AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "The target INR range is generally 2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors in non-small cell lung cancer?",
+    "answer": "Resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC) commonly arises through several distinct mechanisms. The most frequent is the acquisition of the EGFR T790M mutation, which sterically hinders TKI binding. Other EGFR-dependent mechanisms include C797S mutations, EGFR amplification, and bypass signaling through MET amplification or activation of receptor tyrosine kinases like HER2 and HER3. EGFR-independent mechanisms involve activation of alternative pathways such as PI3K/AKT/mTOR, MAPK, or small cell lung cancer transformation. Additionally, epithelial-mesenchymal transition (EMT) and epigenetic alterations can contribute to resistance. These mechanisms often coexist or evolve over time, necessitating comprehensive molecular profiling to guide treatment strategies. Third-generation EGFR TKIs, such as osimertinib, were designed to overcome the T790M mutation, but resistance to these agents can also develop through mechanisms like C797S mutations or bypass signaling. Combination therapies targeting multiple pathways are being explored to address the complex mechanisms of resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for cervical cancer?",
+    "answer": "Screening should start at age 21; from ages 21-29, screen with cytology alone every 3 years. From ages 30-65, screen with cytology and HPV co-testing every 5 years or cytology alone every 3 years, per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions propagate and cause neurodegenerative disease?",
+    "answer": "Prions are misfolded, self-propagating protein aggregates that cause transmissible spongiform encephalopathies (TSEs), also known as prion diseases. The prion protein (PrP) exists in a normal, cellular form (PrPC) and a misfolded, infectious form (PrPSc). PrPSc acts as a template, converting PrPC into PrPSc through a conformational change. This process involves the recruitment of PrPC to PrPSc aggregates, leading to the formation of amyloid fibrils. These fibrils accumulate in the brain, causing neuronal dysfunction and cell death. The mechanism of conversion is thought to involve transient unfolding of PrPC and its subsequent refolding into the PrPSc conformation upon interaction with existing PrPSc aggregates. Prion propagation is highly dependent on the amino acid sequence of PrP, which explains why prion diseases can be transmissible within species but often not between species. PrPSc aggregates are resistant to degradation by cellular proteases and can seed the formation of new PrPSc molecules, leading to exponential prion replication. The accumulation of PrPSc in the brain triggers neuroinflammation, synaptic dysfunction, and ultimately neuronal loss, resulting in the characteristic spongiform degeneration seen in TSEs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute stroke?",
+    "answer": "Assess ABCs, perform neurological exam, obtain CT scan to rule out hemorrhage; if appropriate, administer IV alteplase within 4.5 hours of symptom onset.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the inflammasome in the pathogenesis of autoimmune diseases?",
+    "answer": "The inflammasome is a multiprotein complex that activates inflammatory caspases, such as caspase-1, leading to the maturation and release of pro-inflammatory cytokines like IL-1β and IL-18. In autoimmune diseases, aberrant activation of inflammasomes contributes to chronic inflammation and tissue damage. Inflammasome activation can be triggered by various stimuli, including endogenous danger signals (DAMPs) released from damaged cells, such as uric acid crystals, ATP, and DNA, as well as exogenous pathogens. Genetic mutations in inflammasome components, such as NLRP3, have been linked to autoinflammatory syndromes. In systemic lupus erythematosus (SLE), immune complexes and nucleic acids can activate inflammasomes in immune cells, leading to increased IL-1β production and systemic inflammation. In rheumatoid arthritis (RA), inflammasome activation in synovial fibroblasts and macrophages contributes to joint inflammation and cartilage destruction. IL-1β blockade has shown therapeutic efficacy in some autoimmune diseases, highlighting the importance of the inflammasome pathway in their pathogenesis. Targeting inflammasome components or downstream cytokines is an area of active investigation for the treatment of autoimmune disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time episode of Clostridium difficile infection?",
+    "answer": "Oral vancomycin or fidaxomicin are first-line treatments per IDSA guidelines; metronidazole is an alternative if these are unavailable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes mediate intercellular communication in cancer?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA, DNA) to recipient cells. In cancer, exosomes play diverse roles in promoting tumor growth, metastasis, and immune evasion. Tumor-derived exosomes can deliver oncogenic proteins and RNAs to neighboring cells, promoting their proliferation and survival. They can also modify the tumor microenvironment by promoting angiogenesis, remodeling the extracellular matrix, and recruiting immune cells. Exosomes can transfer microRNAs that suppress the expression of tumor suppressor genes in recipient cells, contributing to tumor progression. They can also facilitate metastasis by promoting epithelial-mesenchymal transition (EMT) in cancer cells and preparing distant sites for tumor cell colonization. Furthermore, exosomes can suppress anti-tumor immune responses by delivering immunosuppressive molecules to immune cells, such as regulatory T cells and myeloid-derived suppressor cells. Exosomes are also being explored as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic delivery vehicles.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended follow-up after a positive fecal immunochemical test (FIT) for colorectal cancer screening?",
+    "answer": "A diagnostic colonoscopy is required to evaluate the source of bleeding and rule out colorectal cancer.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circadian rhythm disruptions impact metabolic health and increase the risk of type 2 diabetes?",
+    "answer": "Circadian rhythms, regulated by the master clock in the suprachiasmatic nucleus (SCN), govern daily fluctuations in physiology and behavior, including sleep-wake cycles, hormone secretion, and metabolism. Disruptions to circadian rhythms, caused by shift work, jet lag, or sleep disorders, can have profound effects on metabolic health, increasing the risk of type 2 diabetes (T2D). Circadian misalignment can impair glucose tolerance, reduce insulin sensitivity, and disrupt lipid metabolism. Chronic sleep deprivation and circadian disruption alter the secretion of hormones involved in glucose regulation, such as cortisol, insulin, and melatonin. Disrupted sleep can also lead to increased appetite and decreased energy expenditure, contributing to weight gain and obesity, a major risk factor for T2D. At the molecular level, circadian genes regulate the expression of genes involved in glucose metabolism, such as GLUT4 and PPARγ. Disruptions to these genes can impair glucose uptake and insulin signaling. Furthermore, circadian rhythm disruptions can promote inflammation and oxidative stress, contributing to pancreatic beta-cell dysfunction and insulin resistance. Interventions aimed at restoring circadian alignment, such as timed light exposure and melatonin supplementation, may improve metabolic health and reduce the risk of T2D.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for acute uncomplicated pyelonephritis?",
+    "answer": "Fluoroquinolones or trimethoprim-sulfamethoxazole are first-line options, depending on local resistance patterns; ceftriaxone or aminoglycosides are alternatives.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of idiopathic pulmonary fibrosis?",
+    "answer": "Idiopathic pulmonary fibrosis (IPF) is a chronic, progressive fibrotic lung disease characterized by excessive deposition of extracellular matrix (ECM). Several signaling pathways contribute to the pathogenesis of IPF, including TGF-β, Wnt/β-catenin, and PDGF. TGF-β is a potent profibrotic cytokine that promotes fibroblast differentiation into myofibroblasts, which are responsible for ECM production. TGF-β signaling activates Smad proteins, which translocate to the nucleus and regulate the expression of genes involved in ECM synthesis, such as collagen and fibronectin. The Wnt/β-catenin pathway is also implicated in IPF, promoting fibroblast proliferation and ECM deposition. Activation of the Wnt pathway leads to the accumulation of β-catenin in the cytoplasm, which translocates to the nucleus and activates the transcription of target genes involved in fibrosis. PDGF promotes fibroblast proliferation, migration, and ECM production. Other signaling pathways, such as the PI3K/AKT/mTOR pathway, are also involved in IPF pathogenesis. Cross-talk between these pathways contributes to the complex fibrotic process in IPF. Antifibrotic drugs, such as pirfenidone and nintedanib, target multiple pathways involved in IPF pathogenesis and can slow disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute symptomatic gout?",
+    "answer": "NSAIDs, colchicine, or corticosteroids are first-line options; choose based on patient comorbidities and contraindications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development and progression of atherosclerotic plaques?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherosclerosis, from initiation to plaque rupture. Endothelial dysfunction, triggered by risk factors like hyperlipidemia and hypertension, leads to increased permeability and the accumulation of LDL cholesterol in the arterial wall. Oxidized LDL (oxLDL) activates endothelial cells and recruits monocytes into the subendothelial space. These monocytes differentiate into macrophages, which engulf oxLDL and become foam cells, a hallmark of early atherosclerotic lesions. Macrophages and other immune cells release inflammatory cytokines, such as TNF-α, IL-1β, and IL-6, which further promote endothelial dysfunction and recruit more immune cells. These cytokines also stimulate the production of reactive oxygen species (ROS), which contribute to LDL oxidation and inflammation. Chronic inflammation promotes the formation of a fibrous cap over the lipid core of the plaque, making it more vulnerable to rupture. Plaque rupture triggers thrombosis, leading to acute cardiovascular events like myocardial infarction and stroke. Targeting inflammation with therapies like statins, which have anti-inflammatory effects, and emerging anti-inflammatory agents, can reduce the risk of atherosclerotic events.",
+    "persona": "Researcher"
+  }
+]

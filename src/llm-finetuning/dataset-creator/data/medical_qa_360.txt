@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, perform synchronized cardioversion. If stable, consider rate or rhythm control strategies and anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level, and what are its limitations in clinical applications?",
+    "answer": "CRISPR-Cas9 uses a guide RNA (gRNA) complementary to a target DNA sequence to direct the Cas9 nuclease to that site in the genome. Cas9 creates a double-stranded break (DSB), which the cell repairs via either non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is error-prone and can introduce insertions or deletions (indels), disrupting the gene. HDR uses a provided DNA template to precisely repair the break, allowing for gene editing. Limitations in clinical applications include off-target effects (Cas9 cutting at unintended sites with similar sequences), delivery challenges (getting CRISPR-Cas9 components into the target cells in vivo), immune responses to Cas9, and ethical concerns regarding germline editing. Furthermore, the efficiency of HDR in many cell types, particularly non-dividing cells, is often low, limiting the precision of gene correction.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the recommended screening guidelines for colorectal cancer?",
+    "answer": "Begin screening at age 45 with colonoscopy every 10 years, fecal immunochemical test (FIT) annually, stool DNA test every 1-3 years, or flexible sigmoidoscopy every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why do some cancers develop resistance to targeted therapies like EGFR inhibitors, and what are the common resistance mechanisms?",
+    "answer": "Cancers develop resistance to targeted therapies through a variety of mechanisms, broadly categorized as on-target and off-target resistance. On-target resistance involves alterations in the drug target itself, such as secondary mutations in the EGFR kinase domain (e.g., T790M in EGFR-mutant lung cancer) that prevent drug binding. Off-target resistance involves activation of alternative signaling pathways that bypass the inhibited target, such as activation of the PI3K/AKT pathway, MAPK pathway, or MET amplification. Additionally, phenotypic changes like epithelial-to-mesenchymal transition (EMT) can confer resistance by altering drug sensitivity and increasing cell survival. Understanding these resistance mechanisms is crucial for developing strategies to overcome them, such as using combination therapies that target multiple pathways or developing next-generation inhibitors that can overcome on-target mutations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a suspected deep vein thrombosis (DVT) be initially evaluated?",
+    "answer": "Assess pretest probability using Wells score. If low probability, perform D-dimer test; if elevated, proceed with ultrasound. If high probability, proceed directly to ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment, and how can they be exploited for therapeutic purposes?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that contain proteins, lipids, and nucleic acids (mRNA, microRNA). In the tumor microenvironment, exosomes facilitate intercellular communication by transferring these molecules between cancer cells, stromal cells, and immune cells. Cancer cells use exosomes to promote tumor growth, angiogenesis, immune evasion, and metastasis by delivering oncogenic proteins and miRNAs to recipient cells. For example, exosomes can transfer drug resistance factors from resistant to sensitive cells, or they can suppress immune cell activity by delivering immunosuppressive molecules. Therapeutic strategies targeting exosomes include blocking their release or uptake, using them as drug delivery vehicles, or engineering them to deliver therapeutic payloads (e.g., siRNA, chemotherapeutic agents) specifically to cancer cells. Exosome-based diagnostics are also being developed to detect cancer-specific biomarkers in liquid biopsies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "For previously healthy individuals, prescribe amoxicillin or doxycycline. For those with comorbidities, use a respiratory fluoroquinolone or beta-lactam plus macrolide per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of immune checkpoint inhibitors in cancer patients?",
+    "answer": "The gut microbiome plays a critical role in modulating the immune response to cancer and can influence the efficacy of immune checkpoint inhibitors (ICIs). Certain gut bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to ICIs in melanoma and lung cancer patients, potentially by enhancing T-cell activation and trafficking to the tumor microenvironment. Conversely, dysbiosis (imbalance in the gut microbiome) can impair ICI efficacy, possibly by reducing the production of short-chain fatty acids (SCFAs) that support immune cell function or by promoting chronic inflammation that suppresses antitumor immunity. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being explored to enhance ICI responses in patients with ICI-refractory cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for managing a patient with acute ischemic stroke?",
+    "answer": "Rapid assessment, neuroimaging to rule out hemorrhage, and if eligible, administer intravenous thrombolytic therapy (alteplase) within 4.5 hours of symptom onset or consider mechanical thrombectomy for large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CAR-T cell therapy and allogeneic hematopoietic stem cell transplantation (allo-HSCT) for treating hematological malignancies?",
+    "answer": "CAR-T cell therapy involves genetically engineering a patient's own T cells (or donor T cells in allogeneic CAR-T) to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on cancer cells, leading to targeted tumor cell killing. Allo-HSCT involves replacing a patient's hematopoietic system with donor stem cells, which can lead to graft-versus-tumor (GVT) effects where donor immune cells attack the cancer. CAR-T cell therapy is typically used for relapsed/refractory hematological malignancies and offers high response rates, but it is associated with toxicities like cytokine release syndrome (CRS) and neurotoxicity. Allo-HSCT can provide a curative potential through GVT, but it also carries the risk of graft-versus-host disease (GVHD) and requires long-term immunosuppression. CAR-T cell therapy is a personalized immunotherapy, while allo-HSCT is a form of allogeneic cellular therapy with broader immune reconstitution.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should hyperglycemia be managed in a hospitalized patient?",
+    "answer": "Initiate insulin therapy if blood glucose >180 mg/dL. Use basal-bolus insulin regimen for most patients; consider correction scale insulin in specific situations. Monitor glucose frequently and adjust insulin accordingly.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of non-coding RNAs, such as microRNAs and long non-coding RNAs, in the development and progression of cardiovascular diseases?",
+    "answer": "Non-coding RNAs (ncRNAs) are RNA molecules that do not encode proteins but play crucial regulatory roles in gene expression. MicroRNAs (miRNAs) are small ncRNAs that bind to mRNA and inhibit translation or promote mRNA degradation. Long non-coding RNAs (lncRNAs) are longer ncRNAs that can regulate gene expression by interacting with DNA, RNA, or proteins. In cardiovascular diseases, miRNAs and lncRNAs are involved in various processes, including cardiomyocyte hypertrophy, apoptosis, fibrosis, inflammation, and angiogenesis. For example, miR-21 is upregulated in cardiac fibrosis and promotes fibroblast activation, while lncRNA MALAT1 regulates endothelial cell function and angiogenesis. Targeting ncRNAs with antisense oligonucleotides or small molecule inhibitors is being explored as a therapeutic strategy for cardiovascular diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for managing osteoporosis?",
+    "answer": "Assess fracture risk using FRAX score. Recommend lifestyle modifications (calcium, vitamin D, exercise). Initiate bisphosphonates or other antiresorptive agents for high-risk individuals per NOF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, contribute to the pathogenesis of autoimmune diseases?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, alter gene expression without changing the underlying DNA sequence. In autoimmune diseases, aberrant epigenetic patterns can disrupt immune cell development and function, leading to autoreactivity and inflammation. DNA methylation, typically associated with gene silencing, can be altered in immune cells from patients with autoimmune diseases, affecting the expression of genes involved in immune regulation. Histone modifications, such as acetylation and methylation, can also influence chromatin structure and gene accessibility, thereby modulating immune cell activation and cytokine production. Environmental factors, such as infections and toxins, can induce epigenetic changes that contribute to the development of autoimmunity in genetically predisposed individuals. Epigenetic therapies, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are being investigated as potential treatments for autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended approach to managing a patient with an acute asthma exacerbation?",
+    "answer": "Administer oxygen, nebulized beta-2 agonists (albuterol), and systemic corticosteroids. Assess response to treatment and consider adding ipratropium bromide. Monitor peak flow or FEV1 and adjust therapy accordingly.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses, such as HIV and influenza, evade the host immune system, and how can these mechanisms be targeted for therapeutic intervention?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, including antigenic variation (mutation of surface proteins), latency (establishment of a dormant state within host cells), interference with interferon signaling, and suppression of T-cell and B-cell responses. HIV, for example, exhibits high mutation rates, leading to the emergence of viral variants that escape antibody neutralization and T-cell recognition. Influenza virus undergoes antigenic drift (gradual accumulation of mutations) and antigenic shift (reassortment of viral genome segments), allowing it to evade pre-existing immunity. Viruses can also directly inhibit interferon production or block the downstream signaling pathways. Therapeutic strategies to overcome viral immune evasion include developing broadly neutralizing antibodies, designing vaccines that elicit cross-reactive T-cell responses, and using antiviral drugs that target viral proteins essential for replication.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with a first-time seizure?",
+    "answer": "Obtain a thorough history and physical exam. Order appropriate labs and neuroimaging (CT or MRI). Consider EEG to evaluate for epileptiform activity. Start antiepileptic medication if indicated based on risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease, and how can they be targeted for therapeutic development?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid-beta plaques and neurofibrillary tangles in the brain, leading to neuronal dysfunction and cognitive decline. Several signaling pathways are implicated in AD pathogenesis, including amyloid precursor protein (APP) processing, tau phosphorylation, neuroinflammation, and oxidative stress. Aberrant APP processing leads to the production of amyloid-beta peptides, which aggregate to form plaques. Hyperphosphorylation of tau protein results in the formation of neurofibrillary tangles. Neuroinflammation, mediated by microglia and astrocytes, contributes to neuronal damage. Oxidative stress, caused by an imbalance between reactive oxygen species (ROS) production and antioxidant defense, exacerbates neuronal injury. Therapeutic strategies targeting these pathways include inhibiting beta-secretase and gamma-secretase to reduce amyloid-beta production, blocking tau phosphorylation, modulating neuroinflammation, and enhancing antioxidant defenses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient with suspected septic shock?",
+    "answer": "Start broad-spectrum antibiotics within one hour. Obtain blood cultures. Administer intravenous fluids for hypotension. Consider vasopressors if hypotension persists after fluid resuscitation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms involved in the development of antibiotic resistance in bacteria, and what strategies are being developed to combat this growing threat?",
+    "answer": "Antibiotic resistance in bacteria arises through several mechanisms, including enzymatic inactivation of antibiotics (e.g., beta-lactamases), target modification (e.g., mutations in ribosomal proteins), reduced drug uptake (e.g., porin mutations), and efflux pumps that actively expel antibiotics from the cell. Horizontal gene transfer, such as conjugation, transduction, and transformation, facilitates the spread of resistance genes between bacteria. Strategies to combat antibiotic resistance include developing new antibiotics with novel mechanisms of action, using combination therapies that target multiple bacterial pathways, enhancing antibiotic stewardship programs to reduce inappropriate antibiotic use, developing rapid diagnostic tests to identify resistant bacteria, and exploring alternative therapies such as phage therapy and antimicrobial peptides.",
+    "persona": "Researcher"
+  }
+]

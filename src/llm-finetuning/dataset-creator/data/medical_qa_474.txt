@@ -1,0 +1,103 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing, and what are its limitations?",
+    "answer": "CRISPR-Cas9 enables targeted gene editing by utilizing a guide RNA (gRNA) complementary to a specific DNA sequence, directing the Cas9 nuclease to that location. Cas9 then induces a double-stranded break, which the cell repairs via non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ often leads to insertions or deletions (indels), disrupting the gene, while HDR uses a provided DNA template to insert a specific sequence. Limitations include off-target effects (Cas9 cutting at unintended sites due to sequence similarity), delivery challenges (getting the CRISPR-Cas9 components into the target cells or tissues, particularly in vivo), mosaicism (incomplete editing across the cell population), and immune responses against Cas9. Furthermore, NHEJ is error-prone and can result in unpredictable mutations, while HDR is often inefficient, especially in non-dividing cells. Ethical considerations surrounding germline editing and the potential for unintended consequences also limit its widespread application.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "HbA1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or random plasma glucose ≥200 mg/dL with symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is immunotherapy effective in some cancers but not others, and what are the mechanisms of resistance?",
+    "answer": "Immunotherapy's efficacy varies due to differences in tumor immunogenicity, the tumor microenvironment (TME), and host immune competence. Highly immunogenic tumors, characterized by high mutation burdens and neoantigen presentation, are more likely to elicit a strong immune response and respond to checkpoint inhibitors. The TME can either facilitate or suppress immune responses. Tumors with an inflamed TME, rich in cytotoxic T lymphocytes (CTLs) and lacking immunosuppressive cells (e.g., regulatory T cells, myeloid-derived suppressor cells), tend to respond better. Resistance mechanisms include: (1) Loss of antigen presentation due to mutations in MHC genes or beta-2 microglobulin; (2) Upregulation of immune checkpoints (e.g., PD-L1, CTLA-4) on tumor cells or immune cells; (3) Immune exclusion, where T cells are unable to infiltrate the tumor due to physical barriers (e.g., dense extracellular matrix) or chemokine deficiencies; (4) Development of immunosuppressive TME with increased Tregs, MDSCs, and M2 macrophages; (5) Activation of alternative signaling pathways (e.g., Wnt/β-catenin) that suppress T cell function; and (6) Gut microbiome composition influencing systemic immune responses [PMID: 30575844]. Combination strategies targeting multiple resistance mechanisms are under investigation to broaden the applicability of immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with acute ST-elevation myocardial infarction (STEMI)?",
+    "answer": "Immediate reperfusion therapy with primary percutaneous coronary intervention (PCI) or fibrinolysis if PCI is not readily available.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and contribute to disease pathogenesis?",
+    "answer": "Non-coding RNAs (ncRNAs) play crucial roles in regulating gene expression at multiple levels. MicroRNAs (miRNAs) are small (approximately 22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Each miRNA can target hundreds of different mRNAs, forming complex regulatory networks. Long non-coding RNAs (lncRNAs), exceeding 200 nucleotides, function through diverse mechanisms: (1) They can act as scaffolds, bringing together proteins to regulate transcription or RNA processing; (2) They can serve as decoys, sequestering transcription factors or miRNAs; (3) They can act as guides, directing chromatin-modifying complexes to specific genomic loci; (4) They can enhance mRNA stability or translation. In disease, miRNAs can act as oncogenes (oncomiRs) or tumor suppressors, depending on their targets. LncRNAs are implicated in cancer, cardiovascular disease, and neurological disorders by modulating cell proliferation, apoptosis, metastasis, and inflammation. For example, dysregulation of the lncRNA HOTAIR is linked to increased metastasis in various cancers. These ncRNAs offer novel therapeutic targets for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between adaptive and innate immunity, and how do they interact during an immune response?",
+    "answer": "Innate immunity provides an immediate, non-specific defense against pathogens. It relies on pre-formed pattern recognition receptors (PRRs) that recognize conserved microbial structures (pathogen-associated molecular patterns, PAMPs). Key components include physical barriers (skin, mucous membranes), phagocytes (macrophages, neutrophils), natural killer (NK) cells, complement, and cytokines. Adaptive immunity is antigen-specific and develops over time. It involves lymphocytes (T cells and B cells) that recognize specific antigens via T cell receptors (TCRs) and B cell receptors (BCRs), respectively. Adaptive immunity exhibits immunological memory, allowing for a faster and stronger response upon re-exposure to the same antigen. Innate and adaptive immunity interact closely. Innate immune cells (e.g., dendritic cells) present antigens to T cells, initiating the adaptive immune response. Cytokines produced by innate immune cells influence T cell differentiation and function. Antibodies produced by B cells can enhance phagocytosis and complement activation, linking the two systems. Furthermore, innate immune activation can influence the type of adaptive immune response (e.g., Th1 vs. Th2).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevations, and rarely rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, influence gene expression and contribute to disease development?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, generally leads to gene silencing by recruiting methyl-binding proteins and preventing transcription factor binding. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, affect chromatin structure and accessibility. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure, while histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to gene repression. Histone methylation can have either activating or repressive effects, depending on the specific lysine residue that is modified (e.g., H3K4me3 is associated with activation, while H3K9me3 and H3K27me3 are associated with repression). Epigenetic alterations are involved in cancer, neurological disorders, and metabolic diseases by dysregulating gene expression patterns. For instance, aberrant DNA methylation of tumor suppressor genes is a common mechanism of gene inactivation in cancer. Epigenetic drugs, such as DNA methyltransferase inhibitors and HDAC inhibitors, are used to reverse these modifications and restore normal gene expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45 or 50 depending on guidelines and risk factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence host metabolism and contribute to metabolic disorders such as obesity and type 2 diabetes?",
+    "answer": "The gut microbiome plays a vital role in host metabolism by influencing nutrient absorption, energy homeostasis, and immune function. Gut bacteria ferment dietary fibers into short-chain fatty acids (SCFAs) such as acetate, propionate, and butyrate, which serve as energy sources for the host and modulate glucose and lipid metabolism. The microbiome also synthesizes vitamins (e.g., vitamin K, B vitamins) and metabolizes xenobiotics. In obesity and type 2 diabetes, dysbiosis (imbalance in gut microbial composition) is often observed, characterized by decreased microbial diversity and altered ratios of specific bacterial groups (e.g., increased Firmicutes/Bacteroidetes ratio). Dysbiosis can lead to increased gut permeability ("
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does targeted therapy differ from traditional chemotherapy in cancer treatment?",
+    "answer": "Chemotherapy affects all rapidly dividing cells, while targeted therapy acts on specific molecular targets associated with cancer.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of liquid biopsies in cancer management, and what are their limitations?",
+    "answer": "Liquid biopsies, such as circulating tumor DNA (ctDNA) and circulating tumor cells (CTCs), offer a non-invasive method to monitor cancer dynamics and treatment response. ctDNA consists of tumor-derived DNA fragments in the bloodstream, reflecting the genomic landscape of the tumor. CTCs are tumor cells that have detached from the primary tumor and entered the circulation, providing insights into metastasis. Liquid biopsies can be used for: (1) Early cancer detection; (2) Monitoring treatment response and detecting minimal residual disease; (3) Identifying resistance mechanisms and guiding personalized therapy; (4) Tracking tumor evolution and heterogeneity. Limitations include: (1) Low ctDNA concentrations, especially in early-stage cancers, requiring highly sensitive detection methods; (2) Technical variability in sample processing and analysis; (3) Limited information on the spatial heterogeneity of the tumor; (4) Potential for false-positive results due to clonal hematopoiesis. Despite these limitations, liquid biopsies are increasingly integrated into clinical practice to improve cancer management.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the signs and symptoms of acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, anorexia, nausea, vomiting, and fever.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in oncogenes and tumor suppressor genes contribute to cancer development?",
+    "answer": "Oncogenes promote cell growth and proliferation when activated, while tumor suppressor genes inhibit cell growth and promote apoptosis when activated. Mutations in oncogenes often result in gain-of-function alterations that drive uncontrolled cell growth. These mutations can include point mutations (e.g., activating mutations in RAS genes), gene amplifications (e.g., amplification of MYC), and chromosomal translocations (e.g., the Philadelphia chromosome in chronic myeloid leukemia, creating the BCR-ABL fusion protein). In contrast, mutations in tumor suppressor genes typically result in loss-of-function alterations that disable their growth-inhibitory functions. These mutations can include deletions, insertions, frameshift mutations, and missense mutations that disrupt protein function. Examples include mutations in TP53 (a master regulator of cell cycle arrest and apoptosis), RB1 (a regulator of cell cycle progression), and BRCA1/BRCA2 (involved in DNA repair). Cancer development often involves the accumulation of multiple mutations in both oncogenes and tumor suppressor genes, leading to uncontrolled cell growth, evasion of apoptosis, and metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute ischemic stroke?",
+    "answer": "Intravenous thrombolysis with alteplase within 4.5 hours of symptom onset and/or mechanical thrombectomy for large vessel occlusions.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the blood-brain barrier (BBB) protect the brain, and what are the strategies to overcome it for drug delivery?",
+    "answer": "The blood-brain barrier (BBB) is a highly selective semipermeable barrier that separates the circulating blood from the brain extracellular fluid, protecting the brain from harmful substances while allowing essential nutrients to enter. The BBB is formed by specialized endothelial cells connected by tight junctions, limiting paracellular transport. It also expresses efflux transporters (e.g., P-glycoprotein) that actively pump out many drugs and toxins. Strategies to overcome the BBB for drug delivery include: (1) Disruption of the BBB using focused ultrasound, which temporarily opens the tight junctions; (2) Use of nanoparticles coated with ligands that bind to receptors on the BBB endothelial cells, facilitating transcytosis; (3) Conjugation of drugs to antibodies that bind to BBB receptors (antibody-drug conjugates); (4) Intranasal drug delivery, which bypasses the BBB and delivers drugs directly to the brain via the olfactory nerve; (5) Use of liposomes or other drug carriers to encapsulate drugs and protect them from degradation and efflux; (6) Direct injection of drugs into the cerebrospinal fluid (intrathecal administration). Each strategy has its own advantages and disadvantages, and the optimal approach depends on the specific drug and target.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common causes of heart failure?",
+    "answer": "Coronary artery disease, hypertension, valvular heart disease, and cardiomyopathy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what are the implications for vaccine development?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, allowing them to establish persistent infections. These strategies include: (1) Rapid mutation rates, leading to antigenic variation and escape from antibody neutralization (e.g., influenza virus, HIV); (2) Inhibition of interferon (IFN) signaling, which is critical for antiviral defense (e.g., NS1 protein of influenza virus inhibits IFN production); (3) Downregulation of MHC class I expression on infected cells, preventing recognition by cytotoxic T lymphocytes (CTLs) (e.g., adenovirus); (4) Production of decoy receptors that bind to cytokines, preventing them from activating immune cells (e.g., poxviruses); (5) Establishment of latency, where the virus remains dormant within host cells, avoiding immune detection (e.g., herpesviruses); (6) Infection of immune cells, such as macrophages and T cells, impairing their function (e.g., HIV). These immune evasion mechanisms have significant implications for vaccine development. Vaccines must elicit broadly neutralizing antibodies and robust T cell responses that can overcome viral evasion strategies. Live attenuated vaccines often induce stronger and more durable immunity compared to inactivated vaccines, but they carry a risk of reversion to virulence. Subunit vaccines, which contain only specific viral antigens, are safer but may require adjuvants to enhance immunogenicity. Novel vaccine platforms, such as mRNA vaccines and viral vector vaccines, offer promising approaches to elicit strong and durable immunity against viruses with complex immune evasion mechanisms [PMID: 33328799].",
+    "persona": "Researcher"
+  }
+]

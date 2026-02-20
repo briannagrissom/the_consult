@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker is typically initiated first to slow the ventricular rate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate precise genome editing in mammalian cells, and what are the primary limitations regarding off-target effects?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-stranded break at that specific location. Repair mechanisms, either non-homologous end joining (NHEJ) or homology-directed repair (HDR), then modify the gene. NHEJ often introduces insertions or deletions (indels) that disrupt the gene, while HDR uses a provided DNA template to insert a specific sequence. Off-target effects arise when the gRNA binds to unintended sites in the genome with sequence similarity, leading to cleavage and potential mutations. These effects are influenced by the gRNA sequence, Cas9 concentration, and chromatin accessibility. Mitigation strategies include designing highly specific gRNAs using bioinformatics tools, employing paired Cas9 nickases that require two gRNAs for cleavage, using truncated gRNAs, and delivering Cas9 as a ribonucleoprotein (RNP) complex to reduce its lifespan in the cell. Furthermore, post-editing sequencing analysis is essential to confirm on-target modifications and rule out off-target mutations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common signs and symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance are common symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What signaling pathways are commonly activated downstream of receptor tyrosine kinases (RTKs) in cancer, and how do they contribute to tumorigenesis?",
+    "answer": "Downstream of RTKs, major signaling pathways activated in cancer include the Ras-MAPK, PI3K-AKT-mTOR, and JAK-STAT pathways. The Ras-MAPK pathway, upon activation by RTKs, stimulates cell proliferation and differentiation. Mutations in Ras or its downstream effectors like BRAF are frequently observed in cancers such as melanoma and colorectal cancer. The PI3K-AKT-mTOR pathway promotes cell survival, growth, and metabolism. PTEN, a negative regulator of this pathway, is often deleted or mutated in various cancers, leading to constitutive activation. The JAK-STAT pathway mediates cytokine signaling and influences cell proliferation, differentiation, and immune responses. Aberrant activation of JAK-STAT is implicated in hematological malignancies and solid tumors. These pathways collectively drive tumorigenesis by promoting uncontrolled cell growth, inhibiting apoptosis, stimulating angiogenesis, and enabling metastasis. Targeted therapies inhibiting these pathways, such as MAPK inhibitors (e.g., vemurafenib), PI3K inhibitors (e.g., buparlisib), and JAK inhibitors (e.g., ruxolitinib), have shown clinical efficacy in specific cancer types, but resistance mechanisms often emerge, necessitating combination strategies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years or annual fecal immunochemical test (FIT) starting at age 45 according to current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in development and disease?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpGs), is generally associated with gene silencing by recruiting methyl-binding domain (MBD) proteins that compact chromatin and prevent transcription factor binding. Histone acetylation, mediated by histone acetyltransferases (HATs), adds acetyl groups to lysine residues on histone tails, leading to chromatin decondensation and increased gene transcription. Conversely, histone deacetylation, catalyzed by histone deacetylases (HDACs), removes acetyl groups, promoting chromatin compaction and gene repression. These modifications play critical roles in development, regulating cell differentiation and tissue-specific gene expression. In disease, aberrant epigenetic patterns can contribute to cancer development, neurodegenerative disorders, and autoimmune diseases. For instance, hypermethylation of tumor suppressor genes can silence their expression, promoting tumorigenesis. Drugs targeting epigenetic modifiers, such as DNA methyltransferase inhibitors (e.g., azacytidine) and HDAC inhibitors (e.g., vorinostat), are used in cancer therapy to restore normal gene expression patterns.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline for outpatients, or a beta-lactam plus a macrolide or fluoroquinolone for inpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of checkpoint inhibitors targeting CTLA-4 versus PD-1/PD-L1 in cancer immunotherapy.",
+    "answer": "CTLA-4 and PD-1/PD-L1 are immune checkpoints that negatively regulate T-cell activation, but they act at different phases and locations. CTLA-4, expressed on T cells, primarily functions in the early stages of T-cell activation in lymph nodes. It competes with CD28 for binding to B7 ligands on antigen-presenting cells (APCs), preventing co-stimulatory signaling and inducing T-cell anergy or suppression. Anti-CTLA-4 antibodies, such as ipilimumab, block CTLA-4 binding to B7, enhancing T-cell priming. PD-1, also expressed on T cells, primarily functions in peripheral tissues at the tumor site. It binds to PD-L1 or PD-L2, which are often upregulated on tumor cells and immune cells within the tumor microenvironment. PD-1 ligation inhibits T-cell effector functions and promotes T-cell exhaustion. Anti-PD-1 antibodies (e.g., nivolumab, pembrolizumab) and anti-PD-L1 antibodies (e.g., atezolizumab, durvalumab) block PD-1/PD-L1 interaction, reinvigorating T-cell activity and promoting tumor cell killing. Thus, CTLA-4 blockade enhances T-cell priming, while PD-1/PD-L1 blockade restores T-cell effector function in the tumor microenvironment. Combination strategies targeting both checkpoints have shown synergistic efficacy in some cancers but are associated with increased immune-related adverse events.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the modifiable risk factors for stroke?",
+    "answer": "Hypertension, hyperlipidemia, smoking, diabetes, and atrial fibrillation are key modifiable risk factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, particularly microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), influence cancer development and progression?",
+    "answer": "Non-coding RNAs (ncRNAs) are RNA molecules that do not encode proteins but play crucial regulatory roles. MicroRNAs (miRNAs) are small ncRNAs (approximately 22 nucleotides) that regulate gene expression by binding to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. In cancer, miRNAs can act as either oncogenes (oncomiRs) or tumor suppressors. For example, miR-21 is an oncomiR that promotes cell proliferation and inhibits apoptosis, while miR-15a/16-1 are tumor suppressors that target BCL2. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. LncRNAs can interact with DNA, RNA, and proteins to modulate gene expression. For instance, HOTAIR promotes cancer metastasis by recruiting PRC2 to silence tumor suppressor genes. MALAT1 promotes angiogenesis and tumor growth. These ncRNAs are involved in all aspects of cancer development and progression and have potential as therapeutic targets and biomarkers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute chest pain suggestive of myocardial infarction?",
+    "answer": "Administer oxygen, aspirin, nitroglycerin, and morphine (if needed), and obtain an ECG promptly.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of antibiotic resistance in bacteria, and how do they spread?",
+    "answer": "Antibiotic resistance in bacteria arises through several mechanisms: enzymatic inactivation of antibiotics (e.g., beta-lactamases hydrolyzing beta-lactams), alteration of the antibiotic target (e.g., mutations in ribosomal proteins affecting aminoglycoside binding), decreased permeability of the bacterial cell wall (e.g., reduced porin expression limiting entry of tetracyclines), and active efflux of the antibiotic (e.g., tetracycline efflux pumps). These resistance genes can spread through vertical gene transfer (inheritance from parent to daughter cells) and horizontal gene transfer, which includes conjugation (plasmid transfer between bacteria), transduction (transfer via bacteriophages), and transformation (uptake of free DNA from the environment). Plasmids often carry multiple resistance genes, facilitating the rapid dissemination of multi-drug resistance. Mobile genetic elements like transposons can also insert resistance genes into chromosomes or plasmids, further contributing to their spread. The overuse and misuse of antibiotics in human medicine and agriculture drive the selection and proliferation of resistant bacteria, exacerbating the global threat of antibiotic resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion in different contexts?",
+    "answer": "Autophagy is a cellular process involving the degradation and recycling of damaged organelles, misfolded proteins, and intracellular pathogens. In early stages of tumorigenesis, autophagy can act as a tumor suppressor by removing damaged mitochondria, preventing the accumulation of reactive oxygen species (ROS) and DNA damage. It can also selectively degrade oncogenic proteins or organelles. However, in established tumors, autophagy can promote tumor survival and growth by providing nutrients and energy during periods of stress, such as hypoxia or nutrient deprivation. Autophagy can also protect cancer cells from chemotherapy-induced cell death by removing damaged cellular components. The role of autophagy in cancer is context-dependent, varying with the tumor type, stage, and microenvironment. Inhibiting autophagy may be beneficial in advanced tumors to enhance the efficacy of chemotherapy, while inducing autophagy may be protective in preventing early tumor development.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of chemotherapy?",
+    "answer": "Nausea, vomiting, fatigue, hair loss, mucositis, and myelosuppression are common side effects.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the host immune response and can significantly impact the efficacy and toxicity of cancer immunotherapy, particularly immune checkpoint inhibitors. Certain gut bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to anti-PD-1 therapy in melanoma and other cancers. These bacteria can enhance T-cell infiltration into the tumor microenvironment and promote anti-tumor immunity. Conversely, dysbiosis of the gut microbiome, often induced by antibiotics, can impair the response to immunotherapy. The gut microbiome also influences the development of immune-related adverse events (irAEs), such as colitis. Certain bacterial species may promote inflammation and contribute to irAEs, while others may have protective effects. Modulation of the gut microbiome through diet, fecal microbiota transplantation (FMT), or probiotics is being explored as a strategy to enhance the efficacy and reduce the toxicity of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Short-course antibiotics such as nitrofurantoin or trimethoprim-sulfamethoxazole are typically prescribed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do the mechanisms of action of metformin differ from those of sulfonylureas in the treatment of type 2 diabetes mellitus?",
+    "answer": "Metformin primarily reduces hepatic glucose production and improves insulin sensitivity in peripheral tissues, whereas sulfonylureas stimulate insulin secretion from pancreatic beta cells. Metformin activates AMP-activated protein kinase (AMPK), which reduces gluconeogenesis and increases glucose uptake in muscles. It also has minor effects on decreasing intestinal glucose absorption. Sulfonylureas bind to the sulfonylurea receptor on beta cells, closing ATP-sensitive potassium channels, which leads to membrane depolarization, calcium influx, and insulin release. Metformin does not typically cause hypoglycemia as a monotherapy, while sulfonylureas have a higher risk of hypoglycemia due to their insulin-releasing mechanism. Metformin also has beneficial effects on lipid profiles and may promote modest weight loss, while sulfonylureas are often associated with weight gain.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of Parkinson's disease?",
+    "answer": "Tremor, rigidity, bradykinesia, and postural instability are hallmark symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major challenges in developing effective vaccines against HIV, and what strategies are being pursued to overcome them?",
+    "answer": "Developing an effective HIV vaccine is challenging due to the virus's high genetic variability, rapid mutation rate, ability to establish a latent reservoir, and the lack of a naturally occurring sterilizing immunity. HIV's envelope glycoprotein is heavily glycosylated, shielding it from antibody recognition. Furthermore, broadly neutralizing antibodies (bnAbs) that can target diverse HIV strains are rare and difficult to elicit through vaccination. Strategies being pursued to overcome these challenges include: (1) developing vaccines that elicit bnAbs through sequential immunization with engineered envelope proteins; (2) designing vaccines that induce strong cellular immune responses, particularly cytotoxic T lymphocytes (CTLs), to control viral replication; (3) developing therapeutic vaccines that can clear the latent reservoir; (4) exploring novel vaccine platforms such as mRNA vaccines and viral vectors; and (5) utilizing prime-boost strategies that combine different vaccine approaches to elicit both humoral and cellular immunity. Passive immunization with bnAbs is also being investigated as a potential prevention strategy.",
+    "persona": "Researcher"
+  }
+]

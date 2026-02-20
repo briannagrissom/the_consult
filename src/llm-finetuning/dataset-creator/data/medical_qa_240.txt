@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to that specific location in the genome. Cas9 then induces a double-stranded break (DSB) at the targeted site. The cell repairs the DSB through either non-homologous end joining (NHEJ), which is error-prone and can cause insertions or deletions (indels) leading to gene disruption, or homology-directed repair (HDR) if a DNA template with homology to the target site is provided, enabling precise gene editing or insertion. The specificity of the gRNA is crucial for minimizing off-target effects. Modified Cas9 variants, such as dCas9 fused to transcriptional activators or repressors, can also be used for epigenetic editing without cleaving the DNA. Furthermore, base editors and prime editors offer more refined editing capabilities by directly converting single DNA bases or inserting short DNA sequences without requiring DSBs or donor templates, respectively. These advanced techniques expand the range of CRISPR-based applications in basic research and gene therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of hyperthyroidism?",
+    "answer": "Tachycardia, weight loss, anxiety, heat intolerance, and tremor are common.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is immune checkpoint blockade effective in some cancers but not others?",
+    "answer": "The efficacy of immune checkpoint inhibitors (ICIs) depends on several factors, including the tumor mutational burden (TMB), the presence of pre-existing tumor-infiltrating lymphocytes (TILs), and the expression levels of checkpoint proteins like PD-L1. Tumors with high TMB generate more neoantigens, increasing the likelihood of T-cell recognition and response to ICIs. Pre-existing TILs indicate an active immune response that can be amplified by blocking inhibitory checkpoints. Tumors lacking these characteristics, often termed 'cold' tumors, may fail to respond to ICIs due to insufficient T-cell priming and infiltration. Additionally, immunosuppressive mechanisms such as regulatory T cells (Tregs), myeloid-derived suppressor cells (MDSCs), and tumor-associated macrophages (TAMs) can counteract the effects of ICIs. Intrinsic factors within tumor cells, such as defects in antigen presentation pathways (e.g., MHC class I downregulation) or activation of oncogenic signaling pathways (e.g., Wnt/β-catenin), can also render tumors resistant to immunotherapy. Emerging strategies to overcome ICI resistance include combination therapies targeting multiple checkpoints, oncolytic viruses to induce immunogenic cell death, and adoptive cell therapies to enhance T-cell infiltration and activity within the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with a first-time seizure?",
+    "answer": "Evaluate for underlying causes; consider EEG and neuroimaging. Antiepileptic drugs are typically initiated after a second unprovoked seizure.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's innate immune system?",
+    "answer": "Viruses employ diverse strategies to evade the host's innate immune system. Many viruses encode proteins that directly interfere with the interferon (IFN) pathway, such as blocking IFN production, signaling, or the activity of IFN-stimulated genes (ISGs). For example, some viruses express proteins that inhibit pattern recognition receptors (PRRs) like RIG-I or TLRs, preventing the detection of viral nucleic acids. Others target downstream signaling molecules such as IRF3 or STATs, disrupting the transcription of IFN and ISGs. Viruses can also evade natural killer (NK) cell recognition by downregulating MHC class I molecules on infected cells, but some viruses counteract this by expressing decoy MHC class I molecules or inhibiting NK cell activating ligands. Furthermore, viruses can produce virokines and viroceptors that mimic or bind to host cytokines and chemokines, disrupting immune cell communication and recruitment. Some viruses also utilize mechanisms to suppress apoptosis or autophagy, preventing the clearance of infected cells. The specific evasion strategies employed vary depending on the virus and the host cell type.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "A1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or random plasma glucose ≥200 mg/dL with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in the development of autoimmune diseases?",
+    "answer": "The gut microbiome has emerged as a critical regulator of immune homeostasis, and its dysregulation (dysbiosis) is implicated in the pathogenesis of various autoimmune diseases. The gut microbiota influences immune cell development and function through multiple mechanisms. Certain commensal bacteria promote the differentiation of regulatory T cells (Tregs), which are essential for maintaining immune tolerance. The gut microbiota also produces short-chain fatty acids (SCFAs) like butyrate, which have anti-inflammatory effects and can modulate immune cell activity. Dysbiosis can lead to increased intestinal permeability ('leaky gut'), allowing bacterial products such as lipopolysaccharide (LPS) to enter the bloodstream and activate the immune system. Certain bacteria can also produce molecular mimicry, where bacterial antigens resemble self-antigens, triggering autoimmune responses. Furthermore, the gut microbiota can influence the balance between Th17 cells and Tregs, which is often disrupted in autoimmune diseases. Studies have shown that alterations in the gut microbiome composition are associated with diseases like rheumatoid arthritis, inflammatory bowel disease, type 1 diabetes, and multiple sclerosis. Fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy to restore gut microbiome balance and modulate immune responses in autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other stool-based tests or imaging modalities per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to chemotherapy?",
+    "answer": "Cancer cells develop resistance to chemotherapy through multiple mechanisms, including increased drug efflux via overexpression of ABC transporters (e.g., P-glycoprotein), alterations in drug metabolism (e.g., increased detoxification or decreased activation), mutations in drug targets (e.g., altered binding affinity), activation of DNA repair pathways, and evasion of apoptosis. Epithelial-mesenchymal transition (EMT) can also contribute to chemoresistance by conferring stem-like properties and reducing drug sensitivity. Furthermore, cancer cells can develop tolerance to chemotherapy-induced stress by activating survival signaling pathways (e.g., PI3K/AKT/mTOR) or upregulating anti-apoptotic proteins (e.g., Bcl-2). The tumor microenvironment also plays a role in chemoresistance by providing protective signals or limiting drug penetration. Cancer stem cells (CSCs) are often more resistant to chemotherapy than bulk tumor cells and can contribute to relapse after treatment. The development of chemoresistance is often a dynamic and adaptive process, involving multiple mechanisms that evolve over time. Strategies to overcome chemoresistance include developing new drugs that circumvent resistance mechanisms, combining chemotherapy with targeted therapies, and modulating the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with acute stroke symptoms?",
+    "answer": "Rapid assessment, neuroimaging to rule out hemorrhage, and consideration for thrombolytic therapy (tPA) if eligible.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with CAR T-cells work to target cancer cells?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's own T cells to express a CAR, which is a synthetic receptor that recognizes a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain (often derived from an antibody), a transmembrane domain, and intracellular signaling domains that activate the T cell upon antigen recognition. Once the CAR T-cells are infused back into the patient, they traffic to the tumor and bind to the target antigen, leading to T-cell activation, proliferation, and the release of cytotoxic molecules such as perforin and granzymes, which kill the cancer cells. CAR T-cell therapy has shown remarkable efficacy in treating certain hematological malignancies, particularly B-cell lymphomas and acute lymphoblastic leukemia. However, it can also be associated with significant side effects, such as cytokine release syndrome (CRS) and neurotoxicity. Research is ongoing to improve the safety and efficacy of CAR T-cell therapy, including developing CARs with improved specificity, incorporating safety switches to control T-cell activity, and expanding the application of CAR T-cells to solid tumors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients, per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several key signaling pathways that contribute to neuronal dysfunction and neurodegeneration. The amyloid cascade hypothesis highlights the role of amyloid-beta (Aβ) plaques, which are formed by the abnormal processing of amyloid precursor protein (APP). Aβ oligomers trigger downstream signaling cascades, including activation of kinases such as GSK-3β and CDK5, which phosphorylate tau protein, leading to the formation of neurofibrillary tangles. Tau hyperphosphorylation impairs microtubule function and disrupts axonal transport. Aβ and tau pathology also activate microglia and astrocytes, leading to chronic neuroinflammation and the release of inflammatory cytokines and reactive oxygen species. Furthermore, impaired insulin signaling and glucose metabolism contribute to AD pathogenesis by disrupting neuronal energy homeostasis and promoting Aβ accumulation. Dysregulation of calcium homeostasis, mitochondrial dysfunction, and synaptic loss are also implicated in AD. Genetic factors, such as mutations in APP, PSEN1, and PSEN2, influence Aβ production and aggregation, while APOE4 is a major risk factor that affects Aβ clearance and tau phosphorylation. Therapeutic strategies targeting these signaling pathways are under investigation to prevent or slow the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Myalgia, elevated liver enzymes, and, rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses cross the blood-brain barrier (BBB) to infect the central nervous system?",
+    "answer": "Viruses can cross the blood-brain barrier (BBB) through several mechanisms to infect the central nervous system (CNS). Some viruses, like HIV-1, use a 'Trojan horse' strategy, infecting immune cells such as monocytes or T cells, which then migrate across the BBB and release the virus into the brain parenchyma. Other viruses, such as West Nile virus and Japanese encephalitis virus, can directly infect endothelial cells of the BBB, disrupting its integrity and allowing viral entry. Transcellular transport, where viruses are taken up by endothelial cells and transported across the cell in vesicles, is another mechanism. Some viruses can also exploit receptor-mediated transcytosis, binding to specific receptors on endothelial cells that facilitate their transport across the BBB. Furthermore, viruses can indirectly affect BBB permeability by inducing inflammation and releasing cytokines and chemokines that disrupt tight junctions between endothelial cells. Retrograde axonal transport, where viruses travel along nerve axons from the periphery to the CNS, is also a route of entry for some viruses, such as rabies virus and herpes simplex virus. The specific mechanisms used by a virus to cross the BBB depend on the virus and the host factors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell metabolism and survival?",
+    "answer": "The Warburg effect, also known as aerobic glycolysis, is a metabolic adaptation in cancer cells where they preferentially utilize glycolysis for energy production even in the presence of oxygen. This phenomenon leads to increased glucose uptake and lactate production, even though oxidative phosphorylation is more efficient at generating ATP. The Warburg effect provides cancer cells with several advantages: it allows for rapid ATP production to support rapid cell proliferation, it generates metabolic intermediates that can be used for biosynthesis of macromolecules (e.g., nucleotides, amino acids, lipids) needed for cell growth, and it creates an acidic microenvironment that promotes tumor invasion and metastasis by inhibiting the activity of extracellular matrix remodeling enzymes. The increased glucose uptake is facilitated by overexpression of glucose transporters (GLUTs) and glycolytic enzymes such as hexokinase and phosphofructokinase. Furthermore, the Warburg effect reduces mitochondrial oxidative stress and promotes cell survival under hypoxic conditions. The signaling pathways that regulate the Warburg effect include PI3K/AKT/mTOR, Myc, and HIF-1α. Targeting the Warburg effect with metabolic inhibitors is being explored as a therapeutic strategy to disrupt cancer cell metabolism and survival.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin, warfarin, direct oral anticoagulants (DOACs), or low molecular weight heparin (LMWH).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification influence gene expression in human disease?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modification, and non-coding RNA regulation, play critical roles in influencing gene expression patterns and contributing to the development of various human diseases. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpGs), can repress gene transcription by recruiting methyl-binding proteins that block transcription factor binding or by altering chromatin structure. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, can alter chromatin accessibility and influence gene expression. Histone acetylation generally promotes gene transcription by relaxing chromatin structure, while histone methylation can either activate or repress gene expression depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can regulate gene expression by targeting mRNAs for degradation or by modulating chromatin structure. Aberrant epigenetic modifications are implicated in diseases such as cancer, where they can silence tumor suppressor genes or activate oncogenes. Epigenetic changes also play a role in neurodevelopmental disorders, autoimmune diseases, and cardiovascular diseases. Environmental factors, such as diet, stress, and exposure to toxins, can influence epigenetic modifications and contribute to disease risk. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are being developed to reverse aberrant epigenetic modifications and treat human diseases.",
+    "persona": "Researcher"
+  }
+]

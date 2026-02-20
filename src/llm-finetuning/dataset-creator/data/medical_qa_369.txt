@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV; may repeat up to 3mg total. Consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level?",
+    "answer": "CRISPR-Cas9 leverages a guide RNA (gRNA) designed to be complementary to a specific DNA sequence of interest. This gRNA forms a complex with the Cas9 endonuclease, directing it to the target DNA site. Cas9 then induces a double-stranded break (DSB) at the targeted location. The cell attempts to repair this DSB through one of two main pathways: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is error-prone and can introduce insertions or deletions (indels), often leading to gene disruption. HDR, if provided with a DNA template containing the desired sequence, allows for precise gene editing by copying the template into the break site. The specificity of CRISPR-Cas9 is determined by the gRNA sequence, and off-target effects can occur if the gRNA binds to similar sequences elsewhere in the genome. The efficiency of gene editing depends on factors such as the gRNA design, Cas9 expression levels, and the cell type being targeted. Modified Cas9 variants, such as dead Cas9 (dCas9) fused to transcriptional activators or repressors, can be used to modulate gene expression without cutting the DNA. Furthermore, base editors and prime editors have been developed to enable more precise base modifications without relying on DSBs or donor templates, further expanding the versatility of CRISPR technology.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for rheumatoid arthritis?",
+    "answer": "Joint involvement, serology (RF and anti-CCP), acute-phase reactants (ESR and CRP), and symptom duration per ACR/EULAR criteria.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which metformin exerts its antihyperglycemic effects?",
+    "answer": "Metformin's primary mechanism involves the activation of AMP-activated protein kinase (AMPK), a cellular energy sensor. AMPK activation in the liver reduces hepatic glucose production by suppressing gluconeogenesis and glycogenolysis. Metformin also improves insulin sensitivity in peripheral tissues, such as skeletal muscle, enhancing glucose uptake and utilization. Furthermore, metformin influences the gut microbiome, leading to increased production of short-chain fatty acids that can improve glucose metabolism. It also modulates bile acid metabolism and reduces intestinal glucose absorption. While the precise molecular targets of metformin remain incompletely understood, research suggests that complex I of the mitochondrial respiratory chain plays a role in its action. By inhibiting complex I, metformin increases the AMP/ATP ratio, thereby activating AMPK. The relative contribution of each of these mechanisms may vary depending on the individual and their specific metabolic state. Additionally, metformin exhibits pleiotropic effects, including anti-inflammatory and anti-cancer properties, which are likely mediated through AMPK-dependent and -independent pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated in an outpatient setting?",
+    "answer": "Empiric antibiotics such as azithromycin, doxycycline, or amoxicillin-clavulanate, depending on local resistance patterns and patient comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring cargo such as proteins, lipids, and nucleic acids (mRNA, microRNA) to recipient cells. In cancer, exosomes play a critical role in promoting metastasis by modifying the tumor microenvironment and preparing distant sites for colonization. Tumor-derived exosomes can deliver pro-angiogenic factors (e.g., VEGF) to endothelial cells, stimulating blood vessel formation and enhancing tumor vascularization. They can also transfer matrix metalloproteinases (MMPs) that degrade the extracellular matrix, facilitating tumor cell invasion and migration. Furthermore, exosomes can modulate the immune response by delivering immunosuppressive molecules (e.g., PD-L1) to immune cells, allowing cancer cells to evade immune surveillance. At distant sites, exosomes can educate pre-metastatic niches by recruiting bone marrow-derived cells and altering the extracellular matrix to create a favorable environment for tumor cell seeding and growth. The specific cargo and effects of exosomes vary depending on the cancer type and the cellular context. Targeting exosome biogenesis, release, or uptake is being explored as a potential therapeutic strategy to inhibit cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a patient with a first-time unprovoked seizure?",
+    "answer": "Neurological evaluation including EEG and MRI brain. Consider initiating anti-seizure medication based on recurrence risk and patient factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1, anti-PD-L1, and anti-CTLA-4 antibodies, work by blocking inhibitory signaling pathways that normally dampen T-cell activation and effector function. CTLA-4, expressed on T cells, competes with CD28 for binding to B7 molecules on antigen-presenting cells (APCs), preventing T-cell co-stimulation. Anti-CTLA-4 antibodies block this interaction, enhancing T-cell activation and proliferation, particularly in the early stages of the immune response in lymph nodes. PD-1, also expressed on T cells, binds to PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells in the tumor microenvironment. This interaction delivers an inhibitory signal to T cells, leading to T-cell exhaustion and reduced anti-tumor activity. Anti-PD-1 and anti-PD-L1 antibodies block this interaction, restoring T-cell effector function within the tumor microenvironment. By blocking these inhibitory pathways, checkpoint inhibitors unleash the pre-existing anti-tumor immune response, allowing T cells to recognize and kill cancer cells. However, checkpoint blockade can also lead to immune-related adverse events due to the activation of autoreactive T cells. Combination strategies targeting multiple checkpoints or combining checkpoint inhibitors with other immunotherapies are being explored to further enhance anti-tumor immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days, depending on local resistance rates. Consider fosfomycin as an alternative.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves multiple complex signaling pathways. Amyloid precursor protein (APP) processing leads to the formation of amyloid-beta (Aβ) plaques, triggering neuroinflammation and tau hyperphosphorylation. The amyloid cascade hypothesis posits that Aβ accumulation initiates a cascade of events, including activation of microglia and astrocytes, release of pro-inflammatory cytokines (e.g., TNF-α, IL-1β), and oxidative stress, all contributing to neuronal dysfunction and death. Tau hyperphosphorylation leads to the formation of neurofibrillary tangles, disrupting microtubule function and axonal transport. Several kinases, including GSK-3β and CDK5, are involved in tau phosphorylation. Insulin signaling dysregulation also plays a role in AD pathogenesis. Reduced insulin sensitivity and impaired glucose metabolism in the brain contribute to Aβ accumulation and tau phosphorylation. Furthermore, neurotrophic factors, such as brain-derived neurotrophic factor (BDNF), are reduced in AD, impairing neuronal survival and synaptic plasticity. Genetic factors, such as mutations in APP, PSEN1, and PSEN2, and the APOE4 allele, influence AD risk by modulating Aβ production, clearance, and aggregation. Targeting these signaling pathways is a major focus in AD drug development.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a suspected pulmonary embolism be initially evaluated?",
+    "answer": "Assess pretest probability (e.g., Wells score or Geneva score). If low probability, consider D-dimer testing. If elevated D-dimer or high pretest probability, perform CT pulmonary angiography.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC can arise through several mechanisms. The most common is the development of the T790M mutation in EGFR, which sterically hinders TKI binding. Other EGFR mutations, such as C797S, can also confer resistance. Activation of bypass signaling pathways, such as MET amplification or activation of HER2/HER3, can circumvent EGFR inhibition and drive tumor growth. Transformation to small cell lung cancer (SCLC) can occur in a subset of patients, leading to EGFR TKI resistance. Epithelial-mesenchymal transition (EMT) can also contribute to resistance by altering the cellular phenotype and reducing dependence on EGFR signaling. Additionally, activation of downstream signaling pathways, such as PI3K/AKT/mTOR, can bypass EGFR inhibition. Immune evasion mechanisms, such as upregulation of PD-L1, can also contribute to resistance by allowing tumor cells to evade immune surveillance. Combination strategies targeting multiple resistance mechanisms are being explored to overcome EGFR TKI resistance and improve patient outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute atrial fibrillation with rapid ventricular response?",
+    "answer": "Assess hemodynamic stability. If unstable, perform electrical cardioversion. If stable, consider rate control with beta-blockers or calcium channel blockers.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses exploit host cell machinery for replication?",
+    "answer": "Viruses are obligate intracellular parasites that rely on host cell machinery to replicate. They enter cells through receptor-mediated endocytosis or membrane fusion. Once inside, they release their genome, which can be DNA or RNA. DNA viruses often utilize host cell DNA polymerases for replication, while RNA viruses encode their own RNA-dependent RNA polymerases. Viruses exploit host cell ribosomes for protein synthesis, translating viral mRNA into viral proteins. These proteins include structural proteins that form the viral capsid and enzymes that facilitate viral replication and assembly. Viruses also hijack host cell transport mechanisms to move viral components to the appropriate cellular compartments for assembly. Some viruses integrate their genome into the host cell genome, allowing for long-term persistence and replication along with the host cell. Viruses can also manipulate host cell signaling pathways to create a favorable environment for replication and evade immune detection. For example, some viruses inhibit interferon signaling to suppress antiviral responses. The specific mechanisms of viral replication vary depending on the virus type and the host cell. Understanding these mechanisms is crucial for developing antiviral therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the target LDL cholesterol goals for patients with established cardiovascular disease?",
+    "answer": "LDL-C <70 mg/dL per guideline recommendations. Consider high-intensity statin therapy to achieve this goal.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors. Certain gut bacterial species can enhance anti-tumor immune responses by stimulating the production of immunostimulatory cytokines, such as IFN-γ and IL-12, and by promoting the activation of cytotoxic T cells. Conversely, other gut bacterial species can suppress anti-tumor immunity by inducing the expansion of regulatory T cells and by producing immunosuppressive metabolites. Studies have shown that patients with a more diverse gut microbiome or with specific bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have better responses to checkpoint inhibitors. The gut microbiome can influence the tumor microenvironment by modulating the trafficking of immune cells to the tumor and by affecting the expression of immune checkpoint molecules, such as PD-L1. Factors such as diet, antibiotics, and probiotics can alter the composition of the gut microbiome and, consequently, affect the response to immunotherapy. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation or the use of prebiotics and probiotics, are being explored to improve the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell survival and proliferation?",
+    "answer": "The Warburg effect, or aerobic glycolysis, refers to the phenomenon where cancer cells preferentially utilize glycolysis for energy production even in the presence of oxygen, diverting pyruvate away from oxidative phosphorylation (OXPHOS) in the mitochondria. This seemingly inefficient process provides several advantages for cancer cell survival and proliferation. Glycolysis generates ATP more rapidly than OXPHOS, allowing cancer cells to meet their high energy demands for rapid growth and division. Glycolysis also produces metabolic intermediates that are used for the synthesis of macromolecules, such as nucleotides, amino acids, and lipids, which are essential for cell growth and proliferation. The Warburg effect contributes to an acidic tumor microenvironment due to the production of lactic acid, which can promote tumor invasion and metastasis by degrading the extracellular matrix and suppressing immune cell activity. Furthermore, the Warburg effect reduces the reliance on mitochondrial function, which can be advantageous in hypoxic conditions or when mitochondria are damaged. The signaling pathways that regulate the Warburg effect, such as HIF-1α and PI3K/AKT/mTOR, are often dysregulated in cancer, further promoting glycolysis. Targeting the Warburg effect is being explored as a potential therapeutic strategy to inhibit cancer cell metabolism and growth.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key features of diabetic ketoacidosis (DKA)?",
+    "answer": "Hyperglycemia, ketosis, and metabolic acidosis. Requires fluid resuscitation, insulin infusion, and electrolyte replacement.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) regulate gene expression and contribute to disease pathogenesis?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a class of RNA molecules longer than 200 nucleotides that do not code for proteins but play diverse regulatory roles in gene expression. LncRNAs can act as scaffolds, bringing together different proteins to regulate chromatin structure, transcription, and translation. They can interact with DNA, RNA, and proteins, modulating their activity and localization. LncRNAs can regulate gene expression in cis, by acting on nearby genes, or in trans, by acting on genes located far away in the genome. They can promote or repress gene expression by recruiting chromatin-modifying complexes, such as PRC2 and LSD1, to specific genomic loci. LncRNAs can also act as decoys, sequestering transcription factors or microRNAs, thereby altering their activity. Furthermore, lncRNAs can influence mRNA splicing, stability, and translation. Dysregulation of lncRNA expression has been implicated in a wide range of diseases, including cancer, cardiovascular disease, and neurological disorders. LncRNAs can act as oncogenes or tumor suppressors, depending on their specific function and the cellular context. Targeting lncRNAs is being explored as a potential therapeutic strategy to modulate gene expression and treat disease.",
+    "persona": "Researcher"
+  }
+]

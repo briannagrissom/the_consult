@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem) is typically initiated, followed by assessment for the need for anticoagulation and consideration of rhythm control strategies.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 mediated gene editing facilitate the study of loss-of-function mutations in cancer?",
+    "answer": "CRISPR-Cas9 enables precise knockout of specific genes within cancer cell lines and in vivo models, allowing researchers to directly assess the functional consequences of loss-of-function mutations. By designing guide RNAs complementary to target gene sequences, Cas9 nuclease is directed to create double-strand breaks at the precise genomic location, triggering either non-homologous end joining (NHEJ), which often introduces frameshift mutations leading to gene inactivation, or homology-directed repair (HDR) if a donor template is provided for precise sequence replacement. This approach allows for the generation of isogenic cell lines differing only in the presence or absence of the target gene, enabling rigorous evaluation of the role of that gene in cell proliferation, survival, drug response, and other cancer-relevant phenotypes. Furthermore, CRISPR-based knockout screens using genome-wide guide RNA libraries can identify novel tumor suppressor genes or resistance mechanisms by systematically inactivating genes and assessing changes in cell viability or drug sensitivity under selective pressures. CRISPR/Cas9-mediated gene editing has become a powerful tool for dissecting the functional roles of specific genes in cancer biology and for identifying potential therapeutic targets.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC commonly arises through several distinct mechanisms. The most frequent is the acquisition of a secondary EGFR mutation, most notably T790M, which sterically hinders TKI binding. Other EGFR mutations, such as C797S, L792H/F, and less common in-frame insertions/duplications in exon 20, can also confer resistance. Bypass signaling pathways, including activation of MET amplification, HER2 amplification, or PI3K/AKT/mTOR signaling, can also drive resistance by circumventing EGFR dependence. Furthermore, histological transformation to small cell lung cancer or epithelial-mesenchymal transition (EMT) can lead to EGFR TKI resistance. Upregulation of receptor tyrosine kinases such as AXL or FGFR1 can also contribute to resistance through compensatory signaling. Additionally, alterations in downstream effectors like BRAF or activation of immune checkpoint pathways such as PD-L1 can modulate treatment response and resistance. Comprehensive genomic profiling and liquid biopsies can help identify the specific resistance mechanisms driving disease progression in individual patients, facilitating the selection of appropriate second-line therapies or enrollment in clinical trials.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Empiric antibiotic therapy with a macrolide (e.g., azithromycin) or doxycycline, or a respiratory fluoroquinolone (e.g., levofloxacin) depending on local resistance patterns and patient comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in human cells?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpG sites), is generally associated with transcriptional repression by recruiting methyl-binding domain (MBD) proteins that interact with histone deacetylases (HDACs) and chromatin remodeling complexes, leading to chromatin compaction and reduced accessibility of transcription factors. Conversely, histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes transcriptional activation by neutralizing the positive charge of histones, weakening their interaction with negatively charged DNA, and creating a more open chromatin state that facilitates transcription factor binding. Other histone modifications, such as methylation, phosphorylation, and ubiquitination, can either activate or repress gene expression depending on the specific residue modified and the surrounding chromatin context. These epigenetic marks are dynamically regulated by enzymes that add or remove them, and their patterns can be influenced by environmental factors, developmental cues, and disease states. Aberrant epigenetic modifications play a critical role in various diseases, including cancer, and are potential targets for therapeutic intervention.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a suspected deep vein thrombosis (DVT) in the leg?",
+    "answer": "Initiate anticoagulation therapy with a direct oral anticoagulant (DOAC) or low-molecular-weight heparin (LMWH) overlapped with warfarin, following diagnostic confirmation with ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in modulating the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome significantly influences the efficacy of immune checkpoint inhibitors (ICIs) by modulating systemic and local immune responses. Specific bacterial species can enhance anti-tumor immunity by stimulating dendritic cell maturation, increasing T cell infiltration into the tumor microenvironment, and promoting the production of pro-inflammatory cytokines such as IFN-γ. For example, the presence of Akkermansia muciniphila has been associated with improved response to anti-PD-1 therapy in several cancer types. Conversely, dysbiosis, characterized by a reduction in microbial diversity and an overgrowth of certain bacterial species, can impair ICI efficacy by promoting inflammation, suppressing T cell activity, and increasing the abundance of immunosuppressive cells such as myeloid-derived suppressor cells (MDSCs). Gut microbiome composition can be influenced by factors such as diet, antibiotic use, and host genetics. Fecal microbiota transplantation (FMT) from ICI-responsive patients to ICI-refractory patients has shown promise in restoring ICI sensitivity in some cases. Modulation of the gut microbiome through dietary interventions, probiotics, or prebiotics may represent a strategy to enhance the efficacy of ICIs in cancer patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, associated with anorexia, nausea, vomiting, and fever, with point tenderness at McBurney's point.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Several signaling pathways contribute to the complex pathogenesis of Alzheimer's disease (AD). Amyloid precursor protein (APP) processing via β-secretase and γ-secretase leads to the generation of amyloid-β (Aβ) peptides, which aggregate to form plaques, triggering neuroinflammation and synaptic dysfunction. Tau hyperphosphorylation and aggregation into neurofibrillary tangles disrupt microtubule stability and axonal transport, contributing to neuronal loss. Dysfunction in insulin signaling impairs glucose metabolism and increases Aβ production and tau phosphorylation. Neuroinflammation, mediated by microglia and astrocytes, contributes to neuronal damage through the release of pro-inflammatory cytokines and reactive oxygen species. Endosomal dysfunction impairs protein trafficking and clearance, increasing the accumulation of Aβ and tau. Dysregulation of calcium homeostasis disrupts synaptic plasticity and neuronal excitability. These pathways are interconnected and contribute synergistically to the progressive neurodegeneration observed in AD. Therapeutic strategies targeting these pathways are under investigation, including β-secretase inhibitors, tau aggregation inhibitors, and anti-inflammatory agents.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Intravenous thrombolysis with alteplase within 4.5 hours of symptom onset, or mechanical thrombectomy for large vessel occlusions within 24 hours in selected patients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 enhance anti-tumor immunity?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while PD-L1 (programmed death-ligand 1) is a ligand expressed on tumor cells and antigen-presenting cells. The interaction between PD-1 and PD-L1 delivers an inhibitory signal to T cells, suppressing their activation, proliferation, and effector functions. Tumor cells exploit this pathway to evade immune surveillance. Immunotherapy targeting PD-1 or PD-L1 blocks this interaction, thereby releasing the brakes on T cell activity and allowing them to recognize and kill tumor cells. This blockade enhances T cell-mediated cytotoxicity, increases the production of pro-inflammatory cytokines such as IFN-γ, and promotes the infiltration of T cells into the tumor microenvironment. The efficacy of PD-1/PD-L1 inhibitors depends on the presence of pre-existing anti-tumor immunity and the expression level of PD-L1 on tumor cells. However, some patients with low or absent PD-L1 expression can still respond to these therapies, suggesting that other mechanisms, such as PD-L2 expression or T cell intrinsic factors, may also play a role. Combination therapies that enhance antigen presentation, stimulate T cell activation, or inhibit other immune checkpoint pathways can synergize with PD-1/PD-L1 inhibitors to improve anti-tumor responses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of chemotherapy?",
+    "answer": "Nausea, vomiting, fatigue, hair loss, mucositis, myelosuppression (neutropenia, thrombocytopenia, anemia).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses, such as HIV, evade the host immune system?",
+    "answer": "Viruses employ multiple strategies to evade the host immune system. HIV, for example, exhibits high genetic variability due to its error-prone reverse transcriptase, leading to the continuous emergence of viral variants that can escape recognition by antibodies and T cells. HIV also infects and depletes CD4+ T cells, which are critical for orchestrating immune responses. Furthermore, HIV downregulates the expression of MHC class I molecules on infected cells, reducing their recognition by cytotoxic T lymphocytes (CTLs). HIV also produces proteins that interfere with the interferon signaling pathway, inhibiting the antiviral effects of interferons. Additionally, HIV can establish latency in resting CD4+ T cells, allowing it to evade immune detection and persist for long periods. Other viruses may employ different mechanisms, such as infecting immune-privileged sites, producing decoy receptors to neutralize antibodies, or expressing proteins that inhibit complement activation or apoptosis. The ability of viruses to evade the immune system is a major factor in their pathogenicity and persistence.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with anaphylaxis?",
+    "answer": "Administer intramuscular epinephrine, provide supplemental oxygen, and monitor vital signs. Consider antihistamines and corticosteroids as adjunct therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression and cellular function?",
+    "answer": "Non-coding RNAs (ncRNAs) play critical roles in regulating gene expression and cellular function. MicroRNAs (miRNAs) are small (approximately 22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to translational repression or mRNA degradation. MiRNAs can regulate the expression of hundreds of genes, and a single mRNA can be targeted by multiple miRNAs, allowing for complex regulatory networks. Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that do not encode proteins. LncRNAs can regulate gene expression through diverse mechanisms, including chromatin modification, transcriptional regulation, post-transcriptional processing, and acting as structural scaffolds. LncRNAs can interact with DNA, RNA, and proteins, modulating their activity and localization. LncRNAs can act as decoys, sponges, guides, or scaffolds, influencing gene expression at various levels. Dysregulation of miRNAs and lncRNAs has been implicated in various diseases, including cancer, and they are potential targets for therapeutic intervention.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the recommended screening guidelines for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and disease pathogenesis?",
+    "answer": "Exosomes are small (30-150 nm) extracellular vesicles that are secreted by cells and mediate intercellular communication. Exosomes contain a diverse cargo of proteins, lipids, nucleic acids (including mRNA, miRNA, and DNA), and metabolites, which can be transferred to recipient cells, altering their function. Exosomes play a role in various physiological processes, including immune responses, antigen presentation, and tissue repair. In disease pathogenesis, exosomes can contribute to tumor growth, metastasis, angiogenesis, and immune evasion. Tumor cells can release exosomes that promote angiogenesis by delivering pro-angiogenic factors to endothelial cells. Exosomes can also transfer drug resistance factors to sensitive cells, contributing to therapeutic failure. Exosomes can also modulate immune responses by delivering immunosuppressive molecules to immune cells. Exosomes are being investigated as potential biomarkers for disease diagnosis and prognosis, as well as therapeutic delivery vehicles for targeted drug delivery.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment for uncomplicated urinary tract infection (UTI) in women?",
+    "answer": "Short course antibiotics such as nitrofurantoin, trimethoprim-sulfamethoxazole, or fosfomycin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in the BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination, which is critical for repairing double-strand DNA breaks. Mutations in these genes impair the ability of cells to accurately repair DNA damage, leading to genomic instability and an increased risk of cancer development. When BRCA1 or BRCA2 are inactivated, cells rely on error-prone DNA repair mechanisms, such as non-homologous end joining, which can introduce mutations and promote tumorigenesis. BRCA1 and BRCA2 interact with numerous proteins involved in cell cycle control, DNA damage response, and transcriptional regulation. Mutations in these genes can disrupt these interactions, leading to uncontrolled cell growth and proliferation. Individuals with BRCA1 or BRCA2 mutations have a significantly increased lifetime risk of developing breast, ovarian, and other cancers. Genetic testing for BRCA1 and BRCA2 mutations is recommended for individuals with a personal or family history of these cancers. Targeted therapies, such as PARP inhibitors, can be effective in treating cancers with BRCA1 or BRCA2 mutations by exploiting their impaired DNA repair capacity.",
+    "persona": "Researcher"
+  }
+]

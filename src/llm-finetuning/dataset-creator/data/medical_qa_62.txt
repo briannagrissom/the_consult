@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a healthy, non-pregnant female?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the pathogenesis of atherosclerosis?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherogenesis. Endothelial dysfunction, induced by factors like oxidized LDL and inflammatory cytokines (TNF-α, IL-1β), increases endothelial permeability and leukocyte adhesion molecule expression (VCAM-1, ICAM-1). This initiates monocyte recruitment into the subendothelial space, where they differentiate into macrophages. Macrophages engulf oxidized LDL via scavenger receptors, transforming into foam cells, a hallmark of early lesions. Cytokines released by macrophages and T cells further amplify inflammation, promoting smooth muscle cell migration and proliferation, and extracellular matrix deposition, leading to plaque formation and growth. Advanced lesions are characterized by increased macrophage accumulation, matrix degradation via metalloproteinases, and a pro-thrombotic state. Plaque rupture or erosion triggers thrombosis, leading to acute cardiovascular events. Therapeutic strategies targeting inflammation, such as statins (which have pleiotropic anti-inflammatory effects) and emerging therapies targeting IL-1β (e.g., canakinumab) have demonstrated cardiovascular benefit, highlighting the causal role of inflammation in atherosclerosis progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, A1c ≥6.5%, or random glucose ≥200 mg/dL with symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through diverse mechanisms. The most common is the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. Other mechanisms include MET amplification, which activates downstream signaling independent of EGFR; bypass signaling through activation of other receptor tyrosine kinases (e.g., HER2, AXL); histologic transformation to small cell lung cancer; and activation of downstream pathways such as PI3K/AKT/mTOR. Additionally, epigenetic alterations and changes in the tumor microenvironment can contribute to resistance. Overcoming TKI resistance often involves the use of third-generation EGFR TKIs that target T790M (e.g., osimertinib), MET inhibitors, or combination therapies targeting multiple resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's innate immune system?",
+    "answer": "Viruses employ various strategies to evade the host's innate immune responses. Many viruses encode proteins that directly interfere with pattern recognition receptors (PRRs) such as TLRs and RIG-I-like receptors (RLRs), preventing activation of downstream signaling pathways. Some viruses produce decoy receptors or soluble antagonists that bind to cytokines like type I interferons, neutralizing their antiviral activity. Others express proteins that inhibit the interferon signaling pathway, blocking the expression of interferon-stimulated genes (ISGs). Furthermore, certain viruses can suppress antigen presentation by downregulating MHC class I expression or interfering with proteasome function. Finally, some viruses replicate in immune-privileged sites, limiting exposure to immune surveillance. These mechanisms collectively allow viruses to establish persistent infections and cause disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with suspected acute stroke?",
+    "answer": "Sudden onset of focal neurological deficits, such as weakness, numbness, speech difficulty, or vision loss.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment?",
+    "answer": "Exosomes, nano-sized extracellular vesicles, mediate complex intercellular communication within the tumor microenvironment. Tumor cells release exosomes containing proteins, lipids, and nucleic acids (mRNA, microRNA) that can be taken up by recipient cells, including stromal cells, immune cells, and other tumor cells. Exosomal cargo can alter gene expression and signaling pathways in recipient cells, influencing tumor growth, angiogenesis, metastasis, and immune evasion. For example, tumor-derived exosomes can deliver pro-angiogenic factors to endothelial cells, promoting blood vessel formation. They can also transfer microRNAs that suppress immune cell activity, creating an immunosuppressive environment. Furthermore, exosomes can facilitate drug resistance by transferring drug efflux pumps or resistance genes to sensitive cells. Exosomes also have potential as biomarkers for cancer diagnosis and prognosis, and as therapeutic delivery vehicles.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient with acute myocardial infarction?",
+    "answer": "Aspirin, oxygen if hypoxic, nitroglycerin, morphine, and emergent reperfusion therapy (PCI or thrombolytics).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in BRCA1 and BRCA2 genes increase the risk of cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair via homologous recombination. Mutations in these genes impair the cell's ability to repair double-strand DNA breaks accurately, leading to genomic instability and an increased risk of mutations in other genes that control cell growth and differentiation. BRCA1 and BRCA2 also play roles in cell cycle checkpoint control and transcriptional regulation. Loss of function of these genes allows cells with DNA damage to continue dividing, further increasing the likelihood of cancer development. Individuals with inherited BRCA1/2 mutations have a significantly increased risk of breast, ovarian, prostate, and other cancers. Defective homologous recombination also creates a vulnerability to PARP inhibitors, which prevent single-strand break repair, leading to synthetic lethality in BRCA1/2-mutated cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevation, and rarely rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which gut microbiota influence the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiota plays a critical role in modulating the host immune response and can significantly influence the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors. Certain gut bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to anti-PD-1 therapy in melanoma and other cancers. These bacteria can enhance immune cell infiltration into the tumor microenvironment and promote T cell activation. The microbiota can also modulate systemic inflammation and cytokine production, affecting the overall immune landscape. Conversely, dysbiosis, or an imbalance in the gut microbiota, can lead to impaired immune responses and reduced immunotherapy efficacy. Mechanisms underlying these effects include modulation of dendritic cell maturation, regulation of T regulatory cell activity, and production of metabolites such as short-chain fatty acids (SCFAs), which can influence immune cell function. Fecal microbiota transplantation (FMT) is being explored as a strategy to enhance immunotherapy responses by restoring a favorable gut microbial composition.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the unfolded protein response (UPR) contribute to neurodegenerative diseases?",
+    "answer": "The unfolded protein response (UPR) is a cellular stress response activated in response to an accumulation of misfolded proteins in the endoplasmic reticulum (ER). While initially adaptive, chronic activation of the UPR can contribute to neurodegenerative diseases such as Alzheimer's, Parkinson's, and Huntington's disease. Persistent ER stress and UPR activation can lead to neuronal dysfunction and death through several mechanisms, including increased oxidative stress, impaired autophagy, and activation of pro-apoptotic pathways. In Alzheimer's disease, accumulation of amyloid-beta and tau proteins can induce ER stress and UPR activation. Similarly, in Parkinson's disease, misfolding and aggregation of alpha-synuclein can trigger the UPR. The UPR can also influence the production and processing of amyloid-beta and other disease-related proteins, creating a vicious cycle of ER stress and protein misfolding. Targeting the UPR may offer therapeutic opportunities for mitigating neurodegeneration.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Empiric antibiotics, such as macrolides or doxycycline, or beta-lactam plus macrolide.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression in cancer cells?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression in cancer cells. DNA methylation, typically at CpG islands in promoter regions, is often associated with gene silencing. Histone modifications, such as acetylation and methylation, can either activate or repress gene transcription depending on the specific modification and its location. Non-coding RNAs, such as microRNAs, can regulate gene expression by binding to mRNA and inhibiting translation or promoting mRNA degradation. In cancer, epigenetic alterations can lead to aberrant activation of oncogenes and silencing of tumor suppressor genes, contributing to tumor development and progression. Epigenetic modifications are reversible and can be targeted by epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, offering therapeutic potential.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do long non-coding RNAs (lncRNAs) contribute to cardiovascular disease?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of RNA transcripts longer than 200 nucleotides that do not code for proteins but play important regulatory roles in various cellular processes, including those relevant to cardiovascular disease. LncRNAs can influence gene expression at multiple levels, including transcriptional regulation, post-transcriptional processing, and chromatin remodeling. In cardiovascular disease, lncRNAs have been implicated in the regulation of cardiac hypertrophy, fibrosis, angiogenesis, and inflammation. For example, some lncRNAs can promote cardiac hypertrophy by activating signaling pathways involved in cell growth and survival. Others can regulate the expression of extracellular matrix proteins, contributing to cardiac fibrosis. LncRNAs can also influence the inflammatory response in atherosclerosis by modulating the expression of inflammatory cytokines and chemokines. Targeting lncRNAs may offer novel therapeutic strategies for cardiovascular disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time seizure?",
+    "answer": "Assess for underlying cause, consider EEG, and initiate antiepileptic drugs if high risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the power of the immune system to fight cancer?",
+    "answer": "Immunotherapy leverages the host's immune system to recognize and eliminate cancer cells. Several strategies are employed. Immune checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, block inhibitory signals that prevent T cells from attacking cancer cells, unleashing their cytotoxic activity. Adoptive cell therapy involves isolating and expanding a patient's own T cells, genetically engineering them to recognize tumor-specific antigens (e.g., CAR-T cells), and then infusing them back into the patient. Cancer vaccines aim to stimulate an immune response against tumor-associated antigens. Oncolytic viruses selectively infect and kill cancer cells, while also triggering an anti-tumor immune response. Cytokines, such as IL-2 and IFN-alpha, can stimulate immune cell activity. These approaches aim to overcome immune evasion mechanisms employed by cancer cells and generate a durable anti-tumor response.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a specific DNA sequence to direct the Cas9 endonuclease to that location in the genome. The gRNA, typically about 20 nucleotides long, forms a complex with the Cas9 protein. This complex then scans the DNA until it finds a sequence matching the gRNA, immediately followed by a Protospacer Adjacent Motif (PAM) sequence (NGG for Streptococcus pyogenes Cas9). Upon binding, Cas9 introduces a double-stranded break in the DNA, three base pairs upstream of the PAM sequence. The cell attempts to repair this break via two main pathways: Non-Homologous End Joining (NHEJ) or Homology-Directed Repair (HDR). NHEJ is error-prone, often leading to insertions or deletions (indels) that disrupt the gene. HDR uses a provided DNA template to repair the break, enabling precise gene editing. Specificity is determined by the gRNA sequence, while the PAM sequence is essential for Cas9 binding and cleavage. Off-target effects can occur if the gRNA binds to sequences with high similarity to the target, though modified Cas9 variants with enhanced specificity have been developed to minimize these effects. The efficiency of CRISPR-Cas9 is influenced by factors such as gRNA design, Cas9 expression levels, and the cellular DNA repair machinery.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5% per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the known mechanisms by which cancer cells develop resistance to tyrosine kinase inhibitors (TKIs)?",
+    "answer": "Resistance to TKIs can arise through several distinct mechanisms. One common mechanism is the acquisition of secondary mutations within the TKI binding domain of the target kinase, which sterically hinder drug binding or alter the kinase conformation to reduce drug affinity. For example, in EGFR-mutant lung cancer, the T790M mutation is a frequent cause of resistance to first- and second-generation EGFR TKIs. Another mechanism involves activation of bypass signaling pathways that circumvent the inhibited kinase. This can occur through upregulation of receptor tyrosine kinases like MET or HER3, or activation of downstream signaling molecules such as RAS or PI3K. Additionally, cancer cells can develop resistance through epigenetic modifications that alter gene expression, leading to increased expression of drug efflux pumps like ABCB1 (P-glycoprotein), which reduce intracellular drug concentrations. Epithelial-mesenchymal transition (EMT) can also contribute to TKI resistance by altering cellular morphology and increasing cell motility. In some cases, cancer cells can undergo lineage plasticity, transforming into a different cell type that is less dependent on the targeted kinase. Finally, alterations in the tumor microenvironment, such as increased stromal signaling or immune evasion, can also promote TKI resistance. Understanding these diverse resistance mechanisms is crucial for developing strategies to overcome TKI resistance, such as combination therapies or the development of novel TKIs that target resistance mutations or bypass pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Azithromycin or doxycycline, or a respiratory fluoroquinolone per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the adaptive immune system distinguish between self and non-self antigens to prevent autoimmunity?",
+    "answer": "The adaptive immune system employs several mechanisms to distinguish between self and non-self antigens. Central tolerance, occurring in the thymus and bone marrow, eliminates or modifies self-reactive T and B cells. In the thymus, T cells that strongly bind to self-antigens presented on MHC molecules by thymic epithelial cells undergo negative selection, leading to apoptosis. A subset of these self-reactive T cells can differentiate into regulatory T cells (Tregs), which suppress the activity of other self-reactive T cells. Similarly, in the bone marrow, B cells that strongly bind to self-antigens undergo receptor editing, clonal deletion, or become anergic. Peripheral tolerance mechanisms, which operate outside the thymus and bone marrow, further prevent autoimmunity. Anergy occurs when T cells recognize self-antigens in the absence of co-stimulatory signals, leading to a state of unresponsiveness. T cell exhaustion can occur upon chronic exposure to self-antigens, leading to reduced effector function. Tregs play a critical role in peripheral tolerance by suppressing the activity of self-reactive T cells through mechanisms such as IL-10 and TGF-β production, CTLA-4-mediated inhibition of co-stimulation, and direct cytotoxicity. Furthermore, the segregation of immune responses to specific anatomical locations, such as the gut-associated lymphoid tissue (GALT), helps to prevent systemic autoimmunity by limiting exposure of the immune system to commensal bacteria and dietary antigens. Failure of these tolerance mechanisms can lead to the development of autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for atrial fibrillation with rapid ventricular response?",
+    "answer": "Beta-blockers or calcium channel blockers to control heart rate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several key signaling pathways. Amyloid-beta (Aβ) plaques activate inflammatory pathways, including microglia and astrocyte activation, leading to the release of cytokines such as IL-1β and TNF-α. These cytokines exacerbate neuronal dysfunction and contribute to tau phosphorylation. Tau hyperphosphorylation, driven by kinases such as GSK-3β and CDK5, leads to the formation of neurofibrillary tangles, disrupting microtubule function and axonal transport. Calcium dysregulation, often triggered by Aβ oligomers, impairs synaptic plasticity and neuronal survival. Aberrant activation of receptor tyrosine kinases (RTKs) and downstream signaling pathways like PI3K/Akt and MAPK/ERK can also contribute to AD pathology. Oxidative stress, resulting from mitochondrial dysfunction and increased production of reactive oxygen species (ROS), causes neuronal damage and promotes Aβ aggregation. Impaired insulin signaling, observed in AD brains, disrupts glucose metabolism and contributes to neuronal dysfunction. Furthermore, defects in autophagy and lysosomal degradation pathways impair the clearance of Aβ and tau, further exacerbating AD pathology. These signaling pathways interact in complex ways, creating a self-perpetuating cycle of neurodegeneration. Targeting these pathways with pharmacological interventions holds promise for developing effective AD therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years or fecal immunochemical test (FIT) annually per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs (miRNAs), regulate gene expression in cancer?",
+    "answer": "MicroRNAs (miRNAs) are small, non-coding RNA molecules that regulate gene expression post-transcriptionally. They typically bind to the 3' untranslated region (UTR) of target messenger RNAs (mRNAs), leading to mRNA degradation or translational repression. In cancer, miRNAs can act as either oncogenes (oncomiRs) or tumor suppressors. OncomiRs are often upregulated in cancer cells and promote tumor growth, metastasis, and angiogenesis by targeting tumor suppressor genes. For example, miR-21 is an oncomiR that is frequently overexpressed in various cancers and promotes cell proliferation and survival by targeting genes such as PTEN and PDCD4. Tumor suppressor miRNAs, on the other hand, are downregulated in cancer cells and inhibit tumor development by targeting oncogenes. For example, let-7 is a tumor suppressor miRNA that is often downregulated in lung cancer and inhibits cell proliferation and metastasis by targeting oncogenes such as RAS and HMGA2. MiRNAs can also regulate the expression of genes involved in drug resistance, immune evasion, and the tumor microenvironment. The expression of miRNAs in cancer cells is often regulated by epigenetic modifications, transcription factors, and signaling pathways. Because of their regulatory roles, miRNAs are being explored as potential therapeutic targets and biomarkers in cancer. Strategies to inhibit oncomiRs or restore the function of tumor suppressor miRNAs are being developed as potential cancer therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a suspected acute stroke?",
+    "answer": "Rapid transport to a stroke center and assessment for thrombolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms driving the development of Parkinson's disease?",
+    "answer": "Parkinson's disease (PD) is characterized by the progressive loss of dopaminergic neurons in the substantia nigra pars compacta. A key molecular event in PD pathogenesis is the misfolding and aggregation of alpha-synuclein, a protein that forms Lewy bodies, a pathological hallmark of PD. Mutations in genes such as SNCA (encoding alpha-synuclein), LRRK2, and PARK7/DJ-1 are associated with familial forms of PD and contribute to alpha-synuclein aggregation, mitochondrial dysfunction, and oxidative stress. Mitochondrial dysfunction, particularly impairment of complex I of the electron transport chain, leads to decreased ATP production and increased production of reactive oxygen species (ROS), contributing to neuronal damage. Oxidative stress causes lipid peroxidation, DNA damage, and protein oxidation, further exacerbating neuronal dysfunction. Impaired protein degradation pathways, such as the ubiquitin-proteasome system (UPS) and autophagy, contribute to the accumulation of misfolded proteins, including alpha-synuclein. Neuroinflammation, characterized by activation of microglia and astrocytes, leads to the release of pro-inflammatory cytokines, such as TNF-α and IL-1β, which contribute to neuronal damage. Furthermore, defects in axonal transport, mediated by proteins such as LRRK2 and kinesin, disrupt the delivery of essential proteins and organelles to the synapse, leading to synaptic dysfunction. These molecular mechanisms interact in complex ways, contributing to the progressive neurodegeneration observed in PD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine headache?",
+    "answer": "Triptans or NSAIDs for mild to moderate migraines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence cell differentiation and development?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in regulating gene expression and influencing cell differentiation and development. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, is associated with transcriptional repression. Methylation patterns are established and maintained by DNA methyltransferases (DNMTs) and can alter chromatin structure, preventing transcription factor binding and gene expression. Histone modifications, such as acetylation and methylation, occur on histone proteins around which DNA is wrapped to form chromatin. Histone acetylation, catalyzed by histone acetyltransferases (HATs), is generally associated with increased gene expression by relaxing chromatin structure and promoting transcription factor binding. Histone methylation, catalyzed by histone methyltransferases (HMTs), can have either activating or repressive effects, depending on the specific lysine residue that is methylated. For example, methylation of histone H3 at lysine 4 (H3K4me3) is associated with active gene expression, while methylation of histone H3 at lysine 27 (H3K27me3) is associated with transcriptional repression. Epigenetic modifications are dynamically regulated during development and cell differentiation. During differentiation, specific genes are activated or repressed through changes in DNA methylation and histone modifications, leading to cell-type-specific gene expression patterns. These epigenetic changes are often stable and heritable, allowing cells to maintain their differentiated state. Dysregulation of epigenetic mechanisms can lead to developmental disorders and diseases, including cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the guideline-recommended first-line therapy for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of action of commonly used chemotherapeutic drugs?",
+    "answer": "Chemotherapeutic drugs exert their cytotoxic effects through diverse mechanisms of action, targeting various aspects of cell division and DNA replication. Alkylating agents, such as cyclophosphamide and cisplatin, form covalent bonds with DNA bases, leading to DNA crosslinking and strand breaks, thereby inhibiting DNA replication and transcription. Antimetabolites, including methotrexate and 5-fluorouracil (5-FU), interfere with DNA synthesis by inhibiting enzymes involved in nucleotide synthesis or by incorporating into DNA, causing chain termination. Topoisomerase inhibitors, such as doxorubicin and etoposide, block the activity of topoisomerases, enzymes that relieve torsional stress during DNA replication and transcription, leading to DNA breaks and cell death. Microtubule inhibitors, including paclitaxel and vincristine, disrupt microtubule dynamics, essential for chromosome segregation during mitosis, causing mitotic arrest and apoptosis. Platinum-based drugs, such as cisplatin and carboplatin, form DNA adducts, leading to DNA damage and cell death. Targeted therapies, such as tyrosine kinase inhibitors (TKIs) and monoclonal antibodies, selectively target specific molecules or pathways involved in cancer cell growth and survival, such as EGFR, HER2, and VEGF. Immunotherapies, such as checkpoint inhibitors, enhance the anti-tumor immune response by blocking inhibitory receptors on T cells, allowing them to recognize and kill cancer cells. The specific mechanism of action of a chemotherapeutic drug determines its efficacy and toxicity profile.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin or direct oral anticoagulants (DOACs).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment contribute to cancer metastasis?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in promoting cancer metastasis through complex interactions between cancer cells and surrounding stromal cells, immune cells, blood vessels, and extracellular matrix (ECM). Cancer-associated fibroblasts (CAFs) secrete growth factors, cytokines, and ECM components that promote cancer cell proliferation, survival, and migration. Immune cells, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), can suppress anti-tumor immunity and promote tumor angiogenesis and metastasis. Tumor angiogenesis, driven by vascular endothelial growth factor (VEGF) and other pro-angiogenic factors, provides nutrients and oxygen to the growing tumor and facilitates cancer cell intravasation into the bloodstream. The ECM, composed of collagen, laminin, fibronectin, and other proteins, provides structural support for the tumor and influences cancer cell adhesion, migration, and invasion. Matrix metalloproteinases (MMPs), secreted by cancer cells and stromal cells, degrade the ECM, allowing cancer cells to invade surrounding tissues and metastasize to distant sites. Epithelial-mesenchymal transition (EMT), a process by which epithelial cells lose their cell-cell adhesion and acquire a mesenchymal phenotype, promotes cancer cell migration and invasion. The TME also influences cancer cell dormancy and colonization at distant sites. Understanding the complex interactions within the TME is crucial for developing strategies to prevent cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate management for a patient with a first-time seizure?",
+    "answer": "Neurological evaluation and EEG.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the potential applications of personalized medicine in cancer treatment?",
+    "answer": "Personalized medicine in cancer treatment aims to tailor therapeutic strategies based on an individual's unique genetic, molecular, and clinical characteristics. Genomic profiling of tumors can identify specific mutations and alterations in oncogenes and tumor suppressor genes, guiding the selection of targeted therapies that specifically inhibit the altered pathways. For example, patients with EGFR-mutant lung cancer can benefit from EGFR tyrosine kinase inhibitors (TKIs), while patients with BRAF-mutant melanoma can be treated with BRAF inhibitors. Immunoprofiling of tumors can identify patients who are likely to respond to immunotherapy, such as checkpoint inhibitors, based on the expression of PD-L1 or the presence of tumor-infiltrating lymphocytes (TILs). Pharmacogenomics can predict how a patient will respond to specific chemotherapeutic drugs based on their genetic makeup, allowing for dose adjustments or alternative drug selection to minimize toxicity and maximize efficacy. Liquid biopsies, which analyze circulating tumor cells (CTCs) and circulating tumor DNA (ctDNA) in the blood, can provide real-time information about tumor evolution and treatment response, enabling dynamic treatment adjustments. Personalized medicine also considers patient-specific factors such as age, comorbidities, and lifestyle, to optimize treatment strategies and improve outcomes. By integrating genomic, molecular, and clinical information, personalized medicine aims to deliver the right treatment to the right patient at the right time, improving survival and quality of life for cancer patients.",
+    "persona": "Researcher"
+  }
+]

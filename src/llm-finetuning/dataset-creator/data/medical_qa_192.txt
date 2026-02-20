@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated community-acquired pneumonia in an otherwise healthy adult?",
+    "answer": "Amoxicillin or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate precise genome editing in eukaryotic cells?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-stranded break at that specific location. This break triggers either non-homologous end joining (NHEJ), which is error-prone and can disrupt the gene, or homology-directed repair (HDR) if a DNA template with the desired sequence is provided. HDR allows for precise gene insertion or modification by using the provided template as a guide for DNA repair. The specificity of the gRNA and the efficiency of Cas9 dictate the accuracy and effectiveness of the editing process, enabling targeted gene knockout, knock-in, or sequence correction. Optimization of gRNA design, Cas9 delivery methods, and HDR enhancement strategies are crucial for minimizing off-target effects and maximizing editing efficiency in therapeutic applications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for acute heart failure?",
+    "answer": "Rapid onset of symptoms and signs of heart failure, often with evidence of fluid overload, confirmed by elevated BNP or NT-proBNP and chest X-ray findings.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is the tumor microenvironment considered a critical factor in cancer progression and metastasis?",
+    "answer": "The tumor microenvironment (TME) encompasses a complex network of cells, signaling molecules, and extracellular matrix components that significantly influence cancer cell behavior. Cancer cells can co-opt stromal cells like fibroblasts, endothelial cells, and immune cells to promote angiogenesis, immune evasion, and matrix remodeling. Cancer-associated fibroblasts (CAFs) secrete growth factors and matrix metalloproteinases (MMPs) that facilitate tumor cell invasion and migration. Immune cells, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), can suppress anti-tumor immunity and promote angiogenesis. Hypoxia within the TME induces angiogenesis and metabolic reprogramming, leading to increased lactate production and acidification, which further enhances tumor cell survival and invasion. Understanding and targeting key components of the TME represent promising strategies for disrupting cancer progression and improving therapeutic outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin or TMP-SMX per guidelines; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, block inhibitory signaling pathways that normally dampen T-cell activation. PD-1, expressed on T cells, binds to PD-L1 on tumor cells or antigen-presenting cells, suppressing T-cell effector function. Blocking this interaction with anti-PD-1 antibodies prevents T-cell inactivation and allows for sustained anti-tumor responses. CTLA-4, another checkpoint molecule, inhibits T-cell activation in the early stages of immune response by competing with CD28 for binding to B7 molecules on antigen-presenting cells. Anti-CTLA-4 antibodies enhance T-cell priming and proliferation in the lymph nodes. By releasing these inhibitory signals, checkpoint inhibitors unleash the cytotoxic potential of T cells, leading to tumor regression in a subset of patients. Biomarkers such as PD-L1 expression, tumor mutational burden (TMB), and microsatellite instability (MSI) are used to predict response to checkpoint inhibitors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target HbA1c for most non-pregnant adults with diabetes?",
+    "answer": "Less than 7% is generally recommended.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What mechanisms underlie the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance arises through multiple mechanisms, including enzymatic inactivation of antibiotics, target modification, reduced permeability, and efflux pumps. Bacteria can acquire resistance genes through horizontal gene transfer, such as conjugation, transduction, and transformation, leading to rapid dissemination of resistance traits. Enzymes like beta-lactamases hydrolyze beta-lactam antibiotics, rendering them inactive. Mutations in target proteins, such as ribosomes or DNA gyrase, can reduce antibiotic binding affinity. Decreased permeability of the bacterial cell wall limits antibiotic entry. Efflux pumps actively pump antibiotics out of the cell, reducing intracellular concentrations. The selective pressure exerted by antibiotic use drives the enrichment of resistant strains, leading to increased prevalence of antibiotic resistance. Understanding these mechanisms is crucial for developing strategies to combat antibiotic resistance, such as novel antibiotics, efflux pump inhibitors, and phage therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient presenting with new-onset atrial fibrillation?",
+    "answer": "Rate or rhythm control, and anticoagulation based on risk stratification.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs (ncRNAs) regulate gene expression?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and circular RNAs (circRNAs), play diverse roles in regulating gene expression at both transcriptional and post-transcriptional levels. MicroRNAs bind to the 3' untranslated region (UTR) of target mRNAs, leading to translational repression or mRNA degradation. Long non-coding RNAs can act as scaffolds, bringing together chromatin-modifying complexes to regulate gene transcription. They can also function as decoys, sequestering transcription factors or miRNAs. Circular RNAs, generated from back-splicing events, can act as miRNA sponges, competing with endogenous mRNAs for miRNA binding. NcRNAs are involved in various biological processes, including development, differentiation, and disease pathogenesis. Dysregulation of ncRNA expression is implicated in cancer, cardiovascular disease, and neurological disorders. Targeting ncRNAs represents a promising therapeutic strategy for modulating gene expression and treating disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer in women aged 30-65?",
+    "answer": "Every 3 years with cytology alone, every 5 years with high-risk HPV testing alone, or every 5 years with co-testing (cytology + HPV).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles (NFTs) in the brain. Aβ plaques, formed from the aggregation of Aβ peptides derived from amyloid precursor protein (APP) cleavage, trigger neuroinflammation and synaptic dysfunction. NFTs, composed of hyperphosphorylated tau protein, disrupt microtubule stability and axonal transport. These pathological changes lead to neuronal loss and cognitive decline. Genetic factors, such as mutations in APP, PSEN1, and PSEN2, increase Aβ production. Risk factors like age, APOE4 genotype, and vascular disease contribute to AD pathogenesis. Emerging evidence suggests that neuroinflammation, oxidative stress, and mitochondrial dysfunction also play critical roles. Targeting Aβ production, tau phosphorylation, and neuroinflammation are major therapeutic strategies under investigation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for generalized tonic-clonic seizures?",
+    "answer": "Lorazepam or diazepam intravenously.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy differ from traditional cancer therapies like chemotherapy and radiation?",
+    "answer": "Unlike chemotherapy and radiation, which directly target cancer cells, immunotherapy harnesses the patient's own immune system to fight cancer. Chemotherapy and radiation often have significant side effects due to their lack of specificity, damaging both cancer cells and healthy cells. Immunotherapy, such as checkpoint inhibitors, CAR-T cell therapy, and oncolytic viruses, aims to enhance or redirect the immune response against cancer cells. Checkpoint inhibitors block inhibitory signals that prevent T cells from attacking cancer cells. CAR-T cell therapy involves genetically modifying T cells to express a chimeric antigen receptor (CAR) that recognizes a specific tumor-associated antigen. Oncolytic viruses selectively infect and kill cancer cells while stimulating an anti-tumor immune response. While immunotherapy can induce durable responses in some patients, it can also cause immune-related adverse events (irAEs) due to overactivation of the immune system. The development of predictive biomarkers and strategies to manage irAEs are critical for optimizing immunotherapy outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time venous thromboembolism?",
+    "answer": "Anticoagulation with a direct oral anticoagulant (DOAC) or warfarin for at least 3 months.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication?",
+    "answer": "Exosomes are nano-sized vesicles secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids to recipient cells. They play critical roles in various physiological and pathological processes. Exosomes can deliver functional proteins, such as growth factors and signaling molecules, to recipient cells, modulating their behavior. They also transport microRNAs (miRNAs) and other non-coding RNAs, influencing gene expression in target cells. In cancer, exosomes promote tumor growth, angiogenesis, metastasis, and immune evasion. Tumor-derived exosomes can educate the pre-metastatic niche, preparing distant sites for tumor cell colonization. Exosomes also participate in immune regulation by delivering antigens and co-stimulatory molecules to antigen-presenting cells (APCs), modulating immune responses. Exosomes are being explored as potential biomarkers for disease diagnosis and as therapeutic delivery vehicles for drugs and gene therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common signs and symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence human health and disease?",
+    "answer": "The gut microbiome, a complex community of microorganisms residing in the gastrointestinal tract, plays a vital role in human health by influencing metabolism, immunity, and neurodevelopment. Gut bacteria ferment dietary fibers, producing short-chain fatty acids (SCFAs) like acetate, propionate, and butyrate, which serve as energy sources for colonocytes and exert anti-inflammatory effects. The microbiome also synthesizes vitamins, such as vitamin K and B vitamins. Gut bacteria regulate immune development and function by interacting with the gut-associated lymphoid tissue (GALT) and modulating the balance between pro-inflammatory and anti-inflammatory responses. Dysbiosis, or imbalance in the gut microbiome, is associated with various diseases, including inflammatory bowel disease (IBD), obesity, type 2 diabetes, and autoimmune disorders. Fecal microbiota transplantation (FMT) is used to restore a healthy gut microbiome in patients with recurrent Clostridium difficile infection. Modulating the gut microbiome through diet, probiotics, and prebiotics is being explored as a therapeutic strategy for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscularly.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in cancer development and progression?",
+    "answer": "Several key signaling pathways are frequently dysregulated in cancer, driving cell proliferation, survival, and metastasis. The PI3K/AKT/mTOR pathway promotes cell growth and survival by regulating glucose metabolism, protein synthesis, and apoptosis. The RAS/MAPK pathway, activated by growth factors, stimulates cell proliferation and differentiation. The Wnt/β-catenin pathway controls cell fate determination and tissue homeostasis, and its aberrant activation leads to uncontrolled cell growth. The TGF-β pathway regulates cell growth, differentiation, and apoptosis, but can also promote tumor invasion and metastasis. The p53 pathway, a critical tumor suppressor pathway, responds to cellular stress by inducing cell cycle arrest, DNA repair, or apoptosis. Dysregulation of these pathways through genetic mutations, epigenetic modifications, or altered expression of signaling molecules contributes to cancer development and progression. Targeting these signaling pathways with small molecule inhibitors or antibodies is a major focus of cancer drug development.",
+    "persona": "Researcher"
+  }
+]

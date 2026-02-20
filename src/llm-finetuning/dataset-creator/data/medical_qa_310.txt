@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line, depending on local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development and progression of atherosclerosis?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherosclerosis, from initiation to plaque rupture. Endothelial dysfunction, induced by factors such as oxidized LDL and disturbed blood flow, triggers the expression of adhesion molecules like VCAM-1 and ICAM-1, which recruit monocytes and T cells into the arterial intima. Once inside, monocytes differentiate into macrophages, which engulf oxidized LDL, transforming into foam cells, the hallmark of early lesions. These foam cells release inflammatory cytokines (e.g., IL-1β, TNF-α) and chemokines (e.g., MCP-1) that further amplify leukocyte recruitment and activation, creating a positive feedback loop. T cells, particularly Th1 cells, secrete IFN-γ, which activates macrophages and inhibits smooth muscle cell proliferation, contributing to plaque instability. The chronic inflammatory milieu also promotes the production of matrix metalloproteinases (MMPs), enzymes that degrade the extracellular matrix, weakening the fibrous cap and increasing the risk of plaque rupture. Furthermore, inflammation stimulates the formation of neutrophil extracellular traps (NETs), which exacerbate thrombosis and vascular occlusion. Therapeutic strategies targeting specific inflammatory pathways, such as IL-1β inhibition, have demonstrated efficacy in reducing cardiovascular events, highlighting the causal role of inflammation in atherosclerotic disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "HbA1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through multiple mechanisms, both EGFR-dependent and EGFR-independent. The most common EGFR-dependent mechanism is the acquisition of a secondary mutation, T790M, which sterically hinders TKI binding. Other EGFR-dependent mechanisms include EGFR amplification, C797S mutations, and bypass signaling through MET amplification or HER2/HER3 activation. EGFR-independent mechanisms involve activation of alternative signaling pathways that circumvent EGFR blockade, such as PI3K/AKT/mTOR activation via PTEN loss or PIK3CA mutations, RAS/MAPK activation via KRAS mutations, or bypass signaling through receptor tyrosine kinases like MET, FGFR, or AXL. Furthermore, histologic transformation to small cell lung cancer or epithelial-to-mesenchymal transition (EMT) can confer resistance. Certain epigenetic modifications and altered drug metabolism pathways also contribute to resistance. Combination strategies targeting multiple resistance mechanisms are under investigation to overcome TKI resistance and improve patient outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should community-acquired pneumonia be treated empirically in an outpatient setting?",
+    "answer": "Macrolide (azithromycin or clarithromycin) or doxycycline if local macrolide resistance is low; otherwise, a respiratory fluoroquinolone or beta-lactam plus macrolide.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in regulating gene expression without altering the underlying DNA sequence. Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor gene promoters and global hypomethylation, are frequently observed in cancer cells. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, affect chromatin structure and accessibility, thereby influencing gene transcription. For instance, histone acetylation generally promotes gene expression, whereas histone methylation can either activate or repress transcription depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression at the post-transcriptional level by targeting mRNAs or modulating chromatin structure. Dysregulation of epigenetic mechanisms can lead to altered expression of oncogenes, tumor suppressor genes, and genes involved in DNA repair, cell cycle control, and apoptosis, contributing to cancer initiation, progression, and metastasis. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are used to reverse aberrant epigenetic modifications and restore normal gene expression patterns in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with acute ST-elevation myocardial infarction (STEMI)?",
+    "answer": "Immediate reperfusion therapy with primary percutaneous coronary intervention (PCI) or fibrinolysis if PCI is not readily available.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapies?",
+    "answer": "The gut microbiome plays a significant role in modulating the efficacy and toxicity of cancer immunotherapies, particularly immune checkpoint inhibitors (ICIs). Certain gut bacterial species can enhance the antitumor immune response by promoting the activation and infiltration of cytotoxic T cells into the tumor microenvironment. For example, *Akkermansia muciniphila* has been associated with improved response to anti-PD-1 therapy in melanoma patients. Conversely, dysbiosis or depletion of beneficial gut bacteria can impair the efficacy of ICIs. The gut microbiome can also influence the development of immune-related adverse events (irAEs) associated with ICIs, such as colitis. Certain gut bacterial species can trigger excessive immune activation and inflammation in the gut, leading to irAEs. Fecal microbiota transplantation (FMT) has shown promise in restoring gut microbiome diversity and improving the response to ICIs in patients with ICI resistance or irAEs. Modulation of the gut microbiome through dietary interventions, probiotics, or FMT may represent a promising strategy to enhance the efficacy and reduce the toxicity of cancer immunotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated malaria?",
+    "answer": "Artemisinin-based combination therapy (ACT) is the standard treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative diseases, and what are the key structural features that differentiate them from normally folded proteins?",
+    "answer": "Prions cause neurodegenerative diseases by inducing misfolding and aggregation of normally folded prion proteins (PrPC) into infectious, self-propagating aggregates called PrPSc. PrPSc acts as a template, converting more PrPC into the misfolded form through a conformational change. This process leads to the accumulation of PrPSc aggregates in the brain, causing neuronal dysfunction and cell death. The key structural difference between PrPC and PrPSc lies in their secondary and tertiary structures. PrPC is predominantly α-helical, while PrPSc has a higher proportion of β-sheet structure. This conformational change results in PrPSc being more resistant to proteases, insoluble, and prone to aggregation. The formation of amyloid fibrils, which are highly ordered aggregates of PrPSc, is a characteristic feature of prion diseases. These fibrils can seed further misfolding and aggregation, leading to exponential propagation of the prion. The exact mechanism by which PrPSc induces neuronal damage is still under investigation but is thought to involve disruption of cellular homeostasis, oxidative stress, and activation of apoptotic pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for hypothyroidism?",
+    "answer": "Levothyroxine is the recommended initial treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer, and what cellular pathways are affected?",
+    "answer": "Mutations in BRCA1 and BRCA2 genes significantly increase the risk of breast and ovarian cancer by impairing DNA repair mechanisms, particularly homologous recombination (HR). BRCA1 and BRCA2 proteins play a crucial role in HR, a high-fidelity DNA repair pathway that repairs double-strand breaks (DSBs) in DNA. BRCA1 forms a complex with other proteins, including BRCA1-associated RING domain 1 (BARD1), which is essential for its stability and function. This complex is involved in DNA damage recognition, cell cycle checkpoint activation, and recruitment of DNA repair proteins to the site of the DSB. BRCA2 directly binds to RAD51, a key protein involved in the strand invasion step of HR. When BRCA1 or BRCA2 are mutated or dysfunctional, the cell's ability to repair DSBs through HR is compromised, leading to an accumulation of DNA damage. This genomic instability increases the likelihood of mutations in other genes, promoting cancer development. Cells with BRCA1/2 mutations rely on error-prone DNA repair pathways, such as non-homologous end joining (NHEJ), which can introduce further mutations. Poly(ADP-ribose) polymerase (PARP) inhibitors exploit this vulnerability by inhibiting another DNA repair pathway, leading to synthetic lethality in BRCA1/2-deficient cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, anorexia, nausea, and vomiting.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease, and how do they contribute to neuronal dysfunction and cell death?",
+    "answer": "Several major signaling pathways are implicated in the pathogenesis of Alzheimer's disease (AD), contributing to neuronal dysfunction and cell death. The amyloid cascade hypothesis posits that the accumulation of amyloid-beta (Aβ) peptides, derived from the amyloid precursor protein (APP), triggers a cascade of events leading to AD. Aβ oligomers can activate microglia and astrocytes, initiating a chronic inflammatory response that releases cytokines and reactive oxygen species (ROS), causing neuronal damage. Aβ also disrupts synaptic function and impairs long-term potentiation (LTP), a key mechanism for learning and memory. Tau hyperphosphorylation, another hallmark of AD, leads to the formation of neurofibrillary tangles (NFTs), which disrupt microtubule function and impair axonal transport. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are major kinases involved in tau phosphorylation. The insulin signaling pathway is also implicated, as insulin resistance and impaired insulin signaling can promote Aβ accumulation and tau phosphorylation. Furthermore, dysregulation of calcium homeostasis, oxidative stress, and mitochondrial dysfunction contribute to neuronal dysfunction and cell death in AD. These interconnected signaling pathways create a complex interplay that drives the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating a patient with new-onset atrial fibrillation?",
+    "answer": "Rate or rhythm control, and anticoagulation based on risk stratification (e.g., CHA2DS2-VASc score).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what are the major mechanisms employed by different viral families?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, allowing them to establish persistent infections. One common mechanism is the suppression of interferon (IFN) signaling, a critical antiviral defense pathway. Many viruses encode proteins that interfere with IFN production, IFN receptor signaling, or the expression of IFN-stimulated genes (ISGs). For example, some viruses inhibit the activation of transcription factors like IRF3 or NF-κB, which are essential for IFN gene expression. Others encode proteins that bind to IFN receptors, preventing IFN from binding and activating downstream signaling pathways. Viruses also evade the immune system by downregulating the expression of major histocompatibility complex (MHC) class I molecules, which are required for cytotoxic T lymphocyte (CTL) recognition of infected cells. Some viruses encode proteins that interfere with antigen processing or MHC class I trafficking to the cell surface. Additionally, viruses can encode proteins that act as decoys, binding to neutralizing antibodies or complement proteins to prevent them from targeting the virus. Some viruses establish latency, a state of dormancy in which viral gene expression is limited, minimizing immune detection. Others undergo rapid mutation, generating antigenic variants that can escape antibody recognition. Different viral families employ distinct combinations of these mechanisms to evade the host immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the most common causes of secondary hypertension?",
+    "answer": "Renal artery stenosis, primary aldosteronism, obstructive sleep apnea, and pheochromocytoma.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells metastasize to distant organs, and what are the key steps involved in the metastatic cascade?",
+    "answer": "Cancer cells metastasize to distant organs through a complex multistep process known as the metastatic cascade. The first step is local invasion, where cancer cells detach from the primary tumor and invade the surrounding tissue. This process involves the loss of cell-cell adhesion molecules like E-cadherin and the upregulation of proteases that degrade the extracellular matrix (ECM). Epithelial-to-mesenchymal transition (EMT) is a key process that promotes cell motility and invasiveness. Next, cancer cells enter the bloodstream or lymphatic system, a process called intravasation. Once in circulation, cancer cells must survive the harsh conditions of the blood or lymph, including shear stress and immune attack. Some cancer cells form clusters with platelets, which protect them from immune clearance. Cancer cells then arrest at distant capillary beds and extravasate into the surrounding tissue. This process involves adhesion to endothelial cells and migration through the basement membrane. Finally, cancer cells must adapt to the microenvironment of the distant organ and establish a new tumor, a process called colonization. This requires the cancer cells to proliferate, recruit blood vessels (angiogenesis), and evade immune surveillance. The metastatic cascade is a highly inefficient process, and only a small fraction of cancer cells that enter the circulation successfully form distant metastases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the major risk factors for stroke?",
+    "answer": "Hypertension, hyperlipidemia, diabetes, smoking, atrial fibrillation, and family history.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the immune system distinguish between self and non-self antigens, and what mechanisms prevent autoimmunity?",
+    "answer": "The immune system distinguishes between self and non-self antigens through a complex process involving central and peripheral tolerance mechanisms. Central tolerance occurs in the thymus (for T cells) and bone marrow (for B cells), where developing lymphocytes that recognize self-antigens with high affinity are eliminated or rendered non-responsive. T cells that strongly bind to self-antigens presented by MHC molecules on thymic epithelial cells undergo negative selection, leading to apoptosis. Some self-reactive T cells may differentiate into regulatory T cells (Tregs), which suppress the activity of other immune cells. B cells that strongly bind to self-antigens in the bone marrow undergo receptor editing, clonal deletion, or anergy. Peripheral tolerance mechanisms operate outside the thymus and bone marrow to prevent autoimmunity. Anergy occurs when T cells encounter self-antigens without adequate costimulatory signals, rendering them unresponsive. Suppression by Tregs inhibits the activation and effector functions of self-reactive T cells. Clonal ignorance occurs when self-reactive lymphocytes do not encounter their cognate antigens in sufficient amounts or in an immunogenic context. Immune checkpoints, such as CTLA-4 and PD-1, also play a critical role in maintaining self-tolerance by inhibiting T cell activation. Failure of these tolerance mechanisms can lead to autoimmunity, where the immune system attacks self-antigens, causing tissue damage and disease.",
+    "persona": "Researcher"
+  }
+]

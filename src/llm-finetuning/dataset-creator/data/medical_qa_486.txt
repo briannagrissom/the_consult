@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) designed to be complementary to a specific DNA sequence in the genome. This gRNA forms a complex with the Cas9 endonuclease. The gRNA directs Cas9 to the target DNA site through base pairing. Cas9 then induces a double-strand break (DSB) at the targeted location. The cell attempts to repair this DSB via two primary mechanisms: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is error-prone and often introduces insertions or deletions (indels), leading to gene disruption. HDR, if a donor DNA template is provided, can be used to precisely insert a desired sequence into the genome. The efficiency and specificity of CRISPR-Cas9 are determined by the gRNA design, Cas9 variant used, and cellular context. Off-target effects, where Cas9 cleaves at unintended sites, remain a key challenge.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of Parkinson's disease?",
+    "answer": "Tremor, rigidity, bradykinesia, and postural instability.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why are randomized controlled trials considered the gold standard for evaluating therapeutic interventions?",
+    "answer": "Randomized controlled trials (RCTs) are considered the gold standard because randomization aims to balance known and unknown confounding factors between treatment groups, minimizing selection bias and allowing for causal inference. By randomly assigning participants to either the intervention or control group, RCTs ensure that any observed differences in outcomes are likely due to the intervention itself, rather than pre-existing differences between the groups. Blinding, when feasible, further reduces bias. RCTs provide the strongest evidence for establishing efficacy and safety of interventions compared to observational studies or historical controls, which are more susceptible to confounding and bias. However, RCTs can be resource-intensive, time-consuming, and may not always be ethical or feasible for certain research questions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "2.0 to 3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1, anti-PD-L1, and anti-CTLA-4 antibodies, block inhibitory signaling pathways that normally dampen T-cell activation and effector function. CTLA-4 blockade primarily enhances T-cell priming in lymph nodes by blocking the interaction of CTLA-4 with B7 molecules on antigen-presenting cells, thus promoting T-cell activation. PD-1/PD-L1 inhibitors, on the other hand, mainly act in the tumor microenvironment to reactivate exhausted T cells. PD-1 is expressed on T cells and interacts with PD-L1 on tumor cells or antigen-presenting cells, leading to T-cell inactivation and immune evasion. By blocking this interaction, PD-1/PD-L1 inhibitors restore T-cell cytotoxicity and enhance anti-tumor immune responses. These checkpoint inhibitors unleash pre-existing anti-tumor immunity, leading to durable responses in a subset of patients with certain cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine injection and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms by which cancer cells develop resistance to chemotherapy?",
+    "answer": "Cancer cells develop resistance to chemotherapy through several mechanisms: (1) Increased drug efflux via overexpression of ATP-binding cassette (ABC) transporters like P-glycoprotein. (2) Alterations in drug targets, such as mutations in the target protein that reduce drug binding affinity. (3) Increased DNA repair capacity, allowing cancer cells to repair drug-induced DNA damage more efficiently. (4) Activation of survival signaling pathways, like PI3K/AKT/mTOR, which promote cell survival despite chemotherapy-induced stress. (5) Epithelial-mesenchymal transition (EMT), which confers resistance to apoptosis. (6) Cancer stem cell (CSC) enrichment, as CSCs are often more resistant to chemotherapy than non-CSCs. These mechanisms can occur individually or in combination, leading to multi-drug resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute myocardial infarction?",
+    "answer": "Chest pain, shortness of breath, diaphoresis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does metformin improve glycemic control in patients with type 2 diabetes?",
+    "answer": "Metformin improves glycemic control primarily by reducing hepatic glucose production, enhancing insulin sensitivity in peripheral tissues (muscle and adipose tissue), and modestly slowing glucose absorption in the intestine. It inhibits hepatic gluconeogenesis and glycogenolysis by affecting mitochondrial respiratory chain complex I. Metformin also activates AMP-activated protein kinase (AMPK), a cellular energy sensor that plays a role in regulating glucose and lipid metabolism. These actions lead to decreased fasting and postprandial glucose levels, improving overall glycemic control in patients with type 2 diabetes. Metformin does not typically cause hypoglycemia when used alone.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colon cancer?",
+    "answer": "Colonoscopy every 10 years or alternative tests per USPSTF guidelines, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of statins and PCSK9 inhibitors in lowering LDL cholesterol.",
+    "answer": "Statins inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis in the liver. This leads to decreased intracellular cholesterol levels, which upregulates LDL receptor expression on hepatocytes, resulting in increased LDL uptake from the blood and lower LDL cholesterol levels. PCSK9 inhibitors, on the other hand, are monoclonal antibodies that bind to proprotein convertase subtilisin/kexin type 9 (PCSK9). PCSK9 normally binds to LDL receptors, promoting their degradation. By inhibiting PCSK9, these drugs prevent LDL receptor degradation, leading to increased LDL receptor levels on hepatocytes and enhanced LDL clearance from the circulation. While both statins and PCSK9 inhibitors lower LDL cholesterol, they act through distinct mechanisms. Statins increase LDL receptor expression indirectly by lowering intracellular cholesterol, while PCSK9 inhibitors directly prevent LDL receptor degradation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for a patient presenting with a stroke?",
+    "answer": "tPA if within the appropriate time window, otherwise supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and disease pathogenesis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA) to recipient cells. They are formed through the endosomal pathway and released upon fusion of multivesicular bodies with the plasma membrane. Exosomes can deliver their cargo to recipient cells via direct receptor-ligand interaction, membrane fusion, or endocytosis. In cancer, exosomes can promote tumor growth, metastasis, angiogenesis, and immune evasion. They can also contribute to drug resistance by transferring drug-metabolizing enzymes or efflux pumps to recipient cells. In other diseases, exosomes are involved in inflammation, neurodegeneration, and infectious disease. Exosomes are being explored as potential biomarkers for disease diagnosis and as therapeutic delivery vehicles.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do single-cell RNA sequencing technologies advance our understanding of tissue heterogeneity and disease mechanisms?",
+    "answer": "Single-cell RNA sequencing (scRNA-seq) allows for the comprehensive transcriptomic profiling of individual cells within a complex tissue or sample. This technology has revolutionized our understanding of cellular heterogeneity by revealing previously unappreciated cell subpopulations, developmental trajectories, and cellular states. ScRNA-seq can identify novel cell types and subtypes, characterize their gene expression signatures, and map their spatial distribution within tissues. In disease research, scRNA-seq can uncover disease-specific changes in cell composition, identify dysregulated signaling pathways within specific cell types, and reveal interactions between different cell populations in the disease microenvironment. This information can be used to develop more targeted and effective therapies. Challenges of scRNA-seq include data analysis complexity, batch effects, and drop-out events, where some genes are not detected due to low expression levels.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves multiple signaling pathways. Amyloid precursor protein (APP) processing by β-secretase and γ-secretase leads to the production of amyloid-β (Aβ) peptides, which aggregate into plaques. Aβ oligomers activate microglia and astrocytes, leading to chronic inflammation and release of pro-inflammatory cytokines. Tau hyperphosphorylation, driven by kinases like GSK-3β and CDK5, results in the formation of neurofibrillary tangles. These pathological hallmarks disrupt neuronal function and synaptic transmission. Altered calcium homeostasis, oxidative stress, and mitochondrial dysfunction contribute to neuronal death. Genetic mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2) increase Aβ production. Apolipoprotein E4 (APOE4) is a major genetic risk factor, influencing Aβ clearance and aggregation. These pathways interact in complex ways to drive AD progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial therapy for type 1 diabetes?",
+    "answer": "Insulin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do advances in artificial intelligence (AI) and machine learning (ML) impact drug discovery and development?",
+    "answer": "AI and ML are transforming drug discovery by accelerating target identification, predicting drug efficacy and toxicity, optimizing clinical trial design, and personalizing treatment strategies. AI algorithms can analyze large datasets of genomic, proteomic, and clinical data to identify novel drug targets and predict drug-target interactions. ML models can predict drug efficacy and toxicity based on chemical structure and biological activity, reducing the need for animal testing. AI can optimize clinical trial design by identifying eligible patients and predicting trial outcomes. ML algorithms can analyze patient data to personalize treatment strategies based on individual characteristics and predict treatment response. AI and ML are also used to accelerate the discovery of new biomarkers and develop diagnostic tools. However, challenges remain in data quality, model interpretability, and regulatory approval of AI-driven drug development.",
+    "persona": "Researcher"
+  }
+]

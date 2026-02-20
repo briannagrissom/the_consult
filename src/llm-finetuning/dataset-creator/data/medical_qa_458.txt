@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers; consider anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology achieve targeted DNA modification, and what are the key considerations for minimizing off-target effects in therapeutic applications?",
+    "answer": "CRISPR-Cas9 leverages a guide RNA (gRNA) complementary to a specific DNA sequence, directing the Cas9 endonuclease to that site for cleavage. The cell's endogenous repair mechanisms, non-homologous end joining (NHEJ) or homology-directed repair (HDR), then introduce insertions/deletions or precise sequence edits, respectively. Off-target effects arise from Cas9 binding and cleaving unintended DNA sites with sequence similarity to the gRNA. Minimizing these requires careful gRNA design using algorithms that predict off-target binding, employing high-fidelity Cas9 variants with reduced off-target activity, delivering Cas9 as a ribonucleoprotein (RNP) complex for rapid degradation after editing, and utilizing paired Cas9 nickases that require two gRNAs for cleavage. Whole-genome sequencing and unbiased methods for detecting double-strand breaks (e.g., GUIDE-seq, CIRCLE-seq) are essential for assessing off-target effects in preclinical studies to ensure safety and specificity before clinical translation. The choice of delivery method (viral vs non-viral) also impacts off-target risk, with non-viral approaches generally showing reduced but more transient expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for screening asymptomatic adults for colorectal cancer?",
+    "answer": "Begin screening at age 45 with colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the known mechanisms through which chronic inflammation contributes to the development and progression of atherosclerotic plaques?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherosclerosis. Elevated levels of circulating inflammatory cytokines, such as TNF-α, IL-1β, and IL-6, promote endothelial dysfunction by increasing permeability and adhesion molecule expression (VCAM-1, ICAM-1), facilitating monocyte recruitment into the subendothelial space. Monocytes differentiate into macrophages and internalize oxidized LDL, transforming into foam cells, the hallmark of early plaques. Inflammatory signals also stimulate smooth muscle cell proliferation and migration from the media to the intima, contributing to plaque growth. Within the plaque, macrophages secrete matrix metalloproteinases (MMPs) that degrade the extracellular matrix, weakening the fibrous cap and increasing the risk of rupture. Systemic inflammation also activates platelets and the coagulation cascade, promoting thrombus formation upon plaque disruption. Furthermore, chronic inflammation impairs reverse cholesterol transport by reducing the expression of ABCA1 and ABCG1 transporters in macrophages, limiting cholesterol efflux to HDL. The NLRP3 inflammasome, activated by cholesterol crystals and other danger signals, amplifies inflammation by processing pro-IL-1β into mature IL-1β, perpetuating a vicious cycle. Therapeutic strategies targeting specific inflammatory pathways, such as IL-1β inhibition (e.g., canakinumab), have demonstrated reductions in cardiovascular events, validating the importance of inflammation in atherosclerosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with a suspected acute myocardial infarction in the emergency department?",
+    "answer": "Administer oxygen, aspirin, nitroglycerin, and morphine; obtain an ECG; activate the cardiac catheterization lab for STEMI or manage medically for NSTEMI based on risk stratification.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease, and how are they being targeted for therapeutic intervention?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves multiple interconnected signaling pathways. Amyloid-beta (Aβ) plaques and tau tangles are central pathological hallmarks. Aβ oligomers activate microglia and astrocytes, triggering inflammatory pathways involving NF-κB and inflammasomes, leading to neuronal dysfunction and death. Aberrant tau phosphorylation, driven by kinases like GSK-3β and CDK5, impairs microtubule stability and axonal transport. Insulin resistance and impaired insulin signaling disrupt glucose metabolism in the brain, exacerbating Aβ and tau pathology. Reduced levels of neurotrophic factors like BDNF compromise neuronal survival and synaptic plasticity. Genetic mutations in APP, PSEN1, and PSEN2 genes disrupt Aβ production and clearance. Current therapeutic strategies target these pathways through multiple approaches: (1) Immunotherapies targeting Aβ plaques (e.g., aducanumab, lecanemab) aim to reduce Aβ burden; (2) BACE1 inhibitors seek to prevent Aβ production; (3) Tau aggregation inhibitors aim to reduce tau tangle formation; (4) Anti-inflammatory agents target neuroinflammation; (5) Insulin-sensitizing drugs aim to improve glucose metabolism; and (6) Cholinesterase inhibitors and NMDA receptor antagonists provide symptomatic relief by enhancing neurotransmission. Combination therapies targeting multiple pathways are being explored to achieve more effective disease modification.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline; consider macrolide if local resistance is low, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do different classes of anti-diabetic medications (e.g., metformin, sulfonylureas, GLP-1 receptor agonists, SGLT2 inhibitors) exert their effects on glucose homeostasis, and what are their distinct mechanisms of action at the cellular and molecular levels?",
+    "answer": "Anti-diabetic medications employ diverse mechanisms to improve glucose homeostasis. Metformin, a biguanide, primarily reduces hepatic glucose production by activating AMPK, which inhibits gluconeogenic enzymes. It also enhances insulin sensitivity in peripheral tissues. Sulfonylureas stimulate insulin secretion from pancreatic beta cells by binding to the SUR1 subunit of the ATP-sensitive potassium channel, leading to membrane depolarization and calcium influx. GLP-1 receptor agonists (e.g., semaglutide, liraglutide) enhance glucose-dependent insulin secretion, suppress glucagon release, slow gastric emptying, and promote satiety by activating GLP-1 receptors on pancreatic beta cells, alpha cells, and in the brain. SGLT2 inhibitors (e.g., empagliflozin, dapagliflozin) reduce renal glucose reabsorption by inhibiting the SGLT2 transporter in the proximal tubule, leading to increased urinary glucose excretion and lower blood glucose levels. Thiazolidinediones (TZDs) activate PPARγ, a nuclear receptor that regulates gene expression in adipose tissue, enhancing insulin sensitivity and reducing hepatic steatosis. Each class has distinct effects on insulin secretion, insulin sensitivity, glucose production, and glucose reabsorption, contributing to their overall glucose-lowering effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in a female patient?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole; consider fosfomycin as an alternative, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which cancer cells develop resistance to chemotherapy, and how can these mechanisms be targeted to improve treatment efficacy?",
+    "answer": "Cancer cells develop chemotherapy resistance through multiple mechanisms. Increased drug efflux, mediated by ATP-binding cassette (ABC) transporters like P-glycoprotein (MDR1), reduces intracellular drug concentration. Alterations in drug metabolism, such as increased detoxification or decreased activation, reduce drug efficacy. Mutations in drug targets, like EGFR in lung cancer or BCR-ABL in leukemia, decrease drug binding affinity. Activation of survival signaling pathways, like PI3K/AKT/mTOR, protects cells from apoptosis. DNA repair mechanisms are upregulated to counteract drug-induced DNA damage. Epithelial-mesenchymal transition (EMT) promotes drug resistance by altering cell adhesion and motility. Cancer stem cells, with self-renewal capacity, are often resistant to chemotherapy. Targeting these mechanisms can improve treatment efficacy. ABC transporter inhibitors can block drug efflux. Inhibitors of survival signaling pathways can sensitize cells to apoptosis. DNA repair inhibitors can enhance drug-induced DNA damage. EMT inhibitors can reverse drug resistance. Targeting cancer stem cells can prevent tumor recurrence. Combination therapies that simultaneously target multiple resistance mechanisms are being actively explored.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient diagnosed with hypothyroidism?",
+    "answer": "Levothyroxine; adjust dose based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do vaccines stimulate the adaptive immune system to provide long-lasting protection against infectious diseases, and what are the key factors influencing vaccine efficacy and duration of immunity?",
+    "answer": "Vaccines stimulate the adaptive immune system by introducing antigens (either whole pathogens, inactivated pathogens, or pathogen components) to the body without causing disease. This triggers an immune response that generates antigen-specific B cells and T cells. B cells produce antibodies that neutralize or opsonize the pathogen, preventing infection. T cells, including cytotoxic T lymphocytes (CTLs), kill infected cells. Critically, vaccines also induce the formation of memory B cells and memory T cells, which provide long-lasting immunity. Upon subsequent exposure to the pathogen, these memory cells rapidly expand and mount a faster and stronger immune response. Vaccine efficacy and duration of immunity depend on several factors. The type of antigen (e.g., protein, polysaccharide, mRNA) and the presence of adjuvants influence the magnitude and quality of the immune response. Adjuvants enhance antigen presentation and stimulate innate immune signaling, improving vaccine efficacy. The route of administration (e.g., intramuscular, subcutaneous) also affects the immune response. Host factors, such as age, genetics, and immune status, influence vaccine responsiveness. Some vaccines require booster doses to maintain long-term immunity. The emergence of new variants of pathogens can also reduce vaccine efficacy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a patient with an acute asthma exacerbation?",
+    "answer": "Administer oxygen, short-acting beta-agonists, and systemic corticosteroids; consider ipratropium bromide for severe exacerbations.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways activated by receptor tyrosine kinases (RTKs) in cancer cells, and how are these pathways targeted by small molecule inhibitors and monoclonal antibodies for cancer therapy?",
+    "answer": "Receptor tyrosine kinases (RTKs) are frequently dysregulated in cancer and activate several major signaling pathways. Upon ligand binding, RTKs dimerize and autophosphorylate, initiating downstream signaling cascades. The RAS/MAPK pathway is activated when RTKs recruit adaptor proteins like Grb2, which activate the small GTPase RAS. Activated RAS recruits and activates RAF kinases, which phosphorylate and activate MEK kinases, which in turn activate ERK kinases. ERK phosphorylates transcription factors, promoting cell proliferation and survival. The PI3K/AKT/mTOR pathway is activated when RTKs recruit PI3K, which phosphorylates PIP2 to PIP3. PIP3 recruits AKT, which activates mTOR, a central regulator of cell growth and metabolism. The JAK/STAT pathway is activated when RTKs recruit JAK kinases, which phosphorylate STAT transcription factors. Phosphorylated STATs dimerize and translocate to the nucleus, promoting cell proliferation and survival. Small molecule inhibitors target the kinase domains of RTKs, preventing autophosphorylation and downstream signaling. Monoclonal antibodies bind to the extracellular domains of RTKs, blocking ligand binding and receptor activation. Some antibodies also induce receptor internalization and degradation. Examples include EGFR inhibitors (gefitinib, erlotinib) and HER2 antibodies (trastuzumab).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin; consider low-molecular-weight heparin as a bridge to warfarin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification, such as DNA methylation and histone modification, regulate gene expression in normal cells and how are these processes altered in cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modification, are critical regulators of gene expression. DNA methylation involves the addition of a methyl group to cytosine bases, typically at CpG dinucleotides. DNA methylation often leads to gene silencing by recruiting methyl-binding domain (MBD) proteins, which recruit histone deacetylases (HDACs) and chromatin remodeling complexes, resulting in chromatin condensation and transcriptional repression. Histone modifications include acetylation, methylation, phosphorylation, and ubiquitination of histone tails. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin structure and facilitating transcription factor binding. Histone methylation can either activate or repress gene expression, depending on the specific residue modified and the number of methyl groups added. In cancer, epigenetic modifications are often disrupted, leading to aberrant gene expression patterns. Tumor suppressor genes are frequently silenced by DNA methylation and repressive histone modifications, while oncogenes are often activated by histone acetylation and activating histone modifications. Epigenetic alterations contribute to cancer development and progression by promoting cell proliferation, inhibiting apoptosis, and stimulating angiogenesis. Epigenetic drugs, such as DNA methyltransferase (DNMT) inhibitors and HDAC inhibitors, are used to reverse these epigenetic changes and restore normal gene expression patterns in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with a suspected stroke?",
+    "answer": "Assess ABCs, obtain a CT scan of the brain to rule out hemorrhage, and determine eligibility for thrombolytic therapy (tPA) if ischemic stroke is suspected.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which gut microbiota influence host immunity and contribute to the pathogenesis of autoimmune diseases?",
+    "answer": "The gut microbiota plays a critical role in shaping host immunity through several mechanisms. Commensal bacteria produce metabolites, such as short-chain fatty acids (SCFAs), that promote immune homeostasis by modulating immune cell function. SCFAs, like butyrate, acetate, and propionate, enhance regulatory T cell (Treg) development and function, suppress pro-inflammatory cytokine production, and improve gut barrier integrity. The gut microbiota also interacts with pattern recognition receptors (PRRs), such as Toll-like receptors (TLRs), on immune cells, stimulating innate immune responses. Dysbiosis, an imbalance in the composition and function of the gut microbiota, can disrupt immune homeostasis and contribute to the pathogenesis of autoimmune diseases. Dysbiosis can lead to increased intestinal permeability, allowing bacteria and bacterial products to translocate into the systemic circulation, triggering systemic inflammation. Some gut bacteria can produce molecular mimics that cross-react with self-antigens, activating autoreactive T cells and B cells. Dysbiosis can also impair Treg development and function, leading to a loss of immune tolerance. Alterations in the gut microbiota have been implicated in the pathogenesis of several autoimmune diseases, including inflammatory bowel disease (IBD), rheumatoid arthritis (RA), and type 1 diabetes (T1D).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a new diagnosis of type 2 diabetes mellitus?",
+    "answer": "Lifestyle modifications (diet and exercise) and metformin are typically the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of exosomes in intercellular communication and how can they be exploited for diagnostic and therapeutic applications in cancer?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, miRNA) to recipient cells. In cancer, exosomes play diverse roles. Tumor-derived exosomes can promote tumor growth and metastasis by transferring oncogenic proteins and miRNAs to recipient cells, stimulating angiogenesis, and suppressing anti-tumor immunity. Exosomes can also facilitate drug resistance by transferring drug efflux pumps or survival signals to recipient cells. Conversely, exosomes can deliver anti-cancer drugs or immune-stimulatory molecules to tumor cells, enhancing therapeutic efficacy. Exosomes have potential applications in cancer diagnostics. Exosomes can be isolated from blood or other bodily fluids and analyzed for tumor-specific proteins, nucleic acids, or lipids, providing a non-invasive means of detecting cancer or monitoring treatment response. Exosomes can also be engineered to deliver therapeutic agents to tumor cells. Exosomes can be loaded with chemotherapeutic drugs, siRNAs, or immunotherapeutic agents and targeted to tumor cells by modifying their surface proteins. Engineered exosomes offer several advantages over synthetic nanoparticles, including biocompatibility, low immunogenicity, and the ability to cross biological barriers.",
+    "persona": "Researcher"
+  }
+]

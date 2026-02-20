@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a healthy, non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line options per IDSA guidelines; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level, and what are its limitations?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-stranded break at that specific site. The cell's DNA repair mechanisms then come into play, with two primary pathways: non-homologous end joining (NHEJ), which is error-prone and can lead to insertions or deletions (indels) disrupting the gene, or homology-directed repair (HDR), where a provided DNA template is used to precisely edit the gene. The efficiency of HDR is lower than NHEJ, limiting precise editing in some contexts. Off-target effects, where Cas9 cleaves unintended DNA sites with sequence similarity to the gRNA, remain a major concern, although high-fidelity Cas9 variants and improved gRNA design strategies are mitigating this issue. Delivery of CRISPR-Cas9 components into target cells and tissues also presents a challenge, especially for in vivo applications, as viral vectors or nanoparticles must efficiently and safely reach the desired cells. Immunogenicity of Cas9 proteins is another potential barrier, particularly with repeated administrations. Finally, ethical considerations surrounding germline editing and equitable access to CRISPR-based therapies are actively debated.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, A1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which metformin exerts its anti-hyperglycemic effects?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis. It activates AMPK (AMP-activated protein kinase), a cellular energy sensor, which in turn suppresses the expression of gluconeogenic enzymes such as glucose-6-phosphatase and phosphoenolpyruvate carboxykinase. Metformin also improves insulin sensitivity in peripheral tissues, enhancing glucose uptake and utilization in skeletal muscle. This effect is partially mediated by increased GLUT4 translocation to the cell membrane. Additionally, metformin alters the gut microbiome, increasing the abundance of bacteria that produce short-chain fatty acids (SCFAs), which may contribute to improved glucose homeostasis. Metformin reduces glucagon signaling by inhibiting hepatic adenylate cyclase. The precise molecular targets and pathways involved are still being elucidated, and it is likely that the combined effects on liver, muscle, and gut contribute to its overall efficacy in managing type 2 diabetes [PMID: 29618153].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with community-acquired pneumonia?",
+    "answer": "Outpatient treatment usually involves a macrolide or doxycycline; consider a respiratory fluoroquinolone if comorbidities are present per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in cancer metastasis, and how can they be targeted therapeutically?",
+    "answer": "Exosomes, nano-sized vesicles secreted by cells, facilitate cancer metastasis by transferring oncogenic proteins, microRNAs, and mRNAs to recipient cells in distant locations. These exosomal cargoes can promote angiogenesis, remodel the extracellular matrix, suppress immune responses, and enhance the migratory and invasive capabilities of cancer cells. For example, exosomes from metastatic melanoma cells have been shown to transfer microRNAs that reprogram bone marrow progenitor cells to support tumor growth at distant sites. Therapeutic strategies targeting exosomes include inhibiting their biogenesis and secretion (e.g., using GW4869, an inhibitor of ceramide synthesis), blocking their uptake by recipient cells (e.g., using heparin or specific antibodies against exosomal surface proteins), or developing drug delivery systems that utilize exosomes to selectively target cancer cells. Furthermore, exosomes can serve as biomarkers for cancer diagnosis and prognosis, enabling early detection and personalized treatment approaches. Clinical trials are underway to evaluate the efficacy of exosome-based therapies in various cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevations, and new-onset diabetes are potential side effects.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors like anti-PD-1 or anti-CTLA-4 work at the cellular and molecular levels?",
+    "answer": "Checkpoint inhibitors such as anti-PD-1 and anti-CTLA-4 antibodies work by blocking inhibitory signaling pathways that normally dampen T-cell activation and effector function. CTLA-4, expressed on T cells, competes with CD28 for binding to B7 ligands on antigen-presenting cells (APCs), delivering an inhibitory signal that prevents full T-cell activation. Anti-CTLA-4 antibodies block this interaction, promoting T-cell priming and proliferation. PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells in the tumor microenvironment. This interaction delivers an inhibitory signal that suppresses T-cell cytotoxicity and cytokine production. Anti-PD-1 antibodies block this interaction, restoring T-cell activity and enabling them to recognize and kill tumor cells. The efficacy of checkpoint inhibitors depends on the presence of pre-existing T-cell infiltration into the tumor and the expression of PD-L1 on tumor cells. However, some patients with low PD-L1 expression can also respond to these therapies, suggesting that other mechanisms may be involved.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Administer IV alteplase within 4.5 hours of symptom onset, or perform mechanical thrombectomy if indicated per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease, and how are they being targeted for therapeutic intervention?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several key signaling pathways, including amyloid-β (Aβ) production and aggregation, tau hyperphosphorylation and tangle formation, neuroinflammation, and impaired synaptic function. Aβ is generated through sequential cleavage of the amyloid precursor protein (APP) by β-secretase (BACE1) and γ-secretase. Accumulation of Aβ plaques triggers neuroinflammation and synaptic dysfunction. Tau hyperphosphorylation, mediated by kinases such as GSK-3β and CDK5, leads to the formation of neurofibrillary tangles, which disrupt neuronal transport and contribute to cell death. Therapeutic strategies targeting these pathways include BACE1 inhibitors to reduce Aβ production, anti-Aβ antibodies to clear Aβ plaques, tau kinase inhibitors to prevent tau hyperphosphorylation, and anti-inflammatory agents to reduce neuroinflammation. Clinical trials are ongoing to evaluate the efficacy of these approaches in slowing the progression of AD [PMID: 31519824].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Begin screening at age 45 with colonoscopy every 10 years, or annual fecal immunochemical test (FIT), or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what strategies can be employed to enhance antiviral immunity?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system. These include rapid mutation rates (e.g., HIV, influenza) to generate antigenic variants that escape antibody recognition, suppression of interferon (IFN) signaling pathways (e.g., by blocking IFN production or receptor signaling), inhibition of antigen presentation via MHC class I molecules, and induction of apoptosis in immune cells. Some viruses establish latency, persisting in a dormant state within host cells to avoid immune detection. Strategies to enhance antiviral immunity include vaccination to generate neutralizing antibodies and cytotoxic T cells, administration of exogenous IFN to boost antiviral responses, and development of therapeutic antibodies that target viral proteins or block viral entry into cells. Furthermore, immunomodulatory drugs that enhance T-cell function or inhibit viral replication can be used to augment antiviral immunity [PMID: 32532937].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the treatment options for atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers, rhythm control with antiarrhythmic drugs or ablation, and anticoagulation to prevent stroke.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome plays a significant role in modulating the efficacy and toxicity of cancer chemotherapy. Certain gut bacteria can metabolize chemotherapeutic drugs, either inactivating them and reducing their efficacy or converting them into toxic metabolites that exacerbate side effects. For example, some bacteria can convert irinotecan, a common chemotherapy drug, into its active metabolite SN-38, which causes severe diarrhea. Conversely, other bacteria can enhance the efficacy of chemotherapy by stimulating antitumor immune responses or producing metabolites that directly inhibit tumor growth. The composition of the gut microbiome can also influence the development of chemotherapy-induced side effects such as mucositis, neutropenia, and diarrhea. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation or administration of probiotics, are being investigated as potential approaches to improve the tolerability and efficacy of cancer chemotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial management of a patient with a suspected deep vein thrombosis (DVT)?",
+    "answer": "Initiate anticoagulation with a direct oral anticoagulant (DOAC) or low-molecular-weight heparin (LMWH) while awaiting diagnostic confirmation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, influence gene expression in normal development and disease?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation, play critical roles in regulating gene expression without altering the underlying DNA sequence. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, generally leads to gene silencing by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs), which condense chromatin structure and prevent transcription factor binding. Histone acetylation, mediated by histone acetyltransferases (HATs), adds acetyl groups to lysine residues on histone tails, neutralizing their positive charge and promoting a more open chromatin conformation that facilitates transcription. In normal development, epigenetic modifications are essential for cell differentiation and tissue-specific gene expression. In disease, aberrant epigenetic patterns can contribute to cancer, neurodevelopmental disorders, and autoimmune diseases. For example, promoter hypermethylation of tumor suppressor genes is a common mechanism of gene inactivation in cancer, while altered histone acetylation patterns can dysregulate inflammatory responses in autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key steps in managing an anaphylactic reaction?",
+    "answer": "Administer epinephrine intramuscularly, provide supplemental oxygen, and consider antihistamines and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and cellular function?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), play diverse roles in regulating gene expression and cellular function. MicroRNAs are small (~22 nucleotide) RNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to translational repression or mRNA degradation. They regulate a wide range of cellular processes, including cell proliferation, differentiation, and apoptosis. Long non-coding RNAs are transcripts longer than 200 nucleotides that do not encode proteins. They can regulate gene expression at multiple levels, including transcriptional regulation, post-transcriptional processing, and chromatin remodeling. LncRNAs can act as scaffolds, bringing together different protein complexes to regulate gene expression at specific genomic loci. They can also serve as decoys, binding to transcription factors or RNA-binding proteins and preventing them from interacting with their target genes or RNAs. Aberrant expression or function of ncRNAs has been implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the updated recommendation for tetanus and diphtheria toxoids and acellular pertussis (Tdap) vaccination in adults?",
+    "answer": "Administer one dose of Tdap to adults who have not previously received it, then Td or Tdap booster every 10 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the various mechanisms by which cancer cells develop resistance to targeted therapies, and how can these resistance mechanisms be overcome?",
+    "answer": "Cancer cells develop resistance to targeted therapies through diverse mechanisms, including on-target resistance, bypass signaling, downstream mutations, and phenotypic alterations. On-target resistance involves mutations in the drug target that prevent drug binding or reduce its inhibitory activity. Bypass signaling occurs when cancer cells activate alternative signaling pathways that circumvent the inhibited target. Downstream mutations can activate signaling molecules downstream of the targeted protein, rendering the cancer cells independent of the inhibited pathway. Phenotypic alterations, such as epithelial-mesenchymal transition (EMT), can confer resistance to targeted therapies by altering cell morphology and drug sensitivity. Strategies to overcome resistance include combination therapies that target multiple pathways simultaneously, development of next-generation inhibitors that overcome on-target resistance mutations, and use of agents that reverse phenotypic alterations. Personalized medicine approaches that identify the specific resistance mechanisms in individual patients are also being developed to guide treatment decisions.",
+    "persona": "Researcher"
+  }
+]

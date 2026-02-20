@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate or rhythm control with appropriate anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis enhance anti-tumor immunity?",
+    "answer": "The programmed cell death protein 1 (PD-1) receptor, expressed on T cells, binds to its ligand PD-L1, which is frequently upregulated on tumor cells and antigen-presenting cells within the tumor microenvironment. This interaction delivers an inhibitory signal that suppresses T-cell activation, proliferation, and cytotoxic function, enabling tumor cells to evade immune destruction. PD-1 signaling recruits phosphatases such as SHP-1 and SHP-2 to the T-cell receptor complex, interfering with downstream signaling cascades necessary for T-cell activation. Specifically, PD-1 engagement inhibits phosphorylation of ZAP70 and ERK, key signaling molecules involved in T-cell receptor-mediated activation. Furthermore, PD-1 signaling upregulates expression of inhibitory molecules such as CTLA-4 and LAG-3, compounding the suppressive effects on T-cell immunity. By blocking the interaction between PD-1 and PD-L1 with monoclonal antibodies, the inhibitory signal is disrupted, restoring T-cell effector functions within the tumor microenvironment. This leads to enhanced T-cell-mediated killing of tumor cells and improved anti-tumor responses. The effectiveness of PD-1/PD-L1 inhibitors is often correlated with pre-existing immune infiltration and PD-L1 expression levels in the tumor, suggesting that these therapies are most effective when they unleash a pre-existing anti-tumor immune response.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the target HbA1c levels for most non-pregnant adult patients with diabetes?",
+    "answer": "Generally <7.0%, but individualize based on patient factors per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which metformin exerts its anti-hyperglycemic effects?",
+    "answer": "Metformin, a biguanide, is a first-line medication for type 2 diabetes, acting through multiple mechanisms. Primarily, it reduces hepatic glucose production by inhibiting gluconeogenesis and glycogenolysis. This effect involves activation of AMP-activated protein kinase (AMPK), a cellular energy sensor. AMPK activation suppresses the expression of key gluconeogenic enzymes such as phosphoenolpyruvate carboxykinase (PEPCK) and glucose-6-phosphatase (G6Pase), reducing hepatic glucose output. Metformin also enhances insulin sensitivity in peripheral tissues, particularly skeletal muscle, by increasing glucose uptake and utilization. This occurs through translocation of the GLUT4 glucose transporter to the cell membrane, improving glucose disposal. Additionally, metformin has been shown to improve lipid metabolism, reduce intestinal glucose absorption, and modulate gut microbiota composition, contributing to its overall anti-hyperglycemic effects. While the precise molecular mechanisms of metformin action are still being elucidated, its multifaceted effects on glucose metabolism make it an effective agent for managing type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting for a previously healthy adult?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (if local resistance <25%).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses like SARS-CoV-2 evade detection by the innate immune system?",
+    "answer": "Viruses, including SARS-CoV-2, employ several strategies to evade the innate immune system. One key mechanism involves suppressing the production and signaling of type I interferons (IFNs), which are critical for antiviral defense. SARS-CoV-2 encodes proteins that interfere with the activation of pattern recognition receptors (PRRs) such as RIG-I and TLRs, which normally detect viral RNA and trigger IFN production. For example, the viral protein nsp14 has been shown to inhibit the activation of IRF3, a transcription factor essential for IFN gene expression. Additionally, SARS-CoV-2 can disrupt the trafficking of viral RNA to endosomal compartments where TLRs are located, limiting their activation. Furthermore, the virus can directly antagonize IFN signaling by interfering with the JAK-STAT pathway, which is required for the expression of interferon-stimulated genes (ISGs). By inhibiting IFN production and signaling, SARS-CoV-2 delays and weakens the antiviral response, allowing the virus to replicate more efficiently and cause more severe disease. Other evasion mechanisms include masking viral RNA from PRRs and producing decoy molecules that bind to and neutralize immune factors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with a first-time unprovoked seizure?",
+    "answer": "Assess for underlying causes; consider EEG and imaging. Antiepileptic medication may not be needed after a single seizure.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a significant role in modulating the efficacy of cancer immunotherapy, particularly immune checkpoint inhibitors. Certain gut bacterial species can enhance anti-tumor immunity by modulating immune cell activity and cytokine production. For example, studies have shown that patients with melanoma who respond to anti-PD-1 therapy often have a more diverse gut microbiome and are enriched in specific bacterial species, such as Faecalibacterium prausnitzii and Bifidobacterium longum. These bacteria can promote the trafficking of immune cells to the tumor microenvironment and enhance the cytotoxic activity of T cells. Conversely, dysbiosis, or an imbalance in the gut microbiome, can impair the response to immunotherapy. This can occur through several mechanisms, including reduced production of short-chain fatty acids (SCFAs) that promote immune homeostasis, decreased activation of dendritic cells, and increased levels of immunosuppressive metabolites. Fecal microbiota transplantation (FMT) studies have demonstrated that transferring gut microbiota from responders to non-responders can improve the efficacy of immunotherapy in preclinical models. These findings highlight the importance of the gut microbiome in shaping the immune response to cancer and suggest that modulating the gut microbiome may be a promising strategy to enhance the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient diagnosed with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or TMP-SMX; consider fosfomycin as alternative.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS oncogene drive tumorigenesis and resistance to targeted therapies?",
+    "answer": "Mutations in the KRAS oncogene are prevalent in many cancers, particularly lung, colorectal, and pancreatic cancers, and drive tumorigenesis through sustained activation of downstream signaling pathways. KRAS encodes a small GTPase that acts as a molecular switch, cycling between an inactive GDP-bound state and an active GTP-bound state. Oncogenic KRAS mutations, most commonly at codons 12, 13, or 61, impair GTPase activity, resulting in a constitutively active KRAS protein that continuously signals downstream pathways, including the MAPK/ERK and PI3K/AKT pathways. This leads to uncontrolled cell proliferation, survival, and metastasis. Furthermore, KRAS mutations can confer resistance to targeted therapies that inhibit upstream receptor tyrosine kinases (RTKs), such as EGFR. In EGFR-mutant lung cancer, for example, acquired KRAS mutations can bypass EGFR inhibition and reactivate downstream signaling, leading to resistance to EGFR inhibitors. Direct targeting of KRAS has been challenging due to the high affinity of KRAS for GTP and the lack of a readily druggable binding pocket. However, recent advances have led to the development of KRAS G12C inhibitors, which covalently bind to the KRAS G12C mutant protein and inhibit its activity, showing promising clinical activity in KRAS G12C-mutant cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other guideline-recommended options starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which bacteria develop resistance to beta-lactam antibiotics?",
+    "answer": "Bacteria have evolved several mechanisms to resist beta-lactam antibiotics, which inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs). The most common mechanism is the production of beta-lactamases, enzymes that hydrolyze the beta-lactam ring, rendering the antibiotic inactive. Beta-lactamases can be classified into different groups based on their substrate specificity and mechanism of action, with some beta-lactamases exhibiting broad-spectrum activity and others being specific to certain beta-lactam antibiotics. Another mechanism of resistance involves alterations in PBPs, reducing their affinity for beta-lactam antibiotics. This can occur through mutations in the PBP genes, leading to structural changes that prevent the antibiotic from binding effectively. Additionally, bacteria can develop resistance through efflux pumps, which actively transport beta-lactam antibiotics out of the cell, reducing their intracellular concentration. Reduced permeability of the bacterial cell wall can also contribute to resistance by limiting the entry of beta-lactam antibiotics into the cell. These resistance mechanisms can occur alone or in combination, leading to high levels of resistance to beta-lactam antibiotics.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for most patients on warfarin for atrial fibrillation?",
+    "answer": "2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion?",
+    "answer": "Autophagy, a cellular process involving the degradation and recycling of cytoplasmic components, plays a complex and context-dependent role in cancer, contributing to both tumor suppression and tumor promotion. In early stages of tumorigenesis, autophagy can act as a tumor suppressor by removing damaged organelles, misfolded proteins, and intracellular pathogens, preventing the accumulation of cellular stress and DNA damage that can drive malignant transformation. Autophagy can also selectively degrade oncogenic proteins and suppress inflammation, further contributing to tumor suppression. However, in established tumors, autophagy can promote tumor growth and survival by providing nutrients and energy during periods of stress, such as nutrient deprivation or hypoxia. Autophagy can also protect tumor cells from the cytotoxic effects of chemotherapy and radiation therapy by removing damaged organelles and proteins. Furthermore, autophagy can promote metastasis by facilitating the survival of cancer cells in the circulation and at distant sites. The dual role of autophagy in cancer highlights the importance of considering the stage of tumorigenesis and the specific tumor microenvironment when targeting autophagy for cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with acute gout flare?",
+    "answer": "NSAIDs, colchicine, or corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the primary signaling pathways activated by receptor tyrosine kinases (RTKs) and how do they regulate cellular processes?",
+    "answer": "Receptor tyrosine kinases (RTKs) are transmembrane receptors that play a crucial role in cell signaling by regulating cell growth, differentiation, survival, and metabolism. Upon binding of a ligand, RTKs undergo dimerization and autophosphorylation, leading to the activation of intracellular signaling pathways. The two primary signaling pathways activated by RTKs are the RAS/MAPK and PI3K/AKT pathways. The RAS/MAPK pathway is activated when RTKs recruit adaptor proteins such as GRB2, which binds to SOS, a guanine nucleotide exchange factor (GEF) that activates RAS. Activated RAS then activates the MAPK cascade, leading to the phosphorylation and activation of ERK, which regulates gene expression and cell proliferation. The PI3K/AKT pathway is activated when RTKs recruit PI3K, which phosphorylates phosphatidylinositol lipids, leading to the activation of AKT. AKT regulates cell survival, growth, and metabolism by phosphorylating downstream targets such as mTOR and FOXO transcription factors. These signaling pathways are tightly regulated and dysregulation of RTK signaling is a common feature of many cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for a patient diagnosed with major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitor (SSRI) or serotonin-norepinephrine reuptake inhibitor (SNRI).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, influence gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in regulating gene expression and cellular differentiation without altering the underlying DNA sequence. DNA methylation, the addition of a methyl group to cytosine bases, typically leads to gene silencing by recruiting methyl-binding proteins that promote chromatin compaction and inhibit transcription factor binding. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and regulate gene expression by influencing the accessibility of DNA to transcription factors and other regulatory proteins. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure, while histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to gene silencing by compacting chromatin. Similarly, histone methylation can either activate or repress gene expression depending on the specific histone residue modified and the type of methyl group added. These epigenetic modifications are dynamic and reversible, and they are essential for regulating cellular differentiation, development, and responses to environmental stimuli. Aberrant epigenetic modifications are associated with various diseases, including cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with new-onset, symptomatic heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "ACE inhibitor or ARNI, beta-blocker, and mineralocorticoid receptor antagonist (MRA).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and disease pathogenesis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by cells that mediate intercellular communication by transferring cargo, including proteins, lipids, and nucleic acids (mRNA, microRNA), to recipient cells. This cargo can alter the recipient cell's phenotype and function. Exosomes play a crucial role in various biological processes, including immune responses, angiogenesis, and tissue remodeling. In cancer, exosomes can promote tumor growth, metastasis, and drug resistance by transferring oncogenic proteins, microRNAs, and drug efflux pumps to recipient cells. For example, exosomes secreted by tumor cells can promote angiogenesis by delivering pro-angiogenic factors to endothelial cells, and they can promote metastasis by delivering matrix metalloproteinases (MMPs) to distant sites. Exosomes also play a role in immune regulation, either suppressing or activating immune responses depending on their cargo and the recipient immune cell. Exosomes are also involved in the pathogenesis of other diseases, including neurodegenerative disorders, cardiovascular diseases, and infectious diseases. Because exosomes reflect the composition of their cell of origin, they have potential as biomarkers for disease diagnosis and prognosis. Furthermore, exosomes can be engineered to deliver therapeutic agents to specific target cells, making them promising tools for drug delivery.",
+    "persona": "Researcher"
+  }
+]

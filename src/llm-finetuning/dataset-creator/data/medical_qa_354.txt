@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in an otherwise healthy adult?",
+    "answer": "Azithromycin or doxycycline are typically first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development and progression of atherosclerosis?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherosclerosis. Endothelial dysfunction, induced by factors like oxidized LDL and hypertension, leads to increased permeability and monocyte recruitment. These monocytes differentiate into macrophages and internalize lipids, becoming foam cells, which are a hallmark of early lesions. Inflammatory cytokines (e.g., TNF-α, IL-1β, IL-6) amplify this process by promoting further leukocyte adhesion, smooth muscle cell proliferation, and extracellular matrix remodeling. In advanced plaques, inflammation contributes to plaque instability by activating matrix metalloproteinases (MMPs) that degrade the fibrous cap. Furthermore, inflammatory signaling pathways such as NF-κB and inflammasome activation perpetuate the inflammatory cascade, creating a positive feedback loop. Systemic markers of inflammation, like high-sensitivity C-reactive protein (hsCRP), are associated with increased cardiovascular risk and can predict future events. Therapies targeting inflammatory pathways, such as colchicine (targeting NLRP3 inflammasome), have shown promise in reducing cardiovascular events in patients with established atherosclerosis, highlighting the crucial role of inflammation in disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with normal cytology results?",
+    "answer": "Every 3 years with cytology alone or every 5 years with co-testing (cytology and HPV) per ASCCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is the tumor microenvironment a critical factor in determining response to immunotherapy?",
+    "answer": "The tumor microenvironment (TME) profoundly influences the efficacy of immunotherapy through multiple interacting mechanisms. Immunosuppressive cells within the TME, such as myeloid-derived suppressor cells (MDSCs), regulatory T cells (Tregs), and M2-polarized macrophages, actively inhibit anti-tumor immune responses by releasing cytokines (e.g., IL-10, TGF-β) and expressing checkpoint molecules (e.g., PD-L1, CTLA-4 ligands). Physical barriers, including dense extracellular matrix and poor vascular perfusion, limit T cell infiltration into the tumor. Metabolic competition, particularly for glucose and essential amino acids like tryptophan, further impairs T cell function. The composition and spatial organization of the TME can predict response to checkpoint inhibitors. Tumors with 'hot' immune microenvironments, characterized by high T cell infiltration and expression of PD-L1, are more likely to respond to anti-PD-1/PD-L1 therapies. Conversely, 'cold' tumors lacking T cell infiltration require strategies to promote T cell recruitment and activation. Emerging approaches to modulate the TME include oncolytic viruses, STING agonists, and inhibitors of immunosuppressive pathways, aiming to convert 'cold' tumors into 'hot' tumors and enhance the efficacy of immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological treatment for type 2 diabetes?",
+    "answer": "Metformin is generally the first-line oral agent per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in BRCA1 and BRCA2 increase the risk of breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination repair (HRR) of double-strand DNA breaks. Mutations in these genes disrupt HRR, leading to genomic instability and an increased risk of cancer development. Cells with BRCA1/2 mutations accumulate DNA damage, which activates cell cycle checkpoints and triggers apoptosis. However, if these checkpoints are bypassed or inactivated, the cells can continue to divide with unrepaired DNA damage, ultimately leading to malignant transformation. The loss of BRCA1/2 function also impairs the repair of DNA damage induced by chemotherapeutic agents such as platinum-based drugs and PARP inhibitors. However, some tumors can acquire resistance to PARP inhibitors through restoration of HRR or stabilization of replication forks. BRCA1 and BRCA2 interact with numerous other proteins involved in DNA repair, cell cycle control, and transcription, highlighting their central role in maintaining genomic integrity. The specific mutations in BRCA1/2 can affect the severity of the defect in HRR and influence the risk of developing specific cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for acute anaphylaxis?",
+    "answer": "Epinephrine is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication in cancer?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNAs, microRNAs, DNA) between cells. In cancer, exosomes facilitate tumor growth, metastasis, angiogenesis, and immune evasion. Tumor-derived exosomes can promote angiogenesis by delivering pro-angiogenic factors (e.g., VEGF) to endothelial cells. They also contribute to metastasis by preparing distant sites for tumor cell arrival through remodeling of the extracellular matrix and suppression of immune responses. Exosomes can transfer drug resistance factors (e.g., efflux pumps) to recipient cells, reducing the effectiveness of chemotherapy. Furthermore, exosomes can modulate the immune system by delivering immunosuppressive molecules (e.g., PD-L1) to immune cells or by directly suppressing T cell activity. Exosome-based biomarkers are being explored for cancer diagnosis and prognosis, as they can reflect the molecular composition of the tumor and provide insights into disease progression. Engineered exosomes are also being developed as therapeutic delivery vehicles to target specific cells or tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a first-time venous thromboembolism?",
+    "answer": "Anticoagulation with a DOAC or warfarin for at least 3 months.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a crucial role in modulating the host immune system and influencing the efficacy of cancer immunotherapy, particularly checkpoint inhibitors. Certain bacterial species can enhance anti-tumor immunity by stimulating the production of cytokines, promoting T cell activation, and improving the trafficking of immune cells to the tumor microenvironment. Conversely, other bacterial species can suppress immune responses and promote tumor growth. Studies have shown that patients with a more diverse gut microbiome and a higher abundance of specific bacterial taxa (e.g., Akkermansia muciniphila, Faecalibacterium prausnitzii) have better responses to checkpoint inhibitors. The gut microbiome can influence the systemic immune response through the production of metabolites such as short-chain fatty acids (SCFAs), which have immunomodulatory effects. Dysbiosis, an imbalance in the gut microbiome, can impair immune function and reduce the efficacy of immunotherapy. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored to improve the response to cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "2.0-3.0 is the typical target range.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CRISPR-Cas9 and other gene editing technologies like TALENs and zinc finger nucleases (ZFNs)?",
+    "answer": "CRISPR-Cas9, TALENs, and ZFNs are all gene editing technologies that enable targeted modification of DNA sequences, but they differ in their mechanism of action, specificity, and ease of use. ZFNs and TALENs rely on protein-DNA interactions for target recognition, while CRISPR-Cas9 uses a guide RNA to direct the Cas9 nuclease to the target site. CRISPR-Cas9 is generally considered easier to design and use compared to ZFNs and TALENs, as the guide RNA sequence can be easily customized to target any DNA sequence. However, CRISPR-Cas9 can be prone to off-target effects, where the Cas9 nuclease cleaves DNA at unintended sites with sequence similarity to the target site. ZFNs and TALENs tend to have higher specificity but are more complex to design and optimize. The choice of gene editing technology depends on the specific application, the desired level of specificity, and the availability of resources and expertise.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are commonly used for acute treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion in different stages of cancer development?",
+    "answer": "Autophagy, a cellular process that degrades and recycles damaged or unnecessary cellular components, plays a complex and context-dependent role in cancer. In early stages of tumorigenesis, autophagy can act as a tumor suppressor by removing damaged organelles, preventing the accumulation of reactive oxygen species (ROS), and eliminating pre-cancerous cells. However, in established tumors, autophagy can promote tumor survival and growth by providing nutrients and energy during periods of stress, such as hypoxia or nutrient deprivation. Autophagy can also facilitate metastasis by promoting cell migration and invasion. The role of autophagy in cancer depends on the specific cancer type, the stage of the disease, and the genetic background of the tumor cells. Inhibiting autophagy may be beneficial in some cancers, while promoting autophagy may be beneficial in others. Targeting autophagy is being explored as a potential therapeutic strategy in cancer, but further research is needed to understand the complex role of autophagy in different cancer contexts.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended dose of naloxone for opioid overdose?",
+    "answer": "Administer naloxone 4mg intranasally or intramuscularly, repeat every 2-3 minutes if needed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, enabling them to establish persistent infections. These mechanisms include: 1) Antigenic variation: Viruses can rapidly mutate their surface antigens, such as hemagglutinin and neuraminidase in influenza virus, to escape recognition by neutralizing antibodies. 2) Interference with interferon signaling: Many viruses encode proteins that block the production or signaling of interferons (IFNs), which are critical for antiviral immunity. 3) Inhibition of antigen presentation: Viruses can interfere with the processing and presentation of viral antigens on MHC class I molecules, preventing recognition by cytotoxic T lymphocytes (CTLs). 4) Evasion of natural killer (NK) cell recognition: Viruses can downregulate the expression of MHC class I molecules to evade CTLs, but this can make them susceptible to NK cells. However, some viruses encode proteins that inhibit NK cell activation. 5) Induction of immunosuppression: Some viruses, such as HIV, can directly infect and kill immune cells, leading to immunosuppression. 6) Latency: Viruses can establish a latent state in which they are not actively replicating and are therefore not recognized by the immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for strep throat?",
+    "answer": "Penicillin or amoxicillin are the first-line antibiotics.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression in cancer?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), play a critical role in regulating gene expression and cellular processes in cancer. MiRNAs are small (approximately 22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. LncRNAs are longer (greater than 200 nucleotides) ncRNAs that can regulate gene expression through diverse mechanisms, including: 1) Transcriptional regulation: LncRNAs can bind to chromatin-modifying complexes and recruit them to specific genomic loci, leading to changes in histone modifications and gene transcription. 2) Post-transcriptional regulation: LncRNAs can interact with mRNAs and regulate their stability, splicing, or translation. 3) Decoy: LncRNAs can act as decoys by binding to transcription factors or miRNAs, preventing them from interacting with their target genes. 4) Scaffold: LncRNAs can serve as scaffolds, bringing together different proteins to form functional complexes. In cancer, miRNAs and lncRNAs can act as either oncogenes or tumor suppressors, depending on their target genes and cellular context. Targeting ncRNAs is being explored as a potential therapeutic strategy in cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended follow-up for a patient with a pulmonary embolism?",
+    "answer": "Assess for residual thromboembolic disease and bleeding risk, consider indefinite anticoagulation in some cases.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of liquid biopsies in personalized cancer medicine?",
+    "answer": "Liquid biopsies, which analyze circulating tumor cells (CTCs), circulating tumor DNA (ctDNA), exosomes, and other tumor-derived components in blood or other bodily fluids, offer a non-invasive approach to monitor cancer progression, assess treatment response, and identify actionable mutations. ctDNA analysis can detect mutations that are associated with drug resistance or sensitivity, allowing for personalized treatment decisions. Liquid biopsies can also be used to monitor minimal residual disease (MRD) after surgery or chemotherapy, providing an early indication of recurrence. The advantages of liquid biopsies include their non-invasive nature, their ability to capture tumor heterogeneity, and their potential to track tumor evolution over time. However, the sensitivity of liquid biopsies can be limited by the low concentration of tumor-derived components in the circulation. Technological advances, such as droplet digital PCR and next-generation sequencing, are improving the sensitivity and accuracy of liquid biopsy assays. Liquid biopsies are becoming an increasingly important tool in personalized cancer medicine, guiding treatment decisions and improving patient outcomes.",
+    "persona": "Researcher"
+  }
+]

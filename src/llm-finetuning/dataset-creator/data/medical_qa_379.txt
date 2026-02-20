@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate or rhythm control based on symptoms and comorbidities. If unstable, cardioversion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and what are the major downstream signaling pathways involved?",
+    "answer": "Mutations in KRAS, particularly at codons 12, 13, and 61, lock the protein in its GTP-bound active state, leading to constitutive activation of downstream signaling pathways. KRAS functions as a GTPase, cycling between inactive GDP-bound and active GTP-bound forms. Oncogenic mutations impair GTPase activity, preventing KRAS from returning to its inactive state. The primary downstream effectors of KRAS include the RAF-MEK-ERK MAPK pathway, the PI3K-AKT-mTOR pathway, and the Ral guanine nucleotide dissociation stimulator (RalGDS) pathway. Activation of the MAPK pathway promotes cell proliferation, differentiation, and survival. The PI3K-AKT-mTOR pathway regulates cell growth, metabolism, and survival, while the RalGDS pathway contributes to cytoskeletal rearrangement and cell migration. Different KRAS mutations and cellular contexts can preferentially activate these pathways, influencing tumor phenotype and response to therapy. While direct KRAS inhibitors have proven challenging to develop, targeting downstream effectors and exploiting synthetic lethal vulnerabilities are active areas of research.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used checkpoint inhibitors (e.g., anti-PD-1, anti-CTLA-4) in cancer immunotherapy?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 (programmed cell death protein 1) and anti-CTLA-4 (cytotoxic T-lymphocyte-associated protein 4) antibodies, unleash antitumor immune responses by blocking inhibitory signaling pathways. PD-1, expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and antigen-presenting cells (APCs). This interaction inhibits T-cell activation and effector function, promoting immune evasion. Anti-PD-1 antibodies block this interaction, restoring T-cell activity and enabling tumor cell killing. CTLA-4, also expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands on APCs. CTLA-4 binding delivers an inhibitory signal, suppressing T-cell activation, particularly in the early stages of an immune response. Anti-CTLA-4 antibodies block this interaction, enhancing T-cell priming and proliferation. Combination therapies targeting both PD-1 and CTLA-4 pathways can synergistically enhance antitumor immunity but also increase the risk of immune-related adverse events. The efficacy of checkpoint inhibitors varies depending on tumor type, mutational burden, and the presence of pre-existing immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should community-acquired pneumonia be treated in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline; macrolide if local resistance is low [IDSA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD), and how can it be therapeutically targeted?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of IBD, characterized by an imbalance (dysbiosis) in microbial composition and function. Patients with IBD often exhibit decreased microbial diversity, reduced abundance of beneficial commensals (e.g., Firmicutes), and increased abundance of opportunistic pathogens (e.g., Escherichia coli). This dysbiosis disrupts intestinal barrier function, enhances mucosal inflammation, and contributes to disease flares. The mechanisms by which the microbiome influences IBD include: (1) altered production of short-chain fatty acids (SCFAs), such as butyrate, which are important for colonocyte health and immune regulation; (2) increased production of pro-inflammatory metabolites; (3) activation of pattern recognition receptors (PRRs) on immune cells by microbial-associated molecular patterns (MAMPs); and (4) impaired development of regulatory T cells. Therapeutic strategies targeting the microbiome in IBD include dietary interventions (e.g., specific carbohydrate diets), fecal microbiota transplantation (FMT), probiotics, and antibiotics. FMT has shown promise in treating recurrent Clostridioides difficile infection and is under investigation for IBD, but its long-term efficacy and safety remain to be fully established. Selective antibiotics targeting specific pathogens are also being explored, but broad-spectrum antibiotics can exacerbate dysbiosis. Prebiotics, which promote the growth of beneficial bacteria, are another potential therapeutic avenue.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for cervical cancer?",
+    "answer": "Pap test every 3 years or co-testing (Pap test and HPV test) every 5 years for women aged 30-65 [ACS guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to cellular homeostasis and what role does it play in neurodegenerative diseases?",
+    "answer": "Autophagy is a highly conserved cellular process responsible for the degradation and recycling of damaged organelles, misfolded proteins, and intracellular pathogens. It plays a critical role in maintaining cellular homeostasis by removing toxic aggregates and providing building blocks for cellular metabolism. The process involves the formation of double-membrane vesicles called autophagosomes, which engulf cytoplasmic cargo and then fuse with lysosomes for degradation. Dysregulation of autophagy has been implicated in various diseases, including neurodegenerative disorders such as Alzheimer's disease, Parkinson's disease, and Huntington's disease. In these diseases, the accumulation of misfolded proteins (e.g., amyloid-beta, alpha-synuclein, huntingtin) overwhelms the autophagy system, leading to neuronal dysfunction and cell death. Enhancing autophagy has emerged as a potential therapeutic strategy for neurodegenerative diseases. This can be achieved through pharmacological agents (e.g., rapamycin, trehalose), genetic manipulation, or lifestyle interventions (e.g., caloric restriction, exercise). However, the precise role of autophagy in neurodegeneration is complex, and further research is needed to determine the optimal approaches for modulating this pathway for therapeutic benefit.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment for a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin, LMWH, or DOACs.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, regulate gene expression and contribute to cancer development?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in regulating gene expression without altering the underlying DNA sequence. These modifications can influence chromatin structure, accessibility of DNA to transcription factors, and recruitment of regulatory proteins. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, is generally associated with gene silencing. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, can alter chromatin structure and gene expression in diverse ways. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure. Histone methylation, mediated by histone methyltransferases (HMTs), can either activate or repress gene expression depending on the specific histone residue and the number of methyl groups added. In cancer, epigenetic alterations can lead to aberrant gene expression patterns that promote tumorigenesis. For example, hypermethylation of tumor suppressor genes can silence their expression, while hypomethylation of oncogenes can lead to their overexpression. Similarly, altered histone modification patterns can contribute to cancer development by disrupting normal gene regulation. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are used to reverse these aberrant epigenetic modifications and restore normal gene expression in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin, trimethoprim-sulfamethoxazole (TMP-SMX), or fosfomycin [IDSA guidelines].",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in insulin resistance, and how do they contribute to the development of type 2 diabetes?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes (T2D), is a condition in which cells fail to respond normally to insulin, leading to elevated blood glucose levels. Several signaling pathways contribute to the development of insulin resistance. The insulin signaling cascade begins with insulin binding to its receptor (INSR) on the cell surface, leading to receptor autophosphorylation and activation of intracellular signaling molecules, including insulin receptor substrates (IRSs). IRS proteins activate phosphatidylinositol 3-kinase (PI3K), which phosphorylates phosphatidylinositol-4,5-bisphosphate (PIP2) to generate phosphatidylinositol-3,4,5-trisphosphate (PIP3). PIP3 activates AKT, a serine/threonine kinase that regulates glucose transport, glycogen synthesis, and other metabolic processes. In insulin-resistant states, several factors can disrupt this signaling cascade, including: (1) activation of serine/threonine kinases, such as c-Jun N-terminal kinase (JNK) and IκB kinase (IKK), by inflammatory cytokines and endoplasmic reticulum (ER) stress, which phosphorylate IRS proteins on serine residues, inhibiting their ability to activate PI3K; (2) increased levels of protein tyrosine phosphatases (PTPs), which dephosphorylate the INSR and IRS proteins, reducing their activity; and (3) accumulation of diacylglycerol (DAG) and ceramide, which activate protein kinase C (PKC) isoforms that interfere with insulin signaling. These disruptions impair glucose uptake into skeletal muscle and adipose tissue, leading to hyperglycemia and compensatory hyperinsulinemia, eventually leading to pancreatic beta-cell exhaustion and T2D.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer, and what are the functions of these proteins in DNA repair?",
+    "answer": "Mutations in BRCA1 and BRCA2 significantly increase the risk of developing breast and ovarian cancer. These genes encode proteins that play critical roles in DNA repair, specifically homologous recombination (HR). BRCA1 forms a complex with other proteins, including BRCA1-associated RING domain protein 1 (BARD1), to form a ubiquitin ligase that participates in DNA damage response. BRCA1 is involved in cell cycle checkpoint control, transcriptional regulation, and DNA repair pathway choice. BRCA2 directly binds to single-stranded DNA and interacts with RAD51, a key protein in HR. HR is a high-fidelity DNA repair pathway that uses a homologous DNA template to accurately repair double-strand breaks (DSBs). When BRCA1 or BRCA2 are mutated, HR is impaired, leading to the accumulation of DNA damage. Cells with unrepaired DNA damage are more prone to genomic instability, mutations, and uncontrolled proliferation, increasing the risk of cancer. Cells deficient in BRCA1/2 become reliant on alternative, error-prone DNA repair pathways, such as non-homologous end joining (NHEJ), which can introduce mutations. The concept of synthetic lethality has been exploited therapeutically in BRCA1/2-mutated cancers. Inhibitors of poly(ADP-ribose) polymerase (PARP), an enzyme involved in single-strand break repair, are selectively toxic to BRCA1/2-deficient cells because they cannot efficiently repair DNA damage, leading to cell death.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for anaphylaxis?",
+    "answer": "Epinephrine injection; administer oxygen and antihistamines as needed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between innate and adaptive immunity, and how do they cooperate to protect the host from pathogens?",
+    "answer": "Innate and adaptive immunity represent two distinct but interconnected arms of the immune system. Innate immunity provides a rapid, non-specific response to pathogens, while adaptive immunity is slower to develop but provides highly specific and long-lasting protection. Innate immunity relies on pre-existing pattern recognition receptors (PRRs) that recognize conserved microbial structures called pathogen-associated molecular patterns (PAMPs). PRRs include Toll-like receptors (TLRs), NOD-like receptors (NLRs), and RIG-I-like receptors (RLRs). Activation of PRRs triggers the release of cytokines and chemokines, which recruit immune cells to the site of infection and initiate inflammation. Innate immune cells include macrophages, neutrophils, dendritic cells (DCs), natural killer (NK) cells, and complement proteins. Adaptive immunity is mediated by T and B lymphocytes, which recognize specific antigens via T-cell receptors (TCRs) and B-cell receptors (BCRs), respectively. T cells are responsible for cell-mediated immunity, while B cells produce antibodies, which mediate humoral immunity. Adaptive immunity exhibits immunological memory, allowing for a faster and more robust response upon re-exposure to the same antigen. The innate and adaptive immune systems cooperate to eliminate pathogens. DCs, which are part of the innate immune system, capture antigens and present them to T cells, initiating the adaptive immune response. Cytokines produced by innate immune cells influence the differentiation of T cells and the isotype switching of antibodies. Antibodies produced by B cells can opsonize pathogens, enhancing their phagocytosis by macrophages and neutrophils. The complement system, which is part of the innate immune system, can be activated by antibodies, leading to pathogen lysis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) and adjunctive dexamethasone.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer progression and therapeutic response, and what are the key cellular and molecular components of the TME?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in cancer progression, metastasis, and therapeutic response. The TME is a complex ecosystem surrounding tumor cells, composed of various cellular and molecular components, including fibroblasts, immune cells, endothelial cells, extracellular matrix (ECM), growth factors, cytokines, and chemokines. Cancer-associated fibroblasts (CAFs) promote tumor growth, angiogenesis, and ECM remodeling. Immune cells, such as tumor-associated macrophages (TAMs), myeloid-derived suppressor cells (MDSCs), and regulatory T cells (Tregs), can suppress antitumor immunity and promote immune evasion. Endothelial cells form new blood vessels (angiogenesis) that supply nutrients and oxygen to the tumor. The ECM provides structural support and influences cell signaling and migration. Growth factors, cytokines, and chemokines regulate cell proliferation, survival, and migration within the TME. The TME can influence cancer progression through various mechanisms, including: (1) promoting tumor cell proliferation and survival; (2) inducing angiogenesis; (3) suppressing antitumor immunity; (4) facilitating ECM remodeling and invasion; and (5) promoting metastasis. The TME can also influence therapeutic response. For example, dense ECM can limit drug penetration into the tumor, while immunosuppressive cells can inhibit the efficacy of immunotherapy. Targeting the TME is an active area of research, with strategies aimed at inhibiting angiogenesis, depleting immunosuppressive cells, and modulating ECM remodeling.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the management of a patient with a suspected stroke?",
+    "answer": "Rapid assessment, neuroimaging, and consideration of thrombolytic therapy if appropriate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in gene regulation and disease pathogenesis?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a class of RNA molecules longer than 200 nucleotides that do not encode proteins. They represent a major component of the mammalian transcriptome and play diverse roles in gene regulation and disease pathogenesis. LncRNAs can regulate gene expression at multiple levels, including transcriptional regulation, post-transcriptional processing, and epigenetic modification. They can act as scaffolds, bringing together different proteins to form regulatory complexes; guides, directing regulatory proteins to specific DNA or RNA targets; decoys, sequestering regulatory proteins away from their targets; or enhancers, promoting gene expression. LncRNAs are involved in various cellular processes, including development, differentiation, and stress response. Dysregulation of lncRNA expression has been implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders. For example, the lncRNA HOTAIR promotes metastasis in breast cancer by recruiting PRC2 to silence tumor suppressor genes. The lncRNA MALAT1 is involved in angiogenesis and tumor growth. Targeting lncRNAs is an emerging therapeutic strategy, with approaches aimed at inhibiting their expression or disrupting their interactions with other molecules. However, the development of lncRNA-based therapies is still in its early stages, and further research is needed to fully understand their functions and therapeutic potential.",
+    "persona": "Researcher"
+  }
+]

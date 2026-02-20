@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline; macrolides are alternatives only if local resistance rates are low per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing in mammalian cells, and what are the major limitations?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a specific DNA sequence, directing the Cas9 nuclease to induce a double-strand break (DSB) at that site. The cell repairs the DSB via non-homologous end joining (NHEJ), often resulting in small insertions or deletions that disrupt gene function, or homology-directed repair (HDR) if a donor template is provided, enabling precise sequence editing. Key limitations include off-target effects (Cas9 cutting at unintended sites with similar sequences), delivery challenges (efficiently introducing CRISPR components into target cells or tissues, especially in vivo), and potential immunogenicity, particularly with certain Cas9 variants. Mosaicism (incomplete editing across the cell population) and ethical concerns surrounding germline editing also pose significant hurdles. Further refinement of Cas9 specificity, development of more efficient delivery systems like viral vectors or lipid nanoparticles, and exploration of alternative CRISPR systems (e.g., base editors, prime editors) are ongoing to address these limitations and expand the therapeutic potential of CRISPR-Cas9.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for heart failure with preserved ejection fraction (HFpEF)?",
+    "answer": "Symptoms and signs of heart failure, LVEF ≥50%, and evidence of structural heart disease (LVH or LA enlargement) or diastolic dysfunction by echocardiography or elevated BNP per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and sulfonylureas in the treatment of type 2 diabetes mellitus.",
+    "answer": "Metformin primarily reduces hepatic glucose production and enhances insulin sensitivity in peripheral tissues (muscle), largely via activation of AMPK and downstream effects on gluconeogenic enzymes and glucose transporters. It does not directly stimulate insulin secretion. Sulfonylureas, on the other hand, bind to the SUR1 subunit of the KATP channel in pancreatic beta cells, causing channel closure, membrane depolarization, calcium influx, and subsequent insulin release. Thus, sulfonylureas are insulin secretagogues, increasing insulin levels regardless of glucose concentration, which carries a higher risk of hypoglycemia compared to metformin. While both agents lower blood glucose, their mechanisms and side effect profiles differ substantially; metformin is generally considered first-line therapy due to its lower risk of hypoglycemia and potential cardiovascular benefits compared to sulfonylureas.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is acute bacterial meningitis typically diagnosed?",
+    "answer": "Lumbar puncture for CSF analysis (cell count, protein, glucose, Gram stain, and culture) is essential; blood cultures should also be obtained prior to antibiotics.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome significantly influences both the efficacy and toxicity of numerous chemotherapeutic agents. Certain bacterial species can metabolize chemotherapy drugs, either inactivating them (reducing efficacy) or converting them into toxic metabolites (increasing toxicity). For instance, some bacteria express beta-glucuronidase, which reactivates glucuronide-conjugated chemotherapeutics like irinotecan, leading to increased diarrhea. Conversely, other bacteria can enhance the anti-tumor effects of certain drugs, possibly by modulating immune responses or producing anti-cancer metabolites. Chemotherapy itself can disrupt the gut microbiome, causing dysbiosis, which can lead to increased intestinal permeability, inflammation, and systemic complications like sepsis. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) or administration of specific probiotics, are being investigated to improve chemotherapy outcomes and reduce adverse effects. However, the complexity of the gut microbiome and its interactions with chemotherapy drugs necessitate careful consideration and personalized approaches.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone?",
+    "answer": "Every 3 years for women aged 21-29 years, according to current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain confer resistance to EGFR inhibitors in non-small cell lung cancer (NSCLC)?",
+    "answer": "Mutations in the EGFR tyrosine kinase domain, particularly the T790M mutation, are a major mechanism of acquired resistance to first- and second-generation EGFR tyrosine kinase inhibitors (TKIs) like gefitinib and erlotinib in NSCLC. The T790M mutation sterically hinders the binding of these reversible TKIs to EGFR, reducing their efficacy. Third-generation EGFR TKIs, such as osimertinib, are designed to overcome T790M-mediated resistance by forming irreversible covalent bonds with EGFR, including mutant forms. However, other resistance mechanisms can emerge, including mutations downstream of EGFR (e.g., in RAS/MAPK or PI3K/AKT pathways), bypass signaling through other receptor tyrosine kinases (e.g., MET amplification), or histologic transformation to small cell lung cancer. Understanding these resistance mechanisms is crucial for developing strategies to prolong the effectiveness of EGFR-targeted therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a suspected acute ischemic stroke?",
+    "answer": "Rapid assessment, neuroimaging to rule out hemorrhage, and consideration of intravenous thrombolysis (alteplase) within 4.5 hours of symptom onset if eligible.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Describe the role of long non-coding RNAs (lncRNAs) in regulating gene expression and their potential implications in cancer biology.",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that lack significant protein-coding potential but play crucial roles in regulating gene expression at multiple levels. They can act as scaffolds, guiding proteins to specific DNA loci; as decoys, sequestering transcription factors or RNA-binding proteins; as signals, influencing signaling pathways; or as guides, directing chromatin-modifying complexes to target genes. In cancer, lncRNAs can function as oncogenes or tumor suppressors, influencing processes such as cell proliferation, apoptosis, metastasis, and drug resistance. For example, HOTAIR promotes metastasis by recruiting PRC2 to silence tumor suppressor genes, while MALAT1 regulates alternative splicing and promotes angiogenesis. Given their tissue-specific expression and diverse regulatory mechanisms, lncRNAs represent promising therapeutic targets and biomarkers in cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days are first-line options, per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors targeting PD-1/PD-L1 enhance antitumor immunity, and what are the common immune-related adverse events (irAEs) associated with their use?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells that interacts with its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells. This interaction suppresses T-cell activation and effector function, allowing tumor cells to evade immune destruction. Anti-PD-1/PD-L1 antibodies block this interaction, unleashing T-cell responses against tumor cells. Common irAEs arise from the broad activation of the immune system and can affect virtually any organ system. These include pneumonitis, colitis, hepatitis, endocrinopathies (e.g., thyroiditis, adrenal insufficiency), and dermatologic toxicities. The management of irAEs typically involves corticosteroids and, in severe cases, other immunosuppressants. Recognizing and promptly treating irAEs is crucial for minimizing morbidity and mortality associated with checkpoint inhibitor therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, cold intolerance, and depression are typical.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of statins and PCSK9 inhibitors in lowering LDL cholesterol.",
+    "answer": "Statins inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis, leading to reduced intracellular cholesterol levels in hepatocytes. This triggers an increase in the expression of LDL receptors on the liver cell surface, enhancing the uptake of LDL cholesterol from the bloodstream. PCSK9 (proprotein convertase subtilisin/kexin type 9) is a protein that binds to LDL receptors, promoting their degradation. PCSK9 inhibitors, such as evolocumab and alirocumab, are monoclonal antibodies that block the interaction between PCSK9 and LDL receptors, preventing receptor degradation and increasing the number of LDL receptors available to clear LDL cholesterol from the circulation. Thus, statins increase LDL receptor expression indirectly by reducing intracellular cholesterol, while PCSK9 inhibitors directly prevent LDL receptor degradation, resulting in additive LDL-lowering effects when used in combination.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin is the mainstay of therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting CAR T-cells work to eliminate cancer cells, and what are some potential side effects?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a CAR that recognizes a specific antigen on cancer cells (e.g., CD19 in B-cell lymphomas). These engineered CAR T-cells are then infused back into the patient, where they bind to the target antigen, become activated, and kill cancer cells. This process is independent of MHC restriction, allowing CAR T-cells to target tumors that have downregulated MHC expression to evade traditional T-cell immunity. Potential side effects include cytokine release syndrome (CRS), a systemic inflammatory response caused by massive cytokine release from activated CAR T-cells; immune effector cell-associated neurotoxicity syndrome (ICANS), which can manifest as confusion, seizures, or even coma; and B-cell aplasia, due to the targeting of CD19 on normal B cells. Management of these side effects often requires immunosuppression and supportive care.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute exacerbation of asthma?",
+    "answer": "Inhaled short-acting beta-agonists and systemic corticosteroids are the primary treatments.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Describe the role of exosomes in intercellular communication and their relevance to cancer progression and metastasis.",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by virtually all cell types that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, miRNA, DNA) between cells. In cancer, exosomes play a multifaceted role in promoting tumor progression and metastasis. Tumor-derived exosomes can deliver oncogenic proteins and miRNAs to recipient cells, altering their behavior and promoting tumor growth, angiogenesis, and immune evasion. They can also remodel the tumor microenvironment, creating a pre-metastatic niche that facilitates the colonization of distant organs by cancer cells. Furthermore, exosomes can contribute to drug resistance by transferring drug efflux pumps or resistance-conferring miRNAs to sensitive cells. Exosomes are being explored as biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets for inhibiting metastasis and drug resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of a urinary tract infection (UTI)?",
+    "answer": "Dysuria, frequency, urgency, and suprapubic pain are common symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does next-generation sequencing (NGS) technology revolutionize the diagnosis and treatment of genetic disorders and cancer?",
+    "answer": "Next-generation sequencing (NGS) technologies enable massively parallel sequencing of DNA or RNA, allowing for rapid and cost-effective analysis of entire genomes, exomes, or transcriptomes. In genetic disorders, NGS facilitates the identification of causative mutations, enabling accurate diagnosis, carrier screening, and prenatal testing. In cancer, NGS is used to identify somatic mutations driving tumor growth and metastasis, predict response to targeted therapies, monitor treatment efficacy, and detect minimal residual disease. NGS allows for personalized medicine approaches, tailoring treatment strategies based on an individual's genomic profile. Furthermore, NGS is accelerating the discovery of novel disease-causing genes and pathways, leading to a better understanding of disease mechanisms and the development of new therapeutic interventions.",
+    "persona": "Researcher"
+  }
+]

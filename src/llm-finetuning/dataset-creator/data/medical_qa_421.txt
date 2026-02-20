@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Administer rate-controlling medications such as intravenous beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem) to slow the ventricular rate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR gene contribute to the development of resistance to tyrosine kinase inhibitors in non-small cell lung cancer?",
+    "answer": "Mutations in the epidermal growth factor receptor (EGFR) gene, particularly the T790M mutation, are a common mechanism of acquired resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC). First- and second-generation EGFR TKIs reversibly bind the ATP-binding pocket of EGFR, inhibiting its kinase activity. The T790M mutation, located in this pocket, sterically hinders the binding of these reversible inhibitors, reducing their affinity for EGFR and restoring downstream signaling. Additionally, T790M increases the affinity of EGFR for ATP, further diminishing the effectiveness of reversible TKIs. Third-generation EGFR TKIs, such as osimertinib, were developed to specifically target both EGFR-activating mutations and T790M. However, resistance to osimertinib can arise through alternative mechanisms, including the emergence of C797S mutations that prevent osimertinib binding, MET amplification that bypasses EGFR signaling, or histologic transformation to small cell lung cancer. Understanding these resistance mechanisms is crucial for guiding subsequent treatment strategies, such as the use of alternative TKIs, MET inhibitors, or chemotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE) according to the 2019 EULAR/ACR classification criteria?",
+    "answer": "Positive ANA at least once is required, followed by weighted criteria in domains like clinical (constitutional, hematologic, neuropsychiatric, mucocutaneous, serosal, musculoskeletal, renal) and immunological.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy and toxicity of cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Certain bacterial species can enhance the anti-tumor immune response by promoting the activation and infiltration of T cells into the tumor microenvironment. For example, species like *Akkermansia muciniphila* and *Faecalibacterium prausnitzii* have been associated with improved responses to anti-PD-1 therapy in melanoma and NSCLC [PMID: 29094886]. These bacteria can stimulate dendritic cells, enhance T cell priming, and increase the production of pro-inflammatory cytokines like IFN-γ. Conversely, dysbiosis of the gut microbiome, often induced by antibiotics or other environmental factors, can impair the response to ICIs and promote immune-related adverse events (irAEs). Specific bacterial species, such as *Bacteroides fragilis*, have been linked to increased risk of colitis during ICI therapy. The mechanisms underlying these effects involve modulation of the host's immune system, including the balance between pro-inflammatory and regulatory T cells. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being investigated as potential approaches to enhance the efficacy and reduce the toxicity of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a premenopausal, non-pregnant woman?",
+    "answer": "Nitrofurantoin monohydrate/macrocrystals for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, if local resistance rates are low (less than 20%).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer?",
+    "answer": "Mutations in BRCA1 and BRCA2, tumor suppressor genes involved in DNA repair, significantly increase the risk of developing breast and ovarian cancer. These genes encode proteins crucial for homologous recombination, a high-fidelity DNA repair pathway that fixes double-strand breaks. When BRCA1 or BRCA2 is mutated, this repair mechanism is compromised, leading to an accumulation of DNA damage and genomic instability. Cells with unrepaired DNA damage are more likely to undergo uncontrolled proliferation and malignant transformation. Furthermore, BRCA1 and BRCA2 play roles in cell cycle control and apoptosis, and their dysfunction can disrupt these processes, contributing to cancer development. The specific types of mutations and their location within the genes can influence the degree of cancer risk. Cells lacking functional BRCA1 or BRCA2 become highly dependent on alternative DNA repair pathways, such as non-homologous end joining (NHEJ), which is error-prone. This dependence creates a therapeutic vulnerability that can be exploited with PARP inhibitors, which block another DNA repair pathway, leading to synthetic lethality in BRCA-deficient cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the current recommendation for initial insulin therapy in a patient with type 2 diabetes inadequately controlled on metformin?",
+    "answer": "Initiate basal insulin (e.g., insulin glargine or detemir) typically at 10 units daily or 0.1-0.2 units/kg/day, and titrate to fasting glucose target.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system and establish persistent infections?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system and establish persistent infections. One common mechanism is antigenic variation, where viruses mutate rapidly, altering surface proteins that are recognized by antibodies and T cells. Examples include influenza virus and HIV, which undergo frequent antigenic drift and shift. Another strategy involves the suppression of host immune responses. Some viruses encode proteins that interfere with the interferon pathway, a critical antiviral defense mechanism. For example, certain viral proteins can inhibit the activation of interferon regulatory factors (IRFs) or block the signaling of interferon receptors. Latency is another key mechanism, where viruses enter a quiescent state within host cells, avoiding detection by the immune system. Examples include herpesviruses, which can establish lifelong latent infections in neurons or immune cells. In addition, some viruses can directly infect and impair immune cells, such as HIV infecting CD4+ T cells. Finally, viruses can physically hide from the immune system by replicating in immune-privileged sites, such as the brain or testes, where immune surveillance is limited.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient diagnosed with deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) such as rivaroxaban or apixaban, or with warfarin (after bridging with heparin or low-molecular-weight heparin).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment influence the development of drug resistance in cancer cells?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in the development of drug resistance in cancer cells through multiple interacting mechanisms. The TME consists of various cell types, including fibroblasts, immune cells, and endothelial cells, as well as extracellular matrix (ECM) components, signaling molecules, and physical factors such as hypoxia and nutrient deprivation. Cancer-associated fibroblasts (CAFs) can secrete growth factors and cytokines that promote cancer cell survival and proliferation, reducing their sensitivity to chemotherapy or targeted therapies. Immune cells within the TME can either promote or suppress anti-tumor immunity, and immunosuppressive cells such as regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs) can shield cancer cells from immune-mediated killing. Hypoxia, a common feature of the TME, can activate hypoxia-inducible factor-1 (HIF-1), which upregulates genes involved in angiogenesis, glucose metabolism, and drug resistance. The ECM can physically impede drug delivery to cancer cells and can also activate signaling pathways that promote drug resistance. Furthermore, exosomes released by cells within the TME can transfer drug resistance factors, such as microRNAs and proteins, to cancer cells. Targeting the TME is therefore an emerging strategy to overcome drug resistance and improve cancer treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Start regular screening at age 45 via stool-based tests (fecal immunochemical test annually or multi-targeted stool DNA test every 3 years) or structural exams (colonoscopy every 10 years or CT colonography every 5 years).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "The pathogenesis of Alzheimer's disease (AD) involves a complex interplay of several signaling pathways. Amyloid-beta (Aβ) plaques and neurofibrillary tangles, composed of hyperphosphorylated tau protein, are the pathological hallmarks of AD. Aβ accumulation activates several signaling cascades, including the activation of kinases such as glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5), which further promote tau phosphorylation. Aβ also induces oxidative stress and inflammation, activating pathways such as the NF-κB pathway, which contributes to neuronal damage. Dysfunction of insulin signaling, including reduced expression of insulin receptors and impaired insulin-stimulated glucose uptake, has also been implicated in AD. This can lead to increased GSK-3 activity and Aβ production. Furthermore, disruptions in calcium homeostasis, mediated by channels such as the ryanodine receptor and the IP3 receptor, contribute to excitotoxicity and neuronal death. These pathways are interconnected and contribute to the progressive neurodegeneration seen in AD. Targeting these signaling pathways is a major focus of current therapeutic efforts.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with a suspected acute ischemic stroke?",
+    "answer": "Rapid assessment including NIHSS score, followed by non-contrast CT scan to rule out hemorrhage. If eligible, administer intravenous alteplase within 4.5 hours of symptom onset, or consider endovascular thrombectomy for large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to the development and progression of cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in the development and progression of cancer. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpGs), can silence gene expression by recruiting methyl-binding domain proteins and histone deacetylases. Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor genes and hypomethylation of oncogenes, are frequently observed in cancer cells. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and regulate gene expression. For example, histone acetylation generally promotes gene transcription, while histone methylation can either activate or repress gene expression depending on the specific histone residue modified. Alterations in histone modification patterns are also commonly observed in cancer cells. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression at the post-transcriptional level. miRNAs can bind to mRNA targets and inhibit their translation or promote their degradation, while lncRNAs can regulate gene expression through various mechanisms, including chromatin remodeling and transcriptional interference. Dysregulation of miRNA and lncRNA expression is frequently observed in cancer cells and contributes to cancer development and progression. Epigenetic modifications are reversible and can be targeted by epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, which have shown promise in cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an otherwise healthy outpatient adult?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (azithromycin or clarithromycin) if local macrolide resistance rates are <25%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the primary mechanisms of action of checkpoint inhibitors in cancer immunotherapy?",
+    "answer": "Checkpoint inhibitors in cancer immunotherapy work primarily by blocking inhibitory signaling pathways that normally restrain T cell activity, thereby enhancing the anti-tumor immune response. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are two key immune checkpoints that are targeted by these inhibitors. CTLA-4, expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs). By blocking CTLA-4, checkpoint inhibitors enhance T cell activation and proliferation. PD-1, also expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often overexpressed on tumor cells. This interaction inhibits T cell effector function and promotes immune evasion. PD-1 inhibitors block the interaction between PD-1 and its ligands, restoring T cell activity and allowing them to recognize and kill cancer cells. These checkpoint inhibitors can unleash the power of the immune system to attack and eliminate cancer cells, leading to durable responses in some patients. However, they can also cause immune-related adverse events due to the activation of T cells against normal tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial therapy for a patient diagnosed with hypothyroidism?",
+    "answer": "Levothyroxine (synthetic T4) at a starting dose of approximately 1.6 mcg/kg/day, adjusted based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, particularly microRNAs (miRNAs), regulate gene expression in eukaryotic cells?",
+    "answer": "Non-coding RNAs, particularly microRNAs (miRNAs), play a crucial role in regulating gene expression in eukaryotic cells through various mechanisms. miRNAs are small, non-coding RNA molecules, typically 21-23 nucleotides in length, that regulate gene expression at the post-transcriptional level. miRNAs typically bind to the 3' untranslated region (UTR) of target messenger RNAs (mRNAs), leading to translational repression or mRNA degradation. The binding of miRNAs to their target mRNAs is guided by sequence complementarity, with the 'seed' region (nucleotides 2-8 at the 5' end of the miRNA) playing a critical role in target recognition. A single miRNA can target hundreds of different mRNAs, and a single mRNA can be targeted by multiple miRNAs, allowing for complex and coordinated regulation of gene expression networks. miRNAs are involved in a wide range of cellular processes, including development, differentiation, proliferation, apoptosis, and immune responses. Dysregulation of miRNA expression has been implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders. miRNAs can also be secreted from cells and circulate in bodily fluids, where they can serve as biomarkers for disease diagnosis and prognosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with new-onset symptomatic heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "Start with an ACE inhibitor or ARNI (angiotensin receptor-neprilysin inhibitor), beta-blocker, and mineralocorticoid receptor antagonist (MRA), guided by guideline-directed medical therapy (GDMT).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Bacteria have evolved several mechanisms to resist the effects of antibiotics, including enzymatic inactivation, target modification, efflux pumps, and reduced permeability. Enzymatic inactivation involves the production of enzymes that degrade or modify antibiotics, rendering them inactive. For example, beta-lactamases hydrolyze beta-lactam antibiotics, such as penicillin and cephalosporins. Target modification involves alterations in the bacterial target site of the antibiotic, reducing its affinity for the drug. Examples include mutations in penicillin-binding proteins (PBPs) that confer resistance to beta-lactam antibiotics. Efflux pumps actively pump antibiotics out of the bacterial cell, reducing their intracellular concentration. Reduced permeability involves changes in the bacterial cell wall or membrane that decrease the entry of antibiotics into the cell. These resistance mechanisms can be acquired through horizontal gene transfer, such as conjugation, transduction, or transformation, allowing bacteria to rapidly spread resistance genes to other bacteria. The overuse and misuse of antibiotics have contributed to the selection and spread of antibiotic-resistant bacteria, posing a significant threat to public health.",
+    "persona": "Researcher"
+  }
+]

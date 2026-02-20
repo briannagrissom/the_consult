@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV; may repeat every 3-5 minutes to a total dose of 3mg. Consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology function at a molecular level, and what are the key factors determining its specificity?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence to direct the Cas9 nuclease to that specific location in the genome. The Cas9 protein then creates a double-stranded break (DSB) at the targeted site. Cellular repair mechanisms then come into play; non-homologous end joining (NHEJ) can introduce insertions or deletions (indels), effectively disrupting the gene. Alternatively, if a donor DNA template with homology to the cut site is provided, homology-directed repair (HDR) can be used to insert a specific sequence. Specificity is primarily determined by the gRNA sequence and the presence of a protospacer adjacent motif (PAM) sequence (NGG for Streptococcus pyogenes Cas9) immediately downstream of the target site. Off-target effects can occur due to sequence similarity between the gRNA and other genomic regions; factors such as gRNA design, Cas9 variant, and delivery method influence the frequency and location of off-target edits. Newer high-fidelity Cas9 variants and truncated gRNAs can significantly reduce off-target activity [PMID: 27548652].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of a patient with new-onset atrial fibrillation?",
+    "answer": "Palpitations, shortness of breath, fatigue, lightheadedness, or chest pain. Some patients may be asymptomatic.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer?",
+    "answer": "Resistance to EGFR TKIs arises through multiple mechanisms, with the most common being the EGFR T790M mutation, which sterically hinders TKI binding. Other mechanisms include MET amplification, which activates downstream signaling pathways independent of EGFR; bypass signaling through HER2 or HER3 activation; epithelial-mesenchymal transition (EMT); and small cell lung cancer transformation. Additionally, PIK3CA mutations and BRAF fusions can lead to TKI resistance. These diverse mechanisms highlight the need for comprehensive genomic profiling to guide treatment strategies after initial TKI failure. Combinatorial approaches targeting multiple resistance pathways are under active investigation [PMID: 26658163].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with a normal Pap test and HPV test?",
+    "answer": "Every 3-5 years with co-testing (Pap and HPV) per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors like anti-PD-1 or anti-CTLA-4 antibodies enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors enhance anti-tumor immunity by blocking inhibitory signals that normally dampen T-cell activation and effector function. CTLA-4 blockade primarily affects T-cell priming in lymph nodes by blocking the interaction of CTLA-4 with B7 molecules on antigen-presenting cells, leading to enhanced T-cell activation and proliferation. PD-1 blockade, on the other hand, primarily acts in the tumor microenvironment by blocking the interaction of PD-1 on T cells with PD-L1 or PD-L2 on tumor cells or immune cells, thereby preventing T-cell exhaustion and restoring cytotoxic activity. Combination strategies targeting both CTLA-4 and PD-1 can synergistically enhance anti-tumor responses but also increase the risk of immune-related adverse events [PMID: 25519181].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (azithromycin or clarithromycin) per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between mRNA vaccines and traditional vaccines in terms of mechanism of action and potential advantages?",
+    "answer": "Traditional vaccines typically introduce weakened or inactivated pathogens or subunit antigens to stimulate an immune response. In contrast, mRNA vaccines deliver mRNA encoding a specific antigen (e.g., a viral spike protein) into host cells. This mRNA is then translated by the host cell's ribosomes, producing the antigen, which is subsequently processed and presented to the immune system. mRNA vaccines offer several potential advantages, including rapid development and production, the ability to express multiple antigens simultaneously, and the absence of infectious agents, reducing the risk of infection. They also elicit both humoral and cellular immune responses. However, mRNA vaccines require stringent storage conditions due to mRNA instability and may elicit strong inflammatory responses [PMID: 32961143].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "A1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or a random plasma glucose ≥200 mg/dL in a patient with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), generally leads to transcriptional repression when occurring in promoter regions of genes involved in tumor suppression or DNA repair. Histone acetylation, mediated by histone acetyltransferases (HATs), typically promotes gene transcription by relaxing chromatin structure, whereas histone deacetylation, mediated by histone deacetylases (HDACs), generally leads to transcriptional repression. In cancer, aberrant DNA methylation patterns (e.g., hypermethylation of tumor suppressor genes and hypomethylation of oncogenes) and altered histone modification profiles can dysregulate critical cellular pathways involved in cell cycle control, apoptosis, and DNA repair, thereby promoting tumorigenesis and metastasis. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, are used to reverse these aberrant epigenetic modifications and restore normal gene expression patterns [PMID: 20628693].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with a first-time seizure?",
+    "answer": "Assess for underlying cause (e.g., metabolic abnormalities, structural lesions). Antiepileptic drug therapy is generally not initiated after a single unprovoked seizure unless there are significant risk factors for recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of the microbiome in shaping host immunity and influencing the response to cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in shaping both innate and adaptive immunity. Certain bacterial species promote the development and maturation of immune cells, such as T cells and dendritic cells, and influence the production of cytokines that regulate immune responses. In the context of cancer immunotherapy, specific bacterial taxa have been associated with improved responses to checkpoint inhibitors. For example, Akkermansia muciniphila has been linked to enhanced anti-tumor immunity and improved outcomes in patients treated with anti-PD-1 therapy. Conversely, dysbiosis of the gut microbiome can impair immune function and reduce the efficacy of immunotherapy. Mechanisms underlying these effects include modulation of antigen presentation, enhancement of T-cell trafficking to the tumor microenvironment, and production of metabolites that influence immune cell activity. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being investigated to enhance the efficacy of cancer immunotherapy [PMID: 29094651].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key clinical features that differentiate ischemic stroke from hemorrhagic stroke?",
+    "answer": "While clinical features can overlap, sudden severe headache, vomiting, and altered level of consciousness are more common in hemorrhagic stroke. Neuroimaging (CT or MRI) is required for definitive differentiation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect, characterized by increased glycolysis in cancer cells, contribute to tumor growth and survival?",
+    "answer": "The Warburg effect, or aerobic glycolysis, describes the phenomenon where cancer cells preferentially utilize glycolysis for energy production even in the presence of sufficient oxygen. This metabolic shift provides cancer cells with several advantages. First, glycolysis produces metabolic intermediates that can be used for biosynthesis of macromolecules, such as nucleotides, amino acids, and lipids, which are essential for cell growth and proliferation. Second, glycolysis generates less reactive oxygen species (ROS) compared to oxidative phosphorylation, reducing oxidative stress and promoting cell survival. Third, the acidic microenvironment resulting from lactate production can promote tumor invasion and metastasis by degrading the extracellular matrix. Furthermore, altered expression of glycolytic enzymes, such as hexokinase 2 (HK2) and pyruvate kinase M2 (PKM2), contributes to the Warburg effect and can serve as therapeutic targets [PMID: 16424007].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin (Macrobid) or trimethoprim-sulfamethoxazole (Bactrim) or fosfomycin per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease, and how do they contribute to neuronal dysfunction and death?",
+    "answer": "Several signaling pathways are implicated in Alzheimer's disease (AD) pathogenesis. The amyloid cascade hypothesis posits that accumulation of amyloid-beta (Aβ) plaques triggers a cascade of events leading to neuronal dysfunction and death. Aβ oligomers can activate inflammatory pathways, induce oxidative stress, and disrupt synaptic function. Tau hyperphosphorylation and aggregation into neurofibrillary tangles are another hallmark of AD. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are key kinases involved in tau phosphorylation. Impaired insulin signaling, particularly reduced insulin receptor substrate-1 (IRS-1) phosphorylation, has also been linked to AD. Additionally, dysregulation of calcium homeostasis, activation of apoptotic pathways, and impaired autophagy contribute to neuronal loss. These complex and interconnected signaling pathways highlight the multifaceted nature of AD pathogenesis and the challenges in developing effective therapies [PMID: 19661970].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial management for a patient with a suspected pulmonary embolism?",
+    "answer": "Start anticoagulation with heparin or direct oral anticoagulant (DOAC) while awaiting diagnostic confirmation with CT angiography or V/Q scan per CHEST guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the adaptive immune system distinguish between self and non-self antigens, and what mechanisms prevent autoimmunity?",
+    "answer": "The adaptive immune system distinguishes between self and non-self antigens through a complex process involving both central and peripheral tolerance mechanisms. Central tolerance occurs during lymphocyte development in the thymus (T cells) and bone marrow (B cells), where self-reactive lymphocytes are eliminated or rendered anergic (unresponsive). Negative selection in the thymus eliminates T cells that bind strongly to self-antigens presented on MHC molecules. Peripheral tolerance mechanisms, such as regulatory T cells (Tregs), clonal anergy, and receptor editing, prevent self-reactive lymphocytes that escape central tolerance from causing autoimmune reactions in the periphery. Tregs suppress the activity of self-reactive T cells, while clonal anergy induces a state of unresponsiveness in T cells that encounter self-antigens without adequate co-stimulation. Receptor editing in B cells involves the rearrangement of immunoglobulin genes to change the specificity of the B-cell receptor, thereby eliminating self-reactivity. Failure of these tolerance mechanisms can lead to autoimmune diseases [PMID: 11986265].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain (myalgia), elevated liver enzymes, and rarely rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication, and how can they be utilized in cancer diagnostics and therapeutics?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) that are secreted by cells and mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA) to recipient cells. In cancer, exosomes play a critical role in tumor microenvironment remodeling, immune suppression, and metastasis. Cancer cells release exosomes that can promote angiogenesis, facilitate invasion, and educate distant metastatic sites. Exosomes also carry tumor-associated antigens and can be used as biomarkers for cancer diagnosis and prognosis. Liquid biopsies based on exosomal cargo offer a non-invasive approach to detect and monitor cancer progression. Furthermore, exosomes can be engineered to deliver therapeutic agents, such as chemotherapy drugs, siRNA, or CRISPR-Cas9 components, specifically to cancer cells, offering a targeted approach to cancer therapy [PMID: 26644234].",
+    "persona": "Researcher"
+  }
+]

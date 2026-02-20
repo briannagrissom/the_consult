@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker, unless hemodynamically unstable, then cardioversion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate precise gene editing in eukaryotic cells?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-stranded break at that specific location. The cell's own repair mechanisms then take over: non-homologous end joining (NHEJ) can introduce insertions or deletions (indels), disrupting the gene, while homology-directed repair (HDR), using a provided DNA template, allows for precise gene insertion or modification. This system offers unparalleled precision and efficiency for targeted genome manipulation, enabling functional studies, disease modeling, and potential therapeutic interventions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key modifiable risk factors for coronary artery disease?",
+    "answer": "Smoking, hypertension, hyperlipidemia, diabetes, obesity, and physical inactivity.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways implicated in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) involves complex interactions among multiple signaling cascades. Amyloid precursor protein (APP) processing leads to amyloid-β (Aβ) plaque formation, activating microglia and astrocytes, which release pro-inflammatory cytokines such as TNF-α and IL-1β. These cytokines stimulate the NF-κB pathway, further amplifying inflammation and neuronal dysfunction. Aβ and tau aggregates also impair synaptic plasticity via disruption of long-term potentiation (LTP) and long-term depression (LTD) through dysregulation of NMDA receptors and downstream signaling molecules like CaMKII and CREB. Furthermore, insulin resistance and impaired insulin signaling contribute to AD pathology by exacerbating Aβ accumulation and tau phosphorylation through activation of GSK-3β and inhibition of PI3K/Akt. These pathways converge to promote synaptic loss, neuronal death, and cognitive decline.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with HPV testing?",
+    "answer": "Every 5 years for women aged 30-65 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone acetylation/methylation, and non-coding RNA regulation, play a crucial role in cancer by altering gene expression patterns without changing the underlying DNA sequence. Aberrant DNA methylation, typically hypermethylation of tumor suppressor gene promoters and hypomethylation of oncogenes, silences genes involved in cell cycle control, DNA repair, and apoptosis. Histone modifications, such as H3K4 methylation (associated with active transcription) and H3K27 methylation (associated with gene repression), are also frequently dysregulated in cancer cells, leading to altered chromatin structure and gene expression. Furthermore, microRNAs (miRNAs) and long non-coding RNAs (lncRNAs) can act as oncogenes or tumor suppressors by regulating mRNA stability and translation. These epigenetic alterations contribute to cancer hallmarks, including uncontrolled proliferation, evasion of growth suppressors, resistance to cell death, and metastasis. Epigenetic therapies, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are being developed to reverse these aberrant modifications and restore normal gene expression in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole (TMP-SMX) for 3-5 days.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of checkpoint inhibitor immunotherapy in cancer?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance antitumor immunity by blocking inhibitory signals that suppress T cell activation and effector function. CTLA-4, expressed on T cells, competes with the costimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs), preventing T cell activation. Anti-CTLA-4 antibodies block this interaction, promoting T cell priming and proliferation. PD-1, also expressed on T cells, binds to PD-L1 and PD-L2 on tumor cells and APCs, delivering an inhibitory signal that suppresses T cell cytotoxicity. Anti-PD-1/PD-L1 antibodies disrupt this interaction, restoring T cell activity and enabling them to recognize and kill tumor cells. These checkpoint inhibitors unleash pre-existing antitumor T cell responses, leading to durable tumor regression in a subset of patients. However, immune-related adverse events (irAEs) can occur due to the broad activation of the immune system, affecting various organs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial pharmacological treatment for type 2 diabetes mellitus?",
+    "answer": "Metformin, unless contraindicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade detection and clearance by the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system. They can rapidly mutate their surface antigens, such as influenza hemagglutinin and neuraminidase, to escape antibody recognition (antigenic drift). Some viruses, like HIV, integrate their genome into the host cell DNA, establishing latency and avoiding immune surveillance. Others, such as herpesviruses, downregulate MHC class I expression, reducing presentation of viral antigens to cytotoxic T lymphocytes (CTLs). Many viruses encode proteins that interfere with interferon (IFN) signaling, inhibiting the induction of antiviral genes. Furthermore, viruses can produce decoy receptors or soluble antigens to neutralize antibodies, or express proteins that inhibit complement activation. Some viruses actively suppress immune cell function by inducing apoptosis of lymphocytes or promoting the expansion of regulatory T cells (Tregs). These evasion mechanisms enable viruses to persist in the host and establish chronic infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (azithromycin or clarithromycin).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of IBD. Dysbiosis, characterized by decreased microbial diversity and altered composition, is a hallmark of IBD. A reduction in beneficial commensal bacteria, such as Firmicutes, and an increase in opportunistic pathogens, such as Escherichia coli, contribute to intestinal inflammation. The altered microbiome can disrupt the intestinal epithelial barrier, increasing permeability and allowing bacterial products to translocate into the lamina propria, triggering an exaggerated immune response. Furthermore, microbial metabolites, such as short-chain fatty acids (SCFAs), are altered in IBD patients, affecting intestinal homeostasis. The microbiome also influences the development and function of the intestinal immune system, including T cells and innate immune cells. Interactions between genetic susceptibility, environmental factors, and the microbiome are believed to drive the chronic inflammation characteristic of IBD. Fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy to restore microbial diversity and modulate the immune response in IBD patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with a suspected stroke?",
+    "answer": "Rapid assessment, NIHSS score, CT scan to rule out hemorrhage, and consideration for thrombolysis or thrombectomy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting amyloid-beta affect the progression of Alzheimer's disease?",
+    "answer": "Immunotherapies targeting amyloid-beta (Aβ) aim to reduce Aβ plaque burden and slow the progression of Alzheimer's disease (AD). These therapies typically involve monoclonal antibodies that bind to Aβ aggregates, promoting their clearance from the brain via microglia-mediated phagocytosis. Aducanumab, lecanemab and donanemab have shown modest clinical benefits in slowing cognitive decline in early-stage AD patients. However, these treatments can also cause amyloid-related imaging abnormalities (ARIA), including ARIA-E (edema) and ARIA-H (hemorrhage), which are thought to be related to the inflammatory response triggered by Aβ clearance. The efficacy and safety of Aβ-targeting immunotherapies are still being evaluated in ongoing clinical trials. The long-term effects of Aβ reduction on disease progression and the optimal timing of intervention remain important areas of investigation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine headache?",
+    "answer": "Triptans or NSAIDs, or a combination thereof.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which cancer cells metastasize to distant organs?",
+    "answer": "Metastasis involves a complex series of steps: local invasion, intravasation into blood or lymphatic vessels, survival in circulation, extravasation at distant sites, and colonization. Cancer cells undergo epithelial-to-mesenchymal transition (EMT), acquiring migratory and invasive properties. They secrete matrix metalloproteinases (MMPs) to degrade the extracellular matrix and facilitate invasion. Cancer cells can then enter the circulation, where they must evade immune surveillance and anoikis (detachment-induced apoptosis). They may form circulating tumor cell (CTC) clusters to enhance survival and metastatic potential. At distant sites, cancer cells undergo mesenchymal-to-epithelial transition (MET) to colonize and form secondary tumors. The microenvironment of the distant organ plays a critical role in determining metastatic success, with specific organs providing favorable niches for certain cancer types. These steps are regulated by complex interactions between cancer cells and their microenvironment, involving growth factors, cytokines, and adhesion molecules.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for allergic rhinitis?",
+    "answer": "Intranasal corticosteroids and/or antihistamines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does gene therapy work to correct genetic defects in inherited diseases?",
+    "answer": "Gene therapy aims to correct genetic defects by introducing functional copies of mutated genes into patient cells. Adeno-associated virus (AAV) vectors are commonly used to deliver therapeutic genes due to their low immunogenicity and ability to transduce a wide range of cell types. For inherited disorders caused by loss-of-function mutations, gene therapy can provide a functional copy of the gene, restoring normal protein expression. For dominant-negative mutations or gain-of-function mutations, gene editing technologies, such as CRISPR-Cas9, can be used to disrupt the mutant gene or correct the mutation. Ex vivo gene therapy involves modifying cells outside the body and then transplanting them back into the patient, while in vivo gene therapy involves direct delivery of the therapeutic gene into the patient's tissues. Gene therapy has shown promising results in treating inherited diseases such as spinal muscular atrophy (SMA) and hemophilia, but challenges remain, including off-target effects, immune responses, and the durability of gene expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical duration of antibiotic treatment for uncomplicated pneumonia?",
+    "answer": "5 days is usually sufficient.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell survival and proliferation?",
+    "answer": "The Warburg effect, or aerobic glycolysis, is the observation that cancer cells preferentially metabolize glucose through glycolysis, even in the presence of oxygen, rather than through the more efficient oxidative phosphorylation (OXPHOS) pathway. This metabolic shift provides cancer cells with several advantages. Glycolysis produces ATP more rapidly than OXPHOS, supporting the high energy demands of rapidly proliferating cells. Glycolysis also generates metabolic intermediates that are used as building blocks for biosynthesis of macromolecules, such as nucleotides, amino acids, and lipids, necessary for cell growth and division. Furthermore, glycolysis produces lactate, which acidifies the tumor microenvironment, inhibiting immune cell activity and promoting tumor invasion and metastasis. The Warburg effect is regulated by oncogenes, such as Myc and HIF-1α, and tumor suppressor genes, such as p53. Targeting the Warburg effect is being explored as a therapeutic strategy in cancer, with inhibitors of glycolysis and other metabolic enzymes showing promise in preclinical studies.",
+    "persona": "Researcher"
+  }
+]

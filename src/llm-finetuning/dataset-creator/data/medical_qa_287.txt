@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated community-acquired pneumonia in an otherwise healthy adult?",
+    "answer": "Amoxicillin or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do advances in CRISPR-based gene editing technologies impact the development of novel therapeutics for inherited genetic disorders?",
+    "answer": "CRISPR-Cas9-based gene editing offers the potential for precise correction of disease-causing mutations in inherited genetic disorders, providing curative rather than symptomatic treatment options. The technology hinges on the ability of a guide RNA to direct the Cas9 endonuclease to a specific DNA sequence within the genome, where it introduces a double-strand break. This break triggers endogenous DNA repair mechanisms, which can be harnessed to either disrupt a gene (via non-homologous end joining) or correct it (via homology-directed repair using a provided DNA template). In ex vivo gene therapy approaches, patient-derived cells (e.g., hematopoietic stem cells for blood disorders) are genetically modified in the laboratory and then transplanted back into the patient. Clinical trials are underway for sickle cell disease and beta-thalassemia using this approach, with early results demonstrating significant reductions in transfusion requirements and vaso-occlusive crises. In vivo gene editing, where the CRISPR components are delivered directly into the patient's body, is being explored for liver disorders (e.g., transthyretin amyloidosis) and muscular dystrophies. Challenges remain in terms of off-target effects (unintended mutations at other genomic sites), delivery efficiency, and immune responses to the Cas9 protein. Base editing and prime editing, newer CRISPR variants, offer improved specificity and reduced off-target effects by directly modifying single DNA bases or inserting small DNA sequences without creating double-strand breaks. These technologies are rapidly advancing, paving the way for a new era of precision medicine for inherited genetic disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the typical EKG findings in atrial fibrillation?",
+    "answer": "Irregularly irregular rhythm, absent P waves, and possible variable ventricular rate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome plays a critical role in shaping the host immune response and influencing the efficacy of immune checkpoint inhibitors (ICIs) in cancer therapy. Specific bacterial species, such as Akkermansia muciniphila, Faecalibacterium prausnitzii, and Bifidobacterium spp., have been associated with improved responses to anti-PD-1/PD-L1 therapy in melanoma, lung cancer, and other malignancies. These bacteria can enhance anti-tumor immunity by modulating dendritic cell function, increasing the infiltration of cytotoxic T cells into the tumor microenvironment, and promoting the production of pro-inflammatory cytokines like IFN-γ and TNF-α. Conversely, dysbiosis of the gut microbiome, often induced by antibiotic use or dietary factors, can impair ICI efficacy. Mechanisms underlying this effect include reduced microbial diversity, decreased abundance of beneficial bacteria, and enrichment of immunosuppressive species. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and the use of prebiotics or probiotics, are being investigated as potential approaches to enhance ICI responses. Clinical trials have shown that FMT from responders to ICIs can improve outcomes in non-responders. However, careful patient selection and standardized protocols are necessary to ensure the safety and efficacy of FMT. Metagenomic sequencing and metabolomic profiling are increasingly used to identify predictive biomarkers of ICI response based on gut microbiome composition and function, paving the way for personalized microbiome-based interventions to optimize cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per guidelines; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and SGLT2 inhibitors in the management of type 2 diabetes mellitus.",
+    "answer": "Metformin and SGLT2 inhibitors represent distinct approaches to managing hyperglycemia in type 2 diabetes mellitus (T2DM). Metformin primarily reduces hepatic glucose production and, to a lesser extent, improves insulin sensitivity in peripheral tissues. It activates AMP-activated protein kinase (AMPK), a cellular energy sensor, which suppresses gluconeogenic enzymes and enhances glucose uptake in skeletal muscle. Metformin also has modest effects on gut microbiota and bile acid metabolism, contributing to its glucose-lowering effects. SGLT2 inhibitors, on the other hand, act by blocking the sodium-glucose cotransporter 2 (SGLT2) in the proximal renal tubule, thereby reducing glucose reabsorption and increasing urinary glucose excretion. This mechanism is independent of insulin action, making SGLT2 inhibitors effective even in patients with significant insulin resistance or beta-cell dysfunction. Beyond their glucose-lowering effects, SGLT2 inhibitors have demonstrated cardiovascular benefits, including reductions in heart failure hospitalizations and cardiovascular death, possibly through mechanisms related to reduced blood pressure, improved arterial stiffness, and decreased myocardial oxygen demand. Metformin is typically considered first-line therapy for T2DM due to its efficacy, safety, and low cost. However, SGLT2 inhibitors are increasingly used as add-on therapy, particularly in patients with established cardiovascular disease or heart failure, to achieve comprehensive glycemic control and reduce cardiovascular risk. Combination therapy with metformin and an SGLT2 inhibitor can provide complementary glucose-lowering effects and address multiple pathophysiologic defects in T2DM.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other guideline-approved tests.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 work to restore anti-tumor immunity?",
+    "answer": "PD-1 (programmed cell death protein 1) and its ligand PD-L1 (programmed death-ligand 1) are key immune checkpoint molecules that regulate T cell activity and prevent excessive immune responses. Cancer cells often exploit this pathway to evade immune surveillance by expressing high levels of PD-L1, which binds to PD-1 on T cells, delivering an inhibitory signal that suppresses T cell activation, proliferation, and effector function. This interaction effectively shuts down the T cell's ability to recognize and kill cancer cells. Immunotherapy targeting PD-1/PD-L1 involves the use of monoclonal antibodies that block the interaction between these molecules, thereby restoring T cell activity and allowing the immune system to mount an effective anti-tumor response. By blocking PD-1 or PD-L1, these antibodies prevent the inhibitory signal from being delivered to T cells, enabling them to recognize and eliminate cancer cells. The restored T cell activity can lead to tumor regression and durable clinical responses in a subset of patients. PD-1/PD-L1 inhibitors have shown efficacy in a wide range of cancers, including melanoma, lung cancer, kidney cancer, and Hodgkin lymphoma. Biomarkers such as PD-L1 expression on tumor cells and tumor mutational burden (TMB) are often used to predict response to PD-1/PD-L1 inhibitors, although they are not perfect predictors. Combination therapies involving PD-1/PD-L1 inhibitors with other immunotherapies, chemotherapy, or targeted therapies are being investigated to further enhance anti-tumor immunity and improve clinical outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of deep vein thrombosis (DVT)?",
+    "answer": "Unilateral leg swelling, pain, warmth, and redness.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the accumulation of amyloid-beta plaques and neurofibrillary tangles, leading to neuronal dysfunction and cognitive decline. Several key signaling pathways are implicated in the pathogenesis of AD. The amyloid precursor protein (APP) processing pathway plays a central role, with abnormal cleavage of APP by beta-secretase (BACE1) and gamma-secretase leading to the production of amyloid-beta peptides, particularly Aβ42, which are prone to aggregation and plaque formation. The tau phosphorylation pathway is also critical, as hyperphosphorylation of tau protein leads to its detachment from microtubules and the formation of neurofibrillary tangles. Dysregulation of calcium homeostasis, oxidative stress, and inflammation contribute to neuronal damage and synaptic dysfunction in AD. The Wnt signaling pathway, which is involved in neuronal development and synaptic plasticity, is impaired in AD, potentially contributing to cognitive deficits. Insulin signaling, which regulates glucose metabolism and neuronal survival, is also disrupted in AD, leading to insulin resistance in the brain. Furthermore, neuroinflammation mediated by microglia and astrocytes contributes to the pathogenesis of AD through the release of pro-inflammatory cytokines and reactive oxygen species. Targeting these signaling pathways is a major focus of AD drug development, with strategies aimed at reducing amyloid-beta production, preventing tau phosphorylation, modulating neuroinflammation, and restoring neuronal function.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to cancer metastasis, and what are the current strategies for their detection and characterization?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream, representing a critical step in the metastatic cascade. CTCs can travel to distant sites and seed new tumors, driving cancer progression and mortality. The process of metastasis involves epithelial-mesenchymal transition (EMT), which allows tumor cells to detach from the primary tumor and invade surrounding tissues. CTCs must also survive in the circulation, evade immune surveillance, and adhere to the endothelium at distant sites to initiate metastasis. CTCs are rare events, typically present at very low concentrations in the blood, making their detection and characterization challenging. Current strategies for CTC detection include CellSearch, a FDA-approved platform that uses antibody-based capture to enrich CTCs based on EpCAM expression, and microfluidic devices that capture CTCs based on size, shape, or surface markers. Next-generation sequencing (NGS) and single-cell analysis are used to characterize CTCs at the genomic, transcriptomic, and proteomic levels, providing insights into their metastatic potential and drug resistance mechanisms. CTC analysis can be used for early cancer detection, monitoring treatment response, and predicting prognosis. Liquid biopsies based on CTCs offer a non-invasive alternative to traditional tissue biopsies, allowing for real-time monitoring of cancer progression and treatment response. Emerging technologies such as CTC-based drug screening and personalized medicine approaches are being developed to guide treatment decisions based on the characteristics of CTCs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial workup for suspected stroke?",
+    "answer": "Neurological exam, CT scan of the brain, and vascular imaging.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of resistance to tyrosine kinase inhibitors (TKIs) in EGFR-mutant non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to tyrosine kinase inhibitors (TKIs) in EGFR-mutant non-small cell lung cancer (NSCLC) is a major clinical challenge, leading to disease progression after an initial period of response. Several mechanisms contribute to TKI resistance, including the acquisition of secondary EGFR mutations, activation of bypass signaling pathways, and phenotypic transformation. The most common mechanism of resistance is the T790M mutation in EGFR, which sterically hinders TKI binding and accounts for approximately 50-60% of cases. Third-generation TKIs such as osimertinib are designed to overcome T790M-mediated resistance, but resistance to these agents can also develop through mechanisms such as the C797S mutation in EGFR or the acquisition of other EGFR mutations. Activation of bypass signaling pathways, such as MET amplification, BRAF mutations, or PI3K/AKT activation, can also lead to TKI resistance by providing alternative growth signals that bypass EGFR inhibition. Phenotypic transformation, such as the transformation of NSCLC to small cell lung cancer (SCLC), can also confer TKI resistance by altering the tumor's biology and rendering it insensitive to EGFR inhibition. Liquid biopsies based on circulating tumor DNA (ctDNA) are increasingly used to detect resistance mutations and monitor treatment response in real time. Strategies to overcome TKI resistance include the development of novel TKIs that target resistant EGFR mutations, combination therapies that target bypass signaling pathways, and immunotherapies that harness the immune system to eliminate resistant tumor cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the management of acute asthma exacerbation?",
+    "answer": "Inhaled bronchodilators, systemic corticosteroids, and oxygen therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression and cellular differentiation, and what is their role in cancer development?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in regulating gene expression and cellular differentiation without altering the underlying DNA sequence. These modifications can alter chromatin structure, influencing the accessibility of DNA to transcription factors and other regulatory proteins. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpGs), is generally associated with gene silencing. Histone modifications, such as acetylation and methylation, can either activate or repress gene expression depending on the specific modification and its location. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can regulate gene expression by targeting mRNAs or interacting with chromatin-modifying complexes. Epigenetic modifications are essential for normal development and cellular differentiation, ensuring that genes are expressed in the appropriate cells at the appropriate times. Aberrant epigenetic modifications are a hallmark of cancer, contributing to tumor initiation, progression, and metastasis. For example, hypermethylation of tumor suppressor genes can lead to their silencing, while hypomethylation of oncogenes can lead to their overexpression. Histone modifications can also be altered in cancer, leading to changes in chromatin structure and gene expression. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are used to reverse aberrant epigenetic modifications and restore normal gene expression patterns in cancer cells. These therapies have shown clinical efficacy in hematologic malignancies and are being investigated in solid tumors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of chemotherapy?",
+    "answer": "Nausea, vomiting, fatigue, hair loss, and myelosuppression.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of autophagy in cellular homeostasis and its implications for neurodegenerative diseases?",
+    "answer": "Autophagy is a highly conserved cellular process that involves the degradation and recycling of damaged organelles, misfolded proteins, and other cellular debris. It plays a critical role in maintaining cellular homeostasis, preventing the accumulation of toxic aggregates, and providing energy during nutrient deprivation. Autophagy is initiated by the formation of a double-membrane structure called the autophagosome, which engulfs the target cargo and fuses with lysosomes, where the cargo is degraded by lysosomal enzymes. Several autophagy-related genes (ATGs) are essential for the autophagy process. In neurodegenerative diseases, such as Alzheimer's disease, Parkinson's disease, and Huntington's disease, impaired autophagy contributes to the accumulation of misfolded proteins and damaged organelles, leading to neuronal dysfunction and cell death. For example, in Alzheimer's disease, impaired autophagy can lead to the accumulation of amyloid-beta plaques and neurofibrillary tangles. In Parkinson's disease, mutations in genes involved in autophagy, such as LRRK2 and PINK1, can disrupt autophagy and contribute to the accumulation of alpha-synuclein aggregates. Enhancing autophagy is being explored as a therapeutic strategy for neurodegenerative diseases. Approaches to enhance autophagy include the use of small molecules that activate autophagy pathways, such as mTOR inhibitors and AMPK activators, and gene therapy strategies that restore autophagy function. Clinical trials are underway to evaluate the efficacy of autophagy-enhancing therapies in neurodegenerative diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for warfarin therapy in atrial fibrillation?",
+    "answer": "2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do next-generation sequencing (NGS) technologies advance our understanding of genomic alterations in cancer and inform personalized cancer therapy?",
+    "answer": "Next-generation sequencing (NGS) technologies have revolutionized cancer genomics by enabling rapid and cost-effective sequencing of large numbers of genes or entire genomes. NGS allows for the identification of genomic alterations, including mutations, copy number variations, and structural rearrangements, that drive cancer development and progression. This information can be used to inform personalized cancer therapy by identifying patients who are likely to benefit from targeted therapies or immunotherapies. For example, NGS can be used to identify patients with EGFR mutations in non-small cell lung cancer who are likely to respond to EGFR tyrosine kinase inhibitors (TKIs). NGS can also be used to identify patients with high tumor mutational burden (TMB) who are likely to respond to immune checkpoint inhibitors. Furthermore, NGS can be used to identify patients with rare or novel genomic alterations that may be targetable with investigational therapies or off-label drugs. NGS is also used to monitor treatment response and detect resistance mutations in real time using liquid biopsies based on circulating tumor DNA (ctDNA). NGS data is integrated with clinical information to create comprehensive genomic profiles that guide treatment decisions and improve patient outcomes. The cost of NGS has decreased dramatically in recent years, making it increasingly accessible for routine clinical use. As NGS technologies continue to advance, they will play an increasingly important role in personalized cancer therapy and precision medicine.",
+    "persona": "Researcher"
+  }
+]

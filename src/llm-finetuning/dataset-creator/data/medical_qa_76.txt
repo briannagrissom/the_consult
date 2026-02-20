@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line options per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of insulin resistance in type 2 diabetes?",
+    "answer": "Chronic low-grade inflammation, characterized by elevated levels of pro-inflammatory cytokines such as TNF-α, IL-6, and IL-1β, impairs insulin signaling through multiple mechanisms. These cytokines activate intracellular serine kinases like JNK and IKKβ, which phosphorylate insulin receptor substrate-1 (IRS-1) at serine residues, thereby inhibiting its tyrosine phosphorylation by the insulin receptor. This disrupts the downstream activation of PI3K and Akt, key mediators of insulin's metabolic effects. Additionally, inflammatory signaling increases the expression of protein tyrosine phosphatases (PTPs) that dephosphorylate and inactivate the insulin receptor and IRS-1. Adipocytes and macrophages within adipose tissue are major sources of these pro-inflammatory cytokines in obese individuals. Inflammatory pathways also promote lipolysis and increase circulating free fatty acids, which further exacerbate insulin resistance by activating PKC isoforms that inhibit insulin signaling and impair glucose transport into muscle cells. Resolution of chronic inflammation through lifestyle interventions or pharmacological approaches (e.g., salicylates, GLP-1 receptor agonists) can improve insulin sensitivity and glycemic control.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for colonoscopy in average-risk individuals?",
+    "answer": "Every 10 years, starting at age 45 per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which immune checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Immune checkpoint inhibitors (ICIs) unleash anti-tumor T-cell responses by blocking inhibitory signaling pathways that normally maintain self-tolerance and prevent excessive immune activation. Cytotoxic T-lymphocyte antigen 4 (CTLA-4) blockade, primarily in the tumor-draining lymph nodes, enhances T-cell priming by inhibiting CTLA-4-mediated competition with CD28 for B7 ligands on antigen-presenting cells, thereby promoting T-cell co-stimulation. Programmed cell death protein 1 (PD-1) inhibitors, acting mainly within the tumor microenvironment, disrupt the PD-1/PD-L1 axis, which normally suppresses T-cell effector function and promotes T-cell exhaustion. PD-1 blockade restores T-cell cytotoxicity by reversing T-cell anergy, increasing cytokine production (e.g., IFN-γ), and enhancing cytotoxic granule release. ICIs can also indirectly modulate the tumor microenvironment by activating dendritic cells, enhancing T-cell infiltration, and promoting the elimination of immunosuppressive cell populations such as regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs). Furthermore, ICIs can synergize with other cancer therapies, such as chemotherapy and radiation, by increasing tumor immunogenicity and enhancing T-cell priming. However, ICIs can also induce immune-related adverse events due to the loss of self-tolerance and the activation of autoreactive T cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target LDL-C level for secondary prevention in patients with established atherosclerotic cardiovascular disease?",
+    "answer": "<70 mg/dL or ≥50% reduction from baseline per ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in homologous recombination repair (HRR) of double-strand DNA breaks. Mutations in these genes impair HRR, leading to genomic instability and an increased propensity for cells to accumulate mutations that drive tumorigenesis. BRCA1 forms a complex with other proteins, including BARD1, to regulate DNA repair, DNA replication, and transcriptional regulation. BRCA2 directly binds to single-stranded DNA and facilitates the recruitment of RAD51 to DNA break sites, enabling strand invasion and repair. Loss of BRCA1 or BRCA2 function results in the accumulation of unrepaired DNA damage, activation of DNA damage checkpoints, and ultimately, cell death or transformation. Cells with BRCA1/2 mutations are particularly sensitive to PARP inhibitors, which block single-strand break repair and lead to the accumulation of double-strand breaks that cannot be efficiently repaired by HRR, resulting in synthetic lethality. In addition to DNA repair, BRCA1 and BRCA2 also play roles in transcriptional regulation, cell cycle control, and chromatin remodeling, which may contribute to their tumor suppressor functions. The tissue-specific effects of BRCA1/2 mutations in breast and ovarian tissues are likely due to differences in hormone signaling, DNA replication stress, and the prevalence of alternative DNA repair pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in shaping systemic immunity and influencing the response to cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved ICI efficacy in melanoma and non-small cell lung cancer patients. These bacteria can enhance anti-tumor immunity by modulating dendritic cell maturation, promoting T-cell priming, and increasing the production of immunostimulatory cytokines like IFN-γ. Conversely, dysbiosis or the presence of specific bacterial species, such as Bacteroides fragilis, can impair ICI efficacy by inducing immune suppression or promoting inflammation. The gut microbiome can also influence the trafficking of immune cells to the tumor microenvironment and affect the expression of immune checkpoint molecules. Mechanistically, microbial metabolites, such as short-chain fatty acids (SCFAs) like butyrate and acetate, can modulate immune cell function and enhance anti-tumor immunity. Fecal microbiota transplantation (FMT) studies in preclinical models and early-phase clinical trials have shown that transferring the gut microbiome from ICI-responsive patients to non-responsive patients can improve ICI efficacy. Diet, antibiotics, and probiotics can also significantly alter the gut microbiome composition and influence the response to cancer immunotherapy. Further research is needed to identify specific microbial signatures that predict ICI response and to develop strategies to manipulate the gut microbiome to enhance immunotherapy efficacy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological treatment for a patient newly diagnosed with Parkinson's disease?",
+    "answer": "Levodopa or a dopamine agonist are common initial options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to cellular homeostasis and prevent neurodegenerative diseases?",
+    "answer": "Autophagy is a highly conserved cellular process that degrades and recycles damaged organelles, misfolded proteins, and intracellular pathogens, thereby maintaining cellular homeostasis. In neurodegenerative diseases, the accumulation of misfolded protein aggregates, such as amyloid-beta plaques in Alzheimer's disease and alpha-synuclein aggregates in Parkinson's disease, disrupts neuronal function and promotes cell death. Autophagy plays a critical role in clearing these aggregates and preventing their toxic effects. During autophagy, cytoplasmic cargo is sequestered within double-membrane vesicles called autophagosomes, which then fuse with lysosomes to form autolysosomes, where the cargo is degraded by lysosomal enzymes. Defective autophagy has been implicated in the pathogenesis of various neurodegenerative diseases. Mutations in autophagy-related genes, such as ATG5 and BECN1, have been linked to increased risk of neurodegeneration. Enhancing autophagy through pharmacological interventions (e.g., rapamycin, trehalose) or genetic manipulations has shown promise in preclinical models of neurodegenerative diseases by reducing protein aggregation, improving neuronal survival, and alleviating behavioral deficits. Autophagy also plays a role in regulating inflammation and immune responses in the brain, which can contribute to neurodegeneration. Furthermore, autophagy can selectively degrade damaged mitochondria (mitophagy), preventing the release of pro-apoptotic factors and maintaining mitochondrial function.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time seizure?",
+    "answer": "Assess for underlying cause; anti-epileptic drugs are typically initiated after a second unprovoked seizure.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of non-alcoholic steatohepatitis (NASH)?",
+    "answer": "NASH pathogenesis involves complex interactions between multiple signaling pathways, including lipogenesis, inflammation, oxidative stress, and fibrosis. Activation of sterol regulatory element-binding protein-1c (SREBP-1c) promotes de novo lipogenesis, leading to increased hepatic triglyceride accumulation. Inflammatory pathways, such as the NF-κB and NLRP3 inflammasome, are activated by lipotoxicity, gut-derived endotoxins, and other factors, resulting in the production of pro-inflammatory cytokines (e.g., TNF-α, IL-1β, IL-6) that contribute to hepatocyte damage and insulin resistance. Oxidative stress, induced by mitochondrial dysfunction and increased NADPH oxidase activity, promotes lipid peroxidation and DNA damage, further exacerbating inflammation and cell death. Activation of hepatic stellate cells (HSCs) by profibrogenic mediators, such as TGF-β and PDGF, leads to the deposition of extracellular matrix proteins and the development of liver fibrosis. The gut-liver axis plays a crucial role in NASH pathogenesis, with alterations in the gut microbiome and increased intestinal permeability promoting the translocation of bacterial products to the liver, triggering inflammation and immune responses. Emerging therapeutic targets for NASH include FXR agonists, PPAR agonists, ASK1 inhibitors, and antifibrotic agents, which aim to modulate these key signaling pathways and reduce liver damage.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating community-acquired pneumonia?",
+    "answer": "Beta-lactam plus macrolide or a respiratory fluoroquinolone per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system and establish persistent infections?",
+    "answer": "Viruses employ diverse strategies to evade host immune responses and establish persistent infections. Some viruses, such as HIV and hepatitis C virus (HCV), exhibit high mutation rates, leading to antigenic variation that allows them to escape recognition by neutralizing antibodies and cytotoxic T lymphocytes (CTLs). Other viruses, like herpesviruses, establish latency, a state of transcriptional quiescence, in which they minimize viral protein expression and avoid immune detection. Many viruses encode proteins that directly interfere with innate and adaptive immune signaling pathways. For example, adenovirus E1A inhibits interferon (IFN) production, while Epstein-Barr virus (EBV) expresses a homolog of IL-10 that suppresses T-cell responses. Viruses can also downregulate the expression of major histocompatibility complex (MHC) class I molecules on infected cells, impairing CTL recognition. Some viruses, such as HIV, infect immune cells, leading to immune dysfunction and depletion of CD4+ T cells. Viruses can also induce the production of immunosuppressive cytokines, such as IL-10 and TGF-β, which dampen immune responses. Furthermore, viruses can exploit cellular pathways, such as autophagy, to promote their replication and spread. Understanding these immune evasion mechanisms is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker is usually the initial step.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications regulate gene expression and contribute to cancer development?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression without altering the underlying DNA sequence. DNA methylation, primarily at cytosine-guanine dinucleotides (CpGs), typically represses gene transcription by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs) that promote chromatin condensation. Histone modifications, such as acetylation and methylation, can either activate or repress gene expression depending on the specific modification and the histone residue that is modified. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure and facilitating the recruitment of transcription factors. Histone methylation, on the other hand, can either activate or repress gene expression depending on the specific histone residue and the methylation state. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can regulate gene expression by targeting mRNA stability, translation, or chromatin structure. Aberrant epigenetic modifications are a hallmark of cancer and contribute to tumorigenesis by silencing tumor suppressor genes, activating oncogenes, and promoting genomic instability. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, have shown promise in cancer treatment by reversing aberrant epigenetic modifications and restoring normal gene expression patterns.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the most common side effect of statin medications?",
+    "answer": "Myalgias are the most commonly reported side effect.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that are secreted by cells and mediate intercellular communication by transferring proteins, lipids, and nucleic acids (e.g., mRNA, microRNA) to recipient cells. In cancer, exosomes play a crucial role in promoting tumor growth, angiogenesis, immune evasion, and metastasis. Tumor-derived exosomes can transfer oncogenic proteins and microRNAs to recipient cells, promoting their proliferation, survival, and migration. Exosomes can also modulate the tumor microenvironment by delivering factors that promote angiogenesis, such as VEGF and MMPs, and by suppressing immune cell activity. Furthermore, exosomes can facilitate cancer metastasis by preparing distant metastatic sites for colonization. Exosomes can deliver integrins and other adhesion molecules to pre-metastatic niches, promoting the recruitment of bone marrow-derived cells and the formation of a supportive microenvironment for tumor cell seeding. Exosomes can also protect cancer cells from anoikis, a form of cell death induced by detachment from the extracellular matrix, allowing them to survive in circulation and colonize distant organs. Exosome-based biomarkers are being developed for cancer diagnosis and prognosis, and exosome-based therapies are being explored for targeted drug delivery and immune modulation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "Typically 2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the adaptive immune system respond to viral infections, and what are the key components involved?",
+    "answer": "The adaptive immune system provides long-lasting immunity against viral infections through the coordinated actions of T cells and B cells. Upon viral infection, antigen-presenting cells (APCs), such as dendritic cells, capture viral antigens and migrate to lymph nodes, where they present these antigens to T cells. CD4+ helper T cells recognize viral antigens presented on MHC class II molecules and secrete cytokines, such as IFN-γ and IL-2, that activate cytotoxic T lymphocytes (CTLs) and B cells. CTLs recognize viral antigens presented on MHC class I molecules and kill infected cells, thereby eliminating the viral reservoir. B cells recognize viral antigens and differentiate into plasma cells, which produce antibodies that neutralize the virus, prevent viral entry into cells, and promote viral clearance. Antibodies can also activate complement, leading to viral lysis and opsonization. Memory T cells and memory B cells are generated during the primary immune response and provide long-lasting immunity against subsequent infections with the same virus. These memory cells can rapidly respond to viral re-exposure, providing faster and more effective immune protection. The adaptive immune response to viral infections is highly specific and tailored to the particular virus, involving the recognition of specific viral antigens and the activation of appropriate effector mechanisms. The development of effective vaccines relies on the ability to stimulate a robust and long-lasting adaptive immune response against viral pathogens.",
+    "persona": "Researcher"
+  }
+]

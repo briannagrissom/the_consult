@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are generally recommended first-line, depending on local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level?",
+    "answer": "CRISPR-Cas9 is an adaptive immune system in bacteria, repurposed for genome editing. It uses a guide RNA (gRNA) to direct the Cas9 nuclease to a specific DNA sequence. The gRNA, a synthetic RNA molecule, contains a 20-nucleotide sequence complementary to the target DNA. The Cas9 protein, guided by the gRNA, binds to the target DNA site. Cas9 then induces a double-stranded break in the DNA. The cell repairs this break either through non-homologous end joining (NHEJ), which is error-prone and can disrupt the gene, or through homology-directed repair (HDR) if a DNA template with the desired sequence is provided, allowing for precise gene editing. The efficiency and specificity depend on gRNA design and delivery method, with off-target effects being a consideration.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common modifiable risk factors for developing type 2 diabetes?",
+    "answer": "Obesity, physical inactivity, unhealthy diet, and smoking.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which metformin exerts its antihyperglycemic effects?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis and glycogenolysis. It activates AMPK (AMP-activated protein kinase), a cellular energy sensor, which leads to downstream effects such as reduced expression of gluconeogenic enzymes (e.g., phosphoenolpyruvate carboxykinase, glucose-6-phosphatase). Metformin also modestly improves insulin sensitivity in peripheral tissues like muscle, enhancing glucose uptake and utilization. Additionally, metformin alters the gut microbiome, potentially contributing to improved glucose metabolism. While the precise molecular targets of metformin are still being elucidated, AMPK activation and reduced hepatic glucose production are considered central to its therapeutic action.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial diagnostic test for suspected pulmonary embolism?",
+    "answer": "A D-dimer assay followed by CT pulmonary angiography if the D-dimer is elevated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity, and what are some of the major targets?",
+    "answer": "Checkpoint inhibitors block immune inhibitory pathways, thereby unleashing the cytotoxic potential of T cells against tumor cells. Major targets include CTLA-4 and PD-1/PD-L1. CTLA-4, expressed on T cells, competes with CD28 for binding to B7 molecules on antigen-presenting cells, inhibiting T-cell activation. Anti-CTLA-4 antibodies block this interaction, enhancing T-cell priming. PD-1, also on T cells, binds to PD-L1 on tumor cells or antigen-presenting cells, suppressing T-cell effector function. Anti-PD-1 or anti-PD-L1 antibodies prevent this interaction, restoring T-cell activity. By blocking these checkpoints, T cells can more effectively recognize and kill cancer cells. However, this can also lead to immune-related adverse events due to unleashed T-cell activity against healthy tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer?",
+    "answer": "Resistance to EGFR TKIs in NSCLC frequently involves activation of bypass signaling pathways that circumvent EGFR inhibition. Common mechanisms include MET amplification, which activates downstream signaling independently of EGFR; activation of the PI3K/AKT pathway through mutations in PIK3CA or loss of PTEN; and activation of the RAS/MAPK pathway through mutations in KRAS or BRAF. Additionally, the emergence of the EGFR T790M resistance mutation alters the ATP-binding pocket, reducing TKI affinity. Small cell lung cancer transformation, involving histological changes, can also lead to EGFR-TKI resistance. Combination therapies targeting these bypass pathways are being investigated to overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers, and anticoagulation based on risk stratification.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses like HIV evade the host immune system?",
+    "answer": "Viruses employ multiple strategies to evade the host immune system. HIV, for example, exhibits high mutation rates due to the error-prone reverse transcriptase enzyme, leading to antigenic variation and escape from antibody neutralization and T-cell recognition. HIV also infects and depletes CD4+ T cells, critical for orchestrating immune responses. Furthermore, HIV downregulates MHC class I expression on infected cells, hindering recognition by cytotoxic T lymphocytes. Some viruses also produce proteins that interfere with interferon signaling or inhibit complement activation, further dampening the immune response. Latency, where the virus remains dormant within host cells, also contributes to immune evasion.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, or annual fecal immunochemical test (FIT), or multi-targeted stool DNA test every 3 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in the pathogenesis of IBD. Dysbiosis, characterized by reduced microbial diversity and alterations in the composition of the gut microbiota, is a hallmark of IBD. Specific bacterial species, such as adherent-invasive Escherichia coli (AIEC), are implicated in promoting inflammation. Conversely, beneficial bacteria, such as Faecalibacterium prausnitzii, which produce butyrate (a short-chain fatty acid with anti-inflammatory properties), are often reduced in IBD patients. The altered microbiome can disrupt the intestinal barrier, leading to increased permeability and immune activation. Genetic susceptibility, environmental factors, and the host immune response interact with the microbiome to drive chronic inflammation in IBD. Therapeutic strategies targeting the microbiome, such as fecal microbiota transplantation, are being explored to restore microbial balance and alleviate IBD symptoms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for localized Lyme disease?",
+    "answer": "Doxycycline or amoxicillin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells metastasize to distant sites?",
+    "answer": "Cancer metastasis is a complex multistep process. First, tumor cells undergo epithelial-mesenchymal transition (EMT), losing cell-cell adhesion and acquiring migratory properties. These cells then invade the surrounding tissue, degrade the extracellular matrix using proteases like matrix metalloproteinases (MMPs), and intravasate into blood or lymphatic vessels. Circulating tumor cells (CTCs) must survive in the bloodstream, evade immune surveillance, and then extravasate at distant sites, often through adhesion to endothelial cells. At the new site, CTCs undergo mesenchymal-epithelial transition (MET) to establish metastatic colonies. The tumor microenvironment at the distant site plays a critical role in supporting metastatic growth. Specific cancer types exhibit preferences for certain metastatic sites, guided by interactions between tumor cells and the microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in cancer development?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that do not code for proteins but play regulatory roles in gene expression. In cancer, lncRNAs can function as oncogenes or tumor suppressors. They can regulate gene expression at multiple levels, including chromatin modification, transcription, and post-transcriptional processing. For example, some lncRNAs recruit chromatin-modifying complexes to specific genomic loci, altering histone modifications and affecting gene transcription. Other lncRNAs can act as decoys, sequestering microRNAs or RNA-binding proteins. LncRNAs can also regulate mRNA stability and translation. Dysregulation of lncRNA expression is frequently observed in cancer, contributing to tumor initiation, progression, and metastasis. LncRNAs are emerging as potential therapeutic targets and biomarkers in cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial step in managing a patient with suspected stroke?",
+    "answer": "Assess ABCs (airway, breathing, circulation) and obtain a CT scan of the brain to rule out hemorrhage.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do vaccines induce protective immunity against viral infections?",
+    "answer": "Vaccines stimulate the adaptive immune system to generate immunological memory against specific pathogens. Most vaccines contain either weakened (attenuated) or inactivated pathogens, or specific antigens derived from the pathogen. These antigens are recognized by antigen-presenting cells (APCs), which process and present them on MHC class I and II molecules to T cells. This activates helper T cells and cytotoxic T cells. Helper T cells stimulate B cells to produce antibodies that neutralize the virus or mark infected cells for destruction. Cytotoxic T cells directly kill infected cells. Memory B cells and memory T cells are generated, providing long-lasting immunity. Upon subsequent exposure to the actual pathogen, these memory cells rapidly differentiate into effector cells, mounting a faster and more effective immune response. The type of immunity induced (e.g., humoral vs. cellular) depends on the vaccine type and adjuvant used.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of resistance to chemotherapy in cancer?",
+    "answer": "Cancer cells develop resistance to chemotherapy through diverse mechanisms. Increased drug efflux, mediated by ABC transporters like P-glycoprotein, reduces intracellular drug concentrations. Alterations in drug targets, such as mutations in topoisomerase II or dihydrofolate reductase, reduce drug binding. Increased DNA repair capacity allows cells to repair drug-induced DNA damage. Apoptosis defects prevent cells from undergoing programmed cell death in response to chemotherapy. Epithelial-mesenchymal transition (EMT) can confer resistance by reducing drug uptake and increasing cell survival. Cancer stem cells, which are relatively quiescent and express high levels of drug efflux pumps, are also more resistant to chemotherapy. The tumor microenvironment can also contribute to resistance by limiting drug delivery and providing survival signals.",
+    "persona": "Researcher"
+  }
+]

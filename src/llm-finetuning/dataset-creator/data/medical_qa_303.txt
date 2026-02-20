@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Administer atropine intravenously; consider transcutaneous pacing if atropine is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise genome editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-strand break (DSB) at the specified genomic location. The cell repairs the DSB either through non-homologous end joining (NHEJ), which is error-prone and can result in insertions or deletions (indels), or through homology-directed repair (HDR) if a DNA template with homology to the break site is provided, allowing for precise gene editing or insertion of new sequences. The efficiency and specificity of CRISPR-Cas9 depend on factors like gRNA design, Cas9 variant, delivery method (e.g., viral vectors, electroporation), and cellular repair mechanisms. Off-target effects, where Cas9 cleaves unintended DNA sites with sequence similarity to the gRNA, remain a concern and are mitigated through optimized gRNA design, high-fidelity Cas9 variants, and computational prediction tools. CRISPR-Cas9 has revolutionized gene editing due to its simplicity, versatility, and efficiency compared to earlier methods like zinc finger nucleases and TALENs, making it a powerful tool for basic research, drug discovery, and gene therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and disease pathogenesis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring proteins, lipids, mRNAs, and microRNAs to recipient cells. They are formed through endocytosis, creating multivesicular bodies (MVBs) that fuse with the plasma membrane to release exosomes. Exosomes play a crucial role in various physiological processes, including immune responses, antigen presentation, and tissue repair. In disease, exosomes contribute to cancer progression by promoting tumor growth, angiogenesis, and metastasis. They also facilitate immune evasion by transferring immunosuppressive molecules and modulating the tumor microenvironment. In neurodegenerative diseases like Alzheimer's and Parkinson's, exosomes can spread misfolded proteins, contributing to disease propagation. Exosomes hold promise as diagnostic biomarkers due to their presence in bodily fluids and their ability to reflect the cellular state of origin. They are also being explored as therapeutic delivery vehicles for drugs and gene therapies, owing to their biocompatibility and ability to cross biological barriers. However, challenges remain in exosome isolation, characterization, and standardization for clinical applications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Prescribe nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, block inhibitory signaling pathways that normally dampen T-cell activation and effector function. CTLA-4, expressed on T cells, competes with the costimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs), preventing T-cell activation. Blocking CTLA-4 enhances T-cell priming and activation in the lymph nodes. PD-1, also expressed on T cells, binds to PD-L1 and PD-L2 on tumor cells and APCs, delivering an inhibitory signal that promotes T-cell exhaustion and immune evasion in the tumor microenvironment. Blocking PD-1/PD-L1 restores T-cell activity, allowing them to recognize and kill tumor cells. Combination therapies targeting multiple checkpoints or combining checkpoint inhibitors with chemotherapy, radiotherapy, or other immunotherapies have shown increased efficacy in certain cancers, but also increase the risk of immune-related adverse events. Biomarkers like PD-L1 expression, tumor mutational burden (TMB), and microsatellite instability (MSI) are used to predict response to checkpoint inhibitors, but their predictive accuracy is limited, and ongoing research aims to identify more reliable biomarkers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a suspected stroke?",
+    "answer": "Activate stroke protocol, obtain CT scan to rule out hemorrhage, and assess eligibility for thrombolysis or thrombectomy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves several interconnected signaling pathways. Amyloid precursor protein (APP) processing leads to the production of amyloid-beta (Aβ) peptides, which aggregate into plaques and trigger neuroinflammation and synaptic dysfunction. Hyperphosphorylation of tau protein results in the formation of neurofibrillary tangles, disrupting microtubule function and axonal transport. Aberrant insulin signaling and impaired glucose metabolism contribute to neuronal insulin resistance and increased Aβ production. Neuroinflammation, mediated by microglia and astrocytes, releases inflammatory cytokines and reactive oxygen species (ROS), further exacerbating neuronal damage. Genetic factors, such as mutations in APP, PSEN1, and PSEN2, and the APOE4 allele, influence AD risk by affecting Aβ production, clearance, and aggregation. These pathways converge to cause synaptic loss, neuronal death, and cognitive decline. Therapeutic strategies targeting these pathways include amyloid-beta clearance, tau phosphorylation inhibition, neuroinflammation modulation, and insulin sensitization, but effective disease-modifying therapies remain a significant challenge.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Administer empiric antibiotics, typically a macrolide or doxycycline for outpatients, or a beta-lactam plus macrolide or fluoroquinolone for inpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence host immunity and susceptibility to disease?",
+    "answer": "The gut microbiome, comprising trillions of bacteria, archaea, viruses, and fungi, plays a critical role in shaping host immunity and influencing susceptibility to various diseases. Commensal bacteria ferment dietary fibers, producing short-chain fatty acids (SCFAs) like butyrate, acetate, and propionate, which promote gut barrier integrity, modulate immune cell function, and exert anti-inflammatory effects. The microbiome also stimulates the development of the gut-associated lymphoid tissue (GALT) and educates the immune system to distinguish between harmless commensals and pathogenic invaders. Dysbiosis, or imbalance in the gut microbiome, can disrupt these processes and contribute to inflammatory bowel disease (IBD), metabolic syndrome, and autoimmune disorders. The microbiome can influence the efficacy of cancer immunotherapy by modulating the immune response to tumors. Fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy to restore gut microbiome diversity and treat conditions like recurrent Clostridioides difficile infection and IBD. Diet, antibiotics, and environmental factors significantly impact the composition and function of the gut microbiome, highlighting the importance of lifestyle interventions in promoting gut health and preventing disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Begin screening at age 45 with colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other accepted methods per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What mechanisms underlie the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance arises through diverse mechanisms, including enzymatic inactivation of antibiotics (e.g., beta-lactamases degrading beta-lactams), alteration of the antibiotic target site (e.g., mutations in ribosomal RNA conferring resistance to macrolides), decreased drug uptake via reduced membrane permeability or increased efflux pump activity, and acquisition of resistance genes through horizontal gene transfer (e.g., plasmids, transposons, integrons). Selective pressure from antibiotic use drives the enrichment of resistant strains, leading to the spread of resistance genes within and between bacterial populations. The overuse and misuse of antibiotics in human medicine and agriculture accelerate the development and dissemination of antibiotic resistance. Strategies to combat antibiotic resistance include antibiotic stewardship programs to reduce unnecessary antibiotic use, development of new antibiotics and alternative therapies (e.g., bacteriophages, antimicrobial peptides), and infection prevention and control measures to limit the spread of resistant bacteria. Understanding the molecular mechanisms of antibiotic resistance is crucial for developing effective strategies to overcome resistance and preserve the efficacy of existing antibiotics.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a first-time seizure be evaluated?",
+    "answer": "Obtain a detailed history, perform a neurological examination, order an EEG, and obtain brain imaging (MRI preferred).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in gene regulation and disease?",
+    "answer": "Long non-coding RNAs (lncRNAs) are RNA transcripts longer than 200 nucleotides that do not encode proteins but play diverse regulatory roles in gene expression. They can act as scaffolds, recruiting proteins to specific genomic loci to modulate chromatin structure and gene transcription. LncRNAs can also serve as decoys, sequestering transcription factors or microRNAs to prevent them from binding to their target genes. Some lncRNAs interact with mRNA to regulate mRNA stability, translation, or splicing. LncRNAs are implicated in various biological processes, including development, differentiation, and immune responses. Aberrant lncRNA expression is associated with numerous diseases, including cancer, cardiovascular disease, and neurological disorders. LncRNAs are being explored as potential therapeutic targets and biomarkers for disease diagnosis and prognosis. However, challenges remain in elucidating the functions of the vast majority of lncRNAs and developing effective strategies to target them therapeutically.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for deep vein thrombosis (DVT)?",
+    "answer": "Initiate anticoagulation with a direct oral anticoagulant (DOAC) or warfarin, or low-molecular-weight heparin bridging to warfarin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells evade the immune system through modulation of the tumor microenvironment?",
+    "answer": "Cancer cells employ various strategies to evade immune destruction by manipulating the tumor microenvironment (TME). They secrete immunosuppressive cytokines, such as TGF-β and IL-10, which inhibit T-cell activation and promote the differentiation of regulatory T cells (Tregs). Tumor cells also express checkpoint ligands, like PD-L1, that engage inhibitory receptors on T cells, leading to T-cell exhaustion and immune tolerance. They recruit myeloid-derived suppressor cells (MDSCs) and tumor-associated macrophages (TAMs) to the TME, which suppress T-cell activity and promote tumor angiogenesis and metastasis. Cancer cells can downregulate the expression of major histocompatibility complex (MHC) class I molecules, reducing antigen presentation and making them less susceptible to T-cell recognition. They also secrete factors that inhibit the recruitment and activation of dendritic cells (DCs), impairing antigen presentation and T-cell priming. Modulation of the TME is a dynamic process, and cancer cells adapt their strategies to overcome immune surveillance and promote tumor progression. Understanding these mechanisms is crucial for developing effective immunotherapies that can overcome immune evasion and elicit durable anti-tumor responses.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of chemotherapy?",
+    "answer": "Nausea, vomiting, fatigue, alopecia, myelosuppression, and mucositis are common chemotherapy side effects.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses cause chronic infections?",
+    "answer": "Viruses establish chronic infections through diverse strategies that allow them to persist within the host for extended periods. Some viruses, like HIV and hepatitis B virus (HBV), integrate their genomes into the host cell's DNA, establishing a latent reservoir that is difficult to eradicate. Other viruses, such as herpes simplex virus (HSV), establish latency in specific cell types (e.g., neurons) where they are not actively replicating but can reactivate under certain conditions. Viruses can also evade immune clearance by undergoing antigenic variation (e.g., influenza virus) or by suppressing host immune responses through the production of immunosuppressive cytokines or by interfering with antigen presentation pathways. Chronic viral infections can lead to chronic inflammation and tissue damage, contributing to the development of various diseases, including cancer (e.g., HPV, HBV, HCV). Understanding the mechanisms of viral persistence is crucial for developing effective strategies to prevent and treat chronic viral infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a suspected pulmonary embolism be evaluated?",
+    "answer": "Assess pretest probability, order a D-dimer if low probability, and perform CT pulmonary angiography if D-dimer is elevated or pretest probability is high.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of epigenetics in cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNA regulation, play a crucial role in cancer development and progression by altering gene expression patterns without changing the underlying DNA sequence. DNA methylation, typically at CpG islands, silences gene expression by recruiting methyl-binding proteins and promoting chromatin condensation. Histone modifications, such as acetylation and methylation, can either activate or repress gene transcription depending on the specific modification and the histone residue involved. Aberrant DNA methylation and histone modifications are frequently observed in cancer cells, leading to the silencing of tumor suppressor genes and the activation of oncogenes. Epigenetic changes can also affect DNA repair, cell cycle control, and apoptosis, contributing to genomic instability and tumor growth. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are being used to restore normal gene expression patterns and inhibit tumor growth. Epigenetic biomarkers are also being developed for cancer diagnosis, prognosis, and prediction of treatment response.",
+    "persona": "Researcher"
+  }
+]

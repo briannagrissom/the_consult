@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically recommended first-line agents."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 is an adaptive immune system repurposed for genome editing. It relies on a Cas9 endonuclease guided by a single guide RNA (sgRNA) that contains a 20-nucleotide sequence complementary to the target DNA. The sgRNA directs Cas9 to the specific genomic location via Watson-Crick base pairing. Once bound, Cas9 introduces a double-stranded break (DSB) in the DNA. The cell attempts to repair this break through two main pathways: non-homologous end joining (NHEJ), which is error-prone and often leads to insertions or deletions (indels) that disrupt the gene; or homology-directed repair (HDR), where a provided DNA template with homology to the target site is used to repair the break, allowing for precise gene insertion or correction. The efficiency and specificity of CRISPR-Cas9 can be influenced by factors such as sgRNA design, Cas9 variants, and delivery methods. Off-target effects, where Cas9 cuts at unintended sites, remain a concern and are being addressed through improved Cas9 variants and sgRNA design tools. [PMID: 26393714]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common modifiable risk factors for coronary artery disease?",
+    "answer": "Smoking, hypertension, hyperlipidemia, diabetes, obesity, and physical inactivity are key modifiable risk factors."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in IBD pathogenesis through multiple mechanisms. Dysbiosis, characterized by decreased microbial diversity and altered composition, is a hallmark of IBD. Specific bacterial species, such as adherent-invasive E. coli (AIEC) in Crohn's disease, can exacerbate inflammation by colonizing the gut mucosa and triggering immune responses. Conversely, a deficiency in beneficial bacteria like Faecalibacterium prausnitzii, which produces anti-inflammatory metabolites such as butyrate, can impair gut barrier function and promote inflammation. Microbial metabolites, including short-chain fatty acids (SCFAs), bile acids, and tryptophan metabolites, modulate immune cell activity and intestinal homeostasis. The microbiome also influences intestinal permeability, allowing increased translocation of bacterial products like lipopolysaccharide (LPS) that activate the innate immune system via Toll-like receptors (TLRs). Host genetic factors and environmental exposures further shape the microbiome composition and its impact on IBD susceptibility and disease course. Therapeutic strategies targeting the microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, aim to restore microbial balance and reduce inflammation in IBD. [PMID: 29296332]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with HPV testing?",
+    "answer": "Screening every 5 years with primary HPV testing is recommended for women aged 30-65 years."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors are monoclonal antibodies that block inhibitory receptors on immune cells, thereby unleashing anti-tumor immune responses. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are key immune checkpoints. CTLA-4, expressed on T cells, inhibits T cell activation by competing with CD28 for binding to B7 ligands on antigen-presenting cells (APCs). Blocking CTLA-4 enhances T cell priming and activation in the lymph nodes. PD-1, expressed on T cells, binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells within the tumor microenvironment. PD-1 ligation inhibits T cell effector function, promotes T cell exhaustion, and induces apoptosis. Blocking PD-1 or PD-L1 prevents this inhibitory signaling, reinvigorating T cells and allowing them to kill tumor cells. Combination strategies targeting multiple checkpoints or combining checkpoint inhibitors with chemotherapy, radiation, or targeted therapies are being explored to further enhance anti-tumor immunity and overcome resistance mechanisms. [PMID: 25519181]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of Parkinson's disease?",
+    "answer": "Tremor, rigidity, bradykinesia, and postural instability are cardinal features."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in cancer metastasis?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that do not encode proteins but play critical regulatory roles in gene expression. In cancer metastasis, lncRNAs can influence multiple steps of the metastatic cascade, including epithelial-mesenchymal transition (EMT), invasion, angiogenesis, and colonization. Some lncRNAs, such as MALAT1, promote EMT by modulating transcription factors like ZEB1 and SNAIL, leading to increased cell motility and invasiveness. Other lncRNAs, like HOTAIR, recruit chromatin-modifying complexes to specific genomic loci, altering gene expression patterns and promoting metastasis. LncRNAs can also regulate the tumor microenvironment by modulating immune cell infiltration and angiogenesis. Furthermore, lncRNAs can act as competing endogenous RNAs (ceRNAs), sponging microRNAs and thereby indirectly regulating the expression of target genes involved in metastasis. Understanding the specific mechanisms by which lncRNAs contribute to metastasis may identify novel therapeutic targets to prevent or treat metastatic disease. [PMID: 28275216]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine is often the first-line medication; consider transcutaneous pacing if ineffective."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair through homologous recombination. Mutations in these genes impair the cell's ability to repair double-stranded DNA breaks, leading to genomic instability and increased susceptibility to cancer. BRCA1 and BRCA2 proteins form complexes with other proteins involved in DNA damage repair, cell cycle checkpoint control, and transcriptional regulation. Loss of function mutations in BRCA1 or BRCA2 disrupt these processes, allowing damaged DNA to accumulate and increasing the likelihood of mutations in other genes that drive cancer development. Cells with BRCA1/2 mutations are particularly vulnerable to agents that cause DNA damage, such as platinum-based chemotherapy and PARP inhibitors. The increased risk of breast and ovarian cancer associated with BRCA1/2 mutations is due to the accumulation of genetic errors in breast and ovarian cells over time, eventually leading to uncontrolled cell growth and tumor formation. [PMID: 20107427]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target blood glucose range for most non-pregnant adults with diabetes?",
+    "answer": "Target A1c <7%, pre-prandial glucose 80-130 mg/dL, post-prandial <180 mg/dL per ADA guidelines."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, allowing them to establish persistent infections. These mechanisms include: (1) Interfering with interferon (IFN) signaling: Many viruses encode proteins that block the production or signaling of type I IFNs, which are critical for antiviral defense. (2) Inhibiting antigen presentation: Viruses can downregulate MHC class I expression, preventing infected cells from being recognized by cytotoxic T lymphocytes (CTLs). They can also interfere with antigen processing and presentation pathways. (3) Evading antibody responses: Viruses can undergo antigenic variation through mutations in surface proteins, allowing them to escape neutralization by pre-existing antibodies. They can also produce decoy antigens or shed viral proteins to saturate antibody binding sites. (4) Suppressing immune cell function: Some viruses encode proteins that directly inhibit the activity of immune cells, such as T cells, NK cells, and macrophages. They can also induce immune tolerance or exhaustion. (5) Establishing latency: Some viruses can establish a latent state in which they are not actively replicating and are therefore less susceptible to immune clearance. [PMID: 22238344]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute anaphylaxis?",
+    "answer": "Epinephrine is the first-line treatment; administer intramuscularly and repeat as needed."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs regulate gene expression?",
+    "answer": "Non-coding RNAs (ncRNAs) regulate gene expression through diverse mechanisms. MicroRNAs (miRNAs) bind to the 3'UTR of target mRNAs, leading to translational repression or mRNA degradation. Long non-coding RNAs (lncRNAs) can act as scaffolds, bringing together proteins to regulate transcription; they can also act as guides, directing proteins to specific genomic loci; or they can act as decoys, titrating away proteins from their targets. Circular RNAs (circRNAs) can sponge miRNAs, preventing them from binding to their target mRNAs, and can also interact with RNA-binding proteins. Piwi-interacting RNAs (piRNAs) are involved in silencing transposable elements and maintaining genome stability. Small interfering RNAs (siRNAs) are used in RNA interference (RNAi) to silence specific genes. These ncRNAs regulate gene expression at different levels, including transcription, RNA processing, translation, and mRNA stability. [PMID: 23999650]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient with community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline for outpatients; beta-lactam plus macrolide or a fluoroquinolone for inpatients."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy work in the context of cancer treatment?",
+    "answer": "Immunotherapy harnesses the power of the patient's own immune system to fight cancer. There are several types of immunotherapy, including checkpoint inhibitors, adoptive cell therapy, and cancer vaccines. Checkpoint inhibitors block inhibitory receptors on immune cells, such as CTLA-4 and PD-1, unleashing anti-tumor immune responses. Adoptive cell therapy involves collecting a patient's immune cells, modifying them to better recognize and kill cancer cells, and then infusing them back into the patient. CAR T-cell therapy is a type of adoptive cell therapy in which T cells are engineered to express a chimeric antigen receptor (CAR) that recognizes a specific antigen on cancer cells. Cancer vaccines stimulate the immune system to recognize and attack cancer cells. These therapies activate immune cells, enhance their ability to recognize and kill cancer cells, and overcome immune evasion mechanisms employed by tumors. [PMID: 28541723]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the mainstays of treatment for heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "ACE inhibitors/ARBs/ARNIs, beta-blockers, mineralocorticoid receptor antagonists, and SGLT2 inhibitors are guideline-directed medical therapies."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does epigenetics play in the development and progression of Alzheimer's disease?",
+    "answer": "Epigenetics, including DNA methylation, histone modification, and non-coding RNA regulation, plays a significant role in Alzheimer's disease (AD) development and progression. DNA methylation patterns are altered in AD brains, affecting the expression of genes involved in neuronal function, inflammation, and amyloid processing. Histone modifications, such as acetylation and methylation, influence chromatin structure and gene accessibility, impacting the transcription of genes relevant to AD pathology. Non-coding RNAs, including microRNAs and long non-coding RNAs, regulate gene expression at the post-transcriptional level and are implicated in AD pathogenesis. Epigenetic changes can be influenced by environmental factors, such as diet, stress, and exposure to toxins, potentially contributing to the increased risk of AD in certain populations. Understanding the epigenetic mechanisms underlying AD may identify novel therapeutic targets for preventing or treating the disease. [PMID: 29533947]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically initiated; consider anticoagulation based on CHA2DS2-VASc score."
+    ,
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to chemotherapy?",
+    "answer": "Cancer cells develop resistance to chemotherapy through multiple mechanisms. (1) Increased drug efflux: Cancer cells can overexpress drug efflux pumps, such as P-glycoprotein, which actively pump chemotherapeutic agents out of the cell, reducing their intracellular concentration. (2) Altered drug metabolism: Cancer cells can alter the metabolism of chemotherapeutic agents, either by inactivating them or by activating alternative metabolic pathways that bypass the drug's target. (3) Target gene mutations: Mutations in the target gene of a chemotherapeutic agent can render the drug ineffective. (4) Increased DNA repair: Cancer cells can upregulate DNA repair mechanisms, allowing them to repair DNA damage caused by chemotherapeutic agents. (5) Apoptosis inhibition: Cancer cells can develop resistance to apoptosis, the programmed cell death pathway, making them less sensitive to chemotherapeutic agents that induce apoptosis. (6) Epithelial-mesenchymal transition (EMT): EMT can confer resistance to chemotherapy by altering cell morphology and increasing cell motility. [PMID: 27345478]",
+    "persona": "Researcher"
+  }
+]

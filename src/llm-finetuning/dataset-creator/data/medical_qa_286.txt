@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers if hemodynamically stable; consider cardioversion if unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to acquired resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Acquired resistance to EGFR tyrosine kinase inhibitors (TKIs) in NSCLC frequently involves the development of secondary mutations within the EGFR kinase domain. The most common resistance mutation is T790M, which sterically hinders the binding of reversible EGFR TKIs. T790M increases the affinity of EGFR for ATP, making it more difficult for the inhibitor to compete for binding. Osimertinib, a third-generation EGFR TKI, was specifically designed to overcome T790M-mediated resistance due to its irreversible binding and ability to inhibit both EGFR-sensitizing mutations and T790M. Other resistance mechanisms include bypass signaling through MET amplification, activation of PI3K/AKT pathways, or histologic transformation to small cell lung cancer. These mechanisms restore downstream signaling despite EGFR inhibition. Combination therapies targeting these bypass pathways are being investigated to overcome resistance and improve outcomes [PMID: 28346432].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for screening for colorectal cancer?",
+    "answer": "Begin screening at age 45 with colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, depending on patient preference and risk factors per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of gut microbiota in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiota plays a critical role in the pathogenesis of IBD, involving complex interactions between genetic susceptibility, environmental factors, and immune dysregulation. In genetically predisposed individuals, alterations in the gut microbiome, often referred to as dysbiosis, can disrupt the balance between pro-inflammatory and anti-inflammatory responses. Dysbiosis in IBD is characterized by a decrease in microbial diversity and stability, with a reduction in beneficial commensal bacteria, such as Firmicutes (e.g., Faecalibacterium prausnitzii) and Bacteroidetes, and an increase in potentially pathogenic bacteria, such as Escherichia coli and adherent-invasive E. coli (AIEC). These microbial imbalances can lead to impaired intestinal barrier function, increased intestinal permeability, and heightened immune activation. Microbial metabolites, such as short-chain fatty acids (SCFAs) produced by bacterial fermentation of dietary fibers, are crucial for maintaining gut homeostasis. Reduced SCFA production in IBD can impair epithelial cell function and promote inflammation. The host immune system recognizes microbial antigens through pattern recognition receptors (PRRs), such as Toll-like receptors (TLRs) and NOD-like receptors (NLRs). In IBD, dysregulated immune responses to microbial antigens can result in chronic inflammation and tissue damage. Therapeutic strategies targeting the gut microbiota, such as fecal microbiota transplantation (FMT) and dietary interventions, have shown promise in restoring microbial balance and reducing inflammation in IBD patients [PMID: 29300340].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient diagnosed with community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients, guided by local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does insulin resistance contribute to the development of type 2 diabetes mellitus?",
+    "answer": "Insulin resistance is a key pathophysiological feature in the development of type 2 diabetes mellitus (T2DM). It involves a reduced responsiveness of target tissues, primarily skeletal muscle, liver, and adipose tissue, to the effects of insulin. In skeletal muscle, insulin resistance impairs glucose uptake and utilization, leading to elevated blood glucose levels. In the liver, insulin resistance diminishes insulin's ability to suppress hepatic glucose production, resulting in increased glucose output. In adipose tissue, insulin resistance reduces the ability of insulin to inhibit lipolysis, leading to increased circulating free fatty acids (FFAs). Elevated FFAs further exacerbate insulin resistance by impairing insulin signaling in muscle and liver. The pancreas initially compensates for insulin resistance by increasing insulin secretion to maintain normal glucose levels. However, over time, the pancreatic beta cells become exhausted and are unable to sustain the increased insulin demand, leading to progressive hyperglycemia and the eventual development of T2DM. Insulin resistance is influenced by genetic factors, obesity, physical inactivity, and chronic inflammation. Interventions that improve insulin sensitivity, such as lifestyle modifications (diet and exercise) and pharmacological agents (e.g., metformin, thiazolidinediones), can help prevent or delay the progression to T2DM [PMID: 12646368].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with a first-time seizure?",
+    "answer": "Assess airway, breathing, and circulation; rule out reversible causes (e.g., hypoglycemia, electrolyte imbalance); consider neuroimaging and EEG; initiate antiepileptic drugs if high risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the pathogenesis of Alzheimer's disease?",
+    "answer": "The pathogenesis of Alzheimer's disease (AD) is complex and multifactorial, involving several key molecular mechanisms. Two hallmark pathological features of AD are the accumulation of amyloid plaques and neurofibrillary tangles in the brain. Amyloid plaques are primarily composed of amyloid-beta (Aβ) peptides, which are derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. Accumulation of Aβ leads to the formation of oligomers and fibrils, which aggregate into plaques. Aβ plaques can trigger inflammatory responses, disrupt neuronal function, and contribute to synaptic dysfunction. Neurofibrillary tangles are composed of hyperphosphorylated tau protein, which normally stabilizes microtubules in neurons. Hyperphosphorylation of tau causes it to detach from microtubules and self-assemble into paired helical filaments (PHFs), which aggregate into tangles. Neurofibrillary tangles disrupt neuronal transport and contribute to neuronal death. Other mechanisms involved in AD pathogenesis include oxidative stress, mitochondrial dysfunction, impaired glucose metabolism, and neuroinflammation. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), increase Aβ production or alter Aβ processing, while APOE4 is a major genetic risk factor for late-onset AD. Therapeutic strategies targeting these mechanisms, such as Aβ immunotherapy and tau aggregation inhibitors, are under investigation [PMID: 29317495].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a patient with an acute myocardial infarction (STEMI)?",
+    "answer": "Rapid reperfusion via primary percutaneous coronary intervention (PCI) or fibrinolysis if PCI is not available within 120 minutes; administer aspirin, P2Y12 inhibitor, and anticoagulation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity in cancer immunotherapy?",
+    "answer": "Checkpoint inhibitors are a class of immunotherapeutic agents that enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally dampen T-cell activation and effector function. The two main checkpoint pathways targeted by these inhibitors are CTLA-4 and PD-1/PD-L1. CTLA-4 is expressed on T cells and binds to B7 ligands (CD80/CD86) on antigen-presenting cells (APCs). CTLA-4 has a higher affinity for B7 ligands than CD28, a co-stimulatory receptor on T cells. When CTLA-4 binds to B7, it inhibits T-cell activation and proliferation. Anti-CTLA-4 antibodies, such as ipilimumab, block the interaction between CTLA-4 and B7, allowing for sustained T-cell activation. The PD-1 receptor is expressed on T cells, and its ligand, PD-L1, is often upregulated on tumor cells and immune cells in the tumor microenvironment. When PD-1 binds to PD-L1, it inhibits T-cell activity, promotes T-cell exhaustion, and induces T-cell apoptosis. Anti-PD-1 antibodies (e.g., nivolumab, pembrolizumab) and anti-PD-L1 antibodies (e.g., atezolizumab) block the PD-1/PD-L1 interaction, restoring T-cell function and enabling T cells to recognize and kill tumor cells. Checkpoint inhibitors have shown remarkable clinical efficacy in various cancers, including melanoma, lung cancer, and kidney cancer. However, they can also cause immune-related adverse events due to the broad activation of the immune system [PMID: 23220243].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a female patient?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, or fosfomycin as a single dose, depending on local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication in the tumor microenvironment?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that mediate intercellular communication in the tumor microenvironment. They are secreted by various cell types, including tumor cells, immune cells, and stromal cells, and contain a diverse cargo of proteins, nucleic acids (mRNA, miRNA, DNA), and lipids. Exosomes can transfer their cargo to recipient cells, thereby influencing their function and behavior. In the tumor microenvironment, exosomes play multiple roles that promote tumor growth, metastasis, and immune evasion. Tumor-derived exosomes can transfer oncogenic proteins and miRNAs to recipient cells, promoting proliferation, angiogenesis, and invasion. They can also modulate the immune response by suppressing T-cell activity, promoting regulatory T-cell (Treg) expansion, and inducing M2 polarization of macrophages. Exosomes can facilitate metastasis by preparing distant sites for tumor cell colonization. They can transfer matrix metalloproteinases (MMPs) and other proteases to degrade the extracellular matrix and promote tumor cell migration. Exosomes can also transfer drug resistance factors to recipient cells, leading to chemotherapy resistance. The composition and function of exosomes are influenced by the tumor microenvironment, including hypoxia, nutrient deprivation, and inflammation. Targeting exosomes is an emerging therapeutic strategy for cancer treatment. Approaches include inhibiting exosome biogenesis, blocking exosome uptake, and engineering exosomes for drug delivery [PMID: 26636633].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended approach to managing a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin; consider thrombolysis for massive DVT with limb-threatening ischemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in regulating gene expression and cellular processes in cancer development and progression. DNA methylation involves the addition of a methyl group to cytosine bases in DNA, primarily at CpG dinucleotides. Hypermethylation of promoter regions can silence tumor suppressor genes, while hypomethylation can activate oncogenes and promote genomic instability. Histone modifications, such as acetylation and methylation, alter chromatin structure and influence gene transcription. Histone acetylation is generally associated with increased gene expression, while histone methylation can either activate or repress gene expression depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression at the post-transcriptional level. miRNAs can bind to mRNA targets and inhibit translation or promote mRNA degradation. lncRNAs can regulate gene expression by interacting with DNA, RNA, and proteins. Aberrant epigenetic modifications can disrupt normal cellular processes, such as cell cycle control, DNA repair, and apoptosis, leading to cancer development. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), can reverse epigenetic alterations and restore normal gene expression [PMID: 25324329].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with acute gout flare?",
+    "answer": "NSAIDs, colchicine, or corticosteroids; consider intra-articular corticosteroid injection for monoarticular involvement.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, enabling them to establish persistent infections. These mechanisms include interfering with interferon (IFN) signaling, inhibiting antigen presentation, suppressing T-cell responses, and undergoing antigenic variation. Many viruses encode proteins that block the production or signaling of type I IFNs, which are critical for antiviral defense. These viral proteins can inhibit IFN gene transcription, block IFN receptor signaling, or interfere with downstream antiviral effectors. Viruses can also inhibit antigen presentation by downregulating MHC class I molecules, blocking peptide loading onto MHC molecules, or interfering with the transport of MHC molecules to the cell surface. This prevents cytotoxic T lymphocytes (CTLs) from recognizing and killing infected cells. Some viruses encode proteins that directly suppress T-cell activation or induce T-cell apoptosis. These proteins can target T-cell signaling pathways, inhibit T-cell proliferation, or promote the expression of inhibitory receptors on T cells. Many viruses undergo antigenic variation, which involves mutations in viral surface proteins that are recognized by antibodies. This allows the virus to escape antibody-mediated neutralization and reinfect the host. Examples of viruses that exhibit antigenic variation include influenza virus and HIV. Understanding these immune evasion mechanisms is crucial for developing effective antiviral therapies and vaccines [PMID: 24789872].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a child presenting with status asthmaticus?",
+    "answer": "Oxygen, inhaled beta-agonists, and systemic corticosteroids; consider magnesium sulfate and continuous albuterol nebulization for severe cases.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does dysregulation of autophagy contribute to neurodegenerative diseases?",
+    "answer": "Dysregulation of autophagy, a cellular process responsible for the degradation and recycling of damaged organelles and misfolded proteins, is implicated in the pathogenesis of several neurodegenerative diseases. In neurons, autophagy plays a critical role in maintaining cellular homeostasis by removing protein aggregates, damaged mitochondria, and other cellular debris. Impaired autophagy can lead to the accumulation of these toxic materials, which can trigger neuronal dysfunction and cell death. In Alzheimer's disease, impaired autophagy contributes to the accumulation of amyloid-beta plaques and neurofibrillary tangles, which are hallmark pathological features of the disease. In Parkinson's disease, mutations in genes involved in autophagy, such as LRRK2 and PARK2, can disrupt autophagic clearance of alpha-synuclein aggregates, leading to the formation of Lewy bodies and neuronal degeneration. In Huntington's disease, mutant huntingtin protein can impair autophagy, leading to the accumulation of toxic protein aggregates in neurons. Enhancing autophagy is being explored as a therapeutic strategy for neurodegenerative diseases. Approaches include pharmacological agents that stimulate autophagy, such as rapamycin and its analogs, and gene therapy to restore autophagy function [PMID: 25624233].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient diagnosed with early-stage Lyme disease?",
+    "answer": "Doxycycline, amoxicillin, or cefuroxime axetil for 10-14 days, depending on the specific manifestation of Lyme disease per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in cancer metastasis?",
+    "answer": "Cancer metastasis, the process by which cancer cells spread from the primary tumor to distant sites, involves a complex interplay of signaling pathways that regulate cell adhesion, migration, invasion, and angiogenesis. The epithelial-mesenchymal transition (EMT) is a key process in metastasis, where epithelial cells lose their cell-cell junctions and acquire a mesenchymal phenotype, enabling them to migrate and invade surrounding tissues. EMT is regulated by several signaling pathways, including TGF-β, Wnt, and Notch. TGF-β signaling promotes EMT by inducing the expression of transcription factors, such as Snail, Slug, and Twist, which repress the expression of epithelial genes and activate mesenchymal genes. The Wnt signaling pathway regulates cell proliferation, differentiation, and migration. Activation of Wnt signaling promotes EMT and metastasis by increasing the expression of EMT-inducing transcription factors. The Notch signaling pathway regulates cell fate decisions and plays a role in EMT and metastasis. Other signaling pathways involved in metastasis include receptor tyrosine kinases (RTKs), such as EGFR and HER2, which promote cell proliferation, survival, and migration; integrins, which mediate cell-extracellular matrix interactions and promote cell adhesion and migration; and chemokines, which regulate cell trafficking and promote tumor cell homing to distant sites [PMID: 23535741].",
+    "persona": "Researcher"
+  }
+]

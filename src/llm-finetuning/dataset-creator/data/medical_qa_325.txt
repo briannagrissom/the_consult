@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically first-line; consider cardioversion if unstable or rate control fails.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Acquired resistance to EGFR tyrosine kinase inhibitors (TKIs) in NSCLC frequently arises from secondary mutations within the EGFR kinase domain, most commonly the T790M mutation. This mutation increases the affinity of EGFR for ATP, making it more difficult for EGFR TKIs to bind and inhibit the kinase. Steric hindrance also contributes to resistance. Other less frequent resistance mutations include C797S, L792H, and EGFR amplification, which can occur alone or in combination with T790M. Beyond EGFR mutations, activation of bypass signaling pathways such as MET amplification, BRAF mutations, or PI3K/AKT activation can confer TKI resistance by restoring downstream signaling independent of EGFR. Immunotherapy may be considered after TKI resistance develops. Combinations of EGFR TKIs with MET inhibitors or chemotherapy are also strategies under investigation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "HbA1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or random plasma glucose ≥200 mg/dL with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which gut microbiota influence the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiota significantly modulates the efficacy of cancer immunotherapy through several mechanisms. Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to checkpoint inhibitors. These bacteria can enhance anti-tumor immunity by modulating the composition and function of immune cells in the tumor microenvironment. For example, some bacteria promote the trafficking of T cells into tumors and enhance their cytotoxic activity. The gut microbiota also influences systemic immune responses by shaping the maturation and function of dendritic cells, which are critical for antigen presentation and T cell activation. Furthermore, microbial metabolites, such as short-chain fatty acids (SCFAs) like butyrate, can enhance the anti-tumor activity of T cells and promote the production of anti-inflammatory cytokines. Dysbiosis, or an imbalance in the gut microbiota, can impair the response to immunotherapy by reducing the abundance of beneficial bacteria and increasing the levels of immunosuppressive bacteria. Strategies to modulate the gut microbiota, such as fecal microbiota transplantation or dietary interventions, are being explored to enhance the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline; consider macrolide (azithromycin or clarithromycin) if local resistance is <25% for macrolides, or respiratory fluoroquinolone in presence of comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the unfolded protein response (UPR) contribute to neurodegenerative diseases like Alzheimer's and Parkinson's?",
+    "answer": "The unfolded protein response (UPR) is a cellular stress response activated when misfolded or unfolded proteins accumulate in the endoplasmic reticulum (ER). In neurodegenerative diseases like Alzheimer's and Parkinson's, chronic ER stress and UPR activation play significant roles in disease pathogenesis. In Alzheimer's disease, the accumulation of amyloid-beta plaques and tau tangles leads to ER stress and activation of the UPR. The UPR can initially be protective by promoting protein folding and degradation, but prolonged activation can trigger apoptosis and neuronal cell death. In Parkinson's disease, mutations in genes like alpha-synuclein and LRRK2 can cause ER stress and UPR activation, contributing to the formation of Lewy bodies and neuronal dysfunction. The UPR can also influence neuroinflammation and oxidative stress, further exacerbating neurodegeneration. Targeting the UPR with pharmacological interventions is being explored as a potential therapeutic strategy for these diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for managing a patient with a first-time unprovoked seizure?",
+    "answer": "Neurological evaluation, EEG, and neuroimaging (MRI preferred). Treatment with anti-seizure medication is considered based on recurrence risk, EEG findings, and patient factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development of insulin resistance in type 2 diabetes?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes, is characterized by impaired cellular responses to insulin, primarily in skeletal muscle, liver, and adipose tissue. Several signaling pathways contribute to the development of insulin resistance. One key pathway involves the activation of serine kinases, such as IKKβ and JNK, by inflammatory cytokines and lipids. These kinases phosphorylate insulin receptor substrate 1 (IRS-1) on serine residues, inhibiting its ability to activate downstream signaling molecules like PI3K. Activation of protein phosphatase 2A (PP2A) also dephosphorylates IRS-1, disrupting insulin signaling. Additionally, increased levels of intracellular lipids, such as diacylglycerol (DAG) and ceramide, activate protein kinase C isoforms, which further impair insulin signaling. Furthermore, defects in mitochondrial function and oxidative stress can contribute to insulin resistance by increasing the production of reactive oxygen species (ROS), which can damage insulin signaling molecules. The combined effects of these signaling pathways lead to reduced glucose uptake in muscle, increased hepatic glucose production, and impaired suppression of lipolysis in adipose tissue, ultimately resulting in hyperglycemia and insulin resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, influence cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation, play a critical role in regulating gene expression and cellular processes, and their dysregulation is frequently observed in cancer. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), often leads to gene silencing by recruiting methyl-binding domain proteins and histone deacetylases. In cancer, aberrant DNA methylation patterns can silence tumor suppressor genes, promoting uncontrolled cell growth and survival. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure. Conversely, histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to chromatin condensation and gene repression. In cancer, alterations in histone acetylation patterns can disrupt the expression of genes involved in cell cycle control, DNA repair, and apoptosis. Furthermore, epigenetic modifications can interact with each other and with genetic mutations to drive cancer development and progression. Targeting epigenetic enzymes, such as DNA methyltransferases (DNMTs) and histone deacetylases (HDACs), is an active area of research for cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate initial workup for a patient presenting with suspected deep vein thrombosis (DVT)?",
+    "answer": "Assess pretest probability (e.g., Wells score) and perform D-dimer testing. If D-dimer is elevated or pretest probability is high, perform lower extremity ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms underlying the pathogenesis of autoimmune diseases like rheumatoid arthritis and systemic lupus erythematosus?",
+    "answer": "Autoimmune diseases, such as rheumatoid arthritis (RA) and systemic lupus erythematosus (SLE), are characterized by a breakdown in immune tolerance, leading to the immune system attacking the body's own tissues. Several molecular mechanisms contribute to the pathogenesis of these diseases. In RA, genetic factors, such as HLA-DRB1 alleles, and environmental factors, like smoking, can trigger the activation of autoreactive T cells and B cells. These immune cells infiltrate the synovial membrane of joints, leading to inflammation and joint destruction. Cytokines, such as TNF-alpha, IL-1, and IL-6, play a central role in driving the inflammatory cascade. In SLE, the production of autoantibodies against nuclear antigens, such as DNA and RNA, is a hallmark of the disease. These autoantibodies form immune complexes that deposit in various organs, leading to inflammation and tissue damage. Type I interferons also play a critical role in SLE pathogenesis by promoting the activation of immune cells and the production of autoantibodies. Furthermore, defects in immune regulatory mechanisms, such as the function of regulatory T cells, contribute to the development and progression of autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a female patient?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days (if local resistance <20%), or fosfomycin single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination, which is critical for repairing double-strand DNA breaks. Mutations in these genes impair the ability of cells to accurately repair damaged DNA, leading to the accumulation of genetic mutations and genomic instability. This genomic instability increases the risk of developing cancer, particularly breast and ovarian cancer. BRCA1 and BRCA2 interact with numerous other proteins involved in DNA repair, cell cycle control, and apoptosis. When these genes are mutated, these critical cellular processes are disrupted, leading to uncontrolled cell growth and tumor formation. Furthermore, BRCA1 and BRCA2 mutations can increase the sensitivity of cancer cells to certain therapies, such as PARP inhibitors, which exploit the impaired DNA repair mechanisms in these cells. The specific types of mutations and their location within the BRCA1 and BRCA2 genes can also influence the risk and characteristics of the cancers that develop.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of managing a patient with acute stroke?",
+    "answer": "Rapid neurological assessment, neuroimaging (CT or MRI), thrombolysis (if eligible within 4.5 hours), thrombectomy (if large vessel occlusion), supportive care, and prevention of secondary complications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by cells that mediate intercellular communication by transferring cargo, including proteins, nucleic acids (mRNA, miRNA, DNA), and lipids, to recipient cells. In cancer, exosomes play a multifaceted role in promoting tumor growth, angiogenesis, immune evasion, and metastasis. Cancer cells release exosomes that can alter the tumor microenvironment by promoting angiogenesis, suppressing immune cell activity, and remodeling the extracellular matrix. Exosomes can also transfer oncogenic proteins and miRNAs to recipient cells, promoting their malignant transformation and proliferation. Furthermore, exosomes play a critical role in cancer metastasis by facilitating the detachment of cancer cells from the primary tumor, promoting their survival in the circulation, and facilitating their adhesion and invasion into distant organs. Exosomes can also educate the pre-metastatic niche by preparing distant sites for the arrival of cancer cells. Targeting exosome biogenesis, secretion, or uptake is being explored as a potential therapeutic strategy to inhibit cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for seasonal allergic rhinitis?",
+    "answer": "Intranasal corticosteroids, oral or topical antihistamines, decongestants, and avoidance of allergens.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system to establish persistent infections?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system and establish persistent infections. One common mechanism is the suppression of interferon (IFN) signaling, which is a critical antiviral defense pathway. Viruses can encode proteins that inhibit the production or signaling of type I IFNs, thereby reducing the activation of antiviral genes. Viruses can also undergo antigenic variation, such as mutation or recombination, to alter their surface proteins and escape recognition by neutralizing antibodies. Some viruses establish latency, a state of dormancy in which the virus is present in the host but does not actively replicate or cause disease. During latency, the virus expresses only a limited number of genes, making it difficult for the immune system to detect and eliminate it. Other viruses can actively suppress or kill immune cells, such as T cells and dendritic cells, to evade immune clearance. Furthermore, viruses can exploit regulatory pathways, such as PD-1/PD-L1, to suppress T cell activity and promote immune tolerance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial approach to managing a patient with hyperthyroidism?",
+    "answer": "Confirm diagnosis with thyroid function tests (TSH, free T4, free T3). Initiate beta-blockers for symptomatic relief and consider anti-thyroid medications (methimazole or propylthiouracil) or radioactive iodine ablation based on etiology and patient preference.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the main mechanisms of action of checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, in cancer immunotherapy?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, are immunotherapeutic agents that block inhibitory immune checkpoints, thereby enhancing anti-tumor immune responses. CTLA-4 is expressed on T cells and competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells (APCs). By blocking CTLA-4, anti-CTLA-4 antibodies promote T cell activation and proliferation, particularly in the early stages of T cell priming in the lymph nodes. PD-1 is expressed on T cells, B cells, and NK cells, and interacts with its ligands PD-L1 and PD-L2, which are often upregulated in tumors. PD-1 signaling inhibits T cell activation and effector function in the tumor microenvironment. By blocking PD-1 or PD-L1, anti-PD-1 antibodies enhance the ability of T cells to recognize and kill cancer cells. These checkpoint inhibitors can unleash pre-existing anti-tumor T cell responses and promote the development of new anti-tumor immunity. However, they can also lead to immune-related adverse events due to the broad activation of the immune system.",
+    "persona": "Researcher"
+  }
+]

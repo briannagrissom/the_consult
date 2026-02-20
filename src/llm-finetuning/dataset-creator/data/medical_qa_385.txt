@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Administer atropine intravenously; consider transcutaneous pacing if atropine is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise gene editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a target DNA sequence. The Cas9 endonuclease, guided by the gRNA, creates a double-stranded break (DSB) at the target site. The cell repairs this break via non-homologous end joining (NHEJ), which often introduces insertions or deletions (indels) disrupting the gene, or homology-directed repair (HDR) if a donor DNA template is provided, enabling precise gene insertion or modification. Specificity is determined by the gRNA sequence and protospacer adjacent motif (PAM) recognition by Cas9. Off-target effects remain a challenge, driving research into high-fidelity Cas9 variants and improved gRNA design algorithms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for rheumatoid arthritis according to the ACR/EULAR 2010 classification?",
+    "answer": "Joint involvement, serology (RF, anti-CCP), acute phase reactants (ESR, CRP), and symptom duration are scored to reach a cutoff for definite RA.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone acetylation/methylation, and non-coding RNA regulation, alter gene expression without changing the underlying DNA sequence. Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor gene promoters and global hypomethylation, are common in cancer cells. Histone modifications influence chromatin structure and gene accessibility; for example, loss of histone H3K9me3 and gain of H3K4me3 can activate oncogenes. Non-coding RNAs, such as microRNAs, regulate mRNA stability and translation, and their dysregulation can promote tumor growth, metastasis, and drug resistance. Epigenetic alterations can be inherited mitotically, contributing to clonal evolution and tumor heterogeneity. Furthermore, they are often reversible, making them attractive targets for epigenetic therapies like histone deacetylase inhibitors (HDACi) and DNA methyltransferase inhibitors (DNMTi).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Prescribe nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days, according to IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What mechanisms underlie the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance arises through various mechanisms, including enzymatic inactivation of the drug (e.g., beta-lactamases), alteration of the antibiotic target site (e.g., mutations in ribosomal proteins), decreased drug uptake via porin mutations, increased efflux of the drug, and bypassing the inhibited metabolic pathway. Resistance genes can be acquired through horizontal gene transfer, including conjugation, transduction, and transformation, facilitating rapid dissemination of resistance across bacterial populations. Selective pressure from antibiotic use drives the enrichment of resistant strains, leading to the emergence of multidrug-resistant organisms (MDROs). Understanding these mechanisms is crucial for developing new antibiotics and strategies to combat resistance, such as combination therapy and phage therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (2 points), diabetes, stroke/TIA/thromboembolism (2 points), vascular disease, age 65-74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, block inhibitory signaling pathways that normally dampen T-cell activation. CTLA-4 blockade enhances T-cell priming in lymph nodes by blocking its interaction with B7 molecules on antigen-presenting cells, allowing CD28 co-stimulation to proceed unimpeded. PD-1/PD-L1 blockade prevents the interaction of PD-1 on T cells with PD-L1 expressed on tumor cells or immune cells in the tumor microenvironment, thereby preventing T-cell exhaustion and restoring effector function. This allows cytotoxic T lymphocytes (CTLs) to effectively recognize and kill tumor cells. Combination strategies targeting multiple checkpoints or combining checkpoint inhibitors with other immunotherapies (e.g., adoptive cell therapy, oncolytic viruses) are being explored to further enhance anti-tumor responses and overcome resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone?",
+    "answer": "Screen every 3 years for women aged 21-29.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does dysregulation of the gut microbiome contribute to the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "Dysbiosis, characterized by reduced microbial diversity, decreased abundance of beneficial commensals (e.g., Firmicutes), and increased abundance of pathobionts (e.g., Escherichia coli), disrupts intestinal homeostasis. This altered microbial composition impairs barrier function, increases intestinal permeability, and enhances antigen presentation to the immune system. Pathobionts can trigger aberrant immune responses, including increased production of pro-inflammatory cytokines (e.g., TNF-α, IL-17) and activation of T helper cells. Genetic susceptibility factors, such as NOD2 mutations, further contribute to dysregulated immune responses to microbial antigens. Furthermore, altered microbial metabolism can lead to decreased production of short-chain fatty acids (SCFAs), which normally promote epithelial cell health and suppress inflammation. Therapeutic strategies targeting the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored to restore microbial balance and alleviate IBD symptoms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "Maintain an INR between 2.0 and 3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs regulate gene expression in eukaryotic cells?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and circular RNAs (circRNAs), play diverse roles in regulating gene expression at transcriptional, post-transcriptional, and translational levels. MicroRNAs, typically 21-23 nucleotides in length, bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Long non-coding RNAs, exceeding 200 nucleotides, can act as scaffolds, guiding protein complexes to specific genomic loci to regulate transcription, or as decoys, sequestering transcription factors or miRNAs. Circular RNAs, formed by back-splicing events, can act as miRNA sponges, competing with mRNAs for miRNA binding, or can regulate transcription. Dysregulation of ncRNA expression is implicated in various diseases, including cancer, and ncRNAs are emerging as potential therapeutic targets.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological treatment for type 2 diabetes mellitus?",
+    "answer": "Start with metformin, unless contraindicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells adapt to hypoxia in the tumor microenvironment?",
+    "answer": "Under hypoxic conditions, cancer cells activate hypoxia-inducible factor 1 (HIF-1), a transcription factor that regulates the expression of genes involved in angiogenesis, glucose metabolism, cell survival, and metastasis. HIF-1α, the oxygen-sensitive subunit of HIF-1, is stabilized and translocates to the nucleus, where it dimerizes with HIF-1β and binds to hypoxia response elements (HREs) in the promoters of target genes. These genes include VEGF (vascular endothelial growth factor), which promotes angiogenesis; GLUT1 and HK2, which enhance glucose uptake and glycolysis; and EPO (erythropoietin), which stimulates red blood cell production. Hypoxia also induces autophagy, a process that degrades damaged organelles and recycles cellular components to provide energy. Furthermore, hypoxia can promote epithelial-mesenchymal transition (EMT), increasing the invasive and metastatic potential of cancer cells. Targeting HIF-1α and its downstream targets is an area of active research in cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Administer intramuscular epinephrine; consider antihistamines and corticosteroids as adjuncts.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the body's immune system to fight cancer?",
+    "answer": "Immunotherapy encompasses a range of strategies that enhance the body's natural defenses against cancer. Checkpoint inhibitors block inhibitory signals that prevent T cells from attacking tumor cells. Adoptive cell therapy involves engineering immune cells, such as T cells, to recognize and kill cancer cells more effectively. Cancer vaccines stimulate the immune system to recognize and attack tumor-specific antigens. Oncolytic viruses selectively infect and kill cancer cells, while also stimulating an immune response. Cytokines, such as IL-2 and IFN-α, can boost immune cell activity. Immunotherapy aims to overcome immune evasion mechanisms employed by cancer cells and establish durable anti-tumor responses. Combination strategies that combine different immunotherapies or combine immunotherapy with chemotherapy or radiation therapy are being explored to improve efficacy and overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with a beta-blocker or calcium channel blocker; consider anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genetic mutations in oncogenes and tumor suppressor genes contribute to tumorigenesis?",
+    "answer": "Mutations in oncogenes and tumor suppressor genes disrupt normal cellular processes and promote uncontrolled cell growth. Oncogenes, when mutated, become constitutively active, driving cell proliferation, inhibiting apoptosis, and promoting angiogenesis. Examples include mutations in RAS, MYC, and EGFR. Tumor suppressor genes, such as TP53, RB, and PTEN, normally regulate cell cycle progression, DNA repair, and apoptosis. Loss-of-function mutations in these genes eliminate their inhibitory effects, allowing cells to proliferate unchecked. Accumulation of mutations in multiple oncogenes and tumor suppressor genes is typically required for the development of cancer. These mutations can be inherited or acquired through environmental exposures, such as radiation and carcinogens.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial dose of levothyroxine for a patient with hypothyroidism?",
+    "answer": "Typically 1.6 mcg/kg body weight per day, adjusted based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How can nanotechnology be applied to improve drug delivery in cancer therapy?",
+    "answer": "Nanoparticles (NPs) can enhance drug delivery through enhanced permeability and retention (EPR) effect, targeting tumor microenvironment. Surface modification allows for targeted delivery to cancer cells or specific intracellular compartments. They improve drug solubility, protect drugs from degradation, and facilitate controlled release. Liposomes, polymeric NPs, and inorganic NPs are used to deliver chemotherapeutics, nucleic acids, and proteins. Multifunctional NPs combining imaging and therapy (theranostics) offer personalized cancer treatment monitoring. Nanoparticle toxicity and biodistribution remain key considerations for clinical translation.",
+    "persona": "Researcher"
+  }
+]

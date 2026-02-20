@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line, depending on local resistance patterns; consider fosfomycin as an alternative per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development and progression of atherosclerotic plaques?",
+    "answer": "Chronic inflammation plays a central role in all stages of atherosclerosis, initiating with endothelial dysfunction induced by oxidized LDL, advanced glycation end-products, and disturbed flow. This triggers endothelial cells to express adhesion molecules like VCAM-1 and E-selectin, recruiting monocytes and T lymphocytes into the subendothelial space. Monocytes differentiate into macrophages, which engulf modified LDL to become foam cells, the hallmark of early plaques. Macrophages secrete pro-inflammatory cytokines (IL-1β, TNF-α, IL-6) that further activate endothelial cells and recruit more immune cells, creating a positive feedback loop. Within the plaque, T cells release IFN-γ, stimulating macrophages and inhibiting smooth muscle cell proliferation, weakening the fibrous cap. Macrophages also produce matrix metalloproteinases (MMPs) that degrade the extracellular matrix, destabilizing the plaque and increasing the risk of rupture. Systemic inflammation, indicated by elevated CRP levels, predicts cardiovascular events, reflecting the ongoing inflammatory burden. Therapeutic strategies targeting inflammatory pathways, such as IL-1β inhibition (e.g., canakinumab), have shown promise in reducing cardiovascular risk, demonstrating the direct involvement of inflammation in atherogenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or a random plasma glucose ≥200 mg/dL with classic symptoms of hyperglycemia per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome has emerged as a critical modulator of response to immune checkpoint inhibitors (ICIs) targeting PD-1/PD-L1 and CTLA-4. Specific bacterial taxa can enhance or diminish the efficacy of ICIs, influencing both systemic immunity and the tumor microenvironment. Patients with a higher abundance of *Akkermansia muciniphila* often exhibit improved responses to anti-PD-1 therapy in melanoma and non-small cell lung cancer, potentially due to increased recruitment and activation of CD4+ T cells in the tumor bed. Conversely, other bacteria, such as *Bacteroides fragilis*, can promote immune suppression and resistance to ICIs by activating the CTLA-4 pathway. Mechanistically, the gut microbiome influences immune responses through several pathways, including the production of short-chain fatty acids (SCFAs) like butyrate, which enhance T-cell function and promote the differentiation of regulatory T cells. Microbial metabolites can also activate pattern recognition receptors (PRRs) on immune cells, leading to the production of cytokines that modulate immune cell trafficking and activity. Fecal microbiota transplantation (FMT) studies have demonstrated that transferring the gut microbiome from ICI-responsive patients to non-responsive patients can improve their response to ICIs, highlighting the causal role of the gut microbiome in modulating ICI efficacy. Strategies to manipulate the gut microbiome, such as dietary interventions, probiotics, and FMT, are being actively investigated to enhance the efficacy of ICIs and overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is recommended initially; consider cardioversion if hemodynamically unstable per ACC/AHA/HRS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain contribute to resistance to EGFR-targeted therapies in non-small cell lung cancer?",
+    "answer": "Mutations in the epidermal growth factor receptor (EGFR) tyrosine kinase domain are common in non-small cell lung cancer (NSCLC), particularly in adenocarcinomas. While initial EGFR-tyrosine kinase inhibitors (TKIs) like gefitinib and erlotinib show high response rates in patients with sensitizing EGFR mutations (e.g., exon 19 deletions, L858R), resistance inevitably develops, often mediated by secondary EGFR mutations. The most common resistance mechanism is the T790M mutation, which accounts for approximately 50-60% of acquired resistance cases. T790M sterically hinders the binding of first- and second-generation EGFR-TKIs by increasing the affinity of EGFR for ATP. Third-generation EGFR-TKIs (e.g., osimertinib) were designed to overcome T790M resistance by forming irreversible covalent bonds with EGFR, including the T790M mutant. However, resistance to osimertinib can also emerge through mechanisms such as the C797S mutation, which prevents osimertinib binding, or through bypass pathways like MET amplification or activation of alternative receptor tyrosine kinases. Furthermore, histologic transformation to small cell lung cancer can also lead to EGFR-TKI resistance. Understanding these resistance mechanisms is crucial for developing strategies to overcome EGFR-TKI resistance, such as the development of novel EGFR inhibitors targeting specific resistance mutations or combination therapies that block bypass pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating community-acquired pneumonia (CAP) in an outpatient setting?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (if local resistance is low) are recommended per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions propagate and cause neurodegenerative diseases?",
+    "answer": "Prions are misfolded, self-propagating isoforms of normal cellular proteins, most commonly the prion protein (PrPC). Unlike conventional infectious agents, prions lack nucleic acid and transmit disease by converting PrPC into the pathogenic prion form (PrPSc). The mechanism involves PrPSc acting as a template, binding to PrPC and inducing a conformational change, leading to the formation of more PrPSc molecules. This process occurs autocatalytically, resulting in exponential accumulation of PrPSc. PrPSc aggregates form amyloid fibrils, which accumulate in the brain, causing neuronal dysfunction and cell death. Different prion strains exist, characterized by distinct PrPSc conformations that influence disease phenotype, incubation period, and brain region affected. Prion diseases are invariably fatal neurodegenerative disorders, including Creutzfeldt-Jakob disease (CJD) in humans, bovine spongiform encephalopathy (BSE) in cattle, and scrapie in sheep. There is no effective treatment for prion diseases, and research focuses on understanding the molecular mechanisms of prion propagation and developing strategies to prevent or inhibit prion formation and aggregation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with a direct oral anticoagulant (DOAC) or warfarin (bridged with heparin) is recommended per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of epigenetic modifications in cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in cancer development and progression by altering gene expression patterns without changing the underlying DNA sequence. DNA methylation, typically occurring at cytosine residues in CpG islands, can silence tumor suppressor genes, promoting uncontrolled cell growth. Histone modifications, such as acetylation and methylation, can alter chromatin structure, influencing gene transcription. Histone acetylation generally promotes gene expression, while histone methylation can either activate or repress gene transcription depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by binding to messenger RNAs (mRNAs), leading to mRNA degradation or translational repression. Aberrant epigenetic modifications can lead to the silencing of tumor suppressor genes, activation of oncogenes, and altered expression of genes involved in DNA repair, cell cycle control, and apoptosis. Epigenetic alterations are reversible, making them attractive therapeutic targets. Drugs that inhibit DNA methyltransferases (DNMTs) or histone deacetylases (HDACs) have shown efficacy in treating certain cancers, highlighting the importance of epigenetic modifications in cancer development and progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the current recommendation for influenza vaccination?",
+    "answer": "Annual influenza vaccination is recommended for everyone 6 months and older per CDC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, allowing them to establish persistent infections. One common mechanism is to interfere with interferon (IFN) signaling, a critical antiviral defense pathway. Viruses encode proteins that block IFN production or inhibit the downstream signaling cascade, preventing the activation of antiviral genes. Some viruses downregulate the expression of major histocompatibility complex (MHC) class I molecules on infected cells, reducing their recognition by cytotoxic T lymphocytes (CTLs). Viruses also mutate rapidly, generating antigenic variants that escape antibody recognition. This antigenic drift is particularly evident in influenza viruses, necessitating annual vaccine updates. Certain viruses establish latency, a state of dormancy in which the virus persists in a non-replicating form within host cells, evading immune detection. Viruses also produce decoy molecules that bind to antibodies or complement proteins, preventing them from targeting infected cells. Immunosuppressive viruses, such as HIV, directly target and deplete immune cells, weakening the host's ability to mount an effective antiviral response. These diverse evasion strategies highlight the complex interplay between viruses and the immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "The target INR range is typically 2.0-3.0 per ACC/AHA/HRS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do nanoparticles enhance drug delivery to tumors?",
+    "answer": "Nanoparticles offer several advantages for targeted drug delivery to tumors. Their small size (typically 1-100 nm) allows them to passively accumulate in tumors through the enhanced permeability and retention (EPR) effect, which is based on the leaky vasculature and impaired lymphatic drainage characteristic of tumors. Nanoparticles can be surface-modified with targeting ligands, such as antibodies, peptides, or aptamers, that bind to specific receptors on tumor cells, enhancing their selective uptake. This active targeting strategy improves drug accumulation in tumor cells while minimizing off-target effects in healthy tissues. Nanoparticles can also protect drugs from degradation and premature release in the bloodstream, increasing their circulation time and bioavailability. Stimuli-responsive nanoparticles can release their drug payload in response to specific triggers in the tumor microenvironment, such as pH changes, enzyme activity, or redox gradients, providing spatiotemporal control over drug release. Furthermore, nanoparticles can be engineered to overcome multidrug resistance mechanisms by encapsulating drugs and bypassing efflux pumps. Overall, nanoparticles offer a versatile platform for enhancing drug delivery to tumors, improving therapeutic efficacy, and reducing systemic toxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for allergic rhinitis?",
+    "answer": "Intranasal corticosteroids are the most effective first-line treatment per AAAAI/ACAAI guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology work for gene editing?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene editing technology derived from the adaptive immune system of bacteria. It consists of two key components: the Cas9 enzyme, which acts as a molecular scissor, and a guide RNA (gRNA), which directs Cas9 to a specific DNA sequence in the genome. The gRNA is a short RNA molecule that contains a 20-nucleotide sequence complementary to the target DNA sequence. The Cas9 enzyme forms a complex with the gRNA, and this complex scans the genome for a DNA sequence that matches the gRNA. When a match is found, Cas9 binds to the DNA and creates a double-stranded break (DSB) at the target site. The cell then repairs the DSB through one of two main pathways: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is an error-prone process that often introduces insertions or deletions (indels) at the break site, disrupting the gene. HDR uses a provided DNA template to repair the break, allowing for precise gene editing, such as inserting a new gene or correcting a mutated sequence. CRISPR-Cas9 technology has broad applications in biomedical research, including gene knockout, gene knock-in, gene correction, and gene regulation. Its simplicity, efficiency, and versatility have made it a powerful tool for studying gene function, developing gene therapies, and creating disease models.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute stroke?",
+    "answer": "Rapid assessment, neuroimaging to rule out hemorrhage, and consideration for thrombolysis or thrombectomy per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using CAR T-cells work in cancer treatment?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy is a form of immunotherapy that harnesses the power of the patient's own immune system to fight cancer. It involves genetically engineering T cells to express a CAR, which is a synthetic receptor that recognizes a specific antigen on cancer cells. The process begins with collecting T cells from the patient's blood. These T cells are then genetically modified in the laboratory to express the CAR. The CAR typically consists of an extracellular domain that binds to the target antigen, a transmembrane domain, and an intracellular signaling domain that activates the T cell upon antigen binding. The modified CAR T-cells are then expanded in vitro to generate a large number of cells. Before infusion, the patient may undergo lymphodepleting chemotherapy to reduce the number of existing immune cells and create space for the CAR T-cells to expand. The CAR T-cells are then infused back into the patient, where they circulate in the bloodstream and seek out cancer cells expressing the target antigen. When the CAR T-cells bind to the antigen on cancer cells, they become activated, releasing cytotoxic molecules that kill the cancer cells. CAR T-cell therapy has shown remarkable success in treating certain hematologic malignancies, such as B-cell lymphomas and acute lymphoblastic leukemia, but its efficacy in solid tumors is still being investigated. Challenges in CAR T-cell therapy include on-target, off-tumor toxicity, cytokine release syndrome, and limited penetration into solid tumors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or annual fecal immunochemical test (FIT), or flexible sigmoidoscopy every 5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder involving multiple interacting signaling pathways. Amyloid-beta (Aβ) plaques and neurofibrillary tangles (NFTs) are the pathological hallmarks. Aβ plaques are formed by the aggregation of Aβ peptides, derived from amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. Aβ oligomers trigger neuronal dysfunction and synaptic loss, activating inflammatory pathways and oxidative stress. NFTs are composed of hyperphosphorylated tau protein, which disrupts microtubule stability and axonal transport. Hyperphosphorylation of tau is regulated by kinases such as glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5). The PI3K/AKT/mTOR pathway, involved in cell growth and survival, is dysregulated in AD, contributing to impaired autophagy and protein clearance. Neuroinflammation plays a significant role, with activated microglia and astrocytes releasing pro-inflammatory cytokines (IL-1β, TNF-α, IL-6) that exacerbate neuronal damage. Oxidative stress, induced by reactive oxygen species (ROS), contributes to lipid peroxidation, protein oxidation, and DNA damage, further impairing neuronal function. Calcium dysregulation also plays a role, with increased intracellular calcium levels leading to excitotoxicity and neuronal death. Understanding these complex signaling pathways is crucial for developing effective therapeutic strategies to prevent or slow the progression of AD.",
+    "persona": "Researcher"
+  }
+]

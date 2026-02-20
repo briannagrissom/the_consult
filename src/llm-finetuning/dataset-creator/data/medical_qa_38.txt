@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a healthy, non-pregnant adult female?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are recommended first-line agents per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology function at a molecular level, and what are its limitations in therapeutic applications?",
+    "answer": "CRISPR-Cas9 leverages a guide RNA (gRNA) complementary to a target DNA sequence to direct the Cas9 nuclease to a specific genomic locus. The Cas9 nuclease creates a double-stranded break (DSB) at the target site, which the cell repairs via either non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is error-prone, often resulting in insertions or deletions (indels) that disrupt gene function. HDR utilizes a provided DNA template to precisely edit the target sequence. While CRISPR-Cas9 offers unprecedented precision, off-target effects remain a concern. The gRNA may bind to sequences with high similarity to the target, leading to unintended mutations. Furthermore, efficient delivery of CRISPR-Cas9 components into target cells and tissues is a major challenge, particularly for in vivo applications. The size of the Cas9 protein and the potential for immune responses against Cas9 also limit its therapeutic utility. Improving gRNA specificity, optimizing delivery methods, and developing smaller, more efficient Cas9 variants are areas of active research to enhance the safety and efficacy of CRISPR-Cas9-based therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for statin therapy in patients with established atherosclerotic cardiovascular disease (ASCVD)?",
+    "answer": "High-intensity statin therapy is recommended to reduce LDL-C by ≥50% according to ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which metformin exerts its anti-hyperglycemic effects in patients with type 2 diabetes?",
+    "answer": "Metformin primarily reduces hepatic glucose production by inhibiting gluconeogenesis and glycogenolysis. It activates AMP-activated protein kinase (AMPK), a cellular energy sensor, which in turn suppresses the expression of genes involved in glucose production. Metformin also enhances insulin sensitivity in peripheral tissues, such as skeletal muscle, increasing glucose uptake and utilization. Furthermore, metformin may modulate the gut microbiome, altering the production of short-chain fatty acids and other metabolites that influence glucose metabolism. While the precise molecular mechanisms of metformin action are still being elucidated, AMPK activation and reduction of hepatic glucose production are considered the major contributors to its anti-hyperglycemic effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should community-acquired pneumonia be empirically treated in an outpatient setting?",
+    "answer": "Empiric treatment options include macrolides (azithromycin, clarithromycin) or doxycycline per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease, and how do they contribute to neurodegeneration?",
+    "answer": "Several signaling pathways are implicated in Alzheimer's disease (AD) pathogenesis, converging on amyloid-beta (Aβ) production, tau hyperphosphorylation, and neuroinflammation. The amyloid precursor protein (APP) processing pathway, involving β-secretase (BACE1) and γ-secretase, generates Aβ peptides, which aggregate into neurotoxic plaques. Aβ plaques activate microglia and astrocytes, triggering the release of pro-inflammatory cytokines and reactive oxygen species (ROS), leading to oxidative stress and neuronal damage. Tau hyperphosphorylation, mediated by kinases such as GSK-3β and CDK5, causes tau to detach from microtubules and form neurofibrillary tangles, disrupting axonal transport and neuronal function. Furthermore, impaired insulin signaling and reduced expression of insulin-degrading enzyme (IDE) contribute to Aβ accumulation and tau phosphorylation. Chronic activation of these pathways leads to synaptic dysfunction, neuronal loss, and cognitive decline characteristic of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine headaches?",
+    "answer": "Triptans or NSAIDs are commonly used for acute migraine treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the distinct mechanisms by which immune checkpoint inhibitors targeting PD-1/PD-L1 and CTLA-4 enhance anti-tumor immunity?",
+    "answer": "Immune checkpoint inhibitors targeting PD-1/PD-L1 and CTLA-4 enhance anti-tumor immunity through distinct but complementary mechanisms. CTLA-4 primarily acts in the early stages of T-cell activation in the lymph nodes. It competes with CD28 for binding to B7 ligands (CD80/CD86) on antigen-presenting cells (APCs), thereby inhibiting T-cell co-stimulation and preventing full T-cell activation. Blocking CTLA-4 enhances T-cell priming and proliferation. PD-1, on the other hand, mainly functions in the tumor microenvironment. PD-1 is expressed on activated T cells and binds to its ligands PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells within the tumor. PD-1 ligation inhibits T-cell effector functions, such as cytokine production and cytotoxicity, promoting T-cell exhaustion and immune evasion. Blocking PD-1/PD-L1 restores T-cell activity within the tumor and enhances tumor cell killing. In essence, CTLA-4 blockade releases the brakes on T-cell activation, while PD-1/PD-L1 blockade releases the brakes on T-cell effector functions in the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for a patient presenting with new-onset atrial fibrillation?",
+    "answer": "Rate or rhythm control strategies can be employed, along with anticoagulation based on thromboembolic risk.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer at a molecular level?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair, specifically homologous recombination (HR). Mutations in these genes impair the cell's ability to accurately repair double-strand DNA breaks. BRCA1 forms a complex with other proteins, including BRCA2, RAD51, and PALB2, which are essential for HR-mediated DNA repair. When BRCA1 or BRCA2 is mutated, DNA damage accumulates, leading to genomic instability and an increased risk of cancer development. Specifically, BRCA1 plays a role in sensing DNA damage and initiating the DNA repair response, while BRCA2 directly binds to single-stranded DNA and facilitates the recruitment of RAD51 to the site of the break. The loss of function of either BRCA1 or BRCA2 leads to an increased reliance on error-prone DNA repair pathways, such as non-homologous end joining (NHEJ), which can introduce mutations and further contribute to genomic instability. Cells with BRCA1/2 mutations are also more susceptible to apoptosis, but if they survive, they are more likely to accumulate mutations that drive tumorigenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for a patient diagnosed with hypothyroidism?",
+    "answer": "Levothyroxine is the standard first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do the mechanisms of action of selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) differ in the treatment of depression and anxiety disorders?",
+    "answer": "SSRIs selectively inhibit the reuptake of serotonin (5-HT) in the synaptic cleft, increasing the availability of serotonin to bind to postsynaptic receptors. This enhanced serotonergic neurotransmission is believed to alleviate symptoms of depression and anxiety. SNRIs, on the other hand, inhibit the reuptake of both serotonin and norepinephrine, resulting in increased levels of both neurotransmitters in the synapse. The dual action of SNRIs may provide additional benefits for patients who do not respond adequately to SSRIs, particularly those with symptoms of fatigue, pain, or difficulty concentrating. Norepinephrine is involved in regulating alertness, energy, and attention, so its increased availability may improve these symptoms. However, the additional norepinephrine reuptake inhibition by SNRIs can also lead to side effects such as increased blood pressure and heart rate, which are less commonly observed with SSRIs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a suspected stroke?",
+    "answer": "Rapid assessment, neuroimaging, and consideration of thrombolytic therapy if indicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps involved in the development of a new vaccine, from initial research to clinical trials and regulatory approval?",
+    "answer": "Vaccine development begins with identifying a target pathogen and its antigens that elicit a protective immune response. This involves extensive research on the pathogen's structure, life cycle, and mechanisms of pathogenesis. Next, potential vaccine candidates are designed and tested in preclinical studies, including in vitro assays and animal models, to assess their immunogenicity and safety. Promising candidates then proceed to clinical trials, which are typically conducted in three phases. Phase I trials evaluate the vaccine's safety and immune response in a small number of healthy volunteers. Phase II trials assess the vaccine's efficacy, dosage, and administration schedule in a larger group of participants. Phase III trials are large-scale studies that compare the vaccine's efficacy and safety to a placebo or an existing vaccine. If the clinical trials are successful, the vaccine manufacturer submits a biologics license application (BLA) to regulatory agencies such as the FDA for approval. The regulatory review process involves evaluating the vaccine's safety, efficacy, and manufacturing quality. Once approved, the vaccine can be manufactured and distributed for widespread use, with ongoing post-market surveillance to monitor its long-term safety and effectiveness.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you initially manage a patient presenting with a suspected deep vein thrombosis (DVT)?",
+    "answer": "Assess pretest probability, perform appropriate imaging (e.g., ultrasound), and initiate anticoagulation if indicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of resistance to tyrosine kinase inhibitors (TKIs) in patients with chronic myeloid leukemia (CML)?",
+    "answer": "Resistance to tyrosine kinase inhibitors (TKIs) in CML can arise through several mechanisms, primarily mutations in the BCR-ABL1 kinase domain. The most common mutation is T315I, which sterically hinders the binding of most TKIs. Other mutations, such as Y253H, E255K, and F317L, also disrupt TKI binding. In addition to BCR-ABL1 mutations, resistance can develop through BCR-ABL1 amplification, leading to increased BCR-ABL1 protein levels that overwhelm the TKI. Furthermore, alternative splicing of BCR-ABL1 can generate isoforms that are resistant to TKIs. TKI resistance can also occur through non-BCR-ABL1-dependent mechanisms, such as increased expression of drug efflux transporters (e.g., P-glycoprotein), activation of alternative signaling pathways (e.g., PI3K/AKT/mTOR), and clonal evolution of CML cells with increased self-renewal capacity. Understanding these resistance mechanisms is crucial for developing strategies to overcome TKI resistance and improve outcomes for CML patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the current recommendation for managing a patient with a first-time seizure?",
+    "answer": "Obtain a thorough history, perform a neurological exam, and consider neuroimaging and EEG to determine etiology.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the different types of clinical trial designs used to evaluate the efficacy of new cancer therapies, and what are their relative strengths and weaknesses?",
+    "answer": "Several clinical trial designs are used to evaluate new cancer therapies, each with its strengths and weaknesses. Randomized controlled trials (RCTs) are considered the gold standard, where patients are randomly assigned to receive either the new therapy or a standard treatment (or placebo). RCTs minimize bias and allow for a clear assessment of the therapy's efficacy. However, they can be time-consuming and expensive. Single-arm trials, where all patients receive the new therapy, are often used in early-phase studies to assess safety and preliminary efficacy. These trials are faster and less expensive than RCTs, but they lack a control group, making it difficult to determine whether the observed effects are due to the therapy or other factors. Adaptive clinical trials allow for modifications to the trial design based on accumulating data, such as adjusting the sample size or treatment arms. These trials can be more efficient than traditional RCTs, but they require careful planning and statistical analysis. Basket trials enroll patients with different types of cancer who share a common genetic mutation, allowing for the evaluation of targeted therapies across multiple tumor types. Umbrella trials, on the other hand, enroll patients with a specific type of cancer and assign them to different treatment arms based on their genetic profiles. These trials facilitate the development of personalized cancer therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial approach to managing a patient with hyperglycemia in the hospital?",
+    "answer": "Assess glycemic control, identify and treat underlying causes, and initiate insulin therapy if needed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viral vectors, such as adeno-associated viruses (AAVs) and lentiviruses, deliver therapeutic genes into target cells in gene therapy applications, and what are the advantages and disadvantages of each type of vector?",
+    "answer": "Viral vectors are commonly used to deliver therapeutic genes into target cells in gene therapy. Adeno-associated viruses (AAVs) are small, non-enveloped viruses that can infect a wide range of cell types, including both dividing and non-dividing cells. AAVs have low immunogenicity and can provide long-term gene expression, making them attractive vectors for gene therapy. However, AAVs have a limited packaging capacity, which restricts the size of the therapeutic gene that can be delivered. Lentiviruses, on the other hand, are enveloped retroviruses that can efficiently transduce both dividing and non-dividing cells. Lentiviruses have a larger packaging capacity than AAVs, allowing for the delivery of larger genes or multiple genes. However, lentiviruses integrate their genetic material into the host cell's genome, which raises concerns about insertional mutagenesis and long-term safety. AAVs deliver genes as episomes, which do not integrate into the host genome, reducing the risk of insertional mutagenesis but potentially leading to gene silencing over time. The choice of viral vector depends on the specific gene therapy application, considering factors such as target cell type, gene size, desired duration of gene expression, and safety profile.",
+    "persona": "Researcher"
+  }
+]

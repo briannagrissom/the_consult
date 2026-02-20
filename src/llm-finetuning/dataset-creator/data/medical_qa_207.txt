@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are first-line antibiotics per IDSA guidelines, provided local resistance rates are low.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis and resistance to targeted therapies?",
+    "answer": "KRAS encodes a small GTPase involved in signal transduction downstream of receptor tyrosine kinases. Activating KRAS mutations, most commonly at codons 12, 13, or 61, impair GTP hydrolysis, leading to constitutive activation of the RAS/MAPK and PI3K/AKT pathways. This drives uncontrolled cell proliferation, survival, and angiogenesis. Mutant KRAS promotes resistance to EGFR inhibitors in colorectal cancer by bypassing upstream receptor blockade. It also confers resistance to MEK inhibitors through feedback activation of receptor tyrosine kinases and alternative signaling pathways. Direct KRAS inhibitors, such as sotorasib and adagrasib, which target KRAS G12C mutations, have shown clinical efficacy, but resistance can emerge through various mechanisms including mutations in other RAS family members, bypass pathway activation, and epithelial-mesenchymal transition.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score and how is it used?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (Doubled), Diabetes Mellitus, Stroke/TIA/Thromboembolism (Doubled), Vascular disease, Age 65-74, Sex category (Female). Used to assess stroke risk in atrial fibrillation and guide anticoagulation decisions.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of different T cell subsets (e.g., Th1, Th2, Th17, Tregs) in the pathogenesis of autoimmune diseases?",
+    "answer": "Autoimmune diseases arise from a breakdown in immune tolerance, leading to aberrant activation of autoreactive T cells. Th1 cells, characterized by IFN-γ production, contribute to organ-specific autoimmunity by activating macrophages and cytotoxic T lymphocytes. Th2 cells, producing IL-4, IL-5, and IL-13, promote humoral autoimmunity and allergic inflammation. Th17 cells, defined by IL-17 production, exacerbate tissue inflammation by recruiting neutrophils and promoting angiogenesis. Regulatory T cells (Tregs), expressing FoxP3, maintain immune homeostasis by suppressing autoreactive T cells. Imbalances in these T cell subsets, with an excess of pathogenic Th1, Th2, or Th17 cells and/or a deficiency in Tregs, drive the development and progression of autoimmune disorders. Cytokine profiles and effector mechanisms vary depending on the specific disease and target organ.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient diagnosed with community-acquired pneumonia?",
+    "answer": "Outpatient treatment typically involves a macrolide or doxycycline. Inpatients may require a beta-lactam plus a macrolide or a respiratory fluoroquinolone per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in cancer cells?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, primarily at CpG islands, typically silences gene expression by recruiting methyl-binding proteins and histone deacetylases. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin structure and facilitating transcription factor access. In cancer cells, aberrant DNA methylation patterns, such as global hypomethylation and promoter hypermethylation, contribute to oncogene activation and tumor suppressor gene silencing, respectively. Similarly, altered histone acetylation patterns disrupt normal gene regulatory networks, promoting cell proliferation, survival, and metastasis. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), can reverse these aberrant modifications and restore normal gene expression patterns, leading to anti-tumor effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the major risk factors for developing type 2 diabetes mellitus?",
+    "answer": "Obesity, family history, physical inactivity, advanced age, certain ethnicities, and history of gestational diabetes are major risk factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system's interferon response?",
+    "answer": "Viruses have evolved multiple strategies to evade the host's interferon (IFN) response, a critical component of innate immunity. Many viruses encode proteins that directly inhibit IFN production by interfering with pattern recognition receptors (PRRs) like TLRs and RIG-I-like receptors (RLRs) or by blocking downstream signaling pathways involving IRF3 and NF-κB. Other viruses target IFN signaling by interfering with the JAK-STAT pathway or by inhibiting the expression or activity of IFN-stimulated genes (ISGs). Some viruses employ decoys, such as soluble receptors or modified RNA molecules, to sequester IFN or other immune mediators. Additionally, viruses can manipulate the host's ubiquitin system to degrade key antiviral proteins or to promote viral replication. These evasion mechanisms allow viruses to establish persistent infections and cause disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Intravenous alteplase within 4.5 hours of symptom onset and/or mechanical thrombectomy within 24 hours for eligible patients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a crucial role in shaping systemic immunity and influencing the response to cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Certain bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved ICI efficacy, potentially by enhancing T cell priming and infiltration into the tumor microenvironment. Conversely, dysbiosis or the presence of specific bacterial species has been linked to ICI resistance or increased toxicity, such as colitis. The mechanisms by which the gut microbiome modulates ICI responses involve the production of microbial metabolites, such as short-chain fatty acids (SCFAs), and the stimulation of immune cells via pattern recognition receptors. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being explored to enhance ICI efficacy and reduce toxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Screening options include colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45-50 per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in mismatch repair (MMR) genes lead to microsatellite instability (MSI) and contribute to cancer development?",
+    "answer": "Mismatch repair (MMR) genes, such as MLH1, MSH2, MSH6, and PMS2, are critical for maintaining genomic stability by correcting errors that occur during DNA replication. Mutations in these genes impair the MMR pathway, leading to the accumulation of mutations, particularly in microsatellites, which are short, repetitive DNA sequences. This phenomenon is known as microsatellite instability (MSI). MSI-high tumors are characterized by a high mutational burden, increased neoantigen load, and infiltration by immune cells. MSI-high status is a predictive biomarker for response to immune checkpoint inhibitors in various cancers. Loss of MMR function can occur through germline mutations (Lynch syndrome) or somatic mutations and epigenetic silencing of MMR genes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically initiated. Anticoagulation should be considered based on the CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used immunosuppressant drugs (e.g., cyclosporine, tacrolimus, methotrexate, azathioprine) in autoimmune diseases and transplantation?",
+    "answer": "Immunosuppressant drugs target different components of the immune system to suppress unwanted immune responses in autoimmune diseases and transplantation. Cyclosporine and tacrolimus inhibit T cell activation by blocking calcineurin, a phosphatase required for IL-2 production. Methotrexate inhibits dihydrofolate reductase, interfering with DNA synthesis and suppressing cell proliferation, particularly in rapidly dividing immune cells. Azathioprine is a purine analog that inhibits DNA and RNA synthesis, leading to cell death. These drugs have different side effect profiles and are often used in combination to achieve synergistic immunosuppression while minimizing toxicity. Newer biologic agents, such as TNF inhibitors and IL-6 receptor antagonists, target specific cytokines or immune cell populations involved in the pathogenesis of autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for systemic lupus erythematosus (SLE)?",
+    "answer": "The ACR or EULAR criteria include clinical (e.g., malar rash, arthritis, serositis) and immunological (e.g., ANA, anti-dsDNA, anti-Sm) criteria.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells reprogram their metabolism to support rapid proliferation and survival in nutrient-poor environments?",
+    "answer": "Cancer cells exhibit metabolic reprogramming, characterized by increased glucose uptake and glycolysis, even in the presence of oxygen (the Warburg effect). This metabolic shift provides cancer cells with building blocks for biosynthesis and helps them adapt to hypoxic conditions. Cancer cells also upregulate glutamine metabolism to generate energy and nitrogen for macromolecule synthesis. Furthermore, cancer cells alter lipid metabolism to support membrane synthesis and energy storage. Oncogenes, such as MYC and HIF-1, and tumor suppressors, such as p53, play critical roles in regulating metabolic pathways in cancer cells. Targeting cancer-specific metabolic vulnerabilities is an area of active research for developing new anti-cancer therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin is the standard treatment. Compression stockings may be used to reduce post-thrombotic syndrome.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the PI3K/AKT/mTOR pathway contribute to cancer development and resistance to targeted therapies?",
+    "answer": "The PI3K/AKT/mTOR pathway is a central regulator of cell growth, survival, and metabolism. Activating mutations or amplifications in PIK3CA (encoding the p110α subunit of PI3K), AKT, or mTOR are frequently found in various cancers, leading to constitutive pathway activation. This promotes uncontrolled cell proliferation, inhibits apoptosis, and enhances angiogenesis. Aberrant PI3K/AKT/mTOR signaling contributes to resistance to targeted therapies, such as EGFR inhibitors and BRAF inhibitors, by providing alternative survival signals. Inhibitors targeting PI3K, AKT, or mTOR have shown clinical activity in some cancers, but resistance can emerge through feedback loops, activation of alternative pathways, or mutations in downstream targets. Combination therapies targeting multiple components of the pathway or combining PI3K/AKT/mTOR inhibitors with other anticancer agents are being investigated to overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of chemotherapy?",
+    "answer": "Common side effects include nausea, vomiting, fatigue, hair loss, mucositis, myelosuppression, and peripheral neuropathy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the power of the immune system to fight cancer, and what are the major classes of immunotherapeutic agents?",
+    "answer": "Immunotherapy leverages the patient's own immune system to recognize and eliminate cancer cells. Major classes of immunotherapeutic agents include immune checkpoint inhibitors (ICIs), which block inhibitory receptors on T cells (e.g., PD-1, CTLA-4) to enhance antitumor immunity; adoptive cell therapies, such as CAR T-cell therapy, which involve engineering a patient's T cells to target specific tumor antigens; cancer vaccines, which stimulate an immune response against tumor-associated antigens; and oncolytic viruses, which selectively infect and lyse cancer cells while stimulating systemic immunity. Immunotherapy has shown remarkable success in treating various cancers, but it is also associated with immune-related adverse events (irAEs) due to the activation of the immune system against normal tissues. Biomarkers are being investigated to predict response and toxicity to immunotherapy.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX depending on local resistance patterns, or fosfomycin as single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis unleash anti-tumor immunity at the molecular level?",
+    "answer": "The programmed cell death protein 1 (PD-1) receptor on T cells interacts with its ligands PD-L1 and PD-L2, which are frequently overexpressed on tumor cells and antigen-presenting cells within the tumor microenvironment. This interaction delivers an inhibitory signal that attenuates T-cell receptor signaling, thereby dampening T-cell activation, proliferation, and cytotoxic function. PD-1 engagement recruits phosphatases such as SHP-1 and SHP-2 to the T-cell receptor complex, which dephosphorylate key signaling intermediates like ZAP70 and PI3K, effectively short-circuiting downstream activation cascades. Furthermore, PD-1 signaling upregulates expression of inhibitory proteins such as E3 ubiquitin ligase CBL-b, which targets signaling proteins for degradation. By blocking the PD-1/PD-L1 interaction with monoclonal antibodies, these inhibitory signals are relieved, allowing T cells to mount a more robust anti-tumor response. This can lead to increased production of cytotoxic cytokines like interferon-gamma and granzyme B, enhanced T-cell infiltration into tumors, and ultimately tumor cell death. The efficacy of PD-1/PD-L1 blockade depends on the pre-existing level of T-cell infiltration and the mutational burden of the tumor, as tumors with higher mutational loads tend to generate more neoantigens that can be recognized by T cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the typical EKG findings in atrial fibrillation?",
+    "answer": "Irregularly irregular rhythm, absence of P waves, and variable ventricular rate.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in modulating the efficacy of immune checkpoint inhibitors?",
+    "answer": "The composition of the gut microbiome has emerged as a critical factor influencing the response to immune checkpoint inhibitors (ICIs) in cancer patients. Specific bacterial species can either enhance or diminish the efficacy of ICIs through a variety of mechanisms. For example, certain commensal bacteria such as *Akkermansia muciniphila* and species within the *Bifidobacterium* genus have been associated with improved responses to anti-PD-1 therapy in melanoma and other cancers. These bacteria can enhance anti-tumor immunity by modulating dendritic cell function, promoting T-cell priming, and increasing the production of cytokines like IL-12 and IFN-γ. Conversely, other bacterial species, such as *Bacteroides fragilis*, can promote immune suppression and reduce the efficacy of ICIs. The mechanisms underlying these effects are complex and involve the production of microbial metabolites like short-chain fatty acids (SCFAs), which can influence immune cell function and systemic inflammation. SCFAs such as butyrate and propionate can enhance T-cell activity and promote the differentiation of regulatory T cells, while other metabolites may have immunosuppressive effects. Furthermore, the gut microbiome can influence the expression of immune checkpoint molecules like PD-L1 on tumor cells and antigen-presenting cells. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation and dietary interventions, are being explored as potential approaches to enhance the efficacy of ICIs in cancer patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended target LDL-cholesterol level for a patient with established atherosclerotic cardiovascular disease?",
+    "answer": "LDL-C <70 mg/dL or at least a 50% reduction from baseline per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Activating mutations in the epidermal growth factor receptor (EGFR) tyrosine kinase domain, such as exon 19 deletions and the L858R point mutation, are common drivers of non-small cell lung cancer (NSCLC) and render tumors sensitive to EGFR tyrosine kinase inhibitors (TKIs). However, acquired resistance to EGFR TKIs inevitably develops, often mediated by secondary mutations in the EGFR kinase domain. The most common resistance mechanism is the T790M mutation, which sterically hinders the binding of reversible EGFR TKIs like gefitinib and erlotinib. T790M increases the affinity of EGFR for ATP, making it more difficult for the TKI to compete for binding. Other less frequent resistance mutations include C797S, which prevents irreversible EGFR TKIs like osimertinib from covalently binding to the EGFR kinase domain. Additionally, bypass mechanisms involving activation of alternative signaling pathways, such as MET amplification, BRAF mutations, and PI3K/AKT activation, can also lead to EGFR TKI resistance. These bypass pathways allow tumor cells to circumvent the EGFR blockade and maintain proliferative signaling. Combination therapies targeting both EGFR and bypass pathways are being investigated to overcome these resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with a first-time seizure?",
+    "answer": "Assess for underlying cause with imaging and EEG. Antiepileptic drug initiation depends on recurrence risk and individual patient factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves a complex interplay of several signaling pathways that contribute to neuronal dysfunction and neurodegeneration. Aberrant processing of amyloid precursor protein (APP) leads to the accumulation of amyloid-beta (Aβ) plaques, which trigger a cascade of events including tau hyperphosphorylation, neuroinflammation, and synaptic loss. Aβ oligomers activate microglia and astrocytes, leading to the release of pro-inflammatory cytokines such as TNF-α and IL-1β, which further exacerbate neuronal damage. Tau hyperphosphorylation disrupts microtubule stability, leading to the formation of neurofibrillary tangles and impaired axonal transport. The PI3K/AKT/mTOR pathway, which regulates cell growth, survival, and metabolism, is also dysregulated in AD, contributing to synaptic dysfunction and neuronal apoptosis. Furthermore, impaired insulin signaling and glucose metabolism in the brain contribute to AD pathogenesis, as evidenced by the reduced expression of insulin receptors and glucose transporters in AD brains. These signaling pathways interact in a complex manner to drive the progression of AD, making them potential targets for therapeutic intervention.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient diagnosed with type 2 diabetes?",
+    "answer": "Lifestyle modifications including diet and exercise, plus metformin, unless contraindicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells rewire their metabolic pathways to support rapid proliferation and survival?",
+    "answer": "Cancer cells undergo profound metabolic reprogramming to meet the increased energy and biosynthetic demands of rapid proliferation and survival. One of the hallmarks of cancer metabolism is the Warburg effect, characterized by increased glucose uptake and glycolysis, even in the presence of oxygen. This results in the production of lactate, which is exported from the cell and can contribute to an acidic microenvironment. Cancer cells also exhibit increased glutamine metabolism, which provides a source of carbon and nitrogen for biosynthesis. Glutamine is converted to glutamate, which can then be metabolized to α-ketoglutarate, an intermediate in the Krebs cycle. Furthermore, cancer cells often exhibit increased fatty acid synthesis, which is essential for building cell membranes and signaling molecules. The pentose phosphate pathway is also upregulated in cancer cells, providing NADPH for reductive biosynthesis and ribose-5-phosphate for nucleotide synthesis. These metabolic adaptations are regulated by oncogenes and tumor suppressor genes, such as Myc, HIF-1α, and p53. By rewiring their metabolic pathways, cancer cells can efficiently generate the building blocks and energy needed for rapid growth and division.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) after placement of a drug-eluting stent?",
+    "answer": "Typically 6-12 months, depending on bleeding risk and clinical presentation per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification contribute to the development and progression of cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNA regulation, play a critical role in cancer development and progression by altering gene expression patterns without changing the underlying DNA sequence. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpGs), can lead to gene silencing when it occurs in promoter regions. Hypermethylation of tumor suppressor genes is a common mechanism for their inactivation in cancer. Histone modifications, such as acetylation and methylation, can also influence gene expression by altering chromatin structure. Histone acetylation generally promotes gene transcription, while histone methylation can either activate or repress gene expression depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can also regulate gene expression by binding to mRNA or DNA, thereby influencing translation or transcription. Aberrant epigenetic modifications can lead to the activation of oncogenes and the inactivation of tumor suppressor genes, contributing to cancer initiation and progression. Furthermore, epigenetic modifications can influence drug resistance and metastasis. Epigenetic therapies, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are being developed to reverse these aberrant epigenetic changes and restore normal gene expression patterns in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common signs and symptoms of heart failure?",
+    "answer": "Shortness of breath, edema, fatigue, and orthopnea are common.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication within the tumor microenvironment?",
+    "answer": "Exosomes, nano-sized extracellular vesicles secreted by cells, play a crucial role in intercellular communication within the tumor microenvironment. Cancer cells release exosomes containing a diverse cargo of proteins, nucleic acids (including mRNA and microRNA), and lipids, which can be taken up by recipient cells both locally and distally. Exosomes can mediate a variety of effects in the tumor microenvironment, including promoting angiogenesis, suppressing immune responses, and facilitating metastasis. For example, exosomes released by cancer cells can deliver pro-angiogenic factors like VEGF to endothelial cells, stimulating new blood vessel formation. Exosomes can also transfer immunosuppressive molecules like PD-L1 and TGF-β to immune cells, dampening anti-tumor immunity. Furthermore, exosomes can transport microRNAs that regulate gene expression in recipient cells, altering their phenotype and behavior. Exosomes can also facilitate the formation of pre-metastatic niches by delivering molecules that prepare distant sites for cancer cell colonization. The composition of exosomes can vary depending on the cell type and the conditions under which they are produced, making them a complex and dynamic mode of intercellular communication within the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients, tailored to local resistance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion in different cancer contexts?",
+    "answer": "Autophagy, a cellular process involving the degradation and recycling of cytoplasmic components, plays a dual role in cancer, acting as both a tumor suppressor and a tumor promoter depending on the stage and context of tumorigenesis. In early stages of cancer development, autophagy can act as a tumor suppressor by removing damaged organelles and misfolded proteins, preventing the accumulation of cellular stress that can lead to genomic instability and malignant transformation. Autophagy can also selectively degrade oncogenic proteins and suppress inflammation, further contributing to its tumor-suppressive role. However, in established tumors, autophagy can promote cancer cell survival and growth by providing essential nutrients and energy during periods of stress, such as nutrient deprivation or hypoxia. Autophagy can also protect cancer cells from the cytotoxic effects of chemotherapy and radiation therapy, contributing to drug resistance. Furthermore, autophagy can promote metastasis by facilitating the detachment of cancer cells from the primary tumor and their survival during circulation. The switch from tumor-suppressive to tumor-promoting autophagy depends on various factors, including the genetic background of the tumor, the stage of cancer progression, and the specific microenvironmental conditions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle aches, liver enzyme elevation, and rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in regulating gene expression and cellular function?",
+    "answer": "Long non-coding RNAs (lncRNAs) are a diverse class of RNA transcripts longer than 200 nucleotides that do not encode proteins but play critical roles in regulating gene expression and cellular function. LncRNAs can act as scaffolds, guides, decoys, or enhancers to modulate gene expression at multiple levels, including transcription, post-transcription, and chromatin remodeling. As scaffolds, lncRNAs can bring together different proteins to form functional complexes that regulate gene expression. As guides, lncRNAs can direct chromatin-modifying enzymes to specific genomic loci, influencing histone modifications and DNA methylation patterns. As decoys, lncRNAs can bind to transcription factors or other regulatory proteins, preventing them from interacting with their target genes. As enhancers, lncRNAs can promote the expression of nearby genes by recruiting transcription factors or stabilizing chromatin loops. LncRNAs are involved in a wide range of cellular processes, including development, differentiation, and immunity. Dysregulation of lncRNA expression has been implicated in various diseases, including cancer, neurological disorders, and cardiovascular diseases. LncRNAs represent a promising class of therapeutic targets for these diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, with anorexia, nausea, and fever.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system and establish persistent infections. One common mechanism is antigenic variation, where viruses undergo mutations in their surface proteins, such as hemagglutinin and neuraminidase in influenza virus, to escape recognition by neutralizing antibodies. Viruses can also suppress the interferon (IFN) response, a critical antiviral defense mechanism, by interfering with IFN signaling pathways. For example, some viruses encode proteins that inhibit the activation of interferon regulatory factors (IRFs) or block the downstream signaling cascade mediated by STAT proteins. Viruses can also evade detection by cytotoxic T lymphocytes (CTLs) by downregulating the expression of major histocompatibility complex (MHC) class I molecules on infected cells, preventing the presentation of viral antigens to CTLs. Some viruses also encode proteins that directly inhibit the function of immune cells, such as natural killer (NK) cells and T cells. Furthermore, viruses can establish latency, where they persist in a dormant state within host cells, avoiding immune surveillance and allowing them to reactivate under certain conditions. These immune evasion strategies contribute to the ability of viruses to cause chronic infections and pose significant challenges for vaccine and antiviral drug development.",
+    "persona": "Researcher"
+  }
+]

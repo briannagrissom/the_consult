@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers, unless hemodynamically unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate precise genome editing, and what are its limitations in clinical applications?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 endonuclease to create a double-stranded break at the specified location. The cell's repair mechanisms then either introduce insertions or deletions (indels) through non-homologous end joining (NHEJ), disrupting the gene, or, in the presence of a donor DNA template, repair the break via homology-directed repair (HDR), enabling precise sequence modification. While CRISPR-Cas9 offers unprecedented precision, limitations include off-target effects (cleavage at unintended sites due to sequence similarity), mosaicism (incomplete editing within a cell population), delivery challenges (efficiently introducing CRISPR components into target cells, particularly in vivo), and immune responses against Cas9 protein. Furthermore, NHEJ-mediated repair is inherently error-prone, leading to unpredictable outcomes, and HDR is often inefficient, especially in non-dividing cells. Ethical concerns regarding germline editing and the potential for unintended consequences also pose significant challenges to widespread clinical application.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, anorexia, nausea, and vomiting.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why does inhibition of the PD-1/PD-L1 pathway enhance antitumor immunity, and what factors predict response to PD-1/PD-L1 blockade?",
+    "answer": "The PD-1/PD-L1 pathway is a crucial immune checkpoint that normally prevents excessive T-cell activation and autoimmunity. Tumor cells exploit this pathway by expressing PD-L1, which binds to PD-1 on T cells, delivering an inhibitory signal that suppresses T-cell proliferation, cytokine production, and cytotoxic activity. Blocking this interaction with anti-PD-1 or anti-PD-L1 antibodies reinvigorates T-cell function, allowing them to recognize and eliminate tumor cells. Response to PD-1/PD-L1 blockade is influenced by several factors. High tumor mutational burden (TMB) correlates with increased neoantigen presentation, enhancing T-cell recognition. Pre-existing intratumoral T-cell infiltration (particularly CD8+ T cells) indicates an active immune response poised for activation. PD-L1 expression on tumor cells or immune cells within the tumor microenvironment can also predict response, although its predictive value varies across tumor types. Other factors include microsatellite instability (MSI), DNA mismatch repair deficiency (dMMR), and the presence of specific immune gene signatures. However, many patients still do not respond, highlighting the need for biomarkers that better reflect tumor immunogenicity and immune contexture.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for colonoscopies in average-risk individuals?",
+    "answer": "Every 10 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Activating mutations in the epidermal growth factor receptor (EGFR) tyrosine kinase domain (TKD), such as exon 19 deletions and the L858R point mutation in exon 21, render non-small cell lung cancer (NSCLC) cells sensitive to EGFR tyrosine kinase inhibitors (TKIs). However, resistance invariably develops. The most common mechanism is the acquisition of a secondary mutation, T790M, in EGFR exon 20, which sterically hinders the binding of first- and second-generation EGFR TKIs. Other resistance mechanisms include bypass signaling pathway activation (e.g., MET amplification, PI3K/AKT activation), histological transformation to small cell lung cancer, and epithelial-mesenchymal transition (EMT). Third-generation EGFR TKIs, such as osimertinib, were designed to overcome T790M-mediated resistance, but resistance to these agents also emerges through mutations like C797S in EGFR exon 20, or through the development of EGFR-independent resistance mechanisms. Consequently, combination strategies targeting multiple resistance pathways are being explored to improve long-term outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the classic symptoms of hyperglycemia in a patient with diabetes?",
+    "answer": "Polyuria, polydipsia, polyphagia, and unexplained weight loss.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring bioactive molecules, including proteins, lipids, mRNA, and microRNA (miRNA), to recipient cells. In cancer, exosomes play a crucial role in promoting metastasis. Tumor-derived exosomes can educate the pre-metastatic niche by delivering pro-angiogenic factors (e.g., VEGF) and matrix-remodeling enzymes (e.g., MMPs) to distant sites, preparing them for tumor cell arrival. Exosomes can also transfer oncogenic proteins and miRNAs to recipient cells, promoting proliferation, invasion, and survival. Furthermore, tumor-derived exosomes can suppress the immune system by transferring immunosuppressive molecules (e.g., PD-L1, TGF-β) to immune cells, shielding tumor cells from immune attack. The cargo of exosomes is highly dependent on the tumor type and microenvironment, reflecting the diverse roles of exosomes in cancer progression. Exosomes are also being explored as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic delivery vehicles.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline or a macrolide (azithromycin or clarithromycin) if local macrolide resistance is <25%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, influence gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications are heritable changes in gene expression that occur without alterations to the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), is generally associated with gene silencing. DNA methyltransferases (DNMTs) catalyze the addition of a methyl group to cytosine, which can recruit methyl-binding domain (MBD) proteins that repress transcription. Histone acetylation, on the other hand, is generally associated with gene activation. Histone acetyltransferases (HATs) add acetyl groups to lysine residues on histone tails, which loosens chromatin structure and facilitates transcription factor binding. Histone deacetylases (HDACs) remove acetyl groups, leading to chromatin condensation and transcriptional repression. These epigenetic modifications play a crucial role in regulating gene expression during development and cellular differentiation, determining cell fate and function. Aberrant epigenetic modifications are implicated in various diseases, including cancer, where they can lead to the silencing of tumor suppressor genes or the activation of oncogenes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevation, and rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence host immunity and susceptibility to infections?",
+    "answer": "The gut microbiome, composed of trillions of microorganisms, plays a vital role in shaping host immunity. Commensal bacteria compete with pathogens for nutrients and colonization sites, preventing pathogen overgrowth. They also produce antimicrobial substances that directly inhibit pathogen growth. The gut microbiome stimulates the development and maturation of the immune system, promoting the differentiation of T helper cells (Th1, Th17) and the production of IgA antibodies. Short-chain fatty acids (SCFAs), produced by bacterial fermentation of dietary fiber, have immunomodulatory effects, enhancing intestinal barrier function and suppressing inflammation. Dysbiosis, an imbalance in the gut microbiome, can impair immune function and increase susceptibility to infections. For example, antibiotic-induced dysbiosis can disrupt colonization resistance, increasing the risk of Clostridium difficile infection. Manipulation of the gut microbiome through diet, probiotics, or fecal microbiota transplantation (FMT) is being explored as a strategy to enhance immunity and prevent or treat infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin or low-molecular-weight heparin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between adaptive and innate immune responses in terms of specificity, memory, and effector mechanisms?",
+    "answer": "The innate immune system provides a rapid, non-specific defense against pathogens, relying on pre-existing germline-encoded receptors that recognize conserved microbial patterns (e.g., LPS, peptidoglycan). Innate immune cells, such as macrophages, neutrophils, and natural killer (NK) cells, respond quickly to infection through phagocytosis, cytokine production, and cytotoxicity. The adaptive immune system, on the other hand, is characterized by its high specificity and immunological memory. T and B lymphocytes recognize specific antigens via highly variable antigen receptors, generated through somatic recombination. Upon antigen encounter, adaptive immune cells undergo clonal expansion and differentiation into effector cells (e.g., cytotoxic T lymphocytes, antibody-secreting plasma cells) and memory cells. The adaptive immune response is slower to develop than the innate response, but it provides long-lasting protection against re-infection. A key difference lies in the effector mechanisms: innate immunity primarily relies on phagocytosis and inflammation, while adaptive immunity employs cell-mediated cytotoxicity and antibody-mediated neutralization and opsonization.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host's immune system, and what strategies are being developed to overcome viral immune evasion?",
+    "answer": "Viruses have evolved diverse mechanisms to evade the host's immune system. They can interfere with the interferon (IFN) response, a key antiviral defense mechanism, by inhibiting IFN production, signaling, or downstream effector functions. Some viruses encode proteins that directly block the activity of pattern recognition receptors (PRRs) that sense viral components, preventing the activation of innate immunity. Others downregulate the expression of MHC class I molecules on infected cells, preventing recognition by cytotoxic T lymphocytes (CTLs). Viruses can also undergo rapid mutation, generating antigenic variants that escape antibody neutralization. Furthermore, some viruses establish latency, remaining dormant within host cells and evading immune detection. Strategies to overcome viral immune evasion include developing vaccines that elicit broadly neutralizing antibodies and T-cell responses, designing antiviral drugs that target viral proteins essential for immune evasion, and engineering immune cells with enhanced antiviral activity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with an acute asthma exacerbation?",
+    "answer": "Inhaled short-acting beta-2 agonist (SABA) and systemic corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with CAR T-cells work, and what are the major challenges associated with CAR T-cell therapy?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's own T cells to express a CAR, which is a synthetic receptor that recognizes a specific antigen on tumor cells. The CAR typically consists of an extracellular antigen-binding domain (e.g., a single-chain variable fragment, scFv), a transmembrane domain, and intracellular signaling domains (e.g., CD3ζ, CD28, 4-1BB) that activate T cells upon antigen binding. CAR T-cells are infused back into the patient, where they specifically target and kill tumor cells expressing the target antigen. Major challenges include cytokine release syndrome (CRS), a systemic inflammatory response caused by massive cytokine release from activated T cells, and neurotoxicity, which can manifest as confusion, seizures, or encephalopathy. Other challenges include on-target, off-tumor toxicity (CAR T-cell recognition of the target antigen on normal tissues), CAR T-cell exhaustion and loss of persistence, and the development of antigen-negative relapses. Strategies to address these challenges include optimizing CAR design, developing methods to control CAR T-cell activity, and identifying biomarkers to predict and manage toxicities.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common causes of secondary hypertension?",
+    "answer": "Renal artery stenosis, primary aldosteronism, obstructive sleep apnea, and thyroid disorders.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used immunosuppressant drugs in transplant recipients?",
+    "answer": "Immunosuppressant drugs are essential for preventing organ rejection in transplant recipients. Calcineurin inhibitors (CNIs), such as cyclosporine and tacrolimus, inhibit T-cell activation by blocking the calcineurin pathway, which is required for IL-2 production. Mycophenolate mofetil (MMF) inhibits lymphocyte proliferation by blocking de novo purine synthesis. mTOR inhibitors, such as sirolimus and everolimus, inhibit T-cell and B-cell proliferation by blocking the mammalian target of rapamycin (mTOR) signaling pathway. Corticosteroids suppress inflammation by inhibiting the production of pro-inflammatory cytokines and chemokines. Antibodies, such as anti-CD25 (basiliximab) and anti-CD20 (rituximab), deplete or block specific immune cell populations. Each class of immunosuppressant drugs has distinct mechanisms of action and side effects, and they are often used in combination to achieve effective immunosuppression while minimizing toxicity.",
+    "persona": "Researcher"
+  }
+]

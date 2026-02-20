@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) that is complementary to a target DNA sequence. This gRNA directs the Cas9 endonuclease to the specific genomic location. Cas9 then induces a double-strand break (DSB) in the DNA. The cell repairs this DSB via either non-homologous end joining (NHEJ), which is error-prone and can cause insertions or deletions (indels) that disrupt the gene, or homology-directed repair (HDR) if a DNA template with homology to the targeted region is provided, allowing for precise gene editing. The efficiency and specificity of CRISPR-Cas9 can be affected by factors such as gRNA design, off-target effects, and the cellular DNA repair machinery. [PMID: 23287719]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, nausea, vomiting, and fever.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in cancer metastasis?",
+    "answer": "Exosomes, nanoscale vesicles secreted by cells, play a multifaceted role in cancer metastasis. Cancer-derived exosomes transport proteins, nucleic acids (mRNA, miRNA, DNA), and lipids to distant sites, influencing the pre-metastatic niche. They can promote angiogenesis by delivering pro-angiogenic factors, remodel the extracellular matrix to facilitate cancer cell invasion, and suppress immune responses to allow cancer cells to evade immune surveillance. Exosomes can also transfer drug resistance by shuttling chemotherapeutic drugs out of cancer cells or delivering resistance-conferring factors to recipient cells. Furthermore, exosomes can educate bone marrow-derived cells and reprogram them to support tumor growth and metastasis. The molecular composition of exosomes varies depending on the tumor type and stage, making them potential biomarkers for cancer diagnosis and prognosis. [PMID: 26633648]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with a normal Pap test and HPV negative result?",
+    "answer": "Every 3-5 years per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signaling pathways that normally dampen T-cell activation. CTLA-4 blockade enhances T-cell priming in lymph nodes by preventing CTLA-4 from outcompeting CD28 for binding to B7 molecules on antigen-presenting cells. PD-1 blockade, on the other hand, reinvigorates T-cells within the tumor microenvironment by preventing PD-1 from binding to its ligands, PD-L1 and PD-L2, which are often upregulated on tumor cells and immune cells. This blockade restores T-cell effector functions, such as cytokine production and cytotoxic activity, leading to tumor cell killing. The efficacy of checkpoint inhibitors can be influenced by factors such as tumor mutational burden, the presence of pre-existing T-cell infiltration, and the expression levels of PD-L1. [PMID: 25519181]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between innate and adaptive immunity?",
+    "answer": "Innate immunity provides rapid, non-specific defense mechanisms, including physical barriers (e.g., skin), phagocytic cells (e.g., macrophages), and inflammatory responses mediated by cytokines. It recognizes conserved pathogen-associated molecular patterns (PAMPs) through pattern recognition receptors (PRRs). Adaptive immunity, on the other hand, is slower to develop but provides highly specific and long-lasting immunity. It involves lymphocytes (T cells and B cells) that recognize specific antigens via T-cell receptors (TCRs) and B-cell receptors (BCRs), respectively. Adaptive immunity generates immunological memory, allowing for a faster and stronger response upon subsequent encounters with the same antigen. The two systems cooperate; innate immune responses shape adaptive immune responses through antigen presentation and cytokine production, while adaptive immunity can enhance innate immune functions through antibody-dependent cell-mediated cytotoxicity (ADCC).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine or temporary pacing.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR gene contribute to non-small cell lung cancer development and progression?",
+    "answer": "Mutations in the epidermal growth factor receptor (EGFR) gene, particularly in exons 18-21, are common in non-small cell lung cancer (NSCLC). These mutations, such as deletions in exon 19 (del19) and the L858R point mutation in exon 21, result in constitutive activation of the EGFR tyrosine kinase domain, leading to increased cell proliferation, survival, and angiogenesis. These mutations make the cancer cells highly sensitive to EGFR tyrosine kinase inhibitors (TKIs) such as gefitinib, erlotinib, and afatinib. However, resistance to EGFR TKIs can develop through mechanisms such as the acquisition of the T790M mutation in EGFR or activation of bypass signaling pathways (e.g., MET amplification, PI3K/AKT activation). Understanding the specific EGFR mutation profile is crucial for selecting the appropriate targeted therapy and predicting treatment response. [PMID: 15753372]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial diagnostic test for suspected deep vein thrombosis (DVT)?",
+    "answer": "D-dimer assay or ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in the pathogenesis of inflammatory bowel disease (IBD). Dysbiosis, an imbalance in the gut microbial community, is commonly observed in IBD patients, characterized by decreased microbial diversity and altered composition. Specifically, there is often a reduction in beneficial bacteria, such as Firmicutes, and an increase in pathogenic bacteria, such as Escherichia coli. This dysbiosis can disrupt the intestinal barrier function, leading to increased permeability and translocation of bacterial products into the lamina propria, which activates the host immune system. The immune response is further amplified by the production of pro-inflammatory cytokines, contributing to chronic inflammation. Furthermore, altered microbial metabolism can affect the production of short-chain fatty acids (SCFAs), such as butyrate, which have anti-inflammatory effects and are essential for maintaining gut health. [PMID: 23626479]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole (TMP-SMX).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system?",
+    "answer": "Viruses employ various strategies to evade the host immune system. One common mechanism is antigenic variation, where viruses undergo mutations in their surface proteins, such as hemagglutinin and neuraminidase in influenza virus, to escape antibody recognition. Viruses can also suppress the interferon (IFN) response, a critical antiviral defense mechanism, by producing proteins that interfere with IFN signaling pathways. Some viruses, such as HIV, infect and deplete immune cells, leading to immunosuppression. Others establish latency, remaining dormant within host cells to avoid immune detection. Additionally, viruses can express proteins that inhibit complement activation or block antigen presentation, further impairing immune responses. [PMID: 12393867]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient experiencing an acute ischemic stroke?",
+    "answer": "Thrombolysis with tPA or mechanical thrombectomy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in insulin resistance?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes, involves dysregulation of several key signaling pathways. The primary pathway is the insulin receptor substrate (IRS)-1/phosphatidylinositol 3-kinase (PI3K)/Akt pathway, which mediates glucose uptake, glycogen synthesis, and protein synthesis. In insulin resistance, serine phosphorylation of IRS-1 by kinases such as JNK and IKKβ inhibits its tyrosine phosphorylation, thereby impairing downstream signaling. Increased levels of inflammatory cytokines, such as TNF-α and IL-6, activate these kinases. Additionally, activation of protein phosphatase 2A (PP2A) can dephosphorylate Akt, reducing its activity. Lipid accumulation, particularly intracellular triglycerides and ceramides, also contributes to insulin resistance by activating protein kinase C (PKC) isoforms that interfere with insulin signaling. These complex interactions ultimately lead to impaired glucose homeostasis. [PMID: 16002603]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient diagnosed with hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment contribute to chemotherapy resistance?",
+    "answer": "The tumor microenvironment (TME) significantly contributes to chemotherapy resistance through multiple mechanisms. Hypoxia, a common feature of the TME, induces the expression of genes involved in drug efflux, DNA repair, and apoptosis inhibition, rendering cancer cells less sensitive to chemotherapy. Cancer-associated fibroblasts (CAFs) secrete growth factors and extracellular matrix components that promote tumor cell survival and proliferation, while also physically hindering drug penetration into the tumor core. Immune cells, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), release cytokines and growth factors that promote tumor growth and suppress cytotoxic T-cell activity, thereby reducing the efficacy of chemotherapy. Moreover, the TME can induce epithelial-mesenchymal transition (EMT), a process that confers resistance to apoptosis and enhances metastatic potential. [PMID: 23222942]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the most common cause of Cushing's syndrome?",
+    "answer": "Exogenous glucocorticoid use.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used immunosuppressant drugs in transplant recipients?",
+    "answer": "Immunosuppressant drugs used in transplant recipients act through diverse mechanisms to prevent graft rejection. Calcineurin inhibitors (CNIs) such as cyclosporine and tacrolimus inhibit T-cell activation by blocking calcineurin, a phosphatase required for IL-2 production. mTOR inhibitors such as sirolimus and everolimus block the mammalian target of rapamycin (mTOR), a kinase involved in cell growth and proliferation, thereby inhibiting T-cell and B-cell proliferation. Antimetabolites such as azathioprine and mycophenolate mofetil (MMF) inhibit DNA synthesis, suppressing the proliferation of lymphocytes. Corticosteroids such as prednisone have broad anti-inflammatory and immunosuppressive effects, including inhibition of cytokine production and lymphocyte apoptosis. Induction agents such as anti-thymocyte globulin (ATG) deplete T cells through complement-mediated lysis and antibody-dependent cell-mediated cytotoxicity (ADCC). These drugs are often used in combination to achieve synergistic immunosuppression while minimizing toxicity. [PMID: 17984661]",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for community-acquired pneumonia in a healthy adult?",
+    "answer": "Amoxicillin or doxycycline per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology function at a molecular level?",
+    "answer": "CRISPR-Cas9 is an adaptive immune system in bacteria that has been repurposed for gene editing. It consists of two key components: the Cas9 enzyme, which is an RNA-guided DNA endonuclease, and a guide RNA (gRNA) that is designed to be complementary to a specific target DNA sequence. The gRNA is a synthetic RNA molecule that consists of a CRISPR RNA (crRNA) sequence, which is approximately 20 nucleotides long and specifies the DNA target, and a trans-activating crRNA (tracrRNA) sequence, which binds to Cas9. The gRNA and Cas9 protein form a complex that scans the genome for sequences complementary to the crRNA. When the complex encounters a DNA sequence that matches the crRNA, the Cas9 enzyme creates a double-stranded break in the DNA. The cell's endogenous DNA repair mechanisms then kick in to repair the break. There are two main pathways for DNA repair: non-homologous end joining (NHEJ) and homology-directed repair (HDR). NHEJ is an error-prone process that often results in insertions or deletions (indels) at the site of the break, which can disrupt the gene. HDR uses a provided DNA template to repair the break, allowing for precise gene editing. Researchers can provide a DNA template that contains a desired sequence, and the cell will use this template to repair the break, effectively inserting the desired sequence into the genome. CRISPR-Cas9 has revolutionized gene editing due to its simplicity, efficiency, and versatility compared to previous technologies like zinc finger nucleases and TALENs. Its applications range from basic research to gene therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of metformin?",
+    "answer": "Gastrointestinal upset, including nausea, diarrhea, and abdominal discomfort, are the most common.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms through which cancer cells develop resistance to EGFR tyrosine kinase inhibitors (TKIs)?",
+    "answer": "Resistance to EGFR TKIs, such as gefitinib and erlotinib, is a major challenge in the treatment of EGFR-mutant non-small cell lung cancer (NSCLC). Several mechanisms can lead to acquired resistance. The most common mechanism is the development of a secondary EGFR mutation, specifically T790M, which occurs in approximately 50-60% of cases. This mutation increases the affinity of EGFR for ATP, making it less sensitive to TKIs. Other EGFR mutations, such as C797S, L792H/F, and G724S, have also been identified as resistance mechanisms. Bypass signaling pathways can also lead to TKI resistance. Activation of MET amplification can bypass EGFR signaling and promote cell survival. Similarly, activation of PI3K/AKT signaling, either through PIK3CA mutations or PTEN loss, can also lead to resistance. Transformation to other histological subtypes, such as small cell lung cancer, can also occur, rendering the cells insensitive to EGFR TKIs. Additionally, epigenetic modifications and alterations in the tumor microenvironment can contribute to resistance. Immunotherapy after TKI failure is an area of active investigation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) after coronary stent placement?",
+    "answer": "Typically 6-12 months, but duration depends on bleeding risk and clinical context per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that mediate intercellular communication by transferring proteins, lipids, and nucleic acids between cells. Within the tumor microenvironment, exosomes released by cancer cells can influence various aspects of tumor progression. They can promote angiogenesis by delivering pro-angiogenic factors like VEGF and miRNAs that downregulate angiogenesis inhibitors. Exosomes can also modulate the immune response by carrying immune checkpoint ligands (e.g., PD-L1) that suppress T-cell activity or by transporting immunosuppressive cytokines (e.g., TGF-β, IL-10) to immune cells. Furthermore, exosomes contribute to metastasis by delivering proteases (e.g., MMPs) that degrade the extracellular matrix, by educating distant sites to become pre-metastatic niches, and by facilitating the epithelial-mesenchymal transition (EMT). Cancer-derived exosomes can also affect drug resistance by transferring drug efflux pumps (e.g., P-glycoprotein) or resistance-conferring miRNAs to sensitive cells. Recipient cells internalize exosomes through endocytosis, receptor-ligand interactions, or direct fusion with the plasma membrane, allowing the exosomal cargo to exert its effects. Exosomal cargo can also be used as biomarkers for cancer diagnosis and prognosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a patient with suspected stroke?",
+    "answer": "Assess ABCs, obtain non-contrast CT head to rule out hemorrhage, and determine eligibility for thrombolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to oncogenesis?",
+    "answer": "KRAS is a GTPase that functions as a molecular switch in signaling pathways that control cell growth, differentiation, and survival. Upon activation by growth factors, KRAS binds to GTP, which triggers downstream signaling cascades involving the RAF/MEK/ERK and PI3K/AKT/mTOR pathways. These pathways activate transcription factors that promote cell proliferation and inhibit apoptosis. Mutations in KRAS, particularly at codons 12, 13, and 61, impair its ability to hydrolyze GTP, resulting in a constitutively active form of the protein. This leads to continuous activation of downstream signaling pathways, even in the absence of growth factor stimulation. The persistent activation of these pathways drives uncontrolled cell growth, proliferation, and survival, contributing to oncogenesis. Different KRAS mutations can activate distinct downstream signaling pathways with varying potencies, leading to diverse phenotypic effects and differences in therapeutic responses. Mutant KRAS is frequently found in cancers such as pancreatic, colorectal, and lung cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated urinary tract infection (UTI) in a female?",
+    "answer": "Nitrofurantoin, trimethoprim-sulfamethoxazole (TMP-SMX), or fosfomycin per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between CAR-T cell therapy and allogeneic hematopoietic stem cell transplantation (allo-HSCT) in the treatment of hematologic malignancies?",
+    "answer": "CAR-T cell therapy and allo-HSCT are both immunotherapies used to treat hematologic malignancies, but they differ significantly in their mechanisms and applications. CAR-T cell therapy involves engineering a patient's own T cells (or donor T cells in allogeneic CAR-T) to express a chimeric antigen receptor (CAR) that targets a specific antigen on cancer cells, such as CD19 in B-cell lymphomas. The modified T cells are then infused back into the patient, where they recognize and kill cancer cells. Allo-HSCT, on the other hand, involves replacing a patient's hematopoietic system with stem cells from a healthy donor. The donor's immune cells, particularly T cells, recognize and attack the patient's cancer cells, leading to a graft-versus-tumor (GVT) effect. CAR-T cell therapy is typically used for patients with relapsed or refractory B-cell lymphomas or acute lymphoblastic leukemia, while allo-HSCT is used for a broader range of hematologic malignancies, including leukemia, lymphoma, and myeloma. CAR-T cell therapy is associated with unique toxicities, such as cytokine release syndrome (CRS) and neurotoxicity, while allo-HSCT is associated with graft-versus-host disease (GVHD). CAR-T cell therapy offers the advantage of targeting a specific antigen on cancer cells, leading to high response rates in certain malignancies. Allo-HSCT can provide a long-term curative potential through the GVT effect, but it also carries a higher risk of complications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated diverticulitis?",
+    "answer": "Oral antibiotics and bowel rest. If severe, IV antibiotics and hospitalization.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors like anti-PD-1 antibodies enhance anti-tumor immunity?",
+    "answer": "Immune checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signals that normally dampen T-cell activation and effector function. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) is expressed on T cells and binds to B7 molecules (CD80/CD86) on antigen-presenting cells (APCs), inhibiting T-cell activation. Programmed cell death protein 1 (PD-1) is expressed on T cells and binds to its ligands, PD-L1 and PD-L2, which are often overexpressed on tumor cells and other cells in the tumor microenvironment. PD-1 signaling inhibits T-cell proliferation, cytokine production, and cytotoxicity. Anti-PD-1 antibodies block the interaction between PD-1 and its ligands, preventing the inhibitory signal and allowing T cells to recognize and kill tumor cells more effectively. By blocking these inhibitory signals, checkpoint inhibitors unleash the full potential of the immune system to attack and eliminate cancer cells. However, immune checkpoint inhibitors can also cause immune-related adverse events (irAEs) due to the activation of the immune system against normal tissues.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or annual fecal immunochemical test (FIT), or other options per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles (NFTs) in the brain. Several signaling pathways are implicated in the pathogenesis of AD. The amyloid precursor protein (APP) processing pathway is central to Aβ production. APP is cleaved by β-secretase (BACE1) and γ-secretase to generate Aβ peptides, which can aggregate to form plaques. Genetic mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), which are components of the γ-secretase complex, increase Aβ production and lead to early-onset AD. Tau phosphorylation and aggregation are also critical events in AD. Hyperphosphorylated tau forms NFTs, which disrupt neuronal function. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are major kinases involved in tau phosphorylation. Insulin signaling is also implicated in AD. Insulin resistance and impaired insulin signaling in the brain can promote Aβ accumulation and tau phosphorylation. Neuroinflammation plays a significant role in AD pathogenesis. Microglia and astrocytes are activated in response to Aβ plaques and NFTs, releasing pro-inflammatory cytokines and chemokines that contribute to neuronal damage. Furthermore, oxidative stress and mitochondrial dysfunction contribute to neuronal injury and cell death in AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with acute atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers. Consider anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do gut microbiota influence the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiota plays a significant role in modulating the efficacy and toxicity of cancer chemotherapy. Certain gut bacteria can metabolize chemotherapeutic drugs, either activating or inactivating them. For instance, some bacteria can convert the prodrug irinotecan into its active metabolite SN-38, enhancing its cytotoxic effects, while others can inactivate SN-38, reducing its efficacy. The gut microbiota can also modulate the host immune response to chemotherapy. Some bacteria can stimulate the production of pro-inflammatory cytokines, enhancing anti-tumor immunity, while others can suppress the immune response, reducing the efficacy of chemotherapy. Furthermore, chemotherapy can disrupt the gut microbiota, leading to dysbiosis and increased intestinal permeability, which can result in systemic inflammation and increased susceptibility to infections. Gut dysbiosis can also contribute to chemotherapy-induced side effects, such as diarrhea, mucositis, and nausea. Strategies to modulate the gut microbiota, such as fecal microbiota transplantation (FMT) and probiotics, are being explored to improve the efficacy and reduce the toxicity of cancer chemotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended approach to managing a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin. Consider thrombolysis for extensive proximal DVT.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance in bacteria arises through several molecular mechanisms. One mechanism is enzymatic inactivation of the antibiotic. For example, beta-lactamases hydrolyze the beta-lactam ring in penicillin and cephalosporin antibiotics, rendering them ineffective. Another mechanism is alteration of the antibiotic target. For example, mutations in the ribosomal RNA can prevent aminoglycosides from binding to the ribosome and inhibiting protein synthesis. A third mechanism is reduced antibiotic uptake. Bacteria can decrease the expression of porin channels in their outer membrane, reducing the influx of antibiotics into the cell. They can also increase the expression of efflux pumps, which actively pump antibiotics out of the cell. A fourth mechanism is bypass of the inhibited pathway. Bacteria can acquire or develop alternative metabolic pathways that circumvent the pathway inhibited by the antibiotic. Horizontal gene transfer, such as conjugation, transduction, and transformation, plays a critical role in the spread of antibiotic resistance genes between bacteria. The overuse and misuse of antibiotics in human medicine and agriculture have contributed to the selection and spread of antibiotic-resistant bacteria.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of management for a patient with type 2 diabetes mellitus?",
+    "answer": "Lifestyle modification, metformin, and consideration of other agents based on comorbidities and A1c target.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic regulation influence gene expression in cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in regulating gene expression in cancer. DNA methylation involves the addition of a methyl group to cytosine bases, typically at CpG dinucleotides. Hypermethylation of promoter regions can silence tumor suppressor genes, while hypomethylation can activate oncogenes. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and accessibility, affecting gene transcription. Histone acetylation, typically associated with gene activation, is catalyzed by histone acetyltransferases (HATs), while histone deacetylation, typically associated with gene repression, is catalyzed by histone deacetylases (HDACs). Histone methylation can either activate or repress gene expression, depending on the specific histone residue that is methylated and the type of methylation (e.g., H3K4me3 is associated with activation, while H3K27me3 is associated with repression). Epigenetic alterations are reversible and can be targeted by epigenetic drugs, such as DNA methyltransferase (DNMT) inhibitors and HDAC inhibitors, which have shown promise in cancer therapy. These epigenetic modifications don't alter the DNA sequence itself, but can lead to heritable changes in gene expression, influencing cancer development and progression.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate or rhythm control with medications or cardioversion, depending on hemodynamic stability and symptom severity.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to acquired resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Mutations in the EGFR tyrosine kinase domain, particularly the T790M mutation, sterically hinder the binding of EGFR inhibitors such as gefitinib and erlotinib. This mutation increases the affinity of EGFR for ATP, making it more competitive against the inhibitors. The C797S mutation, which occurs less frequently, prevents covalent binding of third-generation EGFR inhibitors like osimertinib. Furthermore, activation of bypass signaling pathways such as MET amplification or activation of PI3K/AKT can confer resistance by circumventing EGFR dependence. These mechanisms underscore the evolutionary pressure on cancer cells to evade targeted therapies, necessitating the development of novel strategies to overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or random plasma glucose ≥200 mg/dL with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of gut microbiota in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiota plays a crucial role in IBD pathogenesis through several mechanisms. Dysbiosis, or an imbalance in the microbial community, can lead to increased intestinal permeability, allowing bacteria and their products to translocate across the epithelial barrier and activate the immune system. Certain bacterial species, such as adherent-invasive E. coli (AIEC) in Crohn's disease, can directly invade intestinal epithelial cells and trigger inflammation. Moreover, alterations in the composition and metabolic activity of the microbiota can affect the production of short-chain fatty acids (SCFAs), particularly butyrate, which has anti-inflammatory properties and is a primary energy source for colonocytes. Decreased butyrate production can impair intestinal barrier function and exacerbate inflammation. Furthermore, the microbiota influences the development and function of immune cells in the gut, including T cells and innate lymphoid cells, contributing to the chronic inflammation characteristic of IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Empiric antibiotic therapy with a macrolide (azithromycin or clarithromycin) or doxycycline; or a respiratory fluoroquinolone (levofloxacin or moxifloxacin) in patients with comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression in cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in regulating gene expression without altering the underlying DNA sequence. In cancer, aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor gene promoters and global hypomethylation, can lead to gene silencing and genomic instability, respectively. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and accessibility, thereby affecting gene transcription. For example, histone acetylation generally promotes gene expression, while histone methylation can either activate or repress transcription depending on the specific histone residue modified. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by binding to mRNA targets and either inhibiting translation or promoting mRNA degradation. Dysregulation of epigenetic mechanisms can contribute to the initiation, progression, and metastasis of cancer by altering the expression of genes involved in cell proliferation, apoptosis, DNA repair, and angiogenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating a patient with a confirmed diagnosis of acute ischemic stroke?",
+    "answer": "Intravenous thrombolysis with alteplase within 4.5 hours of symptom onset, or mechanical thrombectomy for large vessel occlusions within 24 hours.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Several signaling pathways are implicated in the pathogenesis of Alzheimer's disease (AD). The amyloid precursor protein (APP) processing pathway, which leads to the formation of amyloid-beta (Aβ) plaques, is central to the disease. Aβ oligomers can trigger neuronal dysfunction and synaptic loss. The tau phosphorylation pathway leads to the formation of neurofibrillary tangles (NFTs), another hallmark of AD. Hyperphosphorylated tau aggregates into NFTs, disrupting microtubule function and impairing axonal transport. Additionally, neuroinflammation, mediated by microglia and astrocytes, contributes to neuronal damage and disease progression. Pro-inflammatory cytokines and chemokines released by glial cells can exacerbate Aβ and tau pathology. Furthermore, dysregulation of calcium signaling and oxidative stress can lead to neuronal apoptosis and synaptic dysfunction. These pathways interact in complex ways, contributing to the multifactorial nature of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient diagnosed with hypothyroidism?",
+    "answer": "Levothyroxine, with dosage adjusted based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 enhance antitumor immunity?",
+    "answer": "Immunotherapies targeting the programmed cell death protein 1 (PD-1) and its ligand PD-L1 enhance antitumor immunity by blocking the interaction between these molecules, thereby preventing the suppression of T-cell activity. PD-1 is an inhibitory receptor expressed on T cells, while PD-L1 is expressed on tumor cells and antigen-presenting cells. When PD-1 binds to PD-L1, it delivers an inhibitory signal to T cells, leading to T-cell exhaustion and reduced effector function. By blocking this interaction with antibodies, PD-1/PD-L1 inhibitors restore T-cell activity and allow them to recognize and kill tumor cells more effectively. This approach is particularly effective in tumors with high levels of PD-L1 expression, which are more likely to suppress T-cell responses. Furthermore, PD-1/PD-L1 blockade can reverse T-cell exhaustion and promote the expansion of tumor-specific T cells, leading to durable antitumor responses in some patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other approved screening tests per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Bacteria develop antibiotic resistance through several mechanisms: (1) enzymatic inactivation, where bacteria produce enzymes that degrade or modify antibiotics, such as beta-lactamases that hydrolyze beta-lactam rings in penicillin. (2) Target modification, where mutations in the antibiotic's target site reduce its binding affinity, such as mutations in ribosomal RNA conferring resistance to macrolides. (3) Efflux pumps, which actively pump antibiotics out of the bacterial cell, reducing intracellular drug concentration, such as tetracycline efflux pumps. (4) Reduced permeability, where changes in the bacterial cell wall or outer membrane reduce antibiotic entry. (5) Bypass pathways, where bacteria develop alternative metabolic pathways that circumvent the inhibited pathway. Horizontal gene transfer (conjugation, transduction, transformation) allows bacteria to acquire resistance genes from other bacteria, accelerating the spread of resistance. Selective pressure from antibiotic use drives the enrichment of resistant strains.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute heart failure?",
+    "answer": "Oxygen, diuretics (e.g., furosemide), and nitrates; consider non-invasive positive pressure ventilation or intubation if respiratory distress is severe.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells evade apoptosis, and what therapeutic strategies can overcome this resistance?",
+    "answer": "Cancer cells evade apoptosis through multiple mechanisms. Overexpression of anti-apoptotic proteins like Bcl-2, Bcl-xL, and Mcl-1 inhibits the release of cytochrome c from mitochondria, preventing caspase activation. Loss of pro-apoptotic proteins such as Bax and Bak disrupts mitochondrial outer membrane permeabilization (MOMP), a critical step in apoptosis. Inactivation of tumor suppressor genes like p53 impairs the DNA damage response and apoptosis induction. Activation of survival signaling pathways, such as PI3K/AKT and NF-κB, promotes cell survival and inhibits apoptosis. Epigenetic silencing of pro-apoptotic genes also contributes to apoptosis resistance. Therapeutic strategies to overcome apoptosis resistance include: (1) BH3 mimetics (e.g., venetoclax) that inhibit Bcl-2 family proteins, (2) SMAC mimetics that antagonize inhibitors of apoptosis proteins (IAPs), (3) p53-activating drugs, (4) agents that disrupt survival signaling pathways, and (5) oncolytic viruses that selectively replicate in and lyse cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with acute uncomplicated cystitis?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days (if local resistance is <20%), or fosfomycin as a single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer metastasis?",
+    "answer": "The tumor microenvironment (TME) plays a critical role in cancer metastasis through several mechanisms. The TME provides growth factors, cytokines, and chemokines that promote cancer cell proliferation, survival, and migration. Cancer-associated fibroblasts (CAFs) secrete matrix metalloproteinases (MMPs) that degrade the extracellular matrix (ECM), facilitating tumor cell invasion and angiogenesis. Hypoxia within the TME induces angiogenesis and promotes the expression of epithelial-mesenchymal transition (EMT) transcription factors, enhancing cancer cell motility and invasiveness. Immune cells in the TME, such as tumor-associated macrophages (TAMs), can either promote or inhibit metastasis depending on their polarization state. M2-polarized TAMs secrete growth factors and MMPs that facilitate tumor cell invasion and angiogenesis. Additionally, the TME can influence the expression of adhesion molecules on cancer cells, affecting their ability to adhere to and extravasate from blood vessels. Finally, the TME can condition distant metastatic sites, creating a pre-metastatic niche that facilitates the colonization of cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial approach for a patient with suspected deep vein thrombosis (DVT)?",
+    "answer": "Assess pretest probability using a Wells score; if low probability, perform a D-dimer test; if D-dimer is elevated or pretest probability is high, perform a lower extremity ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of exosomes in intercellular communication and cancer progression?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, miRNA, DNA) between cells. In cancer, exosomes play diverse roles in promoting tumor progression. They can facilitate the exchange of oncogenic proteins and nucleic acids between tumor cells, enhancing proliferation, survival, and invasion. Exosomes released by tumor cells can educate the tumor microenvironment by modulating the activity of stromal cells, immune cells, and endothelial cells. They can promote angiogenesis by delivering pro-angiogenic factors to endothelial cells. Exosomes can also suppress the immune response by transferring immunosuppressive molecules to immune cells, such as PD-L1. Furthermore, exosomes can contribute to metastasis by promoting epithelial-mesenchymal transition (EMT) and facilitating the colonization of distant organs. Analyzing the content of exosomes can provide valuable biomarkers for cancer diagnosis and prognosis, and targeting exosome biogenesis or uptake may offer novel therapeutic strategies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for an acute asthma exacerbation?",
+    "answer": "Short-acting beta-agonist (SABA) inhaler, systemic corticosteroids, and oxygen if needed; consider ipratropium bromide in severe exacerbations.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses such as HIV evade the host immune system, and what strategies are being developed to overcome these evasion mechanisms?",
+    "answer": "Viruses, including HIV, employ various strategies to evade the host immune system. HIV exhibits high genetic variability due to its error-prone reverse transcriptase, allowing it to rapidly generate escape mutants that are no longer recognized by antibodies or T cells. HIV also infects CD4+ T cells, which are critical for coordinating immune responses, leading to immune dysfunction and depletion of these cells. Furthermore, HIV downregulates the expression of MHC class I molecules on infected cells, reducing their recognition by cytotoxic T lymphocytes (CTLs). HIV also produces viral proteins such as Nef and Vpu that interfere with antigen presentation and T-cell activation. Strategies to overcome these evasion mechanisms include: (1) broadly neutralizing antibodies (bNAbs) that target conserved regions of the viral envelope, (2) therapeutic vaccines that elicit strong and durable T-cell responses against multiple viral epitopes, (3) latency-reversing agents (LRAs) that reactivate latent HIV reservoirs, making them susceptible to immune clearance, and (4) gene editing technologies such as CRISPR-Cas9 that can excise HIV DNA from infected cells.",
+    "persona": "Researcher"
+  }
+]

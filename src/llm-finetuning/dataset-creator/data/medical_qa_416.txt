@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is the initial step.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate targeted gene editing in human cells?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a specific DNA sequence, directing the Cas9 nuclease to that location in the genome. Cas9 creates a double-stranded break (DSB) at the targeted site. The cell repairs this break via either non-homologous end joining (NHEJ), which often introduces insertions or deletions (indels) that disrupt the gene, or homology-directed repair (HDR) if a DNA template with the desired sequence is provided, allowing for precise gene modification. The specificity of gene editing is primarily determined by the gRNA sequence, while off-target effects can arise from sequence similarities elsewhere in the genome. Optimization strategies include using high-fidelity Cas9 variants, truncated gRNAs, and paired nickases to minimize off-target cleavage. Furthermore, CRISPR-Cas9 can be used for gene regulation without DNA cleavage by using a catalytically dead Cas9 (dCas9) fused to transcriptional activators or repressors, offering another layer of control over gene expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment?",
+    "answer": "Exosomes are nano-sized vesicles secreted by cells that contain various biomolecules, including proteins, lipids, mRNAs, and microRNAs. In the tumor microenvironment, exosomes mediate intercellular communication by delivering these molecules to recipient cells, influencing their phenotype and behavior. Tumor-derived exosomes can promote angiogenesis by transferring pro-angiogenic factors like VEGF to endothelial cells, enhance metastasis by delivering matrix metalloproteinases (MMPs) to facilitate extracellular matrix degradation, and suppress immune responses by transferring PD-L1 or microRNAs that inhibit T-cell function. Conversely, immune cells can secrete exosomes containing cytokines or cytotoxic molecules that target tumor cells. Exosomes also contribute to drug resistance by exporting chemotherapeutic agents or transferring resistance-conferring mRNAs. The composition of exosomes is highly context-dependent, reflecting the cellular origin and environmental conditions. Exosome-based biomarkers are being explored for cancer diagnosis and prognosis, while therapeutic strategies aimed at inhibiting exosome secretion or targeting exosome uptake are under development to disrupt tumor progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline; or macrolide if local resistance is <25%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 enhance anti-tumor immunity?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while PD-L1 (programmed death-ligand 1) is its ligand, often upregulated on tumor cells and antigen-presenting cells. The interaction between PD-1 and PD-L1 delivers an inhibitory signal to T cells, suppressing their activation, proliferation, and cytotoxic function. This pathway is exploited by tumors to evade immune surveillance. Antibodies targeting PD-1 or PD-L1 block this interaction, thereby unleashing T cell-mediated anti-tumor immunity. This blockade reinvigorates exhausted T cells within the tumor microenvironment, enhancing their ability to recognize and kill tumor cells. However, response rates to PD-1/PD-L1 inhibitors vary significantly among patients, depending on factors such as tumor mutational burden, pre-existing immune infiltration, and the expression levels of PD-L1 and other immune checkpoints. The development of predictive biomarkers and combination therapies targeting multiple immune pathways are being actively pursued to improve the efficacy and broaden the applicability of PD-1/PD-L1 blockade.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a suspected acute stroke?",
+    "answer": "Rapid assessment, CT scan to rule out hemorrhage, and consideration for thrombolysis if within the appropriate time window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade detection by the innate immune system?",
+    "answer": "Viruses employ diverse strategies to evade the innate immune system, which serves as the first line of defense against infection. Many viruses encode proteins that directly interfere with pattern recognition receptors (PRRs) like TLRs, RIG-I, and cGAS-STING, preventing the activation of downstream signaling pathways. For example, some viruses express proteases that degrade signaling molecules like TBK1 or IRF3, crucial for interferon (IFN) production. Others produce decoy receptors that bind to cytokines, neutralizing their activity. Certain viruses establish latency, minimizing viral gene expression and reducing the production of viral antigens that could trigger immune responses. Furthermore, viruses can modulate host cell apoptosis to prevent the release of danger-associated molecular patterns (DAMPs) that activate the inflammasome. The specific evasion mechanisms vary depending on the virus and the host cell type, reflecting an ongoing evolutionary arms race between viruses and the host immune system. Understanding these mechanisms is critical for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated urinary tract infection in women?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are commonly prescribed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in oncogenes contribute to the development of cancer?",
+    "answer": "Oncogenes are genes that, when mutated or expressed at abnormally high levels, promote uncontrolled cell growth and proliferation. These mutations are typically gain-of-function, leading to constitutive activation of signaling pathways that regulate cell cycle progression, apoptosis, and differentiation. For instance, mutations in the RAS family of genes (KRAS, NRAS, HRAS) result in a constitutively active GTPase, continuously stimulating downstream pathways like MAPK and PI3K/AKT, driving cell proliferation and survival. Similarly, mutations in receptor tyrosine kinases (RTKs) such as EGFR and HER2 can lead to ligand-independent activation, promoting uncontrolled signaling. Chromosomal translocations involving transcription factors like MYC can result in overexpression, deregulating the expression of numerous target genes involved in cell growth and metabolism. The specific oncogene involved and the nature of the mutation influence the phenotype of the cancer, dictating its aggressiveness and sensitivity to targeted therapies. Moreover, oncogene addiction refers to the phenomenon where certain cancer cells become highly dependent on a single oncogene for survival, making them particularly vulnerable to inhibitors targeting that specific pathway.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, are heritable changes in gene expression that occur without alterations to the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), generally leads to transcriptional repression by recruiting methyl-binding proteins and promoting chromatin condensation. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, affect chromatin structure and accessibility, influencing gene transcription. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene expression by opening up chromatin, while histone deacetylation, catalyzed by histone deacetylases (HDACs), typically leads to gene silencing. Specific histone methylation marks, like H3K4me3 and H3K36me3, are associated with active transcription, whereas others, like H3K9me3 and H3K27me3, are associated with gene repression. These epigenetic modifications are dynamically regulated by enzymes and are influenced by environmental factors, playing critical roles in cellular differentiation, development, and disease. Aberrant epigenetic patterns are frequently observed in cancer, contributing to oncogene activation and tumor suppressor gene silencing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Nausea, insomnia, sexual dysfunction, and weight changes.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the adaptive immune system generate a diverse repertoire of antigen receptors?",
+    "answer": "The adaptive immune system, comprised of T cells and B cells, generates a highly diverse repertoire of antigen receptors through a process called V(D)J recombination. This process involves the random rearrangement of variable (V), diversity (D), and joining (J) gene segments in the immunoglobulin (Ig) heavy chain and T cell receptor (TCR) beta chain loci, and V and J segments in the Ig light chain and TCR alpha chain loci. Recombinase activating genes (RAG1 and RAG2) mediate the site-specific cleavage of DNA at recombination signal sequences (RSSs) flanking the V, D, and J segments. Following cleavage, the DNA ends are joined by DNA ligase IV, creating a functional V(D)J exon. Junctional diversity is further increased by the addition or deletion of nucleotides at the junctions between the V, D, and J segments, mediated by terminal deoxynucleotidyl transferase (TdT). This combinatorial and junctional diversity generates an enormous repertoire of antigen receptors, allowing the adaptive immune system to recognize and respond to a vast array of pathogens. Somatic hypermutation in B cells further diversifies antibody sequences after antigen encounter, improving antibody affinity and specificity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute migraine?",
+    "answer": "Triptans or NSAIDs are often used for acute migraine treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in DNA mismatch repair genes lead to microsatellite instability and cancer?",
+    "answer": "DNA mismatch repair (MMR) genes encode proteins that correct errors arising during DNA replication, including base-base mismatches and insertion-deletion loops (indels). Mutations in MMR genes, such as MLH1, MSH2, MSH6, and PMS2, impair the ability of the MMR system to correct these errors, leading to an accumulation of mutations, particularly in repetitive DNA sequences called microsatellites. This phenomenon is known as microsatellite instability (MSI). MSI is a hallmark of certain cancers, including colorectal cancer, endometrial cancer, and gastric cancer. The accumulation of mutations in MSI-high tumors can result in the generation of neoantigens, which are novel peptides derived from mutated proteins that can be recognized by the immune system. As a result, MSI-high tumors are often heavily infiltrated by immune cells and are more responsive to immune checkpoint inhibitors. Loss of MMR function can occur through germline mutations in MMR genes (Lynch syndrome), somatic mutations, or epigenetic silencing of MLH1 via promoter methylation. The presence of MSI serves as a predictive biomarker for response to immunotherapy in various cancer types.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common signs and symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, and cold intolerance.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does cellular senescence contribute to age-related diseases?",
+    "answer": "Cellular senescence is a state of irreversible growth arrest in which cells remain metabolically active but lose their proliferative capacity. Senescent cells accumulate with age in various tissues and secrete a complex mixture of cytokines, chemokines, growth factors, and proteases, collectively known as the senescence-associated secretory phenotype (SASP). The SASP can have both beneficial and detrimental effects, depending on the context. In wound healing and tissue remodeling, senescent cells can promote tissue repair and prevent fibrosis. However, the chronic accumulation of senescent cells and the persistent secretion of the SASP can contribute to inflammation, tissue dysfunction, and age-related diseases. The SASP can promote paracrine senescence, inducing senescence in neighboring cells, and can attract immune cells, leading to chronic inflammation. Senescent cells have been implicated in various age-related diseases, including cancer, cardiovascular disease, neurodegenerative diseases, and osteoporosis. Strategies aimed at selectively eliminating senescent cells (senolytics) or inhibiting the SASP (senomorphics) are being developed as potential therapeutic interventions to prevent or treat age-related diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for allergic rhinitis?",
+    "answer": "Intranasal corticosteroids are generally recommended.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do antibody-drug conjugates (ADCs) selectively target and kill cancer cells?",
+    "answer": "Antibody-drug conjugates (ADCs) are a class of targeted therapeutics that combine the specificity of monoclonal antibodies with the cytotoxic potency of chemotherapeutic drugs. ADCs consist of an antibody that binds to a tumor-associated antigen, a cytotoxic drug (payload), and a chemical linker that connects the antibody and the drug. The antibody selectively binds to cancer cells expressing the target antigen, leading to internalization of the ADC via receptor-mediated endocytosis. Once inside the cell, the ADC is processed, and the cytotoxic drug is released, either through cleavage of the linker or degradation of the antibody. The released drug then disrupts cellular processes, such as DNA replication or microtubule assembly, leading to cell death. The selective delivery of the cytotoxic drug to cancer cells minimizes off-target toxicity, improving the therapeutic index compared to traditional chemotherapy. The choice of antibody, linker, and payload determines the efficacy and safety profile of the ADC. Several ADCs have been approved for the treatment of various cancers, and numerous others are in clinical development.",
+    "persona": "Researcher"
+  }
+]

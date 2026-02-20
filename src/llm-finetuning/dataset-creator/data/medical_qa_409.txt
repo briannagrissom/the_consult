@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic bradycardia?",
+    "answer": "Administer atropine 0.5mg IV bolus; may repeat every 3-5 minutes to a maximum total dose of 3mg per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and what are the mechanisms of resistance to KRAS inhibitors?",
+    "answer": "KRAS encodes a small GTPase that cycles between inactive (GDP-bound) and active (GTP-bound) states, regulating downstream signaling pathways such as MAPK and PI3K/AKT that control cell proliferation, survival, and differentiation. Oncogenic KRAS mutations, most commonly at codons 12, 13, or 61, impair GTPase activity and lock KRAS in its constitutively active GTP-bound form, leading to ligand-independent activation of downstream effectors and promoting uncontrolled cell growth. Mutant KRAS also alters cellular metabolism, increasing glucose uptake and glutamine dependence, which supports anabolic processes required for rapid proliferation. Resistance to KRAS inhibitors can arise through multiple mechanisms: (1) acquisition of secondary mutations in KRAS that reduce drug binding affinity, (2) activation of bypass signaling pathways such as receptor tyrosine kinases (e.g., EGFR, HER3) that circumvent the need for KRAS signaling, (3) upregulation of alternative GTPases such as HRAS or NRAS that functionally compensate for KRAS inhibition, (4) epigenetic reprogramming that alters gene expression patterns to promote cell survival independent of KRAS signaling, and (5) phenotypic switching to a more mesenchymal or stem-like state that confers resistance to targeted therapies. Combination strategies targeting multiple pathways or inducing synthetic lethality are being explored to overcome these resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with normal cytology results?",
+    "answer": "Screen every 3 years with cytology alone or every 5 years with high-risk HPV testing alone for women aged 30-65 per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome plays a critical role in shaping systemic immunity and influencing the response to immune checkpoint inhibitors (ICIs). Certain bacterial species, such as Akkermansia muciniphila, Faecalibacterium prausnitzii, and Bifidobacterium species, have been associated with improved ICI efficacy, whereas others, like Bacteroides fragilis, may confer resistance. The mechanisms by which the microbiome modulates ICI response are multifactorial. Microbial metabolites, such as short-chain fatty acids (SCFAs) like butyrate and propionate, can enhance T-cell activity and promote immune cell infiltration into tumors. Certain commensal bacteria can also activate pattern recognition receptors (PRRs) like Toll-like receptors (TLRs) on immune cells, leading to enhanced antigen presentation and T-cell priming. Moreover, the gut microbiome can influence the composition and function of the tumor microenvironment by modulating cytokine production and immune cell recruitment. Dysbiosis, or an imbalance in the gut microbiome, can impair immune function and reduce ICI efficacy. Factors such as antibiotic use, diet, and underlying medical conditions can significantly alter the gut microbiome composition and impact ICI response. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) or dietary interventions, are being explored to improve ICI efficacy and overcome resistance in cancer patients.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated cystitis in a non-pregnant female?",
+    "answer": "Prescribe nitrofurantoin 100mg BID for 5 days or trimethoprim-sulfamethoxazole 160/800mg BID for 3 days per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative diseases, and what makes them so difficult to eradicate?",
+    "answer": "Prions are misfolded forms of a normal cellular protein, PrPC, which can self-propagate and induce the conversion of PrPC into the pathogenic isoform, PrPSc. This process leads to the accumulation of PrPSc aggregates in the brain, causing neuronal dysfunction and neurodegeneration in diseases like Creutzfeldt-Jakob disease (CJD) and bovine spongiform encephalopathy (BSE). PrPSc aggregates are highly resistant to degradation by cellular proteases and can form insoluble amyloid plaques that disrupt neuronal signaling and trigger apoptosis. The mechanisms underlying prion-induced neurotoxicity are complex and involve multiple pathways, including ER stress, oxidative stress, and activation of inflammatory responses. Prions are notoriously difficult to eradicate due to their high resistance to conventional sterilization methods, such as autoclaving and chemical disinfectants. They are also able to cross species barriers and adapt to new hosts, posing a significant risk of zoonotic transmission. Furthermore, the lack of effective therapeutic strategies for prion diseases is a major challenge. Current research efforts are focused on developing compounds that can inhibit prion propagation, clear existing PrPSc aggregates, and protect neurons from prion-induced damage.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute stroke symptoms?",
+    "answer": "Activate stroke protocol, obtain CT scan of the head to rule out hemorrhage, and assess eligibility for thrombolysis with alteplase per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms underlying the development of insulin resistance in type 2 diabetes?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes, is a complex phenomenon involving multiple cellular and molecular mechanisms. At the cellular level, insulin resistance is characterized by a reduced ability of insulin to stimulate glucose uptake in peripheral tissues, primarily skeletal muscle, liver, and adipose tissue. Several factors contribute to the development of insulin resistance: (1) Excess lipid accumulation: Intramyocellular lipid accumulation, particularly of diacylglycerols and ceramides, can activate serine kinases that phosphorylate insulin receptor substrate-1 (IRS-1) at inhibitory sites, impairing downstream signaling. (2) Inflammation: Chronic low-grade inflammation, often associated with obesity, can activate inflammatory pathways such as NF-κB and JNK, which also phosphorylate IRS-1 at inhibitory sites. Pro-inflammatory cytokines like TNF-α and IL-6 can further impair insulin signaling. (3) Mitochondrial dysfunction: Impaired mitochondrial function can lead to incomplete fatty acid oxidation and accumulation of lipid intermediates, exacerbating insulin resistance. (4) Endoplasmic reticulum (ER) stress: ER stress, triggered by nutrient overload and inflammation, can activate unfolded protein response (UPR) pathways that interfere with insulin signaling. (5) Genetic factors: Certain genetic variants can predispose individuals to insulin resistance by affecting insulin receptor expression, signaling pathway components, or mitochondrial function. The interplay of these factors contributes to the progressive decline in insulin sensitivity observed in type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Prescribe azithromycin 500mg on day 1, then 250mg daily for 4 days or doxycycline 100mg BID for 5 days per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic dysregulation contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression and maintaining cellular identity. Aberrant epigenetic patterns are frequently observed in cancer cells and contribute to tumor initiation, progression, and metastasis. DNA methylation, typically at CpG islands, can silence tumor suppressor genes, leading to uncontrolled cell growth. Histone modifications, such as acetylation and methylation, can alter chromatin structure and accessibility, affecting the expression of oncogenes and tumor suppressor genes. For example, histone deacetylases (HDACs) can remove acetyl groups from histones, leading to chromatin condensation and gene silencing. Non-coding RNAs, such as microRNAs (miRNAs), can regulate gene expression by binding to mRNA and inhibiting translation or promoting degradation. Dysregulation of miRNA expression can affect the expression of key oncogenes and tumor suppressor genes, contributing to cancer development. Epigenetic modifications are reversible, making them attractive targets for therapeutic intervention. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, can reverse aberrant epigenetic patterns and restore normal gene expression in cancer cells. Combination therapies targeting both genetic and epigenetic alterations are being explored to improve cancer treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate initial step in managing a patient with suspected anaphylaxis?",
+    "answer": "Administer intramuscular epinephrine 0.3-0.5mg (1:1000) into the mid-outer thigh per standard anaphylaxis protocols.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses have evolved a variety of sophisticated mechanisms to evade the host immune system, allowing them to establish persistent infections and cause disease. These mechanisms can be broadly categorized into several strategies: (1) Interference with interferon (IFN) signaling: Many viruses encode proteins that inhibit the production or signaling of type I IFNs, which are critical for antiviral defense. For example, some viruses express proteins that block the activation of transcription factors required for IFN gene expression or interfere with the IFN receptor signaling pathway. (2) Inhibition of antigen presentation: Viruses can inhibit the presentation of viral antigens on MHC class I molecules, preventing recognition by cytotoxic T lymphocytes (CTLs). This can be achieved by interfering with the transport of viral peptides into the endoplasmic reticulum (ER) or by downregulating the expression of MHC class I molecules on the cell surface. (3) Evasion of antibody-mediated neutralization: Viruses can mutate rapidly, generating antigenic variants that are not recognized by pre-existing antibodies. They can also employ strategies such as glycosylation to shield viral epitopes from antibody binding or express proteins that bind to antibodies and prevent them from neutralizing the virus. (4) Suppression of immune cell function: Some viruses encode proteins that directly suppress the function of immune cells, such as T cells, B cells, and natural killer (NK) cells. These proteins can interfere with immune cell signaling pathways or induce apoptosis of immune cells. (5) Establishment of latency: Some viruses can establish a latent state in which they persist in the host without actively replicating, making them invisible to the immune system. These viruses can reactivate under certain conditions, leading to recurrent infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line therapy for a patient with newly diagnosed hypertension and heart failure with reduced ejection fraction?",
+    "answer": "Initiate an ACE inhibitor or ARNI, a beta-blocker, and a mineralocorticoid receptor antagonist per guideline-directed medical therapy (GDMT).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in DNA repair genes influence cancer susceptibility and response to chemotherapy?",
+    "answer": "Mutations in DNA repair genes, such as BRCA1, BRCA2, ATM, and CHEK2, can impair the ability of cells to repair DNA damage, leading to genomic instability and an increased risk of cancer development. These genes play critical roles in various DNA repair pathways, including homologous recombination, non-homologous end joining, and mismatch repair. When these pathways are compromised, cells accumulate DNA damage, which can drive mutations in oncogenes and tumor suppressor genes, promoting tumorigenesis. Furthermore, mutations in DNA repair genes can influence the response to chemotherapy. Chemotherapeutic agents often induce DNA damage to kill cancer cells. However, if cancer cells have defects in DNA repair pathways, they may be more sensitive to these agents. For example, tumors with BRCA1/2 mutations are often highly sensitive to platinum-based chemotherapy and PARP inhibitors, which exploit the defect in homologous recombination to selectively kill cancer cells. Conversely, other DNA repair defects can confer resistance to chemotherapy by allowing cancer cells to repair drug-induced DNA damage more efficiently. Therefore, understanding the status of DNA repair genes in cancer cells can help predict their response to chemotherapy and guide treatment decisions. Targeted therapies that exploit specific DNA repair defects are being developed to improve cancer treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with atrial fibrillation with rapid ventricular response?",
+    "answer": "Administer intravenous beta-blockers (e.g., metoprolol) or calcium channel blockers (e.g., diltiazem) to control heart rate per standard protocols.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes mediate intercellular communication in the tumor microenvironment?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that are released by cells and can mediate intercellular communication by delivering bioactive molecules, such as proteins, lipids, and nucleic acids, to recipient cells. In the tumor microenvironment, exosomes play a critical role in shaping the behavior of both cancer cells and stromal cells. Cancer cells release exosomes that can promote tumor growth, angiogenesis, immune evasion, and metastasis. For example, exosomes can transfer oncogenes and microRNAs to recipient cells, altering their gene expression and promoting tumor progression. They can also deliver immunosuppressive molecules, such as PD-L1 and TGF-β, to immune cells, inhibiting their anti-tumor activity. Stromal cells, such as fibroblasts and immune cells, also release exosomes that can influence tumor behavior. For example, fibroblasts can release exosomes that promote cancer cell proliferation and migration, while immune cells can release exosomes that stimulate or suppress anti-tumor immunity. Exosomes can also serve as biomarkers for cancer diagnosis and prognosis. The composition of exosomes reflects the molecular profile of the cells from which they are derived, making them a valuable source of information about the tumor and its microenvironment. Liquid biopsies that analyze exosomes in blood or other bodily fluids are being developed to detect cancer early, monitor treatment response, and predict prognosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated diverticulitis?",
+    "answer": "Treat with oral antibiotics covering gram-negative rods and anaerobes, such as ciprofloxacin plus metronidazole, and a low-residue diet per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain. Several signaling pathways have been implicated in the pathogenesis of AD: (1) Amyloid precursor protein (APP) processing: APP is a transmembrane protein that is cleaved by secretases to generate amyloid-beta (Aβ) peptides. Abnormal APP processing, leading to increased production of Aβ42, a highly aggregation-prone form of Aβ, is a major driver of AD. (2) Tau phosphorylation: Tau is a microtubule-associated protein that is hyperphosphorylated in AD, leading to the formation of neurofibrillary tangles. Several kinases, including GSK-3β and CDK5, have been implicated in tau phosphorylation. (3) Inflammation: Chronic inflammation in the brain contributes to AD pathogenesis. Activated microglia and astrocytes release pro-inflammatory cytokines that promote neuronal damage and Aβ accumulation. (4) Insulin signaling: Impaired insulin signaling in the brain has been linked to AD. Insulin resistance can lead to decreased glucose uptake and impaired energy metabolism in neurons. (5) Calcium dysregulation: Dysregulation of calcium homeostasis in neurons can contribute to AD pathogenesis. Increased intracellular calcium levels can activate calcium-dependent enzymes that promote Aβ production and tau phosphorylation. Targeting these signaling pathways is a major focus of AD drug development.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with suspected deep vein thrombosis (DVT)?",
+    "answer": "Perform a Wells score assessment, followed by D-dimer testing if Wells score is low or intermediate; if D-dimer is positive or Wells score is high, perform lower extremity ultrasound per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do emerging CAR-T cell therapies overcome limitations in treating solid tumors, compared to hematological malignancies?",
+    "answer": "CAR-T cell therapy, which involves engineering a patient's T cells to express a chimeric antigen receptor (CAR) that targets a specific tumor-associated antigen, has shown remarkable success in treating hematological malignancies. However, its application to solid tumors has been limited by several challenges: (1) Antigen heterogeneity: Solid tumors often exhibit significant antigen heterogeneity, meaning that not all tumor cells express the target antigen. This can lead to tumor escape and relapse. (2) Limited T-cell infiltration: Solid tumors are often poorly infiltrated by T cells due to physical barriers, such as dense extracellular matrix and immunosuppressive factors in the tumor microenvironment. (3) Immunosuppressive microenvironment: Solid tumors create an immunosuppressive microenvironment that can inhibit CAR-T cell activity. This includes the presence of regulatory T cells, myeloid-derived suppressor cells, and inhibitory ligands such as PD-L1. (4) On-target, off-tumor toxicity: CAR-T cells can sometimes target normal tissues that express the target antigen, leading to toxicity. To overcome these limitations, several strategies are being explored: (1) Targeting multiple antigens: CAR-T cells targeting multiple antigens are being developed to address antigen heterogeneity. (2) Enhancing T-cell infiltration: Strategies to enhance T-cell infiltration, such as oncolytic viruses and chemokine-secreting CAR-T cells, are being investigated. (3) Modulating the tumor microenvironment: Strategies to modulate the tumor microenvironment, such as checkpoint inhibitors and cytokine blockade, are being combined with CAR-T cell therapy. (4) Developing safer CAR designs: Safer CAR designs, such as those incorporating safety switches, are being developed to reduce on-target, off-tumor toxicity.",
+    "persona": "Researcher"
+  }
+]

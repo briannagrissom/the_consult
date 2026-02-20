@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, perform immediate cardioversion. If stable, consider rate or rhythm control strategies per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and what are the downstream signaling pathways involved?",
+    "answer": "KRAS encodes a small GTPase that cycles between inactive GDP-bound and active GTP-bound states, thereby regulating cell growth, differentiation, and survival pathways. Oncogenic KRAS mutations, most commonly at codons 12, 13, or 61, impair GTPase activity, leading to constitutive activation of KRAS signaling. This sustained activation stimulates multiple downstream effector pathways including the RAF-MEK-ERK mitogen-activated protein kinase (MAPK) cascade, the PI3K-AKT-mTOR pathway, and the Ral guanine nucleotide dissociation stimulator (RalGDS) pathway. Activation of the MAPK pathway promotes cell proliferation and survival through phosphorylation of transcription factors such as Elk-1 and Myc. The PI3K-AKT-mTOR pathway enhances cell growth, metabolism, and angiogenesis via phosphorylation of mTOR and downstream targets. The RalGDS pathway regulates cytoskeletal reorganization, cell migration, and invasion. Different KRAS mutations can preferentially activate distinct downstream pathways, influencing tumor phenotype and response to therapy. Furthermore, KRAS mutations can modulate the tumor microenvironment by influencing immune cell recruitment and cytokine production. Given the central role of KRAS in cancer, significant efforts have focused on developing direct KRAS inhibitors or targeting downstream effectors to disrupt KRAS-driven tumorigenesis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which cancer cells develop resistance to chemotherapy?",
+    "answer": "Cancer cells acquire chemotherapy resistance through multiple mechanisms including increased drug efflux via ABC transporters (e.g., P-glycoprotein), alterations in drug metabolism (e.g., increased detoxification), enhanced DNA repair capacity, inactivation of apoptotic pathways (e.g., downregulation of caspases), and mutations in drug targets. Epithelial-mesenchymal transition (EMT) can also contribute to chemoresistance by altering cellular adhesion and motility. Furthermore, cancer stem cells, which possess self-renewal capabilities, often exhibit increased resistance to chemotherapy compared to non-stem cancer cells. The tumor microenvironment plays a crucial role in mediating chemoresistance through secretion of growth factors and cytokines that promote cell survival and proliferation. Hypoxia can induce chemoresistance by upregulating HIF-1α, which activates genes involved in angiogenesis and glucose metabolism. Understanding these resistance mechanisms is critical for developing strategies to overcome chemoresistance and improve treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a first-time unprovoked seizure be initially evaluated?",
+    "answer": "Obtain a detailed history, perform a neurological examination, and order an EEG and brain imaging (MRI preferred).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating host immunity and susceptibility to autoimmune diseases?",
+    "answer": "The gut microbiome, consisting of trillions of microorganisms, profoundly influences host immunity through diverse mechanisms. Commensal bacteria produce metabolites such as short-chain fatty acids (SCFAs), including butyrate, acetate, and propionate, which promote intestinal barrier integrity, regulate immune cell differentiation, and modulate inflammatory responses. Dysbiosis, an imbalance in the gut microbial community, has been implicated in the pathogenesis of autoimmune diseases. Specific bacterial species can trigger autoimmune responses through molecular mimicry, where microbial antigens share structural similarity with self-antigens. The gut microbiome also affects the development and function of immune cells such as T cells, B cells, and dendritic cells. For example, segmented filamentous bacteria (SFB) promote the differentiation of Th17 cells, which play a role in autoimmune inflammation. Conversely, other bacteria can induce the generation of regulatory T cells (Tregs), which suppress autoimmune responses. Manipulation of the gut microbiome through dietary interventions, fecal microbiota transplantation (FMT), or probiotics holds promise for preventing and treating autoimmune diseases by restoring immune homeostasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a healthy adult female?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the PD-1/PD-L1 axis regulate T-cell function, and what are the mechanisms of action of anti-PD-1/PD-L1 immunotherapy?",
+    "answer": "The programmed cell death protein 1 (PD-1) is an immune checkpoint receptor expressed on activated T cells, B cells, and natural killer cells. Its ligand, programmed death-ligand 1 (PD-L1), is expressed on various cell types including tumor cells, antigen-presenting cells, and stromal cells. The interaction between PD-1 and PD-L1 inhibits T-cell activation, proliferation, and effector function, thereby preventing excessive immune responses and maintaining peripheral tolerance. Tumor cells often upregulate PD-L1 expression as a mechanism to evade immune surveillance. Anti-PD-1/PD-L1 antibodies block the interaction between PD-1 and PD-L1, thereby restoring T-cell activity and promoting antitumor immunity. These antibodies bind to either PD-1 or PD-L1, preventing the inhibitory signal from being transmitted to T cells. This leads to enhanced T-cell proliferation, cytokine production, and cytotoxic activity against tumor cells. In addition, anti-PD-1/PD-L1 antibodies can reverse T-cell exhaustion and promote the infiltration of T cells into the tumor microenvironment. The efficacy of anti-PD-1/PD-L1 immunotherapy depends on several factors including the level of PD-L1 expression on tumor cells, the presence of tumor-infiltrating lymphocytes (TILs), and the mutational burden of the tumor.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute ischemic stroke?",
+    "answer": "Rapid assessment of ABCs, neurological examination, CT scan of the head to rule out hemorrhage, and consideration of thrombolytic therapy (tPA) if eligible.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein in the brain. Aβ plaques are formed by the aggregation of Aβ peptides, which are derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. Mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2) genes, which encode components of the γ-secretase complex, can increase Aβ production and aggregation. Neurofibrillary tangles are formed by the hyperphosphorylation of tau protein, which normally stabilizes microtubules in neurons. Hyperphosphorylated tau detaches from microtubules and aggregates into insoluble tangles, disrupting neuronal function. Genetic factors, such as the ε4 allele of apolipoprotein E (APOE), increase the risk of AD. APOE4 promotes Aβ aggregation and reduces Aβ clearance from the brain. Other factors such as oxidative stress, inflammation, and mitochondrial dysfunction also contribute to the pathogenesis of AD. These molecular mechanisms lead to synaptic dysfunction, neuronal loss, and cognitive decline.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Initiate screening at age 45 with colonoscopy every 10 years, or annual FIT test, or other guideline-recommended options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications such as DNA methylation and histone acetylation regulate gene expression, and how are they implicated in cancer development?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation, play crucial roles in regulating gene expression without altering the DNA sequence itself. DNA methylation, primarily occurring at cytosine residues in CpG dinucleotides, is generally associated with gene silencing. DNA methyltransferases (DNMTs) catalyze the addition of methyl groups to DNA, leading to chromatin condensation and reduced gene transcription. Histone acetylation, catalyzed by histone acetyltransferases (HATs), involves the addition of acetyl groups to lysine residues on histone proteins, resulting in chromatin decondensation and increased gene transcription. Histone deacetylases (HDACs) remove acetyl groups from histones, leading to gene silencing. In cancer, epigenetic modifications are often dysregulated, leading to aberrant gene expression patterns that promote tumorigenesis. For example, hypermethylation of tumor suppressor gene promoters can silence their expression, while hypomethylation of oncogene promoters can increase their expression. Aberrant histone acetylation patterns can also contribute to cancer development by altering the expression of genes involved in cell proliferation, apoptosis, and DNA repair. Epigenetic drugs, such as DNMT inhibitors and HDAC inhibitors, are used in cancer therapy to reverse these aberrant epigenetic modifications and restore normal gene expression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate use of inhaled corticosteroids (ICS) in the management of asthma?",
+    "answer": "ICS are first-line controller medications for persistent asthma to reduce airway inflammation and prevent exacerbations.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system, and how can these mechanisms be targeted for antiviral therapy?",
+    "answer": "Viruses employ a variety of strategies to evade the host immune system, allowing them to establish persistent infections. One common mechanism is the suppression of interferon (IFN) signaling, which is crucial for antiviral defense. Viruses encode proteins that interfere with IFN production, IFN receptor signaling, or the activity of IFN-stimulated genes (ISGs). Some viruses downregulate the expression of major histocompatibility complex (MHC) class I molecules, which are required for antigen presentation to cytotoxic T lymphocytes (CTLs). This prevents infected cells from being recognized and eliminated by CTLs. Other viruses produce decoy receptors that bind to cytokines and chemokines, preventing them from activating immune cells. Viruses can also induce apoptosis of immune cells, leading to immunosuppression. Furthermore, some viruses establish latency, a state of dormancy in which the virus is not actively replicating and is therefore invisible to the immune system. Targeting these viral evasion mechanisms is a promising approach for antiviral therapy. For example, IFN-based therapies can boost antiviral immunity, while drugs that restore MHC class I expression can enhance CTL-mediated killing of infected cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications and how are they managed?",
+    "answer": "Muscle pain, liver enzyme elevation; manage with dose adjustment, alternative statin, or non-statin therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and contribute to disease pathogenesis?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), are RNA molecules that do not encode proteins but play crucial roles in regulating gene expression at various levels. MicroRNAs are small (approximately 22 nucleotides) RNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to translational repression or mRNA degradation. LncRNAs are longer (greater than 200 nucleotides) RNAs that can regulate gene expression by diverse mechanisms including chromatin modification, transcriptional regulation, and post-transcriptional processing. MiRNAs and lncRNAs are implicated in various cellular processes including cell proliferation, differentiation, apoptosis, and immune responses. Dysregulation of miRNA and lncRNA expression is associated with many diseases including cancer, cardiovascular disease, and neurological disorders. For example, certain miRNAs can act as tumor suppressors by inhibiting the expression of oncogenes, while other miRNAs can act as oncogenes by inhibiting the expression of tumor suppressor genes. LncRNAs can also contribute to disease pathogenesis by modulating the expression of genes involved in inflammation, fibrosis, and angiogenesis. Targeting ncRNAs is an emerging therapeutic strategy for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of a comprehensive geriatric assessment?",
+    "answer": "Medical, functional, cognitive, psychological, and social domains are assessed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do genomic instability and DNA repair defects contribute to cancer development and response to therapy?",
+    "answer": "Genomic instability, characterized by an increased rate of mutations and chromosomal aberrations, is a hallmark of cancer. DNA repair pathways, including base excision repair (BER), nucleotide excision repair (NER), mismatch repair (MMR), and homologous recombination repair (HRR), maintain genomic integrity by repairing DNA damage. Defects in DNA repair pathways lead to the accumulation of mutations, promoting tumorigenesis. For example, mutations in BRCA1 and BRCA2, which are involved in HRR, increase the risk of breast and ovarian cancer. Tumors with DNA repair defects are often more sensitive to certain therapies, such as platinum-based chemotherapy and PARP inhibitors. Platinum-based chemotherapy induces DNA damage, which is normally repaired by DNA repair pathways. However, in tumors with DNA repair defects, the DNA damage is not efficiently repaired, leading to cell death. PARP inhibitors block the activity of PARP, an enzyme involved in DNA repair. In tumors with HRR defects, PARP inhibition leads to synthetic lethality, resulting in tumor cell death. Therefore, assessing DNA repair status can help predict response to therapy and guide treatment decisions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection, antihistamines, and supportive care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of CAR T-cell therapy, and what are the major challenges associated with its use?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a CAR, which is a synthetic receptor that recognizes a specific antigen on tumor cells. The CAR consists of an extracellular antigen-binding domain (typically a single-chain variable fragment derived from an antibody) fused to intracellular signaling domains that activate T cells upon antigen recognition. When CAR T cells encounter tumor cells expressing the target antigen, the CAR binds to the antigen, triggering T-cell activation, proliferation, and cytotoxic activity. CAR T-cell therapy has shown remarkable efficacy in treating hematological malignancies, particularly B-cell lymphomas and acute lymphoblastic leukemia. However, several challenges are associated with its use including cytokine release syndrome (CRS), a systemic inflammatory response caused by the release of cytokines from activated CAR T cells; immune effector cell-associated neurotoxicity syndrome (ICANS), a neurological complication characterized by confusion, seizures, and encephalopathy; and on-target off-tumor toxicity, where CAR T cells attack healthy tissues expressing the target antigen. Overcoming these challenges is critical for expanding the use of CAR T-cell therapy to other cancers and improving patient outcomes.",
+    "persona": "Researcher"
+  }
+]

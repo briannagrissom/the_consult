@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers; consider cardioversion if unstable or rate control fails.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR signaling pathway contribute to the development of resistance to tyrosine kinase inhibitors in non-small cell lung cancer?",
+    "answer": "Mutations in EGFR, particularly the T790M mutation, sterically hinder the binding of first and second-generation EGFR tyrosine kinase inhibitors (TKIs) to the ATP-binding pocket of the EGFR kinase domain. This mutation increases the affinity of EGFR for ATP, effectively outcompeting the inhibitor and restoring EGFR signaling. Additionally, downstream activation of alternative signaling pathways like MET amplification or activation of bypass pathways such as PI3K/AKT can circumvent EGFR inhibition, leading to resistance. Furthermore, phenotypic changes, such as epithelial-mesenchymal transition (EMT) or small cell transformation, can also confer resistance by altering the tumor's dependence on EGFR signaling. Combination therapies targeting both EGFR and bypass pathways, along with third-generation EGFR TKIs designed to overcome the T790M mutation (e.g., osimertinib), are strategies to address TKI resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the CDC recommendations for influenza vaccination in adults?",
+    "answer": "Annual influenza vaccination is recommended for all adults, with specific vaccine type dependent on age and health status per CDC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of immune checkpoint inhibitors in cancer immunotherapy?",
+    "answer": "The gut microbiome plays a crucial role in modulating the efficacy of immune checkpoint inhibitors (ICIs) by influencing systemic immune responses and tumor microenvironment. Certain bacterial species, such as *Akkermansia muciniphila* and *Faecalibacterium prausnitzii*, have been associated with improved responses to ICIs, possibly by enhancing T-cell infiltration into tumors and promoting a pro-inflammatory microenvironment. These bacteria can stimulate dendritic cells and promote the maturation of T cells, enhancing antitumor immunity. Conversely, dysbiosis and the presence of other bacterial species can suppress immune responses, leading to ICI resistance. Mechanisms include the production of immunosuppressive metabolites, altered cytokine profiles, and impaired T-cell trafficking. Fecal microbiota transplantation (FMT) studies have shown that transferring gut microbiota from ICI-responsive patients to non-responsive patients can improve ICI efficacy, highlighting the potential of microbiome modulation as a therapeutic strategy to enhance cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a first-time unprovoked seizure be evaluated?",
+    "answer": "Obtain a detailed history, perform a neurological examination, and order an EEG and brain imaging (MRI preferred) to rule out structural lesions.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate the study of gene function in human cells?",
+    "answer": "CRISPR-Cas9 technology enables precise and efficient gene editing in human cells by using a guide RNA (gRNA) to direct the Cas9 endonuclease to a specific DNA sequence within the genome. Cas9 then introduces a double-strand break (DSB) at the targeted site. The cell repairs the DSB through either non-homologous end joining (NHEJ), which often results in small insertions or deletions (indels) that disrupt gene function (gene knockout), or homology-directed repair (HDR), which allows for precise gene editing by introducing a DNA template with the desired sequence change. By designing gRNAs targeting different genes, researchers can systematically knockout or modify genes of interest and study their effects on cellular phenotypes, signaling pathways, and disease mechanisms. CRISPR-Cas9 can also be used for gene activation (CRISPRa) or gene repression (CRISPRi) by tethering transcriptional activators or repressors to catalytically inactive Cas9 (dCas9), allowing for the modulation of gene expression without permanently altering the DNA sequence. This technology has revolutionized functional genomics, enabling high-throughput screening, disease modeling, and the development of gene therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target LDL-cholesterol level for a patient with established atherosclerotic cardiovascular disease (ASCVD)?",
+    "answer": "LDL-C reduction of ≥50% from baseline and an LDL-C level <70 mg/dL is recommended for very high-risk ASCVD patients per guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which chronic inflammation contributes to the development of insulin resistance in type 2 diabetes?",
+    "answer": "Chronic inflammation plays a central role in the pathogenesis of insulin resistance in type 2 diabetes (T2D). Pro-inflammatory cytokines, such as TNF-α, IL-6, and IL-1β, are elevated in individuals with obesity and T2D, primarily secreted by adipose tissue macrophages and other immune cells. These cytokines impair insulin signaling by activating intracellular kinases, such as JNK and IKKβ, which phosphorylate serine residues on insulin receptor substrate-1 (IRS-1), thereby inhibiting its ability to activate downstream signaling molecules, including PI3K and Akt. Inflammation also disrupts glucose transport by reducing the expression of GLUT4, the major glucose transporter in muscle and adipose tissue. Furthermore, inflammatory mediators can induce endoplasmic reticulum (ER) stress and mitochondrial dysfunction, both of which contribute to insulin resistance. Activation of the inflammasome pathway, particularly NLRP3, by factors such as hyperglycemia and free fatty acids, leads to the production of IL-1β, further amplifying the inflammatory response and exacerbating insulin resistance. Targeting inflammatory pathways, such as TNF-α or IL-1β, has shown promise in improving insulin sensitivity and glycemic control in preclinical and clinical studies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended duration of dual antiplatelet therapy (DAPT) after placement of a drug-eluting stent (DES) in a patient with stable coronary artery disease?",
+    "answer": "Typically 6 months; consider longer or shorter durations based on bleeding risk and ischemic risk.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment influence the metastatic cascade in cancer?",
+    "answer": "The tumor microenvironment (TME) plays a pivotal role in all stages of the metastatic cascade. The TME, composed of cancer-associated fibroblasts (CAFs), immune cells, endothelial cells, and extracellular matrix (ECM), provides signals that promote epithelial-mesenchymal transition (EMT) in cancer cells, enabling them to detach from the primary tumor. CAFs secrete growth factors and ECM remodeling enzymes that facilitate cancer cell invasion into surrounding tissues. Immune cells within the TME can either promote or inhibit metastasis. For example, tumor-associated macrophages (TAMs) can enhance angiogenesis and suppress anti-tumor immunity, facilitating cancer cell survival and dissemination. Endothelial cells contribute to angiogenesis, creating new blood vessels that allow cancer cells to intravasate into the circulation. Once in the circulation, cancer cells must survive anoikis (detachment-induced cell death) and immune attack. The TME at distant sites, termed the pre-metastatic niche, is prepared by factors secreted by the primary tumor, such as exosomes and cytokines, attracting bone marrow-derived cells that promote angiogenesis and immunosuppression, creating a permissive environment for cancer cell colonization. The ECM composition at the metastatic site also influences cancer cell adhesion, proliferation, and survival.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated cystitis in a female patient?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days if local resistance rates are low.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade host immune responses, leading to persistent infections?",
+    "answer": "Viruses employ diverse strategies to evade host immune responses and establish persistent infections. These mechanisms can be broadly categorized into interference with innate immunity and adaptive immunity. To evade innate immunity, viruses encode proteins that inhibit the production or signaling of type I interferons (IFNs), which are critical for antiviral defense. Examples include blocking IFN induction by interfering with pattern recognition receptors (PRRs) or inhibiting IFN signaling by targeting JAK-STAT pathways. Viruses also interfere with antigen presentation by downregulating MHC class I molecules on infected cells, preventing recognition by cytotoxic T lymphocytes (CTLs). To evade adaptive immunity, viruses can undergo rapid mutation, generating antigenic variants that are no longer recognized by existing antibodies or T-cell receptors (antigenic drift). Some viruses establish latency in specific cell types, where they express limited viral proteins, minimizing immune detection. Other viruses encode immunosuppressive proteins that directly inhibit T-cell or B-cell function, such as IL-10 homologs or proteins that induce T-cell exhaustion. Furthermore, viruses can establish infection in immunoprivileged sites, such as the brain or testes, where immune responses are limited.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in an average-risk individual?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other guideline-recommended options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer progression?",
+    "answer": "Exosomes are nano-sized extracellular vesicles (30-150 nm) secreted by virtually all cell types and play a crucial role in intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA, DNA) between cells. In cancer, exosomes mediate diverse functions that promote tumor progression. Cancer cells release exosomes containing oncogenic proteins, such as EGFR or mutant KRAS, which can be taken up by recipient cells, promoting their proliferation and survival. Exosomes also transport microRNAs that can modulate gene expression in recipient cells, either enhancing oncogenic pathways or suppressing tumor suppressor genes. Exosomes contribute to the formation of the pre-metastatic niche by delivering factors to distant sites that promote angiogenesis, immunosuppression, and ECM remodeling, preparing the microenvironment for cancer cell colonization. Furthermore, exosomes can mediate drug resistance by transferring resistance-conferring proteins or microRNAs between cancer cells or by sequestering drugs within exosomes and preventing their access to the target cells. Exosomes also play a role in immune evasion by delivering immunosuppressive molecules to immune cells, inhibiting their anti-tumor activity. Exosome-based biomarkers are being explored for cancer diagnosis and prognosis, and exosome-based therapies are being developed to deliver therapeutic agents selectively to cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated in an outpatient setting?",
+    "answer": "Empiric antibiotic therapy with a macrolide or doxycycline; consider a respiratory fluoroquinolone or beta-lactam plus macrolide if comorbidities are present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and influence disease pathogenesis?",
+    "answer": "Non-coding RNAs (ncRNAs) are RNA molecules that do not encode proteins but play critical regulatory roles in gene expression and cellular function. MicroRNAs (miRNAs) are small (approximately 22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. MiRNAs regulate a wide range of biological processes, including cell proliferation, differentiation, apoptosis, and development. Aberrant miRNA expression has been implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through diverse mechanisms. LncRNAs can act as scaffolds, bringing together proteins to regulate transcription or RNA processing. They can also act as decoys, binding to proteins or RNAs and preventing them from interacting with their normal targets. LncRNAs can also act as guides, directing proteins to specific genomic locations to regulate gene expression. LncRNAs are involved in various biological processes, including chromatin modification, transcription, splicing, and translation. Dysregulation of lncRNA expression has been linked to numerous diseases, making them potential therapeutic targets.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications, and how are they managed?",
+    "answer": "Muscle aches, liver enzyme elevations; manage with dose adjustment, alternative statin, or non-statin lipid-lowering agents if needed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of commonly used immunosuppressant drugs in transplant medicine?",
+    "answer": "Immunosuppressant drugs are essential for preventing organ rejection in transplant recipients by suppressing the immune system. Calcineurin inhibitors (CNIs) such as cyclosporine and tacrolimus inhibit T-cell activation by blocking the phosphatase activity of calcineurin, which is required for the activation of NFAT, a transcription factor critical for IL-2 production. mTOR inhibitors, such as sirolimus and everolimus, inhibit the mammalian target of rapamycin (mTOR), a kinase that regulates cell growth, proliferation, and metabolism. mTOR inhibitors block T-cell and B-cell proliferation and cytokine production. Antimetabolites, such as azathioprine and mycophenolate mofetil (MMF), interfere with DNA synthesis, inhibiting the proliferation of rapidly dividing cells, including lymphocytes. Antibodies, such as anti-thymocyte globulin (ATG) and alemtuzumab, deplete lymphocytes through complement-mediated lysis or antibody-dependent cell-mediated cytotoxicity. Other antibodies, such as basiliximab and daclizumab, block the IL-2 receptor on T cells, preventing their activation. These immunosuppressant drugs are often used in combination to achieve effective immunosuppression while minimizing side effects.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate initial management of a patient presenting with suspected stroke?",
+    "answer": "Rapid assessment, NIHSS score, CT scan of the brain to rule out hemorrhage; consider thrombolysis if within the time window for ischemic stroke.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 enhance anti-tumor immunity, and what are the mechanisms of resistance to these therapies?",
+    "answer": "Immunotherapy targeting the programmed cell death-1 (PD-1) / programmed death-ligand 1 (PD-L1) pathway enhances anti-tumor immunity by blocking the interaction between PD-1, expressed on T cells, and PD-L1, expressed on tumor cells and immune cells in the tumor microenvironment. This interaction normally inhibits T-cell activation and effector function, allowing tumor cells to evade immune surveillance. By blocking this pathway, PD-1/PD-L1 inhibitors restore T-cell activity, leading to increased T-cell proliferation, cytokine production, and cytotoxicity against tumor cells. Mechanisms of resistance to PD-1/PD-L1 inhibitors include loss of PD-L1 expression on tumor cells, mutations in genes involved in antigen presentation (e.g., MHC class I), defects in interferon-gamma (IFN-γ) signaling, immunosuppressive factors in the tumor microenvironment (e.g., regulatory T cells, myeloid-derived suppressor cells), and activation of alternative immune checkpoint pathways (e.g., CTLA-4, TIM-3, LAG-3). Combination therapies targeting multiple immune checkpoints or combining immunotherapy with chemotherapy or targeted therapy are being explored to overcome resistance and improve clinical outcomes.",
+    "persona": "Researcher"
+  }
+]

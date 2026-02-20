@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin monohydrate/macrocrystals for 5 days or trimethoprim-sulfamethoxazole for 3 days, if local resistance rates are <20%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does inhibition of the PD-1/PD-L1 axis enhance anti-tumor immunity?",
+    "answer": "Programmed cell death protein 1 (PD-1) is an inhibitory receptor expressed on T cells that, upon binding to its ligands PD-L1 or PD-L2 expressed on tumor cells or antigen-presenting cells, delivers a negative signal that suppresses T cell activation, proliferation, and cytotoxic function. PD-L1 upregulation is a common immune evasion mechanism employed by tumors. Blockade of the PD-1/PD-L1 interaction with monoclonal antibodies prevents this inhibitory signal, thereby reinvigorating exhausted T cells, promoting T cell infiltration into the tumor microenvironment, and enhancing the ability of T cells to recognize and kill tumor cells. This restoration of T cell-mediated immunity can lead to durable anti-tumor responses in a subset of patients, although predictive biomarkers are still being refined. The mechanistic details involve disruption of SHP-1/SHP-2 recruitment and downstream signaling cascades that normally dampen T cell receptor signaling.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for statin therapy in patients with established atherosclerotic cardiovascular disease (ASCVD)?",
+    "answer": "High-intensity statin therapy to reduce LDL-C by ≥50% unless contraindicated or not tolerated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis and resistance to targeted therapies?",
+    "answer": "KRAS encodes a small GTPase that functions as a central node in receptor tyrosine kinase (RTK) signaling pathways, including those downstream of EGFR, HER2, and MET. Activating mutations in KRAS, most commonly at codons 12, 13, or 61, result in constitutive activation of the KRAS protein, leading to uncontrolled cell proliferation, survival, and metastasis. Mutant KRAS remains bound to GTP in the active state, bypassing normal upstream regulatory mechanisms. This constitutive activation drives downstream signaling through the MAPK/ERK and PI3K/AKT pathways, promoting cell cycle progression and inhibiting apoptosis. Furthermore, KRAS mutations confer resistance to EGFR inhibitors in colorectal cancer, as the mutant KRAS protein bypasses the need for upstream EGFR signaling. Direct KRAS inhibitors, such as sotorasib and adagrasib, have shown clinical benefit in KRAS G12C-mutated non-small cell lung cancer by specifically binding and inhibiting the mutant protein. However, resistance mechanisms to these inhibitors are emerging, highlighting the need for combination strategies targeting multiple pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute anaphylaxis?",
+    "answer": "Intramuscular epinephrine is the first-line treatment; administer immediately.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence host immunity and susceptibility to autoimmune diseases?",
+    "answer": "The gut microbiome plays a critical role in shaping host immunity through multiple mechanisms. Commensal bacteria contribute to the development and maturation of the immune system, influence intestinal barrier function, and modulate both innate and adaptive immune responses. Specific microbial metabolites, such as short-chain fatty acids (SCFAs) produced by bacterial fermentation of dietary fiber, can promote regulatory T cell (Treg) differentiation and suppress inflammation. Dysbiosis, or an imbalance in the gut microbiome, has been implicated in the pathogenesis of several autoimmune diseases. For example, alterations in the composition and diversity of the gut microbiome can lead to increased intestinal permeability (\"leaky gut\"), allowing bacterial products to translocate across the epithelial barrier and activate the immune system. Certain bacterial species or microbial products may also trigger molecular mimicry, where immune responses directed against microbial antigens cross-react with self-antigens, contributing to autoimmune pathology. Conversely, specific probiotic strains or fecal microbiota transplantation (FMT) have shown promise in restoring gut microbial balance and ameliorating autoimmune symptoms in some preclinical and clinical studies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with new-onset atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, perform synchronized cardioversion. If stable, control rate or rhythm.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to chemotherapy drugs?",
+    "answer": "Cancer cells can develop resistance to chemotherapy through a variety of mechanisms. These include increased drug efflux via upregulation of ATP-binding cassette (ABC) transporters like P-glycoprotein, alterations in drug metabolism leading to inactivation or reduced uptake, mutations in drug targets preventing drug binding, activation of DNA repair pathways to counteract drug-induced damage, inhibition of apoptosis, and alterations in cell cycle checkpoints allowing cells to bypass drug-induced arrest. Additionally, epigenetic modifications and changes in the tumor microenvironment can contribute to chemoresistance. The selection of drug-resistant clones during chemotherapy leads to the enrichment of these resistant populations, ultimately resulting in treatment failure. Understanding these mechanisms is crucial for developing strategies to overcome chemoresistance, such as using combination therapies, developing new drugs that circumvent resistance mechanisms, or targeting the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75 (2 points), diabetes mellitus, stroke/TIA/thromboembolism (2 points), vascular disease, age 65–74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work and what are its potential applications in biomedical research?",
+    "answer": "CRISPR-Cas9 is a revolutionary gene editing technology derived from a bacterial adaptive immune system. It consists of two main components: the Cas9 enzyme, which acts as a molecular scissor, and a guide RNA (gRNA), which directs Cas9 to a specific DNA sequence in the genome. The gRNA is a synthetic RNA molecule that contains a 20-nucleotide sequence complementary to the target DNA sequence, followed by a scaffold sequence that binds to the Cas9 protein. Once the gRNA guides Cas9 to the target DNA sequence, Cas9 cleaves both strands of the DNA, creating a double-strand break (DSB). The cell then attempts to repair the DSB through either non-homologous end joining (NHEJ), which is error-prone and can lead to insertions or deletions (indels) that disrupt gene function, or homology-directed repair (HDR), which requires a DNA template to repair the break and can be used to introduce specific gene edits. CRISPR-Cas9 has numerous potential applications in biomedical research, including gene knockout, gene knock-in, gene correction, gene regulation, and genome-wide screening. It can be used to study gene function, model human diseases in vitro and in vivo, develop new therapies for genetic disorders and cancer, and engineer cells for regenerative medicine applications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for community-acquired pneumonia (CAP) in an outpatient setting for a previously healthy adult?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (azithromycin or clarithromycin) if local macrolide resistance is <25%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by cells that play a crucial role in intercellular communication. They contain a variety of biomolecules, including proteins, lipids, mRNA, and microRNA, which can be transferred to recipient cells. Exosomes mediate communication between cells locally and distally. In cancer, exosomes contribute to various aspects of tumor progression, including angiogenesis, immune evasion, and metastasis. Tumor-derived exosomes can promote angiogenesis by delivering pro-angiogenic factors to endothelial cells. They can also suppress immune responses by delivering immunosuppressive molecules to immune cells. Most notably, exosomes promote cancer metastasis by transferring proteins, mRNAs, and microRNAs that enhance cell motility, invasiveness, and survival in distant organs, and exosomes can prepare pre-metastatic niches. Exosomes released from primary tumor cells can travel through the circulation and deliver their cargo to distant sites, altering the microenvironment to favor the establishment of metastatic tumors. The ability to isolate and analyze exosomes from liquid biopsies (e.g., blood, urine) holds promise for the development of novel diagnostic and therapeutic strategies for cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "2.0 to 3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting immune checkpoints differ from traditional chemotherapy in cancer treatment?",
+    "answer": "Traditional chemotherapy involves the use of cytotoxic drugs that directly kill rapidly dividing cells, including cancer cells. While effective at reducing tumor burden, chemotherapy also damages healthy cells, leading to significant side effects. Immunotherapy targeting immune checkpoints, on the other hand, aims to enhance the patient's own immune system to recognize and destroy cancer cells. Immune checkpoints are regulatory pathways that normally prevent excessive immune activation and autoimmunity. Cancer cells often exploit these checkpoints to evade immune surveillance. Immune checkpoint inhibitors, such as antibodies that block PD-1, PD-L1, or CTLA-4, release the brakes on the immune system, allowing T cells to recognize and kill cancer cells more effectively. Unlike chemotherapy, immunotherapy does not directly kill cancer cells but rather empowers the immune system to do so. Immunotherapy can lead to durable responses and long-term survival in some patients, but it is also associated with immune-related adverse events due to excessive immune activation. Chemotherapy often results in more immediate tumor shrinkage, while immunotherapy can take longer to elicit a response but may result in more sustained control.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, or annual FIT test, or multi-target stool DNA test every 3 years, or CT colonography every 5 years, or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modification, contribute to cancer development?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, are heritable changes in gene expression that occur without alterations to the underlying DNA sequence. These modifications play a critical role in regulating gene expression, cellular differentiation, and development. In cancer, epigenetic alterations can lead to aberrant gene expression patterns that promote tumorigenesis. DNA methylation, the addition of a methyl group to cytosine bases, typically represses gene transcription. In cancer, hypermethylation of tumor suppressor genes can silence their expression, leading to uncontrolled cell proliferation and tumor growth. Conversely, hypomethylation of oncogenes can activate their expression, further contributing to tumorigenesis. Histone modifications, such as acetylation and methylation, alter the structure of chromatin, influencing gene accessibility and transcription. Histone acetylation generally promotes gene transcription, while histone methylation can either activate or repress gene expression, depending on the specific histone residue that is modified. Aberrant histone modification patterns in cancer can disrupt normal gene regulation, contributing to cancer development. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, can restore normal gene expression patterns in cancer cells, leading to growth arrest, differentiation, or apoptosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the use of artificial intelligence (AI) and machine learning (ML) impact drug discovery and development?",
+    "answer": "Artificial intelligence (AI) and machine learning (ML) are transforming drug discovery and development by accelerating various stages of the process, reducing costs, and improving the efficiency of identifying potential drug candidates. AI/ML algorithms can analyze large datasets, including genomic data, chemical structures, and clinical trial results, to identify novel drug targets, predict drug efficacy and toxicity, and optimize drug design. In target identification, AI/ML can analyze omics data to identify genes or proteins that are dysregulated in disease and are potential targets for therapeutic intervention. In drug discovery, AI/ML can screen vast libraries of chemical compounds to identify those that are most likely to bind to the target and have the desired pharmacological properties. In preclinical development, AI/ML can predict drug toxicity and pharmacokinetic properties, reducing the number of compounds that need to be tested in animals. In clinical trials, AI/ML can optimize trial design, patient selection, and data analysis, improving the efficiency of clinical development. AI/ML is also being used to develop personalized medicine approaches, predicting which patients are most likely to respond to a particular drug based on their individual characteristics.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis in an outpatient setting?",
+    "answer": "Oral fluoroquinolones (e.g., ciprofloxacin or levofloxacin) or trimethoprim-sulfamethoxazole if local resistance rates are <20%, or a single dose of ceftriaxone followed by oral cephalexin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does gene therapy work, and what are the different approaches used to deliver therapeutic genes into cells?",
+    "answer": "Gene therapy involves introducing genetic material into cells to treat or prevent disease. The therapeutic gene can replace a mutated gene, inactivate a disease-causing gene, or introduce a new gene that helps the body fight disease. There are two main approaches to gene therapy: ex vivo and in vivo. In ex vivo gene therapy, cells are removed from the patient, genetically modified in the laboratory, and then transplanted back into the patient. In in vivo gene therapy, the therapeutic gene is delivered directly into the patient's body. There are several different methods used to deliver therapeutic genes into cells, including viral vectors and non-viral vectors. Viral vectors, such as adeno-associated viruses (AAVs), lentiviruses, and adenoviruses, are the most commonly used gene delivery vehicles due to their high efficiency in transducing cells. Non-viral vectors, such as plasmids, liposomes, and nanoparticles, are less efficient at gene delivery but are safer and easier to manufacture. The choice of gene delivery method depends on the specific disease, the target tissue, and the desired duration of gene expression. Gene therapy has shown promise in treating a variety of genetic disorders, including cystic fibrosis, spinal muscular atrophy, and hemophilia.",
+    "persona": "Researcher"
+  }
+]

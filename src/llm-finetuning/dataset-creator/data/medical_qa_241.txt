@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV bolus; may repeat every 3-5 minutes to a maximum total dose of 3mg per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise genome editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a 20-nucleotide target sequence in the genome, directing the Cas9 nuclease to create a double-strand break (DSB) at the specified locus. The cell repairs the DSB via either non-homologous end joining (NHEJ), which is error-prone and often results in insertions or deletions (indels) that disrupt the gene, or homology-directed repair (HDR) if a donor DNA template with homology to the break site is provided. HDR allows precise insertion of new genetic material into the genome. The efficiency and specificity of CRISPR-Cas9 depend on factors like gRNA design, Cas9 isoform, delivery method (e.g., viral vectors, electroporation), and cellular DNA repair pathways. Off-target effects, where Cas9 cleaves unintended sites with sequence similarity to the gRNA, remain a significant challenge. Variants of Cas9, such as dCas9 fused to transcriptional activators or repressors, enable targeted gene regulation without permanent DNA modification. Base editing technologies further refine CRISPR-Cas9 by allowing single-nucleotide conversions without DSBs, reducing off-target effects and expanding therapeutic applications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5% per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is immune checkpoint blockade effective in some cancers but not others, and what are the mechanisms of resistance?",
+    "answer": "Immune checkpoint inhibitors (ICIs) like anti-PD-1/PD-L1 and anti-CTLA-4 antibodies unleash pre-existing T-cell responses against tumors by blocking inhibitory signals. However, efficacy varies greatly depending on tumor type, mutational burden, and the composition of the tumor microenvironment (TME). Tumors with high mutational burden (e.g., melanoma, non-small cell lung cancer) tend to respond better to ICIs because they generate more neoantigens that stimulate T-cell recognition. Intrinsic resistance mechanisms include loss of antigen presentation (e.g., MHC downregulation), defects in interferon signaling, and activation of alternative immune checkpoints. Extrinsic resistance arises from immunosuppressive cells (e.g., myeloid-derived suppressor cells, regulatory T cells) and factors (e.g., TGF-β, IL-10) within the TME that inhibit T-cell infiltration and function. Emerging strategies to overcome resistance include combination therapies targeting multiple immune checkpoints, oncolytic viruses to enhance tumor immunogenicity, and adoptive cell therapies with engineered T cells. Biomarkers such as PD-L1 expression, tumor mutational burden, and gene expression signatures are used to predict response to ICIs, but their predictive accuracy remains imperfect.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin 100mg twice daily for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) 160/800mg twice daily for 3 days according to IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression in cancer?",
+    "answer": "Non-coding RNAs (ncRNAs) play crucial roles in regulating gene expression at multiple levels, influencing cancer development and progression. MicroRNAs (miRNAs) are small (~22 nucleotide) RNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to translational repression or mRNA degradation. They fine-tune gene expression by recognizing partially complementary sequences. Long non-coding RNAs (lncRNAs), typically longer than 200 nucleotides, exhibit more diverse mechanisms of action. Some lncRNAs act as scaffolds, bringing together proteins involved in chromatin modification or transcriptional regulation to specific genomic loci. Others function as decoys, sequestering transcription factors or miRNAs away from their targets. LncRNAs can also act as guides, directing chromatin-modifying complexes to specific genes. In cancer, miRNAs and lncRNAs can function as oncogenes or tumor suppressors, depending on their target genes and cellular context. For example, certain miRNAs can inhibit the expression of tumor suppressor genes, while others can suppress the expression of oncogenes. Similarly, some lncRNAs promote cancer cell proliferation, metastasis, and drug resistance, while others inhibit these processes. The dysregulation of ncRNA expression is a common feature of cancer, and ncRNAs are being explored as potential diagnostic biomarkers and therapeutic targets.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial therapy for a patient diagnosed with community-acquired pneumonia (CAP)?",
+    "answer": "Empiric antibiotic therapy with a macrolide (e.g., azithromycin) or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease, and how do they contribute to neuronal dysfunction and death?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles (NFTs), leading to neuronal dysfunction and death. Several signaling pathways are implicated in AD pathogenesis. The amyloid precursor protein (APP) processing pathway, involving β-secretase (BACE1) and γ-secretase, generates Aβ peptides, particularly Aβ42, which aggregates to form plaques. The tau phosphorylation pathway, involving kinases like GSK-3β and CDK5, leads to the hyperphosphorylation of tau protein, causing it to detach from microtubules and form NFTs. These aggregates disrupt axonal transport and neuronal function. The inflammatory signaling pathway, mediated by microglia and astrocytes, contributes to neuroinflammation and neuronal damage. Activated microglia release pro-inflammatory cytokines like TNF-α and IL-1β, which exacerbate Aβ and tau pathology. The insulin signaling pathway is also implicated in AD, with insulin resistance impairing glucose metabolism and increasing Aβ production. These signaling pathways interact in complex ways, contributing to synaptic dysfunction, neuronal loss, and cognitive decline. Targeting these pathways with therapeutic interventions is a major focus of AD research.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45 per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence host immunity, and what are the mechanisms underlying these interactions?",
+    "answer": "The gut microbiome, comprising trillions of bacteria, viruses, fungi, and other microorganisms, plays a critical role in shaping host immunity. Commensal bacteria educate the immune system by stimulating the development of immune cells, such as T cells and B cells, and promoting the production of antibodies. Specific bacterial species, like segmented filamentous bacteria (SFB), induce the differentiation of Th17 cells, which are important for defense against extracellular pathogens. The gut microbiome also produces short-chain fatty acids (SCFAs), such as acetate, propionate, and butyrate, through the fermentation of dietary fibers. SCFAs have potent immunomodulatory effects, including enhancing the function of regulatory T cells (Tregs), which suppress excessive inflammation. Disruption of the gut microbiome, known as dysbiosis, can lead to immune dysregulation and increased susceptibility to inflammatory diseases, such as inflammatory bowel disease (IBD) and autoimmune disorders. The gut microbiome influences both local and systemic immunity through the production of metabolites, the stimulation of pattern recognition receptors (PRRs) on immune cells, and the modulation of intestinal barrier function. Manipulation of the gut microbiome through dietary interventions, probiotics, or fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy for various immune-related diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Intravenous thrombolysis with alteplase within 4.5 hours of symptom onset and/or mechanical thrombectomy within 24 hours for eligible patients per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade the host immune system, and how do these mechanisms impact viral pathogenesis?",
+    "answer": "Viruses have evolved diverse strategies to evade the host immune system, enabling them to establish persistent infections and cause disease. One common mechanism is the suppression of interferon (IFN) signaling, a critical antiviral pathway. Viruses encode proteins that interfere with IFN production, receptor binding, or downstream signaling events, such as the activation of STAT proteins. Another strategy is the inhibition of antigen presentation. Viruses can block the transport of viral peptides to the endoplasmic reticulum, prevent the assembly of MHC class I molecules, or downregulate the expression of MHC class I on the cell surface, thereby evading recognition by cytotoxic T lymphocytes (CTLs). Some viruses encode decoy receptors that bind to cytokines or chemokines, preventing them from activating immune cells. Others establish latency, a state of dormant infection where viral gene expression is limited, minimizing the risk of immune detection. Viral evasion mechanisms contribute significantly to viral pathogenesis by prolonging the duration of infection, increasing viral load, and allowing the virus to spread to other cells and tissues. Understanding these mechanisms is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial approach to managing a patient with new-onset atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, perform immediate cardioversion. If stable, control rate with beta-blockers or calcium channel blockers and consider anticoagulation based on CHA2DS2-VASc score per ACC/AHA/HRS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modification, contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modification, play a critical role in regulating gene expression without altering the underlying DNA sequence. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, is associated with transcriptional repression. In cancer, global DNA hypomethylation can lead to genomic instability and the activation of oncogenes, while regional hypermethylation of tumor suppressor genes can silence their expression. Histone modifications, such as acetylation, methylation, phosphorylation, and ubiquitination, affect chromatin structure and accessibility, influencing gene transcription. Histone acetylation, catalyzed by histone acetyltransferases (HATs), generally promotes gene expression by relaxing chromatin structure, whereas histone deacetylation, catalyzed by histone deacetylases (HDACs), leads to chromatin condensation and transcriptional repression. Aberrant histone modifications are frequently observed in cancer cells, contributing to the dysregulation of gene expression and the development of cancer hallmarks, such as uncontrolled proliferation, evasion of apoptosis, and metastasis. Epigenetic modifications are reversible and can be targeted by epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors, offering a promising avenue for cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Intramuscular epinephrine injection (0.3-0.5mg), antihistamines (H1 and H2 blockers), and supportive care, including oxygen and intravenous fluids per NIAID guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy harness the power of the immune system to fight cancer, and what are the different types of immunotherapeutic approaches?",
+    "answer": "Immunotherapy leverages the inherent ability of the immune system to recognize and eliminate cancer cells. Unlike traditional therapies that directly target cancer cells, immunotherapy aims to enhance or redirect the immune response against cancer. Immune checkpoint inhibitors (ICIs), such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, block inhibitory signals that prevent T cells from attacking cancer cells, unleashing pre-existing T-cell responses. Adoptive cell therapy involves isolating and engineering immune cells, such as T cells, to express chimeric antigen receptors (CARs) that recognize specific antigens on cancer cells. These engineered CAR-T cells are then expanded in vitro and infused back into the patient to target and destroy cancer cells. Cancer vaccines stimulate the immune system to recognize and attack cancer cells by delivering tumor-associated antigens or whole tumor cells. Oncolytic viruses selectively infect and kill cancer cells while also stimulating an anti-tumor immune response. Cytokines, such as IL-2 and IFN-α, can enhance immune cell activity and promote tumor regression. Immunotherapy has revolutionized cancer treatment, demonstrating remarkable efficacy in certain cancer types, but it is also associated with immune-related adverse events (irAEs) that require careful management.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a patient presenting with acute myocardial infarction?",
+    "answer": "Administer oxygen, aspirin, nitroglycerin, and morphine (if needed for pain); obtain an ECG and initiate reperfusion therapy (PCI or thrombolytics) as quickly as possible per ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in oncogenes and tumor suppressor genes contribute to the development of cancer, and what are some examples of these genes?",
+    "answer": "Mutations in oncogenes and tumor suppressor genes disrupt normal cellular processes, leading to uncontrolled cell growth and cancer development. Oncogenes promote cell proliferation, survival, and angiogenesis. Mutations in proto-oncogenes, the normal cellular counterparts of oncogenes, can convert them into oncogenes that are constitutively activated, driving uncontrolled cell growth. Examples of oncogenes include RAS, MYC, and EGFR. RAS mutations activate downstream signaling pathways, such as MAPK and PI3K/AKT, promoting cell proliferation and survival. MYC overexpression leads to increased cell cycle progression and metabolic reprogramming. EGFR mutations enhance receptor tyrosine kinase activity, stimulating cell proliferation and angiogenesis. Tumor suppressor genes, on the other hand, inhibit cell proliferation, promote apoptosis, and maintain genomic stability. Mutations in tumor suppressor genes inactivate their function, allowing cells to bypass normal growth controls. Examples of tumor suppressor genes include TP53, RB, and BRCA1/2. TP53 mutations impair DNA repair, cell cycle arrest, and apoptosis, promoting genomic instability and cancer development. RB mutations disrupt cell cycle control, allowing cells to proliferate uncontrollably. BRCA1/2 mutations impair DNA repair, increasing the risk of breast and ovarian cancer. The accumulation of mutations in oncogenes and tumor suppressor genes is a hallmark of cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended approach to managing a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Initiate anticoagulation with direct oral anticoagulants (DOACs) or warfarin, or low-molecular-weight heparin (LMWH) followed by warfarin per CHEST guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How can advances in nanotechnology be applied to improve drug delivery and cancer therapy?",
+    "answer": "Nanotechnology offers revolutionary approaches to drug delivery and cancer therapy by engineering materials at the nanoscale (1-100 nm) to enhance drug efficacy and reduce side effects. Nanoparticles can be designed to selectively accumulate in tumors through enhanced permeability and retention (EPR) effect, exploiting the leaky vasculature and impaired lymphatic drainage characteristic of tumors. Surface modification of nanoparticles with targeting ligands, such as antibodies or peptides, can further enhance tumor-specific delivery by binding to receptors overexpressed on cancer cells. Nanoparticles can protect drugs from degradation in the bloodstream, prolong circulation time, and improve drug bioavailability. Nanocarriers can encapsulate chemotherapeutic agents, preventing their premature release and reducing systemic toxicity. Stimuli-responsive nanoparticles can release their payload in response to specific triggers within the tumor microenvironment, such as pH changes, enzyme activity, or hypoxia. Nanotechnology is also being explored for photothermal therapy (PTT), where nanoparticles absorb near-infrared light and generate heat to kill cancer cells, and for photodynamic therapy (PDT), where nanoparticles enhance the generation of reactive oxygen species upon light irradiation to induce cell death. The clinical translation of nanomedicine faces challenges related to scalability, toxicity, and regulatory approval, but the potential benefits for personalized and targeted cancer therapy are substantial.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,30 @@
+# PIPELINE DEFINITION
+# Name: data-collector-pipeline
+components:
+  comp-data-collector:
+    executorLabel: exec-data-collector
+deploymentSpec:
+  executors:
+    exec-data-collector:
+      container:
+        args:
+        - cli.py
+        - --search
+        - --nums 10
+        - --query consult message
+        - --bucket consult-app-ml-workflow-demo
+        image: us-docker.pkg.dev/ac215-project/consult-app-repository/consult-app-data-collector:20251128233532
+pipelineInfo:
+  name: data-collector-pipeline
+root:
+  dag:
+    tasks:
+      data-collector:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-data-collector
+        taskInfo:
+          name: data-collector
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.14.6

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline; consider macrolide only if local resistance rates are low, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 enable precise genome editing, and what are its limitations in therapeutic applications?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, which directs the Cas9 nuclease to create a double-stranded break at that specific location. The cell's natural DNA repair mechanisms, non-homologous end joining (NHEJ) or homology-directed repair (HDR), then repair the break. NHEJ is error-prone and can introduce insertions or deletions (indels), leading to gene disruption. HDR uses a provided DNA template to repair the break precisely, allowing for gene insertion or correction. While CRISPR-Cas9 offers unprecedented precision, off-target effects (cleavage at unintended sites with similar sequences) remain a significant concern. Delivery of CRISPR components to the target tissue in vivo is also challenging, often requiring viral vectors (e.g., AAV) that can elicit immune responses. Moreover, the size of the Cas9 protein limits its delivery options. Pre-existing immunity to Cas9, derived from bacterial exposure, can also hinder therapeutic efficacy. Ethical considerations regarding germline editing and equitable access further complicate the clinical translation of CRISPR-Cas9 technology. Continued research focuses on improving Cas9 specificity, developing alternative delivery methods (e.g., lipid nanoparticles), and exploring smaller Cas proteins (e.g., Cas12a, Cas14) to overcome these limitations and broaden the therapeutic potential of CRISPR-Cas9.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common modifiable risk factors for developing type 2 diabetes?",
+    "answer": "Obesity, physical inactivity, unhealthy diet, and smoking.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is the tumor microenvironment a critical determinant of cancer progression and therapeutic response?",
+    "answer": "The tumor microenvironment (TME) comprises a complex ecosystem of cells, signaling molecules, and extracellular matrix components that profoundly influence tumor growth, metastasis, and response to therapy. Cancer cells interact bidirectionally with stromal cells (fibroblasts, immune cells, endothelial cells), creating a permissive environment that supports tumor survival and proliferation. For example, cancer-associated fibroblasts (CAFs) secrete growth factors (e.g., HGF, TGF-β) that stimulate tumor cell proliferation and epithelial-mesenchymal transition (EMT), enhancing invasiveness. Immune cells within the TME can exhibit both anti-tumor and pro-tumor activities; tumor-associated macrophages (TAMs) often promote angiogenesis and suppress T-cell responses. The extracellular matrix (ECM) provides structural support but also influences signaling pathways and drug delivery. Hypoxia within the TME induces angiogenesis and promotes metabolic adaptation of tumor cells, increasing their resistance to chemotherapy and radiation. Moreover, the TME can shield cancer cells from immune attack by expressing immune checkpoint ligands (e.g., PD-L1) or recruiting immunosuppressive cells (e.g., regulatory T cells, myeloid-derived suppressor cells). Disrupting the TME by targeting CAFs, modulating immune cell activity, or normalizing tumor vasculature represents a promising strategy to improve cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone in a low-risk woman?",
+    "answer": "Every 3 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors enhance anti-tumor immunity, and what mechanisms contribute to resistance?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, enhance anti-tumor immunity by blocking inhibitory signals that normally dampen T-cell activation. CTLA-4 blockade enhances T-cell priming in lymph nodes, while PD-1/PD-L1 blockade restores T-cell effector function within the tumor microenvironment. However, many patients do not respond to checkpoint inhibitors, and some develop resistance after initial response. Mechanisms of resistance include: (1) Loss of target antigen expression (e.g., loss of MHC class I, β2-microglobulin), preventing T-cell recognition. (2) Upregulation of alternative immune checkpoints (e.g., TIM-3, LAG-3). (3) Immune exclusion, where T cells fail to infiltrate the tumor microenvironment due to physical barriers or immunosuppressive factors. (4) Activation of compensatory signaling pathways in tumor cells that bypass the need for T-cell killing. (5) Suppression of T-cell function by myeloid-derived suppressor cells (MDSCs) or regulatory T cells (Tregs). (6) Mutations in genes involved in antigen presentation or interferon signaling. Combination therapies that target multiple immune checkpoints, modulate the tumor microenvironment, or enhance antigen presentation are being investigated to overcome resistance and improve clinical outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical duration of antibiotic treatment for acute uncomplicated cystitis in women?",
+    "answer": "3-7 days depending on the antibiotic choice.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA) to recipient cells. In cancer, exosomes play a crucial role in promoting metastasis by: (1) Preparing the pre-metastatic niche: Tumor-derived exosomes can educate distant sites, making them more receptive to colonization by metastatic cells. For example, exosomes can promote angiogenesis, recruit immune cells, and remodel the extracellular matrix in the pre-metastatic niche. (2) Promoting EMT: Exosomes can transfer signaling molecules (e.g., TGF-β, Wnt) that induce epithelial-mesenchymal transition (EMT) in recipient cells, enhancing their invasive potential. (3) Suppressing immune responses: Exosomes can deliver immunosuppressive molecules (e.g., PD-L1, TGF-β) to immune cells, inhibiting their anti-tumor activity. (4) Facilitating drug resistance: Exosomes can transfer drug efflux pumps (e.g., P-glycoprotein) or resistance-conferring molecules to recipient cells, reducing their sensitivity to chemotherapy. Exosomes also serve as potential biomarkers for cancer diagnosis and prognosis, as their cargo reflects the molecular composition of the originating tumor cells. Furthermore, exosomes are being explored as drug delivery vehicles, offering the potential to deliver therapeutic agents specifically to cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient presenting with atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers; consider cardioversion if unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs (ncRNAs) regulate gene expression, and what is their significance in disease pathogenesis?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and circular RNAs (circRNAs), are RNA molecules that do not encode proteins but play critical roles in regulating gene expression at various levels. MicroRNAs (miRNAs) are small ( ~22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Long non-coding RNAs (lncRNAs) are longer than 200 nucleotides and regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. Circular RNAs (circRNAs) are covalently closed RNA molecules that can act as miRNA sponges, regulate transcription, or encode proteins. ncRNAs are dysregulated in many diseases, including cancer, cardiovascular disease, and neurological disorders. For example, certain miRNAs can act as oncogenes (oncomiRs) by targeting tumor suppressor genes, while others can act as tumor suppressors by targeting oncogenes. LncRNAs can promote cancer metastasis by regulating EMT or angiogenesis. CircRNAs have been implicated in neurodegenerative diseases by modulating synaptic function. Because of their regulatory roles, ncRNAs represent promising therapeutic targets and biomarkers for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute uncomplicated diverticulitis?",
+    "answer": "Oral antibiotics and bowel rest; consider hospitalization if severe or complicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid-beta plaques and neurofibrillary tangles, leading to neuronal dysfunction and cognitive decline. Several signaling pathways are implicated in AD pathogenesis: (1) Amyloid precursor protein (APP) processing pathway: Aberrant cleavage of APP by β-secretase (BACE1) and γ-secretase leads to the production of amyloid-beta peptides, particularly Aβ42, which aggregates to form plaques. (2) Tau phosphorylation pathway: Hyperphosphorylation of tau protein disrupts its microtubule-binding function, leading to the formation of neurofibrillary tangles. Glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5) are key kinases involved in tau phosphorylation. (3) Insulin signaling pathway: Insulin resistance and impaired insulin signaling in the brain contribute to AD pathogenesis. Insulin signaling regulates amyloid-beta clearance and tau phosphorylation. (4) Neuroinflammatory pathways: Activation of microglia and astrocytes leads to the release of pro-inflammatory cytokines (e.g., TNF-α, IL-1β), which contribute to neuronal damage. (5) Oxidative stress pathway: Increased oxidative stress damages cellular components and promotes amyloid-beta aggregation. Targeting these pathways represents a promising therapeutic strategy for AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended empiric antibiotic regimen for suspected sepsis?",
+    "answer": "Broad-spectrum antibiotics covering likely pathogens, tailored to local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using CAR T-cells work, and what are its potential toxicities?",
+    "answer": "CAR T-cell therapy involves genetically engineering a patient's T cells to express a chimeric antigen receptor (CAR) that specifically recognizes a tumor-associated antigen. The CAR typically consists of an extracellular antigen-binding domain (e.g., scFv) fused to intracellular signaling domains (e.g., CD3ζ, 4-1BB, or CD28) that activate T cells upon antigen binding. After CAR T-cells are infused back into the patient, they recognize and kill tumor cells expressing the target antigen. CAR T-cell therapy has shown remarkable efficacy in treating hematological malignancies, particularly B-cell lymphomas and acute lymphoblastic leukemia. However, CAR T-cell therapy is associated with several potential toxicities, including: (1) Cytokine release syndrome (CRS): Release of large amounts of cytokines (e.g., IL-6, IFN-γ) due to T-cell activation, leading to fever, hypotension, and organ dysfunction. (2) Immune effector cell-associated neurotoxicity syndrome (ICANS): Neurological complications, such as confusion, seizures, and encephalopathy. (3) On-target, off-tumor toxicity: CAR T-cells can attack normal cells expressing the target antigen. (4) B-cell aplasia: CAR T-cells targeting B-cell antigens can eliminate normal B cells, leading to hypogammaglobulinemia. (5) Tumor lysis syndrome (TLS): Rapid destruction of tumor cells, leading to electrolyte imbalances and kidney failure. Management of these toxicities requires specialized expertise and supportive care.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for acute migraine?",
+    "answer": "NSAIDs, triptans, or combination therapy, depending on severity and patient preference.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "EGFR tyrosine kinase inhibitors (TKIs) are highly effective in treating NSCLC patients with activating EGFR mutations (e.g., exon 19 deletions, L858R). However, most patients eventually develop resistance to EGFR TKIs. The most common mechanism of resistance is the T790M mutation in EGFR, which sterically hinders TKI binding. Other mechanisms include: (1) Activation of bypass pathways: Activation of alternative signaling pathways, such as MET amplification, HER2 amplification, or PI3K/AKT activation, bypasses the need for EGFR signaling. (2) Histological transformation: Transformation to small cell lung cancer (SCLC) or epithelial-mesenchymal transition (EMT) can confer resistance. (3) On-target resistance: Uncommon EGFR mutations (e.g., C797S) can prevent TKI binding. (4) Downstream mutations: Mutations in downstream signaling molecules, such as BRAF or MEK, can bypass the effects of EGFR inhibition. Overcoming TKI resistance requires strategies such as: (1) Third-generation EGFR TKIs (e.g., osimertinib) that target both EGFR activating mutations and the T790M resistance mutation. (2) Combination therapies that target bypass pathways. (3) Antibody-drug conjugates (ADCs) targeting EGFR. (4) Immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial management for a patient presenting with a suspected acute stroke?",
+    "answer": "Rapid neurological assessment, CT scan to rule out hemorrhage, and consideration of thrombolytic therapy if eligible.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circadian rhythms influence human physiology and disease?",
+    "answer": "Circadian rhythms are endogenous, approximately 24-hour cycles that regulate a wide range of physiological processes, including sleep-wake cycles, hormone secretion, metabolism, and immune function. These rhythms are generated by a central circadian clock located in the suprachiasmatic nucleus (SCN) of the hypothalamus, which is synchronized to the external environment by light exposure. At the molecular level, circadian rhythms are driven by transcriptional-translational feedback loops involving clock genes (e.g., PER, CRY, BMAL1, CLOCK). Disruptions in circadian rhythms, such as those caused by shift work, jet lag, or irregular sleep schedules, have been linked to increased risk of various diseases, including: (1) Metabolic disorders: Disrupted circadian rhythms can impair glucose metabolism, leading to insulin resistance and increased risk of type 2 diabetes. (2) Cardiovascular disease: Disrupted circadian rhythms can increase blood pressure, heart rate, and inflammation, increasing the risk of heart attack and stroke. (3) Cancer: Disrupted circadian rhythms can impair DNA repair mechanisms and immune function, increasing the risk of cancer development and progression. (4) Mental health disorders: Disrupted circadian rhythms can contribute to depression, anxiety, and bipolar disorder. Maintaining healthy circadian rhythms through regular sleep schedules, light exposure, and meal timing is important for overall health and disease prevention.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute otitis media in children?",
+    "answer": "Amoxicillin is first-line; consider amoxicillin-clavulanate if recent antibiotic use or severe infection.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which gut microbiota influence host immunity, and what are the therapeutic implications?",
+    "answer": "The gut microbiota, a complex community of microorganisms residing in the gastrointestinal tract, plays a critical role in shaping host immunity. The mechanisms by which gut microbiota influence host immunity include: (1) Microbial-associated molecular patterns (MAMPs): Gut bacteria express MAMPs (e.g., lipopolysaccharide, peptidoglycan) that activate innate immune cells (e.g., macrophages, dendritic cells) through pattern recognition receptors (PRRs), such as Toll-like receptors (TLRs). (2) Short-chain fatty acids (SCFAs): Gut bacteria ferment dietary fibers to produce SCFAs (e.g., acetate, propionate, butyrate), which have anti-inflammatory effects and promote gut barrier integrity. Butyrate is a major energy source for colonocytes and enhances the expression of tight junction proteins. (3) Bile acid metabolism: Gut bacteria modify bile acids, which can influence immune cell activity and regulate lipid metabolism. (4) T cell development and differentiation: Gut microbiota promote the development and differentiation of T cells, including regulatory T cells (Tregs) and Th17 cells. Tregs suppress immune responses and maintain tolerance, while Th17 cells promote inflammation and protect against extracellular pathogens. (5) Competition with pathogens: Gut bacteria compete with pathogens for nutrients and adhesion sites, preventing colonization and infection. Therapeutic strategies targeting the gut microbiota, such as fecal microbiota transplantation (FMT), probiotics, and prebiotics, are being explored to treat various immune-mediated diseases, including inflammatory bowel disease, autoimmune disorders, and cancer.",
+    "persona": "Researcher"
+  }
+]

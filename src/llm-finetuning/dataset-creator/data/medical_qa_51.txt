@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic modification influence cellular differentiation and tissue development?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation/methylation, play a central role in regulating gene expression patterns that drive cellular differentiation and tissue development. DNA methylation, typically at CpG islands, leads to transcriptional repression by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs), resulting in chromatin compaction and gene silencing. Conversely, histone acetylation, mediated by histone acetyltransferases (HATs), promotes a more open chromatin state (euchromatin) accessible to transcription factors, enhancing gene expression. Histone methylation is more complex, with different methylation sites (e.g., H3K4me3, H3K27me3) associated with either transcriptional activation or repression. During development, these epigenetic marks are dynamically regulated to establish cell-type-specific gene expression programs. For example, pluripotency genes in embryonic stem cells are often marked by both activating (H3K4me3) and repressive (H3K27me3) histone modifications (bivalent domains), allowing for rapid activation or silencing during differentiation. Epigenetic modifications are also influenced by environmental factors and can be stably inherited through cell divisions, contributing to cellular memory and phenotypic plasticity. Dysregulation of epigenetic mechanisms is implicated in various developmental disorders and diseases, including cancer, highlighting the importance of epigenetic control in maintaining cellular identity and tissue homeostasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of selective serotonin reuptake inhibitors (SSRIs)?",
+    "answer": "Nausea, sexual dysfunction, weight gain, insomnia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "The pathogenesis of Alzheimer's disease (AD) involves several interconnected signaling pathways, prominently including amyloid precursor protein (APP) processing, tau hyperphosphorylation, and neuroinflammation. Aberrant cleavage of APP by β-secretase (BACE1) and γ-secretase leads to the production of amyloid-β (Aβ) peptides, particularly Aβ42, which aggregates into amyloid plaques. These plaques trigger a cascade of events, including activation of microglia and astrocytes, leading to chronic neuroinflammation and release of pro-inflammatory cytokines (e.g., TNF-α, IL-1β). Aβ oligomers also disrupt synaptic function by interfering with long-term potentiation (LTP) and promoting synaptic loss. Tau hyperphosphorylation, driven by kinases such as GSK-3β and CDK5, results in the formation of neurofibrillary tangles (NFTs), which disrupt microtubule function and axonal transport. NFTs correlate strongly with cognitive decline in AD. Furthermore, impaired insulin signaling and reduced glucose metabolism in the brain contribute to AD pathology by exacerbating Aβ accumulation and tau phosphorylation. Genetic factors, such as APOE4, influence AD risk by modulating Aβ clearance and inflammatory responses. These pathways converge to cause neuronal dysfunction, synaptic loss, and ultimately neurodegeneration in AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute anaphylaxis?",
+    "answer": "Epinephrine injection, antihistamines, and corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to tyrosine kinase inhibitors (TKIs)?",
+    "answer": "Cancer cells develop resistance to tyrosine kinase inhibitors (TKIs) through multiple mechanisms, including on-target resistance mutations, bypass signaling pathway activation, and phenotypic changes. On-target resistance mutations occur within the TKI-binding domain of the target kinase, altering its conformation and reducing drug binding affinity. For example, EGFR T790M mutation in non-small cell lung cancer confers resistance to first-generation EGFR TKIs. Bypass signaling pathway activation involves upregulation of alternative signaling pathways that compensate for the inhibited target kinase. For example, activation of PI3K/AKT/mTOR signaling can bypass EGFR inhibition and promote cell survival. Phenotypic changes, such as epithelial-mesenchymal transition (EMT), can also confer TKI resistance by altering cell adhesion properties and increasing invasive potential. EMT is often associated with increased expression of mesenchymal markers (e.g., vimentin) and decreased expression of epithelial markers (e.g., E-cadherin). Additionally, cancer cells can develop drug efflux mechanisms, such as upregulation of ABC transporters (e.g., P-glycoprotein), which pump TKIs out of the cell. These resistance mechanisms often coexist and evolve over time, necessitating the development of combination therapies and novel strategies to overcome TKI resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute myocardial infarction?",
+    "answer": "Chest pain, shortness of breath, diaphoresis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in regulating host immunity and susceptibility to autoimmune diseases?",
+    "answer": "The gut microbiome plays a crucial role in modulating host immunity and influencing susceptibility to autoimmune diseases. The gut microbiota consists of trillions of microorganisms, including bacteria, fungi, viruses, and archaea, which interact with the host immune system in complex ways. Commensal bacteria promote the development and maturation of immune cells, such as T cells, B cells, and dendritic cells, through the production of metabolites like short-chain fatty acids (SCFAs). SCFAs, such as butyrate, acetate, and propionate, have anti-inflammatory effects by inhibiting histone deacetylases (HDACs) and promoting the differentiation of regulatory T cells (Tregs). Dysbiosis, or imbalances in the gut microbiota composition, can disrupt immune homeostasis and increase the risk of autoimmune diseases. For example, alterations in the gut microbiota have been implicated in rheumatoid arthritis, type 1 diabetes, and multiple sclerosis. Certain bacterial species can trigger autoimmune responses through molecular mimicry, where microbial antigens resemble self-antigens, leading to cross-reactive immune responses. The gut microbiome also influences the permeability of the intestinal barrier, and increased intestinal permeability (leaky gut) can promote systemic inflammation and autoimmunity. Modulation of the gut microbiome through dietary interventions, probiotics, or fecal microbiota transplantation (FMT) is being explored as a therapeutic strategy to prevent or treat autoimmune diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening test for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or annual fecal immunochemical test (FIT).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work and what are its limitations?",
+    "answer": "CRISPR-Cas9 gene editing technology is a revolutionary tool for precise modification of DNA sequences in living cells. It consists of two key components: the Cas9 enzyme, which acts as a DNA scissor, and a guide RNA (gRNA), which directs Cas9 to a specific DNA sequence in the genome. The gRNA is a short RNA molecule that is complementary to the target DNA sequence, typically about 20 nucleotides long. When the gRNA binds to the target DNA, Cas9 makes a double-stranded break (DSB) at that location. The cell then repairs the DSB through one of two main pathways: non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is an error-prone repair pathway that often results in insertions or deletions (indels) at the break site, leading to gene disruption. HDR uses a provided DNA template to repair the DSB, allowing for precise gene editing or insertion of new DNA sequences. While CRISPR-Cas9 is highly efficient and versatile, it has some limitations. Off-target effects, where Cas9 cuts at unintended sites in the genome, are a major concern. Delivery of CRISPR-Cas9 components into cells can also be challenging, especially for in vivo applications. The immune response to Cas9 protein is another potential limitation, as it can lead to rejection of edited cells. Furthermore, ethical considerations surrounding germline editing and the potential for unintended consequences need to be carefully addressed.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the signs and symptoms of hypothyroidism?",
+    "answer": "Fatigue, weight gain, constipation, dry skin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and disease pathogenesis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that are secreted by various cell types and mediate intercellular communication by transferring proteins, lipids, and nucleic acids (e.g., mRNA, microRNA) between cells. Exosomes are formed through the endosomal pathway, where multivesicular bodies (MVBs) containing intraluminal vesicles (ILVs) fuse with the plasma membrane, releasing ILVs as exosomes into the extracellular space. Exosomes can be taken up by recipient cells through various mechanisms, including receptor-mediated endocytosis, direct fusion with the plasma membrane, or phagocytosis. The cargo carried by exosomes can influence the function of recipient cells, modulating processes such as cell proliferation, differentiation, immune responses, and angiogenesis. In cancer, exosomes play a critical role in tumor progression by promoting metastasis, angiogenesis, and immune evasion. Tumor-derived exosomes can transfer oncogenic proteins and microRNAs to distant sites, preparing the microenvironment for metastasis. Exosomes also contribute to drug resistance by transferring resistance factors between cancer cells. In neurodegenerative diseases, exosomes can facilitate the spread of misfolded proteins, such as amyloid-β and tau, between neurons, contributing to disease progression. Exosomes are being explored as potential biomarkers for disease diagnosis and as therapeutic delivery vehicles for targeted drug delivery.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Azithromycin or doxycycline for previously healthy outpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the BRCA1 and BRCA2 genes increase the risk of breast and ovarian cancer?",
+    "answer": "Mutations in the BRCA1 and BRCA2 genes significantly increase the risk of breast and ovarian cancer by impairing DNA repair and genomic stability. BRCA1 and BRCA2 are tumor suppressor genes that play a critical role in homologous recombination (HR), a major DNA repair pathway that fixes double-stranded DNA breaks (DSBs) accurately. BRCA1 forms a complex with other proteins, including BRCA1-associated RING domain protein 1 (BARD1), and participates in DNA damage recognition and activation of the DNA damage response. BRCA2 binds to RAD51, a protein that mediates strand invasion during HR, facilitating the repair of DSBs. When BRCA1 or BRCA2 is mutated, HR is compromised, leading to the accumulation of DNA damage and genomic instability. Cells with impaired DNA repair are more likely to acquire additional mutations that drive tumorigenesis. BRCA1 and BRCA2 mutations also affect other cellular processes, such as cell cycle control and apoptosis. The increased risk of breast and ovarian cancer associated with BRCA1/2 mutations is due to the accumulation of genetic mutations in breast and ovarian cells, leading to uncontrolled cell growth and tumor formation. Cells lacking functional BRCA1/2 are particularly sensitive to DNA-damaging agents, such as platinum-based chemotherapy and PARP inhibitors, which exploit their impaired DNA repair capacity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs regulate gene expression and cellular function?",
+    "answer": "Non-coding RNAs (ncRNAs) are RNA molecules that do not encode proteins but play crucial roles in regulating gene expression and cellular function. MicroRNAs (miRNAs) are small ncRNAs (21-25 nucleotides) that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. Circular RNAs (circRNAs) are covalently closed loop structures that can act as miRNA sponges, regulate transcription, or encode proteins. These ncRNAs modulate gene expression at multiple levels. MiRNAs fine-tune gene expression by base-pairing with target mRNAs, affecting their stability and translation. LncRNAs scaffold protein complexes, guide chromatin-modifying enzymes to specific genomic loci, and interact with transcription factors to regulate gene transcription. CircRNAs influence gene expression by sequestering miRNAs, modulating RNA splicing, or regulating protein translation. Dysregulation of ncRNA expression has been implicated in various diseases, including cancer, cardiovascular diseases, and neurological disorders, highlighting their importance in maintaining cellular homeostasis and regulating complex biological processes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with acute stroke?",
+    "answer": "Thrombolysis with tPA if within the appropriate time window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors enhance anti-tumor immunity?",
+    "answer": "Immunotherapy with checkpoint inhibitors enhances anti-tumor immunity by blocking inhibitory signals that suppress T cell activity, thereby unleashing the immune system to attack cancer cells. Checkpoint inhibitors target immune checkpoints, which are molecules that regulate the activation and function of T cells. Cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and programmed cell death protein 1 (PD-1) are two major immune checkpoints. CTLA-4 is expressed on T cells and inhibits T cell activation by competing with CD28 for binding to B7 ligands on antigen-presenting cells (APCs). PD-1 is expressed on T cells, B cells, and myeloid cells and binds to its ligands PD-L1 and PD-L2, which are often expressed on tumor cells and immune cells in the tumor microenvironment. PD-1 signaling inhibits T cell proliferation, cytokine production, and cytotoxic activity. Checkpoint inhibitors, such as anti-CTLA-4 and anti-PD-1/PD-L1 antibodies, block these inhibitory signals, allowing T cells to become fully activated and kill cancer cells. By blocking CTLA-4, T cells are more readily activated in lymph nodes and can then traffic to the tumor. By blocking PD-1/PD-L1, T cells are able to remain active in the tumor microenvironment, allowing for the killing of tumor cells. Not all patients respond to checkpoint inhibitors, and predictive biomarkers such as PD-L1 expression, tumor mutational burden (TMB), and microsatellite instability (MSI) are used to identify patients most likely to benefit from these therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common symptoms of influenza?",
+    "answer": "Fever, cough, sore throat, muscle aches.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How are induced pluripotent stem cells (iPSCs) generated and what are their potential applications in regenerative medicine?",
+    "answer": "Induced pluripotent stem cells (iPSCs) are generated by reprogramming somatic cells, such as skin fibroblasts or blood cells, to a pluripotent state similar to embryonic stem cells (ESCs). This reprogramming is typically achieved by introducing a set of transcription factors, often referred to as the Yamanaka factors (Oct4, Sox2, Klf4, and c-Myc), into the somatic cells. These transcription factors activate endogenous pluripotency genes and suppress genes associated with the somatic cell identity. The transcription factors can be delivered using viral vectors (e.g., retroviruses, lentiviruses) or non-viral methods (e.g., plasmids, mRNA transfection). Once the somatic cells have been reprogrammed, they acquire the ability to differentiate into any cell type in the body, making them a powerful tool for regenerative medicine. iPSCs can be differentiated into specific cell types, such as neurons, cardiomyocytes, or pancreatic beta cells, and used to replace damaged or diseased cells in patients. iPSC-derived cells can be used for cell-based therapies, drug screening, and disease modeling. Patient-specific iPSCs can be generated to create personalized cell therapies, reducing the risk of immune rejection. iPSCs can also be used to model diseases in vitro, allowing researchers to study disease mechanisms and identify potential drug targets. While iPSC technology holds great promise, challenges remain, including the efficiency and safety of reprogramming, the potential for off-target effects, and the cost of generating and differentiating iPSCs.",
+    "persona": "Researcher"
+  }
+]

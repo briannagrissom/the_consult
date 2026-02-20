@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers, followed by assessment for anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to acquired resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Acquired resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC) commonly arises from secondary mutations within the EGFR kinase domain. The most frequent resistance mutation is T790M, which sterically hinders the binding of reversible EGFR TKIs to the ATP-binding pocket. T790M increases the affinity of EGFR for ATP, thereby outcompeting the inhibitor. Osimertinib, a third-generation EGFR TKI, was designed to overcome T790M resistance by forming irreversible covalent bonds with EGFR, even in the presence of T790M. However, resistance to osimertinib can emerge through mechanisms like C797S mutations, which prevent covalent binding of osimertinib, or bypass pathways such as MET amplification or activation of downstream signaling cascades (e.g., PI3K/AKT). Less frequent resistance mechanisms include EGFR mutations like L718Q/V/E, G724S, or exon 20 insertions. These diverse resistance mechanisms highlight the evolutionary adaptability of cancer cells and underscore the need for comprehensive genomic profiling to guide treatment decisions after progression on EGFR TKIs. Combination strategies targeting both EGFR and bypass pathways, or the development of novel TKIs targeting resistant EGFR mutants, are active areas of investigation. [PMID: 25634330]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer in women aged 30-65?",
+    "answer": "Co-testing with Pap smear and HPV testing every 5 years, or Pap smear alone every 3 years, per ASCCP guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which PD-1/PD-L1 inhibitors enhance antitumor immunity?",
+    "answer": "PD-1 (Programmed cell death protein 1) is an immune checkpoint receptor expressed on T cells, while its ligand PD-L1 (Programmed death-ligand 1) is often upregulated on tumor cells and antigen-presenting cells. The interaction of PD-1 with PD-L1 delivers an inhibitory signal that suppresses T cell activation, proliferation, and cytotoxic function. PD-1/PD-L1 blockade disrupts this interaction, restoring T cell activity and allowing for enhanced immune-mediated tumor cell killing. Mechanistically, PD-1 engagement recruits phosphatases like SHP-1 and SHP-2 to the T cell receptor signaling complex, dephosphorylating key signaling molecules (e.g., ZAP70, ERK) and dampening downstream signaling pathways necessary for T cell activation. PD-L1 expressed on tumor cells can also directly inhibit T cell function by inducing T cell exhaustion, characterized by reduced cytokine production (e.g., IFN-γ, TNF-α), impaired cytotoxic activity, and increased expression of other inhibitory receptors like CTLA-4 and TIM-3. PD-1/PD-L1 inhibitors reverse T cell exhaustion, reinvigorating antitumor immune responses. Furthermore, PD-L1 expression on antigen-presenting cells can suppress T cell priming in the tumor microenvironment. Blocking PD-L1 on these cells enhances antigen presentation and T cell activation. The efficacy of PD-1/PD-L1 inhibitors depends on pre-existing tumor-infiltrating lymphocytes and a pro-inflammatory tumor microenvironment. In tumors with low immune cell infiltration or an immunosuppressive microenvironment, additional immunomodulatory strategies may be needed to enhance the response to PD-1/PD-L1 blockade.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical duration of antibiotic treatment for uncomplicated community-acquired pneumonia?",
+    "answer": "5-7 days of antibiotics like azithromycin or doxycycline.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS oncogene influence downstream signaling pathways and contribute to tumorigenesis?",
+    "answer": "KRAS is a small GTPase that functions as a molecular switch, cycling between an inactive GDP-bound state and an active GTP-bound state. Upon activation by receptor tyrosine kinases (RTKs), KRAS initiates downstream signaling cascades that regulate cell proliferation, differentiation, and survival. Mutations in KRAS, most commonly at codons 12, 13, or 61, impair GTPase activity, resulting in constitutive activation of KRAS. This leads to sustained activation of downstream effector pathways, including the RAF-MEK-ERK MAPK pathway and the PI3K-AKT-mTOR pathway. Constitutive activation of the MAPK pathway drives uncontrolled cell proliferation by increasing the expression of genes involved in cell cycle progression and inhibiting apoptosis. The PI3K-AKT-mTOR pathway promotes cell survival by inhibiting pro-apoptotic proteins and enhancing protein synthesis. Mutant KRAS also affects cellular metabolism by upregulating glucose uptake and glycolysis, supporting the increased energy demands of rapidly proliferating cancer cells. Furthermore, KRAS mutations can alter the tumor microenvironment by promoting angiogenesis and suppressing immune responses. The specific effects of KRAS mutations can vary depending on the mutation type, tissue context, and interactions with other genetic alterations. While direct KRAS inhibitors have historically been challenging to develop, recent advances have led to the development of KRAS G12C inhibitors, which selectively target the KRAS G12C mutant protein.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with a first-time unprovoked seizure?",
+    "answer": "Neurological evaluation including imaging (CT or MRI) and EEG to determine etiology and risk of recurrence; treatment with antiepileptic drugs is considered after weighing risks and benefits.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy and toxicity of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy and toxicity of cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Certain gut bacterial species can enhance the response to ICIs, while others may promote resistance or increase the risk of immune-related adverse events (irAEs). Mechanistically, the gut microbiome influences systemic immunity by modulating the composition and function of immune cells in the tumor microenvironment. Some gut bacteria, such as Akkermansia muciniphila, can enhance the trafficking of immune cells to the tumor and promote T cell activation and cytotoxic activity. These bacteria can also produce metabolites, such as short-chain fatty acids (SCFAs), that modulate immune cell function and enhance antitumor immunity. Conversely, dysbiosis of the gut microbiome, characterized by a reduction in beneficial bacteria and an increase in pathogenic bacteria, can impair the response to ICIs. Certain bacterial species can promote immune suppression by producing immunosuppressive metabolites or by activating inhibitory immune pathways. The gut microbiome can also influence the development of irAEs, such as colitis and pneumonitis, which are common complications of ICIs. Specific bacterial species have been associated with an increased risk of irAEs, possibly through the activation of inflammatory immune responses in the gut or other organs. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being investigated as potential approaches to improve the efficacy and reduce the toxicity of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target HbA1c for most non-pregnant adults with diabetes?",
+    "answer": "HbA1c < 7.0% according to ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the accumulation of amyloid-beta plaques and neurofibrillary tangles in the brain. Several signaling pathways are implicated in the pathogenesis of AD, including those involving amyloid precursor protein (APP) processing, tau phosphorylation, and neuroinflammation. The amyloid cascade hypothesis posits that aberrant cleavage of APP by beta-secretase (BACE1) and gamma-secretase leads to the production of amyloid-beta peptides, particularly the highly aggregation-prone Aβ42 isoform. Aβ42 oligomers aggregate to form amyloid plaques, which trigger neuroinflammation and synaptic dysfunction. Tau phosphorylation, mediated by kinases such as GSK-3β and CDK5, leads to the formation of neurofibrillary tangles, which disrupt microtubule function and neuronal transport. Neuroinflammation, driven by activated microglia and astrocytes, contributes to neuronal damage and cell death through the release of pro-inflammatory cytokines and reactive oxygen species. Other signaling pathways implicated in AD include those involving insulin signaling, oxidative stress, and calcium dysregulation. Mutations in genes encoding APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2) are associated with early-onset familial AD, while the APOE4 allele is a major genetic risk factor for late-onset sporadic AD. Therapies targeting these signaling pathways, such as BACE1 inhibitors, tau phosphorylation inhibitors, and anti-inflammatory agents, are being investigated as potential treatments for AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin for 5 days or TMP-SMX for 3 days; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment (TME) influence cancer metastasis?",
+    "answer": "The tumor microenvironment (TME) plays a crucial role in cancer metastasis by influencing various aspects of the metastatic cascade, including local invasion, intravasation, survival in circulation, extravasation, and colonization of distant sites. The TME consists of various cellular and non-cellular components, including cancer-associated fibroblasts (CAFs), immune cells, endothelial cells, extracellular matrix (ECM), and signaling molecules. CAFs promote tumor invasion and metastasis by remodeling the ECM, secreting growth factors and cytokines, and creating physical tracks for cancer cells to migrate along. Immune cells, such as tumor-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs), can suppress antitumor immunity and promote angiogenesis, thereby facilitating metastasis. Endothelial cells form new blood vessels that provide nutrients and oxygen to the growing tumor and serve as conduits for cancer cells to enter the circulation. The ECM provides structural support to the tumor and influences cell adhesion, migration, and differentiation. Signaling molecules, such as growth factors, chemokines, and cytokines, regulate cell-cell interactions and influence the behavior of both cancer cells and stromal cells. The TME can also influence the epithelial-mesenchymal transition (EMT), a process by which epithelial cells lose their cell-cell adhesion and acquire a mesenchymal phenotype, enabling them to invade surrounding tissues. Targeting the TME is an emerging strategy for preventing or treating cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a suspected acute stroke?",
+    "answer": "Rapid assessment, NIHSS score, CT scan to rule out hemorrhage, and consideration of thrombolytic therapy if within the appropriate window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the development of insulin resistance in type 2 diabetes?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes, arises from a complex interplay of genetic and environmental factors affecting insulin signaling and glucose metabolism in target tissues like skeletal muscle, liver, and adipose tissue. At the molecular level, insulin resistance involves impaired insulin receptor signaling, reduced glucose transporter (GLUT4) translocation, and dysregulation of intracellular metabolic pathways. Chronic overnutrition and sedentary lifestyle lead to increased circulating free fatty acids (FFAs) and inflammatory cytokines, which activate intracellular stress pathways such as JNK and IKKβ. These kinases phosphorylate insulin receptor substrate 1 (IRS-1) on serine residues, inhibiting its tyrosine phosphorylation and disrupting downstream signaling. FFAs also accumulate as lipid intermediates like diacylglycerol (DAG) and ceramide, which activate protein kinase C isoforms (PKCθ and PKCε) that further impair insulin signaling. In addition, mitochondrial dysfunction and oxidative stress contribute to insulin resistance by reducing ATP production and increasing reactive oxygen species (ROS), which damage cellular components and activate inflammatory pathways. In skeletal muscle, insulin resistance leads to reduced GLUT4 translocation to the plasma membrane, limiting glucose uptake. In the liver, impaired insulin signaling fails to suppress hepatic glucose production (HGP), exacerbating hyperglycemia. Adipose tissue dysfunction contributes to insulin resistance by releasing FFAs and inflammatory cytokines, further impairing insulin sensitivity in other tissues. Epigenetic modifications and alterations in microRNA expression also play a role in the development of insulin resistance. Therapies targeting these molecular mechanisms, such as thiazolidinediones (TZDs) that activate PPARγ and improve insulin sensitivity, are used to manage type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the mainstays of treatment for heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "ACE inhibitors/ARBs/ARNIs, beta-blockers, mineralocorticoid receptor antagonists (MRAs), and SGLT2 inhibitors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells evade detection and elimination by the immune system?",
+    "answer": "Cancer cells employ multiple strategies to evade detection and elimination by the immune system, collectively known as immune evasion mechanisms. These mechanisms can be broadly categorized into those that suppress immune cell activity, those that prevent immune cell recognition of cancer cells, and those that physically shield cancer cells from immune attack. Cancer cells often express high levels of immune checkpoint proteins, such as PD-L1, which bind to inhibitory receptors on T cells (e.g., PD-1) and suppress their activation and cytotoxic function. They also secrete immunosuppressive cytokines, such as TGF-β and IL-10, which inhibit the activity of immune cells and promote the differentiation of regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs). Cancer cells can downregulate the expression of major histocompatibility complex (MHC) class I molecules, which are required for presenting tumor-associated antigens to T cells. They can also mutate or delete genes encoding tumor-associated antigens, preventing immune recognition. Some cancer cells lose expression of molecules involved in antigen processing and presentation, further impairing T cell activation. Cancer cells can create a physical barrier to immune cell infiltration by forming a dense stroma composed of extracellular matrix (ECM) and cancer-associated fibroblasts (CAFs). They can also express molecules that inhibit immune cell adhesion and migration. Furthermore, cancer cells can actively kill immune cells through the expression of death ligands, such as Fas ligand (FasL), which bind to death receptors on immune cells and induce apoptosis. Understanding these immune evasion mechanisms is crucial for developing effective cancer immunotherapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) and dexamethasone, adjusted based on CSF culture results.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer progression?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by cells that mediate intercellular communication by transferring bioactive molecules, such as proteins, nucleic acids (mRNA, microRNA), and lipids, to recipient cells. In cancer, exosomes play a multifaceted role in promoting tumor progression by influencing various aspects of the tumor microenvironment and distant metastatic sites. Cancer-derived exosomes can transfer oncogenic proteins and nucleic acids to recipient cells, promoting cell proliferation, survival, and angiogenesis. They can also modulate the immune system by suppressing antitumor immune responses and promoting the differentiation of immunosuppressive cells. Exosomes can facilitate cancer metastasis by promoting epithelial-mesenchymal transition (EMT), enhancing cell migration and invasion, and preparing distant metastatic niches. They can also transfer drug resistance factors to recipient cells, contributing to chemotherapy resistance. Furthermore, exosomes can serve as biomarkers for cancer diagnosis and prognosis. The composition of exosomes reflects the molecular characteristics of the cells from which they originate, making them a valuable source of information about tumor biology. Exosomes can be isolated from various body fluids, such as blood, urine, and saliva, providing a non-invasive means of monitoring cancer progression and response to therapy. Exosome-based therapies are also being explored as a potential approach to deliver therapeutic agents to cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for localized Lyme disease?",
+    "answer": "Doxycycline for 10-14 days.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNA-mediated regulation, play a critical role in cancer development and progression by altering gene expression patterns without changing the underlying DNA sequence. DNA methylation, typically occurring at cytosine-guanine dinucleotides (CpG islands), is generally associated with gene silencing. In cancer, aberrant DNA methylation patterns are frequently observed, including global DNA hypomethylation and regional DNA hypermethylation. Global hypomethylation can lead to genomic instability and activation of oncogenes, while regional hypermethylation can silence tumor suppressor genes. Histone modifications, such as acetylation and methylation, alter chromatin structure and affect gene transcription. Histone acetylation is generally associated with increased gene expression, while histone methylation can either activate or repress gene expression depending on the specific histone residue and the type of modification. In cancer, dysregulation of histone modifying enzymes can lead to aberrant histone modification patterns, contributing to altered gene expression. Non-coding RNAs, such as microRNAs (miRNAs), regulate gene expression by binding to mRNA and inhibiting translation or promoting mRNA degradation. In cancer, miRNAs can act as either oncogenes or tumor suppressors, depending on their target genes. Aberrant miRNA expression can contribute to cancer development and progression by affecting cell proliferation, apoptosis, metastasis, and angiogenesis. Epigenetic modifications are reversible and can be targeted by epigenetic drugs, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, which have shown promise in cancer therapy. [PMID: 21444744]",
+    "persona": "Researcher"
+  }
+]

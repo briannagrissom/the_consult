@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically first-line per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to the pathogenesis of non-small cell lung cancer?",
+    "answer": "KRAS mutations, particularly at codon 12, lead to constitutive activation of the KRAS protein, a GTPase involved in signal transduction pathways regulating cell growth, differentiation, and apoptosis. Mutant KRAS remains in the GTP-bound active state, independently driving downstream effectors such as the MAPK and PI3K/AKT pathways. This results in uncontrolled cell proliferation, survival, and angiogenesis, critical hallmarks of cancer. Specific KRAS variants also influence drug sensitivity; for example, KRAS G12C mutations are now therapeutically targetable with covalent inhibitors like sotorasib and adagrasib, while other KRAS mutations remain largely resistant to direct inhibition and require alternative strategies, such as targeting downstream effectors or synthetic lethal partners. The context-dependent effects of KRAS mutations highlight the complexity of therapeutic targeting in NSCLC.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of deep vein thrombosis (DVT) in the lower extremity?",
+    "answer": "Unilateral leg swelling, pain, warmth, and redness are typical.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the PD-1/PD-L1 axis mediate immune evasion by tumor cells?",
+    "answer": "The programmed cell death-1 (PD-1) receptor, expressed on T cells, interacts with its ligands PD-L1 and PD-L2, frequently upregulated on tumor cells. This interaction delivers an inhibitory signal to T cells, suppressing their cytotoxic activity and cytokine production. Specifically, PD-1 engagement recruits phosphatases like SHP-1 and SHP-2 to the T-cell receptor signaling complex, dephosphorylating key signaling molecules and dampening T-cell activation. Upregulation of PD-L1 on tumor cells represents an adaptive immune resistance mechanism, allowing tumors to evade immune surveillance and destruction. Blocking the PD-1/PD-L1 interaction with monoclonal antibodies restores T-cell function and promotes antitumor immunity, leading to clinical responses in various cancers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended target LDL-cholesterol level for a patient with established atherosclerotic cardiovascular disease?",
+    "answer": "LDL-C should be reduced by ≥50% from baseline and to a target of <70 mg/dL per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment?",
+    "answer": "Exosomes are small extracellular vesicles secreted by cells, including tumor cells and stromal cells, that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, microRNA) between cells. Within the tumor microenvironment, exosomes facilitate a range of processes, including angiogenesis, immune modulation, and metastasis. Tumor-derived exosomes can promote angiogenesis by delivering pro-angiogenic factors like VEGF to endothelial cells. They can also suppress immune responses by transferring immunosuppressive molecules like PD-L1 or microRNAs that target immune cell function. Furthermore, exosomes can facilitate metastasis by altering the extracellular matrix, promoting epithelial-mesenchymal transition (EMT), and preparing distant sites for tumor cell colonization. Exosomal cargo can be used as biomarkers to assess cancer progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline, or a macrolide if local resistance is low, are typical first-line agents.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to cellular homeostasis and what is its role in disease?",
+    "answer": "Autophagy is a highly conserved cellular process involving the degradation and recycling of damaged organelles, misfolded proteins, and intracellular pathogens. It plays a crucial role in maintaining cellular homeostasis by removing toxic aggregates and providing essential nutrients during periods of stress or starvation. The process involves the formation of autophagosomes, double-membrane vesicles that engulf cytoplasmic cargo and fuse with lysosomes for degradation. Dysregulation of autophagy is implicated in various diseases, including cancer, neurodegenerative disorders, and infectious diseases. In cancer, autophagy can act as both a tumor suppressor and a tumor promoter, depending on the stage and context of the disease. In neurodegenerative diseases, impaired autophagy contributes to the accumulation of toxic protein aggregates, leading to neuronal dysfunction and cell death. In infectious diseases, autophagy can eliminate intracellular pathogens or, conversely, be exploited by pathogens for their own replication.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, HbA1c ≥6.5%, or a 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of insulin resistance in type 2 diabetes?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes, is characterized by impaired insulin signaling in target tissues such as skeletal muscle, liver, and adipose tissue. Several signaling pathways contribute to its development. Chronic inflammation, induced by factors such as obesity and elevated free fatty acids, activates inflammatory kinases like IKKβ and JNK, which phosphorylate insulin receptor substrate-1 (IRS-1) at serine residues, inhibiting its ability to activate downstream signaling. Accumulation of intracellular lipids, such as diacylglycerols and ceramides, also disrupts insulin signaling by activating protein kinase C isoforms that interfere with IRS-1 function. Furthermore, endoplasmic reticulum (ER) stress, triggered by nutrient overload, activates stress kinases that impair insulin signaling. These pathways converge to reduce glucose uptake, glycogen synthesis, and suppression of hepatic glucose production, leading to hyperglycemia and compensatory hyperinsulinemia.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient experiencing an acute asthma exacerbation?",
+    "answer": "Administer inhaled short-acting beta-2 agonists and consider systemic corticosteroids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the immune response and can significantly impact the efficacy of cancer immunotherapy, particularly checkpoint inhibitors targeting PD-1/PD-L1 and CTLA-4. Certain gut bacterial species, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved responses to immunotherapy in patients with melanoma and other cancers. These bacteria can enhance antitumor immunity by stimulating the production of pro-inflammatory cytokines, promoting dendritic cell maturation, and increasing T-cell infiltration into the tumor microenvironment. Conversely, dysbiosis, characterized by a reduction in microbial diversity and an overgrowth of certain pathogenic bacteria, can impair immunotherapy efficacy. Factors such as antibiotic use, diet, and underlying diseases can alter the gut microbiome composition and affect the response to cancer treatment. Fecal microbiota transplantation (FMT) is being explored as a strategy to manipulate the gut microbiome and improve immunotherapy outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, elevated liver enzymes, and rarely rhabdomyolysis are potential side effects.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work and what are its applications in biomedical research?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene editing technology derived from the adaptive immune system of bacteria. It utilizes a guide RNA (gRNA) molecule, designed to be complementary to a specific DNA sequence, to direct the Cas9 enzyme, an endonuclease, to a target site in the genome. The Cas9 enzyme then creates a double-stranded break in the DNA at the targeted location. The cell's natural DNA repair mechanisms can then be harnessed to either disrupt the gene (non-homologous end joining, NHEJ) or insert a new DNA sequence (homology-directed repair, HDR). In biomedical research, CRISPR-Cas9 has numerous applications, including creating disease models, studying gene function, developing gene therapies, and engineering cells for therapeutic purposes. Its precision, efficiency, and ease of use have transformed the field of genetics and opened up new possibilities for treating genetic diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated pyelonephritis?",
+    "answer": "Fluoroquinolones or trimethoprim-sulfamethoxazole are commonly used in outpatient settings, with consideration for local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to chemotherapy drugs?",
+    "answer": "Cancer cells develop resistance to chemotherapy through a variety of mechanisms. These include increased drug efflux, mediated by proteins like P-glycoprotein, which actively pump drugs out of the cell. Mutations in the drug target can also reduce drug binding and efficacy. Increased DNA repair capacity enables cancer cells to repair DNA damage induced by chemotherapy more efficiently. Epithelial-mesenchymal transition (EMT) confers resistance by reducing cell proliferation and increasing cell survival. Furthermore, cancer stem cells, a subpopulation of tumor cells with self-renewal and differentiation capabilities, are often resistant to chemotherapy and can contribute to tumor relapse. Alterations in drug metabolism and inactivation pathways also provide resistance. These mechanisms can be present intrinsically or acquired over time through genetic and epigenetic changes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for metabolic syndrome?",
+    "answer": "Three or more of the following: abdominal obesity, high triglycerides, low HDL cholesterol, high blood pressure, and elevated fasting glucose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key steps involved in the development of an effective vaccine against a novel viral pathogen?",
+    "answer": "Developing an effective vaccine against a novel viral pathogen involves several key steps. First, the pathogen must be identified and characterized, including its genetic makeup, structure, and mechanism of infection. Next, potential vaccine candidates are designed and tested in preclinical studies, including in vitro assays and animal models. These studies evaluate the vaccine's safety, immunogenicity (ability to elicit an immune response), and efficacy (ability to protect against infection). Promising vaccine candidates then proceed to clinical trials in humans, which are conducted in three phases. Phase 1 trials assess safety and dosage in a small number of healthy volunteers. Phase 2 trials evaluate immunogenicity and dose-ranging in a larger group of participants. Phase 3 trials assess efficacy and monitor for adverse events in a large, randomized, placebo-controlled study. If the vaccine is shown to be safe and effective, it can be approved by regulatory agencies and manufactured for widespread use. Post-market surveillance is also crucial to monitor the vaccine's long-term safety and effectiveness.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with acute stroke symptoms?",
+    "answer": "Rapid assessment, neuroimaging to rule out hemorrhage, and consideration for thrombolytic therapy if eligible are critical.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy using CAR T-cells work and what are its limitations?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a synthetic receptor that recognizes a specific antigen on tumor cells. The CAR consists of an extracellular antigen-binding domain (typically derived from an antibody) linked to intracellular signaling domains that activate T-cell function upon antigen engagement. The engineered T cells are then infused back into the patient, where they can specifically target and kill tumor cells expressing the target antigen. CAR T-cell therapy has shown remarkable success in treating certain hematological malignancies, particularly B-cell lymphomas and acute lymphoblastic leukemia. However, it also has limitations, including cytokine release syndrome (CRS), a systemic inflammatory response triggered by massive T-cell activation; neurotoxicity; on-target, off-tumor toxicity, where the CAR T cells attack healthy tissues expressing the target antigen; and antigen escape, where tumor cells lose expression of the target antigen, rendering them resistant to CAR T-cell therapy. Furthermore, CAR T-cell therapy is expensive and complex to manufacture.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine 0.5mg IV bolus, repeat every 3-5 minutes to a maximum of 3mg; consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective per ACLS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) complementary to a specific DNA sequence to direct the Cas9 endonuclease to that location in the genome. The gRNA, typically 20 nucleotides long, forms a complex with Cas9, which then scans the DNA until it encounters a sequence matching the gRNA and adjacent to a protospacer adjacent motif (PAM), typically NGG. Once bound, Cas9 induces a double-stranded break (DSB) in the DNA. The cell attempts to repair this break via either non-homologous end joining (NHEJ), which is error-prone and often results in insertions or deletions (indels) that disrupt the gene, or homology-directed repair (HDR) if a DNA template with homology to the target site is provided, allowing for precise gene editing. The efficiency and specificity of CRISPR-Cas9 can be affected by off-target binding and cleavage at sites with high sequence similarity to the gRNA, as well as the accessibility of the target DNA within chromatin. Modifications to the Cas9 protein, such as the use of catalytically inactive dCas9 fused to transcriptional activators or repressors, allow for CRISPR-mediated gene regulation without permanently altering the DNA sequence. Further advancements, including base editing and prime editing, enable more precise and efficient editing without relying on DSBs or donor templates.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in IBD pathogenesis through several mechanisms. Dysbiosis, characterized by a reduction in microbial diversity and alterations in community composition, is frequently observed in IBD patients. Specifically, there is often a decrease in beneficial commensal bacteria, such as *Firmicutes* and *Bacteroidetes*, and an increase in pathobionts, like *Escherichia coli* and *Klebsiella pneumoniae*. These alterations disrupt the balance between pro-inflammatory and anti-inflammatory responses in the gut. Pathobionts can trigger excessive immune activation by producing factors that activate pattern recognition receptors (PRRs) on intestinal epithelial cells and immune cells, leading to the release of pro-inflammatory cytokines such as TNF-α, IL-1β, and IL-6. Furthermore, dysbiosis impairs the production of short-chain fatty acids (SCFAs), such as butyrate, which are important for maintaining intestinal barrier integrity and suppressing inflammation. Genetic susceptibility, environmental factors, and immune responses interact with the gut microbiome to drive the chronic inflammation characteristic of IBD. Therapeutic strategies targeting the microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored to restore microbial balance and alleviate IBD symptoms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is community-acquired pneumonia typically treated in an outpatient setting?",
+    "answer": "Empiric oral antibiotics such as azithromycin, doxycycline, or amoxicillin/clavulanate, guided by local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the known mechanisms of resistance to tyrosine kinase inhibitors (TKIs) in EGFR-mutated non-small cell lung cancer?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through several mechanisms. The most common is the acquisition of the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. Other EGFR mutations, such as C797S, and bypass signaling pathways, like MET amplification, HER2 amplification, and activation of PI3K/AKT, can also confer resistance. Furthermore, histologic transformation to small cell lung cancer and epithelial-mesenchymal transition (EMT) have been implicated in TKI resistance. The emergence of these resistance mechanisms often leads to disease progression despite continued TKI therapy. Strategies to overcome resistance include the use of third-generation TKIs that target both EGFR-activating mutations and T790M, MET inhibitors, PI3K/AKT inhibitors, and combination therapies that simultaneously target multiple pathways. Liquid biopsies, such as circulating tumor DNA (ctDNA) analysis, are increasingly used to monitor the emergence of resistance mutations and guide treatment decisions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard initial treatment for acute ischemic stroke?",
+    "answer": "Intravenous alteplase within 4.5 hours of symptom onset if no contraindications; mechanical thrombectomy may be considered for large vessel occlusions per AHA/ASA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, influence gene expression in cancer?",
+    "answer": "Epigenetic modifications play a critical role in regulating gene expression in cancer cells. DNA methylation, typically occurring at cytosine residues within CpG islands, generally leads to gene silencing by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs), which condense chromatin structure. Aberrant DNA methylation patterns are common in cancer, often resulting in the silencing of tumor suppressor genes and DNA repair genes. Histone acetylation, mediated by histone acetyltransferases (HATs), promotes a more open chromatin conformation, facilitating gene transcription. Conversely, histone deacetylation, catalyzed by HDACs, leads to chromatin condensation and transcriptional repression. In cancer, dysregulation of histone acetylation can contribute to the overexpression of oncogenes and the silencing of genes involved in cell cycle control and apoptosis. Furthermore, cross-talk between DNA methylation and histone modifications can synergistically impact gene expression. Epigenetic therapies, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors (HDACis), are being developed to reverse these aberrant epigenetic modifications and restore normal gene expression patterns in cancer cells, often in combination with other anticancer treatments.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with a first-time episode of *Clostridioides difficile* infection?",
+    "answer": "Oral vancomycin or fidaxomicin for 10 days; metronidazole may be considered if vancomycin/fidaxomicin are unavailable, per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what are the key antiviral defense mechanisms?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system. They can suppress interferon (IFN) signaling, which is crucial for initiating antiviral responses. Many viruses encode proteins that interfere with the production, secretion, or signaling of IFNs. Additionally, viruses can downregulate the expression of major histocompatibility complex (MHC) class I molecules, reducing antigen presentation to cytotoxic T lymphocytes (CTLs). Some viruses undergo rapid mutation, leading to antigenic drift that allows them to escape antibody recognition. Others establish latency, hiding within host cells and evading immune surveillance. Key antiviral defense mechanisms include the innate immune response, involving natural killer (NK) cells, macrophages, and dendritic cells (DCs), which recognize viral components through pattern recognition receptors (PRRs) and initiate inflammatory responses. The adaptive immune response, mediated by T cells and B cells, provides long-lasting immunity through the production of antibodies and the activation of CTLs. The interplay between viral evasion strategies and host immune responses determines the outcome of viral infections. Therapeutic strategies aim to enhance the host's antiviral defenses and directly target viral replication.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a suspected acute myocardial infarction?",
+    "answer": "Aspirin, oxygen if SpO2 <90%, nitroglycerin if no contraindications, morphine for pain, and urgent ECG; activate the cardiac catheterization lab if STEMI is present per ACC/AHA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Several signaling pathways are implicated in Alzheimer's disease (AD) pathogenesis. Amyloid-beta (Aβ) plaques and neurofibrillary tangles composed of hyperphosphorylated tau are hallmarks of AD. The amyloid precursor protein (APP) processing pathway, involving β-secretase (BACE1) and γ-secretase, generates Aβ peptides, which aggregate and form plaques. Tau hyperphosphorylation, driven by kinases such as glycogen synthase kinase-3 (GSK-3) and cyclin-dependent kinase 5 (CDK5), leads to the formation of neurofibrillary tangles. Inflammation, mediated by microglia and astrocytes, contributes to neurodegeneration through the release of pro-inflammatory cytokines and reactive oxygen species (ROS). Impaired insulin signaling and glucose metabolism are also implicated in AD. Furthermore, alterations in synaptic plasticity, mediated by signaling molecules like brain-derived neurotrophic factor (BDNF) and the N-methyl-D-aspartate receptor (NMDAR), contribute to cognitive decline. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), influence the activity of these pathways. Therapeutic strategies targeting these pathways, including β-secretase inhibitors, tau aggregation inhibitors, and anti-inflammatory agents, are being investigated to slow the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you initially manage a patient with an acute asthma exacerbation?",
+    "answer": "Short-acting beta-agonists (SABA) via nebulizer or inhaler with spacer, systemic corticosteroids, and oxygen to maintain SpO2 >90% per GINA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do long non-coding RNAs (lncRNAs) play in regulating cellular processes, and how are they implicated in disease?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that lack significant protein-coding potential. They regulate cellular processes through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional control. LncRNAs can interact with chromatin-modifying complexes, such as polycomb repressive complex 2 (PRC2) and DNA methyltransferases (DNMTs), to alter gene expression. They can also serve as scaffolds, bringing together proteins to regulate transcription. Additionally, lncRNAs can function as competing endogenous RNAs (ceRNAs), sequestering microRNAs (miRNAs) and preventing them from binding to their target mRNAs. LncRNAs are implicated in various diseases, including cancer, cardiovascular disease, and neurological disorders. For example, the lncRNA HOTAIR promotes metastasis in cancer by recruiting PRC2 to silence tumor suppressor genes. The lncRNA MALAT1 regulates gene expression involved in angiogenesis and inflammation. Dysregulation of lncRNA expression or function can contribute to disease pathogenesis, making them potential therapeutic targets.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with low-molecular-weight heparin (LMWH), fondaparinux, direct oral anticoagulants (DOACs), or warfarin, considering patient-specific factors and contraindications per CHEST guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy, particularly checkpoint inhibitors, work in treating cancer, and what are the mechanisms of resistance?",
+    "answer": "Immunotherapy, especially checkpoint inhibitors, works by unleashing the patient's own immune system to attack cancer cells. Checkpoint inhibitors target immune checkpoints, such as CTLA-4 and PD-1/PD-L1, which normally prevent excessive immune activation. By blocking these checkpoints, checkpoint inhibitors enhance T-cell activity and promote antitumor immunity. Mechanisms of resistance to checkpoint inhibitors include loss of antigen presentation due to mutations in MHC genes or β2-microglobulin, impaired interferon (IFN) signaling, and upregulation of alternative immune checkpoints. Tumors can also create an immunosuppressive microenvironment by recruiting regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs). Furthermore, some patients lack pre-existing T-cell responses to tumor antigens, limiting the effectiveness of checkpoint inhibitors. Strategies to overcome resistance include combination therapies with other immunotherapies, chemotherapy, targeted therapy, or radiation therapy, as well as the use of oncolytic viruses to enhance tumor immunogenicity. Biomarkers, such as PD-L1 expression and tumor mutational burden (TMB), can help predict response to checkpoint inhibitors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for managing uncomplicated urinary tract infection (UTI) in women?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, or fosfomycin as a single dose, considering local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance in bacteria arises through several mechanisms. Enzymatic inactivation of antibiotics involves bacterial enzymes modifying or degrading antibiotics, rendering them ineffective. Target modification involves alterations in the bacterial target site, preventing antibiotic binding. Reduced permeability involves decreased uptake or increased efflux of antibiotics, limiting their intracellular concentration. Horizontal gene transfer, including conjugation, transduction, and transformation, allows bacteria to acquire resistance genes from other bacteria. Overuse and misuse of antibiotics drive the selection and spread of resistant bacteria. Genetic mutations in bacterial chromosomes can also confer resistance. Multidrug-resistant (MDR) bacteria possess multiple resistance mechanisms, making them difficult to treat. Strategies to combat antibiotic resistance include developing new antibiotics, improving antibiotic stewardship, and implementing infection control measures.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient experiencing an acute anaphylactic reaction?",
+    "answer": "Epinephrine intramuscular injection, oxygen, intravenous fluids, antihistamines, and corticosteroids, monitoring for airway compromise and hypotension per anaphylaxis guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the principal mechanisms by which viruses cause cancer?",
+    "answer": "Viruses cause cancer through diverse mechanisms. Some viruses, like human papillomavirus (HPV), encode oncogenes that directly promote cell proliferation and inhibit apoptosis. HPV E6 and E7 proteins, for example, inactivate tumor suppressor proteins p53 and Rb, respectively. Other viruses, like hepatitis B virus (HBV) and hepatitis C virus (HCV), cause chronic inflammation, leading to DNA damage and increased risk of hepatocellular carcinoma. Some retroviruses, like human T-cell lymphotropic virus type 1 (HTLV-1), integrate their genomes into host DNA, disrupting gene expression or activating proto-oncogenes. Epstein-Barr virus (EBV) can immortalize B cells, promoting the development of lymphomas. Viral integration can also cause insertional mutagenesis, activating oncogenes or inactivating tumor suppressor genes. Immune suppression, caused by viruses like human immunodeficiency virus (HIV), increases the risk of virus-associated cancers. Understanding these mechanisms is crucial for developing preventive and therapeutic strategies.",
+    "persona": "Researcher"
+  }
+]

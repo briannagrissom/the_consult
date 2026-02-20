@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology facilitate precise gene editing in mammalian cells, and what are its primary limitations?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 endonuclease to create a double-strand break (DSB) at the specific locus. The cell repairs the DSB via non-homologous end joining (NHEJ), which often introduces insertions or deletions (indels) that disrupt gene function, or via homology-directed repair (HDR) if a DNA template with the desired edit is provided, enabling precise sequence alterations. The system's efficiency and target specificity are influenced by gRNA design, Cas9 isoform, and delivery method. Key limitations include off-target effects due to sequence similarities elsewhere in the genome, potential immunogenicity of Cas9, delivery challenges particularly in vivo, and the complexity of achieving efficient HDR in certain cell types. Optimization strategies include using high-fidelity Cas9 variants, modified gRNAs, and chemical inhibitors of NHEJ to enhance precision and minimize unintended consequences. Further refinements are focused on increasing delivery efficiency, reducing off-target activity, and improving HDR rates for therapeutic applications.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "A1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or random plasma glucose ≥200 mg/dL with symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Why is immune checkpoint blockade effective in some cancers but not others, and what mechanisms contribute to resistance?",
+    "answer": "Immune checkpoint inhibitors (ICIs) like anti-PD-1/PD-L1 and anti-CTLA-4 antibodies unleash pre-existing antitumor T-cell responses by blocking inhibitory signals. Their efficacy depends on factors like tumor mutational burden (TMB), which correlates with neoantigen presentation and T-cell infiltration; pre-existing immune cell infiltration; and the status of antigen-presenting machinery. Resistance mechanisms are diverse and can be intrinsic or acquired. Intrinsic resistance arises from lack of T-cell priming due to low TMB, defects in antigen presentation (e.g., loss of MHC class I), or immunosuppressive tumor microenvironments. Acquired resistance can develop through downregulation of target antigens (e.g., PD-L1), upregulation of alternative immune checkpoints (e.g., TIM-3, LAG-3), activation of bypass signaling pathways in tumor cells, or immune exclusion due to physical barriers or secretion of immunosuppressive factors. Combination strategies targeting multiple checkpoints, modulating the tumor microenvironment, or enhancing antigen presentation are being explored to overcome resistance and broaden the applicability of ICIs.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute ischemic stroke?",
+    "answer": "IV alteplase within 4.5 hours of symptom onset and/or mechanical thrombectomy within 24 hours in eligible patients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do pathogenic variants in BRCA1 and BRCA2 lead to increased cancer risk, and what are the implications for personalized cancer prevention?",
+    "answer": "BRCA1 and BRCA2 are tumor suppressor genes involved in DNA repair via homologous recombination (HR). Pathogenic variants in these genes impair HR, leading to genomic instability and increased susceptibility to mutations that drive cancer development. Cells with BRCA1/2 mutations accumulate DNA damage, which can activate alternative, error-prone repair pathways like non-homologous end joining (NHEJ), further contributing to genomic instability. This is particularly relevant in tissues with high cell turnover, such as breast and ovary. The implications for personalized cancer prevention are significant. Individuals with BRCA1/2 mutations are at increased risk for breast, ovarian, prostate, and pancreatic cancers. Risk-reducing strategies include prophylactic surgery (mastectomy, oophorectomy), increased surveillance (mammography, MRI), and chemoprevention (e.g., tamoxifen or aromatase inhibitors for breast cancer). Furthermore, tumors with BRCA1/2 mutations are often sensitive to PARP inhibitors, which block a different DNA repair pathway, creating synthetic lethality. This has led to the development of personalized treatment strategies based on BRCA1/2 status.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Empiric antibiotics, typically a macrolide or doxycycline for outpatients or a beta-lactam plus macrolide or respiratory fluoroquinolone for inpatients, guided by local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in modulating the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome profoundly influences the host's response to cancer chemotherapy through multiple mechanisms. Certain bacterial species can metabolize chemotherapeutic agents, either inactivating them (reducing efficacy) or converting them into more toxic metabolites (increasing toxicity). For example, some bacteria can degrade gemcitabine, limiting its bioavailability. Conversely, others can produce metabolites like butyrate, which may enhance the anti-tumor effects of certain drugs. The microbiome also modulates the host's immune system, which can affect both tumor response and treatment-related side effects. Dysbiosis, an imbalance in the gut microbiome, can disrupt immune homeostasis and increase susceptibility to chemotherapy-induced mucositis, diarrhea, and neutropenia. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT), probiotics, and dietary interventions, are being investigated to improve chemotherapy outcomes and reduce toxicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers, or electrical cardioversion if unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs and long non-coding RNAs, regulate gene expression and contribute to disease pathogenesis?",
+    "answer": "Non-coding RNAs (ncRNAs) exert widespread regulatory control over gene expression at both the transcriptional and post-transcriptional levels. MicroRNAs (miRNAs) are small (∼22 nucleotide) ncRNAs that bind to the 3' untranslated region (UTR) of target messenger RNAs (mRNAs), leading to mRNA degradation or translational repression. Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that lack significant protein-coding potential. LncRNAs can act as scaffolds, guiding proteins to specific genomic loci; as decoys, titrating away transcription factors; or as signals, recruiting chromatin-modifying complexes. These ncRNAs are dysregulated in many diseases, including cancer, cardiovascular disease, and neurological disorders. For instance, certain miRNAs can act as oncogenes by suppressing tumor suppressor genes, while others can act as tumor suppressors by inhibiting oncogene expression. LncRNAs can promote cancer progression by activating oncogenic signaling pathways or repressing tumor suppressor genes. Targeting ncRNAs with antisense oligonucleotides or small molecule inhibitors represents a promising therapeutic strategy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common causes of secondary hypertension?",
+    "answer": "Renal artery stenosis, primary aldosteronism, obstructive sleep apnea, pheochromocytoma, Cushing's syndrome, thyroid disorders.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease, and how are they being targeted for therapeutic intervention?",
+    "answer": "Alzheimer's disease (AD) pathogenesis is complex and involves multiple interconnected signaling pathways. Amyloid-beta (Aβ) plaques and neurofibrillary tangles (NFTs) composed of hyperphosphorylated tau protein are the pathological hallmarks. Aβ plaques trigger neuroinflammation and synaptic dysfunction. Tau hyperphosphorylation disrupts microtubule stability, leading to neuronal death. Key signaling pathways implicated in AD include: 1) β-secretase (BACE1) and γ-secretase, which cleave amyloid precursor protein (APP) to generate Aβ; 2) glycogen synthase kinase-3 (GSK-3), which phosphorylates tau; 3) receptor tyrosine kinases (RTKs) like EGFR and insulin receptor, which regulate neuronal survival and metabolism; and 4) inflammatory pathways involving microglia and astrocytes. Therapeutic strategies include BACE1 inhibitors to reduce Aβ production, tau aggregation inhibitors, kinase inhibitors to reduce tau phosphorylation, and immunotherapies to clear Aβ plaques. Clinical trials are evaluating the efficacy of these approaches, often in combination.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45-50, depending on guidelines and individual risk factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, influence gene expression and contribute to phenotypic diversity and disease susceptibility?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), generally represses gene transcription by recruiting methyl-binding proteins and chromatin remodeling complexes. Histone acetylation, catalyzed by histone acetyltransferases (HATs), typically promotes gene transcription by relaxing chromatin structure and facilitating transcription factor binding. Conversely, histone deacetylation, catalyzed by histone deacetylases (HDACs), generally represses gene transcription. These modifications are dynamic and influenced by environmental factors, diet, and aging. Aberrant epigenetic patterns are implicated in various diseases, including cancer, neurological disorders, and autoimmune diseases. For example, hypermethylation of tumor suppressor genes can silence their expression, promoting cancer development. Conversely, aberrant histone modifications can activate oncogenes. Epigenetic drugs, such as DNA methyltransferase inhibitors and HDAC inhibitors, are being used to reverse these abnormal epigenetic patterns and restore normal gene expression in cancer and other diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the management of a patient with a suspected pulmonary embolism?",
+    "answer": "Assess clinical probability, perform a D-dimer test if low/intermediate risk, and obtain a CT pulmonary angiogram if D-dimer is elevated or clinical suspicion is high. Initiate anticoagulation if PE is confirmed.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which viruses evade the host's innate and adaptive immune responses?",
+    "answer": "Viruses have evolved diverse strategies to evade host immunity. They can interfere with the innate immune response by blocking interferon (IFN) production or signaling, inhibiting pattern recognition receptors (PRRs) like TLRs, or evading natural killer (NK) cell activation. To evade adaptive immunity, viruses can mutate rapidly to escape antibody recognition (antigenic drift), downregulate MHC class I expression to avoid T-cell recognition, infect immune cells (e.g., HIV infecting CD4+ T cells), or induce T-cell exhaustion. Some viruses establish latency, remaining dormant within host cells and evading immune surveillance. Others actively suppress the immune system by producing immunosuppressive cytokines or proteins. Understanding these evasion mechanisms is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Muscle pain, liver enzyme elevation, and rarely, rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 enhance anti-tumor immunity, and what factors determine the response to these therapies?",
+    "answer": "PD-1 (programmed cell death protein 1) is an inhibitory receptor expressed on T cells, while PD-L1 (programmed death-ligand 1) is a ligand expressed on tumor cells and antigen-presenting cells. The PD-1/PD-L1 interaction suppresses T-cell activation and effector function, allowing tumor cells to evade immune destruction. Anti-PD-1/PD-L1 antibodies block this interaction, unleashing pre-existing anti-tumor T-cell responses. Factors determining response include tumor mutational burden (TMB), microsatellite instability (MSI) status, PD-L1 expression on tumor cells, and the presence of tumor-infiltrating lymphocytes (TILs). Tumors with high TMB and MSI-high status tend to generate more neoantigens, increasing the likelihood of T-cell recognition. High PD-L1 expression and abundant TILs suggest a pre-existing immune response that can be augmented by PD-1/PD-L1 blockade. Resistance mechanisms can include downregulation of MHC class I, activation of alternative immune checkpoints, and immune exclusion from the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for hypothyroidism?",
+    "answer": "Levothyroxine.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How are induced pluripotent stem cells (iPSCs) generated, and what is their potential for regenerative medicine and disease modeling?",
+    "answer": "Induced pluripotent stem cells (iPSCs) are generated by reprogramming somatic cells (e.g., skin fibroblasts) into a pluripotent state using defined transcription factors, typically Oct4, Sox2, Klf4, and c-Myc (OSKM). These factors activate endogenous pluripotency genes and silence somatic cell-specific genes, resulting in cells with embryonic stem cell-like properties, including the ability to differentiate into any cell type in the body. iPSCs hold immense potential for regenerative medicine and disease modeling. Patient-specific iPSCs can be differentiated into specific cell types affected by a disease, allowing researchers to study disease mechanisms in vitro and develop new therapies. iPSCs can also be used to generate tissues and organs for transplantation, potentially overcoming the limitations of donor organ availability. However, challenges remain, including the risk of tumor formation due to incomplete reprogramming and the need for efficient and safe differentiation protocols.",
+    "persona": "Researcher"
+  }
+]

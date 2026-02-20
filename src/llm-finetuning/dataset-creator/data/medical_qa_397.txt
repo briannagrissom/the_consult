@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typically used first-line.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at a molecular level?",
+    "answer": "CRISPR-Cas9 employs a guide RNA (gRNA) designed to match a specific DNA sequence. This gRNA complexes with the Cas9 enzyme, a DNA endonuclease. The gRNA directs Cas9 to the target DNA site based on sequence complementarity. Cas9 then induces a double-stranded break at that location. The cell attempts to repair this break via either non-homologous end joining (NHEJ), which is error-prone and can result in insertions or deletions (indels) that disrupt the gene, or homology-directed repair (HDR), which can be used to insert a desired DNA sequence if a template is provided. HDR is less frequent than NHEJ. The specificity of CRISPR-Cas9 is determined by the gRNA sequence and the presence of a protospacer adjacent motif (PAM) sequence, typically NGG for SpCas9, immediately downstream of the target site. Off-target effects, where Cas9 cleaves unintended sites, are a concern and minimized by careful gRNA design and use of high-fidelity Cas9 variants.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for statin therapy in patients with established atherosclerotic cardiovascular disease (ASCVD)?",
+    "answer": "High-intensity statin therapy is recommended unless contraindicated or not tolerated per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a critical role in IBD pathogenesis through multiple mechanisms. Dysbiosis, characterized by decreased microbial diversity and altered composition, disrupts the balance between pro-inflammatory and anti-inflammatory bacteria. Specific bacterial species, such as adherent-invasive E. coli (AIEC), are associated with increased inflammation in Crohn's disease. Furthermore, microbial metabolites, like short-chain fatty acids (SCFAs), particularly butyrate, are reduced in IBD, impairing intestinal epithelial barrier function and immune regulation. The altered microbiome activates the host immune system, leading to an exaggerated inflammatory response. Genetic susceptibility, environmental factors, and immune dysregulation interact with the gut microbiome to drive chronic intestinal inflammation in IBD. Fecal microbiota transplantation (FMT) has shown promise in treating IBD, suggesting a causal role for the microbiome in disease development and maintenance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment approach for a patient presenting with community-acquired pneumonia?",
+    "answer": "Empiric antibiotic therapy, such as a macrolide or doxycycline for outpatients, or a beta-lactam plus macrolide or fluoroquinolone for inpatients, is initiated based on local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to targeted therapies, such as EGFR inhibitors in lung cancer?",
+    "answer": "Cancer cells develop resistance to EGFR inhibitors through various mechanisms. The most common mechanism is the acquisition of secondary mutations in EGFR, such as T790M, which alters the drug-binding site and reduces inhibitor efficacy. Bypass signaling pathways, such as MET amplification or activation of PI3K/AKT, can circumvent EGFR inhibition and promote cell survival. Downstream mutations, such as KRAS mutations, also confer resistance. Phenotypic changes, like epithelial-mesenchymal transition (EMT), allow cancer cells to become less dependent on EGFR signaling. Additionally, epigenetic modifications and alterations in drug metabolism can contribute to resistance. Combination therapies and strategies to target resistance mechanisms are being actively investigated to improve outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Screening is recommended starting at age 45 with colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or other guideline-approved methods.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development and progression of Alzheimer's disease?",
+    "answer": "Several signaling pathways are implicated in Alzheimer's disease (AD) pathogenesis. Amyloid precursor protein (APP) processing leads to the generation of amyloid-beta (Aβ) plaques, which activate microglia and astrocytes, triggering neuroinflammation and oxidative stress. Tau hyperphosphorylation results in neurofibrillary tangles, disrupting neuronal transport and function. Insulin signaling dysregulation impairs glucose metabolism and contributes to Aβ accumulation and tau phosphorylation. Neurotrophic factor signaling, particularly brain-derived neurotrophic factor (BDNF), is reduced in AD, impairing neuronal survival and synaptic plasticity. Calcium dysregulation disrupts neuronal signaling and contributes to excitotoxicity. These pathways interact in complex ways to drive neuronal dysfunction and neurodegeneration in AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient experiencing an acute ischemic stroke?",
+    "answer": "Intravenous alteplase (tPA) within 4.5 hours of symptom onset, or mechanical thrombectomy for large vessel occlusions within 24 hours.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, focusing on mechanisms employed by influenza virus?",
+    "answer": "Viruses employ multiple strategies to evade the host immune system. Influenza virus, for example, undergoes antigenic drift through mutations in hemagglutinin (HA) and neuraminidase (NA) genes, leading to altered epitopes that are no longer recognized by pre-existing antibodies. Antigenic shift involves reassortment of viral gene segments, resulting in new viral subtypes with novel HA and NA proteins, against which the population has little or no immunity. Influenza virus also inhibits interferon production and signaling, suppressing antiviral responses. Furthermore, it manipulates host cell pathways to promote viral replication and survival. These mechanisms allow influenza virus to establish infection and cause disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the initial steps in managing a patient with suspected myocardial infarction?",
+    "answer": "Administer oxygen, aspirin, nitroglycerin, and morphine (if needed), obtain an ECG, and assess eligibility for reperfusion therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does epigenetics play in the development and progression of cancer?",
+    "answer": "Epigenetics, including DNA methylation, histone modifications, and non-coding RNAs, significantly influences cancer development and progression. Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor genes and hypomethylation of oncogenes, can alter gene expression and promote tumorigenesis. Histone modifications, like acetylation and methylation, regulate chromatin structure and gene accessibility, affecting gene transcription. Non-coding RNAs, particularly microRNAs, can regulate gene expression by targeting mRNAs. Epigenetic alterations can drive cancer initiation, progression, metastasis, and drug resistance. Epigenetic therapies, such as DNA methyltransferase inhibitors and histone deacetylase inhibitors, are used to reverse epigenetic changes and restore normal gene expression in cancer cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with newly diagnosed type 2 diabetes?",
+    "answer": "Lifestyle modifications (diet and exercise) plus metformin are typically initiated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do neurodegenerative diseases like Parkinson's disease spread through the brain?",
+    "answer": "Parkinson's disease (PD) is characterized by the aggregation and spread of alpha-synuclein protein. The Braak hypothesis suggests that PD pathology spreads in a prion-like manner, starting in the olfactory bulb and lower brainstem and progressing to higher cortical areas. Misfolded alpha-synuclein aggregates are believed to be transmitted from cell to cell, seeding the aggregation of native alpha-synuclein in recipient cells. This cell-to-cell transmission may occur through exosomes, tunneling nanotubes, or direct cell contact. The spread of alpha-synuclein pathology correlates with the progression of motor and non-motor symptoms in PD. Understanding the mechanisms of alpha-synuclein transmission is crucial for developing therapies to halt or slow disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute anaphylaxis?",
+    "answer": "Epinephrine intramuscular injection is the first-line treatment.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses cross the blood-brain barrier (BBB) and cause neurological diseases?",
+    "answer": "Viruses cross the blood-brain barrier (BBB) through various mechanisms. Some viruses, such as HIV, can infect and damage the endothelial cells of the BBB, increasing its permeability and allowing viral entry. Other viruses, like West Nile virus, can be transported across the BBB via transcytosis, either through receptor-mediated or non-receptor-mediated mechanisms. Leukocytes infected with viruses, such as Zika virus, can migrate across the BBB, carrying the virus into the brain. Disruption of BBB integrity by inflammatory mediators also facilitates viral entry. Once in the brain, viruses can infect neurons, glial cells, and other brain cells, leading to neurological diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical approach to managing chronic heart failure with reduced ejection fraction (HFrEF)?",
+    "answer": "ACE inhibitors/ARBs/ARNIs, beta-blockers, mineralocorticoid receptor antagonists (MRAs), and SGLT2 inhibitors are used in guideline-directed medical therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms by which exercise improves metabolic health and reduces the risk of type 2 diabetes?",
+    "answer": "Exercise improves metabolic health through multiple molecular mechanisms. Muscle contraction activates AMP-activated protein kinase (AMPK), which enhances glucose uptake, fatty acid oxidation, and mitochondrial biogenesis. Exercise also stimulates the release of myokines, such as interleukin-6 (IL-6) and brain-derived neurotrophic factor (BDNF), which have anti-inflammatory and insulin-sensitizing effects. Furthermore, exercise increases insulin sensitivity in skeletal muscle and adipose tissue by promoting glucose transporter 4 (GLUT4) translocation to the cell membrane. Exercise also improves lipid metabolism and reduces systemic inflammation, contributing to overall metabolic health and reduced risk of type 2 diabetes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin, warfarin, direct oral anticoagulants (DOACs) is the standard of care.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy, specifically checkpoint inhibitors like anti-PD-1 antibodies, work to treat cancer?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 and anti-CTLA-4 antibodies, work by blocking immune checkpoints that normally suppress T-cell activity. PD-1 (programmed cell death protein 1) is a receptor on T cells that interacts with PD-L1 (programmed death-ligand 1) on tumor cells, inhibiting T-cell activation and allowing tumor cells to evade immune destruction. Anti-PD-1 antibodies block this interaction, restoring T-cell activity and allowing them to recognize and kill cancer cells. Similarly, CTLA-4 is another immune checkpoint that inhibits T-cell activation. Anti-CTLA-4 antibodies block CTLA-4, enhancing T-cell activation and anti-tumor immunity. By blocking these checkpoints, immunotherapy unleashes the power of the immune system to fight cancer.",
+    "persona": "Researcher"
+  }
+]

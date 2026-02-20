@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise gene editing in eukaryotic cells, and what are the primary mechanisms by which cells repair the induced DNA double-strand breaks?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) to direct the Cas9 endonuclease to a specific DNA sequence, creating a double-strand break (DSB) at the targeted location. The cell then repairs the DSB through either non-homologous end joining (NHEJ) or homology-directed repair (HDR). NHEJ is an error-prone process that often leads to insertions or deletions (indels), resulting in gene disruption. HDR uses a provided DNA template with homology to the break site to repair the DSB, allowing for precise gene editing and insertion of new sequences. The efficiency of HDR is lower than NHEJ and depends on factors such as the cell cycle stage and the length and homology of the provided template. Optimization strategies include using modified Cas9 variants with reduced off-target activity, chemically modified gRNAs, and small molecule inhibitors to modulate DNA repair pathways, increasing the fidelity and precision of gene editing applications. Control of the DNA repair pathway is an area of active investigation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score?",
+    "answer": "Congestive heart failure, hypertension, age ≥75, diabetes mellitus, prior stroke/TIA/thromboembolism, vascular disease, age 65-74, sex category (female).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC can arise through multiple mechanisms involving bypass signaling, downstream pathway activation, and histologic transformation. The most common resistance mechanism is the acquisition of the EGFR T790M mutation, which increases the receptor's affinity for ATP and reduces TKI binding. Other mechanisms include activation of bypass pathways such as MET amplification, HER2 amplification, PI3K/AKT activation due to PTEN loss or PIK3CA mutation, and BRAF mutations. Downstream signaling through RAS/MAPK can be activated independently of EGFR via mutations in KRAS or NRAS. Furthermore, some NSCLC tumors undergo histologic transformation to small cell lung cancer or epithelial-mesenchymal transition (EMT), which render them insensitive to EGFR inhibition. Combination therapies targeting multiple pathways or immunotherapy approaches are being explored to overcome these resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is the diagnosis of diabetes mellitus made?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role do exosomes play in intercellular communication within the tumor microenvironment, and how can they be harnessed for cancer diagnostics and therapeutics?",
+    "answer": "Exosomes are nanoscale vesicles secreted by cells that mediate intercellular communication by transferring proteins, nucleic acids (mRNA, miRNA), and lipids to recipient cells. Within the tumor microenvironment, exosomes secreted by cancer cells can promote angiogenesis, immune suppression, and metastasis by modulating the behavior of stromal cells, immune cells, and distant target cells. For example, tumor-derived exosomes can deliver pro-angiogenic factors like VEGF to endothelial cells, promote M2 polarization of macrophages, and transfer drug resistance factors to neighboring cancer cells. Exosomes also hold promise as diagnostic biomarkers due to their ability to reflect the molecular composition of the originating tumor. Liquid biopsy approaches that analyze exosomal cargo can provide non-invasive means of detecting cancer-specific mutations, proteins, and miRNAs. Furthermore, exosomes can be engineered to deliver therapeutic agents such as siRNAs, chemotherapeutic drugs, or immune-stimulatory molecules to target cells, offering a potential platform for personalized cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Macrolide or doxycycline for outpatient treatment in healthy individuals without comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer chemotherapy?",
+    "answer": "The gut microbiome can significantly impact the efficacy and toxicity of cancer chemotherapy through several mechanisms. Certain gut bacteria can metabolize chemotherapeutic drugs, either inactivating them and reducing their efficacy (e.g., inactivation of irinotecan by bacterial β-glucuronidase) or activating them and enhancing their cytotoxicity. The microbiome also modulates the host immune response, which can influence the efficacy of immunotherapies and the severity of chemotherapy-induced side effects. For instance, some bacteria can promote anti-tumor immunity and enhance the response to checkpoint inhibitors, while others can exacerbate inflammation and contribute to chemotherapy-induced mucositis. Moreover, chemotherapy can disrupt the gut microbiome, leading to dysbiosis and increased susceptibility to opportunistic infections. Strategies to manipulate the gut microbiome, such as fecal microbiota transplantation or administration of specific probiotics, are being explored to improve the efficacy and reduce the toxicity of cancer chemotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "Intravenous alteplase within 4.5 hours of symptom onset, if eligible.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in epigenetic regulation and cancer development?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that do not encode proteins but play crucial roles in epigenetic regulation and gene expression. LncRNAs can interact with chromatin-modifying complexes, such as Polycomb Repressive Complex 2 (PRC2) and DNA methyltransferases (DNMTs), to recruit them to specific genomic loci and regulate histone modifications and DNA methylation. By modulating epigenetic marks, lncRNAs can influence the expression of genes involved in cell proliferation, differentiation, and apoptosis, thereby contributing to cancer development. Some lncRNAs act as oncogenes by promoting cell growth and metastasis, while others function as tumor suppressors by inhibiting cell cycle progression or inducing apoptosis. The dysregulation of lncRNA expression is frequently observed in cancer, and lncRNAs are emerging as potential therapeutic targets and biomarkers for cancer diagnosis and prognosis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with new-onset atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, cardioversion; if stable, rate or rhythm control strategies.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to cancer metastasis, and what are the current methods for detecting and characterizing CTCs in liquid biopsies?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream, representing a critical step in cancer metastasis. CTCs can survive in the circulation, extravasate into distant organs, and initiate the formation of secondary tumors. CTCs undergo epithelial-mesenchymal transition (EMT) to enhance their migratory and invasive properties. Detection and characterization of CTCs in liquid biopsies (blood samples) provide a non-invasive means of monitoring cancer progression and treatment response. The CellSearch system is the most widely used FDA-approved method for CTC enumeration, based on immunomagnetic capture using antibodies against EpCAM. Other emerging technologies include microfluidic devices, PCR-based assays, and next-generation sequencing, which enable the detection of CTCs with higher sensitivity and allow for comprehensive molecular profiling of CTCs, including gene expression analysis, mutation detection, and protein expression analysis. Characterization of CTCs can provide valuable information for predicting prognosis and guiding treatment decisions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical presentation of a patient with acute appendicitis?",
+    "answer": "Periumbilical pain migrating to the right lower quadrant, fever, anorexia, nausea/vomiting.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which viruses evade host immune responses, and how can these mechanisms be targeted for antiviral drug development?",
+    "answer": "Viruses employ diverse strategies to evade host immune responses, including interference with interferon signaling, inhibition of antigen presentation, and suppression of T cell and NK cell activity. Many viruses encode proteins that block the production or signaling of type I interferons (IFNs), which are critical for antiviral defense. Some viruses downregulate the expression of MHC class I molecules on infected cells, preventing recognition by cytotoxic T lymphocytes (CTLs). Others express proteins that inhibit the activation of NK cells or induce the expression of inhibitory ligands on infected cells. Targeting these viral evasion mechanisms represents a promising approach for antiviral drug development. For example, inhibitors of viral proteases that are required for processing viral proteins involved in immune evasion could restore host immune function. Similarly, strategies to enhance the expression of MHC class I molecules or stimulate NK cell activity could improve viral clearance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common causes of secondary hypertension?",
+    "answer": "Renal artery stenosis, primary aldosteronism, obstructive sleep apnea, pheochromocytoma, Cushing's syndrome.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to cellular homeostasis and disease pathogenesis, and what are the key regulators of autophagy?",
+    "answer": "Autophagy is a cellular process that involves the degradation and recycling of damaged organelles, misfolded proteins, and other cellular debris within lysosomes. It plays a critical role in maintaining cellular homeostasis and protecting cells from stress. Autophagy is regulated by a complex network of signaling pathways and proteins, including the mammalian target of rapamycin (mTOR), which inhibits autophagy under nutrient-rich conditions, and the Beclin 1-PI3K complex, which is essential for the initiation of autophagosome formation. Autophagy is implicated in the pathogenesis of a wide range of diseases, including cancer, neurodegenerative disorders, and infectious diseases. In cancer, autophagy can act as both a tumor suppressor by removing damaged organelles and preventing genomic instability, and as a tumor promoter by providing cancer cells with nutrients and energy under stress conditions. In neurodegenerative disorders, impaired autophagy can lead to the accumulation of protein aggregates, contributing to neuronal dysfunction and cell death.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for osteoporosis screening?",
+    "answer": "Bone density screening with DEXA scan for women ≥65 years and men ≥70 years, or earlier based on risk factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of epigenetic modifications, such as DNA methylation and histone acetylation, in regulating gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation, play a crucial role in regulating gene expression and cellular differentiation without altering the underlying DNA sequence. DNA methylation, typically occurring at cytosine residues in CpG dinucleotides, is generally associated with gene silencing. Histone acetylation, on the other hand, is associated with increased gene expression by relaxing chromatin structure and promoting the binding of transcription factors. These epigenetic modifications are dynamically regulated by enzymes such as DNA methyltransferases (DNMTs) and histone acetyltransferases (HATs), respectively. Epigenetic modifications are essential for establishing and maintaining cell identity during development and differentiation. Aberrant epigenetic modifications are frequently observed in cancer and other diseases, leading to dysregulation of gene expression and altered cellular function.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine; if ineffective, transcutaneous pacing or dopamine/epinephrine infusion; consider cardiology consult.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do advancements in single-cell RNA sequencing (scRNA-seq) technologies contribute to our understanding of cellular heterogeneity in complex tissues and organs?",
+    "answer": "Single-cell RNA sequencing (scRNA-seq) allows for the analysis of gene expression profiles at the individual cell level, providing unprecedented insights into cellular heterogeneity in complex tissues and organs. Unlike bulk RNA sequencing, which provides an average gene expression profile across a population of cells, scRNA-seq can identify rare cell types, define cell states, and uncover novel cell-cell interactions. scRNA-seq technologies have revealed that many tissues, previously thought to be relatively homogenous, are composed of a diverse array of cell types and subtypes, each with distinct gene expression signatures and functions. Furthermore, scRNA-seq can be used to track cellular differentiation trajectories, identify regulatory networks, and study the impact of disease on cellular composition and function. Advancements in scRNA-seq technologies, such as increased throughput, improved sensitivity, and spatial transcriptomics, are further expanding our ability to dissect cellular heterogeneity and understand the complex biology of tissues and organs. These technologies are powerful for analyzing disease states and understanding the mechanisms of therapeutic response.",
+    "persona": "Researcher"
+  }
+]

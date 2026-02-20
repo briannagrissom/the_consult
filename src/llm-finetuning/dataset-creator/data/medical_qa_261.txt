@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, perform immediate cardioversion; if stable, consider rate or rhythm control strategies based on patient factors per current guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR-targeted therapies in non-small cell lung cancer?",
+    "answer": "EGFR-tyrosine kinase inhibitors (TKIs) such as gefitinib and erlotinib initially demonstrate high response rates in NSCLC patients harboring activating EGFR mutations (e.g., exon 19 deletions, L858R). However, acquired resistance invariably emerges, most commonly via the T790M mutation in exon 20 of EGFR. T790M sterically hinders TKI binding to the ATP-binding pocket, restoring EGFR kinase activity. Second-generation irreversible EGFR inhibitors like afatinib and dacomitinib can overcome T790M to some extent, but are limited by toxicity. Osimertinib, a third-generation TKI, was specifically designed to target both EGFR-activating mutations and T790M with improved selectivity and efficacy. However, resistance to osimertinib ultimately develops, often mediated by C797S mutations that prevent covalent drug binding. Other resistance mechanisms involve bypass signaling pathways (e.g., MET amplification, activation of PI3K/AKT) or histologic transformation (e.g., to small cell lung cancer). Combination strategies that target EGFR and bypass pathways are under investigation to delay or overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, HbA1c ≥6.5%, or random plasma glucose ≥200 mg/dL in a patient with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome profoundly influences the efficacy of immune checkpoint inhibitors (ICIs) targeting PD-1/PD-L1 and CTLA-4. Specific bacterial taxa, such as *Akkermansia muciniphila*, *Faecalibacterium prausnitzii*, and certain *Bifidobacterium* species, have been associated with improved responses to ICIs in melanoma, lung cancer, and other malignancies. These bacteria can enhance anti-tumor immunity by modulating dendritic cell function, promoting T-cell infiltration into the tumor microenvironment, and increasing the production of immunostimulatory cytokines like IFN-γ and TNF-α. Conversely, dysbiosis characterized by a lack of these beneficial bacteria or an overabundance of opportunistic pathogens can impair ICI responses. Mechanisms underlying these effects include the modulation of systemic inflammation via TLR signaling, the production of microbial metabolites like short-chain fatty acids (SCFAs) that influence immune cell activity, and the direct interaction of bacterial components with immune cells in the gut-associated lymphoid tissue. Fecal microbiota transplantation (FMT) studies have demonstrated that transferring gut microbiota from ICI-responding patients to non-responding patients can restore ICI sensitivity in some cases, underscoring the causal role of the microbiome. Modulation of the gut microbiome through dietary interventions, prebiotics, probiotics, or FMT represents a promising strategy to enhance the efficacy of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (azithromycin or clarithromycin) depending on local resistance patterns and patient allergies; consider a respiratory fluoroquinolone (levofloxacin or moxifloxacin) in patients with comorbidities.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work, and what are its applications in biomedical research?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) is a revolutionary gene editing technology derived from the adaptive immune system of bacteria. It employs a guide RNA (gRNA) complementary to a specific DNA sequence, which directs the Cas9 nuclease to the target site in the genome. Cas9 then introduces a double-stranded break (DSB) at the targeted location. The cell repairs the DSB either through non-homologous end joining (NHEJ), which is error-prone and often results in gene disruption via insertions or deletions (indels), or through homology-directed repair (HDR), which allows for precise gene editing by providing a DNA template with the desired sequence. In biomedical research, CRISPR-Cas9 has diverse applications including gene knockout studies to elucidate gene function, gene correction to repair disease-causing mutations, gene regulation to control gene expression, and genome-wide screening to identify novel drug targets. It is also being used to develop gene therapies for genetic disorders such as cystic fibrosis, sickle cell anemia, and Duchenne muscular dystrophy. Furthermore, CRISPR-Cas9 is utilized in creating animal models of human diseases, engineering immune cells for cancer immunotherapy (e.g., CAR-T cells), and developing diagnostic tools for infectious diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard approach to managing a patient with a first-time unprovoked seizure?",
+    "answer": "Obtain a detailed history and physical exam; perform EEG and neuroimaging (MRI preferred); consider starting antiepileptic medication if there is a high risk of recurrence.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms underlying the development of antibiotic resistance in bacteria?",
+    "answer": "Antibiotic resistance arises through several mechanisms, including enzymatic inactivation of the antibiotic (e.g., beta-lactamases hydrolyzing beta-lactam antibiotics), alteration of the antibiotic target site (e.g., mutations in ribosomal RNA conferring resistance to macrolides), decreased drug uptake (e.g., mutations in porin channels reducing entry of antibiotics into Gram-negative bacteria), and increased drug efflux (e.g., overexpression of efflux pumps that actively pump antibiotics out of the cell). These resistance mechanisms can be acquired through horizontal gene transfer (e.g., conjugation, transduction, transformation) of resistance genes carried on plasmids, transposons, or integrons, or they can arise through spontaneous mutations in the bacterial chromosome. Selective pressure from antibiotic use promotes the survival and proliferation of resistant bacteria, leading to their dominance in bacterial populations. The spread of antibiotic resistance is a major threat to public health, necessitating strategies to reduce antibiotic use, develop new antibiotics, and implement infection control measures to prevent the transmission of resistant bacteria.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical management for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin (unfractionated or low-molecular-weight) bridged to warfarin, direct oral anticoagulants (DOACs) such as rivaroxaban or apixaban, or, in select cases, thrombolysis or IVC filter placement.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do different signaling pathways converge to regulate apoptosis, and what role does dysregulation of apoptosis play in cancer?",
+    "answer": "Apoptosis, or programmed cell death, is regulated by the convergence of multiple signaling pathways. The extrinsic pathway is initiated by death ligands (e.g., TNF-α, FasL) binding to death receptors (e.g., TNFR1, Fas) on the cell surface, leading to the formation of the death-inducing signaling complex (DISC) and activation of caspase-8. The intrinsic pathway is triggered by intracellular stress signals (e.g., DNA damage, hypoxia, growth factor withdrawal), leading to mitochondrial outer membrane permeabilization (MOMP) and the release of cytochrome c, which activates caspase-9 via the apoptosome. Both caspase-8 and caspase-9 activate downstream effector caspases (e.g., caspase-3, caspase-7) that execute the apoptotic program. The Bcl-2 family proteins regulate MOMP, with pro-apoptotic members (e.g., Bax, Bak) promoting MOMP and anti-apoptotic members (e.g., Bcl-2, Bcl-xL) inhibiting it. Dysregulation of apoptosis is a hallmark of cancer. Overexpression of anti-apoptotic proteins, inactivation of pro-apoptotic proteins, or mutations in caspase genes can lead to resistance to apoptosis, allowing cancer cells to survive and proliferate unchecked. Targeting apoptotic pathways is a major focus in cancer therapy, with strategies aimed at inhibiting anti-apoptotic proteins (e.g., Bcl-2 inhibitors) or activating pro-apoptotic pathways (e.g., TRAIL receptor agonists).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a female patient?",
+    "answer": "Nitrofurantoin, trimethoprim-sulfamethoxazole (TMP-SMX), or fosfomycin; consider local resistance patterns and patient allergies.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system, and how can this knowledge be used to develop new antiviral therapies?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system. These include: (1) Interfering with interferon (IFN) signaling: Many viruses encode proteins that inhibit IFN production, block IFN receptor signaling, or suppress the expression of IFN-stimulated genes (ISGs). (2) Disrupting antigen presentation: Viruses can downregulate MHC class I expression, inhibit proteasome activity, or interfere with peptide transport to evade T cell recognition. (3) Evading antibody neutralization: Rapid mutation rates in viral surface proteins (e.g., influenza hemagglutinin and neuraminidase) allow viruses to escape neutralizing antibodies. (4) Suppressing T cell function: Some viruses encode immunosuppressive cytokines (e.g., IL-10 homologs) or induce T cell exhaustion or apoptosis. (5) Establishing latency: Viruses like HIV and herpesviruses can establish latent infections in immune-privileged sites, evading immune surveillance. Understanding these mechanisms is crucial for developing new antiviral therapies. Strategies include: (1) IFN-based therapies: Recombinant IFN-α or IFN-λ can boost antiviral immunity. (2) Immunomodulatory agents: TLR agonists can activate innate immune responses to enhance viral clearance. (3) Therapeutic antibodies: Broadly neutralizing antibodies can target conserved viral epitopes to overcome antigenic variation. (4) Vaccines: Vaccines can elicit robust and durable protective immunity against viral infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard management for a patient experiencing an acute asthma exacerbation?",
+    "answer": "Oxygen, inhaled short-acting beta-agonists (SABAs), systemic corticosteroids; consider ipratropium bromide in severe exacerbations.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell metabolism, and what are potential therapeutic strategies to target this metabolic shift?",
+    "answer": "The Warburg effect, also known as aerobic glycolysis, is a metabolic hallmark of cancer cells characterized by increased glucose uptake and lactate production even in the presence of oxygen. Unlike normal cells that primarily use mitochondrial oxidative phosphorylation (OXPHOS) for energy production, cancer cells preferentially rely on glycolysis, which is less efficient in terms of ATP yield. This metabolic shift provides cancer cells with several advantages, including: (1) Rapid ATP production to support their high proliferation rate. (2) Generation of biosynthetic precursors (e.g., NADPH, ribose-5-phosphate) needed for nucleotide, lipid, and protein synthesis. (3) Acidification of the tumor microenvironment, which promotes tumor invasion and metastasis. (4) Reduced ROS production compared to OXPHOS, protecting cancer cells from oxidative stress. Therapeutic strategies targeting the Warburg effect include: (1) Glucose transport inhibitors (e.g., 2-deoxyglucose, WZB). (2) Glycolytic enzyme inhibitors (e.g., 3-bromopyruvate, dichloroacetate). (3) Mitochondrial OXPHOS activators (e.g., metformin). (4) Glutamine antagonists (e.g., CB-839). (5) Combination therapies targeting both glycolysis and OXPHOS. These strategies aim to disrupt cancer cell metabolism and selectively kill cancer cells while sparing normal cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient with hypothyroidism?",
+    "answer": "Levothyroxine, with dosage adjustments based on TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major signaling pathways involved in Alzheimer's disease pathogenesis, and how are they being targeted for therapeutic intervention?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid plaques and neurofibrillary tangles, leading to neuronal dysfunction and cognitive decline. Several signaling pathways are implicated in AD pathogenesis: (1) Amyloid precursor protein (APP) processing: Abnormal cleavage of APP by β-secretase (BACE1) and γ-secretase leads to the production of amyloid-β (Aβ) peptides, which aggregate to form amyloid plaques. (2) Tau phosphorylation: Hyperphosphorylation of tau protein causes it to detach from microtubules and form neurofibrillary tangles. (3) Inflammation: Activation of microglia and astrocytes leads to the release of inflammatory mediators that contribute to neuronal damage. (4) Oxidative stress: Increased production of reactive oxygen species (ROS) causes oxidative damage to neurons. (5) Insulin signaling: Impaired insulin signaling in the brain contributes to Aβ accumulation and tau phosphorylation. Therapeutic strategies targeting these pathways include: (1) BACE1 inhibitors and γ-secretase modulators to reduce Aβ production. (2) Tau phosphorylation inhibitors to prevent tangle formation. (3) Anti-inflammatory drugs to reduce neuroinflammation. (4) Antioxidants to reduce oxidative stress. (5) Insulin sensitizers to improve insulin signaling. Clinical trials are ongoing to evaluate the efficacy of these therapies in treating AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical treatment approach for a patient with a confirmed diagnosis of tuberculosis?",
+    "answer": "Isoniazid, rifampin, pyrazinamide, and ethambutol (or streptomycin) for two months, followed by isoniazid and rifampin for four months.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between innate and adaptive immunity, and how do they work together to protect the host from infection?",
+    "answer": "Innate immunity is the first line of defense against pathogens, providing rapid but non-specific protection. It includes physical barriers (e.g., skin, mucous membranes), cellular components (e.g., macrophages, neutrophils, natural killer cells), and soluble factors (e.g., complement, cytokines). Innate immune cells recognize pathogens through pattern recognition receptors (PRRs) that bind to pathogen-associated molecular patterns (PAMPs). Adaptive immunity is a slower but more specific and long-lasting response that is mediated by lymphocytes (T cells and B cells). T cells recognize antigens presented by antigen-presenting cells (APCs) and mediate cellular immunity, while B cells produce antibodies that neutralize pathogens and mediate humoral immunity. Innate and adaptive immunity work together to protect the host from infection. Innate immune responses activate and shape adaptive immune responses. For example, dendritic cells (DCs), a type of APC, capture antigens at the site of infection and migrate to lymph nodes, where they present the antigens to T cells and initiate adaptive immune responses. Cytokines produced by innate immune cells influence the differentiation and function of T cells and B cells. Antibodies produced by B cells can enhance the phagocytosis of pathogens by macrophages and neutrophils.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient presenting with acute myocardial infarction (AMI)?",
+    "answer": "Oxygen, aspirin, nitroglycerin, morphine (if needed for pain), ECG, and prompt reperfusion therapy (PCI or thrombolytics).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors work to enhance anti-tumor immunity, and what are the major challenges associated with this approach?",
+    "answer": "Immune checkpoint inhibitors (ICIs) are monoclonal antibodies that block inhibitory immune checkpoint molecules such as CTLA-4 and PD-1/PD-L1, thereby enhancing anti-tumor immunity. CTLA-4, expressed on T cells, inhibits T cell activation by competing with CD28 for binding to B7 ligands on antigen-presenting cells (APCs). PD-1, also expressed on T cells, binds to PD-L1 on tumor cells or APCs, leading to T cell exhaustion and suppression of anti-tumor immunity. By blocking these checkpoints, ICIs unleash T cell activity and promote tumor cell killing. Major challenges associated with ICI therapy include: (1) Immune-related adverse events (irAEs): ICIs can cause autoimmune-like reactions in various organs, leading to colitis, pneumonitis, hepatitis, and endocrinopathies. (2) Resistance: Many patients do not respond to ICIs, and some patients develop acquired resistance after initial response. Mechanisms of resistance include loss of antigen presentation, mutations in IFN-γ signaling, and immune suppression by regulatory T cells (Tregs) or myeloid-derived suppressor cells (MDSCs). (3) Biomarker identification: Predictive biomarkers are needed to identify patients who are most likely to benefit from ICI therapy. (4) Combination strategies: Combining ICIs with other therapies, such as chemotherapy, radiation therapy, or targeted therapy, is being explored to improve efficacy.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are appropriate first-line options; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the CFTR gene lead to the diverse manifestations of cystic fibrosis?",
+    "answer": "Cystic fibrosis transmembrane conductance regulator (CFTR) mutations disrupt chloride ion transport across epithelial cell membranes, leading to dehydrated mucus and impaired mucociliary clearance, especially in the lungs, pancreas, and intestine. The severity of CFTR dysfunction depends on the specific mutation. Class I mutations result in defective protein production, class II mutations (e.g., ΔF508) cause misfolding and degradation of the protein, class III mutations impair channel regulation, class IV mutations reduce chloride conductance, and class V mutations reduce the amount of functional protein produced. These different classes of mutations result in variable degrees of chloride transport impairment, leading to phenotypic heterogeneity. The lungs are especially vulnerable due to mucus plugging, which leads to chronic bacterial infections (e.g., Pseudomonas aeruginosa, Burkholderia cepacia) and inflammation, eventually causing bronchiectasis and respiratory failure. Pancreatic insufficiency results from duct obstruction, leading to malabsorption and diabetes. CFTR dysfunction also affects the vas deferens, causing infertility in males. CFTR modulators (e.g., ivacaftor, lumacaftor, tezacaftor, elexacaftor) target specific CFTR mutations to improve chloride transport, offering personalized therapeutic approaches. The combination of elexacaftor, tezacaftor, and ivacaftor can restore CFTR function in individuals with at least one F508del allele, significantly improving lung function and quality of life.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone?",
+    "answer": "Every 3 years for women aged 21-29; co-testing with HPV is preferred for women aged 30-65.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC commonly arises through several mechanisms that restore downstream signaling. The most common is the T790M mutation in EGFR, which increases the receptor's affinity for ATP, thus reducing TKI binding. Bypass signaling pathways, such as MET amplification and activation of HER2/HER3, can independently activate downstream pathways like PI3K/AKT and MAPK, circumventing EGFR inhibition. Epithelial-mesenchymal transition (EMT) can also promote resistance by altering cellular morphology and increasing invasive potential, often linked to increased expression of EMT-inducing transcription factors like SNAIL and TWIST. Small cell lung cancer transformation can occur, rendering EGFR inhibitors ineffective. Additionally, mutations in downstream signaling molecules such as BRAF or PIK3CA can lead to TKI resistance. Immunotherapy, combination therapies targeting bypass pathways, and novel EGFR inhibitors targeting T790M are strategies to overcome TKI resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with ST-elevation myocardial infarction (STEMI)?",
+    "answer": "Immediate reperfusion therapy with primary percutaneous coronary intervention (PCI) or fibrinolysis if PCI is not readily available.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome plays a critical role in modulating the efficacy of immune checkpoint inhibitors (ICIs) by influencing systemic immunity and the tumor microenvironment. Certain bacterial species, such as Akkermansia muciniphila, Faecalibacterium prausnitzii, and Bifidobacterium species, have been associated with improved responses to ICIs, while others may promote resistance or toxicity. These bacteria can modulate the immune system by producing metabolites such as short-chain fatty acids (SCFAs), which enhance T-cell function and promote dendritic cell maturation. They also influence the trafficking of immune cells to the tumor microenvironment. Dysbiosis, or an imbalance in the gut microbiome, can impair immune responses and reduce ICI efficacy. Factors like antibiotic use, diet, and genetics can influence the composition of the gut microbiome. Fecal microbiota transplantation (FMT) studies have shown that transferring gut microbiota from ICI-responsive patients to non-responsive patients can improve their responses to ICIs. Strategies to modulate the gut microbiome, such as dietary interventions, probiotics, and FMT, are being explored to enhance the efficacy of ICIs in cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for a patient diagnosed with Graves' disease?",
+    "answer": "Antithyroid drugs (methimazole or propylthiouracil), radioactive iodine ablation, or thyroidectomy are options depending on patient preference and clinical factors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What mechanisms underlie the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid plaques composed of amyloid-beta (Aβ) peptides and neurofibrillary tangles made of hyperphosphorylated tau protein in the brain. The amyloid cascade hypothesis posits that Aβ accumulation triggers a cascade of events leading to tau hyperphosphorylation, neuronal dysfunction, and synaptic loss. Aβ is generated from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. Mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), which are components of the γ-secretase complex, can increase Aβ production and aggregation, leading to early-onset AD. Tau hyperphosphorylation leads to the formation of neurofibrillary tangles, which disrupt microtubule function and impair axonal transport. Neuroinflammation, oxidative stress, mitochondrial dysfunction, and impaired glucose metabolism also contribute to AD pathogenesis. Genetic factors, such as the APOE4 allele, increase the risk of late-onset AD. Treatments targeting Aβ (e.g., aducanumab, lecanemab) and tau are being developed to slow disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the typical duration of dual antiplatelet therapy (DAPT) following placement of a drug-eluting stent (DES)?",
+    "answer": "Typically 6-12 months, but duration can vary based on bleeding risk and clinical presentation.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells evade detection and destruction by the immune system?",
+    "answer": "Cancer cells employ multiple strategies to evade immune surveillance and destruction. They can downregulate or lose expression of major histocompatibility complex (MHC) class I molecules, which are required for antigen presentation to cytotoxic T lymphocytes (CTLs), making them invisible to T-cell recognition. Cancer cells can also express immune checkpoint molecules, such as programmed death-ligand 1 (PD-L1), which binds to PD-1 on T cells, inhibiting their activation and effector functions. Additionally, cancer cells can secrete immunosuppressive cytokines, such as transforming growth factor-beta (TGF-β) and interleukin-10 (IL-10), which suppress the activity of immune cells in the tumor microenvironment. They can recruit regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs), which further suppress antitumor immunity. Cancer cells can also undergo antigenic variation, altering their surface antigens to escape recognition by pre-existing antibodies and T cells. Furthermore, they can create a physical barrier, such as a dense extracellular matrix, to prevent immune cell infiltration. Immunotherapeutic approaches, such as immune checkpoint inhibitors and adoptive T-cell therapy, aim to overcome these immune evasion mechanisms and restore antitumor immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers; consider anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key differences between type 1 and type 2 diabetes mellitus in terms of etiology and pathophysiology?",
+    "answer": "Type 1 diabetes mellitus (T1DM) is an autoimmune disease characterized by the destruction of insulin-producing beta cells in the pancreas, leading to absolute insulin deficiency. T1DM is typically diagnosed in childhood or adolescence and is associated with genetic susceptibility and environmental triggers. Type 2 diabetes mellitus (T2DM) is a metabolic disorder characterized by insulin resistance and progressive beta-cell dysfunction. Insulin resistance is often associated with obesity, physical inactivity, and genetic predisposition. Initially, the pancreas compensates for insulin resistance by producing more insulin, but over time, beta-cell function declines, leading to relative insulin deficiency and hyperglycemia. While T1DM requires lifelong insulin therapy, T2DM can be managed with lifestyle modifications, oral medications, and/or insulin. T2DM is more common than T1DM and is often associated with other metabolic abnormalities, such as dyslipidemia and hypertension. The pathogenesis of T2DM is complex and involves interactions between genetic, environmental, and lifestyle factors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis?",
+    "answer": "Empiric antibiotics (e.g., ceftriaxone and vancomycin) plus dexamethasone; adjust based on culture results.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses, such as HIV, evade the host's immune system to establish persistent infections?",
+    "answer": "Viruses employ diverse mechanisms to evade the host's immune system and establish persistent infections. HIV, for example, exhibits high genetic variability due to its error-prone reverse transcriptase, leading to the generation of escape mutants that are no longer recognized by neutralizing antibodies or cytotoxic T lymphocytes (CTLs). HIV also infects CD4+ T cells, which are critical for orchestrating immune responses, leading to immune suppression. Latency is another key mechanism; HIV can integrate its genome into the host cell's DNA and remain dormant, evading detection by the immune system. The virus can also downregulate the expression of MHC class I molecules on infected cells, reducing their recognition by CTLs. HIV can also produce decoy molecules that bind to neutralizing antibodies, preventing them from targeting infected cells. Furthermore, HIV can induce the expression of immune checkpoint molecules, such as PD-1, on infected cells, inhibiting T-cell activation. These evasion strategies allow HIV to establish persistent infections and cause chronic immune activation and disease progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological treatment for a patient diagnosed with Parkinson's disease?",
+    "answer": "Levodopa/carbidopa is a common first-line treatment option; other options include dopamine agonists or MAO-B inhibitors.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic regulation contribute to cancer development and progression?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression and cellular function. Aberrant epigenetic patterns are frequently observed in cancer cells and contribute to cancer development and progression. DNA methylation, particularly at CpG islands in promoter regions, can silence tumor suppressor genes. Histone modifications, such as histone acetylation and methylation, can alter chromatin structure and gene accessibility. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can regulate gene expression by targeting mRNAs or interacting with chromatin-modifying complexes. Epigenetic changes can affect a wide range of cellular processes, including cell proliferation, differentiation, apoptosis, and DNA repair. Epigenetic modifications are reversible, making them attractive targets for cancer therapy. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are being used to restore normal gene expression patterns in cancer cells. Combination therapies targeting both genetic and epigenetic alterations are being explored to improve cancer treatment outcomes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended follow-up for a patient with a solitary pulmonary nodule detected on chest X-ray?",
+    "answer": "Management depends on nodule size, characteristics, and patient risk factors; typically involves serial CT scans or biopsy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms by which antibiotic resistance develops in bacteria?",
+    "answer": "Antibiotic resistance in bacteria arises through several mechanisms. These include enzymatic inactivation of the antibiotic (e.g., beta-lactamases that hydrolyze beta-lactam antibiotics), alteration of the antibiotic target site (e.g., mutations in ribosomal proteins that prevent antibiotic binding), decreased antibiotic uptake (e.g., mutations in porins that reduce antibiotic entry into the cell), increased antibiotic efflux (e.g., efflux pumps that actively pump antibiotics out of the cell), and metabolic bypass pathways (e.g., development of alternative metabolic pathways that circumvent the antibiotic's target). Resistance genes can be acquired through horizontal gene transfer, including conjugation (transfer of plasmids), transduction (transfer of DNA via bacteriophages), and transformation (uptake of free DNA from the environment). Antibiotic resistance can also arise through spontaneous mutations in bacterial genes. The overuse and misuse of antibiotics in human medicine and agriculture have contributed to the spread of antibiotic resistance. Strategies to combat antibiotic resistance include developing new antibiotics, implementing antibiotic stewardship programs, and developing alternative therapies, such as phage therapy and antimicrobial peptides.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient presenting with acute exacerbation of chronic obstructive pulmonary disease (COPD)?",
+    "answer": "Bronchodilators (beta-agonists and anticholinergics), systemic corticosteroids, and antibiotics if bacterial infection is suspected.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do chimeric antigen receptor (CAR) T-cell therapies work to target and eliminate cancer cells?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a CAR, which is a synthetic receptor that combines an antigen-binding domain (typically derived from an antibody) with intracellular signaling domains that activate T-cell function. The CAR allows the T cells to recognize and bind to a specific antigen expressed on cancer cells, independent of MHC presentation. Upon binding to the target antigen, the CAR triggers T-cell activation, leading to the release of cytotoxic molecules, such as perforin and granzymes, which kill the cancer cells. The signaling domains within the CAR, such as CD3ζ and costimulatory molecules (e.g., CD28 or 4-1BB), determine the strength and duration of T-cell activation. CAR T-cell therapy has shown remarkable success in treating hematologic malignancies, such as B-cell lymphomas and acute lymphoblastic leukemia. However, CAR T-cell therapy can also cause toxicities, such as cytokine release syndrome (CRS) and neurotoxicity. Strategies to mitigate these toxicities include using CARs with lower affinity for the target antigen and incorporating safety switches that allow for the selective elimination of CAR T cells. CAR T-cell therapy is being explored for the treatment of solid tumors, but challenges remain in overcoming the immunosuppressive tumor microenvironment and identifying suitable target antigens.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing work at a mechanistic level?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence to direct the Cas9 nuclease to a specific genomic location. The Cas9 protein then creates a double-stranded break (DSB) at the target site. The cell repairs the DSB via either non-homologous end joining (NHEJ), which is error-prone and can introduce insertions or deletions (indels), or homology-directed repair (HDR) if a DNA template with homology to the targeted region is provided. HDR allows for precise gene editing and insertion of new genetic material. The specificity of the gRNA sequence dictates the accuracy of targeting, though off-target effects remain a challenge. Variations of Cas9, such as dead Cas9 (dCas9) fused to transcriptional activators or repressors, enable modulation of gene expression without permanently altering the DNA sequence.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of a patient with new-onset atrial fibrillation?",
+    "answer": "Palpitations, fatigue, shortness of breath, dizziness, or asymptomatic.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of long non-coding RNAs (lncRNAs) in cancer development and progression?",
+    "answer": "Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nucleotides that lack protein-coding potential and play diverse regulatory roles in cancer. They modulate gene expression at epigenetic, transcriptional, and post-transcriptional levels. Some lncRNAs act as scaffolds, bringing together proteins to regulate chromatin modification and transcription. Others serve as competing endogenous RNAs (ceRNAs), sponging microRNAs and preventing them from binding to their target mRNAs, thus increasing mRNA stability and translation. For example, lncRNA HOTAIR promotes metastasis by recruiting PRC2 to silence tumor suppressor genes, while lncRNA MALAT1 enhances cell proliferation and angiogenesis. Aberrant expression of lncRNAs is frequently observed in cancer, and they can function as either oncogenes or tumor suppressors depending on the context. Furthermore, lncRNAs can influence drug resistance and immune evasion, making them potential therapeutic targets and biomarkers.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk adults?",
+    "answer": "Colonoscopy every 10 years or annual FIT test starting at age 45 per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do checkpoint inhibitors like anti-PD-1 antibodies enhance anti-tumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1 (programmed cell death protein 1) and anti-CTLA-4 (cytotoxic T-lymphocyte-associated protein 4) antibodies, unleash anti-tumor immunity by blocking inhibitory signals that normally dampen T-cell activation and effector function. PD-1, expressed on T cells, binds to its ligands PD-L1 and PD-L2 on tumor cells and antigen-presenting cells, leading to T-cell exhaustion and immune evasion. Anti-PD-1 antibodies prevent this interaction, reinvigorating T cells and allowing them to kill tumor cells. Similarly, CTLA-4, expressed on T cells, competes with the co-stimulatory molecule CD28 for binding to B7 ligands on antigen-presenting cells, thereby inhibiting T-cell activation. Anti-CTLA-4 antibodies block CTLA-4, enhancing T-cell priming and activation. These checkpoint inhibitors have shown remarkable clinical efficacy in various cancers, but they can also cause immune-related adverse events due to the broad activation of the immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with symptomatic hypercalcemia?",
+    "answer": "IV fluids and calcitonin.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in the pathogenesis of inflammatory bowel disease (IBD)?",
+    "answer": "The gut microbiome plays a crucial role in the pathogenesis of inflammatory bowel disease (IBD), including Crohn's disease and ulcerative colitis. Dysbiosis, characterized by a reduction in microbial diversity and an imbalance in the composition of the gut microbiota, is a hallmark of IBD. Specifically, there is often a decrease in beneficial bacteria, such as Firmicutes, and an increase in pathobionts, such as Escherichia coli. These microbial alterations can disrupt the intestinal barrier function, increase intestinal permeability, and promote chronic inflammation. Certain bacterial metabolites, such as lipopolysaccharide (LPS), can activate the innate immune system and exacerbate inflammation. Furthermore, the gut microbiome influences the development and function of the host immune system, shaping both pro-inflammatory and anti-inflammatory responses. Genetic susceptibility, environmental factors, and immune dysregulation interact with the gut microbiome to drive the chronic inflammation observed in IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, A1c ≥6.5%, or random glucose ≥200 mg/dL with symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade detection and elimination by the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade detection and elimination by the host immune system. These include: (1) Antigenic variation: viruses like influenza undergo frequent mutations (antigenic drift) or reassortment (antigenic shift) to alter their surface proteins, evading neutralizing antibodies. (2) Latency: some viruses, such as herpesviruses, establish latent infections where they remain dormant within host cells and express minimal viral proteins, avoiding immune recognition. (3) Interference with interferon signaling: viruses encode proteins that inhibit the production or signaling of type I interferons, which are crucial for antiviral defense. (4) Inhibition of antigen presentation: viruses block the presentation of viral antigens on MHC class I molecules, preventing recognition by cytotoxic T lymphocytes (CTLs). (5) Evasion of natural killer (NK) cell recognition: viruses downregulate the expression of MHC class I molecules, which normally activate NK cells, or express ligands that inhibit NK cell activity. (6) Production of decoy molecules: viruses secrete proteins that bind to and neutralize antibodies or cytokines, preventing them from reaching their targets. These evasion mechanisms enable viruses to persist within the host and cause chronic or recurrent infections.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Empiric antibiotics such as macrolides or doxycycline for outpatients per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell survival and proliferation?",
+    "answer": "The Warburg effect, also known as aerobic glycolysis, refers to the phenomenon where cancer cells preferentially utilize glycolysis over oxidative phosphorylation for energy production, even in the presence of oxygen. This metabolic shift provides several advantages for cancer cell survival and proliferation. (1) Increased glucose uptake: Cancer cells upregulate glucose transporters, allowing them to rapidly take up glucose. (2) Enhanced glycolysis: Glycolytic enzymes are upregulated, leading to increased production of pyruvate and lactate. (3) Reduced mitochondrial activity: Oxidative phosphorylation is suppressed, reducing the production of reactive oxygen species (ROS) and protecting cancer cells from oxidative stress. (4) Biosynthetic precursors: Glycolysis provides essential biosynthetic precursors for the synthesis of nucleotides, amino acids, and lipids, supporting rapid cell growth and division. (5) Acidic microenvironment: Lactate production leads to an acidic microenvironment, which promotes tumor invasion and metastasis. The Warburg effect is regulated by oncogenes like Myc and signaling pathways like PI3K/AKT/mTOR, making it a promising target for cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects of statin medications?",
+    "answer": "Myalgia, elevated liver enzymes, and rarely rhabdomyolysis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of Alzheimer's disease?",
+    "answer": "Several key signaling pathways are implicated in the development of Alzheimer's disease (AD). Amyloid precursor protein (APP) processing leads to the formation of amyloid-beta (Aβ) plaques, triggering neuroinflammation and synaptic dysfunction. Tau hyperphosphorylation results in the formation of neurofibrillary tangles, disrupting neuronal transport and causing cell death. Dysregulation of calcium homeostasis, oxidative stress, and mitochondrial dysfunction contribute to neuronal damage. Signaling pathways, such as the Wnt, PI3K/AKT/mTOR, and MAPK pathways, are also disrupted in AD. Neuroinflammation, mediated by microglia and astrocytes, exacerbates neuronal damage. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), increase Aβ production and contribute to early-onset AD. Apolipoprotein E (APOE) isoforms, particularly APOE4, modulate Aβ clearance and influence AD risk. These complex interactions between signaling pathways, genetic factors, and pathological hallmarks contribute to the progressive neurodegeneration observed in AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for anaphylaxis?",
+    "answer": "Epinephrine injection.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses cross the blood-brain barrier (BBB) to infect the central nervous system?",
+    "answer": "Viruses can cross the blood-brain barrier (BBB) through several mechanisms to infect the central nervous system (CNS). (1) Transcellular pathway: viruses directly infect endothelial cells of the BBB and replicate within them, eventually crossing into the brain parenchyma. (2) Paracellular pathway: viruses disrupt the tight junctions between endothelial cells, increasing BBB permeability and allowing viral entry. (3) Trojan horse mechanism: viruses infect immune cells, such as monocytes and macrophages, which then migrate across the BBB and release the virus into the CNS. (4) Retrograde axonal transport: viruses enter peripheral nerve endings and travel retrogradely along axons to reach the CNS. (5) Circumventricular organs: viruses can directly enter the brain through circumventricular organs, which lack a tight BBB. Once inside the CNS, viruses can infect neurons, glial cells, and other brain cells, leading to neurological disorders. Specific viral proteins and host cell receptors mediate viral entry and BBB crossing.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the first-line treatment for major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) or cognitive behavioral therapy (CBT).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which bacteria develop resistance to antibiotics?",
+    "answer": "Bacteria develop resistance to antibiotics through several mechanisms: (1) Enzymatic inactivation: bacteria produce enzymes that degrade or modify antibiotics, rendering them inactive (e.g., beta-lactamases). (2) Target modification: bacteria alter the structure of the antibiotic's target, preventing the antibiotic from binding effectively (e.g., mutations in ribosomal RNA). (3) Reduced permeability: bacteria decrease the permeability of their cell membranes to antibiotics, limiting drug entry. (4) Efflux pumps: bacteria express efflux pumps that actively transport antibiotics out of the cell, reducing intracellular drug concentrations. (5) Bypass pathways: bacteria develop alternative metabolic pathways that circumvent the inhibited target, allowing them to survive in the presence of the antibiotic. Horizontal gene transfer, including conjugation, transduction, and transformation, facilitates the spread of resistance genes among bacteria. The overuse and misuse of antibiotics drive the selection and evolution of antibiotic-resistant bacteria.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management for a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with heparin or direct oral anticoagulants (DOACs).",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting the tumor microenvironment improve cancer treatment outcomes?",
+    "answer": "Immunotherapy strategies targeting the tumor microenvironment (TME) aim to modulate the complex interplay of cells, molecules, and factors that promote tumor growth and immune evasion. These strategies can improve cancer treatment outcomes by (1) Enhancing immune cell infiltration: Agents that disrupt the physical barrier of the TME, such as oncolytic viruses or hyaluronidase, can improve the penetration of immune cells into the tumor. (2) Repolarizing immunosuppressive cells: Therapies that target myeloid-derived suppressor cells (MDSCs) or tumor-associated macrophages (TAMs) can shift them from an immunosuppressive to an immunostimulatory phenotype. (3) Inhibiting immunosuppressive molecules: Blocking the activity of inhibitory molecules like TGF-β or VEGF can enhance T-cell activation and effector function. (4) Promoting angiogenesis normalization: Anti-angiogenic agents can normalize tumor vasculature, improving drug delivery and immune cell trafficking. (5) Targeting cancer-associated fibroblasts (CAFs): CAFs secrete extracellular matrix components and growth factors that promote tumor growth and immune evasion; targeting CAFs can disrupt these processes. Combining immunotherapy with strategies that modulate the TME can overcome resistance mechanisms and improve responses in patients who do not respond to checkpoint inhibitors alone.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line per IDSA guidelines; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to metastasis, and what are the key molecular events involved?",
+    "answer": "Circulating tumor cells (CTCs) facilitate metastasis through a complex series of molecular events. Following epithelial-mesenchymal transition (EMT), tumor cells detach from the primary tumor mass and enter the bloodstream. CTCs must then evade immune surveillance and anoikis (detachment-induced apoptosis). Successful CTCs often exhibit stem-like properties and express proteins that promote survival in the circulation, such as integrins and anti-apoptotic factors. Upon reaching distant capillary beds, CTCs undergo mesenchymal-epithelial transition (MET) to colonize new tissues. Key molecular events include upregulation of EMT transcription factors (e.g., SNAIL, TWIST), activation of receptor tyrosine kinases (e.g., EGFR, HER2), and remodeling of the extracellular matrix via matrix metalloproteinases (MMPs). CTCs also release exosomes containing microRNAs and proteins that precondition the distant metastatic niche. Furthermore, CTC clusters, formed through homotypic or heterotypic aggregation (e.g., with platelets or immune cells), exhibit enhanced metastatic potential compared to single CTCs. Understanding these molecular mechanisms is crucial for developing targeted therapies that disrupt CTC dissemination and prevent metastatic progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the target LDL cholesterol levels for patients with established atherosclerotic cardiovascular disease (ASCVD)?",
+    "answer": "LDL-C reduction of ≥50% from baseline and an LDL-C level <70 mg/dL is recommended per AHA/ACC guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the roles of gut microbiota in modulating host immune responses, and how does dysbiosis contribute to immune-mediated diseases?",
+    "answer": "The gut microbiota plays a critical role in shaping host immune responses through complex interactions involving microbial-associated molecular patterns (MAMPs), pattern recognition receptors (PRRs), and downstream signaling pathways. Commensal bacteria, such as Bacteroides fragilis and Faecalibacterium prausnitzii, produce metabolites like short-chain fatty acids (SCFAs), including butyrate, acetate, and propionate, which promote intestinal barrier integrity, regulate T-cell differentiation, and suppress pro-inflammatory cytokine production. Specific bacterial species, like segmented filamentous bacteria (SFB), can induce Th17 cell responses and promote IgA production. Dysbiosis, characterized by a reduction in microbial diversity and an imbalance in bacterial composition, disrupts these homeostatic interactions and contributes to immune-mediated diseases. For example, alterations in the gut microbiota have been implicated in inflammatory bowel disease (IBD), rheumatoid arthritis (RA), and type 1 diabetes (T1D). In IBD, dysbiosis leads to increased intestinal permeability, enhanced antigen presentation, and aberrant activation of the innate and adaptive immune systems. In RA and T1D, dysbiosis promotes systemic inflammation and autoimmunity through molecular mimicry and altered cytokine profiles. Restoring gut microbial balance through dietary interventions, fecal microbiota transplantation (FMT), or targeted probiotics holds promise for treating and preventing immune-mediated diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute bacterial meningitis in adults?",
+    "answer": "Empiric antibiotics (vancomycin plus ceftriaxone or cefotaxime) and dexamethasone; adjust based on CSF results.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to cancer cell survival and proliferation, and what are the potential therapeutic targets?",
+    "answer": "The Warburg effect, or aerobic glycolysis, is a metabolic adaptation in cancer cells characterized by increased glucose uptake and lactate production, even in the presence of oxygen. This phenomenon supports cancer cell survival and proliferation through several mechanisms. First, increased glucose uptake provides building blocks for biosynthesis, including nucleotides, amino acids, and lipids, which are essential for rapid cell growth. Second, lactate production acidifies the tumor microenvironment, promoting extracellular matrix degradation, angiogenesis, and immune evasion. Third, the Warburg effect reduces mitochondrial oxidative phosphorylation, thereby decreasing the generation of reactive oxygen species (ROS) and protecting cancer cells from oxidative stress. Potential therapeutic targets include glucose transporters (GLUTs), glycolytic enzymes (e.g., hexokinase, phosphofructokinase, pyruvate kinase), and lactate transporters (MCTs). Inhibiting these targets can disrupt cancer cell metabolism, induce energy stress, and promote apoptosis. Additionally, combining glycolysis inhibitors with other therapies, such as chemotherapy or immunotherapy, may enhance treatment efficacy by sensitizing cancer cells to cytotoxic agents or restoring immune surveillance. Targeting the Warburg effect represents a promising strategy for cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common presenting symptoms of heart failure with preserved ejection fraction (HFpEF)?",
+    "answer": "Dyspnea, fatigue, and edema are common; diagnosis requires evidence of cardiac dysfunction and preserved EF.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone acetylation, regulate gene expression in cancer, and what are the implications for cancer therapy?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone acetylation, play a crucial role in regulating gene expression in cancer cells. DNA methylation, typically occurring at CpG islands, leads to gene silencing by recruiting methyl-binding domain (MBD) proteins and histone deacetylases (HDACs). Histone acetylation, mediated by histone acetyltransferases (HATs), promotes gene transcription by relaxing chromatin structure and facilitating transcription factor binding. In cancer, aberrant DNA methylation and histone acetylation patterns can silence tumor suppressor genes or activate oncogenes, contributing to tumor development and progression. For example, hypermethylation of tumor suppressor genes, such as p16 and BRCA1, is frequently observed in various cancers. Conversely, hypomethylation of oncogenes, such as MYC and KRAS, can lead to their overexpression. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and HDAC inhibitors (HDACis), can reverse these aberrant epigenetic modifications and restore normal gene expression. DNMTis, such as azacitidine and decitabine, demethylate DNA and reactivate silenced tumor suppressor genes. HDACis, such as vorinostat and romidepsin, increase histone acetylation and promote gene transcription. These epigenetic drugs have shown clinical efficacy in hematologic malignancies and are being investigated in solid tumors, often in combination with other therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine is first-line; consider transcutaneous pacing or dopamine/epinephrine infusion if atropine is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression and cellular processes, and what is their role in cancer?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), play critical roles in regulating gene expression and cellular processes. MicroRNAs (miRNAs) are small (approximately 22 nucleotides) ncRNAs that bind to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Long non-coding RNAs (lncRNAs) are ncRNAs longer than 200 nucleotides that regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. In cancer, miRNAs and lncRNAs can function as oncogenes or tumor suppressors. Oncogenic miRNAs, such as miR-21 and miR-155, promote cancer cell proliferation, survival, and metastasis by downregulating tumor suppressor genes. Tumor-suppressive miRNAs, such as miR-34a and let-7, inhibit cancer cell growth and induce apoptosis by targeting oncogenes. LncRNAs also play crucial roles in cancer development. For example, lncRNA HOTAIR promotes metastasis by recruiting chromatin-modifying complexes to target genes. Conversely, lncRNA p21 inhibits cancer cell proliferation by activating the p53 pathway. Targeting ncRNAs represents a promising therapeutic strategy for cancer. Anti-miRNA oligonucleotides (AMOs) can inhibit oncogenic miRNAs, while synthetic miRNAs can restore the function of tumor-suppressive miRNAs. Furthermore, modulating lncRNA expression or function can alter cancer cell behavior.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management for a patient presenting with a suspected acute stroke?",
+    "answer": "Rapid assessment, NIHSS score, CT scan to rule out hemorrhage; consider tPA if within the appropriate window.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy targeting PD-1/PD-L1 work, and what are the mechanisms of resistance to these checkpoint inhibitors?",
+    "answer": "Immunotherapy targeting the programmed cell death protein 1 (PD-1) and its ligand PD-L1 works by blocking the interaction between these molecules, thereby reinvigorating T-cell activity and restoring antitumor immunity. PD-1 is an inhibitory receptor expressed on T cells, while PD-L1 is expressed on tumor cells and antigen-presenting cells. When PD-1 binds to PD-L1, it delivers an inhibitory signal that suppresses T-cell activation and effector function. By blocking this interaction, PD-1/PD-L1 inhibitors enhance T-cell-mediated tumor cell killing. Mechanisms of resistance to PD-1/PD-L1 inhibitors include intrinsic and adaptive resistance. Intrinsic resistance involves factors present in the tumor cells themselves, such as loss of antigen presentation (e.g., MHC class I downregulation), mutations in interferon signaling pathways, and activation of alternative immune checkpoints (e.g., CTLA-4, LAG-3). Adaptive resistance develops in response to immunotherapy and involves immune evasion mechanisms, such as upregulation of PD-L1 expression, recruitment of immunosuppressive cells (e.g., regulatory T cells, myeloid-derived suppressor cells), and development of alternative signaling pathways that bypass T-cell activation. Overcoming resistance to PD-1/PD-L1 inhibitors requires combination strategies that target multiple immune checkpoints, enhance antigen presentation, or modulate the tumor microenvironment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the recommended screening guidelines for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years starting at age 45 per USPSTF.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells utilize exosomes to promote tumor growth, metastasis, and immune evasion?",
+    "answer": "Cancer cells utilize exosomes, nano-sized vesicles secreted by cells, to facilitate tumor growth, metastasis, and immune evasion. Exosomes contain a diverse cargo of proteins, nucleic acids (including miRNAs and mRNAs), and lipids, which can be transferred to recipient cells and alter their function. In the context of tumor growth, cancer cell-derived exosomes can promote angiogenesis by delivering pro-angiogenic factors, such as VEGF and MMPs, to endothelial cells. Exosomes can also remodel the extracellular matrix by transferring matrix metalloproteinases (MMPs) to stromal cells. To promote metastasis, cancer cell-derived exosomes can precondition the metastatic niche by transferring integrins and other adhesion molecules to distant organs. Exosomes can also facilitate epithelial-mesenchymal transition (EMT) by delivering EMT-inducing transcription factors to recipient cells. For immune evasion, cancer cell-derived exosomes can suppress T-cell activity by transferring immunosuppressive molecules, such as PD-L1 and TGF-β, to immune cells. Exosomes can also promote the differentiation of regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs), which further dampen antitumor immunity. Targeting exosome biogenesis, release, or uptake represents a promising therapeutic strategy for cancer.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate treatment for a patient with new-onset atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers; consider cardioversion if unstable or rate control fails.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of autophagy in cancer development and treatment?",
+    "answer": "Autophagy, a cellular process involving the degradation and recycling of damaged organelles and misfolded proteins, plays a complex and context-dependent role in cancer development and treatment. In early stages of tumorigenesis, autophagy can act as a tumor suppressor mechanism by removing damaged mitochondria and preventing the accumulation of reactive oxygen species (ROS), thus reducing genomic instability. Autophagy can also eliminate protein aggregates and prevent the activation of oncogenic signaling pathways. However, in established tumors, autophagy can promote cancer cell survival by providing nutrients and energy under stress conditions, such as hypoxia and nutrient deprivation. Autophagy can also protect cancer cells from the cytotoxic effects of chemotherapy and radiation therapy. Therefore, the role of autophagy in cancer is highly dependent on the stage of tumor development and the specific genetic and environmental context. Strategies to modulate autophagy, such as autophagy inhibitors (e.g., chloroquine, hydroxychloroquine) and autophagy inducers (e.g., rapamycin), are being investigated as potential cancer therapies. The optimal approach may involve inhibiting autophagy in established tumors to enhance the efficacy of cytotoxic therapies or inducing autophagy in early-stage tumors to prevent their progression.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the diagnostic criteria for diabetes mellitus?",
+    "answer": "A1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during OGTT, or random glucose ≥200 mg/dL with symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what strategies can be used to enhance antiviral immunity?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, including interfering with interferon signaling, modulating antigen presentation, and directly inhibiting immune cell function. Many viruses encode proteins that block the production or signaling of type I interferons (IFNs), which are critical for antiviral defense. For example, some viruses encode proteins that inhibit the activation of IFN regulatory factors (IRFs) or block the signaling of IFN receptors. Viruses can also downregulate the expression of major histocompatibility complex (MHC) class I molecules, thereby preventing the presentation of viral antigens to cytotoxic T lymphocytes (CTLs). Some viruses encode proteins that directly inhibit the function of natural killer (NK) cells or CTLs. Strategies to enhance antiviral immunity include the use of interferon-based therapies, which boost the production of IFNs and activate antiviral signaling pathways. Therapeutic antibodies can neutralize viruses or enhance their clearance by immune cells. Vaccine development aims to induce long-lasting humoral and cellular immunity against viral antigens. Furthermore, immunomodulatory agents, such as checkpoint inhibitors, can reinvigorate exhausted T cells and enhance antiviral immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin or doxycycline; macrolide if local resistance is low, according to IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the tumor microenvironment influence cancer progression and response to therapy?",
+    "answer": "The tumor microenvironment (TME), encompassing the cellular and non-cellular components surrounding cancer cells, profoundly influences cancer progression and response to therapy. Key cellular components of the TME include immune cells (e.g., T cells, B cells, macrophages, myeloid-derived suppressor cells), fibroblasts, endothelial cells, and pericytes. Non-cellular components include the extracellular matrix (ECM), growth factors, cytokines, chemokines, and metabolites. The TME promotes cancer progression through multiple mechanisms. Cancer-associated fibroblasts (CAFs) secrete growth factors and ECM components that enhance cancer cell proliferation, invasion, and metastasis. Immune cells in the TME can either suppress or promote tumor growth, depending on their activation state and functional polarization. For example, regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs) suppress antitumor immunity, while cytotoxic T lymphocytes (CTLs) and natural killer (NK) cells kill cancer cells. The TME also influences response to therapy. For example, dense ECM can limit drug penetration into the tumor, while hypoxia can induce resistance to radiation therapy. Targeting the TME represents a promising strategy for cancer therapy. Strategies include inhibiting angiogenesis, depleting immunosuppressive cells, and remodeling the ECM.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers; consider cardioversion if unstable or rate control fails.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing achieve targeted DNA modification at a specific genomic locus?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) that is complementary to a 20-nucleotide target sequence in the genome. This gRNA directs the Cas9 endonuclease to the specific DNA site. Cas9 then introduces a double-stranded break at this location. The cell's endogenous DNA repair mechanisms then kick in, either via non-homologous end joining (NHEJ), which is error-prone and can introduce insertions or deletions (indels) leading to gene disruption, or via homology-directed repair (HDR) if a DNA template with the desired sequence is provided, allowing for precise gene editing. The specificity of the gRNA is critical to minimize off-target effects. Modifications to the Cas9 protein, such as using a Cas9 nickase (which only cuts one strand of DNA) paired with paired gRNAs or using deactivated Cas9 (dCas9) fused to transcriptional regulators, can further refine targeting and enable gene regulation without permanent DNA alteration. [PMID: 29053605]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "The gut microbiome profoundly influences the tumor microenvironment and systemic immune responses, thereby modulating the efficacy of immune checkpoint inhibitors (ICIs). Certain bacterial species, such as Akkermansia muciniphila, Faecalibacterium prausnitzii, and Bifidobacterium spp., have been associated with improved responses to anti-PD-1/PD-L1 therapy. These bacteria can enhance antigen presentation, promote T-cell priming and infiltration into the tumor, and modulate cytokine production. Conversely, dysbiosis or the presence of other bacterial species may lead to immunosuppression and resistance to ICIs. The mechanisms underlying these effects involve the production of microbial metabolites (e.g., short-chain fatty acids like butyrate, which can enhance T-cell function), modulation of dendritic cell activity, and regulation of immune cell trafficking. Fecal microbiota transplantation (FMT) studies have demonstrated that transferring gut microbiota from ICI responders to non-responders can improve treatment outcomes in some cases. However, the specific bacterial consortia and metabolites that drive these effects remain to be fully elucidated, and personalized approaches to microbiome modulation may be necessary to optimize ICI efficacy. [PMID: 30275479]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with a first-time seizure?",
+    "answer": "Assess airway, breathing, circulation. Obtain history, perform neurological exam, order EEG and neuroimaging to determine etiology.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the molecular mechanisms underlying the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) pathogenesis involves the accumulation of amyloid-beta (Aβ) plaques and neurofibrillary tangles composed of hyperphosphorylated tau protein in the brain. Aβ plaques are formed by the aggregation of Aβ peptides, derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. Accumulation of Aβ oligomers triggers synaptic dysfunction, neuroinflammation, and oxidative stress. Hyperphosphorylation of tau protein leads to its detachment from microtubules and self-aggregation into neurofibrillary tangles, disrupting axonal transport and neuronal function. Genetic factors, such as mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2), increase Aβ production or alter Aβ processing. The APOE4 allele is a major genetic risk factor for late-onset AD and is associated with increased Aβ deposition and impaired clearance. Neuroinflammation, involving activation of microglia and astrocytes, contributes to neuronal damage and disease progression. Impaired glucose metabolism, mitochondrial dysfunction, and defects in synaptic plasticity also play crucial roles in AD pathogenesis. These pathological processes interact in a complex manner, leading to progressive cognitive decline and neurodegeneration. [PMID: 29310346]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for community-acquired pneumonia?",
+    "answer": "Outpatient: Amoxicillin or doxycycline or a macrolide (if local resistance <25%). Inpatient: Beta-lactam plus macrolide or respiratory fluoroquinolone per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs, particularly microRNAs (miRNAs), regulate gene expression in cancer cells?",
+    "answer": "MicroRNAs (miRNAs) are small non-coding RNA molecules (approximately 22 nucleotides long) that regulate gene expression post-transcriptionally. They bind to the 3' untranslated region (UTR) of target messenger RNAs (mRNAs), leading to mRNA degradation or translational repression. In cancer cells, miRNAs can act as oncogenes or tumor suppressors, depending on their target genes. Oncogenic miRNAs (oncomirs) promote cancer development by downregulating tumor suppressor genes, while tumor suppressor miRNAs inhibit cancer progression by targeting oncogenes. For example, miR-21 is an oncomir that is frequently upregulated in various cancers and promotes cell proliferation, invasion, and metastasis by targeting tumor suppressor genes such as PTEN and PDCD4. Conversely, miR-34a acts as a tumor suppressor by targeting oncogenes such as c-MYC and BCL2, inducing cell cycle arrest and apoptosis. MiRNA expression can be dysregulated in cancer cells due to genetic alterations, epigenetic modifications, and altered signaling pathways. MiRNAs can also be secreted into the extracellular environment and act as signaling molecules, influencing the behavior of neighboring cells. MiRNA-based therapies, involving the delivery of synthetic miRNAs or miRNA inhibitors, are being developed as potential cancer treatments. [PMID: 28844248]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the signs and symptoms of acute stroke?",
+    "answer": "Sudden onset of weakness, numbness, speech difficulty, vision changes, dizziness, or severe headache.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development and progression of metastatic melanoma?",
+    "answer": "Metastatic melanoma is driven by dysregulation of multiple signaling pathways. The MAPK pathway, particularly the BRAF-MEK-ERK cascade, is frequently activated due to BRAF mutations (e.g., BRAFV600E). This leads to uncontrolled cell proliferation and survival. The PI3K/AKT/mTOR pathway is also commonly activated, promoting cell growth, metabolism, and angiogenesis. The Wnt/β-catenin pathway plays a role in melanoma stemness and drug resistance. Receptor tyrosine kinases (RTKs) such as EGFR and c-MET can activate downstream signaling pathways and contribute to melanoma progression. The NF-κB pathway mediates inflammation and immune evasion. Aberrant expression of transcription factors such as MITF and AP-1 regulates melanoma cell differentiation, survival, and metastasis. Interactions between melanoma cells and the tumor microenvironment, involving cytokines, growth factors, and extracellular matrix components, further modulate these signaling pathways. Targeting these pathways with inhibitors or modulating the tumor microenvironment are strategies for treating metastatic melanoma. [PMID: 27546696]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient with anaphylaxis?",
+    "answer": "Intramuscular epinephrine, antihistamines, corticosteroids, and supplemental oxygen; consider intubation if airway compromise.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, influence gene expression and cellular differentiation?",
+    "answer": "Epigenetic modifications alter gene expression without changing the underlying DNA sequence. DNA methylation, primarily occurring at cytosine residues in CpG dinucleotides, typically represses gene transcription by recruiting methyl-binding proteins and promoting chromatin compaction. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, can alter chromatin structure and accessibility to transcription factors. Histone acetylation, mediated by histone acetyltransferases (HATs), generally promotes gene transcription by relaxing chromatin structure, while histone deacetylation, mediated by histone deacetylases (HDACs), represses gene transcription. Histone methylation can have either activating or repressive effects, depending on the specific histone residue that is modified and the methylation state. These epigenetic modifications play critical roles in regulating gene expression during development, differentiation, and in response to environmental stimuli. Aberrant epigenetic modifications are associated with various diseases, including cancer, and can be targeted by epigenetic drugs. [PMID: 25355514]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, or fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, or CT colonography every 5 years starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the major mechanisms of action of commonly used chemotherapeutic agents in cancer treatment?",
+    "answer": "Chemotherapeutic agents exert their cytotoxic effects through diverse mechanisms. Alkylating agents (e.g., cyclophosphamide) damage DNA by adding alkyl groups, leading to DNA crosslinking and strand breaks, thereby inhibiting DNA replication and transcription. Antimetabolites (e.g., methotrexate, 5-fluorouracil) interfere with DNA synthesis by inhibiting enzymes required for nucleotide biosynthesis or by being incorporated into DNA, causing chain termination. Topoisomerase inhibitors (e.g., etoposide, irinotecan) block the activity of topoisomerases, enzymes that relieve torsional stress during DNA replication and transcription, resulting in DNA damage and cell death. Microtubule inhibitors (e.g., paclitaxel, vincristine) disrupt microtubule dynamics, interfering with cell division and causing mitotic arrest. Platinum-based drugs (e.g., cisplatin, carboplatin) form DNA adducts, leading to DNA damage and apoptosis. The specific mechanisms of action and the resulting cellular effects vary depending on the chemotherapeutic agent and the cancer cell type. [PMID: 24263224]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you treat a patient with a urinary tract infection?",
+    "answer": "Uncomplicated cystitis: Nitrofurantoin or TMP-SMX or fosfomycin. Pyelonephritis: Fluoroquinolone or beta-lactam/beta-lactamase inhibitor.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of immunotherapy, specifically checkpoint inhibitors, in the treatment of autoimmune diseases?",
+    "answer": "While checkpoint inhibitors like anti-CTLA-4 and anti-PD-1/PD-L1 are primarily used in cancer to unleash T cell activity against tumors, their use in autoimmune diseases is complex and largely experimental due to the risk of exacerbating autoimmunity. However, there's growing interest in using checkpoint agonists (rather than inhibitors) to enhance immune tolerance and suppress autoreactive T cells. For instance, CTLA-4 agonists could potentially amplify the inhibitory signals that CTLA-4 delivers to T cells, thus dampening autoimmune responses. Similarly, PD-1 agonists might promote T cell exhaustion or anergy in autoreactive T cells. Another approach involves targeting immune checkpoints on other immune cells, such as B cells or myeloid cells, to modulate their activity and restore immune homeostasis. The challenge lies in selectively modulating the immune response to suppress autoimmunity without causing broad immunosuppression. Clinical trials are exploring these strategies in various autoimmune conditions, but careful monitoring for adverse effects is essential. [PMID: 31719562]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "2.0 to 3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do viruses evade the host immune system, and what strategies are used to develop effective antiviral therapies?",
+    "answer": "Viruses employ diverse mechanisms to evade the host immune system. They can suppress interferon (IFN) production or signaling, a critical antiviral defense pathway, by interfering with pattern recognition receptors or downstream signaling molecules. Viruses can also inhibit antigen presentation, preventing the recognition of infected cells by T cells, or express decoy receptors that bind to cytokines, neutralizing their activity. Some viruses undergo rapid mutation, generating antigenic variants that evade antibody recognition. Others establish latency, hiding within host cells and evading immune surveillance. Strategies to develop effective antiviral therapies include targeting viral enzymes required for replication (e.g., reverse transcriptase inhibitors for HIV), blocking viral entry into host cells (e.g., fusion inhibitors for HIV), inhibiting viral assembly or release, and boosting the host immune response (e.g., IFN-based therapies). Developing broadly neutralizing antibodies and vaccines are also crucial for preventing viral infections and controlling outbreaks. [PMID: 31980531]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the management of a patient with acute myocardial infarction?",
+    "answer": "Aspirin, P2Y12 inhibitor, anticoagulation, beta-blocker, statin, ACE inhibitor; emergent PCI or fibrinolysis if PCI not available.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with CAR T-cells work to target and eliminate cancer cells?",
+    "answer": "Chimeric antigen receptor (CAR) T-cell therapy involves genetically engineering a patient's T cells to express a CAR, which is a synthetic receptor that recognizes a specific antigen on cancer cells. The CAR typically consists of an extracellular antigen-binding domain (e.g., a single-chain variable fragment [scFv] derived from an antibody), a transmembrane domain, and intracellular signaling domains (e.g., CD3ζ and costimulatory domains like CD28 or 4-1BB). After the CAR T-cells are infused back into the patient, they bind to the target antigen on cancer cells, activating the T cells and triggering a cytotoxic response that leads to cancer cell death. The CAR T-cells can also proliferate and persist in the patient, providing long-term immune surveillance. CAR T-cell therapy has shown remarkable efficacy in treating certain hematological malignancies, such as B-cell lymphomas and acute lymphoblastic leukemia. However, it is associated with potential side effects, including cytokine release syndrome (CRS) and neurotoxicity. [PMID: 29743675]",
+    "persona": "Researcher"
+  }
+]

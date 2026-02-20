@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a healthy non-pregnant female?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line per IDSA guidelines; consider local resistance patterns.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology function at a molecular level, and what are the key factors determining its specificity and efficiency in mammalian cells?",
+    "answer": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9) functions as an adaptive immune system in bacteria and has been repurposed for targeted genome editing in eukaryotic cells. It relies on a guide RNA (gRNA) that contains a 20-nucleotide sequence complementary to the target DNA sequence. This gRNA directs the Cas9 nuclease to the specific genomic locus, where Cas9 induces a double-strand break (DSB). The cell repairs this DSB either through non-homologous end joining (NHEJ), which is error-prone and can lead to insertions or deletions (indels) that disrupt gene function, or through homology-directed repair (HDR) if a donor DNA template is provided, allowing for precise gene editing. Specificity is determined by the gRNA sequence and the presence of a protospacer adjacent motif (PAM) sequence (NGG) immediately downstream of the target site. Off-target effects can occur if the gRNA has sequence similarity to other genomic regions, leading to unintended DSBs. Efficiency is influenced by factors such as gRNA design (GC content, secondary structure), Cas9 protein expression levels, chromatin accessibility of the target site, and the cell's DNA repair machinery. Optimization strategies include using modified Cas9 variants with enhanced specificity (e.g., high-fidelity Cas9), minimizing off-target effects through computational gRNA design, and improving HDR efficiency using small molecule inhibitors or modified donor templates. Delivery methods also play a crucial role, with viral vectors (AAV, lentivirus) and non-viral methods (electroporation, lipofection) each having their own advantages and limitations regarding cell type, efficiency, and immunogenicity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key components of the CHA2DS2-VASc score, and how is it used in clinical practice?",
+    "answer": "Congestive heart failure, Hypertension, Age ≥75 (2 points), Diabetes mellitus, Stroke/TIA/thromboembolism (2 points), Vascular disease, Age 65–74, Sex category (female). Used to assess stroke risk in atrial fibrillation and guide anticoagulation decisions.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Compare and contrast the mechanisms of action of metformin and SGLT2 inhibitors in the treatment of type 2 diabetes mellitus.",
+    "answer": "Metformin primarily reduces hepatic glucose production and improves insulin sensitivity in peripheral tissues. It activates AMPK (AMP-activated protein kinase), which inhibits gluconeogenesis and enhances glucose uptake and utilization. Metformin may also have modest effects on gut microbiota. SGLT2 inhibitors, on the other hand, work by inhibiting the sodium-glucose co-transporter 2 (SGLT2) in the proximal renal tubule, reducing glucose reabsorption and increasing urinary glucose excretion. This leads to a decrease in blood glucose levels independently of insulin. In addition to glucose lowering, SGLT2 inhibitors offer cardiorenal benefits, including reductions in heart failure hospitalizations and progression of chronic kidney disease. While both metformin and SGLT2 inhibitors are effective in lowering blood glucose, they act through distinct mechanisms and have different side effect profiles. Metformin is associated with gastrointestinal side effects and a rare risk of lactic acidosis, while SGLT2 inhibitors increase the risk of genital infections and, in some patients, diabetic ketoacidosis. Combination therapy with metformin and SGLT2 inhibitors is often used to achieve better glycemic control and leverage the complementary benefits of each drug class.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for a patient presenting with a first-time unprovoked seizure?",
+    "answer": "Evaluate for underlying cause; consider EEG and MRI. Treatment depends on recurrence risk and patient factors; discuss risks/benefits of starting an anti-epileptic drug.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors, such as anti-PD-1 or anti-CTLA-4 antibodies, enhance anti-tumor immunity, and what are the mechanisms underlying immune-related adverse events (irAEs)?",
+    "answer": "Checkpoint inhibitors block inhibitory signals that normally dampen T-cell responses, thereby unleashing the immune system to attack cancer cells. Anti-PD-1 (programmed cell death protein 1) antibodies block the interaction between PD-1 on T cells and its ligand PD-L1 on tumor cells or antigen-presenting cells, preventing T-cell exhaustion and promoting cytotoxic T-cell activity. Anti-CTLA-4 (cytotoxic T-lymphocyte-associated protein 4) antibodies block CTLA-4, which normally competes with CD28 for binding to B7 molecules on antigen-presenting cells, thus enhancing T-cell activation and proliferation. By blocking these checkpoints, immunotherapy can reinvigorate pre-existing anti-tumor immune responses and induce durable remissions in some patients. However, because checkpoint inhibitors broadly enhance immune activity, they can also lead to immune-related adverse events (irAEs) affecting various organs. The mechanisms underlying irAEs are not fully understood but are thought to involve increased T-cell infiltration into target organs, autoantibody production, cytokine release, and complement activation. Genetic predisposition, pre-existing autoimmune conditions, and the gut microbiome may also contribute to the development of irAEs. Management of irAEs typically involves corticosteroids and, in severe cases, immunosuppressive agents such as TNF inhibitors or mycophenolate mofetil. Understanding the mechanisms underlying irAEs is crucial for developing strategies to prevent and treat these complications, thereby maximizing the benefits of immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for screening for colorectal cancer?",
+    "answer": "Start regular screening at age 45 via stool-based tests (FIT, fecal occult blood test, or stool DNA) or structural exams (colonoscopy, CT colonography) per USPSTF guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Discuss the role of the gut microbiome in modulating host immune responses and its implications for inflammatory bowel disease (IBD) pathogenesis.",
+    "answer": "The gut microbiome, comprising trillions of microorganisms, plays a crucial role in shaping host immune responses. It contributes to the development and maintenance of the intestinal immune system, promoting immune tolerance to commensal bacteria while providing protection against pathogens. The microbiome influences immune cell development, cytokine production, and the balance between pro-inflammatory and anti-inflammatory responses. In inflammatory bowel disease (IBD), dysbiosis, or an imbalance in the gut microbiome, is implicated in disease pathogenesis. Patients with IBD often exhibit reduced microbial diversity, alterations in the composition of specific bacterial species, and impaired gut barrier function. Specific bacterial species, such as Faecalibacterium prausnitzii, which produces butyrate, an important energy source for colonocytes and an anti-inflammatory mediator, are often reduced in IBD patients. Conversely, certain pathobionts, such as adherent-invasive E. coli (AIEC) and sulfate-reducing bacteria, may be enriched and contribute to inflammation. The dysbiotic microbiome can activate the innate immune system through pattern recognition receptors (PRRs), such as Toll-like receptors (TLRs) and NOD-like receptors (NLRs), leading to the production of pro-inflammatory cytokines, such as TNF-α and IL-1β. The microbiome also influences adaptive immune responses, affecting T-cell differentiation and B-cell antibody production. Therapeutic strategies targeting the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored to restore microbial balance and modulate immune responses in IBD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial management of a patient with suspected acute coronary syndrome?",
+    "answer": "Aspirin, oxygen if needed, nitroglycerin, morphine if needed. Obtain ECG and cardiac biomarkers. Consider antiplatelet and anticoagulant therapy. Assess need for reperfusion therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Explain the molecular mechanisms underlying the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC).",
+    "answer": "Resistance to EGFR TKIs in NSCLC commonly arises through several mechanisms. The most frequent is the acquisition of a secondary EGFR mutation, T790M, which sterically hinders TKI binding. T790M can be overcome by third-generation EGFR TKIs like osimertinib. Other EGFR mutations, such as C797S, can also confer resistance to osimertinib. Bypass signaling pathways, such as MET amplification or activation of PI3K/AKT, can also drive resistance by providing alternative growth signals. Transformation to other histological subtypes, such as small cell lung cancer, is another mechanism. Epithelial-to-mesenchymal transition (EMT) can also contribute to resistance by altering cellular morphology and drug sensitivity. Additionally, activation of immune checkpoints or alterations in the tumor microenvironment can affect TKI efficacy. Overcoming EGFR TKI resistance requires a personalized approach based on identifying the specific resistance mechanism through molecular profiling and employing strategies such as combination therapies or novel TKIs targeting specific resistance mutations.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended antibiotic regimen for treating community-acquired pneumonia in an outpatient setting?",
+    "answer": "Amoxicillin, doxycycline, or a macrolide (azithromycin or clarithromycin) are appropriate choices based on local resistance patterns and patient factors per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Describe the pathogenesis of Alzheimer's disease, focusing on the roles of amyloid plaques, neurofibrillary tangles, and neuroinflammation.",
+    "answer": "Alzheimer's disease pathogenesis involves a complex interplay of factors, with amyloid plaques, neurofibrillary tangles, and neuroinflammation being key contributors. Amyloid plaques are extracellular deposits of amyloid-beta (Aβ) peptides, derived from the amyloid precursor protein (APP) through sequential cleavage by β-secretase (BACE1) and γ-secretase. Accumulation of Aβ peptides leads to the formation of oligomers, which are highly neurotoxic and can disrupt synaptic function, induce oxidative stress, and activate inflammatory pathways. Neurofibrillary tangles are intracellular aggregates of hyperphosphorylated tau protein, a microtubule-associated protein essential for neuronal structure and transport. Hyperphosphorylation of tau causes it to detach from microtubules and aggregate into paired helical filaments (PHFs), which then form neurofibrillary tangles. These tangles disrupt neuronal transport and contribute to neuronal dysfunction and death. Neuroinflammation also plays a significant role in AD pathogenesis. Activated microglia and astrocytes release pro-inflammatory cytokines, such as TNF-α and IL-1β, which can exacerbate neuronal damage and promote Aβ production and tau phosphorylation. The chronic inflammatory response can also impair Aβ clearance and contribute to synaptic dysfunction. These pathological processes interact and amplify each other, leading to progressive neuronal loss and cognitive decline in Alzheimer's disease. Genetic factors, such as mutations in APP, presenilin 1 and 2, and the APOE4 allele, can also influence the risk and progression of AD by affecting Aβ production, clearance, and aggregation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the common side effects associated with statin medications?",
+    "answer": "Muscle aches, liver abnormalities, and new-onset diabetes are potential side effects.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do cancer cells develop resistance to chemotherapy through mechanisms involving drug efflux pumps, DNA repair, and apoptosis evasion?",
+    "answer": "Cancer cells develop chemotherapy resistance through multiple mechanisms. Drug efflux pumps, such as P-glycoprotein (ABCB1), actively transport chemotherapeutic drugs out of the cell, reducing intracellular drug concentrations. Enhanced DNA repair mechanisms allow cancer cells to repair DNA damage induced by chemotherapy, decreasing the efficacy of DNA-damaging agents. Apoptosis evasion, through alterations in apoptotic signaling pathways, enables cancer cells to survive exposure to chemotherapy. Mutations in genes like TP53 disrupt the normal apoptotic response. Other mechanisms include altered drug metabolism, target alterations, and activation of survival pathways. These resistance mechanisms can be intrinsic (present before treatment) or acquired (develop during treatment). Understanding these mechanisms is crucial for developing strategies to overcome chemotherapy resistance, such as using drug efflux pump inhibitors, targeting DNA repair pathways, or developing drugs that induce apoptosis through alternative mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with symptomatic bradycardia?",
+    "answer": "Atropine is the first-line medication; consider transcutaneous pacing if atropine is ineffective or contraindicated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Explain the role of regulatory T cells (Tregs) in maintaining immune homeostasis and preventing autoimmunity.",
+    "answer": "Regulatory T cells (Tregs) are a subset of T cells that play a critical role in maintaining immune homeostasis and preventing autoimmunity. Tregs suppress the activity of other immune cells, including effector T cells, B cells, and antigen-presenting cells, thereby preventing excessive immune responses and self-attack. Tregs express the transcription factor Foxp3, which is essential for their development and function. They suppress immune responses through various mechanisms, including the production of immunosuppressive cytokines (IL-10, TGF-β), direct cell-cell contact via CTLA-4, and competition for IL-2. IL-10 inhibits the activation and effector functions of various immune cells, while TGF-β suppresses T-cell proliferation and differentiation. CTLA-4 on Tregs binds to B7 molecules on antigen-presenting cells, inhibiting their co-stimulatory function and inducing the expression of IDO, an enzyme that depletes tryptophan and suppresses T-cell proliferation. Tregs also express high levels of CD25 (IL-2 receptor alpha chain), allowing them to compete with effector T cells for IL-2, a growth factor essential for T-cell survival and proliferation. Dysfunctional Tregs or a deficiency in Tregs can lead to autoimmune diseases, such as type 1 diabetes, rheumatoid arthritis, and multiple sclerosis. Therapeutic strategies aimed at enhancing Treg function or increasing Treg numbers are being explored for the treatment of autoimmune and inflammatory disorders.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diagnosing diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, A1c ≥6.5%, or 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Describe the mechanisms of action of commonly used anti-epileptic drugs (AEDs), such as phenytoin, carbamazepine, and valproic acid.",
+    "answer": "Phenytoin and carbamazepine primarily act by blocking voltage-gated sodium channels, which reduces neuronal excitability and prevents the spread of seizure activity. These drugs prolong the inactivated state of sodium channels, making them less likely to reopen and propagate action potentials. Valproic acid has multiple mechanisms of action, including blocking voltage-gated sodium channels, enhancing GABAergic neurotransmission, and inhibiting histone deacetylases (HDACs). Valproic acid increases GABA levels by inhibiting GABA transaminase, the enzyme responsible for GABA degradation, and by increasing GABA synthesis. The HDAC inhibitory activity of valproic acid may contribute to its mood-stabilizing effects. These AEDs differ in their pharmacokinetic properties, side effect profiles, and drug interactions, which should be considered when selecting an appropriate AED for a patient with epilepsy. Other AEDs, such as levetiracetam, have different mechanisms of action, such as binding to synaptic vesicle protein 2A (SV2A), which modulates neurotransmitter release.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the treatment options for patients with stable angina pectoris?",
+    "answer": "Beta-blockers, calcium channel blockers, nitrates for symptom relief. Consider aspirin and statin therapy for cardiovascular risk reduction.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "Discuss the role of exosomes in intercellular communication and their potential applications in cancer diagnostics and therapeutics.",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) that are secreted by various cell types, including cancer cells. They play a crucial role in intercellular communication by transferring proteins, lipids, mRNA, and microRNA (miRNA) between cells. Exosomes can be taken up by recipient cells, where their contents can modulate cellular function and signaling pathways. In cancer, exosomes can promote tumor growth, metastasis, angiogenesis, and immune evasion. Cancer-derived exosomes can transfer oncogenic proteins and miRNAs to recipient cells, promoting their malignant transformation. They can also create a pre-metastatic niche by preparing distant organs for tumor cell colonization. Exosomes can also suppress immune responses by transferring immunosuppressive molecules to immune cells. Because exosomes contain a rich cargo of tumor-specific molecules, they hold great potential as diagnostic biomarkers for cancer. Exosomes can be isolated from various biofluids, such as blood, urine, and saliva, and analyzed for their protein and nucleic acid content. Exosome-based liquid biopsies offer a non-invasive approach for detecting cancer early, monitoring treatment response, and predicting prognosis. Exosomes are also being explored as therapeutic delivery vehicles for targeted drug delivery. Exosomes can be engineered to carry therapeutic drugs, siRNA, or miRNAs to specific cancer cells, improving drug efficacy and reducing off-target effects.",
+    "persona": "Researcher"
+  }
+]

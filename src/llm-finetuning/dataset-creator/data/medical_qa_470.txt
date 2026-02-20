@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with new-onset atrial fibrillation?",
+    "answer": "Assess hemodynamic stability; if unstable, cardiovert. If stable, control rate with beta-blockers or calcium channel blockers, and consider anticoagulation based on CHA2DS2-VASc score.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 technology enable precise gene editing in mammalian cells?",
+    "answer": "CRISPR-Cas9 leverages a guide RNA (gRNA) complementary to a target DNA sequence, directing the Cas9 nuclease to create a double-strand break (DSB) at that specific locus. The cell then repairs the DSB through either non-homologous end joining (NHEJ), which is error-prone and often leads to insertions or deletions (indels) that disrupt gene function, or homology-directed repair (HDR), which uses a provided DNA template to precisely insert a desired sequence. The specificity of gene editing is determined by the gRNA sequence, typically 20 nucleotides long, which must perfectly match the target DNA. Off-target effects, where Cas9 cleaves unintended sites with similar sequences, can be minimized by careful gRNA design, using high-fidelity Cas9 variants, and employing paired Cas9 nickases. Delivery methods into cells vary, including viral vectors (e.g., adeno-associated virus) and non-viral methods like electroporation or lipid nanoparticles. This system allows for targeted gene knockout, insertion, correction, or even modification of gene expression without permanently altering the underlying DNA sequence (e.g., CRISPRa/CRISPRi).",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, HbA1c ≥6.5%, or random plasma glucose ≥200 mg/dL with symptoms of hyperglycemia.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What mechanisms underlie the development of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer?",
+    "answer": "Resistance to EGFR TKIs, such as gefitinib or erlotinib, commonly arises through several mechanisms. The most prevalent is the acquisition of a secondary EGFR mutation, T790M, which sterically hinders TKI binding. Other mechanisms include activation of bypass signaling pathways like MET amplification, HER2 amplification, or PI3K/AKT activation, which enable tumor cell survival independent of EGFR signaling. Phenotypic changes, such as epithelial-to-mesenchymal transition (EMT) or transformation to small cell lung cancer, can also confer resistance. Additionally, resistance can be mediated by epigenetic alterations or increased drug efflux via upregulation of ABC transporters. Understanding these diverse mechanisms is crucial for developing strategies to overcome resistance, such as using third-generation EGFR TKIs (e.g., osimertinib) that target T790M or combining EGFR inhibitors with agents targeting bypass pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with a suspected deep vein thrombosis (DVT) be initially evaluated?",
+    "answer": "Assess pretest probability using Wells score or similar; if high, initiate anticoagulation and perform ultrasound. If low, perform D-dimer assay; if negative, DVT is unlikely; if positive, perform ultrasound.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the microbiome in modulating the efficacy and toxicity of cancer immunotherapy?",
+    "answer": "The gut microbiome significantly influences the efficacy and toxicity of cancer immunotherapies, particularly immune checkpoint inhibitors (ICIs) such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies. Specific bacterial species, such as *Akkermansia muciniphila*, *Faecalibacterium prausnitzii*, and certain *Bifidobacterium* species, have been associated with improved response rates and prolonged progression-free survival in patients receiving ICIs. These bacteria can enhance anti-tumor immunity by modulating the tumor microenvironment, stimulating dendritic cell maturation, and promoting T-cell infiltration into tumors. Conversely, dysbiosis or the presence of other bacterial species can lead to reduced efficacy or increased immune-related adverse events (irAEs), such as colitis. Mechanistically, the microbiome can affect systemic immune responses through the production of metabolites like short-chain fatty acids (SCFAs) that modulate immune cell function. Fecal microbiota transplantation (FMT) studies have shown that transferring gut microbiota from ICI-responsive patients to non-responsive patients can improve their response to immunotherapy. Strategies aimed at modulating the microbiome, such as dietary interventions, probiotics, or FMT, are being explored to enhance the efficacy and reduce the toxicity of cancer immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in a female?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole for 3 days.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions cause neurodegenerative diseases, and what makes them unique compared to other infectious agents?",
+    "answer": "Prions are misfolded proteins that can induce other normal proteins to adopt the same misfolded conformation, leading to the formation of aggregates that are toxic to neurons and cause neurodegenerative diseases such as Creutzfeldt-Jakob disease (CJD) and kuru. Unlike viruses or bacteria, prions lack nucleic acid (DNA or RNA) and propagate by a self-templating mechanism, converting cellular prion protein (PrPC) into the misfolded, disease-associated form (PrPSc). PrPSc aggregates are highly resistant to degradation and accumulate in the brain, forming amyloid plaques and causing neuronal dysfunction and cell death. The process involves conformational change rather than replication of genetic material. The unique characteristics of prions also include their resistance to standard sterilization procedures that would inactivate viruses or bacteria, making decontamination challenging. Furthermore, prion diseases can be sporadic, genetic (due to mutations in the *PRNP* gene), or acquired through infection, adding to their complexity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial workup for a patient presenting with suspected stroke?",
+    "answer": "Non-contrast head CT to rule out hemorrhage; if negative, consider CT angiography to assess for large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes contribute to intercellular communication and disease pathogenesis?",
+    "answer": "Exosomes are nanoscale vesicles released by cells that contain a diverse cargo of proteins, lipids, and nucleic acids (mRNA, miRNA). They facilitate intercellular communication by delivering these molecules to recipient cells, influencing their function and phenotype. Exosomes play a crucial role in various physiological processes, including immune responses, antigen presentation, and tissue repair. In disease, exosomes can contribute to pathogenesis by promoting tumor growth, metastasis, and drug resistance in cancer; spreading infectious agents like viruses; and mediating inflammation in autoimmune diseases. Tumor-derived exosomes, for instance, can suppress immune cell activity, promote angiogenesis, and remodel the extracellular matrix to facilitate tumor invasion. They can also transfer drug resistance factors to sensitive cells. Exosome-based therapies are being explored for drug delivery and diagnostics, leveraging their ability to target specific cells and tissues and their potential as biomarkers for disease detection and monitoring.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Start screening at age 45 with colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune response?",
+    "answer": "Viruses have evolved multiple strategies to evade host immune defenses, ensuring their survival and replication within the host. These mechanisms include: (1) Interfering with interferon (IFN) signaling pathways, such as blocking IFN production or inhibiting the activity of IFN-stimulated genes (ISGs). (2) Suppressing antigen presentation by downregulating MHC class I molecules or inhibiting the processing and transport of viral peptides. (3) Producing decoy molecules that mimic host cytokines or receptors, thereby neutralizing the immune response. (4) Establishing latency in immune-privileged sites, such as neurons or stem cells, where the virus is protected from immune surveillance. (5) Undergoing rapid mutation, particularly in surface antigens, to escape antibody recognition (antigenic drift). (6) Encoding proteins that directly inhibit the activity of immune cells, such as T cells or NK cells. Understanding these evasion strategies is crucial for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia?",
+    "answer": "Macrolide or doxycycline for outpatients; beta-lactam plus macrolide or fluoroquinolone for inpatients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications influence gene expression and contribute to disease development?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, alter gene expression without changing the underlying DNA sequence. DNA methylation, typically at cytosine-guanine dinucleotides (CpGs), generally represses gene transcription. Histone modifications, such as acetylation and methylation, affect chromatin structure and accessibility, either activating or repressing gene expression depending on the specific modification and its location. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), regulate gene expression by targeting mRNA stability, translation, or chromatin remodeling. Aberrant epigenetic patterns have been implicated in numerous diseases, including cancer, neurodevelopmental disorders, and autoimmune diseases. For example, hypermethylation of tumor suppressor genes or altered histone modifications at oncogenes can drive cancer development. Epigenetic modifications are dynamic and reversible, making them potential therapeutic targets for reversing disease-associated gene expression changes.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended management of anaphylaxis?",
+    "answer": "Epinephrine intramuscularly, antihistamines, corticosteroids, and supportive care including oxygen and intravenous fluids.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the advantages and disadvantages of using adeno-associated virus (AAV) vectors for gene therapy?",
+    "answer": "AAV vectors are widely used in gene therapy due to their several advantages, including their broad tropism (ability to infect various cell types), low immunogenicity, and ability to transduce both dividing and non-dividing cells. AAV vectors are also considered relatively safe, as they do not integrate into the host genome at specific sites, reducing the risk of insertional mutagenesis. However, AAV vectors also have limitations. Their small packaging capacity (around 4.7 kb) restricts the size of the therapeutic gene that can be delivered. Production of high-titer, clinical-grade AAV vectors can be challenging and expensive. Pre-existing immunity to AAV in some individuals can limit the effectiveness of gene therapy. While AAV integration is rare, random integration can still occur, potentially leading to unintended consequences. Despite these limitations, AAV vectors remain a leading choice for gene therapy applications, and ongoing research aims to improve their safety, efficacy, and production.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should a patient with hyperthyroidism be initially evaluated?",
+    "answer": "Measure TSH, free T4, and T3; perform radioactive iodine uptake scan to differentiate Graves' disease from other causes.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What mechanisms contribute to the development of Alzheimer's disease, and what are the potential therapeutic targets?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the accumulation of amyloid plaques composed of amyloid-beta (Aβ) peptides and neurofibrillary tangles formed by hyperphosphorylated tau protein. The amyloid cascade hypothesis posits that Aβ accumulation initiates a cascade of events, including tau hyperphosphorylation, synaptic dysfunction, neuronal loss, and cognitive decline. Other factors implicated in AD pathogenesis include neuroinflammation, oxidative stress, mitochondrial dysfunction, and genetic mutations in genes such as *APP*, *PSEN1*, and *PSEN2*. Potential therapeutic targets include: (1) Inhibiting Aβ production by targeting β-secretase (BACE1) or γ-secretase. (2) Enhancing Aβ clearance through immunotherapy (anti-Aβ antibodies). (3) Preventing tau hyperphosphorylation or aggregation. (4) Reducing neuroinflammation by targeting microglia or inflammatory cytokines. (5) Improving mitochondrial function and reducing oxidative stress. (6) Enhancing synaptic plasticity and neuronal survival. Combination therapies targeting multiple pathways are likely to be necessary for effective AD treatment.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial treatment for hypertension with heart failure?",
+    "answer": "ACE inhibitor or ARNI, beta-blocker, and mineralocorticoid receptor antagonist; add diuretic as needed for volume overload.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy work in cancer treatment, and what are the different types of immunotherapeutic approaches?",
+    "answer": "Immunotherapy harnesses the power of the immune system to recognize and destroy cancer cells. Unlike traditional therapies that directly target cancer cells, immunotherapy boosts the body's natural defenses to fight cancer. Key approaches include: (1) Immune checkpoint inhibitors (ICIs), such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, block inhibitory signals that prevent T cells from attacking cancer cells, unleashing their anti-tumor activity. (2) Adoptive cell therapy, such as CAR-T cell therapy, involves engineering a patient's T cells to express a chimeric antigen receptor (CAR) that specifically targets a tumor-associated antigen, then infusing these modified T cells back into the patient to kill cancer cells. (3) Cancer vaccines stimulate the immune system to recognize and attack cancer cells by presenting tumor-associated antigens to immune cells. (4) Oncolytic viruses selectively infect and kill cancer cells, while also stimulating an anti-tumor immune response. (5) Cytokine therapy uses cytokines, such as IL-2 or IFN-α, to boost immune cell activity. Immunotherapy can lead to durable responses in some patients, but it can also cause immune-related adverse events (irAEs) due to the activation of the immune system against normal tissues.",
+    "persona": "Researcher"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers is typically first-line; consider cardioversion if unstable.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR tyrosine kinase domain lead to resistance to EGFR inhibitors in non-small cell lung cancer?",
+    "answer": "Mutations in the EGFR tyrosine kinase domain, such as T790M, sterically hinder the binding of EGFR inhibitors like gefitinib and erlotinib. T790M increases the affinity of EGFR for ATP, thus outcompeting the inhibitor. Additionally, the C797S mutation can prevent covalent binding of third-generation EGFR inhibitors like osimertinib, which target EGFR irreversibly. Activation of bypass pathways, such as MET amplification or activation of PI3K/AKT signaling, can also confer resistance by circumventing EGFR dependence. Combination strategies targeting multiple resistance mechanisms are under investigation to overcome these challenges.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for rheumatoid arthritis according to the ACR/EULAR criteria?",
+    "answer": "Joint involvement, serology (RF, anti-CCP), acute-phase reactants (ESR, CRP), and symptom duration are scored; a score ≥6/10 classifies as definite RA.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What role does the gut microbiome play in the pathogenesis of inflammatory bowel disease?",
+    "answer": "The gut microbiome is critically implicated in IBD pathogenesis through complex interactions with the host immune system and intestinal barrier function. Dysbiosis, characterized by decreased microbial diversity and an altered composition (e.g., decreased Firmicutes and increased Proteobacteria), disrupts immune homeostasis. Certain pathobionts can trigger or exacerbate inflammation via TLR signaling and inflammasome activation. Imbalances in microbial metabolites, such as short-chain fatty acids (SCFAs), impair epithelial barrier integrity and immune regulation. Genetic susceptibility, environmental factors, and microbial exposures collectively contribute to the development and perpetuation of chronic intestinal inflammation in IBD. Fecal microbiota transplantation (FMT) and dietary interventions are being explored to restore microbial balance and modulate disease activity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening interval for cervical cancer with cytology alone in an average-risk woman?",
+    "answer": "Every 3 years starting at age 21.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do prions propagate and cause neurodegenerative diseases?",
+    "answer": "Prions are misfolded conformers of a normal cellular protein (PrPC) that can self-propagate by inducing conformational changes in other PrPC molecules. This process converts PrPC into the pathogenic prion form (PrPSc), which aggregates into amyloid fibrils and accumulates in neural tissue. PrPSc acts as a template, catalyzing the misfolding of PrPC in a self-sustaining cycle. The accumulation of PrPSc aggregates disrupts neuronal function, leading to synaptic dysfunction, neuronal loss, and ultimately neurodegenerative diseases such as Creutzfeldt-Jakob disease (CJD) and Gerstmann-Sträussler-Scheinker syndrome (GSS). The precise mechanisms of prion-induced neurotoxicity are still under investigation, but likely involve ER stress, mitochondrial dysfunction, and activation of apoptotic pathways.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for community-acquired pneumonia in an outpatient setting?",
+    "answer": "Azithromycin or doxycycline are common choices.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of insulin resistance in type 2 diabetes?",
+    "answer": "Insulin resistance in type 2 diabetes involves dysregulation of multiple signaling pathways. Chronic overnutrition and obesity lead to increased levels of free fatty acids and inflammatory cytokines, which activate serine kinases such as JNK and IKKβ. These kinases phosphorylate insulin receptor substrate 1 (IRS-1) on serine residues, inhibiting its ability to bind and activate PI3K. Reduced PI3K activity impairs glucose transporter 4 (GLUT4) translocation to the cell membrane, decreasing glucose uptake in muscle and adipose tissue. Additionally, endoplasmic reticulum (ER) stress and mitochondrial dysfunction contribute to insulin resistance by activating stress-related signaling pathways. Therapeutic strategies targeting these pathways are being developed to improve insulin sensitivity and glycemic control.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the most common cause of hypothyroidism in iodine-sufficient regions?",
+    "answer": "Hashimoto's thyroiditis.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors enhance antitumor immunity?",
+    "answer": "Checkpoint inhibitors, such as anti-PD-1/PD-L1 and anti-CTLA-4 antibodies, block inhibitory signaling pathways that suppress T-cell activation and effector function. CTLA-4 blockade enhances T-cell priming in lymph nodes by preventing CTLA-4 from outcompeting CD28 for binding to B7 ligands on antigen-presenting cells. PD-1/PD-L1 blockade restores T-cell activity in the tumor microenvironment by preventing PD-1 on T cells from binding to PD-L1 expressed on tumor cells or immune cells. This releases the inhibitory signal, allowing T cells to recognize and kill tumor cells more effectively. Checkpoint inhibitors can lead to durable responses in a subset of patients with various cancers by reinvigorating pre-existing antitumor immunity. However, immune-related adverse events (irAEs) can occur due to the broad activation of the immune system.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial treatment for a patient presenting with a first-time seizure?",
+    "answer": "Assess airway, breathing, circulation; consider lorazepam or diazepam if actively seizing.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication within the tumor microenvironment?",
+    "answer": "Exosomes are small extracellular vesicles that mediate intercellular communication within the tumor microenvironment by transferring proteins, nucleic acids (mRNA, miRNA), and lipids between cells. Tumor-derived exosomes can promote tumor growth, angiogenesis, metastasis, and immune evasion. For example, exosomes can deliver oncogenic proteins or miRNAs to recipient cells, altering their gene expression and behavior. Exosomes can also transfer drug resistance factors, such as efflux pumps, to neighboring tumor cells, promoting therapeutic resistance. Furthermore, exosomes can modulate immune cell function by transferring immunosuppressive molecules to T cells or by activating signaling pathways in myeloid cells. Exosomes are being investigated as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets to disrupt tumor-stromal interactions.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for uncomplicated cystitis in a healthy adult female?",
+    "answer": "Nitrofurantoin or trimethoprim-sulfamethoxazole are typical first-line options.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion in different cancer contexts?",
+    "answer": "Autophagy, a cellular self-degradative process, plays a complex and context-dependent role in cancer. In early stages of tumorigenesis, autophagy can act as a tumor suppressor by removing damaged organelles, misfolded proteins, and oncogenic signaling molecules, thereby preventing genomic instability and cellular transformation. However, in established tumors, autophagy can promote tumor growth and survival by providing nutrients and energy under stressful conditions, such as hypoxia or nutrient deprivation. Autophagy can also protect tumor cells from chemotherapy-induced cell death by removing cytotoxic drugs or damaged organelles. The dual role of autophagy in cancer highlights the importance of understanding the specific genetic and microenvironmental context when targeting autophagy for therapeutic purposes. Inhibiting autophagy may be beneficial in tumors where it promotes survival, while inducing autophagy may be beneficial in tumors where it acts as a tumor suppressor.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the most common cause of Cushing's syndrome?",
+    "answer": "Exogenous glucocorticoid use.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do epigenetic modifications, such as DNA methylation and histone modifications, regulate gene expression in cancer?",
+    "answer": "Epigenetic modifications, including DNA methylation and histone modifications, play a crucial role in regulating gene expression and contribute to cancer development and progression. DNA methylation, primarily at CpG islands, typically leads to gene silencing by recruiting methyl-binding proteins and histone deacetylases. Aberrant DNA methylation patterns, such as hypermethylation of tumor suppressor genes and hypomethylation of oncogenes, are commonly observed in cancer. Histone modifications, including acetylation, methylation, phosphorylation, and ubiquitination, alter chromatin structure and regulate gene transcription. Histone acetylation generally promotes gene expression by relaxing chromatin, while histone methylation can have both activating and repressive effects depending on the specific histone residue modified. Dysregulation of histone-modifying enzymes and aberrant histone modification patterns contribute to altered gene expression profiles in cancer cells. Epigenetic modifications are reversible and can be targeted therapeutically with drugs such as DNA methyltransferase inhibitors and histone deacetylase inhibitors.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the target INR range for a patient on warfarin for atrial fibrillation?",
+    "answer": "2.0-3.0.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade the host immune system, enabling persistent infection and disease. These mechanisms include: (1) antigenic variation through mutation or recombination to escape antibody recognition; (2) inhibition of interferon (IFN) signaling, which is crucial for antiviral defense; (3) suppression of antigen presentation by downregulating MHC class I expression or interfering with proteasome function; (4) induction of immunosuppressive cytokines, such as IL-10 and TGF-β; (5) direct infection or killing of immune cells, such as CD4+ T cells; and (6) establishment of latency, during which the virus remains dormant within host cells. Understanding these mechanisms is critical for developing effective antiviral therapies and vaccines.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended first-line treatment for major depressive disorder?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) are typically first-line.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the Warburg effect contribute to tumor cell survival and proliferation?",
+    "answer": "The Warburg effect, or aerobic glycolysis, is the phenomenon where cancer cells preferentially utilize glycolysis over oxidative phosphorylation for energy production, even in the presence of oxygen. This metabolic shift provides several advantages to tumor cells: (1) rapid ATP production to support rapid cell division; (2) production of biosynthetic precursors, such as lipids, amino acids, and nucleotides, needed for cell growth and proliferation; (3) acidification of the tumor microenvironment, which promotes invasion and metastasis by degrading the extracellular matrix; and (4) reduced reactive oxygen species (ROS) production compared to oxidative phosphorylation, protecting cancer cells from oxidative stress. The Warburg effect is regulated by oncogenes, such as MYC and HIF-1α, and tumor suppressor genes, such as p53. Targeting the Warburg effect is an area of active investigation for cancer therapy.",
+    "persona": "Researcher"
+  }
+]

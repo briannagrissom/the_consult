@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation?",
+    "answer": "Rate control with beta-blockers or calcium channel blockers, unless hemodynamically unstable, then cardioversion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does CRISPR-Cas9 gene editing technology work at the molecular level, and what are its limitations?",
+    "answer": "CRISPR-Cas9 utilizes a guide RNA (gRNA) complementary to a target DNA sequence, which directs the Cas9 endonuclease to that specific location in the genome. The Cas9 enzyme then creates a double-stranded break (DSB) in the DNA. The cell's repair mechanisms then kick in. Non-homologous end joining (NHEJ) is error-prone and can introduce insertions or deletions (indels), effectively disrupting the gene. Alternatively, if a DNA template with homology to the target site is provided, homology-directed repair (HDR) can be used to precisely insert or modify the gene. Limitations include off-target effects (Cas9 cutting at unintended sites with similar sequences), mosaicism (incomplete editing within a population of cells), delivery challenges (getting the CRISPR-Cas9 components into the target cells or tissues), and immune responses against Cas9. Ethical concerns surrounding germline editing and potential unintended consequences also constrain its widespread application. Further research focuses on increasing specificity, improving delivery methods, and developing more sophisticated editing tools.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which gut microbiota influence the efficacy of cancer immunotherapy?",
+    "answer": "Gut microbiota play a critical role in shaping the host immune response, both systemically and within the tumor microenvironment. Certain bacterial species, such as *Akkermansia muciniphila* and *Faecalibacterium prausnitzii*, have been associated with improved responses to checkpoint inhibitors like anti-PD-1 and anti-CTLA-4 antibodies. These bacteria can enhance dendritic cell maturation and T-cell priming in the gut-associated lymphoid tissue, leading to increased infiltration of cytotoxic T lymphocytes into tumors. Conversely, dysbiosis (imbalance in the gut microbiota) can impair immune responses and promote resistance to immunotherapy. This can occur through several mechanisms, including reduced production of short-chain fatty acids (SCFAs) like butyrate, which have anti-inflammatory and immunomodulatory effects; increased levels of immunosuppressive metabolites; and altered expression of pattern recognition receptors (PRRs) on immune cells. The composition of the gut microbiota can also influence the expression of PD-L1 on tumor cells and immune cells, thereby modulating the effectiveness of PD-1/PD-L1 blockade. Fecal microbiota transplantation (FMT) studies have shown that transferring gut microbiota from responders to non-responders can improve immunotherapy outcomes, highlighting the causal role of the gut microbiome in modulating anti-tumor immunity.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you treat community-acquired pneumonia in an outpatient setting?",
+    "answer": "Empiric antibiotics: typically a macrolide (azithromycin) or doxycycline; consider a respiratory fluoroquinolone (levofloxacin) if comorbidities are present.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the distinct signaling pathways activated by EGFR mutations in non-small cell lung cancer, and how do they contribute to drug resistance?",
+    "answer": "EGFR mutations in NSCLC, particularly exon 19 deletions and the L858R point mutation in exon 21, lead to constitutive activation of downstream signaling pathways, primarily the RAS-RAF-MEK-ERK, PI3K-AKT-mTOR, and JAK-STAT pathways. These pathways promote cell proliferation, survival, angiogenesis, and metastasis. First-generation EGFR tyrosine kinase inhibitors (TKIs) such as gefitinib and erlotinib competitively bind to the ATP-binding pocket of the EGFR kinase domain, blocking its activity. However, resistance invariably develops, most commonly due to the T790M secondary mutation, which sterically hinders TKI binding. Other resistance mechanisms include MET amplification, which activates the PI3K-AKT pathway independently of EGFR; epithelial-mesenchymal transition (EMT), which bypasses EGFR signaling; and small cell lung cancer transformation. Third-generation EGFR TKIs like osimertinib are designed to overcome T790M resistance, but further resistance can emerge through mutations such as C797S or activation of bypass pathways. Combination strategies targeting multiple signaling nodes and immunotherapy are being explored to overcome these resistance mechanisms.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for acute ischemic stroke?",
+    "answer": "IV alteplase within 4.5 hours of symptom onset, or mechanical thrombectomy within 24 hours in select patients with large vessel occlusion.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of exosomes in intercellular communication and cancer metastasis?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm in diameter) secreted by cells that mediate intercellular communication by transferring proteins, lipids, mRNA, and microRNA to recipient cells. In cancer, exosomes play a multifaceted role in promoting metastasis. They can alter the tumor microenvironment by inducing angiogenesis, suppressing immune responses, and remodeling the extracellular matrix. Exosomes released by tumor cells can also prime distant organs for metastasis by delivering oncogenic cargo to pre-metastatic niches, facilitating cancer cell homing and colonization. For example, exosomes can transfer matrix metalloproteinases (MMPs) to degrade the extracellular matrix, adhesion molecules to promote cell adhesion, and signaling molecules to activate pro-survival pathways in recipient cells. Tumor-derived exosomes can also educate immune cells, such as macrophages and dendritic cells, to adopt immunosuppressive phenotypes, thereby evading immune surveillance. Exosomes are being explored as biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets to block metastasis and deliver drugs specifically to tumor cells.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with a deep vein thrombosis (DVT)?",
+    "answer": "Anticoagulation with direct oral anticoagulants (DOACs) or warfarin, or low-molecular-weight heparin (LMWH) bridging to warfarin; consider compression stockings.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the distinct mechanisms of action of different classes of antidepressant medications?",
+    "answer": "Antidepressants exert their effects by modulating neurotransmitter levels in the synaptic cleft. Selective serotonin reuptake inhibitors (SSRIs) selectively inhibit the reuptake of serotonin (5-HT), increasing its availability in the synapse. Serotonin-norepinephrine reuptake inhibitors (SNRIs) inhibit the reuptake of both serotonin and norepinephrine (NE). Tricyclic antidepressants (TCAs) inhibit the reuptake of serotonin and norepinephrine, but they also have anticholinergic, antihistaminic, and antiadrenergic effects, leading to more side effects. Monoamine oxidase inhibitors (MAOIs) inhibit the enzyme monoamine oxidase, which breaks down serotonin, norepinephrine, and dopamine (DA), leading to increased levels of these neurotransmitters. Each class has a different side effect profile and efficacy in different patient populations. Furthermore, antidepressants can induce downstream effects on neuroplasticity, neurogenesis, and gene expression, contributing to their therapeutic effects over time.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the recommended screening guidelines for colorectal cancer?",
+    "answer": "Colonoscopy every 10 years, fecal immunochemical test (FIT) annually, or flexible sigmoidoscopy every 5 years, starting at age 45.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the various mechanisms by which viruses evade the host immune system?",
+    "answer": "Viruses employ diverse strategies to evade host immune responses, enabling persistent infection. Many viruses encode proteins that directly interfere with interferon (IFN) signaling pathways, which are crucial for antiviral defense. For example, some viruses inhibit IFN production, while others block the downstream signaling cascades triggered by IFN binding to its receptor. Viruses can also evade antibody-mediated neutralization by undergoing antigenic variation, such as mutations in surface glycoproteins. Some viruses establish latency, a state of dormancy in which the virus persists within the host without actively replicating, making it difficult for the immune system to detect and eliminate the virus. Furthermore, viruses can suppress T-cell responses by inducing T-cell exhaustion, inhibiting antigen presentation, or directly infecting and killing immune cells. Some viruses encode homologs of host cytokines or cytokine receptors that can modulate immune cell activity. These diverse evasion mechanisms allow viruses to establish chronic infections and cause disease.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you treat an uncomplicated urinary tract infection (UTI) in a woman?",
+    "answer": "Nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days, or fosfomycin single dose.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in regulating gene expression and cellular function?",
+    "answer": "Long non-coding RNAs (lncRNAs) are RNA transcripts longer than 200 nucleotides that do not encode proteins but play critical roles in regulating gene expression and cellular function. LncRNAs can interact with DNA, RNA, and proteins to modulate gene transcription, mRNA processing, and protein translation. They can act as scaffolds to bring together different regulatory proteins, guide chromatin-modifying complexes to specific genomic loci, or compete with mRNA for binding to RNA-binding proteins. LncRNAs can regulate gene expression in cis (affecting genes on the same chromosome) or in trans (affecting genes on different chromosomes). They are involved in diverse cellular processes, including development, differentiation, and disease. In cancer, lncRNAs can act as oncogenes or tumor suppressors, influencing cell proliferation, apoptosis, metastasis, and drug resistance. LncRNAs are being explored as potential therapeutic targets and biomarkers for various diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the treatment options for generalized anxiety disorder (GAD)?",
+    "answer": "SSRIs, SNRIs, buspirone, cognitive behavioral therapy (CBT), or a combination of medication and therapy.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the pathogenesis of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain, leading to neuronal dysfunction and cognitive decline. Several key signaling pathways are implicated in AD pathogenesis. The amyloid precursor protein (APP) processing pathway involves sequential cleavage of APP by β-secretase (BACE1) and γ-secretase, generating amyloid-β (Aβ) peptides, which aggregate to form amyloid plaques. The tau phosphorylation pathway involves abnormal hyperphosphorylation of tau protein, leading to the formation of neurofibrillary tangles. Neuroinflammation, mediated by microglia and astrocytes, contributes to neuronal damage and disease progression. Dysregulation of calcium homeostasis and mitochondrial dysfunction also play a role in AD pathogenesis. These pathways are interconnected and contribute to synaptic dysfunction, neuronal loss, and cognitive impairment. Therapeutic strategies targeting these pathways are being developed to prevent or slow the progression of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with acute asthma exacerbation?",
+    "answer": "Oxygen, inhaled short-acting beta-agonists (SABA), systemic corticosteroids, and possibly ipratropium.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of action of immune checkpoint inhibitors in cancer therapy?",
+    "answer": "Immune checkpoint inhibitors (ICIs) are monoclonal antibodies that block immune checkpoint proteins, which normally suppress T-cell activity to prevent autoimmunity. By blocking these checkpoints, ICIs unleash the anti-tumor immune response. Anti-CTLA-4 antibodies block CTLA-4, a receptor on T cells that inhibits T-cell activation. Anti-PD-1 and anti-PD-L1 antibodies block the PD-1/PD-L1 pathway, which inhibits T-cell activity in the tumor microenvironment. These ICIs enhance T-cell activation, proliferation, and cytotoxic activity, leading to tumor cell killing. However, ICIs can also cause immune-related adverse events (irAEs) due to the activation of the immune system against healthy tissues. Predictive biomarkers for ICI response are being investigated to identify patients who are most likely to benefit from these therapies.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for hypothyroidism?",
+    "answer": "Levothyroxine, titrated to normalize TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs contribute to the development of cardiovascular diseases?",
+    "answer": "Non-coding RNAs (ncRNAs), including microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), have emerged as critical regulators of cardiovascular function and disease. miRNAs are small (approximately 22 nucleotides) RNAs that regulate gene expression by binding to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. LncRNAs, longer than 200 nucleotides, regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional regulation, and post-transcriptional processing. In cardiovascular diseases, ncRNAs are involved in regulating cardiomyocyte hypertrophy, apoptosis, fibrosis, angiogenesis, and inflammation. Specific miRNAs and lncRNAs have been identified as potential therapeutic targets for heart failure, atherosclerosis, and hypertension. For instance, miR-21 has been shown to promote cardiac fibrosis, while miR-133 has been shown to protect against cardiomyocyte hypertrophy. Understanding the roles of ncRNAs in cardiovascular disease pathogenesis may lead to the development of novel diagnostic and therapeutic strategies.",
+    "persona": "Researcher"
+  }
+]

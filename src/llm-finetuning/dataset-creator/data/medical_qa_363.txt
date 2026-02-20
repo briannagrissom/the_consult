@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for a patient presenting with acute symptomatic atrial fibrillation with rapid ventricular response?",
+    "answer": "Rate control with intravenous beta-blockers or calcium channel blockers; consider cardioversion if unstable or rate control is ineffective.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the KRAS gene contribute to tumorigenesis, and what are the challenges in targeting KRAS therapeutically?",
+    "answer": "KRAS is a small GTPase that functions as a central node in signal transduction pathways regulating cell growth, differentiation, and survival. Mutations in KRAS, particularly at codons 12, 13, and 61, render the protein constitutively active by impairing GTP hydrolysis, leading to sustained activation of downstream effectors such as RAF/MEK/ERK and PI3K/AKT pathways, resulting in uncontrolled cell proliferation and resistance to apoptosis. The challenges in directly targeting KRAS stem from the protein's high affinity for GTP/GDP, its lack of a suitable binding pocket for small molecule inhibitors, and its abundant expression in normal tissues. While early attempts to inhibit KRAS directly were unsuccessful, recent advances have led to the development of KRAS G12C inhibitors (e.g., sotorasib, adagrasib) that covalently bind to the mutant cysteine residue, stabilizing the inactive GDP-bound state. However, resistance mechanisms, including bypass signaling and emergence of other KRAS mutations, limit the durability of these agents. Current research efforts focus on developing inhibitors targeting other KRAS isoforms, disrupting KRAS protein-protein interactions, and employing combination strategies to overcome resistance and enhance therapeutic efficacy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the current recommendations for managing a patient with a first-time unprovoked seizure?",
+    "answer": "Obtain detailed history and EEG; neuroimaging is generally recommended; treatment initiation depends on recurrence risk and patient preference.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of the gut microbiome in modulating the efficacy of cancer immunotherapy?",
+    "answer": "The gut microbiome plays a critical role in shaping systemic immunity and influencing the response to cancer immunotherapy, particularly immune checkpoint inhibitors (ICIs). Specific bacterial taxa, such as Akkermansia muciniphila and Faecalibacterium prausnitzii, have been associated with improved ICI efficacy, while dysbiosis and reduced microbial diversity are linked to poorer outcomes. The mechanisms by which the microbiome modulates immunotherapy response are multifaceted. Certain bacterial metabolites, including short-chain fatty acids (SCFAs) like butyrate and propionate, can enhance T-cell activity and promote anti-tumor immunity. The microbiome also influences the maturation and trafficking of immune cells, impacting the tumor microenvironment. Preclinical studies have demonstrated that fecal microbiota transplantation (FMT) from ICI-responsive patients can restore sensitivity to immunotherapy in non-responsive patients. Clinical trials are underway to investigate the use of FMT and targeted modulation of the gut microbiome as strategies to enhance the efficacy of cancer immunotherapy and overcome resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard treatment for uncomplicated community-acquired pneumonia in an outpatient setting?",
+    "answer": "Empiric antibiotics such as amoxicillin, doxycycline, or a macrolide (if local resistance is low) for 5 days.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic regulation contribute to the development of Alzheimer's disease?",
+    "answer": "Epigenetic mechanisms, including DNA methylation, histone modifications, and non-coding RNAs, play a crucial role in regulating gene expression and contributing to the pathogenesis of Alzheimer's disease (AD). Aberrant DNA methylation patterns have been observed in AD brains, affecting genes involved in neuronal function, synaptic plasticity, and inflammatory responses. Histone modifications, such as acetylation and methylation, influence chromatin structure and accessibility, thereby modulating gene transcription. Altered histone modification profiles have been implicated in the dysregulation of genes associated with amyloid-beta production and tau phosphorylation. Non-coding RNAs, particularly microRNAs (miRNAs), regulate gene expression post-transcriptionally. Dysregulation of miRNAs has been implicated in AD pathogenesis by affecting processes such as amyloid precursor protein (APP) processing, tau aggregation, and neuroinflammation. Epigenetic modifications can be influenced by environmental factors, such as diet, stress, and exposure to toxins, suggesting a potential link between environmental exposures and AD risk. Epigenetic therapies, such as histone deacetylase (HDAC) inhibitors, are being explored as potential therapeutic strategies for AD by targeting epigenetic modifications and restoring normal gene expression patterns.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer in average-risk individuals?",
+    "answer": "Start screening at age 45 with colonoscopy every 10 years, or annual FIT test, or flexible sigmoidoscopy every 5 years.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms of resistance to EGFR tyrosine kinase inhibitors (TKIs) in non-small cell lung cancer (NSCLC)?",
+    "answer": "Resistance to EGFR TKIs in NSCLC arises through multiple mechanisms, both EGFR-dependent and EGFR-independent. The most common EGFR-dependent mechanism is the acquisition of the T790M mutation in EGFR exon 20, which sterically hinders TKI binding. Other EGFR-dependent mechanisms include EGFR amplification and the emergence of other EGFR mutations, such as C797S. EGFR-independent mechanisms involve activation of bypass signaling pathways, such as MET amplification, BRAF mutations, PI3K/AKT activation, and small cell lung cancer transformation. These bypass pathways restore cell survival and proliferation despite EGFR inhibition. Additionally, epithelial-mesenchymal transition (EMT) and epigenetic alterations can contribute to TKI resistance. The development of third-generation EGFR TKIs, such as osimertinib, which target both EGFR-sensitizing mutations and the T790M resistance mutation, has improved outcomes for patients with T790M-positive NSCLC. Strategies to overcome other resistance mechanisms include combination therapies targeting bypass pathways and immunotherapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient with a suspected deep vein thrombosis (DVT) in the leg?",
+    "answer": "Assess pretest probability (e.g., Wells score); if high, start anticoagulation and order imaging (ultrasound). If low, order imaging first.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of autophagy in neurodegenerative diseases?",
+    "answer": "Autophagy is a critical cellular process involved in the degradation and recycling of damaged organelles and misfolded proteins. In neurodegenerative diseases, such as Alzheimer's disease, Parkinson's disease, and Huntington's disease, impaired autophagy contributes to the accumulation of toxic protein aggregates, leading to neuronal dysfunction and cell death. In Alzheimer's disease, autophagy is involved in the clearance of amyloid-beta plaques and tau tangles. Defective autophagy can impair the removal of these aggregates, promoting their accumulation and exacerbating disease progression. In Parkinson's disease, autophagy plays a role in the degradation of alpha-synuclein, a protein that forms Lewy bodies, the pathological hallmark of the disease. Mutations in genes involved in autophagy, such as LRRK2 and PARK2, are associated with increased risk of Parkinson's disease. In Huntington's disease, autophagy is involved in the clearance of mutant huntingtin protein aggregates. Strategies to enhance autophagy, such as treatment with mTOR inhibitors or autophagy-inducing peptides, are being explored as potential therapeutic interventions for neurodegenerative diseases.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended initial pharmacological treatment for type 2 diabetes mellitus?",
+    "answer": "Metformin, unless contraindicated or not tolerated.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the mechanism of action of CRISPR-Cas9 gene editing?",
+    "answer": "CRISPR-Cas9 is a revolutionary gene editing technology derived from the adaptive immune system of bacteria. It consists of two key components: the Cas9 enzyme, which acts as a molecular scissor, and a guide RNA (gRNA), which directs Cas9 to a specific DNA sequence in the genome. The gRNA is a synthetic RNA molecule that contains a 20-nucleotide sequence complementary to the target DNA sequence, along with a scaffold sequence that binds to Cas9. When the gRNA and Cas9 are introduced into a cell, the gRNA guides Cas9 to the target DNA sequence through complementary base pairing. Cas9 then makes a double-stranded break in the DNA at the target site. The cell's own DNA repair mechanisms then repair the break. There are two main pathways for DNA repair: non-homologous end joining (NHEJ) and homology-directed repair (HDR). NHEJ is an error-prone pathway that often results in insertions or deletions (indels) at the break site, disrupting the gene. HDR uses a provided DNA template to repair the break, allowing for precise gene editing or insertion of new DNA sequences. CRISPR-Cas9 has numerous applications in biomedical research, including gene knockout, gene correction, gene tagging, and gene regulation.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the management of anaphylaxis?",
+    "answer": "Epinephrine intramuscularly, antihistamines, and corticosteroids; ensure airway is patent.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes contribute to intercellular communication in cancer?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (mRNA, miRNA) between cells. In cancer, exosomes play a crucial role in promoting tumor growth, metastasis, angiogenesis, and immune evasion. Tumor-derived exosomes can deliver oncogenic proteins and miRNAs to recipient cells, promoting their proliferation and survival. They can also transfer drug resistance factors, such as drug efflux pumps and anti-apoptotic proteins, to sensitive cells, leading to acquired drug resistance. Exosomes facilitate metastasis by promoting epithelial-mesenchymal transition (EMT) in cancer cells and by preparing the pre-metastatic niche in distant organs. They can also promote angiogenesis by delivering pro-angiogenic factors, such as VEGF, to endothelial cells. Furthermore, exosomes can suppress anti-tumor immunity by delivering immunosuppressive molecules, such as PD-L1 and TGF-β, to immune cells. Exosomes are being explored as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets for cancer therapy.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated cystitis in women?",
+    "answer": "Nitrofurantoin for 5 days or trimethoprim-sulfamethoxazole (TMP-SMX) for 3 days if local resistance is <20%.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key signaling pathways involved in the development of insulin resistance?",
+    "answer": "Insulin resistance, a hallmark of type 2 diabetes and metabolic syndrome, arises from impaired insulin signaling in target tissues such as muscle, liver, and adipose tissue. Several key signaling pathways contribute to the development of insulin resistance. Activation of serine/threonine kinases, such as IKKβ, JNK, and mTOR, can phosphorylate insulin receptor substrate 1 (IRS-1) on serine residues, inhibiting its ability to bind and activate PI3K. Accumulation of intracellular lipids, such as diacylglycerol (DAG) and ceramides, can also activate these kinases. Activation of inflammatory pathways, such as NF-κB, can impair insulin signaling and promote insulin resistance. Dysregulation of adipokine secretion from adipose tissue, such as increased secretion of TNF-α and IL-6 and decreased secretion of adiponectin, contributes to systemic inflammation and insulin resistance. Furthermore, endoplasmic reticulum (ER) stress can activate unfolded protein response (UPR) pathways, leading to insulin resistance. Understanding these complex signaling pathways is crucial for developing effective strategies to prevent and treat insulin resistance.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How is a patient with a suspected stroke managed in the emergency department?",
+    "answer": "Assess ABCs, NIHSS score, CT scan to rule out hemorrhage, consider thrombolytics (tPA) if within time window and no contraindications.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What is the role of long non-coding RNAs (lncRNAs) in cancer metastasis?",
+    "answer": "Long non-coding RNAs (lncRNAs) are RNA transcripts longer than 200 nucleotides that lack protein-coding potential. They play diverse roles in gene regulation, including chromatin modification, transcriptional regulation, and post-transcriptional processing. In cancer, lncRNAs are frequently dysregulated and contribute to various aspects of tumorigenesis, including metastasis. LncRNAs can promote metastasis by regulating epithelial-mesenchymal transition (EMT), a process by which epithelial cells lose their cell-cell adhesion and acquire migratory and invasive properties. They can also enhance cancer cell migration and invasion by modulating the expression of matrix metalloproteinases (MMPs) and other extracellular matrix remodeling enzymes. LncRNAs can promote angiogenesis, the formation of new blood vessels, which is essential for tumor growth and metastasis. Furthermore, lncRNAs can suppress anti-tumor immunity by inhibiting the activity of immune cells or by promoting the expression of immune checkpoint molecules. LncRNAs are being explored as potential therapeutic targets for cancer metastasis.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for hypothyroidism?",
+    "answer": "Levothyroxine, titrated to TSH levels.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does immunotherapy with checkpoint inhibitors work to treat cancer?",
+    "answer": "Immune checkpoint inhibitors (ICIs) are a class of immunotherapy drugs that block inhibitory signals on T cells, thereby enhancing anti-tumor immune responses. T cells express various checkpoint molecules, such as CTLA-4 and PD-1, which negatively regulate T cell activation and effector function. Tumor cells can exploit these checkpoint pathways to evade immune destruction. For example, tumor cells can express PD-L1, a ligand for PD-1, which inhibits T cell activity upon binding to PD-1. ICIs, such as anti-CTLA-4 and anti-PD-1/PD-L1 antibodies, block these inhibitory interactions, allowing T cells to recognize and kill tumor cells more effectively. The use of ICIs has revolutionized cancer therapy, leading to durable responses in a subset of patients with various types of cancer. However, ICIs can also cause immune-related adverse events (irAEs) due to the activation of the immune system against normal tissues. Predictive biomarkers are being developed to identify patients who are most likely to benefit from ICI therapy and to minimize the risk of irAEs.",
+    "persona": "Researcher"
+  }
+]

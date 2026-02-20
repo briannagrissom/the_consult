@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the first-line treatment for acute uncomplicated cystitis in a non-pregnant woman?",
+    "answer": "Nitrofurantoin or TMP-SMX are first-line; consider local resistance patterns per IDSA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does chronic inflammation contribute to the development of atherosclerotic plaques?",
+    "answer": "Chronic inflammation plays a central role in atherogenesis by initiating and propagating endothelial dysfunction, lipid accumulation, and plaque instability. Elevated levels of circulating inflammatory cytokines, such as TNF-α, IL-1β, and IL-6, promote endothelial cell activation, leading to increased expression of adhesion molecules (e.g., VCAM-1, ICAM-1) that recruit monocytes and T-cells into the subendothelial space. Oxidized LDL particles accumulate in the intima, triggering an inflammatory response that drives monocyte differentiation into macrophages. These macrophages engulf oxidized LDL, transforming into foam cells, which are a hallmark of early atherosclerotic lesions. Continued inflammatory signaling stimulates foam cell apoptosis and necrosis, releasing cellular debris and lipids that contribute to plaque growth. Furthermore, inflammatory mediators activate matrix metalloproteinases (MMPs) that degrade the extracellular matrix, weakening the fibrous cap and increasing the risk of plaque rupture. Systemic inflammation also promotes platelet activation and thrombus formation, accelerating the progression of atherosclerotic disease. Clinical trials targeting inflammatory pathways, such as the CANTOS trial targeting IL-1β, have demonstrated a reduction in cardiovascular events, underscoring the importance of inflammation in atherosclerosis [PMID: 29656123].",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What are the key diagnostic criteria for diabetes mellitus?",
+    "answer": "Fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5% per ADA guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the mechanisms by which PD-1/PD-L1 blockade enhances anti-tumor immunity?",
+    "answer": "PD-1 (Programmed cell death protein 1) is an immune checkpoint receptor expressed on T cells, while its ligand PD-L1 (Programmed death-ligand 1) is frequently upregulated in tumor cells and cells within the tumor microenvironment. The interaction between PD-1 and PD-L1 delivers an inhibitory signal that suppresses T cell activation, proliferation, and effector functions, enabling tumor cells to evade immune destruction. Specifically, PD-1 engagement recruits phosphatases such as SHP-1 and SHP-2 to the T cell receptor (TCR) signaling complex, inhibiting downstream signaling pathways required for T cell activation. This results in decreased production of cytokines like IFN-γ and TNF-α, reduced cytotoxic activity, and impaired T cell migration to the tumor site. Furthermore, PD-1 signaling can induce T cell exhaustion, characterized by loss of effector functions and increased expression of inhibitory receptors. By blocking the PD-1/PD-L1 interaction with monoclonal antibodies, these inhibitory signals are disrupted, restoring T cell activity and enhancing anti-tumor immunity. This blockade promotes T cell proliferation, increases cytokine production, and enhances cytotoxic killing of tumor cells. In addition, PD-1/PD-L1 blockade can reverse T cell exhaustion, allowing exhausted T cells to regain their effector functions and contribute to tumor regression. The effectiveness of PD-1/PD-L1 inhibitors depends on the presence of pre-existing anti-tumor T cell responses and the level of PD-L1 expression in the tumor microenvironment. Combination therapies targeting other immune checkpoints or co-stimulatory molecules are being explored to further enhance the efficacy of PD-1/PD-L1 blockade.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How should community-acquired pneumonia be treated empirically in an outpatient setting?",
+    "answer": "Azithromycin, doxycycline, or amoxicillin are reasonable choices, depending on local resistance per IDSA/ATS guidelines.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do mutations in the EGFR gene contribute to lung cancer development and response to targeted therapies?",
+    "answer": "Mutations in the epidermal growth factor receptor (EGFR) gene are commonly found in non-small cell lung cancer (NSCLC), particularly in adenocarcinomas, and play a critical role in tumor development and response to targeted therapies. These mutations, primarily occurring in exons 18-21 (including deletions in exon 19 and the L858R point mutation in exon 21), lead to constitutive activation of the EGFR tyrosine kinase, promoting cell proliferation, survival, and angiogenesis. The mutant EGFR proteins exhibit increased sensitivity to ATP, leading to enhanced downstream signaling through pathways such as RAS/RAF/MEK/ERK and PI3K/AKT/mTOR, which drive uncontrolled cell growth and survival. First-generation EGFR tyrosine kinase inhibitors (TKIs) like gefitinib and erlotinib competitively bind to the ATP-binding site of the mutant EGFR, inhibiting its kinase activity and blocking downstream signaling. Tumors harboring EGFR-activating mutations initially exhibit dramatic responses to these TKIs; however, resistance inevitably develops, often due to the acquisition of secondary mutations, such as the T790M mutation in exon 20. This mutation increases the affinity of EGFR for ATP, reducing the binding affinity of first-generation TKIs. Third-generation EGFR TKIs like osimertinib are designed to overcome T790M-mediated resistance by forming irreversible covalent bonds with EGFR, including the T790M mutant. However, resistance to osimertinib can also emerge through mechanisms such as the C797S mutation or activation of bypass pathways. The identification of specific EGFR mutations is crucial for selecting appropriate targeted therapies and predicting treatment outcomes in NSCLC patients. [PMID: 25439694]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a first-time unprovoked seizure in an adult?",
+    "answer": "Generally, treatment is not initiated after a single unprovoked seizure unless there are specific risk factors or patient preferences.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does the gut microbiome influence the efficacy and toxicity of cancer therapies?",
+    "answer": "The gut microbiome profoundly influences cancer therapy outcomes through diverse mechanisms affecting both efficacy and toxicity. Certain bacterial species can metabolize chemotherapeutic drugs, either activating them (e.g., cyclophosphamide activation by bacterial β-glucuronidase) or inactivating them (e.g., gemcitabine inactivation by bacterial cytidine deaminase), thereby modulating their systemic exposure and anti-tumor activity. The gut microbiome also shapes the host immune system, influencing the response to immunotherapies like PD-1/PD-L1 inhibitors and CTLA-4 antibodies. Specific bacterial species, such as Akkermansia muciniphila, have been associated with improved responses to checkpoint inhibitors by enhancing T cell infiltration into the tumor microenvironment and promoting dendritic cell maturation. Conversely, dysbiosis or depletion of certain bacterial species can impair anti-tumor immunity and reduce the efficacy of immunotherapy. Furthermore, the gut microbiome contributes to cancer therapy-related toxicities, including chemotherapy-induced mucositis, diarrhea, and immune-related adverse events. Chemotherapy can disrupt the gut microbiota, leading to increased intestinal permeability and translocation of bacteria and bacterial products into the systemic circulation, triggering inflammation and tissue damage. Some bacterial species can produce metabolites, such as trimethylamine N-oxide (TMAO), that promote cardiovascular toxicity, while others can exacerbate immune-related adverse events by activating inflammatory pathways. Strategies to modulate the gut microbiome, such as fecal microbiota transplantation (FMT) and dietary interventions, are being explored to improve cancer therapy outcomes and reduce treatment-related toxicities. [PMID: 30367053]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the initial pharmacological management of atrial fibrillation with rapid ventricular response?",
+    "answer": "Beta-blockers or calcium channel blockers (non-dihydropyridine) are commonly used for rate control.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "What are the key molecular mechanisms underlying the development of Alzheimer's disease?",
+    "answer": "Alzheimer's disease (AD) is a complex neurodegenerative disorder characterized by the progressive accumulation of amyloid plaques and neurofibrillary tangles in the brain, leading to neuronal dysfunction and cognitive decline. Amyloid plaques are primarily composed of amyloid-beta (Aβ) peptides, which are generated by sequential cleavage of the amyloid precursor protein (APP) by β-secretase (BACE1) and γ-secretase. Mutations in APP, presenilin 1 (PSEN1), and presenilin 2 (PSEN2) genes, which are involved in Aβ production, are associated with early-onset familial AD. The accumulation of Aβ peptides leads to the formation of soluble oligomers, which are highly neurotoxic and can disrupt synaptic function, impair neuronal signaling, and trigger inflammatory responses. Neurofibrillary tangles are composed of hyperphosphorylated tau protein, which normally stabilizes microtubules in neurons. Hyperphosphorylation of tau causes it to detach from microtubules and aggregate into insoluble filaments, disrupting axonal transport and leading to neuronal death. Other factors contributing to AD pathogenesis include oxidative stress, mitochondrial dysfunction, impaired glucose metabolism, and neuroinflammation. Genetic risk factors, such as the apolipoprotein E4 (APOE4) allele, increase the risk of developing AD by modulating Aβ clearance and inflammatory responses. Therapeutic strategies targeting Aβ production, aggregation, or clearance, as well as those aimed at preventing tau hyperphosphorylation and neuroinflammation, are being actively investigated for the treatment of AD.",
+    "persona": "Researcher"
+  },
+  {
+    "question": "How do you manage a patient presenting with acute symptomatic hyponatremia?",
+    "answer": "Assess volume status and severity of symptoms; hypertonic saline may be indicated for severe symptoms.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does autophagy contribute to both tumor suppression and tumor promotion in different cancer contexts?",
+    "answer": "Autophagy, a cellular process involving the degradation and recycling of cytoplasmic components, plays a dual role in cancer, acting as both a tumor suppressor and a tumor promoter depending on the context. In early stages of tumorigenesis or in pre-cancerous cells, autophagy functions as a tumor suppressor by removing damaged organelles, misfolded proteins, and toxic aggregates, thereby preventing the accumulation of cellular stress and genomic instability that can drive malignant transformation. Autophagy also contributes to tumor suppression by promoting cell death in response to oncogenic stress or DNA damage. However, in established tumors, autophagy can promote tumor growth and survival by providing cancer cells with nutrients and energy under conditions of nutrient deprivation or hypoxia. Autophagy allows cancer cells to recycle intracellular components, such as amino acids and lipids, to fuel their metabolism and maintain cellular homeostasis. Furthermore, autophagy can protect cancer cells from the cytotoxic effects of chemotherapy and radiation by removing damaged organelles and reducing cellular stress. Autophagy can also promote metastasis by facilitating cancer cell survival during detachment from the primary tumor and colonization of distant sites. The context-dependent role of autophagy in cancer highlights the complexity of this process and the challenges in developing autophagy-targeted therapies. Inhibiting autophagy may be beneficial in some cancers, while promoting autophagy may be effective in others. [PMID: 24231608]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for acute uncomplicated diverticulitis?",
+    "answer": "Oral antibiotics are often used, but observation alone may be appropriate in selected patients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do circulating tumor cells (CTCs) contribute to cancer metastasis and how are they used in cancer diagnostics?",
+    "answer": "Circulating tumor cells (CTCs) are cancer cells that have detached from the primary tumor and entered the bloodstream, representing a critical step in the metastatic process. CTCs can seed distant organs and establish secondary tumors, leading to cancer progression and mortality. The number of CTCs in the bloodstream is often correlated with disease stage, treatment response, and overall survival in various cancers. CTCs contribute to metastasis through multiple mechanisms, including epithelial-mesenchymal transition (EMT), which allows cancer cells to detach from the primary tumor and acquire migratory and invasive properties. CTCs can also interact with platelets and immune cells to evade immune surveillance and promote their survival in the circulation. Furthermore, CTCs can undergo anoikis resistance, allowing them to survive in the absence of attachment to the extracellular matrix. CTCs are used in cancer diagnostics as a liquid biopsy to provide real-time information about the tumor genotype and phenotype. CTC enumeration can be used to monitor treatment response and predict disease progression. CTC characterization, including genomic and proteomic analysis, can identify actionable mutations and guide targeted therapy selection. CTCs can also be used to study mechanisms of metastasis and develop new therapeutic strategies to prevent or treat metastatic disease. [PMID: 22357724]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the appropriate initial treatment for a patient with new-onset paroxysmal supraventricular tachycardia (PSVT)?",
+    "answer": "Vagal maneuvers are the first-line treatment; adenosine is used if vagal maneuvers are unsuccessful.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How does epigenetic regulation contribute to cancer development and therapeutic resistance?",
+    "answer": "Epigenetic modifications, including DNA methylation, histone modifications, and non-coding RNAs, play a critical role in regulating gene expression and cellular function. Aberrant epigenetic regulation is a hallmark of cancer and contributes to tumor development, progression, and therapeutic resistance. DNA methylation, particularly at CpG islands in gene promoters, can silence tumor suppressor genes and promote oncogene expression. Histone modifications, such as acetylation and methylation, can alter chromatin structure and affect gene transcription. Dysregulation of histone-modifying enzymes can lead to global changes in gene expression patterns, contributing to cancer development. Non-coding RNAs, such as microRNAs (miRNAs) and long non-coding RNAs (lncRNAs), can regulate gene expression by binding to mRNA or DNA, affecting mRNA stability, translation, and chromatin structure. Aberrant expression of miRNAs and lncRNAs can promote oncogenesis or suppress tumor suppressor functions. Epigenetic modifications can also contribute to therapeutic resistance by altering the expression of genes involved in drug metabolism, DNA repair, and apoptosis. Epigenetic drugs, such as DNA methyltransferase inhibitors (DNMTis) and histone deacetylase inhibitors (HDACis), are being developed to reverse aberrant epigenetic modifications and restore normal gene expression patterns in cancer cells. Combination therapies targeting both genetic and epigenetic alterations are being explored to overcome therapeutic resistance and improve cancer treatment outcomes. [PMID: 20019680]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the recommended treatment for a patient with acute angle-closure glaucoma?",
+    "answer": "Topical beta-blockers, alpha agonists, and carbonic anhydrase inhibitors; systemic hyperosmotics may also be used; laser iridotomy is definitive.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do exosomes mediate intercellular communication in the tumor microenvironment and influence cancer progression?",
+    "answer": "Exosomes are small extracellular vesicles (30-150 nm) secreted by cells that mediate intercellular communication by transferring proteins, lipids, and nucleic acids (e.g., mRNA, microRNA) to recipient cells. In the tumor microenvironment, exosomes play a crucial role in cancer progression by influencing various aspects of tumor biology, including angiogenesis, immune evasion, metastasis, and therapeutic resistance. Tumor-derived exosomes can promote angiogenesis by delivering pro-angiogenic factors, such as VEGF, to endothelial cells, stimulating their proliferation and migration. Exosomes can also suppress anti-tumor immunity by delivering immunosuppressive molecules, such as PD-L1 and TGF-β, to immune cells, inhibiting their activation and effector functions. Furthermore, exosomes can facilitate metastasis by delivering matrix metalloproteinases (MMPs) and adhesion molecules to recipient cells, enhancing their invasive and migratory capabilities. Exosomes can also promote therapeutic resistance by transferring drug resistance proteins or nucleic acids to cancer cells, reducing their sensitivity to chemotherapy and targeted therapies. The composition and function of exosomes are highly context-dependent and can vary depending on the cell type, tumor stage, and microenvironmental conditions. Exosomes are being explored as potential biomarkers for cancer diagnosis and prognosis, as well as therapeutic targets for cancer treatment. [PMID: 23575740]",
+    "persona": "Researcher"
+  },
+  {
+    "question": "What is the standard of care for treating acute ischemic stroke?",
+    "answer": "Intravenous thrombolysis with tPA within 4.5 hours of symptom onset and/or mechanical thrombectomy in eligible patients.",
+    "persona": "Clinician"
+  },
+  {
+    "question": "How do non-coding RNAs regulate gene expression in prokaryotes and eukaryotes?",
+    "answer": "Non-coding RNAs (ncRNAs), which do not encode proteins, play crucial regulatory roles in both prokaryotic and eukaryotic gene expression. In prokaryotes, small ncRNAs (sRNAs) typically regulate gene expression by base-pairing with mRNA transcripts. This interaction can either stabilize or destabilize the mRNA, alter its translation efficiency, or recruit RNases for mRNA degradation. sRNAs often act in response to environmental cues, allowing bacteria to rapidly adapt to changing conditions. In eukaryotes, ncRNAs exhibit a more diverse range of regulatory mechanisms. MicroRNAs (miRNAs), approximately 22 nucleotides long, regulate gene expression by binding to the 3' untranslated region (UTR) of target mRNAs, leading to mRNA degradation or translational repression. Long non-coding RNAs (lncRNAs), which are longer than 200 nucleotides, regulate gene expression through diverse mechanisms, including chromatin remodeling, transcriptional interference, and scaffolding protein complexes. LncRNAs can interact with DNA, RNA, and proteins, influencing gene expression at various levels, from transcription to post-translational modification. Circular RNAs (circRNAs) are another class of ncRNAs that form closed loops and can act as miRNA sponges, sequestering miRNAs and preventing them from binding to their target mRNAs. Additionally, circRNAs can regulate transcription and even be translated into proteins under certain conditions. The diverse regulatory mechanisms of ncRNAs highlight their importance in controlling gene expression and cellular function in both prokaryotes and eukaryotes.",
+    "persona": "Researcher"
+  }
+]
