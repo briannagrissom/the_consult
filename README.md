@@ -1,12 +1,12 @@
 # The Consult
 
-AI assistant that delivers referenced, clinically aware answers for clinicians and researchers. It pairs Gemini with retrieval over PubMed-derived content so users can see citations, study details, and configurable evidence filters.
+Generative AI assistant that delivers referenced, clinically aware answers for clinicians and researchers. It pairs Gemini with RAG over PubMed-derived content so users can see citations, study details, and configurable evidence filters.
 
 ## What’s inside
 - `.github/workflows`: GitHub Actions CI/CD pipelines, ML workflow.
 - `notebooks`, `docs`, `data`: Exploratory work, notes, and seeds.
 - `screenshots`: Images of the output of each GitHub Actions workflow, testing coverage reports.
-- `src/llm-api`: FastAPI service that proxies Gemini, applies retrieval (ChromaDB), and streams responses.
+- `src/llm-api`: FastAPI service that proxies Gemini, applies RAG (ChromaDB), and streams responses.
 - `src/frontend`: Vite/React client that calls the API and renders citations/filters.
 - `src/models`: Data prep utilities for embeddings and ChromaDB ingestion.
 - `src/datapipeline`: Data movement helpers.
