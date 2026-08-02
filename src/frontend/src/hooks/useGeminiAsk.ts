@@ -6,6 +6,7 @@ export interface EvidenceFilters {
   articleImpact: string[];
   publicationDate: string;
   coiDisclosure: string;
+  keyword?: string;
 }
 
 export interface Citation {
@@ -28,12 +29,14 @@ export interface AskPayload {
   mode: "clinical" | "research";
   patient_context?: string;
   filters?: EvidenceFilters;
+  conversation_id?: string;
   onStream?: (partial: string) => void;
 }
 
 export interface AskResponse {
   answer: string;
   citations: Citation[];
+  conversation_id: string;
 }
 
 async function callGemini(payload: AskPayload): Promise<AskResponse> {
@@ -66,6 +69,7 @@ async function callGemini(payload: AskPayload): Promise<AskResponse> {
   let buffer = "";
   let answer = "";
   let citations: Citation[] = [];
+  let conversationId = "";
 
   const flushEvents = (chunk: string) => {
     buffer += chunk;
@@ -95,14 +99,16 @@ async function callGemini(payload: AskPayload): Promise<AskResponse> {
           delta?: string;
           error?: string;
           citations?: Citation[];
+          conversation_id?: string;
         };
 
         if (parsed.error) {
           throw new Error(parsed.error);
         }
 
-        if (eventType === "citations" && parsed.citations) {
-          citations = parsed.citations;
+        if (eventType === "meta") {
+          if (parsed.citations) citations = parsed.citations;
+          if (parsed.conversation_id) conversationId = parsed.conversation_id;
           continue;
         }
 
@@ -130,7 +136,7 @@ async function callGemini(payload: AskPayload): Promise<AskResponse> {
     flushEvents(decoder.decode());
   }
 
-  return { answer, citations };
+  return { answer, citations, conversation_id: conversationId };
 }
 
 async function callGeminiLegacy(

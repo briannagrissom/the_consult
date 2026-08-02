@@ -18,7 +18,7 @@ Generative AI assistant that delivers referenced, clinically aware answers for c
 ## Prerequisites
 - Python 3.11+
 - Node 18+ (for the frontend)
-- Access to Vertex AI Gemini + embeddings (service account or ADC)
+- An OpenAI API key (`OPENAI_API_KEY`) for LLM + embeddings, used via LangChain
 - ChromaDB endpoint with PubMed embeddings (defaults via env vars)
 
 ## Setup
@@ -39,11 +39,12 @@ cd ../..
 
 ### Environment
 set the following environment variables:
-- `GCP_PROJECT`, `GCP_REGION` (default `us-central1`)
-- `GEMINI_MODEL` (e.g., `gemini-2.5-flash`)
-- `EMBEDDING_MODEL`, `EMBEDDING_DIMENSION`
+- `OPENAI_API_KEY` (required for LLM calls and embeddings)
+- `OPENAI_MODEL` (default `gpt-5.4-nano`)
+- `EMBEDDING_MODEL` (default `text-embedding-3-small`), `EMBEDDING_DIMENSION` (default `1536`)
 - `CHROMADB_HOST`, `CHROMADB_PORT`, `CHROMADB_TOP_K`
 - `API_ALLOW_ORIGINS` (comma-separated origins; defaults include `http://localhost:8080`)
+- `GCP_PROJECT` is still needed for GCS access (parquet ingestion), unrelated to the LLM/embeddings path
 
 ## Deployment
 ### Kubernetes and GCP Deployment

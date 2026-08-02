@@ -86,25 +86,20 @@ class TestUtils:
 # ----------------------------------------------------------------------
 
 
-@patch("models.src.embedder.genai.Client")  # avoid real GCP call
-def test_embedder_get_client(MockGenAI):
-    mock_client = MockGenAI.return_value
+@patch("models.src.embedder.OpenAIEmbeddings")  # avoid real OpenAI call
+def test_embedder_get_client(MockOpenAIEmbeddings):
+    mock_client = MockOpenAIEmbeddings.return_value
     client = _get_client()
     assert client is mock_client
 
 
 @patch("models.src.embedder._get_client")
 def test_embed_texts(MockGetClient):
-    class FakeEmbedding:
-        def __init__(self, values):
-            self.values = values
-
-    # Create fake client
+    # Create fake client; one batch of embeddings per call to embed_documents
     fake_client = MagicMock()
-    fake_client.models.embed_content.return_value.embeddings = [
-        FakeEmbedding([0.1] * 256),
-        FakeEmbedding([0.2] * 256),
-        FakeEmbedding([0.3] * 256),
+    fake_client.embed_documents.side_effect = [
+        [[0.1] * 256, [0.2] * 256],
+        [[0.3] * 256],
     ]
 
     MockGetClient.return_value = fake_client
@@ -121,18 +116,14 @@ def test_embed_texts_empty():
 
 @patch("models.src.embedder._get_client")
 def test_embed_chunk_lists(MockGetClient):
-    class FakeEmbedding:
-        def __init__(self, values):
-            self.values = values
-
     fake_client = MagicMock()
-    fake_client.models.embed_content.return_value.embeddings = [
-        FakeEmbedding([0.5] * 256),
-        FakeEmbedding([0.6] * 256),
-        FakeEmbedding([0.7] * 256),
-        FakeEmbedding([0.8] * 256),
-        FakeEmbedding([0.9] * 256),
-        FakeEmbedding([1.0] * 256),
+    fake_client.embed_documents.return_value = [
+        [0.5] * 256,
+        [0.6] * 256,
+        [0.7] * 256,
+        [0.8] * 256,
+        [0.9] * 256,
+        [1.0] * 256,
     ]
     MockGetClient.return_value = fake_client
     chunk_lists = [

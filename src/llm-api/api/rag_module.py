@@ -1,57 +1,45 @@
 import os
+import re
 from typing import Any, Dict, List, Tuple
 
 import chromadb
 
-# Vertex AI
-from google import genai
-from google.genai import types
+from langchain_openai import OpenAIEmbeddings
 
 """
 This is a utility file that contain RAG related functions which will be called in the LLM-api pipeline
 1. Takes a user query as input.
-2. Generates an embedding for the query using Vertex AI.
+2. Generates an embedding for the query using OpenAI (via LangChain).
 3. Connects to a ChromaDB instance to retrieve relevant documents based on the query embedding,
    using metadata filtering, if provided.
 4. Constructs a prompt using the retrieved documents and the user query.
 """
 
 # ! Configuration variables
-GCP_PROJECT = os.environ.get("GCP_PROJECT", "local-test-project")
-GCP_LOCATION = os.environ.get("GCP_LOCATION", "us-central1")
-
 CHROMADB_HOST = os.environ.get("CHROMADB_HOST", "vector-db")
 CHROMADB_PORT = int(os.environ.get("CHROMADB_PORT", "8000"))
-CHROMADB_COLLECTION = "pubmed_abstract_semantic"
+CHROMADB_COLLECTION = "pubmed_abstract"
 CHROMADB_TOP_K = int(os.environ.get("CHROMADB_TOP_K", "20"))
 CHROMADB_CANDIDATE_K = int(os.environ.get("CHROMADB_CANDIDATE_K", "20"))
 CHROMADB_FILTERED_TOP_K = int(os.environ.get("CHROMADB_FILTERED_TOP_K", "5"))
 
-EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-004")
-EMBEDDING_DIMENSION = int(os.environ.get("EMBEDDING_DIMENSION", "256"))
+EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-3-small")
+EMBEDDING_DIMENSION = int(os.environ.get("EMBEDDING_DIMENSION", "1536"))
+
+embeddings_client = None
 
 
-# llm_client = genai.Client(vertexai=True, project=GCP_PROJECT, location=GCP_LOCATION)
-# def get_llm_client(): return genai.Client(vertexai=True, project=GCP_PROJECT, location=GCP_LOCATION)
-
-llm_client = None
-
-
-def get_llm_client():
-    global llm_client
-    if llm_client is None:
-        llm_client = genai.Client(vertexai=True, project=GCP_PROJECT, location=GCP_LOCATION)
-    return llm_client
+def get_embeddings_client():
+    global embeddings_client
+    if embeddings_client is None:
+        embeddings_client = OpenAIEmbeddings(model=EMBEDDING_MODEL, dimensions=EMBEDDING_DIMENSION)
+    return embeddings_client
 
 
 # Generate embedding for a query
 def generate_query_embedding(query):
-    llm_client = get_llm_client()
-    kwargs = {"output_dimensionality": EMBEDDING_DIMENSION}
-    response = llm_client.models.embed_content(
-        model=EMBEDDING_MODEL, contents=query, config=types.EmbedContentConfig(**kwargs)
-    )
-    return response.embeddings[0].values
+    client = get_embeddings_client()
+    return client.embed_query(query)
 
 
 def get_chromadb_collection():
@@ -141,6 +129,12 @@ def query_documents(
         "n_results": candidate_k,
         "include": ["documents", "metadatas", "distances"],
     }
+
+    keyword = (frontend_filters or {}).get("keyword")
+    if keyword and keyword.strip():
+        # $contains is case-sensitive; use a case-insensitive regex instead so the
+        # keyword matches regardless of how it's capitalized in the source text.
+        query_kwargs["where_document"] = {"$regex": f"(?i){re.escape(keyword.strip())}"}
     results = collection.query(**query_kwargs)
 
     docs = results.get("documents", [[]])[0]

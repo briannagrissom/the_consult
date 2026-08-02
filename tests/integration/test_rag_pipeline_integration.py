@@ -67,10 +67,10 @@ def mock_vertex_embedding():
 def mock_llm():
     """Mock the LLM response."""
     fake_response = MagicMock()
-    fake_response.text = "MOCK_LLM_RESPONSE"
+    fake_response.content = "MOCK_LLM_RESPONSE"
 
     with patch("src.models.query_rag_model.llm_client") as mock_client:
-        mock_client.models.generate_content.return_value = fake_response
+        mock_client.invoke.return_value = fake_response
         yield
 
 
@@ -101,10 +101,10 @@ def test_rag_pipeline_end_to_end(
 
     # If no exceptions occur, we consider this integration test successful.
     # You can assert deeper details if desired:
-    rag.llm_client.models.generate_content.assert_called_once()
+    rag.llm_client.invoke.assert_called_once()
 
-    args, kwargs = rag.llm_client.models.generate_content.call_args
-    prompt = kwargs["contents"]
+    args, kwargs = rag.llm_client.invoke.call_args
+    prompt = args[0]
 
     assert "What causes cancer?" in prompt
     assert "Cancer is caused by genetic mutations." in prompt

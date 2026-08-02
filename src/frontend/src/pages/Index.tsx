@@ -4,12 +4,19 @@ import { ModeToggle } from "@/components/ModeToggle";
 import { AIAnswerSection } from "@/components/AIAnswerSection";
 import { StudyCard } from "@/components/StudyCard";
 import { FilterSidebar } from "@/components/FilterSidebar";
+import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { useGeminiAsk, type EvidenceFilters, type Citation } from "@/hooks/useGeminiAsk";
 import type { Study } from "@/types/study";
 import heroImage from "@/assets/medical-hero.jpg";
+import { RotateCcw } from "lucide-react";
 
 type Mode = "clinical" | "research";
+
+interface ConversationTurn {
+  question: string;
+  answer: string;
+}
 
 const transformCitations = (citations: Citation[]): Study[] => {
   const MAX_AUTHORS = 6;
@@ -87,17 +94,22 @@ const Index = () => {
   const [mode, setMode] = useState<Mode>("clinical");
   const [showResults, setShowResults] = useState(false);
   const [aiAnswer, setAiAnswer] = useState("");
+  const [pendingQuestion, setPendingQuestion] = useState("");
+  const [history, setHistory] = useState<ConversationTurn[]>([]);
+  const [conversationId, setConversationId] = useState<string | undefined>(undefined);
   const [references, setReferences] = useState<Study[]>([]);
   const [filters, setFilters] = useState<EvidenceFilters>({
     articleImpact: [],
     publicationDate: "All Articles",
     coiDisclosure: "All Articles",
+    keyword: "",
   });
   const { toast } = useToast();
   const geminiMutation = useGeminiAsk();
 
   const handleSearch = () => {
-    if (!searchQuery.trim()) {
+    const question = searchQuery.trim();
+    if (!question) {
       toast({
         title: "Question required",
         description: "Enter a clinical or research question to query Gemini.",
@@ -106,19 +118,26 @@ const Index = () => {
     }
 
     setShowResults(true);
+    setPendingQuestion(question);
     setAiAnswer("");
+    setSearchQuery("");
     geminiMutation.mutate(
       {
-        question: searchQuery.trim(),
+        question,
         mode,
         filters,
+        conversation_id: conversationId,
         onStream: (partialAnswer) => {
           setAiAnswer(partialAnswer);
         },
       },
       {
         onSuccess: (data) => {
-          setAiAnswer(data.answer?.trim() || "Gemini did not return an answer.");
+          const finalAnswer = data.answer?.trim() || "Gemini did not return an answer.";
+          setConversationId(data.conversation_id);
+          setHistory((prev) => [...prev, { question, answer: finalAnswer }]);
+          setAiAnswer("");
+          setPendingQuestion("");
 
           if (data.citations?.length) {
             setReferences(transformCitations(data.citations));
@@ -133,9 +152,20 @@ const Index = () => {
             description,
             variant: "destructive",
           });
+          setPendingQuestion("");
         },
       },
     );
+  };
+
+  const handleNewConversation = () => {
+    setConversationId(undefined);
+    setHistory([]);
+    setReferences([]);
+    setAiAnswer("");
+    setPendingQuestion("");
+    setSearchQuery("");
+    setShowResults(false);
   };
 
   // Filter studies based on current filters
@@ -183,10 +213,17 @@ const Index = () => {
   };
 
   const availableStudies = getFilteredStudies();
-  const currentAnswer =
-    geminiMutation.isPending
-      ? aiAnswer || "Generating answer..."
-      : aiAnswer || "Enter a question to receive an answer.";
+  const displayedTurns: ConversationTurn[] = [
+    ...history,
+    ...(pendingQuestion
+      ? [
+          {
+            question: pendingQuestion,
+            answer: aiAnswer || (geminiMutation.isPending ? "Generating answer..." : ""),
+          },
+        ]
+      : []),
+  ];
 
   // Renumber studies for display (1, 2, 3, etc.)
   const displayStudies = availableStudies.map((study, index) => ({
@@ -217,6 +254,7 @@ const Index = () => {
               value={searchQuery}
               onChange={setSearchQuery}
               onSearch={handleSearch}
+              placeholder={conversationId ? "Ask a follow-up question..." : undefined}
             />
             <ModeToggle mode={mode} onChange={setMode} />
           </div>
@@ -233,11 +271,25 @@ const Index = () => {
 
           {showResults ? (
             <div className="lg:col-span-3 space-y-8">
-              {/* AI Answer */}
-              <AIAnswerSection
-                mode={mode}
-                answer={currentAnswer}
-              />
+              {/* Conversation */}
+              <div className="flex items-center justify-between">
+                <h2 className="text-lg font-semibold text-muted-foreground">
+                  {history.length > 0 ? `Conversation (${displayedTurns.length} turns)` : "AI-Generated Answer"}
+                </h2>
+                <Button variant="outline" size="sm" onClick={handleNewConversation}>
+                  <RotateCcw className="h-4 w-4 mr-2" />
+                  New conversation
+                </Button>
+              </div>
+
+              <div className="space-y-6">
+                {displayedTurns.map((turn, index) => (
+                  <div key={`${index}-${turn.question}`} className="space-y-2">
+                    <p className="text-sm font-medium text-muted-foreground">{turn.question}</p>
+                    <AIAnswerSection mode={mode} answer={turn.answer} />
+                  </div>
+                ))}
+              </div>
 
               {/* Study Results */}
               <div className="space-y-6">

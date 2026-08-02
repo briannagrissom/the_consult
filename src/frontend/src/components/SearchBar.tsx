@@ -6,9 +6,10 @@ interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
   onSearch: () => void;
+  placeholder?: string;
 }
 
-export const SearchBar = ({ value, onChange, onSearch }: SearchBarProps) => {
+export const SearchBar = ({ value, onChange, onSearch, placeholder }: SearchBarProps) => {
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
       onSearch();
@@ -21,7 +22,7 @@ export const SearchBar = ({ value, onChange, onSearch }: SearchBarProps) => {
         <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
         <Input
           type="text"
-          placeholder="Enter clinical or research questions..."
+          placeholder={placeholder ?? "Enter clinical or research questions..."}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           onKeyPress={handleKeyPress}

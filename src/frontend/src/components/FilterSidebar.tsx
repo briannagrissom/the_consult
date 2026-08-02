@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Separator } from "@/components/ui/separator";
@@ -119,6 +120,23 @@ export const FilterSidebar = ({ filters, onFilterChange }: FilterSidebarProps) =
               </div>
             ))}
           </RadioGroup>
+        </div>
+
+        <Separator />
+
+        {/* Keyword */}
+        <div className="space-y-3">
+          <h4 className="font-medium text-sm text-foreground">Keyword</h4>
+          <Input
+            type="text"
+            placeholder="e.g. ventilation"
+            value={filters.keyword ?? ""}
+            onChange={(e) => onFilterChange({ ...filters, keyword: e.target.value })}
+            className="h-9 text-sm"
+          />
+          <p className="text-xs text-muted-foreground">
+            Only include studies whose text contains this word or phrase.
+          </p>
         </div>
       </CardContent>
     </Card>

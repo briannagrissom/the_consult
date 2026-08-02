@@ -1,6 +1,6 @@
 # LLM API Service
 
-Thin FastAPI proxy that fronts Vertex AI Gemini for _The Consult_ UI. It exposes the
+Thin FastAPI proxy that fronts OpenAI (via LangChain) for _The Consult_ UI. It exposes the
 same `/api/ask` and `/api/ask/stream` endpoints used in development but is packaged
 as an independent service for Cloud Run deployments.
 
@@ -14,9 +14,9 @@ uv run uvicorn api.server:app --reload --host 0.0.0.0 --port 8081
 
 Set the required environment variables before starting:
 
-- `GCP_PROJECT` – Google Cloud project that has Vertex AI + Gemini access.
-- `GCP_LOCATION` – Vertex AI region (defaults to `us-central1`).
-- `GEMINI_MODEL` – Gemini model name (defaults to `gemini-2.5-flash`).
+- `OPENAI_API_KEY` – OpenAI API key used for both chat completions and embeddings.
+- `OPENAI_MODEL` – Chat model name (defaults to `gpt-5.4-nano`).
+- `EMBEDDING_MODEL` – Embedding model name (defaults to `text-embedding-3-small`).
 - `API_ALLOW_ORIGINS` – Comma-separated list of allowed CORS origins.
 
 ## Container build

@@ -6,10 +6,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.1.0",
-    "google-genai>=1.39.1",
     "google-cloud-storage>=2.18.2",
     "langchain>=0.3.27",
     "langchain-community>=0.3.30",
+    "langchain-openai>=0.2.14",
     "openai>=1.95.1",
     "openai-agents>=0.3.2",
     "pandas>=2.3.3",

@@ -4,7 +4,7 @@
 
 This module now focuses solely on the Retrieval-Augmented Generation (RAG) tooling:
 chunking corpora, generating embeddings, loading them into ChromaDB, and running ad-hoc
-queries. The FastAPI Gemini proxy was moved to `src/llm-api`, so treat that directory
+queries. The FastAPI LLM proxy was moved to `src/llm-api`, so treat that directory
 as the deployment unit for the LLM service.
 
 ## Serving Model through Fast API
