@@ -26,6 +26,8 @@ dependencies = [
     "pyarrow>=17.0.0",
     "python-dotenv>=1.0.1",
     "chromadb>=0.5.20",
+    "braintrust>=0.3.15",
+    "autoevals>=0.0.130",
 ]
 
 [tool.setuptools]

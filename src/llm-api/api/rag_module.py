@@ -3,6 +3,7 @@ import re
 from typing import Any, Dict, List, Tuple
 
 import chromadb
+from braintrust import traced
 
 from langchain_openai import OpenAIEmbeddings
 
@@ -169,6 +170,7 @@ def query_documents(
     return deduped[:final_k]
 
 
+@traced(type="tool")
 def build_context_and_citations(
     question: str, frontend_filters: Dict[str, Any] | None = None
 ) -> Tuple[str, List[Dict[str, Any]]]:

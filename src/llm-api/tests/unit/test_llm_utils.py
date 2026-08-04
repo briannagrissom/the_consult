@@ -2,10 +2,24 @@ import importlib
 import sys
 from pathlib import Path
 from types import ModuleType, SimpleNamespace
+from unittest.mock import MagicMock
 
+import braintrust
+import braintrust.integrations.langchain as braintrust_langchain
 import pytest
 from fastapi.testclient import TestClient
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
+
+
+def _stub_langchain_openai():
+    langchain_openai_module = ModuleType("langchain_openai")
+    langchain_openai_module.ChatOpenAI = lambda *_a, **_k: SimpleNamespace(
+        invoke=lambda *_a, **_k: SimpleNamespace(content="stub"), stream=lambda *_a, **_k: iter([])
+    )
+    langchain_openai_module.OpenAIEmbeddings = lambda *_a, **_k: SimpleNamespace(
+        embed_query=lambda *_a, **_k: [0.1, 0.2]
+    )
+    sys.modules["langchain_openai"] = langchain_openai_module
 
 
 @pytest.fixture()
@@ -337,3 +351,38 @@ def test_query_documents_omits_where_document_without_keyword(rag_module):
 
     for query_call in rag_module.chromadb.query_calls:
         assert "where_document" not in query_call
+
+
+def test_tracing_initialized_when_braintrust_api_key_set(monkeypatch):
+    _stub_langchain_openai()
+    init_logger_mock = MagicMock()
+    set_global_handler_mock = MagicMock()
+    monkeypatch.setattr(braintrust, "init_logger", init_logger_mock)
+    monkeypatch.setattr(braintrust_langchain, "set_global_handler", set_global_handler_mock)
+    monkeypatch.setenv("BRAINTRUST_API_KEY", "test-key")
+    monkeypatch.setenv("BRAINTRUST_PROJECT", "Test Project")
+
+    package_root = Path(__file__).resolve().parents[2]
+    sys.path.insert(0, str(package_root))
+    server = importlib.import_module("api.server")
+    importlib.reload(server)
+
+    init_logger_mock.assert_called_once_with(project="Test Project")
+    set_global_handler_mock.assert_called_once()
+
+
+def test_tracing_skipped_when_braintrust_api_key_unset(monkeypatch):
+    _stub_langchain_openai()
+    init_logger_mock = MagicMock()
+    set_global_handler_mock = MagicMock()
+    monkeypatch.setattr(braintrust, "init_logger", init_logger_mock)
+    monkeypatch.setattr(braintrust_langchain, "set_global_handler", set_global_handler_mock)
+    monkeypatch.delenv("BRAINTRUST_API_KEY", raising=False)
+
+    package_root = Path(__file__).resolve().parents[2]
+    sys.path.insert(0, str(package_root))
+    server = importlib.import_module("api.server")
+    importlib.reload(server)
+
+    init_logger_mock.assert_not_called()
+    set_global_handler_mock.assert_not_called()

@@ -10,6 +10,8 @@ from .prompt import SYSTEM_PROMPT
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 
+from braintrust import Span, init_logger, start_span
+from braintrust.integrations.langchain import BraintrustCallbackHandler, set_global_handler
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI
 
@@ -31,6 +33,9 @@ API_ALLOW_ORIGINS = [
 SESSION_TTL_SECONDS = float(os.environ.get("SESSION_TTL_SECONDS", "1800"))
 SESSION_CLEANUP_INTERVAL_SECONDS = float(os.environ.get("SESSION_CLEANUP_INTERVAL_SECONDS", "300"))
 
+BRAINTRUST_API_KEY = os.environ.get("BRAINTRUST_API_KEY")
+BRAINTRUST_PROJECT = os.environ.get("BRAINTRUST_PROJECT", "The Consult")
+
 llm_client = None
 session_store = SessionStore(ttl_seconds=SESSION_TTL_SECONDS)
 
@@ -40,6 +45,19 @@ def get_llm_client() -> ChatOpenAI:
     if llm_client is None:
         llm_client = ChatOpenAI(model=OPENAI_MODEL, temperature=0.4)
     return llm_client
+
+
+def _init_tracing() -> None:
+    # start_span()/@traced are safe no-ops when init_logger() was never called, so tracing
+    # is only wired up at all when a key is actually present -- avoids noisy background
+    # flush/login retries in local dev where BRAINTRUST_API_KEY is unset.
+    if not BRAINTRUST_API_KEY:
+        return
+    init_logger(project=BRAINTRUST_PROJECT)
+    set_global_handler(BraintrustCallbackHandler())
+
+
+_init_tracing()
 
 
 async def _session_cleanup_loop():
@@ -190,9 +208,12 @@ def _stream_llm(
     human_message: HumanMessage,
     conversation_id: str | None,
     citations: list[Citation],
+    span: Span,
 ) -> Generator[str, None, None]:
     """Yield Server-Sent Events with LLM deltas, then persist the turn and report the
-    conversation_id once the full answer is known."""
+    conversation_id once the full answer is known. Owns closing `span`, since it was
+    left open by ask_llm_stream specifically so this generator could keep logging to it."""
+    span.set_current()
     answer = ""
     try:
         for chunk in get_llm_client().stream(messages_for_call):
@@ -203,6 +224,8 @@ def _stream_llm(
             payload = json.dumps({"delta": text})
             yield f"data: {payload}\n\n"
     except Exception as exc:
+        span.log(metadata={"error": str(exc)})
+        span.end()
         error_payload = json.dumps({"error": str(exc)})
         yield f"event: error\ndata: {error_payload}\n\n"
         return
@@ -215,6 +238,9 @@ def _stream_llm(
         )
     else:
         session_store.append_turn(conversation_id, human_message, ai_message)
+
+    span.log(output=answer, metadata={"conversation_id": conversation_id, "num_citations": len(citations)})
+    span.end()
 
     meta_payload = json.dumps(
         {"conversation_id": conversation_id, "citations": [c.model_dump() for c in citations]}
@@ -238,35 +264,51 @@ def health_check():
 def ask_llm(payload: AskRequest) -> AskResponse:
     """Answer a question. A new conversation runs RAG once; follow-ups (via conversation_id)
     reuse that retrieved context and simply continue the message history."""
-    messages_for_call, human_message, citations, conversation_id = _resolve_turn(payload)
+    with start_span(name="ask", type="task", input=payload.question) as span:
+        messages_for_call, human_message, citations, conversation_id = _resolve_turn(payload)
 
-    try:
-        response = get_llm_client().invoke(messages_for_call)
-    except Exception as exc:  # pragma: no cover - surfaced via HTTP error for debugging
-        raise HTTPException(status_code=500, detail=str(exc)) from exc
+        try:
+            response = get_llm_client().invoke(messages_for_call)
+        except Exception as exc:  # pragma: no cover - surfaced via HTTP error for debugging
+            raise HTTPException(status_code=500, detail=str(exc)) from exc
 
-    answer = response.content or "The LLM returned an empty response."
-    ai_message = AIMessage(answer)
+        answer = response.content or "The LLM returned an empty response."
+        ai_message = AIMessage(answer)
 
-    if conversation_id is None:
-        conversation_id = session_store.create(
-            messages=messages_for_call + [ai_message],
-            citations=[c.model_dump() for c in citations],
-        )
-    else:
-        session_store.append_turn(conversation_id, human_message, ai_message)
+        if conversation_id is None:
+            conversation_id = session_store.create(
+                messages=messages_for_call + [ai_message],
+                citations=[c.model_dump() for c in citations],
+            )
+        else:
+            session_store.append_turn(conversation_id, human_message, ai_message)
+
+        span.log(output=answer, metadata={"conversation_id": conversation_id, "num_citations": len(citations)})
 
     return AskResponse(answer=answer, citations=citations, conversation_id=conversation_id)
 
 
 @app.post("/api/ask/stream")
 def ask_llm_stream(payload: AskRequest):
-    """Stream LLM deltas via Server-Sent Events. Same new-vs-continuing logic as /api/ask."""
-    messages_for_call, human_message, citations, conversation_id = _resolve_turn(payload)
+    """Stream LLM deltas via Server-Sent Events. Same new-vs-continuing logic as /api/ask.
+
+    The span for this request is created here (not as a `with` block) because it has to
+    stay open across the route handler's return -- the actual LLM call happens later,
+    inside _stream_llm's generator body, once FastAPI starts iterating the response.
+    """
+    span = start_span(name="ask_stream", type="task", input=payload.question)
+    span.set_current()
+    try:
+        messages_for_call, human_message, citations, conversation_id = _resolve_turn(payload)
+    except Exception:
+        span.end()
+        raise
+    finally:
+        span.unset_current()
 
     headers = {"Cache-Control": "no-cache", "Connection": "keep-alive"}
     return StreamingResponse(
-        _stream_llm(messages_for_call, human_message, conversation_id, citations),
+        _stream_llm(messages_for_call, human_message, conversation_id, citations, span),
         media_type="text/event-stream",
         headers=headers,
     )

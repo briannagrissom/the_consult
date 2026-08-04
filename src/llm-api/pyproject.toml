@@ -1,7 +1,7 @@
 [project]
 name = "consult-llm-api"
 version = "0.1.0"
-description = "FastAPI proxy that calls Vertex AI Gemini for The Consult."
+description = "FastAPI proxy that calls OpenAI via LangChain for The Consult."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -10,6 +10,8 @@ dependencies = [
     "langchain-openai>=0.2.14",
     "python-dotenv>=1.0.1",
     "chromadb>=0.5.20",
+    "braintrust>=0.3.15",
+    "autoevals>=0.0.130",
     "pytest>=9.0.1",
     "pytest-cov>=7.0.0",
 ]
