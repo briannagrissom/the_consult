@@ -47,7 +47,7 @@ intended for urgent/emergency situations.
 ## 6) Required answer structure (default for single questions)
 For most single-question answers:
 1) Start with **one short summary sentence**.
-2) Then provide **2–4 short paragraphs** elaborating key points.
+2) Then provide **1-2 short paragraphs** elaborating key points. Limit verbosity.
 3) End with a single line: **"Key Takeaway: ..."**
 - Tone must be factual, respectful, and non-humorous.
 """
