@@ -1,120 +1,99 @@
 # Data Pipeline
 
-## Overview
+Downloads the PubMed baseline XML dump from NCBI, parses it into structured
+records, filters/flags them, and publishes Parquet (locally or to GCS) for
+downstream RAG ingestion (`src/models/parquet_to_chromadb.py`).
 
-This repo contains code for automatic data curation and preprocessing.
-
-## How to run
-```
-uv venv
-source .venv/bin/activate
-uv sync
-```
-
-## Processes
-1. Retrieve data from reliable sources (Currently aiming for PubmedAPI)
-2. Extract metadata information (author, citation, ...)
-3. Preprocess data with LLM (extracting information about topic, study design, COI, etc.)
-4. Make all of this into RAG friendly data
-5. enjoy
-
-## Downloading PMC text dumps
-
-Use the dedicated CLI to mirror the open-access PMC text archives into `outputs/pubmed`:
+## Setup
 
 ```bash
-uv run python pubmed_fetch.py
+uv venv && source .venv/bin/activate && uv sync
 ```
 
-## Scripts
+- **Step 1** (FTP download) needs no credentials.
+- **Step 4** (GCS upload) needs `GOOGLE_APPLICATION_CREDENTIALS` exported to
+  a service-account key (`.env` already points it at
+  `secrets/consult-app-local.json`) — `gcloud auth list` alone isn't enough,
+  since the Python client reads the env var, not your CLI session.
 
-- `get_pm_ftp.py` - Downloads PubMed baseline XML files from NCBI FTP
-- `extract_pm_ftp.py` - Extracts downloaded .gz files to XML
-- `parse_pm_ftp.py` - Parses XML files into pickled pandas DataFrames
+## Pipeline stages
 
-## Individual Script Usage
+Run in order; each reads the previous stage's output. `--help` on any
+script lists its full flags.
 
-Run individual scripts with `uv run <script_name>`. Use `--help` for detailed options.
+| # | Script | Reads | Writes |
+|---|--------|-------|--------|
+| 1 | [`get_pm_ftp.py`](get_pm_ftp.py) | NCBI FTP | `outputs/pubmed_baseline_ftp/*.xml.gz` |
+| 2 | [`extract_pm_ftp.py`](extract_pm_ftp.py) | `*.xml.gz` | `outputs/pubmed_baseline_ftp_extract/*.xml` |
+| 3 | [`parse_pm_ftp.py`](parse_pm_ftp.py) | `*.xml` | `outputs/pubmed_baseline_ftp_parsed/*.pkl` |
+| 4 | [`upload_pm_abstract_ftp.py`](upload_pm_abstract_ftp.py) | `*.pkl` | `outputs/final_dataset/*.parquet` or GCS |
 
+**1. `get_pm_ftp.py`** — NCBI regenerates the whole baseline dump under a new
+year prefix every December (`pubmed25n1274.xml.gz` → `pubmed26n0001.xml.gz`),
+so this script discovers real filenames from the server rather than guessing
+them. `--start-index N` filters by index, `--limit N` caps how many files.
+MD5-verifies each download; skips files already present with a matching
+checksum.
+
+**2. `extract_pm_ftp.py --xml-dir <dir>`** — gunzips to `<dir>_extract`.
+
+**3. `parse_pm_ftp.py --xml-dir <dir> --min-index 400`** — parses XML into
+one pickled DataFrame per file (`pmid, title, journal_title,
+publication_date, abstract, author_list, author_list_full, coi_statement,
+coi_flag, pubmed_url`). `--min-index` skips already-processed index ranges;
+`--force` reprocesses; `--max-workers` sets parallelism.
+
+**4. `upload_pm_abstract_ftp.py`**:
 ```bash
-# Download baseline files (limit for testing)
-uv run get_pm_ftp.py --max-workers 4 --limit 10
-
-# Extract downloaded archives
-uv run extract_pm_ftp.py --input-dir outputs/pubmed_baseline_ftp --max-workers 4
-
-# Parse XML to pickles (files with index > 400)
-uv run parse_pm_ftp.py --min-index 400 --max-workers 4
+uv run upload_pm_abstract_ftp.py \
+    --data-dir outputs/pubmed_baseline_ftp_parsed \
+    --from 2020-01-01 --to 2025-12-31 \
+    --top-journals-file data/top_journals.txt \
+    --local outputs/final_dataset   # omit to upload to GCS
 ```
+Drops rows with no abstract or unparsable date, filters to `[--from, --to]`,
+adds `is_last_year`/`is_last_5_years` (relative to `--reference-date`,
+default today) and `is_top_journal` (exact match against
+`--top-journals-file`, one journal per line — **omit it and every row gets
+`is_top_journal=False`**), then writes Parquet chunked at
+`--rows-per-file` rows (default 300K).
 
-## Docker Pipeline
+GCS destination = `--gcs-prefix` → `PARQUET_SOURCE_PREFIX` env var →
+`pubmed/filtered_<from>_<to>`. **It continues numbering from whatever
+already exists at that destination** rather than overwriting — a rerun
+against a live prefix lands new files there (e.g. `_00003.parquet`), it
+won't clobber `_00001`. Still: point test runs at `--local` or a scratch
+`--gcs-prefix`, not a real ingestion folder.
 
-The Docker container automatically runs the complete 4-step pipeline: download → extract → parse → upload.
+> The original `upload_pm_abstract_ftp.py` this repo referenced was never
+> actually committed — this is a reconstruction. In particular, the real
+> top-journal allow-list and reference-date logic are unknown; `data/top_journals.txt`
+> is derived from what's already in production `pubmed_data_00001.parquet`,
+> not an independent source, and includes at least one likely false positive
+> (a CS conference proceedings series matched on the word "nature").
 
-### Build and Basic Run
+## Docker
 
 ```bash
 docker build -t pubmed-pipeline .
-docker run pubmed-pipeline
-```
-
-### Authentication Options
-
-**Option 1: Service Account File**
-```bash
 docker run -v /path/to/service-account.json:/app/service-account.json pubmed-pipeline
 ```
+Runs all 4 steps via [`docker-shell.sh`](docker-shell.sh). Default run
+downloads the **entire** current baseline (1,300+ files) — for a bounded
+run, invoke the scripts individually instead. Env vars: `SAVE_LOCAL`,
+`FROM_DATE` (default `2020-01-01`), `TO_DATE` (default `2025-12-31`),
+`REFERENCE_DATE`, `TOP_JOURNALS_FILE` (must also be volume-mounted in),
+`KEEP_RUNNING`.
 
-**Option 2: Environment Variable**
+## Data files
+
+- `data/top_journals.txt` — journal allow-list for step 4 (see caveat above).
+
+## Tests
+
 ```bash
-docker run -e GOOGLE_APPLICATION_CREDENTIALS=/path/to/creds.json pubmed-pipeline
+uv run pytest tests/
 ```
-
-**Option 3: Default GCP Authentication** (when running on GCP)
-```bash
-docker run pubmed-pipeline  # Uses instance service account
-```
-
-### Configuration Options
-
-**Save Locally Instead of GCS Upload**
-```bash
-docker run -e SAVE_LOCAL=true pubmed-pipeline
-```
-
-**Custom Date Range Filter**
-```bash
-docker run -e FROM_DATE=2023-01-01 -e TO_DATE=2024-12-31 pubmed-pipeline
-```
-
-**Keep Container Running for Debugging**
-```bash
-docker run -e KEEP_RUNNING=true pubmed-pipeline
-```
-
-**Combined Example**
-```bash
-docker run \
-  -v ./service-account.json:/app/service-account.json \
-  -e SAVE_LOCAL=true \
-  -e FROM_DATE=2023-01-01 \
-  -e TO_DATE=2024-06-30 \
-  -e KEEP_RUNNING=true \
-  pubmed-pipeline
-```
-
-### Pipeline Steps
-
-1. **Download** - Fetches PubMed baseline files from NCBI FTP (limited to 10 files for testing)
-2. **Extract** - Unzips downloaded .gz archives to XML files
-3. **Parse** - Converts XML files to pickled DataFrames (processes files with index > 400)
-4. **Filter & Upload** - Filters articles by date range, removes entries without abstracts/dates, and uploads to GCS or saves locally
-
-### Output Directories
-
-- `outputs/pubmed_baseline_ftp/` - Downloaded .gz files
-- `outputs/pubmed_baseline_ftp_extract/` - Extracted XML files
-- `outputs/pubmed_baseline_ftp_parsed/` - Pickled DataFrames
-- `outputs/final_dataset/` - Final filtered Parquet files (when using `SAVE_LOCAL=true`)
-
-Pass `--help` to list options such as timeouts, custom output directories, or limiting the mirrored subfolders.
+Covers the pure functions in `upload_pm_abstract_ftp.py`. Run from inside
+`src/datapipeline/` — not picked up by the repo's root-level `pytest`,
+which is scoped to the top-level `tests/` dir.

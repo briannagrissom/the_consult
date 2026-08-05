@@ -2,6 +2,7 @@ import concurrent.futures
 import ftplib
 import hashlib
 import os
+import re
 from contextlib import closing
 
 from argparse import ArgumentParser
@@ -9,7 +10,10 @@ from argparse import ArgumentParser
 parser = ArgumentParser()
 
 parser.add_argument(
-    "--start-index", help="Starting index for pubmed ftp file (range 1:1274) (Default = 1)", default=1, type=int
+    "--start-index", help="Only download files whose numeric index is >= this value (Default = 1)", default=1, type=int
+)
+parser.add_argument(
+    "--limit", help="Maximum number of files to download, taken in index order (Default = no limit)", default=None, type=int
 )
 
 args = parser.parse_args()
@@ -18,8 +22,34 @@ args = parser.parse_args()
 FTP_HOST = "ftp.ncbi.nlm.nih.gov"
 FTP_DIR = "/pubmed/baseline/"
 LOCAL_DIR = "outputs/pubmed_baseline_ftp"
-FILES_TO_DOWNLOAD = [f"pubmed25n{i:04d}.xml.gz" for i in range(args.start_index, 1275)]
 MAX_WORKERS = min(8, os.cpu_count())
+
+# NCBI regenerates the entire baseline dump under a new two-digit year prefix
+# every December (e.g. pubmed25nXXXX.xml.gz -> pubmed26nXXXX.xml.gz) and removes
+# the old files, so both the prefix and the highest index number shift over time.
+# Discover the actual current filenames from the server instead of guessing them.
+BASELINE_FILENAME_RE = re.compile(r"^pubmed\d{2}n(?P<index>\d{4})\.xml\.gz$")
+
+
+def list_baseline_files(min_index: int) -> list[str]:
+    """Return the baseline .xml.gz filenames currently on the FTP server with index >= min_index."""
+    with closing(ftplib.FTP(FTP_HOST)) as ftp:
+        ftp.login(user="anonymous", passwd="anonymous@example.com")
+        ftp.cwd(FTP_DIR)
+        names = ftp.nlst()
+
+    matches = []
+    for name in names:
+        match = BASELINE_FILENAME_RE.match(name)
+        if match and int(match.group("index")) >= min_index:
+            matches.append(name)
+
+    return sorted(matches, key=lambda name: int(BASELINE_FILENAME_RE.match(name).group("index")))
+
+
+FILES_TO_DOWNLOAD = list_baseline_files(args.start_index)
+if args.limit is not None:
+    FILES_TO_DOWNLOAD = FILES_TO_DOWNLOAD[: args.limit]
 
 
 def compute_md5(filepath: str) -> str:

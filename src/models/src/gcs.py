@@ -6,15 +6,24 @@ from tqdm import tqdm
 from typing import Generator, Dict, Any  # Iterable
 
 
-def read_parquet_from_gcs(bucket_name, parquet_folder):
-    """Reads a Parquet file from GCS and returns a pandas DataFrame."""
+def read_parquet_from_gcs(bucket_name, parquet_folder, filename=None):
+    """Reads Parquet file(s) from GCS and returns a combined pandas DataFrame.
+
+    By default, every ``.parquet`` blob under ``parquet_folder`` is read and
+    concatenated. Pass ``filename`` (e.g. ``"pubmed_data_00002.parquet"``) to
+    read only that one file within the folder instead.
+    """
     client = storage.Client()
     bucket = client.get_bucket(bucket_name)
 
-    # List all Parquet files in the specified folder
-    parquet_blobs = [blob for blob in bucket.list_blobs(prefix=parquet_folder) if blob.name.endswith(".parquet")]
-
-    print(f"Found {len(parquet_blobs)} parquet files in gs://{bucket_name}/{parquet_folder}")
+    if filename:
+        blob_name = f"{parquet_folder.rstrip('/')}/{filename}"
+        parquet_blobs = [bucket.blob(blob_name)]
+        print(f"Reading single parquet file gs://{bucket_name}/{blob_name}")
+    else:
+        # List all Parquet files in the specified folder
+        parquet_blobs = [blob for blob in bucket.list_blobs(prefix=parquet_folder) if blob.name.endswith(".parquet")]
+        print(f"Found {len(parquet_blobs)} parquet files in gs://{bucket_name}/{parquet_folder}")
 
     alldf = pd.DataFrame()
     for blob in parquet_blobs:

@@ -46,19 +46,25 @@ fi
 
 # Step 4: Upload filtered data to GCS (or save locally if --local specified)
 echo "☁️  Step 4: Processing and uploading data..."
+
+UPLOAD_ARGS=(
+    --data-dir outputs/pubmed_baseline_ftp_parsed
+    --from "${FROM_DATE:-2020-01-01}"
+    --to "${TO_DATE:-2025-12-31}"
+)
+if [ -n "$REFERENCE_DATE" ]; then
+    UPLOAD_ARGS+=(--reference-date "$REFERENCE_DATE")
+fi
+if [ -n "$TOP_JOURNALS_FILE" ]; then
+    UPLOAD_ARGS+=(--top-journals-file "$TOP_JOURNALS_FILE")
+fi
+
 if [ "$SAVE_LOCAL" = "true" ]; then
     echo "💾 Saving locally to outputs/final_dataset/"
-    python upload_pm_abstract_ftp.py \
-        --data-dir outputs/pubmed_baseline_ftp_parsed \
-        --from "${FROM_DATE:-2020-01-01}" \
-        --to "${TO_DATE:-2025-12-31}" \
-        --local outputs/final_dataset
+    python upload_pm_abstract_ftp.py "${UPLOAD_ARGS[@]}" --local outputs/final_dataset
 else
     echo "☁️  Uploading to Google Cloud Storage..."
-    python upload_pm_abstract_ftp.py \
-        --data-dir outputs/pubmed_baseline_ftp_parsed \
-        --from "${FROM_DATE:-2020-01-01}" \
-        --to "${TO_DATE:-2025-12-31}"
+    python upload_pm_abstract_ftp.py "${UPLOAD_ARGS[@]}"
 fi
 
 if [ $? -ne 0 ]; then

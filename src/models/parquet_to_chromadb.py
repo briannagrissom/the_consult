@@ -21,6 +21,7 @@ BUCKET_NAME = os.environ.get("PROJECT_BUCKET_NAME", "pubmed-bucket-ac215")  # GC
 PARQUET_FOLDER = os.environ.get(
     "PARQUET_SOURCE_PREFIX", "pubmed/filtered_oct23/2020-01-01_2025-12-31"
 )  # only process parquet files in this folder
+PARQUET_FILENAME = os.environ.get("PARQUET_FILENAME")  # if set, ingest only this one file within PARQUET_FOLDER
 CHROMADB_HOST = os.environ.get("CHROMADB_HOST", "35.193.38.202")
 CHROMADB_PORT = int(os.environ.get("CHROMADB_PORT", "8000"))
 CHROMADB_BATCH_SIZE = int(os.environ.get("CHROMADB_BATCH_SIZE", "50"))
@@ -146,7 +147,8 @@ def _upload_records(collection, records: Sequence[Dict[str, Any]], batch_size: i
 
 
 def _checkpoint_slug() -> str:
-    return re.sub(r"[^A-Za-z0-9_.-]+", "_", f"{CHROMADB_COLLECTION}__{BUCKET_NAME}__{PARQUET_FOLDER}")
+    scope = f"{PARQUET_FOLDER}/{PARQUET_FILENAME}" if PARQUET_FILENAME else PARQUET_FOLDER
+    return re.sub(r"[^A-Za-z0-9_.-]+", "_", f"{CHROMADB_COLLECTION}__{BUCKET_NAME}__{scope}")
 
 
 def _checkpoint_path() -> str:
@@ -220,7 +222,7 @@ def _backup_records_to_gcs(records: Sequence[Dict[str, Any]]):
 
 
 def main():
-    df = read_parquet_from_gcs(BUCKET_NAME, PARQUET_FOLDER)
+    df = read_parquet_from_gcs(BUCKET_NAME, PARQUET_FOLDER, filename=PARQUET_FILENAME)
     print(f"Found {len(df)} rows in the combined DataFrame.")
 
     print("Chunking abstracts ...")
