@@ -63,12 +63,12 @@ def test_get_still_valid_within_ttl(clock):
     assert store.get(conversation_id) is not None
 
 
-def test_append_turn_extends_ttl(clock):
+def test_append_messages_extends_ttl(clock):
     store = SessionStore(ttl_seconds=10)
     conversation_id = store.create(messages=[], citations=[])
 
     clock.advance(9)
-    store.append_turn(conversation_id, HumanMessage("follow up"), AIMessage("answer"))
+    store.append_messages(conversation_id, [HumanMessage("follow up"), AIMessage("answer")])
 
     clock.advance(9)  # 18s since creation, but only 9s since the append refreshed it
     session = store.get(conversation_id)
@@ -76,10 +76,21 @@ def test_append_turn_extends_ttl(clock):
     assert len(session.messages) == 2
 
 
-def test_append_turn_raises_for_unknown_conversation(clock):
+def test_append_messages_replaces_citations_when_given(clock):
+    store = SessionStore(ttl_seconds=60)
+    conversation_id = store.create(messages=[], citations=[{"id": "old"}])
+
+    store.append_messages(conversation_id, [HumanMessage("follow up")], citations=[{"id": "new"}])
+    assert store.get(conversation_id).citations == [{"id": "new"}]
+
+    store.append_messages(conversation_id, [HumanMessage("another")])  # citations omitted -- left as-is
+    assert store.get(conversation_id).citations == [{"id": "new"}]
+
+
+def test_append_messages_raises_for_unknown_conversation(clock):
     store = SessionStore(ttl_seconds=60)
     with pytest.raises(KeyError):
-        store.append_turn("nope", HumanMessage("hi"), AIMessage("hello"))
+        store.append_messages("nope", [HumanMessage("hi"), AIMessage("hello")])
 
 
 def test_sweep_expired_removes_only_stale_sessions(clock):

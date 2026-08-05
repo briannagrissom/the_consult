@@ -1,4 +1,5 @@
 import importlib
+import json as _json
 import sys
 from pathlib import Path
 from types import ModuleType, SimpleNamespace
@@ -8,18 +9,31 @@ import braintrust
 import braintrust.integrations.langchain as braintrust_langchain
 import pytest
 from fastapi.testclient import TestClient
-from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage, ToolMessage
 
 
 def _stub_langchain_openai():
     langchain_openai_module = ModuleType("langchain_openai")
     langchain_openai_module.ChatOpenAI = lambda *_a, **_k: SimpleNamespace(
-        invoke=lambda *_a, **_k: SimpleNamespace(content="stub"), stream=lambda *_a, **_k: iter([])
+        invoke=lambda *_a, **_k: SimpleNamespace(content="stub", tool_calls=[]),
+        stream=lambda *_a, **_k: iter([]),
+        bind_tools=lambda *_a, **_k: None,
     )
     langchain_openai_module.OpenAIEmbeddings = lambda *_a, **_k: SimpleNamespace(
         embed_query=lambda *_a, **_k: [0.1, 0.2]
     )
     sys.modules["langchain_openai"] = langchain_openai_module
+
+
+def _tool_call_response(query: str, call_id: str = "call_1") -> AIMessage:
+    return AIMessage(
+        content="",
+        tool_calls=[{"name": "search_pubmed", "args": {"query": query}, "id": call_id, "type": "tool_call"}],
+    )
+
+
+def _final_response(text: str) -> AIMessage:
+    return AIMessage(content=text)
 
 
 @pytest.fixture()
@@ -29,15 +43,24 @@ def server_module(monkeypatch):
         def __init__(self, *_args, **_kwargs):
             self.generate_calls: list[dict] = []
             self.stream_calls: list[dict] = []
+            self.responses: list[SimpleNamespace] = []  # queued responses, consumed in order
+
+        def bind_tools(self, tools):
+            self.bound_tools = tools
+            return self
+
+        def _next_response(self) -> SimpleNamespace:
+            if self.responses:
+                return self.responses.pop(0)
+            return _final_response("stub response")
 
         def invoke(self, messages):
             self.generate_calls.append({"messages": messages})
-            return SimpleNamespace(content="stub response")
+            return self._next_response()
 
         def stream(self, messages):
             self.stream_calls.append({"messages": messages})
-            for piece in ["alpha", "beta"]:
-                yield SimpleNamespace(content=piece)
+            yield self._next_response()
 
     class FakeOpenAIEmbeddings:
         def __init__(self, *_args, **_kwargs):
@@ -61,11 +84,15 @@ def server_module(monkeypatch):
     server = importlib.import_module("api.server")
     server = importlib.reload(server)
 
-    dummy_citations = [
-        {
-            "id": "1",
-            "pmid": "123",
-            "title": "trial",
+    rag_calls: list[dict] = []
+
+    def fake_build_context_and_citations(question, filters=None):
+        rag_calls.append({"question": question, "filters": filters})
+        idx = len(rag_calls)
+        citation = {
+            "id": str(idx),
+            "pmid": f"pmid-{idx}",
+            "title": f"trial-{idx}",
             "journal": "JAMA",
             "publication_date": "2024",
             "pubmed_url": "http://example.com",
@@ -75,12 +102,7 @@ def server_module(monkeypatch):
             "is_last_5_years": "True",
             "is_top_journal": "True",
         }
-    ]
-    rag_calls: list[dict] = []
-
-    def fake_build_context_and_citations(question, filters=None):
-        rag_calls.append({"question": question, "filters": filters})
-        return "[1] Title: trial", dummy_citations
+        return f"[1] Title: trial-{idx}", [citation]
 
     monkeypatch.setattr(server, "build_context_and_citations", fake_build_context_and_citations)
     server.rag_calls = rag_calls  # expose the counter to tests
@@ -126,30 +148,62 @@ def rag_module(server_module, monkeypatch):
     return module
 
 
-def test_ask_returns_answer_citations_and_conversation_id(client, server_module):
-    payload = {"question": "What is hypertension?", "mode": "clinical"}
+def test_ask_calls_search_tool_and_returns_answer_citations_and_conversation_id(client, server_module):
+    llm = server_module.get_llm_client()
+    llm.responses = [_tool_call_response("hypertension"), _final_response("Here is the answer [1].")]
 
-    response = client.post("/api/ask", json=payload)
+    response = client.post("/api/ask", json={"question": "What is hypertension?", "mode": "clinical"})
 
     assert response.status_code == 200
     body = response.json()
-    assert body["answer"] == "stub response"
-    assert body["citations"][0]["title"] == "trial"
+    assert body["answer"] == "Here is the answer [1]."
+    assert body["citations"][0]["title"] == "trial-1"
     assert body["conversation_id"]
-
-    call = server_module.llm_client.generate_calls[0]
-    messages = call["messages"]
-    assert isinstance(messages[0], SystemMessage)
-    assert isinstance(messages[1], HumanMessage)
-    assert "hypertension" in messages[1].content
     assert len(server_module.rag_calls) == 1
 
+    first_call_messages = llm.generate_calls[0]["messages"]
+    assert isinstance(first_call_messages[0], SystemMessage)
+    assert isinstance(first_call_messages[1], HumanMessage)
+    assert "hypertension" in first_call_messages[1].content
+    assert len(first_call_messages) == 2  # no pre-fetched context stuffed in anymore
 
-def test_ask_follow_up_reuses_conversation_without_rerunning_rag(client, server_module):
+
+def test_ask_follow_up_without_new_search_reuses_previous_citations(client, server_module):
+    llm = server_module.get_llm_client()
+    llm.responses = [_tool_call_response("hypertension"), _final_response("First answer [1].")]
     first = client.post("/api/ask", json={"question": "What is hypertension?", "mode": "clinical"})
     conversation_id = first.json()["conversation_id"]
     assert len(server_module.rag_calls) == 1
 
+    llm.responses = [_final_response("Second answer, no new search needed.")]
+    second = client.post(
+        "/api/ask",
+        json={"question": "Can you clarify that?", "mode": "clinical", "conversation_id": conversation_id},
+    )
+
+    assert second.status_code == 200
+    body = second.json()
+    assert body["conversation_id"] == conversation_id
+    assert len(server_module.rag_calls) == 1  # no new search happened
+    assert body["citations"] == first.json()["citations"]
+
+    second_call_messages = llm.generate_calls[-1]["messages"]
+    # system, human(q1), ai(tool_call), tool(result), ai(first answer), human(q2)
+    assert len(second_call_messages) == 6
+    assert isinstance(second_call_messages[0], SystemMessage)
+    assert isinstance(second_call_messages[2], AIMessage)
+    assert isinstance(second_call_messages[3], ToolMessage)
+    assert second_call_messages[4].content == "First answer [1]."
+    assert second_call_messages[-1].content == "Can you clarify that?"
+
+
+def test_ask_follow_up_with_new_search_gets_fresh_citations(client, server_module):
+    llm = server_module.get_llm_client()
+    llm.responses = [_tool_call_response("hypertension"), _final_response("First answer [1].")]
+    first = client.post("/api/ask", json={"question": "What is hypertension?", "mode": "clinical"})
+    conversation_id = first.json()["conversation_id"]
+
+    llm.responses = [_tool_call_response("hypertension in pregnancy"), _final_response("Second answer [1].")]
     second = client.post(
         "/api/ask",
         json={"question": "What about in pregnancy?", "mode": "clinical", "conversation_id": conversation_id},
@@ -157,22 +211,15 @@ def test_ask_follow_up_reuses_conversation_without_rerunning_rag(client, server_
 
     assert second.status_code == 200
     body = second.json()
-    assert body["conversation_id"] == conversation_id
-    # RAG must not run again on the follow-up.
-    assert len(server_module.rag_calls) == 1
-    # Citations carry over unchanged from the first turn.
-    assert body["citations"] == first.json()["citations"]
-
-    second_call_messages = server_module.llm_client.generate_calls[-1]["messages"]
-    # system + first human + first AI + new human
-    assert len(second_call_messages) == 4
-    assert isinstance(second_call_messages[0], SystemMessage)
-    assert isinstance(second_call_messages[2], AIMessage)
-    assert second_call_messages[2].content == "stub response"
-    assert second_call_messages[-1].content == "What about in pregnancy?"
+    assert len(server_module.rag_calls) == 2  # a fresh search happened this turn
+    assert body["citations"] != first.json()["citations"]
+    assert body["citations"][0]["title"] == "trial-2"
 
 
 def test_ask_unknown_conversation_id_starts_a_new_conversation(client, server_module):
+    llm = server_module.get_llm_client()
+    llm.responses = [_tool_call_response("fresh question"), _final_response("An answer.")]
+
     response = client.post(
         "/api/ask", json={"question": "Fresh question", "mode": "clinical", "conversation_id": "does-not-exist"}
     )
@@ -182,30 +229,51 @@ def test_ask_unknown_conversation_id_starts_a_new_conversation(client, server_mo
     assert len(server_module.rag_calls) == 1
 
 
-def test_stream_endpoint_emits_meta_and_deltas(client, server_module):
-    payload = {"question": "Use streaming", "mode": "research"}
+def test_ask_tool_loop_respects_max_iterations_safety_cap(client, server_module):
+    server_module.TOOL_MAX_ITERATIONS = 2
+    llm = server_module.get_llm_client()
+    llm.responses = [
+        _tool_call_response("q1", call_id="call_1"),
+        _tool_call_response("q2", call_id="call_2"),
+        _final_response("Forced final answer."),
+    ]
 
-    with client.stream("POST", "/api/ask/stream", json=payload) as response:
+    response = client.post("/api/ask", json={"question": "Keep searching forever?", "mode": "clinical"})
+
+    assert response.status_code == 200
+    assert response.json()["answer"] == "Forced final answer."
+    assert len(server_module.rag_calls) == 2  # both tool-call rounds ran their search
+    assert len(llm.generate_calls) == 3  # 2 loop iterations + 1 forced fallback call
+
+
+def test_stream_calls_search_tool_and_emits_meta_and_deltas(client, server_module):
+    llm = server_module.get_llm_client()
+    llm.responses = [_tool_call_response("research streaming"), _final_response("Full streamed answer.")]
+
+    with client.stream("POST", "/api/ask/stream", json={"question": "Use streaming", "mode": "research"}) as response:
         lines = [line if isinstance(line, str) else line.decode() for line in response.iter_lines() if line]
 
     body = "\n".join(lines)
     assert response.status_code == 200
     assert "event: meta" in body
-    assert '"delta": "alpha"' in body
-    assert '"delta": "beta"' in body
+    assert '"delta": "Full streamed answer."' in body
     assert '"status": "completed"' in body
-    assert server_module.llm_client.stream_calls, "Streaming model should be invoked once"
+    assert len(server_module.rag_calls) == 1
+    assert len(llm.stream_calls) == 2  # tool-call round + final content round
 
 
-def test_stream_follow_up_reuses_conversation(client, server_module):
+def test_stream_follow_up_reuses_conversation_and_citations(client, server_module):
+    llm = server_module.get_llm_client()
+    llm.responses = [_tool_call_response("first"), _final_response("First streamed answer.")]
     with client.stream("POST", "/api/ask/stream", json={"question": "First", "mode": "clinical"}) as response:
         lines = [line if isinstance(line, str) else line.decode() for line in response.iter_lines() if line]
-    import json as _json
 
     meta_line = next(line for line in lines if line.startswith("data:") and "conversation_id" in line)
-    conversation_id = _json.loads(meta_line[len("data:") :].strip())["conversation_id"]
+    first_meta = _json.loads(meta_line[len("data:") :].strip())
+    conversation_id = first_meta["conversation_id"]
     assert len(server_module.rag_calls) == 1
 
+    llm.responses = [_final_response("Follow-up answer, no new search.")]
     with client.stream(
         "POST",
         "/api/ask/stream",
@@ -214,12 +282,63 @@ def test_stream_follow_up_reuses_conversation(client, server_module):
         lines2 = [line if isinstance(line, str) else line.decode() for line in response2.iter_lines() if line]
 
     meta_line2 = next(line for line in lines2 if line.startswith("data:") and "conversation_id" in line)
-    body2 = _json.loads(meta_line2[len("data:") :].strip())
-    assert body2["conversation_id"] == conversation_id
-    assert len(server_module.rag_calls) == 1  # still just the one RAG call from the first turn
+    second_meta = _json.loads(meta_line2[len("data:") :].strip())
+    assert second_meta["conversation_id"] == conversation_id
+    assert second_meta["citations"] == first_meta["citations"]
+    assert len(server_module.rag_calls) == 1  # no new search on the follow-up
 
 
-def test_build_first_turn_message_includes_context_and_filters_but_not_system_prompt(server_module):
+def test_execute_search_numbers_citations_starting_from_turn_offset(server_module):
+    turn_citations: list = []
+    text_first = server_module._execute_search("query one", None, turn_citations)
+    assert text_first.startswith("[1] Title: trial-1")
+    assert len(turn_citations) == 1
+
+    text_second = server_module._execute_search("query two", None, turn_citations)
+    assert text_second.startswith("[2] Title: trial-2")
+    assert len(turn_citations) == 2
+
+
+def test_execute_search_skips_papers_already_retrieved_earlier_this_turn(server_module, monkeypatch):
+    # Two different queries that happen to surface an overlapping paper (same pmid), plus one
+    # genuinely new one on the second call -- the overlap shouldn't be cited twice.
+    overlapping_citation = {
+        "id": "1",
+        "pmid": "dup-1",
+        "title": "Shared Paper",
+        "journal": "JAMA",
+        "publication_date": "2024",
+        "pubmed_url": "http://example.com/1",
+        "snippet": "evidence",
+    }
+    new_citation = {
+        "id": "2",
+        "pmid": "dup-2",
+        "title": "New Paper",
+        "journal": "JAMA",
+        "publication_date": "2024",
+        "pubmed_url": "http://example.com/2",
+        "snippet": "more evidence",
+    }
+    responses = [
+        ("[1] Title: Shared Paper", [overlapping_citation]),
+        ("[1] Title: Shared Paper\n\n[2] Title: New Paper", [overlapping_citation, new_citation]),
+    ]
+    monkeypatch.setattr(server_module, "build_context_and_citations", lambda *_a, **_k: responses.pop(0))
+
+    turn_citations: list = []
+    server_module._execute_search("query one", None, turn_citations)
+    assert len(turn_citations) == 1
+
+    text_second = server_module._execute_search("query two", None, turn_citations)
+    assert "New Paper" in text_second
+    assert "Shared Paper" not in text_second  # already retrieved this turn -- not re-cited
+    assert text_second.startswith("[2]")  # continues numbering, doesn't restart
+    assert len(turn_citations) == 2
+    assert [c.title for c in turn_citations] == ["Shared Paper", "New Paper"]
+
+
+def test_build_first_turn_message_includes_mode_and_filters_but_not_system_prompt_or_evidence(server_module):
     filters = server_module.EvidenceFilters(
         articleTypes=["Review"],
         articleImpact=["Top Journal"],
@@ -234,7 +353,7 @@ def test_build_first_turn_message_includes_context_and_filters_but_not_system_pr
         filters=filters,
     )
 
-    message = server_module._build_first_turn_message(payload, context_block="[1] title\nSnippet")
+    message = server_module._build_first_turn_message(payload)
 
     assert "Explain findings" in message
     assert "65yo with HTN" in message
@@ -243,11 +362,11 @@ def test_build_first_turn_message_includes_context_and_filters_but_not_system_pr
     assert "Publication date: Within last year" in message
     assert "COI: With Disclosures" in message
     assert "Keyword: ventilation" in message
-    assert "Use the retrieved studies below as evidence" in message
-    assert "[1] title" in message
     assert "Respond in the requested tone." in message
-    # The system prompt now travels as its own SystemMessage, not inline here.
+    # The system prompt travels as its own SystemMessage, not inline here.
     assert "You are a medical and biomedical Q&A assistant" not in message
+    # No evidence is pre-fetched anymore -- the model retrieves it itself via the tool.
+    assert "retrieved studies" not in message
 
 
 def test_generate_query_embedding(rag_module):

@@ -4,7 +4,7 @@ import uuid
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional
 
-from langchain_core.messages import AIMessage, BaseMessage, HumanMessage
+from langchain_core.messages import BaseMessage
 
 
 @dataclass
@@ -44,13 +44,22 @@ class SessionStore:
                 return None
             return session
 
-    def append_turn(self, conversation_id: str, human_message: HumanMessage, ai_message: AIMessage) -> None:
+    def append_messages(
+        self,
+        conversation_id: str,
+        new_messages: List[BaseMessage],
+        citations: Optional[List[Dict[str, Any]]] = None,
+    ) -> None:
+        """Extend a session with this turn's full message trajectory (which may be more than
+        one human/AI pair, e.g. tool-call rounds). Pass `citations` to replace the stored
+        list -- only when the turn actually retrieved new evidence; omit to leave it as-is."""
         with self._lock:
             session = self._sessions.get(conversation_id)
             if session is None:
                 raise KeyError(conversation_id)
-            session.messages.append(human_message)
-            session.messages.append(ai_message)
+            session.messages.extend(new_messages)
+            if citations is not None:
+                session.citations = citations
             session.last_active = time.monotonic()
 
     def sweep_expired(self) -> int:
