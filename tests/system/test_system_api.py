@@ -55,5 +55,5 @@ class TestAPIWithoutServer:
 
         from api.server import app
 
-        assert app.title == "The Consult · Gemini Proxy"
+        assert app.title == "The Consult · LLM Proxy"
         # No version made yet: assert app.version == "v1"
