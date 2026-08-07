@@ -16,8 +16,8 @@ import chromadb
 from google.cloud import storage
 
 # ! Configuration variables
-GCP_PROJECT = GCP_PROJECT = os.environ.get("GCP_PROJECT", "local-test-project")
-BUCKET_NAME = os.environ.get("PROJECT_BUCKET_NAME", "pubmed-bucket-ac215")  # GCS bucket name
+GCP_PROJECT = os.environ.get("GCP_PROJECT", "ac215-471916")
+BUCKET_NAME = os.environ.get("PROJECT_BUCKET_NAME", "ac215-project-data")  # GCS bucket name
 PARQUET_FOLDER = os.environ.get(
     "PARQUET_SOURCE_PREFIX", "pubmed/filtered_oct23/2020-01-01_2025-12-31"
 )  # only process parquet files in this folder

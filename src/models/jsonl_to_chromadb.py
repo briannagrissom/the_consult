@@ -9,8 +9,8 @@ from .src.gcs import stream_backup_from_gcs
 # from .src.gcs import read_backup_from_gcs
 
 # Configuration variables
-GCP_PROJECT = os.environ.get("GCP_PROJECT", "apcomp215-project")
-BUCKET_NAME = os.environ.get("PROJECT_BUCKET_NAME", "pubmed-bucket-ac215")  # GCS bucket name
+GCP_PROJECT = os.environ.get("GCP_PROJECT", "ac215-471916")
+BUCKET_NAME = os.environ.get("PROJECT_BUCKET_NAME", "ac215-project-data")  # GCS bucket name
 CHROMADB_HOST = os.environ.get("CHROMADB_HOST", "35.193.38.202")
 CHROMADB_PORT = int(os.environ.get("CHROMADB_PORT", "8000"))
 CHROMADB_BATCH_SIZE = int(os.environ.get("CHROMADB_BATCH_SIZE", "25"))

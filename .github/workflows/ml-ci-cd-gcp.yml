@@ -49,13 +49,13 @@ jobs:
             --mount type=bind,source=$GOOGLE_APPLICATION_CREDENTIALS,target=/secrets/deployment.json \
             -e GOOGLE_APPLICATION_CREDENTIALS=/secrets/deployment.json \
             -e USE_GKE_GCLOUD_AUTH_PLUGIN=True \
-            -e GCP_PROJECT=vm1-test-473912 \
+            -e GCP_PROJECT=ac215-471916 \
             -e GCP_ZONE=us-central1-a \
-            -e GCS_BUCKET_NAME=consult-app-ml-workflow-demo \
-            -e GCS_SERVICE_ACCOUNT=deployment@vm1-test-473912.iam.gserviceaccount.com \
+            -e GCS_BUCKET_NAME=ac215-project-data \
+            -e GCS_SERVICE_ACCOUNT=ml-workflow@ac215-471916.iam.gserviceaccount.com \
             -e GCP_REGION=us-central1 \
-            -e GCS_PACKAGE_URI=gs://consult-app-trainer-code \
-            -e PULUMI_BUCKET=vm1-test-473912-pulumi-state-bucket \
+            -e GCS_PACKAGE_URI=gs://ac215-project-data/trainer-code \
+            -e PULUMI_BUCKET=gs://ac215-471916-pulumi-state-bucket \
             consult-app-workflow python cli.py --data_collector
       - name: Run Data Processor
         if: contains(github.event.head_commit.message, '/run-data-processor')
@@ -70,13 +70,13 @@ jobs:
             --mount type=bind,source=$GOOGLE_APPLICATION_CREDENTIALS,target=/secrets/deployment.json \
             -e GOOGLE_APPLICATION_CREDENTIALS=/secrets/deployment.json \
             -e USE_GKE_GCLOUD_AUTH_PLUGIN=True \
-            -e GCP_PROJECT=vm1-test-473912 \
+            -e GCP_PROJECT=ac215-471916 \
             -e GCP_ZONE=us-central1-a \
-            -e GCS_BUCKET_NAME=consult-app-ml-workflow-demo \
-            -e GCS_SERVICE_ACCOUNT=deployment@vm1-test-473912.iam.gserviceaccount.com \
+            -e GCS_BUCKET_NAME=ac215-project-data \
+            -e GCS_SERVICE_ACCOUNT=ml-workflow@ac215-471916.iam.gserviceaccount.com \
             -e GCP_REGION=us-central1 \
-            -e GCS_PACKAGE_URI=gs://consult-app-trainer-code \
-            -e PULUMI_BUCKET=vm1-test-473912-pulumi-state-bucket \
+            -e GCS_PACKAGE_URI=gs://ac215-project-data/trainer-code \
+            -e PULUMI_BUCKET=gs://ac215-471916-pulumi-state-bucket \
             consult-app-workflow python cli.py --data_processor
       - name: Run ML Pipeline
         if: contains(github.event.head_commit.message, '/run-ml-pipeline')
@@ -91,13 +91,13 @@ jobs:
             --mount type=bind,source=$GOOGLE_APPLICATION_CREDENTIALS,target=/secrets/deployment.json \
             -e GOOGLE_APPLICATION_CREDENTIALS=/secrets/deployment.json \
             -e USE_GKE_GCLOUD_AUTH_PLUGIN=True \
-            -e GCP_PROJECT=vm1-test-473912 \
+            -e GCP_PROJECT=ac215-471916 \
             -e GCP_ZONE=us-central1-a \
-            -e GCS_BUCKET_NAME=consult-app-ml-workflow-demo \
-            -e GCS_SERVICE_ACCOUNT=deployment@vm1-test-473912.iam.gserviceaccount.com \
+            -e GCS_BUCKET_NAME=ac215-project-data \
+            -e GCS_SERVICE_ACCOUNT=ml-workflow@ac215-471916.iam.gserviceaccount.com \
             -e GCP_REGION=us-central1 \
-            -e GCS_PACKAGE_URI=gs://consult-app-trainer-code \
-            -e PULUMI_BUCKET=vm1-test-473912-pulumi-state-bucket \
+            -e GCS_PACKAGE_URI=gs://ac215-project-data/trainer-code \
+            -e PULUMI_BUCKET=gs://ac215-471916-pulumi-state-bucket \
             consult-app-workflow python cli.py --pipeline
       - run: echo "Job's status is ${{ job.status }}."
 

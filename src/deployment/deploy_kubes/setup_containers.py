@@ -8,7 +8,7 @@ security_config = pulumi.Config("security")
 storage_config = pulumi.Config("storage")
 
 gsa_email = security_config.get("gcp_ksa_service_account_email")
-gcs_bucket = storage_config.get("bucket_name") or "pubmed-bucket-ac215"
+gcs_bucket = storage_config.get("bucket_name") or "ac215-project-data"
 
 
 def setup_containers(project, namespace, k8s_provider, ksa_name, app_name):

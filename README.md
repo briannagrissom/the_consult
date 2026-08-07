@@ -1,164 +1,160 @@
 # The Consult
 
-Generative AI assistant that delivers referenced, clinically aware answers for clinicians and researchers. It pairs Gemini with RAG over PubMed-derived content so users can see citations, study details, and configurable evidence filters.
+Generative AI assistant that delivers referenced, clinically aware answers for clinicians
+and researchers. It pairs OpenAI (via LangChain) with RAG over PubMed-derived content, so
+answers carry citations, study details, and configurable evidence filters.
 
-## What’s inside
-- `.github/workflows`: GitHub Actions CI/CD pipelines, ML workflow.
-- `notebooks`, `docs`, `data`: Exploratory work, notes, and seeds.
-- `screenshots`: Images of the output of each GitHub Actions workflow, testing coverage reports.
-- `src/llm-api`: FastAPI service that proxies Gemini, applies RAG (ChromaDB), and streams responses.
-- `src/frontend`: Vite/React client that calls the API and renders citations/filters.
-- `src/models`: Data prep utilities for embeddings and ChromaDB ingestion.
-- `src/datapipeline`: Data movement helpers.
-- `src/deployment`: Pulumi programs and Dockerfiles for deploying the app to GCP (images + GKE).
-- `src/workflow`: ML workflow CLI and support files used by `.github/workflows/ml-ci-cd-gcp.yml`.
-- `tests/integration`: Integration tests.
-- `tests/system`: System tests.
+## What's inside
 
-## Prerequisites
-- Python 3.11+
-- Node 18+ (for the frontend)
-- An OpenAI API key (`OPENAI_API_KEY`) for LLM + embeddings, used via LangChain
-- ChromaDB endpoint with PubMed embeddings (defaults via env vars)
+| Path | What it is |
+|---|---|
+| `src/llm-api` | FastAPI service: RAG over ChromaDB, OpenAI generation, streaming, multi-turn sessions |
+| `src/frontend` | Vite/React client — renders answers, citations, and filters |
+| `src/models` | RAG tooling: chunking, embeddings, ChromaDB ingestion, query CLI |
+| `src/datapipeline` | PubMed ingestion: NCBI FTP download → parse → filter → Parquet |
+| `src/deployment` | Pulumi programs + Dockerfiles for deploying to GCP (images + GKE) |
+| `src/workflow` | ML workflow CLI driving Vertex AI pipelines |
+| `tests/` | Integration and system tests (unit tests live in each module) |
+| `.github/workflows` | CI/CD and ML pipelines |
+| `docs`, `screenshots` | Design docs, workflow/coverage screenshots |
 
-## Setup
+## Run locally
+
+Requires **Python 3.12**, **Node 18+**, **Docker**, and an **OpenAI API key**.
+
+Three processes make up the running app: ChromaDB (vector store, port 8000), the
+API (port 8081), and the frontend (port 8080). Run steps 4–6 in separate terminals.
+
+### 1. Install dependencies
+
 ```bash
-git clone <repo> the_consult
-cd the_consult
-python -m venv .venv
-source .venv/bin/activate
-pip install uv
-uv sync
+python -m venv .venv && source .venv/bin/activate
+pip install uv && uv sync
+
+cd src/frontend && npm install && cd ../..
 ```
-Install frontend deps:
+
+### 2. Create a `.env` in the repo root
+
+`.env` is gitignored, so a fresh clone won't have one:
+
 ```bash
-cd src/frontend
-npm install
+cat > .env <<'EOF'
+OPENAI_API_KEY=sk-...
+OPENAI_MODEL=gpt-5.4-nano
+EMBEDDING_MODEL=text-embedding-3-small
+EMBEDDING_DIMENSION=1536
+CHROMADB_HOST=localhost
+CHROMADB_PORT=8000
+API_ALLOW_ORIGINS=http://localhost:8080
+EOF
+```
+
+| Variable | Purpose |
+|---|---|
+| `OPENAI_API_KEY` | **Required.** LLM calls and embeddings |
+| `OPENAI_MODEL` | Chat model (default `gpt-5.4-nano`) |
+| `EMBEDDING_MODEL` / `EMBEDDING_DIMENSION` | Default `text-embedding-3-small` / `1536` |
+| `CHROMADB_HOST` / `CHROMADB_PORT` / `CHROMADB_TOP_K` | Vector store connection |
+| `API_ALLOW_ORIGINS` | Comma-separated CORS origins |
+| `GOOGLE_APPLICATION_CREDENTIALS` | Only needed to ingest Parquet from GCS (steps in `src/models`) |
+| `GCP_PROJECT` | Same — unrelated to the LLM path |
+
+> The API loads this file automatically on startup. Variables already set in the
+> environment take precedence, so Docker/Kubernetes config always wins over `.env`.
+
+### 3. Start ChromaDB
+
+The compose file attaches to an external Docker network, so create it first:
+
+```bash
+docker network create llm-rag-network
+
+cd src/models
+docker-compose up -d chromadb
 cd ../..
 ```
 
-### Environment
-set the following environment variables:
-- `OPENAI_API_KEY` (required for LLM calls and embeddings)
-- `OPENAI_MODEL` (default `gpt-5.4-nano`)
-- `EMBEDDING_MODEL` (default `text-embedding-3-small`), `EMBEDDING_DIMENSION` (default `1536`)
-- `CHROMADB_HOST`, `CHROMADB_PORT`, `CHROMADB_TOP_K`
-- `API_ALLOW_ORIGINS` (comma-separated origins; defaults include `http://localhost:8080`)
-- `GCP_PROJECT` is still needed for GCS access (parquet ingestion), unrelated to the LLM/embeddings path
+Data persists in `src/models/docker-volumes/chromadb`, so it survives restarts.
 
-## Deployment
-### Kubernetes and GCP Deployment
-Deployment scripts are implemented in `src/deployment`, using Pulumi.
-Steps
-```bash
-cd src/deployment/deploy_images
+### 4. Load data into ChromaDB
 
-# first time only & Set appropriate project name and region
-pulumi stack init dev
-pulumi config set gcp:project ac215-project
-pulumi config set gcp:region us-central1
+A fresh ChromaDB is empty — the app will run but return no citations. To populate it,
+follow [`src/models/README.md`](src/models/README.md). The Parquet files it ingests are
+produced by the pipeline in [`src/datapipeline/README.md`](src/datapipeline/README.md).
 
-# Build and push the container to GCP Artefact registry
-pulumi up --stack dev --refresh -y
+### 5. Start the API
 
-cd ..
-cd deploy_kubes
-
-# first time only & Set appropriate project name, region, and service accounts
-pulumi stack init dev
-pulumi config set gcp:project ac215-project
-pulumi config set gcp:region us-central1
-pulumi config set security:gcp_service_account_email: deployment@apcomp215-project.iam.gserviceaccount.com
-pulumi config set security:gcp_ksa_service_account_email: gcp-service@apcomp215-project.iam.gserviceaccount.com
-
-# Deployment
-pulumi up --stack dev --refresh -y
-```
-
-### CI/CD Pipelines and Machine Learning Workflow
-The following GitHub Actions workflows are defined in `.github/workflows`:
-
-- `ci-cd-main.yml`: primary CI pipeline. Builds the API image, runs:
-  - linting and formatting (Black + Flake8)
-  - unit tests (models + llm-api)
-  - integration and system tests.
-- `app-ci-cd-gcp.yml`: application deployment pipeline. Builds Docker images (frontend, llm-api, models), runs Pulumi (`deploy_images`, `deploy_kubes`), and deploys the app to GKE in GCP.
-- `ml-ci-cd-gcp.yml`: ML workflow pipeline. Uses `src/workflow/cli.py` to submit Vertex AI `PipelineJob`s for:
-  - data collection,
-  - data processing,
-  - model training,
-  - model deployment.
-
-Entrypoints and triggers:
-- `ci-cd-main.yml`: runs automatically on pushes to main branch.
-- `app-ci-cd-gcp.yml`: add `/deploy-app` to the commit message to run the app deployment pipeline.
-- `ml-ci-cd-gcp.yml`: add `/run-` to the commit message to run the ML workflow.
-    - Add `/run-data-collector` to run the data collector step.
-    - Add `/run-data-processor` to run the data processor step.
-    - Add `/run-ml-pipeline` to run the entire Vertex AI ML pipeline.
-
-Note: The workflows `app-ci-cd-gcp.yml` and `ml-ci-cd-gcp.yml`, and the script `src/workflow/docker-shell.sh`, assume the following environment / secrets are configured in GitHub and/or your shell:
-
-- `GCP_PROJECT`
-- `GCS_SERVICE_ACCOUNT`
-- `PULUMI_BUCKET`
-- `GOOGLE_APPLICATION_CREDENTIALS` (path to a JSON key for the above service account)
-
-One must configure them manually for the deployment and ML workflows to authenticate to GCP.
-
-## Usage Details
-### Run locally
-API (from repo root):
 ```bash
 uvicorn api.server:app --app-dir src/llm-api --host 0.0.0.0 --port 8081 --reload
 ```
-Frontend:
-```bash
-cd src/frontend
-npm run dev -- --host --port 8080
-```
-Open `http://localhost:8080` (UI calls the API on `http://localhost:8081`).
 
-### Docker
-Build and run the API:
-```bash
-cd src/llm-api
-docker build -t the-consult-api .
-docker run -p 8081:8081 --env-file ../.env.local the-consult-api
-```
-### Docker shells per module [Recommended Methods for Running Locally]
-Each module ships a helper script to drop you into a containerized shell with its dependencies:
-- API: `cd src/llm-api && ./docker-shell.sh`
-- Frontend: `cd src/frontend && ./docker-shell.sh`
-- Models (data prep): `cd src/models && ./docker-shell.sh`
-- Datapipeline: `cd src/datapipeline && ./docker-shell.sh`
+Check it: `curl http://localhost:8081/healthz`
 
-### Testing
-Unit tests (individual to containers):
+### 6. Start the frontend
+
 ```bash
-pytest src/llm-api/tests
-pytest src/models/tests
-```
-Integration and system tests:
-```bash
-pytest tests/integration
-pytest tests/system
-```
-Frontend tests (if configured):
-```bash
-cd src/frontend
-npm test
+cd src/frontend && npm run dev -- --host --port 8080
 ```
 
-## Issues and Limitations
-- It was intended to develop additional study filters in our application for the type of study and the quality of the response's evidence. However, due to time limitations, these filters were omitted.
-- There remains room for improvement in the llm-finetuning of the model's responses for clinical and research purposes. 
-- It was intended for the application to be able to facilitate a series of questions from the user and subsequent answers, in a conversational format. Due to time limitations, we were not able to implement the ability of the model to receive and answer additional questions. 
-- Additional user modes, that are more specific than research and clinical purposes, can be developed in the future. 
+Open **`http://localhost:8080`**. The UI reads its API URL from
+`src/frontend/.env` (`VITE_API_BASE_URL=http://localhost:8081`), which is
+committed, so no extra config is needed.
 
-### Documentation of Testing Limitations
-- Unit tests were only developed for the backend folders `src/llm-api` and `src/models`. Unit testing could have been expanded to `src/datapipeline` to ensure the proper downloading and extracting of literature data form PubMed.
-- The coverage reports (in `screenshots`) reveal that both backend folders have a fair amount of testing coverage. 
-    - In `src/llm-api`, the functions get_chromadb_collection(), query_documents(), get_index(), health_check(), and build_context_and_citations() had minimal coverage.
-    - In `src/models`, the functions in `query_rag_model.py` and `src/gcs.py` had minimal coverage.
-- Limited artifact storage in GitHub prohibited the generation of more up-to-date coverage reports as html files. 
+### Alternative: containerized
+
+Each module ships a `./docker-shell.sh` that builds and drops you into a container
+with its dependencies — available for `src/llm-api`, `src/frontend`, `src/models`,
+and `src/datapipeline`.
+
+## Testing
+
+```bash
+pytest src/llm-api/tests        # unit
+pytest src/models/tests         # unit
+pytest tests/integration        # integration
+pytest tests/system             # system (needs the API running)
+
+cd src/datapipeline && uv run pytest tests/   # unit, run from its own venv
+```
+
+## Deploy to GCP
+
+📖 **See [`src/deployment/README.md`](src/deployment/README.md)** for the complete
+walkthrough: creating the GCP project, enabling APIs, service-account roles, running
+both Pulumi stacks, cost estimates, and teardown.
+
+⚠️ Deploying provisions a GKE cluster that bills hourly (roughly $150–220/month if
+left running). The guide covers costs and how to tear everything down.
+
+## CI/CD
+
+| Workflow | Trigger | What it does |
+|---|---|---|
+| `ci-cd-main.yml` | Push/PR to `main` or `develop` | Lint (Black + Flake8), unit, integration, and system tests |
+| `app-ci-cd-gcp.yml` | `/deploy-app` in commit message | Builds images, runs Pulumi, deploys to GKE |
+| `ml-ci-cd-gcp.yml` | `/run-*` in commit message | Submits Vertex AI pipeline jobs |
+
+`ml-ci-cd-gcp.yml` sub-triggers: `/run-data-collector`, `/run-data-processor`,
+`/run-ml-pipeline`.
+
+The deployment and ML workflows need these configured as GitHub secrets or shell env:
+`GCP_PROJECT`, `GCS_SERVICE_ACCOUNT`, `PULUMI_BUCKET`, and `GOOGLE_APPLICATION_CREDENTIALS`
+(path to that service account's JSON key).
+
+## Issues and limitations
+
+- Study-type and evidence-quality filters were scoped but not built.
+- Fine-tuning for clinical/research tone remains a work in progress.
+- User modes are limited to research vs. clinical; more specific personas are future work.
+
+### Testing gaps
+
+- `src/datapipeline` unit tests cover only the filter/flag transforms in
+  `upload_pm_abstract_ftp.py` — the FTP download and XML parse steps are untested, and no
+  CI workflow runs this suite yet.
+- Coverage reports (see `screenshots/`) show weak spots: `get_chromadb_collection()`,
+  `query_documents()`, `get_index()`, `health_check()`, and `build_context_and_citations()`
+  in `src/llm-api`; `query_rag_model.py` and `src/gcs.py` in `src/models`.
+- GitHub artifact storage limits have kept the HTML coverage reports from being regenerated
+  recently.

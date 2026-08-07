@@ -8,7 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 export BASE_DIR="$SCRIPT_DIR"
 export PERSISTENT_DIR="$BASE_DIR/../persistent-folder"
 export SECRETS_DIR="$BASE_DIR/../../secrets"
-export GCP_PROJECT="apcomp215-project"
+export GCP_PROJECT="ac215-471916"
 export IMAGE_NAME="llm-rag-cli"
 export SERVICE_NAME="llm-rag-cli"
 export COMPOSE_FILE="$BASE_DIR/docker-compose.yml"
@@ -21,7 +21,7 @@ if curl -s --connect-timeout 1 http://metadata.google.internal/ >/dev/null 2>&1;
 else
     echo "💻 Running locally"
     # On local machine, use JSON key if it exists
-    export GOOGLE_APPLICATION_CREDENTIALS="/secrets/apcomp215-project-0a74ac035654.json"
+    export GOOGLE_APPLICATION_CREDENTIALS="/secrets/consult-app-local.json"
 fi
 
 # -----------------------

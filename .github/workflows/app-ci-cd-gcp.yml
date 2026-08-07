@@ -51,10 +51,10 @@ jobs:
             --mount type=bind,source=$GOOGLE_APPLICATION_CREDENTIALS,target=/secrets/deployment.json \
             --env GOOGLE_APPLICATION_CREDENTIALS=/secrets/deployment.json \
             -e USE_GKE_GCLOUD_AUTH_PLUGIN=True \
-            -e GCP_PROJECT=vm1-test-473912 \
+            -e GCP_PROJECT=ac215-471916 \
             -e GCP_ZONE=us-central1-a \
             -e GCP_REGION=us-central1 \
-            -e PULUMI_BUCKET=gs://vm1-test-473912-pulumi-state-bucket \
+            -e PULUMI_BUCKET=gs://ac215-471916-pulumi-state-bucket \
             consult-app-deployment bash -lc "
               set -e
               cd /workspace/src/deployment/deploy_images

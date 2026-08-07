@@ -1,8 +1,9 @@
 # LLM API Service
 
-Thin FastAPI proxy that fronts OpenAI (via LangChain) for _The Consult_ UI. It exposes the
-same `/api/ask` and `/api/ask/stream` endpoints used in development but is packaged
-as an independent service for Cloud Run deployments.
+FastAPI service backing _The Consult_: RAG retrieval over ChromaDB plus OpenAI generation
+through LangChain, packaged as an independent deployment unit.
+
+**Endpoints:** `GET /`, `GET /healthz`, `POST /api/ask`, `POST /api/ask/stream`
 
 ## Local development
 
@@ -12,42 +13,43 @@ uv sync
 uv run uvicorn api.server:app --reload --host 0.0.0.0 --port 8081
 ```
 
-Set the required environment variables before starting:
+| Variable | Purpose |
+|---|---|
+| `OPENAI_API_KEY` | **Required.** Chat completions and embeddings |
+| `OPENAI_MODEL` | Chat model (default `gpt-5.4-nano`) |
+| `EMBEDDING_MODEL` | Embedding model (default `text-embedding-3-small`) |
+| `API_ALLOW_ORIGINS` | Comma-separated CORS origins |
 
-- `OPENAI_API_KEY` – OpenAI API key used for both chat completions and embeddings.
-- `OPENAI_MODEL` – Chat model name (defaults to `gpt-5.4-nano`).
-- `EMBEDDING_MODEL` – Embedding model name (defaults to `text-embedding-3-small`).
-- `API_ALLOW_ORIGINS` – Comma-separated list of allowed CORS origins.
+These are read from a `.env` at the repo root, loaded automatically by
+`api/__init__.py` on import. Variables already present in the environment take
+precedence, so Docker and Kubernetes config always wins over the file.
 
 ## Tracing
 
-Set `BRAINTRUST_API_KEY` (and optionally `BRAINTRUST_PROJECT`, default `The Consult`) to
-send request traces to Braintrust. Every `/api/ask` and `/api/ask/stream` call becomes one
-trace with nested spans for retrieval (`build_context_and_citations`) and generation (the
-LangChain LLM call, via `BraintrustCallbackHandler`). Without the key, tracing is a no-op —
-no crash, no background retry noise.
+Set `BRAINTRUST_API_KEY` (optionally `BRAINTRUST_PROJECT`, default `The Consult`) to send
+traces to Braintrust. Each `/api/ask` call becomes one trace with nested spans for
+retrieval (`build_context_and_citations`) and generation. Without the key, tracing is a
+no-op — no crash, no retry noise.
 
 ## Evals
 
-`evals/eval_rag.py` runs the real retrieve-then-generate pipeline against a small question
-set and scores it with `autoevals`' RAGAS scorers (`Faithfulness`, `ContextRelevancy`,
-`AnswerRelevancy`, `ContextPrecision`, `ContextRecall`, `AnswerCorrectness`). Run it with:
+`evals/eval_rag.py` runs the real retrieve-then-generate pipeline against a question set
+and scores it with `autoevals`' RAGAS scorers.
 
 ```bash
 cd src/llm-api
 uv run --env-file ../../.env braintrust eval evals/eval_rag.py
 ```
 
-Requires `OPENAI_API_KEY` and `BRAINTRUST_API_KEY` — the scorers themselves call an LLM
-through Braintrust's proxy to grade each answer, so the key is required for scoring to work
-at all, not just for uploading results. Each run costs real OpenAI calls: one generation
-call per question, plus one grading call per question per scorer.
+Requires both `OPENAI_API_KEY` and `BRAINTRUST_API_KEY` — the scorers themselves call an
+LLM through Braintrust's proxy, so the key is needed for scoring to run at all, not just
+for uploading results. Each run costs real OpenAI calls: one generation per question, plus
+one grading call per question per scorer.
 
-`ContextPrecision`, `ContextRecall`, and `AnswerCorrectness` need a ground-truth `expected`
-answer per question (`DATASET` in the eval file currently has all of them set to `None`,
-which those three scorers skip cleanly). Fill those in with real, clinician-reviewed answers
-before trusting their scores — don't treat AI-generated "expected" answers as ground truth
-for a medical eval.
+> `ContextPrecision`, `ContextRecall`, and `AnswerCorrectness` need a ground-truth
+> `expected` answer per question. `DATASET` currently sets these to `None`, which those
+> scorers skip cleanly. Fill them in with clinician-reviewed answers before trusting the
+> scores — don't treat AI-generated "expected" answers as ground truth for a medical eval.
 
 ## Container build
 
@@ -57,5 +59,4 @@ gcloud builds submit \
   src/llm-api
 ```
 
-Deploy the resulting image to Cloud Run while wiring the same environment variables.
-
+Deploy to Cloud Run with the same environment variables wired in.

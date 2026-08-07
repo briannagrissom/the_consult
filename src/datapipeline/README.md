@@ -16,6 +16,30 @@ uv venv && source .venv/bin/activate && uv sync
   `secrets/consult-app-local.json`) — `gcloud auth list` alone isn't enough,
   since the Python client reads the env var, not your CLI session.
 
+## Run the whole pipeline
+
+```bash
+cd src/datapipeline
+uv venv && source .venv/bin/activate && uv sync
+
+# 1. Download baseline files (add --start-index/--limit to bound a test run, e.g. --start-index 1270 --limit 3)
+uv run get_pm_ftp.py
+
+# 2. Extract
+uv run extract_pm_ftp.py --xml-dir outputs/pubmed_baseline_ftp
+
+# 3. Parse
+uv run parse_pm_ftp.py --xml-dir outputs/pubmed_baseline_ftp_extract --min-index 400
+
+# 4. Filter, flag, and publish
+export GOOGLE_APPLICATION_CREDENTIALS=../../secrets/consult-app-local.json
+uv run upload_pm_abstract_ftp.py \
+    --data-dir outputs/pubmed_baseline_ftp_parsed \
+    --from 2020-01-01 --to 2025-12-31 \
+    --top-journals-file data/top_journals.txt \
+    --local outputs/final_dataset   # omit --local to upload to GCS instead
+```
+
 ## Pipeline stages
 
 Run in order; each reads the previous stage's output. `--help` on any
@@ -64,13 +88,6 @@ already exists at that destination** rather than overwriting — a rerun
 against a live prefix lands new files there (e.g. `_00003.parquet`), it
 won't clobber `_00001`. Still: point test runs at `--local` or a scratch
 `--gcs-prefix`, not a real ingestion folder.
-
-> The original `upload_pm_abstract_ftp.py` this repo referenced was never
-> actually committed — this is a reconstruction. In particular, the real
-> top-journal allow-list and reference-date logic are unknown; `data/top_journals.txt`
-> is derived from what's already in production `pubmed_data_00001.parquet`,
-> not an independent source, and includes at least one likely false positive
-> (a CS conference proceedings series matched on the word "nature").
 
 ## Docker
 

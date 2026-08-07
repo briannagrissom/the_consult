@@ -8,12 +8,10 @@ export IMAGE_NAME="the-consult-deployment"
 export BASE_DIR=$(pwd)
 export SECRETS_DIR=$(pwd)/../../secrets/
 export SSH_DIR=$(pwd)/../../secrets/
-# export SECRETS_DIR=$(pwd)/../../../secrets/ac215-project/
-# export SSH_DIR=$(pwd)/../../../secrets/ac215-project/
-export GCP_PROJECT="apcomp215-project" # Change to your GCP Project
+export GCP_PROJECT="ac215-471916" # Change to your GCP Project
 export GCP_REGION="us-central1"
 export GCP_ZONE="us-central1-a"
-export GOOGLE_APPLICATION_CREDENTIALS=/secrets/deployment.json
+export GOOGLE_APPLICATION_CREDENTIALS=/secrets/consult-app-local.json
 export PULUMI_BUCKET="gs://$GCP_PROJECT-pulumi-state-bucket"
 
 # Create local Pulumi plugins directory if it doesn't exist
