@@ -208,7 +208,6 @@ __marimo__/
 
 # macOS finder files
 .DS_Store
-*/.DS_Store
 
 notesfile.txt
 chunk_data.py
@@ -217,7 +216,10 @@ input-parquet-files/
 outputs/
 secrets/
 src/models/checkpoints/
-.DS_Store
+
+# No longer maintained -- no models are fine-tuned anymore
+src/llm-finetuning/
+
 access_existing_collection.py
 vectordb-notes.txt
 PIPELINE_README.md
