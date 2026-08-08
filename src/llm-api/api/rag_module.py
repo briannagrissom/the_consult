@@ -171,6 +171,39 @@ def query_documents(
 
 
 @traced(type="tool")
+def get_full_abstract(pmid: str) -> Dict[str, Any] | None:
+    """Reassemble the full stored text of one paper from all its chunks, in original chunk
+    order. A single retrieved snippet is only ~350 chars of a chunked abstract (chunk_size=350,
+    chunk_overlap=20 in chunker.py); this fetches every chunk sharing that PMID instead of just
+    the one that ranked highest for some earlier vector search. Returns None if the PMID has no
+    stored chunks. The ~20-char overlap between consecutive chunks is left in the joined text
+    rather than trimmed -- it's a minor, known artifact, not worth the fragility of trying to
+    detect and strip it.
+    """
+    collection = get_chromadb_collection()
+    results = collection.get(where={"pmid": pmid}, include=["documents", "metadatas"])
+
+    ids = results.get("ids") or []
+    if not ids:
+        return None
+
+    documents = results.get("documents") or []
+    metadatas = results.get("metadatas") or []
+    ordered = sorted(zip(documents, metadatas), key=lambda pair: pair[1].get("chunk_index", 0))
+
+    meta = ordered[0][1]  # title/journal/etc. are identical across every chunk of one paper
+    return {
+        "pmid": pmid,
+        "title": meta.get("title"),
+        "journal": meta.get("journal_title"),
+        "publication_date": meta.get("publication_date"),
+        "pubmed_url": meta.get("pubmed_url"),
+        "authors": meta.get("author_list_full"),
+        "full_text": " ".join(doc for doc, _ in ordered),
+    }
+
+
+@traced(type="tool")
 def build_context_and_citations(
     question: str, frontend_filters: Dict[str, Any] | None = None
 ) -> Tuple[str, List[Dict[str, Any]]]:

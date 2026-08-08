@@ -32,6 +32,13 @@ def _tool_call_response(query: str, call_id: str = "call_1") -> AIMessage:
     )
 
 
+def _full_abstract_call_response(pmid: str, call_id: str = "call_1") -> AIMessage:
+    return AIMessage(
+        content="",
+        tool_calls=[{"name": "get_full_abstract", "args": {"pmid": pmid}, "id": call_id, "type": "tool_call"}],
+    )
+
+
 def _final_response(text: str) -> AIMessage:
     return AIMessage(content=text)
 
@@ -126,11 +133,17 @@ def rag_module(server_module, monkeypatch):
         "ids": [["id1"]],
         "distances": [[0.1]],
     }
+    chromadb_stub.get_calls: list[dict] = []
+    chromadb_stub.get_payload = {"ids": [], "documents": [], "metadatas": []}
 
     class DummyCollection:
         def query(self, **kwargs):
             chromadb_stub.query_calls.append(kwargs)
             return chromadb_stub.query_payload
+
+        def get(self, **kwargs):
+            chromadb_stub.get_calls.append(kwargs)
+            return chromadb_stub.get_payload
 
     class DummyClient:
         def __init__(self, *_, **__):
@@ -376,6 +389,97 @@ def test_execute_search_caps_total_citations_per_turn_across_multiple_calls(serv
     assert call_count["n"] == 1  # the second call short-circuits before hitting the DB at all
 
 
+def test_get_full_abstract_tool_formats_result(server_module, monkeypatch):
+    monkeypatch.setattr(
+        server_module,
+        "fetch_full_abstract",
+        lambda pmid: {
+            "pmid": pmid,
+            "title": "T",
+            "journal": "J",
+            "publication_date": "2024",
+            "pubmed_url": "http://example.com",
+            "full_text": "The full reassembled text.",
+        },
+    )
+
+    text = server_module.get_full_abstract.invoke({"pmid": "123"})
+
+    assert "Title: T" in text
+    assert "Full text: The full reassembled text." in text
+
+
+def test_get_full_abstract_tool_reports_missing_pmid(server_module, monkeypatch):
+    monkeypatch.setattr(server_module, "fetch_full_abstract", lambda pmid: None)
+
+    text = server_module.get_full_abstract.invoke({"pmid": "999"})
+
+    assert "No stored abstract was found for PMID 999" in text
+
+
+def test_run_tool_calls_dispatches_get_full_abstract(server_module, monkeypatch):
+    monkeypatch.setattr(
+        server_module,
+        "fetch_full_abstract",
+        lambda pmid: {
+            "pmid": pmid,
+            "title": "T",
+            "journal": "J",
+            "publication_date": "2024",
+            "pubmed_url": "http://example.com",
+            "full_text": "Detail text.",
+        },
+    )
+
+    turn_citations: list = []
+    tool_messages = server_module._run_tool_calls(
+        [{"name": "get_full_abstract", "args": {"pmid": "123"}, "id": "call_1"}], None, turn_citations
+    )
+
+    assert len(tool_messages) == 1
+    assert tool_messages[0].tool_call_id == "call_1"
+    assert "Detail text." in tool_messages[0].content
+    assert turn_citations == []  # a full-abstract lookup isn't a new citation
+
+
+def test_ask_follow_up_calling_get_full_abstract_keeps_existing_citations(client, server_module, monkeypatch):
+    llm = server_module.get_llm_client()
+    llm.responses = [_tool_call_response("hypertension"), _final_response("First answer [1].")]
+    first = client.post("/api/ask", json={"question": "What is hypertension?", "mode": "clinical"})
+    conversation_id = first.json()["conversation_id"]
+    assert len(server_module.rag_calls) == 1
+
+    monkeypatch.setattr(
+        server_module,
+        "fetch_full_abstract",
+        lambda pmid: {
+            "pmid": pmid,
+            "title": "T",
+            "journal": "J",
+            "publication_date": "2024",
+            "pubmed_url": "http://example.com",
+            "full_text": "This study enrolled 500 patients.",
+        },
+    )
+    llm.responses = [_full_abstract_call_response("pmid-1"), _final_response("The study enrolled 500 patients.")]
+    second = client.post(
+        "/api/ask",
+        json={"question": "What was the sample size in study 1?", "mode": "clinical", "conversation_id": conversation_id},
+    )
+
+    assert second.status_code == 200
+    body = second.json()
+    assert body["answer"] == "The study enrolled 500 patients."
+    assert body["citations"] == first.json()["citations"]  # unchanged -- no new search happened
+    assert len(server_module.rag_calls) == 1  # get_full_abstract doesn't call build_context_and_citations
+
+    # generate_calls[-1] is the round-2 (final-answer) invoke; its last message is round 1's
+    # tool result, immediately preceding the model's final answer.
+    tool_result_message = llm.generate_calls[-1]["messages"][-1]
+    assert isinstance(tool_result_message, ToolMessage)
+    assert "500 patients" in tool_result_message.content
+
+
 def test_build_first_turn_message_includes_mode_and_filters_but_not_system_prompt_or_evidence(server_module):
     filters = server_module.EvidenceFilters(
         articleTypes=["Review"],
@@ -508,6 +612,32 @@ def test_query_documents_omits_where_document_without_keyword(rag_module):
 
     for query_call in rag_module.chromadb.query_calls:
         assert "where_document" not in query_call
+
+
+def test_get_full_abstract_reassembles_chunks_in_order(rag_module):
+    # Deliberately out of order -- chunk_index must drive the ordering, not array position.
+    rag_module.chromadb.get_payload = {
+        "ids": ["123-2", "123-0", "123-1"],
+        "documents": ["gamma.", "alpha.", "beta."],
+        "metadatas": [
+            {"chunk_index": 2, "title": "T", "journal_title": "J", "publication_date": "2024", "pubmed_url": "url"},
+            {"chunk_index": 0, "title": "T", "journal_title": "J", "publication_date": "2024", "pubmed_url": "url"},
+            {"chunk_index": 1, "title": "T", "journal_title": "J", "publication_date": "2024", "pubmed_url": "url"},
+        ],
+    }
+
+    result = rag_module.get_full_abstract("123")
+
+    assert result["full_text"] == "alpha. beta. gamma."
+    assert result["title"] == "T"
+    assert result["journal"] == "J"
+    get_call = rag_module.chromadb.get_calls[-1]
+    assert get_call["where"] == {"pmid": "123"}
+
+
+def test_get_full_abstract_returns_none_for_unknown_pmid(rag_module):
+    rag_module.chromadb.get_payload = {"ids": [], "documents": [], "metadatas": []}
+    assert rag_module.get_full_abstract("does-not-exist") is None
 
 
 def test_tracing_initialized_when_braintrust_api_key_set(monkeypatch):

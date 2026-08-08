@@ -17,6 +17,7 @@ from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 
 from .rag_module import CHROMADB_FILTERED_TOP_K, build_context_and_citations
+from .rag_module import get_full_abstract as fetch_full_abstract
 from .session_store import SessionStore
 
 OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.4-nano")
@@ -132,13 +133,37 @@ class AskResponse(BaseModel):
     conversation_id: str
 
 
+# search_pubmed's body below exists only so bind_tools() can read its name/docstring/signature
+# to build the OpenAI function schema -- it never actually runs. Real execution lives in
+# _execute_search, dispatched by _run_tool_calls, since it needs per-turn state (turn_citations,
+# the request's filters) that a bare tool function signature has no way to receive.
+# get_full_abstract has no such state dependency, so its body below *is* the real dispatch --
+# _run_tool_calls invokes it directly.
 @tool
 def search_pubmed(query: str) -> str:
     """Search the PubMed abstract database for evidence relevant to a medical or clinical
-    question. Returns numbered results (title, journal, date, URL, and a relevant snippet)
-    to cite in your answer using their bracketed number, e.g. [1]."""
+    question. Returns numbered results (PMID, title, journal, date, URL, and a relevant
+    snippet) to cite in your answer using their bracketed number, e.g. [1]."""
     context_block, _citations = build_context_and_citations(query, frontend_filters=None)
     return context_block or "No relevant PubMed results were found for this query."
+
+
+@tool
+def get_full_abstract(pmid: str) -> str:
+    """Fetch the full reassembled text of one specific paper already seen in search_pubmed
+    results, by its PMID. A search result snippet is only a short excerpt; use this when a
+    follow-up needs detail a snippet likely doesn't cover -- e.g. sample size, methodology,
+    or other specifics about one particular already-cited study."""
+    result = fetch_full_abstract(pmid)
+    if result is None:
+        return f"No stored abstract was found for PMID {pmid}."
+    return (
+        f"Title: {result['title']}\n"
+        f"Journal: {result['journal']}\n"
+        f"Date: {result['publication_date']}\n"
+        f"URL: {result['pubmed_url']}\n"
+        f"Full text: {result['full_text']}"
+    )
 
 
 def _format_citations_block(citations: list[dict], start: int = 1) -> str:
@@ -149,6 +174,7 @@ def _format_citations_block(citations: list[dict], start: int = 1) -> str:
     for offset, c in enumerate(citations):
         lines.append(
             f"[{start + offset}] Title: {c.get('title')}\n"
+            f"PMID: {c.get('pmid')}\n"
             f"Journal: {c.get('journal')}\n"
             f"Date: {c.get('publication_date')}\n"
             f"URL: {c.get('pubmed_url')}\n"
@@ -193,7 +219,9 @@ def _run_tool_calls(tool_calls: list[dict], filters: dict | None, turn_citations
     for call in tool_calls:
         if call["name"] == "search_pubmed":
             content = _execute_search(call["args"].get("query", ""), filters, turn_citations)
-        else:  # pragma: no cover - only one tool is bound today
+        elif call["name"] == "get_full_abstract":
+            content = get_full_abstract.invoke({"pmid": call["args"].get("pmid", "")})
+        else:  # pragma: no cover - only the two tools above are bound today
             content = f"Unknown tool: {call['name']}"
         results.append(ToolMessage(content=content, tool_call_id=call["id"]))
     return results
@@ -295,7 +323,7 @@ def ask_llm(payload: AskRequest) -> AskResponse:
         messages = baseline_messages + new_messages
         filters = payload.filters.model_dump(by_alias=True) if payload.filters else None
         turn_citations: list[Citation] = []
-        llm = get_llm_client().bind_tools([search_pubmed])
+        llm = get_llm_client().bind_tools([search_pubmed, get_full_abstract])
 
         try:
             for _ in range(TOOL_MAX_ITERATIONS):
@@ -336,7 +364,7 @@ def _stream_llm(
     ask_llm. Tool-call rounds produce no visible deltas -- only the final text round streams
     to the client. Owns closing `span`, left open by ask_llm_stream for this purpose."""
     span.set_current()
-    llm = get_llm_client().bind_tools([search_pubmed])
+    llm = get_llm_client().bind_tools([search_pubmed, get_full_abstract])
     turn_citations: list[Citation] = []
     answer = ""
 
