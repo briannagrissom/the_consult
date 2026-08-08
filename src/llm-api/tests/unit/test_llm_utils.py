@@ -338,6 +338,44 @@ def test_execute_search_skips_papers_already_retrieved_earlier_this_turn(server_
     assert [c.title for c in turn_citations] == ["Shared Paper", "New Paper"]
 
 
+def test_execute_search_caps_total_citations_per_turn_across_multiple_calls(server_module, monkeypatch):
+    # Each call independently returns a full page of CHROMADB_FILTERED_TOP_K results (as if the
+    # model fired several search_pubmed calls, e.g. via parallel tool calling) -- naively summed
+    # that's more than the turn should ever return, so the turn-level budget must cap it.
+    cap = server_module.CHROMADB_FILTERED_TOP_K
+    call_count = {"n": 0}
+
+    def make_page(prefix: str, n: int) -> list[dict]:
+        return [
+            {
+                "id": f"{prefix}-{i}",
+                "pmid": f"{prefix}-pmid-{i}",
+                "title": f"{prefix} paper {i}",
+                "journal": "JAMA",
+                "publication_date": "2024",
+                "pubmed_url": "http://example.com",
+                "snippet": "evidence",
+            }
+            for i in range(n)
+        ]
+
+    def fake_build(question, filters=None):
+        call_count["n"] += 1
+        page = make_page(f"call{call_count['n']}", cap)
+        return "unused context block", page
+
+    monkeypatch.setattr(server_module, "build_context_and_citations", fake_build)
+
+    turn_citations: list = []
+    server_module._execute_search("query one", None, turn_citations)
+    assert len(turn_citations) == cap  # first call alone already fills the budget
+
+    text_second = server_module._execute_search("query two", None, turn_citations)
+    assert len(turn_citations) == cap  # second call's results are entirely dropped, not appended
+    assert "budget" in text_second.lower()
+    assert call_count["n"] == 1  # the second call short-circuits before hitting the DB at all
+
+
 def test_build_first_turn_message_includes_mode_and_filters_but_not_system_prompt_or_evidence(server_module):
     filters = server_module.EvidenceFilters(
         articleTypes=["Review"],

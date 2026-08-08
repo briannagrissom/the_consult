@@ -71,7 +71,7 @@ The compose file attaches to an external Docker network, so create it first:
 docker network create llm-rag-network
 
 cd src/models
-docker-compose up -d chromadb
+docker compose up -d chromadb
 cd ../..
 ```
 

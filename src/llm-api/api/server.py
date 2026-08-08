@@ -16,7 +16,7 @@ from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage, To
 from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 
-from .rag_module import build_context_and_citations
+from .rag_module import CHROMADB_FILTERED_TOP_K, build_context_and_citations
 from .session_store import SessionStore
 
 OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.4-nano")
@@ -161,11 +161,20 @@ def _execute_search(query: str, filters: dict | None, turn_citations: list[Citat
     """Runs one search_pubmed call for real, numbering its results to continue on from
     whatever this turn has already retrieved, and appends them to turn_citations in place.
     Skips papers already retrieved earlier in this same turn (the model may search more than
-    once), since query_documents only dedupes within a single search, not across several."""
+    once), since query_documents only dedupes within a single search, not across several.
+
+    CHROMADB_FILTERED_TOP_K caps citations per search call, not per turn -- and the model
+    can fire several search_pubmed calls in one turn (OpenAI defaults to parallel tool
+    calling, which bind_tools() doesn't disable), so without a turn-level budget here too,
+    a turn could return CHROMADB_FILTERED_TOP_K times the number of searches the model made."""
+    remaining = CHROMADB_FILTERED_TOP_K - len(turn_citations)
+    if remaining <= 0:
+        return "This turn's citation budget is already used up -- answer using what's already been retrieved."
+
     _unused_context_block, citations_raw = build_context_and_citations(query, filters)
 
     seen_pmids = {c.pmid for c in turn_citations if c.pmid}
-    new_citations = [c for c in citations_raw if c.get("pmid") not in seen_pmids]
+    new_citations = [c for c in citations_raw if c.get("pmid") not in seen_pmids][:remaining]
 
     if not new_citations:
         message = "No relevant PubMed results were found for this query."

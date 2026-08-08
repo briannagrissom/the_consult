@@ -56,7 +56,7 @@ docker build -t $IMAGE_NAME -f "$BASE_DIR/Dockerfile" "$BASE_DIR"
 # -----------------------
 # Ensure ChromaDB is running before launching the CLI container
 echo "🗄️  Starting ChromaDB service..."
-docker-compose -f "$COMPOSE_FILE" up -d chromadb
+docker compose -f "$COMPOSE_FILE" up -d chromadb
 
 echo "🚀 Starting service: $SERVICE_NAME"
-docker-compose -f "$COMPOSE_FILE" run --rm --service-ports $SERVICE_NAME -v "../../secrets:/secrets"
+docker compose -f "$COMPOSE_FILE" run --rm --service-ports $SERVICE_NAME -v "../../secrets:/secrets"
