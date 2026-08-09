@@ -63,15 +63,19 @@ Link a billing account (find yours with `gcloud billing accounts list`):
 gcloud billing projects link $PROJECT_ID --billing-account=XXXXXX-XXXXXX-XXXXXX
 ```
 
-Enable the required APIs. **All five are mandatory** — `container` and `compute`
-are the ones most often forgotten, and their absence causes a `403 ... API has
-not been used in project` failure partway through `deploy_kubes`:
+Enable the required APIs. **All six are mandatory** — `container`, `compute`, and
+`cloudresourcemanager` are the ones most often forgotten. Missing `container` or
+`compute` causes a `403 ... API has not been used in project` partway through
+`deploy_kubes`; missing `cloudresourcemanager` makes the container's very first
+`gcloud config set project` warn that the SA "does not have permission to access
+projects instance", and Pulumi cannot resolve the project at all:
 
 ```bash
 gcloud services enable \
   container.googleapis.com \
   compute.googleapis.com \
   artifactregistry.googleapis.com \
+  cloudresourcemanager.googleapis.com \
   iam.googleapis.com \
   storage.googleapis.com \
   --project=$PROJECT_ID
@@ -79,6 +83,20 @@ gcloud services enable \
 
 > Add `aiplatform.googleapis.com` too if you plan to run the Vertex AI ML
 > workflow in `src/workflow`.
+
+### If your organization restricts resource locations
+
+Some GCP organizations enforce a `constraints/gcp.resourceLocations` policy. The
+entrypoint creates the Pulumi state bucket in `$GCP_REGION` specifically because
+an unqualified `gsutil mb` defaults to the multi-region `US`, which such a policy
+rejects with `412 ... 'us' violates constraint 'constraints/gcp.resourceLocations'`.
+
+Check which locations you're allowed to use, and pick a `GCP_REGION` from the list:
+
+```bash
+gcloud resource-manager org-policies describe constraints/gcp.resourceLocations \
+  --project=$PROJECT_ID --effective
+```
 
 ## Step 2 — Create the deployment service account
 
@@ -165,14 +183,23 @@ Everything below runs **inside this container**.
 ## Step 5 — Build and push the images
 
 ```bash
-cd deploy_images
+cd /app/deploy_images
 
-pulumi stack init dev        # skip if the stack already exists
+# Creates the stack, or selects it if a previous run already made one.
+pulumi stack init dev 2>/dev/null || pulumi stack select dev
+
 pulumi config set gcp:project your-project-id
 pulumi config set gcp:region us-central1
 
 pulumi up --stack dev --refresh -y
 ```
+
+> Every Pulumi command must run from the directory holding that stack's
+> `Pulumi.yaml` (`/app/deploy_images` or `/app/deploy_kubes`). Run one from `/app`
+> and you'll get `error: if you're using the --stack flag, pass the fully qualified
+> name` — Pulumi can't infer the project without the file. The paths here are
+> absolute so they work no matter where you are, including after leaving and
+> re-entering the container, which drops you back at `/app`.
 
 This builds four images for `linux/amd64` and pushes them. Expect 10–30 minutes
 on a first run; the frontend and API images are large. Image tags are timestamped
@@ -189,15 +216,26 @@ gcloud artifacts docker images list \
 
 > This is the step that starts incurring hourly cost.
 
-```bash
-cd ../deploy_kubes
+> These run **inside the container**, so the `$PROJECT_ID` / `$SA_EMAIL` variables
+> you exported on your host in Steps 1–2 are not set here. Substitute the literal
+> values, as shown below. (`pulumi config set <key>` with an empty value silently
+> drops to an interactive `value:` prompt rather than erroring.)
 
-pulumi stack init dev
+```bash
+cd /app/deploy_kubes
+
+# Set these to your own values first
+SA_EMAIL=consult-app-local@your-project-id.iam.gserviceaccount.com
+BUCKET=your-embeddings-bucket   # GCS bucket holding your Parquet/embeddings data
+
+pulumi stack init dev 2>/dev/null || pulumi stack select dev
 pulumi config set gcp:project your-project-id
 pulumi config set gcp:region us-central1
-pulumi config set security:gcp_service_account_email $SA_EMAIL
-pulumi config set security:gcp_ksa_service_account_email $SA_EMAIL
-pulumi config set storage:bucket_name your-embeddings-bucket
+pulumi config set security:gcp_service_account_email "$SA_EMAIL"
+pulumi config set security:gcp_ksa_service_account_email "$SA_EMAIL"
+pulumi config set storage:bucket_name "$BUCKET"
+
+pulumi config      # confirm all five are set before continuing
 
 pulumi up --stack dev --refresh -y
 ```
@@ -219,26 +257,35 @@ The load balancer can take a few more minutes to start serving after `pulumi up`
 returns. Deploys are HTTP by default — set `setupSSL = True` in
 [`deploy_kubes/__main__.py`](deploy_kubes/__main__.py) to use the SSL ingress path.
 
-## Step 7 — Provide the OpenAI API key
+## Step 7 — Confirm the OpenAI API key reached the pods
 
-**This is a known gap: the Pulumi code does not wire `OPENAI_API_KEY` into the
-deployed pods.** The API container starts fine, but any `/api/ask` request fails
-because `ChatOpenAI()` and `OpenAIEmbeddings()` fall back to that environment
-variable and find nothing.
+`deploy_kubes` provisions this automatically: it creates an `openai-credentials`
+Secret and mounts it into the API container as `OPENAI_API_KEY`. The key comes
+from, in order of preference:
 
-Until it's wired into `setup_containers.py`, add it manually:
+1. `pulumi config set --secret openai:api_key sk-...` on the `deploy_kubes` stack
+2. the `OPENAI_API_KEY` environment variable, which `docker-shell.sh` reads out of
+   the repo-root `.env` and forwards into the container
+
+So if your `.env` has a key, there is nothing to do here. Verify:
+
+```bash
+NS=$(pulumi stack output namespace)
+kubectl get secret openai-credentials -n $NS
+kubectl get deployment api -n $NS -o jsonpath='{.spec.template.spec.containers[0].env[*].name}'
+```
+
+If Pulumi warned `No OpenAI key found` during `pulumi up`, neither source was set.
+Supply one and re-run `pulumi up`, or add it by hand:
 
 ```bash
 gcloud container clusters get-credentials the-consult-app-cluster \
   --region us-central1 --project your-project-id
 
-NS=$(pulumi stack output namespace)
-
 kubectl create secret generic openai-credentials \
   --from-literal=OPENAI_API_KEY=sk-... -n $NS
 
-kubectl set env deployment/api -n $NS \
-  --from=secret/openai-credentials
+kubectl set env deployment/api -n $NS --from=secret/openai-credentials
 ```
 
 > The Kubernetes *Deployment* is named `api`; the *Service* in front of it is
@@ -249,6 +296,13 @@ Confirm the rollout:
 ```bash
 kubectl get pods -n $NS -w
 ```
+
+> **On secret storage:** the key ends up in the Pulumi state file, encrypted with
+> the stack's secrets provider. `docker-shell.sh` defaults
+> `PULUMI_CONFIG_PASSPHRASE` to empty, which makes that encryption effectively
+> cosmetic. The state bucket is private, but if you want real encryption at rest,
+> export a non-empty `PULUMI_CONFIG_PASSPHRASE` before running the script and keep
+> it somewhere durable — losing it makes the stack unreadable.
 
 ## Step 8 — Load data into the vector database
 
@@ -313,16 +367,65 @@ or its stack name doesn't match. `setup_containers.py` references
 `organization/deploy-images/dev`; with a self-managed (GCS) backend, `organization`
 is Pulumi's default org name, so the stack must be named exactly `dev`.
 
+**A bare `value:` prompt during `pulumi config set`** — the value you passed was
+empty, so Pulumi is asking for it interactively. Almost always a host-side shell
+variable (`$SA_EMAIL`, `$PROJECT_ID`) used inside the container, where it isn't
+set. Type the literal value at the prompt, or Ctrl-C and re-run with it inlined.
+
+**`open /<name>/Dockerfile: no such file or directory`** — `deploy_images` builds
+one image per entry in `__main__.py`, each with a `"../../<name>"` context that
+resolves to `/<name>` in the container. Every one of those needs a matching `-v`
+mount in `docker-shell.sh`. If you add an image to the Pulumi program, add its
+mount too, or the build fails only at `pulumi up` time.
+
+**`if you're using the --stack flag, pass the fully qualified name
+(organization/project/stack)`** — you're not in a Pulumi project directory. `cd
+/app/deploy_images` (or `/app/deploy_kubes`) and re-run; the error means Pulumi
+found no `Pulumi.yaml` to infer the project name from. Leaving and re-entering the
+container puts you back at `/app`, which is the usual way to end up here.
+
+**`stack 'organization/deploy-images/dev' already exists`** — harmless; the stack
+was created on an earlier run. Use `pulumi stack select dev` instead of
+`stack init`, then carry on.
+
+**`could not create secrets manager for new stack: incorrect passphrase`** — the
+self-managed backend encrypts stack secrets with `PULUMI_CONFIG_PASSPHRASE`, and a
+committed `Pulumi.<stack>.yaml` pins an `encryptionsalt` to whatever passphrase
+created it. If that salt came from someone else's passphrase, no passphrase of
+yours will match. `docker-shell.sh` now exports an empty `PULUMI_CONFIG_PASSPHRASE`,
+which works because neither stack stores any `secure:` config. If you hit this
+anyway, delete the `encryptionsalt:` line from the stack's YAML and re-run
+`pulumi stack init` — a new salt is generated, and nothing is lost as long as
+`grep -r "secure:"` finds no encrypted values.
+
 **Pulumi state bucket errors** — the entrypoint creates it automatically, but
 that needs `storage.admin`. Confirm `PULUMI_BUCKET` in `docker-shell.sh` includes
-the `gs://` scheme.
+the `gs://` scheme. A `412 ... violates constraint 'constraints/gcp.resourceLocations'`
+means your org restricts bucket locations — see
+[the org policy note in Step 1](#if-your-organization-restricts-resource-locations).
+A `could not list bucket: ... bucket doesn't exist` from `pulumi login` is a
+knock-on effect: the bucket creation just above it failed, so read that error first.
+
+**`Device or resource busy: '/root/.docker/config.json'`** — expected and harmless.
+`docker_config.json` is bind-mounted, so gcloud can't atomically replace it; the
+file already contains the `{region}-docker.pkg.dev` credHelper that image pushes
+need, so nothing is lost.
+
+**`WARNING: The requested image's platform (linux/amd64) does not match the
+detected host platform (linux/arm64/v8)`** — expected on Apple Silicon. The image
+is deliberately built `--platform=linux/amd64` to match GKE nodes, and runs under
+emulation locally. It works, just slower.
 
 **Frontend loads but requests fail** — usually Step 7. Check the API pod's logs:
 `kubectl logs deployment/api -n $NS`.
 
 ## Known gaps
 
-- `OPENAI_API_KEY` isn't provisioned by Pulumi (Step 7 is a manual workaround).
-- The `deploy_kubes` stack has no committed `Pulumi.dev.yaml`, so its config must
-  be set by hand on first run. `deploy_images` does ship one.
+- Both stacks ship a committed `Pulumi.dev.yaml` pinned to this project's IDs.
+  Deploying into a different GCP project means overwriting those config values
+  (Steps 5 and 6) before the first `pulumi up`.
+- Stack secrets use the passphrase provider with an empty passphrase (set in
+  `docker-shell.sh`). That's only safe while no `secure:` config exists. If you
+  add encrypted config, set a real `PULUMI_CONFIG_PASSPHRASE` before running the
+  script and share it with anyone else who deploys.
 - SSL is off by default; the app is served over plain HTTP.

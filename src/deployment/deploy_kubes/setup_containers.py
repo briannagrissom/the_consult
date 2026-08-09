@@ -1,3 +1,5 @@
+import os
+
 import pulumi
 import pulumi_gcp as gcp
 
@@ -7,11 +9,24 @@ import pulumi_kubernetes as k8s
 security_config = pulumi.Config("security")
 storage_config = pulumi.Config("storage")
 
-gsa_email = security_config.get("gcp_ksa_service_account_email")
-gcs_bucket = storage_config.get("bucket_name") or "ac215-project-data"
+def _clean(value):
+    """Strip surrounding whitespace off a config string -- see create_cluster._clean."""
+    return value.strip() if isinstance(value, str) else value
 
 
-def setup_containers(project, namespace, k8s_provider, ksa_name, app_name):
+gsa_email = _clean(security_config.get("gcp_ksa_service_account_email"))
+gcs_bucket = _clean(storage_config.get("bucket_name")) or "ac215-project-data"
+
+# The API needs an OpenAI key at runtime -- ChatOpenAI()/OpenAIEmbeddings() read
+# OPENAI_API_KEY from the environment. Prefer Pulumi config (encrypted at rest with
+# the stack's secrets provider); fall back to the deploying shell's environment,
+# which docker-shell.sh forwards from the repo-root .env.
+# Note: the vector-db loader job does NOT need this -- jsonl_to_chromadb.py replays
+# pre-computed embeddings from the JSONL backup rather than calling OpenAI.
+openai_api_key = pulumi.Config("openai").get_secret("api_key") or os.environ.get("OPENAI_API_KEY")
+
+
+def setup_containers(project, namespace, k8s_provider, ksa_name, app_name, api_ksa=None):
     # Get image references from deploy_images stack
     # For local backend, use: "organization/project/stack"
     images_stack = pulumi.StackReference("organization/deploy-images/dev")
@@ -46,7 +61,11 @@ def setup_containers(project, namespace, k8s_provider, ksa_name, app_name):
         spec=k8s.core.v1.PersistentVolumeClaimSpecArgs(
             access_modes=["ReadWriteOnce"],  # Single pod read/write access
             resources=k8s.core.v1.VolumeResourceRequirementsArgs(
-                requests={"storage": "5Gi"},  # Request 5GB for vector embeddings
+                # The full PubMed corpus is ~4.1 GiB on disk before ChromaDB's HNSW index
+                # and write-ahead log, so 5Gi leaves too little headroom for the loader to
+                # finish. PVCs can be grown but never shrunk, so err large -- the extra
+                # capacity costs cents per month.
+                requests={"storage": "20Gi"},
             ),
         ),
         opts=pulumi.ResourceOptions(provider=k8s_provider, depends_on=[namespace]),
@@ -285,10 +304,33 @@ def setup_containers(project, namespace, k8s_provider, ksa_name, app_name):
                                     name="CHROMADB_BATCH_SIZE",
                                     value="200",
                                 ),
+                                # Restore into the collection the API actually queries.
+                                k8s.core.v1.EnvVarArgs(
+                                    name="CHROMADB_COLLECTION",
+                                    value="pubmed_abstract",
+                                ),
+                                k8s.core.v1.EnvVarArgs(
+                                    name="PROJECT_BUCKET_NAME",
+                                    value=gcs_bucket,
+                                ),
+                                k8s.core.v1.EnvVarArgs(
+                                    name="BACKUP_PREFIX",
+                                    value="chromadb_backups/pubmed_abstract",
+                                ),
                             ],
-                            # Run the loader via Python so it resolves correctly in the image
+                            # jsonl_to_chromadb.py does `from .src.gcs import ...`, so running it
+                            # as a bare script fails with "attempted relative import with no known
+                            # parent package". It has to be imported as a module, with the parent
+                            # of its package directory on PYTHONPATH. In the image, src/models is
+                            # copied to /app/src, so the package is `src` and the parent is /app.
+                            # No --semantic: that flag reads an "embeddings_semantic" key, but the
+                            # backups written by parquet_to_chromadb.py / export_chromadb_backup.py
+                            # store the vector under "embedding".
+                            # Must run from /app, not /app/src: from inside /app/src the name
+                            # `src` resolves to the nested /app/src/src package instead, and the
+                            # module isn't found. /.venv is the image's UV_PROJECT_ENVIRONMENT.
                             command=["/bin/sh", "-c"],
-                            args=["uv run /app/src/jsonl_to_chromadb.py --semantic"],
+                            args=["cd /app && PYTHONPATH=/app /.venv/bin/python -m src.jsonl_to_chromadb"],
                         ),
                     ],
                 ),
@@ -296,9 +338,62 @@ def setup_containers(project, namespace, k8s_provider, ksa_name, app_name):
         ),
         opts=pulumi.ResourceOptions(
             provider=k8s_provider,
-            depends_on=[vector_db_service],
+            depends_on=[vector_db_service] + ([api_ksa] if api_ksa else []),
         ),
     )
+
+    # Base environment for the API container.
+    api_env = [
+        k8s.core.v1.EnvVarArgs(
+            name="CHROMADB_HOST",
+            value="vector-db",  # ChromaDB service name (DNS)
+        ),
+        k8s.core.v1.EnvVarArgs(
+            name="CHROMADB_PORT",
+            value="8000",
+        ),
+        k8s.core.v1.EnvVarArgs(
+            name="GCP_PROJECT",
+            value=project,
+        ),
+        k8s.core.v1.EnvVarArgs(
+            name="ROOT_PATH",
+            value="/api-service",
+        ),
+    ]
+
+    # Wire OPENAI_API_KEY in via a Secret when one is available, so it doesn't have
+    # to be added by hand after every deploy. Without it the API still starts, but
+    # every /api/ask call fails once it tries to reach OpenAI.
+    api_extra_deps = []
+    if openai_api_key:
+        openai_secret = k8s.core.v1.Secret(
+            "openai-credentials",
+            metadata=k8s.meta.v1.ObjectMetaArgs(
+                name="openai-credentials",
+                namespace=namespace.metadata.name,
+            ),
+            string_data={"OPENAI_API_KEY": openai_api_key},
+            opts=pulumi.ResourceOptions(provider=k8s_provider, depends_on=[namespace]),
+        )
+        api_env.append(
+            k8s.core.v1.EnvVarArgs(
+                name="OPENAI_API_KEY",
+                value_from=k8s.core.v1.EnvVarSourceArgs(
+                    secret_key_ref=k8s.core.v1.SecretKeySelectorArgs(
+                        name=openai_secret.metadata.name,
+                        key="OPENAI_API_KEY",
+                    )
+                ),
+            )
+        )
+        api_extra_deps.append(openai_secret)
+    else:
+        pulumi.log.warn(
+            "No OpenAI key found (openai:api_key config or OPENAI_API_KEY env). "
+            "The API will deploy but /api/ask will fail until the key is supplied -- "
+            "see Step 7 in src/deployment/README.md."
+        )
 
     # api_service Deployment
     api_deployment = k8s.apps.v1.Deployment(
@@ -347,34 +442,16 @@ def setup_containers(project, namespace, k8s_provider, ksa_name, app_name):
                                     mount_path="/persistent",  # Temporary file storage
                                 )
                             ],
-                            env=[
-                                # k8s.core.v1.EnvVarArgs(
-                                #     name="GCS_BUCKET_NAME",
-                                #     value="cheese-app-models",  # GCS bucket for ML models
-                                # ),
-                                k8s.core.v1.EnvVarArgs(
-                                    name="CHROMADB_HOST",
-                                    value="vector-db",  # ChromaDB service name (DNS)
-                                ),
-                                k8s.core.v1.EnvVarArgs(
-                                    name="CHROMADB_PORT",
-                                    value="8000",
-                                ),
-                                k8s.core.v1.EnvVarArgs(
-                                    name="GCP_PROJECT",
-                                    value=project,
-                                ),
-                                k8s.core.v1.EnvVarArgs(
-                                    name="ROOT_PATH",
-                                    value="/api-service",
-                                ),
-                            ],
+                            env=api_env,
                         ),
                     ],
                 ),
             ),
         ),
-        opts=pulumi.ResourceOptions(provider=k8s_provider, depends_on=[vector_db_loader_job]),
+        opts=pulumi.ResourceOptions(
+            provider=k8s_provider,
+            depends_on=[vector_db_loader_job] + api_extra_deps + ([api_ksa] if api_ksa else []),
+        ),
     )
 
     # api_service Service

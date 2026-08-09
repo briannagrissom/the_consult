@@ -13,6 +13,21 @@ export GCP_REGION="us-central1"
 export GCP_ZONE="us-central1-a"
 export GOOGLE_APPLICATION_CREDENTIALS=/secrets/consult-app-local.json
 export PULUMI_BUCKET="gs://$GCP_PROJECT-pulumi-state-bucket"
+# The self-managed (GCS) backend encrypts stack secrets with a passphrase. Neither
+# stack stores any `secure:` config today, so an empty passphrase is fine and keeps
+# `pulumi stack init` from prompting. Export a real one before running this script
+# if you ever add encrypted config.
+export PULUMI_CONFIG_PASSPHRASE="${PULUMI_CONFIG_PASSPHRASE:-}"
+
+# deploy_kubes wires OPENAI_API_KEY into the deployed API pod. Pick it up from the
+# repo-root .env if it isn't already exported, so the deploy needs no manual step.
+if [ -z "$OPENAI_API_KEY" ] && [ -f "$BASE_DIR/../../.env" ]; then
+    OPENAI_API_KEY=$(grep -E '^OPENAI_API_KEY=' "$BASE_DIR/../../.env" | tail -1 | cut -d= -f2-)
+fi
+export OPENAI_API_KEY="${OPENAI_API_KEY:-}"
+if [ -z "$OPENAI_API_KEY" ]; then
+    echo "⚠️  OPENAI_API_KEY not set -- the deployed API will not be able to call OpenAI."
+fi
 
 # Create local Pulumi plugins directory if it doesn't exist
 mkdir -p $BASE_DIR/pulumi-plugins
@@ -20,7 +35,9 @@ mkdir -p $BASE_DIR/pulumi-plugins
 # Check if container is already running
 if docker ps --format "table {{.Names}}" | grep -q "^${IMAGE_NAME}$"; then
     echo "Container '${IMAGE_NAME}' is already running. Shelling into existing container..."
-    docker exec -it $IMAGE_NAME /bin/bash ./docker-entrypoint.sh
+    docker exec -it -e PULUMI_CONFIG_PASSPHRASE="$PULUMI_CONFIG_PASSPHRASE" \
+        -e OPENAI_API_KEY="$OPENAI_API_KEY" \
+        $IMAGE_NAME /bin/bash ./docker-entrypoint.sh
 else
     echo "Container '${IMAGE_NAME}' is not running. Building and starting new container..."
 
@@ -28,7 +45,9 @@ else
     #docker build -t $IMAGE_NAME -f Dockerfile .
     docker build -t $IMAGE_NAME --platform=linux/amd64 -f Dockerfile .
 
-    # Run the container
+    # Run the container. There must be one -v mount per build context in
+    # deploy_images/__main__.py: those use "../../<name>" relative to
+    # /app/deploy_images, which resolves to /<name> inside the container.
     docker run --rm --name $IMAGE_NAME -ti \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v "$BASE_DIR":/app \
@@ -39,11 +58,14 @@ else
     -v "$BASE_DIR/../llm-api":/llm-api \
     -v "$BASE_DIR/../frontend":/frontend \
     -v "$BASE_DIR/../models":/models \
+    -v "$BASE_DIR/../datapipeline":/datapipeline \
     -e GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS \
     -e USE_GKE_GCLOUD_AUTH_PLUGIN=True \
     -e GCP_PROJECT=$GCP_PROJECT \
     -e GCP_REGION=$GCP_REGION \
     -e GCP_ZONE=$GCP_ZONE \
     -e PULUMI_BUCKET=$PULUMI_BUCKET \
+    -e PULUMI_CONFIG_PASSPHRASE="$PULUMI_CONFIG_PASSPHRASE" \
+    -e OPENAI_API_KEY="$OPENAI_API_KEY" \
     $IMAGE_NAME
 fi

@@ -14,7 +14,9 @@ BUCKET_NAME = os.environ.get("PROJECT_BUCKET_NAME", "ac215-project-data")  # GCS
 CHROMADB_HOST = os.environ.get("CHROMADB_HOST", "35.193.38.202")
 CHROMADB_PORT = int(os.environ.get("CHROMADB_PORT", "8000"))
 CHROMADB_BATCH_SIZE = int(os.environ.get("CHROMADB_BATCH_SIZE", "25"))
-CHROMADB_COLLECTION = "pubmed_abstract_semantic"
+# Must match what the API queries (rag_module.py) and what parquet_to_chromadb.py
+# writes, or the restore lands in a collection nothing reads.
+CHROMADB_COLLECTION = os.environ.get("CHROMADB_COLLECTION", "pubmed_abstract")
 CHROMA_LOCAL_PATH = os.environ.get("CHROMA_LOCAL_PATH")  # when set, use embedded client
 
 BACKUP_ENABLED = os.environ.get("ENABLE_GCS_BACKUP", "true").lower() in {"1", "true", "yes"}

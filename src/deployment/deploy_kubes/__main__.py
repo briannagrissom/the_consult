@@ -21,10 +21,10 @@ setupSSL = False
 network, subnet, router, nat = create_network(region, app_name)
 
 # Create & Setup Cluster
-cluster, namespace, k8s_provider, ksa_name = create_cluster(project, region, network, subnet, app_name)
+cluster, namespace, k8s_provider, ksa_name, api_ksa = create_cluster(project, region, network, subnet, app_name)
 
 # Setup Containers
-frontend_service, api_service = setup_containers(project, namespace, k8s_provider, ksa_name, app_name)
+frontend_service, api_service = setup_containers(project, namespace, k8s_provider, ksa_name, app_name, api_ksa)
 
 # Setup Load Balancer
 if setupSSL:

@@ -1,16 +1,38 @@
 import pulumi
 import pulumi_gcp as gcp
-from pulumi import ResourceOptions  # Output
+from pulumi import Output, ResourceOptions
 import pulumi_kubernetes as k8s
 
 # import pulumi_command as command
 import yaml
 
 base_config = pulumi.Config()
-service_account_email = pulumi.Config("security").get("gcp_service_account_email")
-ksa_service_account_email = pulumi.Config("security").get("gcp_ksa_service_account_email")
+
+
+def _clean(value):
+    """Strip surrounding whitespace off a config string.
+
+    `pulumi config set` stores whatever it is given, and a value pasted at its
+    interactive `value:` prompt easily picks up a trailing space. GCP then rejects
+    the principal with a confusing "Verify if principal exists and is valid" 400
+    that gives no hint whitespace is involved.
+    """
+    return value.strip() if isinstance(value, str) else value
+
+
+service_account_email = _clean(pulumi.Config("security").get("gcp_service_account_email"))
+ksa_service_account_email = _clean(pulumi.Config("security").get("gcp_ksa_service_account_email"))
 initial_node_count = 1
-machine_type = "n2d-standard-2"
+# Overridable so a zonal capacity shortage is a config change, not a code edit:
+#   pulumi config set compute:machine_type e2-standard-4
+#   pulumi config set compute:node_zone   us-central1-f
+# e2-standard-2 (2 vCPU / 8 GB, same shape as the n2d it replaced) is the most
+# widely stocked family; n2d-standard-2 in us-central1-a failed with GCE_STOCKOUT.
+# Keep node_zone to ONE zone: this is a regional cluster, so node counts are
+# per-zone and listing three zones would triple the node count and the bill.
+compute_config = pulumi.Config("compute")
+machine_type = _clean(compute_config.get("machine_type")) or "e2-standard-2"
+node_zone = _clean(compute_config.get("node_zone")) or "us-central1-c"
 machine_disk_size = 50
 
 
@@ -67,7 +89,7 @@ def create_cluster(project, region, network, subnet, app_name):
             auto_repair=True,  # Automatically repair unhealthy nodes
             auto_upgrade=True,  # Automatically upgrade to new GKE versions
         ),
-        node_locations=["us-central1-a"],
+        node_locations=[node_zone],
     )
 
     # -----------------------------
@@ -146,43 +168,46 @@ def create_cluster(project, region, network, subnet, app_name):
     # This allows pods to securely access GCP services without embedding credentials
     ksa_name = "api-ksa"
 
-    # api_ksa = k8s.core.v1.ServiceAccount(
-    #     "api-ksa",
-    #     metadata=k8s.meta.v1.ObjectMetaArgs(
-    #         name=ksa_name,
-    #         namespace=namespace.metadata["name"],
-    #         annotations={
-    #             # Critical: map KSA → GSA (Google Service Account) for Workload Identity
-    #             "iam.gke.io/gcp-service-account": f"{ksa_service_account_email}",
-    #         },
-    #     ),
-    #     opts=ResourceOptions(provider=k8s_provider),
-    # )
+    # This must actually exist: the api Deployment and the vector-db-loader Job both set
+    # service_account_name=ksa_name, and Kubernetes refuses to create a pod whose service
+    # account is missing ("error looking up service account ...: serviceaccount not found"),
+    # which leaves the Job stuck in FailedCreate forever.
+    api_ksa = k8s.core.v1.ServiceAccount(
+        "api-ksa",
+        metadata=k8s.meta.v1.ObjectMetaArgs(
+            name=ksa_name,
+            namespace=namespace.metadata["name"],
+            annotations={
+                # Critical: map KSA -> GSA (Google Service Account) for Workload Identity
+                "iam.gke.io/gcp-service-account": ksa_service_account_email,
+            },
+        ),
+        opts=ResourceOptions(provider=k8s_provider, depends_on=[namespace]),
+    )
 
     # --- Bind KSA identity to the GSA (Workload Identity user) ---
-    # This IAM binding allows the KSA to impersonate the GSA and use its GCP permissions
+    # Without this the KSA exists but cannot impersonate the GSA, so pods get no GCP
+    # credentials and the loader cannot read the backup out of GCS.
     # member format: serviceAccount:<PROJECT_ID>.svc.id.goog[<namespace>/<ksa_name>]
-    # project_id = gcp.config.project
-    # wi_member = Output.concat(  # Build the Workload Identity member string
-    #     "serviceAccount:",
-    #     project_id,
-    #     ".svc.id.goog[",
-    #     namespace.metadata["name"],
-    #     "/",
-    #     ksa_name,
-    #     "]",
-    # )
+    project_id = gcp.config.project
+    wi_member = Output.concat(
+        "serviceAccount:",
+        project_id,
+        ".svc.id.goog[",
+        namespace.metadata["name"],
+        "/",
+        ksa_name,
+        "]",
+    )
+    gsa_full_id = Output.concat("projects/", project_id, "/serviceAccounts/", ksa_service_account_email)
 
-    # Construct the full GSA resource ID
-    # gsa_full_id = pulumi.Output.concat("projects/", project_id, "/serviceAccounts/", f"{ksa_service_account_email}")
-
-    # Grant the KSA permission to act as the GSA
-    # gsa_wi_binding_strict = gcp.serviceaccount.IAMMember(
-    #     "api-gsa-wi-user",
-    #     service_account_id=gsa_full_id,
-    #     role="roles/iam.workloadIdentityUser",  # Required role for Workload Identity
-    #     member=wi_member,  # The KSA that will impersonate this GSA
-    # )
+    gcp.serviceaccount.IAMMember(
+        "api-gsa-wi-user",
+        service_account_id=gsa_full_id,
+        role="roles/iam.workloadIdentityUser",
+        member=wi_member,
+        opts=ResourceOptions(depends_on=[api_ksa]),
+    )
 
     # Connect to the cluster
     # connect_k8s_command = command.local.Command(
@@ -192,4 +217,4 @@ def create_cluster(project, region, network, subnet, app_name):
     #     ),
     # )
 
-    return cluster, namespace, k8s_provider, ksa_name
+    return cluster, namespace, k8s_provider, ksa_name, api_ksa
