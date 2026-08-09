@@ -10,7 +10,7 @@ answers carry citations, study details, and configurable evidence filters.
 
 ## Architecture
 
-![Architecture: PubMed ingestion into a ChromaDB vector index, and a FastAPI service that answers questions with OpenAI via LangChain](screenshots/consult-img.pngconsult-img.png)
+![Architecture: PubMed ingestion into a ChromaDB vector index, and a FastAPI service that answers questions with OpenAI via LangChain](screenshots/consult-img.png)
 
 Two halves. **Offline**, the data pipeline pulls PubMed baseline XML, filters and flags it,
 and lands Parquet in GCS; ingestion then chunks, embeds, and indexes those abstracts into
