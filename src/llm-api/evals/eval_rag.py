@@ -14,9 +14,19 @@ ContextRecall, AnswerCorrectness) additionally compare against `expected`, a gro
 correct answer. Every row below has expected=None (skipped by those three scorers) --
 fill in real, clinician-reviewed answers before trusting their scores. Don't invent
 medical ground truth here.
+
+The model now picks between two tools (search_pubmed, get_full_abstract) on every turn, so
+rag_task() runs the same tool-calling loop as api.server.ask_llm() (rather than pre-fetching
+context and doing a single non-tool-calling invoke) and records the full tool-call trajectory.
+The deterministic scorers below (used_search_pubmed, tool_call_efficiency,
+valid_full_abstract_pmid, citation_grounding, evidence_cited) grade *that* trajectory against
+the system prompt's tool-use rules -- did it search at all, search redundantly, reference a
+PMID it never actually saw, cite a number that doesn't exist, or retrieve evidence and then
+ignore it. They're plain Python, not LLM judges, so they're cheap and deterministic.
 """
 
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -54,8 +64,16 @@ from braintrust import Eval  # noqa: E402
 from langchain_core.messages import HumanMessage, SystemMessage  # noqa: E402
 
 from api.prompt import SYSTEM_PROMPT  # noqa: E402
-from api.rag_module import build_context_and_citations  # noqa: E402
-from api.server import AskRequest, _build_first_turn_message, get_llm_client  # noqa: E402
+from api.server import (  # noqa: E402
+    TOOL_MAX_ITERATIONS,
+    AskRequest,
+    Citation,
+    _build_first_turn_message,
+    _run_tool_calls,
+    get_full_abstract,
+    get_llm_client,
+    search_pubmed,
+)
 
 DATASET = [
     {
@@ -129,12 +147,36 @@ DATASET = [
 
 
 def rag_task(question: str) -> dict:
-    """Runs the real retrieve-then-generate pipeline used by /api/ask's first turn."""
+    """Runs the same tool-calling loop as /api/ask's ask_llm(): the model decides for itself
+    whether, and how many times, to call search_pubmed and/or get_full_abstract before giving a
+    final answer. Returns the answer plus the full tool-call trajectory and citations retrieved,
+    so scorers can grade tool usage in addition to the final text."""
     payload = AskRequest(question=question)
-    context_block, _citations = build_context_and_citations(question, None)
-    message = _build_first_turn_message(payload, context_block=context_block)
-    response = get_llm_client().invoke([SystemMessage(SYSTEM_PROMPT), HumanMessage(message)])
-    return {"answer": response.content, "context": context_block}
+    messages = [SystemMessage(SYSTEM_PROMPT), HumanMessage(_build_first_turn_message(payload))]
+    turn_citations: list[Citation] = []
+    tool_calls: list[dict] = []
+    tool_results: list[str] = []
+    llm = get_llm_client().bind_tools([search_pubmed, get_full_abstract])
+
+    response = None
+    for _ in range(TOOL_MAX_ITERATIONS):
+        response = llm.invoke(messages)
+        messages = messages + [response]
+        if not response.tool_calls:
+            break
+        tool_calls.extend({"name": call["name"], "args": call["args"]} for call in response.tool_calls)
+        tool_messages = _run_tool_calls(response.tool_calls, None, turn_citations)
+        tool_results.extend(tm.content for tm in tool_messages)
+        messages = messages + tool_messages
+    else:  # loop exhausted TOOL_MAX_ITERATIONS without a final answer -- same fallback as ask_llm
+        response = get_llm_client().invoke(messages)
+
+    return {
+        "answer": response.content,
+        "context": "\n\n".join(tool_results) or "No evidence retrieved.",
+        "tool_calls": tool_calls,
+        "citations": [c.model_dump() for c in turn_citations],
+    }
 
 
 def _make_scorer(scorer_cls, name: str, needs_expected: bool = False):
@@ -174,6 +216,77 @@ context_recall = _make_scorer(ContextRecall, "ContextRecall", needs_expected=Tru
 answer_correctness = _make_scorer(AnswerCorrectness, "AnswerCorrectness", needs_expected=True)
 
 
+# --- Tool-call scorers ---------------------------------------------------------------------
+# Deterministic (no LLM judge), grading the tool-call trajectory rag_task() records rather than
+# just the final answer text. Each returns None (skipped, not scored 0) when its precondition
+# doesn't apply to a given row, e.g. no get_full_abstract call was made this turn.
+
+CITATION_PATTERN = re.compile(r"\[(\d+)\]")
+
+
+def used_search_pubmed(input, output, expected=None):
+    # The system prompt requires calling search_pubmed on *every* medical/clinical question,
+    # even ones the model is confident it already knows -- this app exists to ground answers in
+    # retrieved evidence rather than parametric knowledge. Flags turns that skipped it entirely.
+    called = any(call["name"] == "search_pubmed" for call in output["tool_calls"])
+    return Score(name="UsedSearchPubmed", score=1.0 if called else 0.0, metadata={"tool_calls": output["tool_calls"]})
+
+
+def tool_call_efficiency(input, output, expected=None):
+    # Repeating an identical (case/whitespace-insensitive) search_pubmed query in the same turn
+    # burns the tool-call budget without surfacing new evidence. Skipped (not 0) when
+    # search_pubmed was never called -- used_search_pubmed already covers that failure mode.
+    queries = [call["args"].get("query", "") for call in output["tool_calls"] if call["name"] == "search_pubmed"]
+    if not queries:
+        return None
+    normalized = [q.strip().lower() for q in queries]
+    score = len(set(normalized)) / len(normalized)
+    return Score(name="ToolCallEfficiency", score=score, metadata={"queries": queries})
+
+
+def valid_full_abstract_pmid(input, output, expected=None):
+    # Per the system prompt, get_full_abstract should only be called on a PMID "you've already
+    # seen" in this turn's search_pubmed results -- not one invented or misremembered. Skipped
+    # when get_full_abstract wasn't called this turn (the current single-turn DATASET rarely
+    # triggers this; it matters once follow-up rows are added).
+    calls = [call for call in output["tool_calls"] if call["name"] == "get_full_abstract"]
+    if not calls:
+        return None
+    known_pmids = {c.get("pmid") for c in output["citations"] if c.get("pmid")}
+    valid = sum(1 for call in calls if call["args"].get("pmid") in known_pmids)
+    return Score(
+        name="ValidFullAbstractPmid",
+        score=valid / len(calls),
+        metadata={"calls": calls, "known_pmids": list(known_pmids)},
+    )
+
+
+def citation_grounding(input, output, expected=None):
+    # Every bracketed number in the answer (e.g. "[3]") must refer to one of the results
+    # actually returned this turn -- the system prompt's "never invent citations" rule, applied
+    # to the citation *numbers* specifically. Skipped when the answer cites nothing.
+    cited = [int(n) for n in CITATION_PATTERN.findall(output["answer"])]
+    if not cited:
+        return None
+    num_citations = len(output["citations"])
+    valid = sum(1 for n in cited if 1 <= n <= num_citations)
+    return Score(
+        name="CitationGrounding",
+        score=valid / len(cited),
+        metadata={"cited": cited, "num_citations": num_citations},
+    )
+
+
+def evidence_cited(input, output, expected=None):
+    # search_pubmed returning results is only useful if the answer actually cites them. Scores 0
+    # for a turn that retrieved evidence but cited none of it -- a "searched but ignored it"
+    # failure distinct from skipping the search altogether. Skipped when nothing was retrieved.
+    if not output["citations"]:
+        return None
+    cited = bool(CITATION_PATTERN.search(output["answer"]))
+    return Score(name="EvidenceCited", score=1.0 if cited else 0.0)
+
+
 Eval(
     BRAINTRUST_PROJECT,
     data=lambda: DATASET,
@@ -185,5 +298,10 @@ Eval(
         context_precision,
         context_recall,
         answer_correctness,
+        used_search_pubmed,
+        tool_call_efficiency,
+        valid_full_abstract_pmid,
+        citation_grounding,
+        evidence_cited,
     ],
 )
