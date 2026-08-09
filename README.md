@@ -4,6 +4,10 @@ Generative AI assistant that delivers referenced, clinically aware answers for c
 and researchers. It pairs OpenAI (via LangChain) with RAG over PubMed-derived content, so
 answers carry citations, study details, and configurable evidence filters.
 
+## Demo
+
+<video src="https://github.com/user-attachments/assets/2ef237b4-b233-47af-8b5b-3c323535b66e" controls width="600"></video>
+
 ## What's inside
 
 | Path | What it is |
