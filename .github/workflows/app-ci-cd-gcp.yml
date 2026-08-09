@@ -32,10 +32,16 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - name: Build Deployment Container 
+      - name: Build Deployment Container
         run: |-
           cd ${{ github.workspace }}/src/deployment/
           docker build -t consult-app-deployment -f Dockerfile .
+      - name: Expose GitHub Actions cache credentials
+        # deploy_images' docker_build.Image resources cache layers via GHA (type=gha), so an
+        # app-code-only change reuses the dependency-install layer instead of reinstalling on
+        # every deploy. The buildx GHA cache backend needs ACTIONS_CACHE_URL/ACTIONS_RUNTIME_TOKEN,
+        # which aren't exposed to steps by default -- this action surfaces them as env vars.
+        uses: crazy-max/ghaction-github-runtime@v3
       - name: Run Deploy App
         run: |-
           docker run --rm --name consult-app-deployment \
@@ -55,6 +61,9 @@ jobs:
             -e GCP_ZONE=us-central1-a \
             -e GCP_REGION=us-central1 \
             -e PULUMI_BUCKET=gs://ac215-471916-pulumi-state-bucket \
+            -e ACTIONS_CACHE_URL \
+            -e ACTIONS_RUNTIME_TOKEN \
+            -e ACTIONS_RUNTIME_URL \
             consult-app-deployment bash -lc "
               set -e
               cd /workspace/src/deployment/deploy_images

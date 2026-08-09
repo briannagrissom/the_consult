@@ -5,3 +5,6 @@ config:
   security:gcp_service_account_email: consult-app-local@ac215-471916.iam.gserviceaccount.com
   security:gcp_ksa_service_account_email: consult-app-local@ac215-471916.iam.gserviceaccount.com
   storage:bucket_name: ac215-project-data
+  braintrust:api_key:
+    secure: v1:iw9uBJc0Tcd8iqcw:AoHWStwKeBE+5rYSDaz+X86/53DIidLD8p7tvaEMoIA7CZ6mER23Dtr78Xp9cE4YS+YomBOLlW5iL2GyemPAx1X5Rg==
+  braintrust:project: My Project

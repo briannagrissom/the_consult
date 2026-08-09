@@ -9,6 +9,7 @@ import pulumi_kubernetes as k8s
 security_config = pulumi.Config("security")
 storage_config = pulumi.Config("storage")
 
+
 def _clean(value):
     """Strip surrounding whitespace off a config string -- see create_cluster._clean."""
     return value.strip() if isinstance(value, str) else value
@@ -24,6 +25,12 @@ gcs_bucket = _clean(storage_config.get("bucket_name")) or "ac215-project-data"
 # Note: the vector-db loader job does NOT need this -- jsonl_to_chromadb.py replays
 # pre-computed embeddings from the JSONL backup rather than calling OpenAI.
 openai_api_key = pulumi.Config("openai").get_secret("api_key") or os.environ.get("OPENAI_API_KEY")
+
+# Braintrust tracing is optional -- api.server._init_tracing() already no-ops cleanly when
+# BRAINTRUST_API_KEY is unset, so unlike OPENAI_API_KEY there's nothing to warn about if
+# this is missing. Same config/env fallback pattern as above.
+braintrust_api_key = pulumi.Config("braintrust").get_secret("api_key") or os.environ.get("BRAINTRUST_API_KEY")
+braintrust_project = pulumi.Config("braintrust").get("project") or os.environ.get("BRAINTRUST_PROJECT")
 
 
 def setup_containers(project, namespace, k8s_provider, ksa_name, app_name, api_ksa=None):
@@ -394,6 +401,33 @@ def setup_containers(project, namespace, k8s_provider, ksa_name, app_name, api_k
             "The API will deploy but /api/ask will fail until the key is supplied -- "
             "see Step 7 in src/deployment/README.md."
         )
+
+    # Wire BRAINTRUST_API_KEY in the same way, when available. Unlike OPENAI_API_KEY this
+    # is optional -- api.server._init_tracing() no-ops cleanly without it, so no warning here.
+    if braintrust_api_key:
+        braintrust_secret = k8s.core.v1.Secret(
+            "braintrust-credentials",
+            metadata=k8s.meta.v1.ObjectMetaArgs(
+                name="braintrust-credentials",
+                namespace=namespace.metadata.name,
+            ),
+            string_data={"BRAINTRUST_API_KEY": braintrust_api_key},
+            opts=pulumi.ResourceOptions(provider=k8s_provider, depends_on=[namespace]),
+        )
+        api_env.append(
+            k8s.core.v1.EnvVarArgs(
+                name="BRAINTRUST_API_KEY",
+                value_from=k8s.core.v1.EnvVarSourceArgs(
+                    secret_key_ref=k8s.core.v1.SecretKeySelectorArgs(
+                        name=braintrust_secret.metadata.name,
+                        key="BRAINTRUST_API_KEY",
+                    )
+                ),
+            )
+        )
+        api_extra_deps.append(braintrust_secret)
+        if braintrust_project:
+            api_env.append(k8s.core.v1.EnvVarArgs(name="BRAINTRUST_PROJECT", value=braintrust_project))
 
     # api_service Deployment
     api_deployment = k8s.apps.v1.Deployment(

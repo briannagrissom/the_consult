@@ -304,6 +304,28 @@ kubectl get pods -n $NS -w
 > export a non-empty `PULUMI_CONFIG_PASSPHRASE` before running the script and keep
 > it somewhere durable — losing it makes the stack unreadable.
 
+## Step 7b — Braintrust tracing (optional)
+
+Same pattern as Step 7, but optional: `api.server._init_tracing()` no-ops cleanly
+without a key, so there's nothing to fix if you skip this. The key comes from,
+in order of preference:
+
+1. `pulumi config set --secret braintrust:api_key sk-...` on the `deploy_kubes` stack
+2. the `BRAINTRUST_API_KEY` environment variable, forwarded the same way as
+   `OPENAI_API_KEY`
+
+`BRAINTRUST_PROJECT` (`pulumi config set braintrust:project "..."` or the env var
+of the same name) is optional too — `api.server.py` defaults to `"The Consult"`
+if it's never set anywhere.
+
+```bash
+NS=$(pulumi stack output namespace)
+kubectl get secret braintrust-credentials -n $NS
+```
+
+If that Secret doesn't exist, tracing is simply off — no warning is logged for
+this one, unlike Step 7's OpenAI key.
+
 ## Step 8 — Load data into the vector database
 
 The cluster runs an empty ChromaDB. Populate it with the `consult-vector-db`
