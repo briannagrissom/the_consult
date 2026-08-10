@@ -8,12 +8,23 @@ so it costs actual API calls) from src/llm-api with:
 
 Requires OPENAI_API_KEY and BRAINTRUST_API_KEY to be set.
 
-Reference-free scorers (Faithfulness, ContextRelevancy, AnswerRelevancy) only need
-`input` -- they're safe to run right away. Reference-based scorers (ContextPrecision,
-ContextRecall, AnswerCorrectness) additionally compare against `expected`, a ground-truth
-correct answer. Every row below has expected=None (skipped by those three scorers) --
-fill in real, clinician-reviewed answers before trusting their scores. Don't invent
-medical ground truth here.
+Only reference-free scorers run here: Faithfulness, ContextRelevancy and AnswerRelevancy
+grade the answer against the retrieved context, needing no ground truth.
+
+The reference-based scorers (ContextPrecision, ContextRecall, AnswerCorrectness) were
+removed deliberately. They compare against `expected`, and a trustworthy `expected` for
+these questions would have to be written from the indexed corpus by a clinician. Scoring
+against guideline-level prose the corpus never contained measures the gap between the
+reference and the corpus, not retrieval quality -- ContextRecall read a flat 0.00 across
+every question for exactly that reason. Two further caveats made them worth less than
+they cost: autoevals collapses `context` into a single string, so its ContextPrecision
+emits one binary verdict rather than precision@k (it scored 1.00 everywhere), and each
+scorer is an extra LLM grading call per row. Restore them only alongside real,
+clinician-reviewed answers grounded in the corpus.
+
+DATASET rows therefore carry only `input`. The previous `expected` answers were removed
+rather than left unused: they were model-written, not clinician-reviewed, and leaving
+authoritative-looking prose in the file invites someone to score against it.
 
 The model now picks between two tools (search_pubmed, get_full_abstract) on every turn, so
 rag_task() runs the same tool-calling loop as api.server.ask_llm() (rather than pre-fetching
@@ -52,10 +63,7 @@ SCORER_MODEL = os.environ.get("EVAL_SCORER_MODEL", "gpt-5.4-mini")
 BRAINTRUST_PROJECT = os.environ.get("BRAINTRUST_PROJECT", "The Consult")
 
 from autoevals import (  # noqa: E402
-    AnswerCorrectness,
     AnswerRelevancy,
-    ContextPrecision,
-    ContextRecall,
     ContextRelevancy,
     Faithfulness,
     Score,
@@ -69,6 +77,7 @@ from api.server import (  # noqa: E402
     AskRequest,
     Citation,
     _build_first_turn_message,
+    _format_citations_block,
     _run_tool_calls,
     get_full_abstract,
     get_llm_client,
@@ -76,73 +85,9 @@ from api.server import (  # noqa: E402
 )
 
 DATASET = [
-    {
-        "input": "What are common risk factors for type 2 diabetes?",
-        "expected": (
-            "The primary risk factors for type 2 diabetes mellitus (T2DM) include a combination of genetic "
-            "predisposition, components of metabolic syndrome, and lifestyle variables. According to American "
-            "Diabetes Association (ADA) guidelines, targeted screening is indicated for asymptomatic adults with "
-            "overweight or obesity (BMI ≥ 25 kg/m², or ≥ 23 kg/m² in Asian American populations) who "
-            "exhibit additional cardiometabolic risk markers. These clinical markers encompass hypertension (blood "
-            "pressure ≥ 130/80 mmHg or on active therapy), dyslipidemia (HDL cholesterol < 35 mg/dL and/or "
-            "triglycerides > 250 mg/dL), a history of cardiovascular disease, or clinical conditions associated "
-            "with severe insulin resistance, such as polycystic ovary syndrome (PCOS) and acanthosis nigricans. "
-            "Demographic and historical variables also heavily influence risk stratification, including having a "
-            "first-degree relative with diabetes or belonging to a high-risk ethnic demographic (e.g., African "
-            "American, Hispanic/Latino, Native American, or Pacific Islander). Furthermore, a prior diagnosis of "
-            "gestational diabetes mellitus (GDM) or current evidence of prediabetes (A1C 5.7–6.4%, fasting "
-            "plasma glucose 100–125 mg/dL, or a 2-hour 75-g OGTT of 140–199 mg/dL) necessitates heightened "
-            "clinical surveillance due to a significantly accelerated rate of progression to overt T2DM. Key "
-            "Takeaway: T2DM risk assessment relies on identifying patients with elevated BMI alongside established "
-            "metabolic, genetic, and demographic comorbidities to guide appropriate diagnostic screening."
-        ),
-    },
-    {
-        "input": "How do you treat eczema?",
-        "expected": (
-            "The management of atopic dermatitis (eczema) employs a stepwise clinical approach that prioritizes "
-            "epidermal barrier restoration alongside targeted topical or systemic pharmacotherapy based on disease "
-            "severity. Standard-of-care foundational therapy requires the daily application of thick, "
-            "ceramide-containing emollients and the strict avoidance of exacerbating triggers. For acute, "
-            "mild-to-moderate flares, topical corticosteroids (TCS) remain the first-line intervention; clinicians "
-            "typically utilize low-potency agents (e.g., hydrocortisone 2.5%) for the face and intertriginous "
-            "folds, reserving medium-to-high potency formulations (e.g., triamcinolone 0.1% or betamethasone) for "
-            "lichenified plaques on the trunk and extremities. Topical calcineurin inhibitors (e.g., tacrolimus "
-            "0.1% ointment) or PDE4 inhibitors (e.g., crisaborole) are frequently employed as steroid-sparing "
-            "alternatives to mitigate cutaneous atrophy during proactive maintenance or when treating sensitive "
-            "regions. In moderate-to-severe or refractory cases, systemic immunomodulation is indicated to achieve "
-            "adequate disease control. Biologic agents targeting the Type 2 inflammatory cascade, notably "
-            "dupilumab (an IL-4Rα antagonist), have established a robust efficacy and long-term safety "
-            "profile, often yielding a >75% improvement in the Eczema Area and Severity Index (EASI-75). "
-            "Alternatively, oral Janus kinase (JAK) inhibitors (e.g., upadacitinib, abrocitinib) provide rapid and "
-            "profound symptomatic relief, though patient selection demands careful risk stratification regarding "
-            "venous thromboembolism and major adverse cardiovascular events (MACE). Key Takeaway: Eczema treatment "
-            "requires continuous barrier repair, complemented by topical corticosteroids or calcineurin inhibitors "
-            "for localized flares, and advanced systemic agents like biologics or JAK inhibitors for severe, "
-            "refractory disease."
-        ),
-    },
-    {
-        "input": "What causes migraines?",
-        "expected": (
-            "Migraine is a complex neurobiological disorder primarily driven by cortical spreading depression and "
-            "the subsequent activation of the trigeminovascular system. The prevailing pathophysiologic model "
-            "centers on the release of vasoactive neuropeptides, most notably calcitonin gene-related peptide "
-            "(CGRP), from trigeminal sensory nerve terminals. This release precipitates sterile neurogenic "
-            "inflammation, marked vasodilation of meningeal blood vessels, and progressive sensitization of "
-            "central and peripheral nociceptive pathways. Cortical spreading depression—a slow-propagating "
-            "wave of neuronal and glial depolarization—is widely recognized as the physiological correlate of "
-            "migraine aura and a key trigger for initiating this cascading trigeminal activation. Underlying this "
-            "neurovascular vulnerability is a robust genetic predisposition, which is largely polygenic, though "
-            "specific monogenic channelopathies (e.g., CACNA1A or ATP1A2 mutations) are observed in familial "
-            "hemiplegic variants. In these susceptible patients, acute attacks are frequently precipitated by "
-            "internal or external triggers, such as estrogen withdrawal, sleep dysregulation, or distinct "
-            "environmental stressors, which collectively lower the threshold for trigeminovascular firing. Key "
-            "Takeaway: Migraine pathogenesis is rooted in genetic neurovascular excitability and CGRP-mediated "
-            "trigeminal inflammation, mechanisms that now serve as the primary targets for modern migraine-"
-            "specific biologic and small-molecule pharmacotherapies."
-        ),
-    },
+    {"input": "What are common risk factors for type 2 diabetes?"},
+    {"input": "How do you treat eczema?"},
+    {"input": "What causes migraines?"},
 ]
 
 
@@ -155,7 +100,7 @@ def rag_task(question: str) -> dict:
     messages = [SystemMessage(SYSTEM_PROMPT), HumanMessage(_build_first_turn_message(payload))]
     turn_citations: list[Citation] = []
     tool_calls: list[dict] = []
-    tool_results: list[str] = []
+    full_abstracts: list[str] = []
     llm = get_llm_client().bind_tools([search_pubmed, get_full_abstract])
 
     response = None
@@ -166,29 +111,42 @@ def rag_task(question: str) -> dict:
             break
         tool_calls.extend({"name": call["name"], "args": call["args"]} for call in response.tool_calls)
         tool_messages = _run_tool_calls(response.tool_calls, None, turn_citations)
-        tool_results.extend(tm.content for tm in tool_messages)
+        # Keep successful get_full_abstract text: it is real evidence the model saw, but unlike
+        # search results it never lands in turn_citations, so it has to be collected here.
+        for call, message in zip(response.tool_calls, tool_messages):
+            if call["name"] == "get_full_abstract" and not message.content.startswith("No stored abstract"):
+                full_abstracts.append(message.content)
         messages = messages + tool_messages
     else:  # loop exhausted TOOL_MAX_ITERATIONS without a final answer -- same fallback as ask_llm
         response = get_llm_client().invoke(messages)
 
+    # Score against the evidence itself, not the raw tool transcript. _execute_search also returns
+    # control strings ("No relevant PubMed results were found...", "This turn's citation budget is
+    # already used up...") that are instructions to the model, not retrieved context -- feeding
+    # them to ContextRelevancy/Faithfulness dilutes the context with text no chunk ever contained.
+    # turn_citations is the authoritative list of what was actually retrieved this turn.
+    evidence: list[str] = []
+    if turn_citations:
+        evidence.append(_format_citations_block([c.model_dump() for c in turn_citations]))
+    evidence.extend(full_abstracts)
+
     return {
         "answer": response.content,
-        "context": "\n\n".join(tool_results) or "No evidence retrieved.",
+        "context": "\n\n".join(evidence) or "No evidence retrieved.",
         "tool_calls": tool_calls,
         "citations": [c.model_dump() for c in turn_citations],
     }
 
 
-def _make_scorer(scorer_cls, name: str, needs_expected: bool = False):
-    """Adapts an autoevals RAG scorer (which wants input/output/context[/expected]) to
-    Eval()'s (input, output, expected) scorer signature, pulling answer/context out of
-    the dict rag_task() returns."""
+def _make_scorer(scorer_cls, name: str):
+    """Adapts an autoevals RAG scorer (which wants input/output/context) to Eval()'s
+    (input, output, expected) scorer signature, pulling answer/context out of the dict
+    rag_task() returns. Only reference-free scorers are wired up -- see the module
+    docstring for why the reference-based ones were dropped."""
 
     def scorer(input, output, expected=None):
-        if needs_expected and not expected:
-            return None  # nothing to compare against yet -- skip rather than error
         result = scorer_cls(model=SCORER_MODEL).eval(
-            input=input, output=output["answer"], context=output["context"], expected=expected
+            input=input, output=output["answer"], context=output["context"]
         )
         return Score(name=name, score=result.score, metadata=result.metadata)
 
@@ -211,9 +169,6 @@ def faithfulness(input, output, expected=None):
 
 context_relevancy = _make_scorer(ContextRelevancy, "ContextRelevancy")
 answer_relevancy = _make_scorer(AnswerRelevancy, "AnswerRelevancy")
-context_precision = _make_scorer(ContextPrecision, "ContextPrecision", needs_expected=True)
-context_recall = _make_scorer(ContextRecall, "ContextRecall", needs_expected=True)
-answer_correctness = _make_scorer(AnswerCorrectness, "AnswerCorrectness", needs_expected=True)
 
 
 # --- Tool-call scorers ---------------------------------------------------------------------
@@ -295,9 +250,6 @@ Eval(
         faithfulness,
         context_relevancy,
         answer_relevancy,
-        context_precision,
-        context_recall,
-        answer_correctness,
         used_search_pubmed,
         tool_call_efficiency,
         valid_full_abstract_pmid,
